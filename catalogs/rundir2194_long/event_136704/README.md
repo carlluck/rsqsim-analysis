@@ -24,12 +24,26 @@
 ## Spectra Plots
 ## Site USC
 *34.0192, -118.286*
+
+| Distance | Actual RSQSim Surface | BBP Equivalent Planar Surface | GMPE Surface |
+|-----|-----|-----|-----|
+| Horizontal | 30.35 km | 59.14 km | 60.07 km |
+| 3-D | 31.04 km | 59.14 km | 60.07 km |
+*NOTE: RSQSim ruptures sometimes have elements corupture on faults some distance away, which may cause discrepancies in the table above. Consult the rupture map plot.*
+
 ### Fourrier Amplitude Spectra
 ![USC FAS Plot](resources/fas_spectra_USC.png)
 ### RotD50 Spectra
 ![USC RotD50 Plot](resources/rotd50_spectra_USC.png)
 ## Site SBSM
 *34.064987, -117.29201*
+
+| Distance | Actual RSQSim Surface | BBP Equivalent Planar Surface | GMPE Surface |
+|-----|-----|-----|-----|
+| Horizontal | 6.95 km | 31.03 km | 31.15 km |
+| 3-D | 7.45 km | 31.03 km | 31.15 km |
+*NOTE: RSQSim ruptures sometimes have elements corupture on faults some distance away, which may cause discrepancies in the table above. Consult the rupture map plot.*
+
 ### Fourrier Amplitude Spectra
 ![SBSM FAS Plot](resources/fas_spectra_SBSM.png)
 ### RotD50 Spectra
