@@ -8,6 +8,17 @@
 | Slim Velocity | 1.0 m/s |
 | Average Element Area | 0.23 km^2 |
 
+## Table Of Contents
+* [Rupture Plots](#rupture-plots)
+  * [Slip/Time Plot](#slip/time-plot)
+  * [Map Plot](#map-plot)
+* [Spectra Plots](#spectra-plots)
+* [Site USC](#site-usc)
+  * [USC Fourrier Amplitude Spectra](#usc-fourrier-amplitude-spectra)
+  * [USC RotD50 Spectra](#usc-rotd50-spectra)
+* [Site SBSM](#site-sbsm)
+  * [SBSM Fourrier Amplitude Spectra](#sbsm-fourrier-amplitude-spectra)
+  * [SBSM RotD50 Spectra](#sbsm-rotd50-spectra)
 ## Rupture Plots
 **Legend**
 * Colored, Filled Triangles: RSQSim Elements
@@ -30,10 +41,10 @@
 | Horizontal | 60.07 km | 56.61 km | 60.07 km |
 | 3-D | 60.07 km | 56.61 km | 60.07 km |
 
-*NOTE: RSQSim ruptures sometimes have elements corupture on faults some distance away, which may cause discrepancies in the table above. Consult the rupture map plot.*
-### Fourrier Amplitude Spectra
+*NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.*
+### USC Fourrier Amplitude Spectra
 ![USC FAS Plot](resources/fas_spectra_USC.png)
-### RotD50 Spectra
+### USC RotD50 Spectra
 ![USC RotD50 Plot](resources/rotd50_spectra_USC.png)
 ## Site SBSM
 *34.064987, -117.29201*
@@ -43,8 +54,8 @@
 | Horizontal | 17.50 km | 20.86 km | 20.49 km |
 | 3-D | 20.49 km | 20.86 km | 20.49 km |
 
-*NOTE: RSQSim ruptures sometimes have elements corupture on faults some distance away, which may cause discrepancies in the table above. Consult the rupture map plot.*
-### Fourrier Amplitude Spectra
+*NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.*
+### SBSM Fourrier Amplitude Spectra
 ![SBSM FAS Plot](resources/fas_spectra_SBSM.png)
-### RotD50 Spectra
+### SBSM RotD50 Spectra
 ![SBSM RotD50 Plot](resources/rotd50_spectra_SBSM.png)

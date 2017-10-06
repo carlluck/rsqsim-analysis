@@ -1,6 +1,6 @@
 # Event 136704, M7.32
 
-| Catalog | BRUCE 2194 Long |
+| Catalog | Bruce 2194 Long |
 |-----|-----|
 | Author | Bruce Shaw (extended by Jacqui Gilchrist), 2017/08/31 |
 | Description | Catalog with decent large event scaling and distribution of sizes while not using any of the enhanced frictional weakening terms. |
@@ -8,6 +8,17 @@
 | Slim Velocity | 1.0 m/s |
 | Average Element Area | 1.34 km^2 |
 
+## Table Of Contents
+* [Rupture Plots](#rupture-plots)
+  * [Slip/Time Plot](#slip/time-plot)
+  * [Map Plot](#map-plot)
+* [Spectra Plots](#spectra-plots)
+* [Site USC](#site-usc)
+  * [USC Fourrier Amplitude Spectra](#usc-fourrier-amplitude-spectra)
+  * [USC RotD50 Spectra](#usc-rotd50-spectra)
+* [Site SBSM](#site-sbsm)
+  * [SBSM Fourrier Amplitude Spectra](#sbsm-fourrier-amplitude-spectra)
+  * [SBSM RotD50 Spectra](#sbsm-rotd50-spectra)
 ## Rupture Plots
 **Legend**
 * Colored, Filled Triangles: RSQSim Elements
@@ -30,10 +41,10 @@
 | Horizontal | 30.35 km | 59.14 km | 60.07 km |
 | 3-D | 31.04 km | 59.14 km | 60.07 km |
 
-*NOTE: RSQSim ruptures sometimes have elements corupture on faults some distance away, which may cause discrepancies in the table above. Consult the rupture map plot.*
-### Fourrier Amplitude Spectra
+*NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.*
+### USC Fourrier Amplitude Spectra
 ![USC FAS Plot](resources/fas_spectra_USC.png)
-### RotD50 Spectra
+### USC RotD50 Spectra
 ![USC RotD50 Plot](resources/rotd50_spectra_USC.png)
 ## Site SBSM
 *34.064987, -117.29201*
@@ -43,8 +54,8 @@
 | Horizontal | 6.95 km | 31.03 km | 31.15 km |
 | 3-D | 7.45 km | 31.03 km | 31.15 km |
 
-*NOTE: RSQSim ruptures sometimes have elements corupture on faults some distance away, which may cause discrepancies in the table above. Consult the rupture map plot.*
-### Fourrier Amplitude Spectra
+*NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.*
+### SBSM Fourrier Amplitude Spectra
 ![SBSM FAS Plot](resources/fas_spectra_SBSM.png)
-### RotD50 Spectra
+### SBSM RotD50 Spectra
 ![SBSM RotD50 Plot](resources/rotd50_spectra_SBSM.png)

@@ -1,5 +1,5 @@
-# BRUCE 2194 Long
-| Catalog | BRUCE 2194 Long |
+# Bruce 2194 Long
+| Catalog | Bruce 2194 Long |
 |-----|-----|
 | Author | Bruce Shaw (extended by Jacqui Gilchrist), 2017/08/31 |
 | Description | Catalog with decent large event scaling and distribution of sizes while not using any of the enhanced frictional weakening terms. |
