@@ -28,7 +28,7 @@
 ### RotD50 Spectra
 ![USC RotD50 Plot](resources/rotd50_spectra_USC.png)
 ## Site SBSM
-*34.064986000000005, -117.29201000000002*
+*34.064987, -117.29201*
 ### Fourrier Amplitude Spectra
 ![SBSM FAS Plot](resources/fas_spectra_SBSM.png)
 ### RotD50 Spectra
