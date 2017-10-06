@@ -29,8 +29,8 @@
 |-----|-----|-----|-----|
 | Horizontal | 60.07 km | 56.61 km | 60.07 km |
 | 3-D | 60.07 km | 56.61 km | 60.07 km |
-*NOTE: RSQSim ruptures sometimes have elements corupture on faults some distance away, which may cause discrepancies in the table above. Consult the rupture map plot.*
 
+*NOTE: RSQSim ruptures sometimes have elements corupture on faults some distance away, which may cause discrepancies in the table above. Consult the rupture map plot.*
 ### Fourrier Amplitude Spectra
 ![USC FAS Plot](resources/fas_spectra_USC.png)
 ### RotD50 Spectra
@@ -42,8 +42,8 @@
 |-----|-----|-----|-----|
 | Horizontal | 17.50 km | 20.86 km | 20.49 km |
 | 3-D | 20.49 km | 20.86 km | 20.49 km |
-*NOTE: RSQSim ruptures sometimes have elements corupture on faults some distance away, which may cause discrepancies in the table above. Consult the rupture map plot.*
 
+*NOTE: RSQSim ruptures sometimes have elements corupture on faults some distance away, which may cause discrepancies in the table above. Consult the rupture map plot.*
 ### Fourrier Amplitude Spectra
 ![SBSM FAS Plot](resources/fas_spectra_SBSM.png)
 ### RotD50 Spectra
