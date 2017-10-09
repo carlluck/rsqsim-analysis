@@ -9,17 +9,17 @@
 | Average Element Area | 1.34 km^2 |
 
 ## Table Of Contents
-* [Rupture Plots](#rupture-plots)
-  * [Slip/Time Plot](#slip/time-plot)
-  * [Slip/Vel Animation](#slip/vel-animation)
-  * [Map Plot](#map-plot)
-* [Spectra Plots](#spectra-plots)
-* [Site USC](#site-usc)
-  * [USC Fourier Amplitude Spectra](#usc-fourier-amplitude-spectra)
-  * [USC RotD50 Spectra](#usc-rotd50-spectra)
-* [Site SBSM](#site-sbsm)
-  * [SBSM Fourier Amplitude Spectra](#sbsm-fourier-amplitude-spectra)
-  * [SBSM RotD50 Spectra](#sbsm-rotd50-spectra)
+* [rupture-plots](#rupture-plots)
+  * [slip/time-plot](#sliptime-plot)
+  * [slip/vel-animation](#slipvel-animation)
+  * [map-plot](#map-plot)
+* [spectra-plots](#spectra-plots)
+* [site-usc](#site-usc)
+  * [usc-fourier-amplitude-spectra](#usc-fourier-amplitude-spectra)
+  * [usc-rotd50-spectra](#usc-rotd50-spectra)
+* [site-sbsm](#site-sbsm)
+  * [sbsm-fourier-amplitude-spectra](#sbsm-fourier-amplitude-spectra)
+  * [sbsm-rotd50-spectra](#sbsm-rotd50-spectra)
 ## Rupture Plots
 **Legend**
 * Colored, Filled Triangles: RSQSim Elements
