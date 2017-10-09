@@ -11,6 +11,7 @@
 ## Table Of Contents
 * [Rupture Plots](#rupture-plots)
   * [Slip/Time Plot](#slip/time-plot)
+  * [Slip/Vel Animation](#slip/vel-animation)
   * [Map Plot](#map-plot)
 * [Spectra Plots](#spectra-plots)
 * [Site USC](#site-usc)
@@ -29,6 +30,8 @@
 
 ### Slip/Time Plot
 ![Slip/Time Plot](resources/rupture_plot_4099020.png)
+### Slip/Vel Animation
+![Slip/Time Plot](resources/rupture_plot_4099020.gif)
 ### Map Plot
 ![Map Plot](resources/rupture_map_plot_4099020.png)
 
