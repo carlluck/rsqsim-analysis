@@ -2,14 +2,9 @@
 
 **GMPE: Chiou & Youngs (2014)**
 
-| Catalog | Bruce 2194 Long |
-|-----|-----|
-| Author | Bruce Shaw (extended by Jacqui Gilchrist), 2017/08/31 |
-| Description | Catalog with decent large event scaling and distribution of sizes while not using any of the enhanced frictional weakening terms. |
-| Fault/Def Model | Fault Model 3.1, Geologic |
-| Slim Velocity | 1.0 m/s |
-| Average Element Area | 1.34 km^2 |
+Ruptures are binned by their moment magnitude (**Mw**) and the Joyner-Boore distance (**rJB**), the shortest horizontal distance from a site to the surface projection of the rupture surface
 
+[Catalog Details](../#bruce-2194-long)
 ## Table Of Contents
 * [Site USC](#site-usc)
   * [USC, 6.5 < Mw < 7](#usc-65--mw--7)
@@ -58,7 +53,7 @@
 
 These plots compare RSQSim to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
 
-**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-Sigma*
+**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-sigma*
 
 **Legend**
 * Black Line: Standard Normal distribution (in natural log space)
@@ -90,7 +85,7 @@ These plots compare RSQSim to the full GMPE log-normal distributions. Each ruptu
 
 These plots compare RSQSim to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
 
-**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-Sigma*
+**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-sigma*
 
 **Legend**
 * Black Line: Standard Normal distribution (in natural log space)
@@ -122,7 +117,7 @@ These plots compare RSQSim to the full GMPE log-normal distributions. Each ruptu
 
 These plots compare RSQSim to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
 
-**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-Sigma*
+**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-sigma*
 
 **Legend**
 * Black Line: Standard Normal distribution (in natural log space)
@@ -159,7 +154,7 @@ These plots compare RSQSim to the full GMPE log-normal distributions. Each ruptu
 
 These plots compare RSQSim to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
 
-**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-Sigma*
+**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-sigma*
 
 **Legend**
 * Black Line: Standard Normal distribution (in natural log space)
@@ -191,7 +186,7 @@ These plots compare RSQSim to the full GMPE log-normal distributions. Each ruptu
 
 These plots compare RSQSim to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
 
-**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-Sigma*
+**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-sigma*
 
 **Legend**
 * Black Line: Standard Normal distribution (in natural log space)
@@ -223,7 +218,7 @@ These plots compare RSQSim to the full GMPE log-normal distributions. Each ruptu
 
 These plots compare RSQSim to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
 
-**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-Sigma*
+**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-sigma*
 
 **Legend**
 * Black Line: Standard Normal distribution (in natural log space)
