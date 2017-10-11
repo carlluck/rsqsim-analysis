@@ -37,58 +37,97 @@
 *Location: 34.0192, -118.286*
 66200 ruptures within 200.0 km
 ### USC, 6.5 < Mw < 7
+41548 Ruptures
 #### USC, 6.5 < Mw < 7, Scatter Plots
 *[(top)](#table-of-contents)*
 
+**Legend**
+* Red +: GMPE Mean/RSQSim single rupture comparison
+* Yellow Region: Factor of 2 above & below
+* Green Line: Linear Regression
 
 | SA Period | 0 km < rJB < 70 km | 70 km < rJB < 140 km | 140 km < rJB < 200 km |
 |-----|-----|-----|-----|
-| **1 s** | ![Scatter Plot](resources/USC_mag_6.5_7_dist_0_701s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_6.5_7_dist_70_1401s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_6.5_7_dist_140_2001s_CB2014_scatter.png) |
-| **2 s** | ![Scatter Plot](resources/USC_mag_6.5_7_dist_0_702s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_6.5_7_dist_70_1402s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_6.5_7_dist_140_2002s_CB2014_scatter.png) |
-| **3 s** | ![Scatter Plot](resources/USC_mag_6.5_7_dist_0_703s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_6.5_7_dist_70_1403s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_6.5_7_dist_140_2003s_CB2014_scatter.png) |
-| **5 s** | ![Scatter Plot](resources/USC_mag_6.5_7_dist_0_705s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_6.5_7_dist_70_1405s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_6.5_7_dist_140_2005s_CB2014_scatter.png) |
-| **10 s** | ![Scatter Plot](resources/USC_mag_6.5_7_dist_0_7010s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_6.5_7_dist_70_14010s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_6.5_7_dist_140_20010s_CB2014_scatter.png) |
+| **1 s** | ![Scatter Plot](resources/USC_mag_6.5_7_dist_0_70_1s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_6.5_7_dist_70_140_1s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_6.5_7_dist_140_200_1s_CB2014_scatter.png) |
+| **2 s** | ![Scatter Plot](resources/USC_mag_6.5_7_dist_0_70_2s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_6.5_7_dist_70_140_2s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_6.5_7_dist_140_200_2s_CB2014_scatter.png) |
+| **3 s** | ![Scatter Plot](resources/USC_mag_6.5_7_dist_0_70_3s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_6.5_7_dist_70_140_3s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_6.5_7_dist_140_200_3s_CB2014_scatter.png) |
+| **5 s** | ![Scatter Plot](resources/USC_mag_6.5_7_dist_0_70_5s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_6.5_7_dist_70_140_5s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_6.5_7_dist_140_200_5s_CB2014_scatter.png) |
+| **10 s** | ![Scatter Plot](resources/USC_mag_6.5_7_dist_0_70_10s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_6.5_7_dist_70_140_10s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_6.5_7_dist_140_200_10s_CB2014_scatter.png) |
 #### USC, 6.5 < Mw < 7, Standard Normal Plots
 *[(top)](#table-of-contents)*
 
+These plots compare RSQSim to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
+
+**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-Sigma*
+
+**Legend**
+* Black Line: Standard Normal distribution (in natural log space)
+* Gray Histogram: z-score for each rupture
+* Blue Dashed Line: RSQSim Mean
 
 | 0 km < rJB < 70 km | 70 km < rJB < 140 km | 140 km < rJB < 200 km |
 |-----|-----|-----|
 | ![Standard Normal Plot](resources/USC_mag_6.5_7_dist_0_70_CB2014_std_norm.png) | ![Standard Normal Plot](resources/USC_mag_6.5_7_dist_70_140_CB2014_std_norm.png) | ![Standard Normal Plot](resources/USC_mag_6.5_7_dist_140_200_CB2014_std_norm.png) |
 ### USC, 7 < Mw < 8
+24600 Ruptures
 #### USC, 7 < Mw < 8, Scatter Plots
 *[(top)](#table-of-contents)*
 
+**Legend**
+* Red +: GMPE Mean/RSQSim single rupture comparison
+* Yellow Region: Factor of 2 above & below
+* Green Line: Linear Regression
 
 | SA Period | 0 km < rJB < 70 km | 70 km < rJB < 140 km | 140 km < rJB < 200 km |
 |-----|-----|-----|-----|
-| **1 s** | ![Scatter Plot](resources/USC_mag_7_8_dist_0_701s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_7_8_dist_70_1401s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_7_8_dist_140_2001s_CB2014_scatter.png) |
-| **2 s** | ![Scatter Plot](resources/USC_mag_7_8_dist_0_702s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_7_8_dist_70_1402s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_7_8_dist_140_2002s_CB2014_scatter.png) |
-| **3 s** | ![Scatter Plot](resources/USC_mag_7_8_dist_0_703s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_7_8_dist_70_1403s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_7_8_dist_140_2003s_CB2014_scatter.png) |
-| **5 s** | ![Scatter Plot](resources/USC_mag_7_8_dist_0_705s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_7_8_dist_70_1405s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_7_8_dist_140_2005s_CB2014_scatter.png) |
-| **10 s** | ![Scatter Plot](resources/USC_mag_7_8_dist_0_7010s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_7_8_dist_70_14010s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_7_8_dist_140_20010s_CB2014_scatter.png) |
+| **1 s** | ![Scatter Plot](resources/USC_mag_7_8_dist_0_70_1s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_7_8_dist_70_140_1s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_7_8_dist_140_200_1s_CB2014_scatter.png) |
+| **2 s** | ![Scatter Plot](resources/USC_mag_7_8_dist_0_70_2s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_7_8_dist_70_140_2s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_7_8_dist_140_200_2s_CB2014_scatter.png) |
+| **3 s** | ![Scatter Plot](resources/USC_mag_7_8_dist_0_70_3s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_7_8_dist_70_140_3s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_7_8_dist_140_200_3s_CB2014_scatter.png) |
+| **5 s** | ![Scatter Plot](resources/USC_mag_7_8_dist_0_70_5s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_7_8_dist_70_140_5s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_7_8_dist_140_200_5s_CB2014_scatter.png) |
+| **10 s** | ![Scatter Plot](resources/USC_mag_7_8_dist_0_70_10s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_7_8_dist_70_140_10s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_7_8_dist_140_200_10s_CB2014_scatter.png) |
 #### USC, 7 < Mw < 8, Standard Normal Plots
 *[(top)](#table-of-contents)*
 
+These plots compare RSQSim to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
+
+**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-Sigma*
+
+**Legend**
+* Black Line: Standard Normal distribution (in natural log space)
+* Gray Histogram: z-score for each rupture
+* Blue Dashed Line: RSQSim Mean
 
 | 0 km < rJB < 70 km | 70 km < rJB < 140 km | 140 km < rJB < 200 km |
 |-----|-----|-----|
 | ![Standard Normal Plot](resources/USC_mag_7_8_dist_0_70_CB2014_std_norm.png) | ![Standard Normal Plot](resources/USC_mag_7_8_dist_70_140_CB2014_std_norm.png) | ![Standard Normal Plot](resources/USC_mag_7_8_dist_140_200_CB2014_std_norm.png) |
 ### USC, 8 < Mw < 8.5
+52 Ruptures
 #### USC, 8 < Mw < 8.5, Scatter Plots
 *[(top)](#table-of-contents)*
 
+**Legend**
+* Red +: GMPE Mean/RSQSim single rupture comparison
+* Yellow Region: Factor of 2 above & below
+* Green Line: Linear Regression
 
 | SA Period | 0 km < rJB < 70 km | 70 km < rJB < 140 km |
 |-----|-----|-----|
-| **1 s** | ![Scatter Plot](resources/USC_mag_8_8.5_dist_0_701s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_8_8.5_dist_70_1401s_CB2014_scatter.png) | N/A |
-| **2 s** | ![Scatter Plot](resources/USC_mag_8_8.5_dist_0_702s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_8_8.5_dist_70_1402s_CB2014_scatter.png) | N/A |
-| **3 s** | ![Scatter Plot](resources/USC_mag_8_8.5_dist_0_703s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_8_8.5_dist_70_1403s_CB2014_scatter.png) | N/A |
-| **5 s** | ![Scatter Plot](resources/USC_mag_8_8.5_dist_0_705s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_8_8.5_dist_70_1405s_CB2014_scatter.png) | N/A |
-| **10 s** | ![Scatter Plot](resources/USC_mag_8_8.5_dist_0_7010s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_8_8.5_dist_70_14010s_CB2014_scatter.png) | N/A |
+| **1 s** | ![Scatter Plot](resources/USC_mag_8_8.5_dist_0_70_1s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_8_8.5_dist_70_140_1s_CB2014_scatter.png) | N/A |
+| **2 s** | ![Scatter Plot](resources/USC_mag_8_8.5_dist_0_70_2s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_8_8.5_dist_70_140_2s_CB2014_scatter.png) | N/A |
+| **3 s** | ![Scatter Plot](resources/USC_mag_8_8.5_dist_0_70_3s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_8_8.5_dist_70_140_3s_CB2014_scatter.png) | N/A |
+| **5 s** | ![Scatter Plot](resources/USC_mag_8_8.5_dist_0_70_5s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_8_8.5_dist_70_140_5s_CB2014_scatter.png) | N/A |
+| **10 s** | ![Scatter Plot](resources/USC_mag_8_8.5_dist_0_70_10s_CB2014_scatter.png) | ![Scatter Plot](resources/USC_mag_8_8.5_dist_70_140_10s_CB2014_scatter.png) | N/A |
 #### USC, 8 < Mw < 8.5, Standard Normal Plots
 *[(top)](#table-of-contents)*
 
+These plots compare RSQSim to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
+
+**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-Sigma*
+
+**Legend**
+* Black Line: Standard Normal distribution (in natural log space)
+* Gray Histogram: z-score for each rupture
+* Blue Dashed Line: RSQSim Mean
 
 | 0 km < rJB < 70 km | 70 km < rJB < 140 km |
 |-----|-----|
@@ -99,58 +138,97 @@
 *Location: 34.064987, -117.29201*
 67441 ruptures within 200.0 km
 ### SBSM, 6.5 < Mw < 7
+43686 Ruptures
 #### SBSM, 6.5 < Mw < 7, Scatter Plots
 *[(top)](#table-of-contents)*
 
+**Legend**
+* Red +: GMPE Mean/RSQSim single rupture comparison
+* Yellow Region: Factor of 2 above & below
+* Green Line: Linear Regression
 
 | SA Period | 0 km < rJB < 70 km | 70 km < rJB < 140 km | 140 km < rJB < 200 km |
 |-----|-----|-----|-----|
-| **1 s** | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_0_701s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_70_1401s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_140_2001s_CB2014_scatter.png) |
-| **2 s** | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_0_702s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_70_1402s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_140_2002s_CB2014_scatter.png) |
-| **3 s** | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_0_703s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_70_1403s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_140_2003s_CB2014_scatter.png) |
-| **5 s** | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_0_705s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_70_1405s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_140_2005s_CB2014_scatter.png) |
-| **10 s** | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_0_7010s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_70_14010s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_140_20010s_CB2014_scatter.png) |
+| **1 s** | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_0_70_1s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_70_140_1s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_140_200_1s_CB2014_scatter.png) |
+| **2 s** | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_0_70_2s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_70_140_2s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_140_200_2s_CB2014_scatter.png) |
+| **3 s** | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_0_70_3s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_70_140_3s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_140_200_3s_CB2014_scatter.png) |
+| **5 s** | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_0_70_5s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_70_140_5s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_140_200_5s_CB2014_scatter.png) |
+| **10 s** | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_0_70_10s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_70_140_10s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_140_200_10s_CB2014_scatter.png) |
 #### SBSM, 6.5 < Mw < 7, Standard Normal Plots
 *[(top)](#table-of-contents)*
 
+These plots compare RSQSim to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
+
+**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-Sigma*
+
+**Legend**
+* Black Line: Standard Normal distribution (in natural log space)
+* Gray Histogram: z-score for each rupture
+* Blue Dashed Line: RSQSim Mean
 
 | 0 km < rJB < 70 km | 70 km < rJB < 140 km | 140 km < rJB < 200 km |
 |-----|-----|-----|
 | ![Standard Normal Plot](resources/SBSM_mag_6.5_7_dist_0_70_CB2014_std_norm.png) | ![Standard Normal Plot](resources/SBSM_mag_6.5_7_dist_70_140_CB2014_std_norm.png) | ![Standard Normal Plot](resources/SBSM_mag_6.5_7_dist_140_200_CB2014_std_norm.png) |
 ### SBSM, 7 < Mw < 8
+23703 Ruptures
 #### SBSM, 7 < Mw < 8, Scatter Plots
 *[(top)](#table-of-contents)*
 
+**Legend**
+* Red +: GMPE Mean/RSQSim single rupture comparison
+* Yellow Region: Factor of 2 above & below
+* Green Line: Linear Regression
 
 | SA Period | 0 km < rJB < 70 km | 70 km < rJB < 140 km | 140 km < rJB < 200 km |
 |-----|-----|-----|-----|
-| **1 s** | ![Scatter Plot](resources/SBSM_mag_7_8_dist_0_701s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7_8_dist_70_1401s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7_8_dist_140_2001s_CB2014_scatter.png) |
-| **2 s** | ![Scatter Plot](resources/SBSM_mag_7_8_dist_0_702s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7_8_dist_70_1402s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7_8_dist_140_2002s_CB2014_scatter.png) |
-| **3 s** | ![Scatter Plot](resources/SBSM_mag_7_8_dist_0_703s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7_8_dist_70_1403s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7_8_dist_140_2003s_CB2014_scatter.png) |
-| **5 s** | ![Scatter Plot](resources/SBSM_mag_7_8_dist_0_705s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7_8_dist_70_1405s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7_8_dist_140_2005s_CB2014_scatter.png) |
-| **10 s** | ![Scatter Plot](resources/SBSM_mag_7_8_dist_0_7010s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7_8_dist_70_14010s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7_8_dist_140_20010s_CB2014_scatter.png) |
+| **1 s** | ![Scatter Plot](resources/SBSM_mag_7_8_dist_0_70_1s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7_8_dist_70_140_1s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7_8_dist_140_200_1s_CB2014_scatter.png) |
+| **2 s** | ![Scatter Plot](resources/SBSM_mag_7_8_dist_0_70_2s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7_8_dist_70_140_2s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7_8_dist_140_200_2s_CB2014_scatter.png) |
+| **3 s** | ![Scatter Plot](resources/SBSM_mag_7_8_dist_0_70_3s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7_8_dist_70_140_3s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7_8_dist_140_200_3s_CB2014_scatter.png) |
+| **5 s** | ![Scatter Plot](resources/SBSM_mag_7_8_dist_0_70_5s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7_8_dist_70_140_5s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7_8_dist_140_200_5s_CB2014_scatter.png) |
+| **10 s** | ![Scatter Plot](resources/SBSM_mag_7_8_dist_0_70_10s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7_8_dist_70_140_10s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7_8_dist_140_200_10s_CB2014_scatter.png) |
 #### SBSM, 7 < Mw < 8, Standard Normal Plots
 *[(top)](#table-of-contents)*
 
+These plots compare RSQSim to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
+
+**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-Sigma*
+
+**Legend**
+* Black Line: Standard Normal distribution (in natural log space)
+* Gray Histogram: z-score for each rupture
+* Blue Dashed Line: RSQSim Mean
 
 | 0 km < rJB < 70 km | 70 km < rJB < 140 km | 140 km < rJB < 200 km |
 |-----|-----|-----|
 | ![Standard Normal Plot](resources/SBSM_mag_7_8_dist_0_70_CB2014_std_norm.png) | ![Standard Normal Plot](resources/SBSM_mag_7_8_dist_70_140_CB2014_std_norm.png) | ![Standard Normal Plot](resources/SBSM_mag_7_8_dist_140_200_CB2014_std_norm.png) |
 ### SBSM, 8 < Mw < 8.5
+52 Ruptures
 #### SBSM, 8 < Mw < 8.5, Scatter Plots
 *[(top)](#table-of-contents)*
 
+**Legend**
+* Red +: GMPE Mean/RSQSim single rupture comparison
+* Yellow Region: Factor of 2 above & below
+* Green Line: Linear Regression
 
 | SA Period | 0 km < rJB < 70 km | 70 km < rJB < 140 km | 140 km < rJB < 200 km |
 |-----|-----|-----|-----|
-| **1 s** | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_0_701s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_70_1401s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_140_2001s_CB2014_scatter.png) |
-| **2 s** | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_0_702s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_70_1402s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_140_2002s_CB2014_scatter.png) |
-| **3 s** | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_0_703s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_70_1403s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_140_2003s_CB2014_scatter.png) |
-| **5 s** | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_0_705s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_70_1405s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_140_2005s_CB2014_scatter.png) |
-| **10 s** | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_0_7010s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_70_14010s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_140_20010s_CB2014_scatter.png) |
+| **1 s** | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_0_70_1s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_70_140_1s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_140_200_1s_CB2014_scatter.png) |
+| **2 s** | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_0_70_2s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_70_140_2s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_140_200_2s_CB2014_scatter.png) |
+| **3 s** | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_0_70_3s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_70_140_3s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_140_200_3s_CB2014_scatter.png) |
+| **5 s** | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_0_70_5s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_70_140_5s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_140_200_5s_CB2014_scatter.png) |
+| **10 s** | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_0_70_10s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_70_140_10s_CB2014_scatter.png) | ![Scatter Plot](resources/SBSM_mag_8_8.5_dist_140_200_10s_CB2014_scatter.png) |
 #### SBSM, 8 < Mw < 8.5, Standard Normal Plots
 *[(top)](#table-of-contents)*
 
+These plots compare RSQSim to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
+
+**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-Sigma*
+
+**Legend**
+* Black Line: Standard Normal distribution (in natural log space)
+* Gray Histogram: z-score for each rupture
+* Blue Dashed Line: RSQSim Mean
 
 | 0 km < rJB < 70 km | 70 km < rJB < 140 km | 140 km < rJB < 200 km |
 |-----|-----|-----|
