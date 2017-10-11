@@ -1,0 +1,608 @@
+<h1 id="bruce-2194-long-bbpgmpe-comparisons">Bruce 2194 Long BBP/GMPE Comparisons</h1>
+<table>
+<thead>
+<tr><th>Catalog</th><th>Bruce 2194 Long</th></tr>
+</thead>
+<tbody>
+<tr><td>Author</td><td>Bruce Shaw (extended by Jacqui Gilchrist), 2017/08/31</td></tr>
+<tr><td>Description</td><td>Catalog with decent large event scaling and distribution of sizes while not using any of the enhanced frictional weakening terms.</td></tr>
+<tr><td>Fault/Def Model</td><td>Fault Model 3.1, Geologic</td></tr>
+<tr><td>Slim Velocity</td><td>1.0 m/s</td></tr>
+<tr><td>Average Element Area</td><td>1.34 km^2</td></tr>
+</tbody>
+</table>
+<h2 id="table-of-contents">Table Of Contents</h2>
+<ul>
+<li><a href="#site-usc">Site USC</a>
+<ul>
+<li><a href="#usc-65--mw--7">USC, 6.5 &lt; Mw &lt; 7</a>
+<ul>
+<li><a href="#usc-65--mw--7-1s-sa-scatter-plots">USC, 6.5 &lt; Mw &lt; 7, 1s SA Scatter Plots</a></li>
+<li><a href="#usc-65--mw--7-2s-sa-scatter-plots">USC, 6.5 &lt; Mw &lt; 7, 2s SA Scatter Plots</a></li>
+<li><a href="#usc-65--mw--7-3s-sa-scatter-plots">USC, 6.5 &lt; Mw &lt; 7, 3s SA Scatter Plots</a></li>
+<li><a href="#usc-65--mw--7-5s-sa-scatter-plots">USC, 6.5 &lt; Mw &lt; 7, 5s SA Scatter Plots</a></li>
+<li><a href="#usc-65--mw--7-10s-sa-scatter-plots">USC, 6.5 &lt; Mw &lt; 7, 10s SA Scatter Plots</a></li>
+<li><a href="#usc-65--mw--7-standard-normal-plots">USC, 6.5 &lt; Mw &lt; 7, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#usc-7--mw--8">USC, 7 &lt; Mw &lt; 8</a>
+<ul>
+<li><a href="#usc-7--mw--8-1s-sa-scatter-plots">USC, 7 &lt; Mw &lt; 8, 1s SA Scatter Plots</a></li>
+<li><a href="#usc-7--mw--8-2s-sa-scatter-plots">USC, 7 &lt; Mw &lt; 8, 2s SA Scatter Plots</a></li>
+<li><a href="#usc-7--mw--8-3s-sa-scatter-plots">USC, 7 &lt; Mw &lt; 8, 3s SA Scatter Plots</a></li>
+<li><a href="#usc-7--mw--8-5s-sa-scatter-plots">USC, 7 &lt; Mw &lt; 8, 5s SA Scatter Plots</a></li>
+<li><a href="#usc-7--mw--8-10s-sa-scatter-plots">USC, 7 &lt; Mw &lt; 8, 10s SA Scatter Plots</a></li>
+<li><a href="#usc-7--mw--8-standard-normal-plots">USC, 7 &lt; Mw &lt; 8, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#usc-8--mw--85">USC, 8 &lt; Mw &lt; 8.5</a>
+<ul>
+<li><a href="#usc-8--mw--85-1s-sa-scatter-plots">USC, 8 &lt; Mw &lt; 8.5, 1s SA Scatter Plots</a></li>
+<li><a href="#usc-8--mw--85-2s-sa-scatter-plots">USC, 8 &lt; Mw &lt; 8.5, 2s SA Scatter Plots</a></li>
+<li><a href="#usc-8--mw--85-3s-sa-scatter-plots">USC, 8 &lt; Mw &lt; 8.5, 3s SA Scatter Plots</a></li>
+<li><a href="#usc-8--mw--85-5s-sa-scatter-plots">USC, 8 &lt; Mw &lt; 8.5, 5s SA Scatter Plots</a></li>
+<li><a href="#usc-8--mw--85-10s-sa-scatter-plots">USC, 8 &lt; Mw &lt; 8.5, 10s SA Scatter Plots</a></li>
+<li><a href="#usc-8--mw--85-standard-normal-plots">USC, 8 &lt; Mw &lt; 8.5, Standard Normal Plots</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#site-sbsm">Site SBSM</a>
+<ul>
+<li><a href="#sbsm-65--mw--7">SBSM, 6.5 &lt; Mw &lt; 7</a>
+<ul>
+<li><a href="#sbsm-65--mw--7-1s-sa-scatter-plots">SBSM, 6.5 &lt; Mw &lt; 7, 1s SA Scatter Plots</a></li>
+<li><a href="#sbsm-65--mw--7-2s-sa-scatter-plots">SBSM, 6.5 &lt; Mw &lt; 7, 2s SA Scatter Plots</a></li>
+<li><a href="#sbsm-65--mw--7-3s-sa-scatter-plots">SBSM, 6.5 &lt; Mw &lt; 7, 3s SA Scatter Plots</a></li>
+<li><a href="#sbsm-65--mw--7-5s-sa-scatter-plots">SBSM, 6.5 &lt; Mw &lt; 7, 5s SA Scatter Plots</a></li>
+<li><a href="#sbsm-65--mw--7-10s-sa-scatter-plots">SBSM, 6.5 &lt; Mw &lt; 7, 10s SA Scatter Plots</a></li>
+<li><a href="#sbsm-65--mw--7-standard-normal-plots">SBSM, 6.5 &lt; Mw &lt; 7, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#sbsm-7--mw--8">SBSM, 7 &lt; Mw &lt; 8</a>
+<ul>
+<li><a href="#sbsm-7--mw--8-1s-sa-scatter-plots">SBSM, 7 &lt; Mw &lt; 8, 1s SA Scatter Plots</a></li>
+<li><a href="#sbsm-7--mw--8-2s-sa-scatter-plots">SBSM, 7 &lt; Mw &lt; 8, 2s SA Scatter Plots</a></li>
+<li><a href="#sbsm-7--mw--8-3s-sa-scatter-plots">SBSM, 7 &lt; Mw &lt; 8, 3s SA Scatter Plots</a></li>
+<li><a href="#sbsm-7--mw--8-5s-sa-scatter-plots">SBSM, 7 &lt; Mw &lt; 8, 5s SA Scatter Plots</a></li>
+<li><a href="#sbsm-7--mw--8-10s-sa-scatter-plots">SBSM, 7 &lt; Mw &lt; 8, 10s SA Scatter Plots</a></li>
+<li><a href="#sbsm-7--mw--8-standard-normal-plots">SBSM, 7 &lt; Mw &lt; 8, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#sbsm-8--mw--85">SBSM, 8 &lt; Mw &lt; 8.5</a>
+<ul>
+<li><a href="#sbsm-8--mw--85-1s-sa-scatter-plots">SBSM, 8 &lt; Mw &lt; 8.5, 1s SA Scatter Plots</a></li>
+<li><a href="#sbsm-8--mw--85-2s-sa-scatter-plots">SBSM, 8 &lt; Mw &lt; 8.5, 2s SA Scatter Plots</a></li>
+<li><a href="#sbsm-8--mw--85-3s-sa-scatter-plots">SBSM, 8 &lt; Mw &lt; 8.5, 3s SA Scatter Plots</a></li>
+<li><a href="#sbsm-8--mw--85-5s-sa-scatter-plots">SBSM, 8 &lt; Mw &lt; 8.5, 5s SA Scatter Plots</a></li>
+<li><a href="#sbsm-8--mw--85-10s-sa-scatter-plots">SBSM, 8 &lt; Mw &lt; 8.5, 10s SA Scatter Plots</a></li>
+<li><a href="#sbsm-8--mw--85-standard-normal-plots">SBSM, 8 &lt; Mw &lt; 8.5, Standard Normal Plots</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="site-usc">Site USC</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><em>Location: 34.0192, -118.286</em>
+66200 ruptures within 200.0 km</p>
+<h3 id="usc-65--mw--7">USC, 6.5 &lt; Mw &lt; 7</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<h4 id="usc-65--mw--7-1s-sa-scatter-plots">USC, 6.5 &lt; Mw &lt; 7, 1s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_701s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_1401s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_2001s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_701s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_1401s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_2001s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_701s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_1401s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_2001s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_701s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_1401s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_2001s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_701s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_1401s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_2001s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="usc-65--mw--7-2s-sa-scatter-plots">USC, 6.5 &lt; Mw &lt; 7, 2s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_702s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_1402s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_2002s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_702s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_1402s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_2002s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_702s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_1402s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_2002s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_702s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_1402s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_2002s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_702s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_1402s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_2002s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="usc-65--mw--7-3s-sa-scatter-plots">USC, 6.5 &lt; Mw &lt; 7, 3s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_703s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_1403s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_2003s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_703s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_1403s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_2003s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_703s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_1403s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_2003s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_703s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_1403s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_2003s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_703s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_1403s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_2003s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="usc-65--mw--7-5s-sa-scatter-plots">USC, 6.5 &lt; Mw &lt; 7, 5s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_705s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_1405s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_2005s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_705s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_1405s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_2005s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_705s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_1405s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_2005s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_705s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_1405s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_2005s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_705s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_1405s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_2005s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="usc-65--mw--7-10s-sa-scatter-plots">USC, 6.5 &lt; Mw &lt; 7, 10s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_7010s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_14010s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_20010s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_7010s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_14010s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_20010s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_7010s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_14010s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_20010s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_7010s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_14010s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_20010s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_7010s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_14010s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_20010s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="usc-65--mw--7-standard-normal-plots">USC, 6.5 &lt; Mw &lt; 7, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_70_NGAWest_2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_140_NGAWest_2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_200_NGAWest_2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_70_ASK2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_140_ASK2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_200_ASK2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_70_BSSA2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_140_BSSA2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_200_BSSA2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_70_CB2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_140_CB2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_200_CB2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/USC_mag_6.5_7_dist_0_70_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_70_140_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/USC_mag_6.5_7_dist_140_200_CY2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="usc-7--mw--8">USC, 7 &lt; Mw &lt; 8</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<h4 id="usc-7--mw--8-1s-sa-scatter-plots">USC, 7 &lt; Mw &lt; 8, 1s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/USC_mag_7_8_dist_0_701s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_1401s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_2001s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/USC_mag_7_8_dist_0_701s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_1401s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_2001s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/USC_mag_7_8_dist_0_701s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_1401s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_2001s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/USC_mag_7_8_dist_0_701s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_1401s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_2001s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/USC_mag_7_8_dist_0_701s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_1401s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_2001s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="usc-7--mw--8-2s-sa-scatter-plots">USC, 7 &lt; Mw &lt; 8, 2s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/USC_mag_7_8_dist_0_702s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_1402s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_2002s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/USC_mag_7_8_dist_0_702s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_1402s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_2002s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/USC_mag_7_8_dist_0_702s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_1402s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_2002s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/USC_mag_7_8_dist_0_702s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_1402s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_2002s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/USC_mag_7_8_dist_0_702s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_1402s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_2002s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="usc-7--mw--8-3s-sa-scatter-plots">USC, 7 &lt; Mw &lt; 8, 3s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/USC_mag_7_8_dist_0_703s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_1403s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_2003s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/USC_mag_7_8_dist_0_703s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_1403s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_2003s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/USC_mag_7_8_dist_0_703s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_1403s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_2003s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/USC_mag_7_8_dist_0_703s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_1403s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_2003s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/USC_mag_7_8_dist_0_703s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_1403s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_2003s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="usc-7--mw--8-5s-sa-scatter-plots">USC, 7 &lt; Mw &lt; 8, 5s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/USC_mag_7_8_dist_0_705s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_1405s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_2005s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/USC_mag_7_8_dist_0_705s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_1405s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_2005s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/USC_mag_7_8_dist_0_705s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_1405s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_2005s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/USC_mag_7_8_dist_0_705s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_1405s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_2005s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/USC_mag_7_8_dist_0_705s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_1405s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_2005s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="usc-7--mw--8-10s-sa-scatter-plots">USC, 7 &lt; Mw &lt; 8, 10s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/USC_mag_7_8_dist_0_7010s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_14010s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_20010s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/USC_mag_7_8_dist_0_7010s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_14010s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_20010s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/USC_mag_7_8_dist_0_7010s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_14010s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_20010s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/USC_mag_7_8_dist_0_7010s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_14010s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_20010s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/USC_mag_7_8_dist_0_7010s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_14010s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_20010s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="usc-7--mw--8-standard-normal-plots">USC, 7 &lt; Mw &lt; 8, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/USC_mag_7_8_dist_0_70_NGAWest_2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_140_NGAWest_2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_200_NGAWest_2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/USC_mag_7_8_dist_0_70_ASK2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_140_ASK2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_200_ASK2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/USC_mag_7_8_dist_0_70_BSSA2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_140_BSSA2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_200_BSSA2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/USC_mag_7_8_dist_0_70_CB2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_140_CB2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_200_CB2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/USC_mag_7_8_dist_0_70_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/USC_mag_7_8_dist_70_140_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/USC_mag_7_8_dist_140_200_CY2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="usc-8--mw--85">USC, 8 &lt; Mw &lt; 8.5</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<h4 id="usc-8--mw--85-1s-sa-scatter-plots">USC, 8 &lt; Mw &lt; 8.5, 1s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_701s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_1401s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_701s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_1401s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_701s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_1401s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_701s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_1401s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_701s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_1401s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="usc-8--mw--85-2s-sa-scatter-plots">USC, 8 &lt; Mw &lt; 8.5, 2s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_702s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_1402s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_702s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_1402s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_702s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_1402s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_702s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_1402s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_702s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_1402s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="usc-8--mw--85-3s-sa-scatter-plots">USC, 8 &lt; Mw &lt; 8.5, 3s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_703s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_1403s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_703s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_1403s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_703s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_1403s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_703s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_1403s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_703s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_1403s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="usc-8--mw--85-5s-sa-scatter-plots">USC, 8 &lt; Mw &lt; 8.5, 5s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_705s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_1405s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_705s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_1405s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_705s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_1405s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_705s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_1405s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_705s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_1405s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="usc-8--mw--85-10s-sa-scatter-plots">USC, 8 &lt; Mw &lt; 8.5, 10s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_7010s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_14010s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_7010s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_14010s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_7010s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_14010s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_7010s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_14010s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_7010s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_14010s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="usc-8--mw--85-standard-normal-plots">USC, 8 &lt; Mw &lt; 8.5, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_70_NGAWest_2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_140_NGAWest_2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_70_ASK2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_140_ASK2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_70_BSSA2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_140_BSSA2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_70_CB2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_140_CB2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/USC_mag_8_8.5_dist_0_70_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/USC_mag_8_8.5_dist_70_140_CY2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h2 id="site-sbsm">Site SBSM</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><em>Location: 34.064987, -117.29201</em>
+67441 ruptures within 200.0 km</p>
+<h3 id="sbsm-65--mw--7">SBSM, 6.5 &lt; Mw &lt; 7</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<h4 id="sbsm-65--mw--7-1s-sa-scatter-plots">SBSM, 6.5 &lt; Mw &lt; 7, 1s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_701s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_1401s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_2001s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_701s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_1401s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_2001s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_701s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_1401s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_2001s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_701s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_1401s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_2001s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_701s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_1401s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_2001s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="sbsm-65--mw--7-2s-sa-scatter-plots">SBSM, 6.5 &lt; Mw &lt; 7, 2s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_702s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_1402s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_2002s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_702s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_1402s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_2002s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_702s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_1402s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_2002s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_702s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_1402s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_2002s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_702s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_1402s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_2002s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="sbsm-65--mw--7-3s-sa-scatter-plots">SBSM, 6.5 &lt; Mw &lt; 7, 3s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_703s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_1403s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_2003s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_703s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_1403s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_2003s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_703s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_1403s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_2003s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_703s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_1403s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_2003s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_703s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_1403s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_2003s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="sbsm-65--mw--7-5s-sa-scatter-plots">SBSM, 6.5 &lt; Mw &lt; 7, 5s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_705s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_1405s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_2005s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_705s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_1405s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_2005s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_705s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_1405s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_2005s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_705s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_1405s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_2005s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_705s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_1405s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_2005s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="sbsm-65--mw--7-10s-sa-scatter-plots">SBSM, 6.5 &lt; Mw &lt; 7, 10s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_7010s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_14010s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_20010s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_7010s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_14010s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_20010s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_7010s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_14010s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_20010s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_7010s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_14010s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_20010s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_7010s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_14010s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_20010s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="sbsm-65--mw--7-standard-normal-plots">SBSM, 6.5 &lt; Mw &lt; 7, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_70_NGAWest_2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_140_NGAWest_2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_200_NGAWest_2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_70_ASK2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_140_ASK2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_200_ASK2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_70_BSSA2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_140_BSSA2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_200_BSSA2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_70_CB2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_140_CB2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_200_CB2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/SBSM_mag_6.5_7_dist_0_70_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_70_140_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_6.5_7_dist_140_200_CY2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="sbsm-7--mw--8">SBSM, 7 &lt; Mw &lt; 8</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<h4 id="sbsm-7--mw--8-1s-sa-scatter-plots">SBSM, 7 &lt; Mw &lt; 8, 1s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_701s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_1401s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_2001s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_701s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_1401s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_2001s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_701s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_1401s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_2001s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_701s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_1401s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_2001s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_701s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_1401s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_2001s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="sbsm-7--mw--8-2s-sa-scatter-plots">SBSM, 7 &lt; Mw &lt; 8, 2s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_702s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_1402s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_2002s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_702s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_1402s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_2002s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_702s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_1402s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_2002s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_702s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_1402s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_2002s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_702s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_1402s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_2002s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="sbsm-7--mw--8-3s-sa-scatter-plots">SBSM, 7 &lt; Mw &lt; 8, 3s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_703s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_1403s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_2003s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_703s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_1403s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_2003s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_703s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_1403s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_2003s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_703s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_1403s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_2003s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_703s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_1403s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_2003s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="sbsm-7--mw--8-5s-sa-scatter-plots">SBSM, 7 &lt; Mw &lt; 8, 5s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_705s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_1405s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_2005s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_705s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_1405s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_2005s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_705s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_1405s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_2005s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_705s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_1405s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_2005s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_705s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_1405s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_2005s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="sbsm-7--mw--8-10s-sa-scatter-plots">SBSM, 7 &lt; Mw &lt; 8, 10s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_7010s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_14010s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_20010s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_7010s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_14010s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_20010s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_7010s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_14010s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_20010s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_7010s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_14010s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_20010s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_7010s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_14010s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_20010s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="sbsm-7--mw--8-standard-normal-plots">SBSM, 7 &lt; Mw &lt; 8, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_70_NGAWest_2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_140_NGAWest_2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_200_NGAWest_2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_70_ASK2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_140_ASK2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_200_ASK2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_70_BSSA2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_140_BSSA2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_200_BSSA2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_70_CB2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_140_CB2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_200_CB2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/SBSM_mag_7_8_dist_0_70_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_70_140_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_7_8_dist_140_200_CY2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="sbsm-8--mw--85">SBSM, 8 &lt; Mw &lt; 8.5</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<h4 id="sbsm-8--mw--85-1s-sa-scatter-plots">SBSM, 8 &lt; Mw &lt; 8.5, 1s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_701s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_1401s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_2001s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_701s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_1401s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_2001s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_701s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_1401s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_2001s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_701s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_1401s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_2001s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_701s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_1401s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_2001s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="sbsm-8--mw--85-2s-sa-scatter-plots">SBSM, 8 &lt; Mw &lt; 8.5, 2s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_702s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_1402s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_2002s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_702s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_1402s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_2002s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_702s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_1402s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_2002s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_702s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_1402s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_2002s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_702s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_1402s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_2002s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="sbsm-8--mw--85-3s-sa-scatter-plots">SBSM, 8 &lt; Mw &lt; 8.5, 3s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_703s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_1403s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_2003s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_703s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_1403s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_2003s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_703s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_1403s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_2003s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_703s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_1403s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_2003s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_703s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_1403s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_2003s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="sbsm-8--mw--85-5s-sa-scatter-plots">SBSM, 8 &lt; Mw &lt; 8.5, 5s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_705s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_1405s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_2005s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_705s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_1405s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_2005s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_705s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_1405s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_2005s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_705s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_1405s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_2005s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_705s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_1405s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_2005s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="sbsm-8--mw--85-10s-sa-scatter-plots">SBSM, 8 &lt; Mw &lt; 8.5, 10s SA Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_7010s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_14010s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_20010s_NGAWest_2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_7010s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_14010s_ASK2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_20010s_ASK2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_7010s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_14010s_BSSA2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_20010s_BSSA2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_7010s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_14010s_CB2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_20010s_CB2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_7010s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_14010s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_20010s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="sbsm-8--mw--85-standard-normal-plots">SBSM, 8 &lt; Mw &lt; 8.5, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>GMPE</th><th>0 km &lt; rJB &lt; 70 km</th><th>70 km &lt; rJB &lt; 140 km</th><th>140 km &lt; rJB &lt; 200 km</th></tr>
+</thead>
+<tbody>
+<tr><td>NGAWest_2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_70_NGAWest_2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_140_NGAWest_2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_200_NGAWest_2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td>ASK2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_70_ASK2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_140_ASK2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_200_ASK2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td>BSSA2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_70_BSSA2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_140_BSSA2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_200_BSSA2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td>CB2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_70_CB2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_140_CB2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_200_CB2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td>CY2014</td><td><img src="resources/SBSM_mag_8_8.5_dist_0_70_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_70_140_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_8_8.5_dist_140_200_CY2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
