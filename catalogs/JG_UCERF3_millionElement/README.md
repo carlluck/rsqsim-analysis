@@ -6,3 +6,6 @@
 | Fault/Def Model | Fault Model 3.1, Geologic |
 | Slim Velocity | 1.0 m/s |
 | Average Element Area | 0.23 km^2 |
+
+## Event Comparisons
+* [Event 4099020, M7.35](event_4099020/)

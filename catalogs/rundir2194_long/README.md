@@ -6,3 +6,13 @@
 | Fault/Def Model | Fault Model 3.1, Geologic |
 | Slim Velocity | 1.0 m/s |
 | Average Element Area | 1.34 km^2 |
+
+## Event Comparisons
+* [Event 136704, M7.32](event_136704/)
+
+## GMPE Comparisons
+* [BSSA2014](gmpe_bbp_comparisons_BSSA2014/)
+* [NGAWest_2014](gmpe_bbp_comparisons_NGAWest_2014/)
+* [CY2014](gmpe_bbp_comparisons_CY2014/)
+* [CB2014](gmpe_bbp_comparisons_CB2014/)
+* [ASK2014](gmpe_bbp_comparisons_ASK2014/)
