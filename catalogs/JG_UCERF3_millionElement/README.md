@@ -6,6 +6,7 @@
 | Fault/Def Model | Fault Model 3.1, Geologic |
 | Slip Velocity | 1.0 m/s |
 | Average Element Area | 0.23 km^2 |
+| Length | 5,587,999 events in 7,481 years |
 
 ## Event Comparisons
 * [Event 4099020, M7.35](event_4099020/)
