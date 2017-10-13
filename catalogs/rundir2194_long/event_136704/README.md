@@ -68,9 +68,13 @@
 #### USC Acceleration Seismograms
 *[(top)](#table-of-contents)*
 
+RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
+
 ![USC Acceleration Seismograms](resources/seis_accel_USC.png)
 #### USC Velocity Seismograms
 *[(top)](#table-of-contents)*
+
+RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
 
 ![USC Velocity Seismograms](resources/seis_vel_USC.png)
 ### Site SBSM
@@ -95,8 +99,12 @@
 #### SBSM Acceleration Seismograms
 *[(top)](#table-of-contents)*
 
+RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
+
 ![SBSM Acceleration Seismograms](resources/seis_accel_SBSM.png)
 #### SBSM Velocity Seismograms
 *[(top)](#table-of-contents)*
+
+RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
 
 ![SBSM Velocity Seismograms](resources/seis_vel_SBSM.png)
