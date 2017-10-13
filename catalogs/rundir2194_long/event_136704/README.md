@@ -2,6 +2,8 @@
 
 [Catalog Details](../#bruce-2194-long)
 
+**Graves & Pitarka (2015) Simulations: 200**
+
 ## Table Of Contents
 * [Rupture Plots](#rupture-plots)
   * [Slip/Time Plot](#sliptime-plot)
@@ -66,13 +68,9 @@
 #### USC Acceleration Seismograms
 *[(top)](#table-of-contents)*
 
-RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
-
 ![USC Acceleration Seismograms](resources/seis_accel_USC.png)
 #### USC Velocity Seismograms
 *[(top)](#table-of-contents)*
-
-RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
 
 ![USC Velocity Seismograms](resources/seis_vel_USC.png)
 ### Site SBSM
@@ -82,7 +80,7 @@ RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparison
 
 | Distance | Actual RSQSim Surface | BBP Equivalent Planar Surface | GMPE Surface |
 |-----|-----|-----|-----|
-| Horizontal | 6.95 km | 31.03 km | 31.15 km |
+| Horizontal | 6.94 km | 31.03 km | 31.15 km |
 | 3-D | 7.45 km | 31.03 km | 31.15 km |
 
 *NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.*
@@ -97,12 +95,8 @@ RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparison
 #### SBSM Acceleration Seismograms
 *[(top)](#table-of-contents)*
 
-RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
-
 ![SBSM Acceleration Seismograms](resources/seis_accel_SBSM.png)
 #### SBSM Velocity Seismograms
 *[(top)](#table-of-contents)*
-
-RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
 
 ![SBSM Velocity Seismograms](resources/seis_vel_SBSM.png)
