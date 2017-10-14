@@ -20,6 +20,7 @@
     * [SBSM RotD50 Spectra](#sbsm-rotd50-spectra)
     * [SBSM Acceleration Seismograms](#sbsm-acceleration-seismograms)
     * [SBSM Velocity Seismograms](#sbsm-velocity-seismograms)
+* [ShakeMaps](#shakemaps)
 ## Rupture Plots
 *[(top)](#table-of-contents)*
 
@@ -108,3 +109,14 @@ RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparison
 RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
 
 ![SBSM Velocity Seismograms](resources/seis_vel_SBSM.png)
+
+## ShakeMaps
+*[(top)](#table-of-contents)*
+
+
+| SA Period | RSQSim | NGAWest_2014_NoIdr | Ratio |
+|-----|-----|-----|-----|
+| **1.0 s** | ![RSQSim Map](resources/shakemap_1s.png) | ![NGAWest_2014_NoIdr Map](resources/shakemap_1s_NGAWest_2014_NoIdr.png) | ![NGAWest_2014_NoIdr Ratio](resources/shakemap_1s_NGAWest_2014_NoIdr_ratio.png) |
+| **2.0 s** | ![RSQSim Map](resources/shakemap_2s.png) | ![NGAWest_2014_NoIdr Map](resources/shakemap_2s_NGAWest_2014_NoIdr.png) | ![NGAWest_2014_NoIdr Ratio](resources/shakemap_2s_NGAWest_2014_NoIdr_ratio.png) |
+| **5.0 s** | ![RSQSim Map](resources/shakemap_5s.png) | ![NGAWest_2014_NoIdr Map](resources/shakemap_5s_NGAWest_2014_NoIdr.png) | ![NGAWest_2014_NoIdr Ratio](resources/shakemap_5s_NGAWest_2014_NoIdr_ratio.png) |
+| **10.0 s** | ![RSQSim Map](resources/shakemap_10s.png) | ![NGAWest_2014_NoIdr Map](resources/shakemap_10s_NGAWest_2014_NoIdr.png) | ![NGAWest_2014_NoIdr Ratio](resources/shakemap_10s_NGAWest_2014_NoIdr_ratio.png) |
