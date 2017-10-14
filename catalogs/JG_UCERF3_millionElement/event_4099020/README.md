@@ -118,5 +118,8 @@ RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparison
 |-----|-----|-----|-----|
 | **1.0 s** | ![RSQSim Map](resources/shakemap_1s.png) | ![NGAWest_2014_NoIdr Map](resources/shakemap_1s_NGAWest_2014_NoIdr.png) | ![NGAWest_2014_NoIdr Ratio](resources/shakemap_1s_NGAWest_2014_NoIdr_ratio.png) |
 | **2.0 s** | ![RSQSim Map](resources/shakemap_2s.png) | ![NGAWest_2014_NoIdr Map](resources/shakemap_2s_NGAWest_2014_NoIdr.png) | ![NGAWest_2014_NoIdr Ratio](resources/shakemap_2s_NGAWest_2014_NoIdr_ratio.png) |
+| **3.0 s** | ![RSQSim Map](resources/shakemap_3s.png) | ![NGAWest_2014_NoIdr Map](resources/shakemap_3s_NGAWest_2014_NoIdr.png) | ![NGAWest_2014_NoIdr Ratio](resources/shakemap_3s_NGAWest_2014_NoIdr_ratio.png) |
+| **4.0 s** | ![RSQSim Map](resources/shakemap_4s.png) | ![NGAWest_2014_NoIdr Map](resources/shakemap_4s_NGAWest_2014_NoIdr.png) | ![NGAWest_2014_NoIdr Ratio](resources/shakemap_4s_NGAWest_2014_NoIdr_ratio.png) |
 | **5.0 s** | ![RSQSim Map](resources/shakemap_5s.png) | ![NGAWest_2014_NoIdr Map](resources/shakemap_5s_NGAWest_2014_NoIdr.png) | ![NGAWest_2014_NoIdr Ratio](resources/shakemap_5s_NGAWest_2014_NoIdr_ratio.png) |
+| **7.5 s** | ![RSQSim Map](resources/shakemap_7.5s.png) | ![NGAWest_2014_NoIdr Map](resources/shakemap_7.5s_NGAWest_2014_NoIdr.png) | ![NGAWest_2014_NoIdr Ratio](resources/shakemap_7.5s_NGAWest_2014_NoIdr_ratio.png) |
 | **10.0 s** | ![RSQSim Map](resources/shakemap_10s.png) | ![NGAWest_2014_NoIdr Map](resources/shakemap_10s_NGAWest_2014_NoIdr.png) | ![NGAWest_2014_NoIdr Ratio](resources/shakemap_10s_NGAWest_2014_NoIdr_ratio.png) |
