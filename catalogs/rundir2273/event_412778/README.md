@@ -38,7 +38,7 @@
 ### Slip/Vel Animation
 *[(top)](#table-of-contents)*
 
-![Slip/Time Plot](resources/rupture_plot_412778.gif)
+[Click here to view Slip/Velocity Animation](resources/rupture_plot_412778.gif)
 ### Map Plot
 *[(top)](#table-of-contents)*
 

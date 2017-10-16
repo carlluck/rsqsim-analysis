@@ -7,5 +7,3 @@ else
 	git commit
 fi
 git push
-
-./synch_large.sh
