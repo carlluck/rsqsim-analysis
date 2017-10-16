@@ -38,7 +38,7 @@
 ### Slip/Vel Animation
 *[(top)](#table-of-contents)*
 
-![Slip/Time Plot](resources/rupture_plot_3802809.gif)
+![Slip/Time Plot](http://opensha.usc.edu/ftp/kmilner/simulators/rsqsim-analysis/large_files/rundir2310-rupture_plot_3802809.gif)
 ### Map Plot
 *[(top)](#table-of-contents)*
 
