@@ -88,11 +88,21 @@
 </li>
 </ul>
 </li>
+<li><a href="#hazard-curves">Hazard Curves</a></li>
 </ul>
 <h2 id="all-sites-aggregated">All Sites Aggregated</h2>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><em>2 sites</em>
-6705 ruptures within 200.0 km of <em>any</em> site</p>
+<p><strong>2 sites</strong></p>
+<table>
+<thead>
+<tr><th>Name</th><th>Location</th><th># Events</th></tr>
+</thead>
+<tbody>
+<tr><td>USC</td><td><em>34.0192, -118.286</em></td><td>5580</td></tr>
+<tr><td>SBSM</td><td><em>34.064987, -117.29201</em></td><td>5911</td></tr>
+</tbody>
+</table>
+<p>6705 ruptures within 200.0 km of <em>any</em> site</p>
 <h3 id="all-sites-6--mw--65">All Sites, 6 &lt; Mw &lt; 6.5</h3>
 <p>2624 Ruptures</p>
 <h4 id="all-sites-6--mw--65-scatter-plots">All Sites, 6 &lt; Mw &lt; 6.5, Scatter Plots</h4>
@@ -615,5 +625,23 @@
 <tr><td><img src="resources/SBSM_mag_7.5_8_dist_0_10_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_7.5_8_dist_10_20_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_7.5_8_dist_20_40_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
 <tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
 <tr><td><img src="resources/SBSM_mag_7.5_8_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_7.5_8_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBSM_mag_7.5_8_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h2 id="hazard-curves">Hazard Curves</h2>
+<p><strong>Legend</strong>:</p>
+<ul>
+<li>Black Solid Line: RSQSim/BBP</li>
+<li>Blue Solid Line: NGAWest_2014_NoIdr</li>
+<li>Blue Dashed Line: NGAWest_2014_NoIdr 3-sigma truncation</li>
+<li>Blue Dotted Line: NGAWest_2014_NoIdr 2-sigma truncation</li>
+<li>Gray Dashed Lines: 1000 yr, 2500 yr, 10000 yr return periods</li>
+</ul>
+<table>
+<thead>
+<tr><th>Site</th><th>1s</th><th>2s</th><th>5s</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>USC</strong></td><td><img src="resources/USC_curves_1.0s_NGAWest_2014_NoIdr.png" alt="Hazard Curve" /></td><td><img src="resources/USC_curves_2.0s_NGAWest_2014_NoIdr.png" alt="Hazard Curve" /></td><td><img src="resources/USC_curves_5.0s_NGAWest_2014_NoIdr.png" alt="Hazard Curve" /></td></tr>
+<tr><td><strong>SBSM</strong></td><td><img src="resources/SBSM_curves_1.0s_NGAWest_2014_NoIdr.png" alt="Hazard Curve" /></td><td><img src="resources/SBSM_curves_2.0s_NGAWest_2014_NoIdr.png" alt="Hazard Curve" /></td><td><img src="resources/SBSM_curves_5.0s_NGAWest_2014_NoIdr.png" alt="Hazard Curve" /></td></tr>
 </tbody>
 </table>

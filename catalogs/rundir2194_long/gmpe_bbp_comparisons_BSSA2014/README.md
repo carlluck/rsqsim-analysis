@@ -54,10 +54,16 @@ Ruptures are binned by their moment magnitude (**Mw**) and the Joyner-Boore dist
   * [SBSM, 8 < Mw < 8.5](#sbsm-8--mw--85)
     * [SBSM, 8 < Mw < 8.5, Scatter Plots](#sbsm-8--mw--85-scatter-plots)
     * [SBSM, 8 < Mw < 8.5, Standard Normal Plots](#sbsm-8--mw--85-standard-normal-plots)
+* [Hazard Curves](#hazard-curves)
 ## All Sites Aggregated
 *[(top)](#table-of-contents)*
 
-*2 sites*
+**2 sites**
+
+| Name | Location | # Events |
+|-----|-----|-----|
+| USC | *34.0192, -118.286* | 187952 |
+| SBSM | *34.064987, -117.29201* | 195169 |
 227953 ruptures within 200.0 km of *any* site
 ### All Sites, 6 < Mw < 6.5
 149943 Ruptures
@@ -594,3 +600,16 @@ These plots compare RSQSim to the full GMPE log-normal distributions. Each ruptu
 | ![Standard Normal Plot](resources/SBSM_mag_8_8.5_dist_0_10_BSSA2014_std_norm.png) | ![Standard Normal Plot](resources/SBSM_mag_8_8.5_dist_10_20_BSSA2014_std_norm.png) | ![Standard Normal Plot](resources/SBSM_mag_8_8.5_dist_20_40_BSSA2014_std_norm.png) |
 | **40 km < rJB < 80 km** | **80 km < rJB < 160 km** | **160 km < rJB < 200 km** |
 | ![Standard Normal Plot](resources/SBSM_mag_8_8.5_dist_40_80_BSSA2014_std_norm.png) | ![Standard Normal Plot](resources/SBSM_mag_8_8.5_dist_80_160_BSSA2014_std_norm.png) | ![Standard Normal Plot](resources/SBSM_mag_8_8.5_dist_160_200_BSSA2014_std_norm.png) |
+## Hazard Curves
+
+**Legend**:
+* Black Solid Line: RSQSim/BBP
+* Blue Solid Line: BSSA2014
+* Blue Dashed Line: BSSA2014 3-sigma truncation
+* Blue Dotted Line: BSSA2014 2-sigma truncation
+* Gray Dashed Lines: 1000 yr, 2500 yr, 10000 yr return periods
+
+| Site | 1s | 2s | 5s |
+|-----|-----|-----|-----|
+| **USC** | ![Hazard Curve](resources/USC_curves_1.0s_BSSA2014.png) | ![Hazard Curve](resources/USC_curves_2.0s_BSSA2014.png) | ![Hazard Curve](resources/USC_curves_5.0s_BSSA2014.png) |
+| **SBSM** | ![Hazard Curve](resources/SBSM_curves_1.0s_BSSA2014.png) | ![Hazard Curve](resources/SBSM_curves_2.0s_BSSA2014.png) | ![Hazard Curve](resources/SBSM_curves_5.0s_BSSA2014.png) |
