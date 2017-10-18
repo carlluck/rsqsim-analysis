@@ -8,3 +8,6 @@ faults surface breaking), same as rundir2310 but less resolved |
 | Slip Velocity | 1.0 m/s |
 | Average Element Area | 1.35 km^2 |
 | Length | 9,999,999 events in 320,117 years |
+
+## Event Comparisons
+* [Event 6195527, M7.52](event_6195527/)
