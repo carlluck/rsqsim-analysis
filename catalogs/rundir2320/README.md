@@ -14,6 +14,7 @@ faults surface breaking), same as rundir2310 but less resolved |
 * [Single Event Comparisons](#single-event-comparisons)
 * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
 * [Magnitude-Area Plots](#magnitude-area-plots)
+* [Rupture Velocity Plots](#rupture-velocity-plots)
 * [Interevent-Time Distributions](#interevent-time-distributions)
 
 ## Single Event Comparisons
@@ -24,6 +25,7 @@ faults surface breaking), same as rundir2310 but less resolved |
 | Scatter | 2-D Hist |
 |-----|-----|
 | ![MFD Scatter](resources/mag_area.png) | ![MFD Hist](resources/mag_area_hist2D.png) |
+## Rupture Velocity Plots
 | **Scatter** | ![Rupture Velocity Scatter](resources/rupture_velocity_scatter.png) |
 |-----|-----|
 | **Distance/Velocity** | ![Rupture Velocity vs Dist](resources/rupture_velocity_vs_dist.png) |
