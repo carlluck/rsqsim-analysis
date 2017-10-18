@@ -9,6 +9,7 @@
   * [Slip/Time Plot](#sliptime-plot)
   * [Slip/Vel Animation](#slipvel-animation)
   * [Map Plot](#map-plot)
+  * [Rupture Velocity Plot](#rupture-velocity-plot)
 * [Spectra Plots](#spectra-plots)
   * [Site USC](#site-usc)
     * [USC Fourier Amplitude Spectra](#usc-fourier-amplitude-spectra)
@@ -43,6 +44,10 @@
 *[(top)](#table-of-contents)*
 
 ![Map Plot](resources/rupture_map_plot_136704.png)
+### Rupture Velocity Plot
+*[(top)](#table-of-contents)*
+
+![Rupture Velocity Plot](resources/rupture_velocity_scatter_dist.png)
 
 ## Spectra Plots
 *[(top)](#table-of-contents)*
