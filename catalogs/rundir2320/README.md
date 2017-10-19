@@ -22,24 +22,29 @@ faults surface breaking), same as rundir2310 but less resolved |
 
 ## Single Event Comparisons
 *[(top)](#bruce-2320)*
+
 * [Event 6195527, M7.52](event_6195527/)
 
 ## Plots
 ### Magnitude-Frequency Plot
 *[(top)](#bruce-2320)*
+
 ![MFD](resources/mfd.png)
 ### Magnitude-Area Plots
 *[(top)](#bruce-2320)*
+
 | Scatter | 2-D Hist |
 |-----|-----|
 | ![MFD Scatter](resources/mag_area.png) | ![MFD Hist](resources/mag_area_hist2D.png) |
 ### Rupture Velocity Plots
 *[(top)](#bruce-2320)*
+
 | **Scatter** | ![Rupture Velocity Scatter](resources/rupture_velocity_scatter.png) |
 |-----|-----|
 | **Distance/Velocity** | ![Rupture Velocity vs Dist](resources/rupture_velocity_vs_dist.png) |
 ### Interevent-Time Distributions
 *[(top)](#bruce-2320)*
+
 | **M≥6** | **M≥6.5** | **M≥7** | **M≥7.5** |
 |-----|-----|-----|-----|
 | ![Interevent Times](resources/interevent_times_m6.png) | ![Interevent Times](resources/interevent_times_m6.5.png) | ![Interevent Times](resources/interevent_times_m7.png) | ![Interevent Times](resources/interevent_times_m7.5.png) |

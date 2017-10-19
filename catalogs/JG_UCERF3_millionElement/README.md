@@ -21,24 +21,29 @@
 
 ## Single Event Comparisons
 *[(top)](#u3-1mil-element-test)*
+
 * [Event 4099020, M7.35](event_4099020/)
 
 ## Plots
 ### Magnitude-Frequency Plot
 *[(top)](#u3-1mil-element-test)*
+
 ![MFD](resources/mfd.png)
 ### Magnitude-Area Plots
 *[(top)](#u3-1mil-element-test)*
+
 | Scatter | 2-D Hist |
 |-----|-----|
 | ![MFD Scatter](resources/mag_area.png) | ![MFD Hist](resources/mag_area_hist2D.png) |
 ### Rupture Velocity Plots
 *[(top)](#u3-1mil-element-test)*
+
 | **Scatter** | ![Rupture Velocity Scatter](resources/rupture_velocity_scatter.png) |
 |-----|-----|
 | **Distance/Velocity** | ![Rupture Velocity vs Dist](resources/rupture_velocity_vs_dist.png) |
 ### Interevent-Time Distributions
 *[(top)](#u3-1mil-element-test)*
+
 | **M≥6** | **M≥6.5** | **M≥7** | **M≥7.5** |
 |-----|-----|-----|-----|
 | ![Interevent Times](resources/interevent_times_m6.png) | ![Interevent Times](resources/interevent_times_m6.5.png) | ![Interevent Times](resources/interevent_times_m7.png) | ![Interevent Times](resources/interevent_times_m7.5.png) |
