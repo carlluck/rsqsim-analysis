@@ -13,6 +13,7 @@ faults surface breaking), same as rundir2310 but less resolved |
 
 * [Metadata](#metadata)
 * [Single Event Comparisons](#single-event-comparisons)
+* [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
@@ -24,6 +25,12 @@ faults surface breaking), same as rundir2310 but less resolved |
 *[(top)](#bruce-2320)*
 
 * [Event 6195527, M7.52](event_6195527/)
+
+## Full Catalog GMPE Comparisons
+*[(top)](#bruce-2320)*
+
+* [BSSA2014](gmpe_bbp_comparisons_BSSA2014/)
+* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
 
 ## Plots
 ### Magnitude-Frequency Plot
