@@ -58,15 +58,23 @@ Ruptures are binned by their moment magnitude (**Mw**) and the Joyner-Boore dist
 ## All Sites Aggregated
 *[(top)](#table-of-contents)*
 
-**2 sites**
+**10 sites**
 
 | Name | Location | # Events |
 |-----|-----|-----|
 | USC | *34.0192, -118.286* | 2495 |
 | SBSM | *34.064987, -117.29201* | 3116 |
-3320 ruptures within 200.0 km of *any* site
+| Los Angeles | *34.05, -118.25* | 2513 |
+| Riverside | *33.95, -117.4* | 3113 |
+| San Diego | *32.7, -117.15* | 3009 |
+| Santa Barbara | *34.45, -119.7* | 1589 |
+| Oakland | *37.8, -122.25* | 3951 |
+| Sacramento | *38.6, -121.5* | 3738 |
+| San Francisco | *37.75, -122.4* | 3919 |
+| San Jose | *37.35, -121.9* | 3934 |
+8126 ruptures within 200.0 km of *any* site
 ### All Sites, 6 < Mw < 6.5
-1014 Ruptures
+2819 Ruptures
 #### All Sites, 6 < Mw < 6.5, Scatter Plots
 *[(top)](#table-of-contents)*
 
@@ -101,7 +109,7 @@ These plots compare RSQSim to the full GMPE log-normal distributions. Each ruptu
 | **40 km < rJB < 80 km** | **80 km < rJB < 160 km** | **160 km < rJB < 200 km** |
 | ![Standard Normal Plot](resources/All_Sites_mag_6_6.5_dist_40_80_BSSA2014_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_6_6.5_dist_80_160_BSSA2014_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_6_6.5_dist_160_200_BSSA2014_std_norm.png) |
 ### All Sites, 6.5 < Mw < 7
-675 Ruptures
+1849 Ruptures
 #### All Sites, 6.5 < Mw < 7, Scatter Plots
 *[(top)](#table-of-contents)*
 
@@ -136,7 +144,7 @@ These plots compare RSQSim to the full GMPE log-normal distributions. Each ruptu
 | **40 km < rJB < 80 km** | **80 km < rJB < 160 km** | **160 km < rJB < 200 km** |
 | ![Standard Normal Plot](resources/All_Sites_mag_6.5_7_dist_40_80_BSSA2014_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_6.5_7_dist_80_160_BSSA2014_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_6.5_7_dist_160_200_BSSA2014_std_norm.png) |
 ### All Sites, 7 < Mw < 7.5
-1060 Ruptures
+2504 Ruptures
 #### All Sites, 7 < Mw < 7.5, Scatter Plots
 *[(top)](#table-of-contents)*
 
@@ -171,7 +179,7 @@ These plots compare RSQSim to the full GMPE log-normal distributions. Each ruptu
 | **40 km < rJB < 80 km** | **80 km < rJB < 160 km** | **160 km < rJB < 200 km** |
 | ![Standard Normal Plot](resources/All_Sites_mag_7_7.5_dist_40_80_BSSA2014_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_7_7.5_dist_80_160_BSSA2014_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_7_7.5_dist_160_200_BSSA2014_std_norm.png) |
 ### All Sites, 7.5 < Mw < 8
-537 Ruptures
+913 Ruptures
 #### All Sites, 7.5 < Mw < 8, Scatter Plots
 *[(top)](#table-of-contents)*
 
@@ -206,7 +214,7 @@ These plots compare RSQSim to the full GMPE log-normal distributions. Each ruptu
 | **40 km < rJB < 80 km** | **80 km < rJB < 160 km** | **160 km < rJB < 200 km** |
 | ![Standard Normal Plot](resources/All_Sites_mag_7.5_8_dist_40_80_BSSA2014_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_7.5_8_dist_80_160_BSSA2014_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_7.5_8_dist_160_200_BSSA2014_std_norm.png) |
 ### All Sites, 8 < Mw < 8.5
-34 Ruptures
+41 Ruptures
 #### All Sites, 8 < Mw < 8.5, Scatter Plots
 *[(top)](#table-of-contents)*
 
@@ -221,8 +229,8 @@ These plots compare RSQSim to the full GMPE log-normal distributions. Each ruptu
 | **10 km < rJB < 20 km** | ![Scatter Plot](resources/All_Sites_mag_8_8.5_dist_10_20_1s_BSSA2014_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_8_8.5_dist_10_20_2s_BSSA2014_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_8_8.5_dist_10_20_5s_BSSA2014_scatter.png) |
 | **20 km < rJB < 40 km** | ![Scatter Plot](resources/All_Sites_mag_8_8.5_dist_20_40_1s_BSSA2014_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_8_8.5_dist_20_40_2s_BSSA2014_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_8_8.5_dist_20_40_5s_BSSA2014_scatter.png) |
 | **40 km < rJB < 80 km** | ![Scatter Plot](resources/All_Sites_mag_8_8.5_dist_40_80_1s_BSSA2014_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_8_8.5_dist_40_80_2s_BSSA2014_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_8_8.5_dist_40_80_5s_BSSA2014_scatter.png) |
-| **80 km < rJB < 160 km** | N/A | N/A | N/A |
-| **160 km < rJB < 200 km** | N/A | N/A | N/A |
+| **80 km < rJB < 160 km** | ![Scatter Plot](resources/All_Sites_mag_8_8.5_dist_80_160_1s_BSSA2014_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_8_8.5_dist_80_160_2s_BSSA2014_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_8_8.5_dist_80_160_5s_BSSA2014_scatter.png) |
+| **160 km < rJB < 200 km** | ![Scatter Plot](resources/All_Sites_mag_8_8.5_dist_160_200_1s_BSSA2014_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_8_8.5_dist_160_200_2s_BSSA2014_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_8_8.5_dist_160_200_5s_BSSA2014_scatter.png) |
 #### All Sites, 8 < Mw < 8.5, Standard Normal Plots
 *[(top)](#table-of-contents)*
 
@@ -239,7 +247,7 @@ These plots compare RSQSim to the full GMPE log-normal distributions. Each ruptu
 |-----|-----|-----|
 | ![Standard Normal Plot](resources/All_Sites_mag_8_8.5_dist_0_10_BSSA2014_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_8_8.5_dist_10_20_BSSA2014_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_8_8.5_dist_20_40_BSSA2014_std_norm.png) |
 | **40 km < rJB < 80 km** | **80 km < rJB < 160 km** | **160 km < rJB < 200 km** |
-| ![Standard Normal Plot](resources/All_Sites_mag_8_8.5_dist_40_80_BSSA2014_std_norm.png) | N/A | N/A |
+| ![Standard Normal Plot](resources/All_Sites_mag_8_8.5_dist_40_80_BSSA2014_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_8_8.5_dist_80_160_BSSA2014_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_8_8.5_dist_160_200_BSSA2014_std_norm.png) |
 ## Site USC
 *[(top)](#table-of-contents)*
 
@@ -613,3 +621,11 @@ These plots compare RSQSim to the full GMPE log-normal distributions. Each ruptu
 |-----|-----|-----|-----|
 | **USC** | ![Hazard Curve](resources/USC_curves_1.0s_BSSA2014.png) | ![Hazard Curve](resources/USC_curves_2.0s_BSSA2014.png) | ![Hazard Curve](resources/USC_curves_5.0s_BSSA2014.png) |
 | **SBSM** | ![Hazard Curve](resources/SBSM_curves_1.0s_BSSA2014.png) | ![Hazard Curve](resources/SBSM_curves_2.0s_BSSA2014.png) | ![Hazard Curve](resources/SBSM_curves_5.0s_BSSA2014.png) |
+| **Los Angeles** | ![Hazard Curve](resources/Los_Angeles_curves_1.0s_BSSA2014.png) | ![Hazard Curve](resources/Los_Angeles_curves_2.0s_BSSA2014.png) | ![Hazard Curve](resources/Los_Angeles_curves_5.0s_BSSA2014.png) |
+| **Riverside** | ![Hazard Curve](resources/Riverside_curves_1.0s_BSSA2014.png) | ![Hazard Curve](resources/Riverside_curves_2.0s_BSSA2014.png) | ![Hazard Curve](resources/Riverside_curves_5.0s_BSSA2014.png) |
+| **San Diego** | ![Hazard Curve](resources/San_Diego_curves_1.0s_BSSA2014.png) | ![Hazard Curve](resources/San_Diego_curves_2.0s_BSSA2014.png) | ![Hazard Curve](resources/San_Diego_curves_5.0s_BSSA2014.png) |
+| **Santa Barbara** | ![Hazard Curve](resources/Santa_Barbara_curves_1.0s_BSSA2014.png) | ![Hazard Curve](resources/Santa_Barbara_curves_2.0s_BSSA2014.png) | ![Hazard Curve](resources/Santa_Barbara_curves_5.0s_BSSA2014.png) |
+| **Oakland** | ![Hazard Curve](resources/Oakland_curves_1.0s_BSSA2014.png) | ![Hazard Curve](resources/Oakland_curves_2.0s_BSSA2014.png) | ![Hazard Curve](resources/Oakland_curves_5.0s_BSSA2014.png) |
+| **Sacramento** | ![Hazard Curve](resources/Sacramento_curves_1.0s_BSSA2014.png) | ![Hazard Curve](resources/Sacramento_curves_2.0s_BSSA2014.png) | ![Hazard Curve](resources/Sacramento_curves_5.0s_BSSA2014.png) |
+| **San Francisco** | ![Hazard Curve](resources/San_Francisco_curves_1.0s_BSSA2014.png) | ![Hazard Curve](resources/San_Francisco_curves_2.0s_BSSA2014.png) | ![Hazard Curve](resources/San_Francisco_curves_5.0s_BSSA2014.png) |
+| **San Jose** | ![Hazard Curve](resources/San_Jose_curves_1.0s_BSSA2014.png) | ![Hazard Curve](resources/San_Jose_curves_2.0s_BSSA2014.png) | ![Hazard Curve](resources/San_Jose_curves_5.0s_BSSA2014.png) |
