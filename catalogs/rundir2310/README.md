@@ -18,6 +18,7 @@
   * [Magnitude-Area Plots](#magnitude-area-plots)
   * [Rupture Velocity Plots](#rupture-velocity-plots)
   * [Interevent-Time Distributions](#interevent-time-distributions)
+  * [Stationarity Plot](#stationarity-plot)
 * [Input File](#input-file)
 
 ## Single Event Comparisons
@@ -54,6 +55,10 @@
 | **M≥6** | **M≥6.5** | **M≥7** | **M≥7.5** |
 |-----|-----|-----|-----|
 | ![Interevent Times](resources/interevent_times_m6.png) | ![Interevent Times](resources/interevent_times_m6.5.png) | ![Interevent Times](resources/interevent_times_m7.png) | ![Interevent Times](resources/interevent_times_m7.5.png) |
+### Stationarity Plot
+*[(top)](#bruce-2310)*
+
+![Stationarity](resources/stationarity.png)
 
 ## Input File
 *[(top)](#bruce-2310)*
