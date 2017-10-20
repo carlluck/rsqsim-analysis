@@ -11,6 +11,7 @@
 | **Frictional Params** | a=0.001, b=0.008, (b-a)=0.007, ddotEQ=2.0 |
 
 * [Metadata](#metadata)
+* [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
@@ -18,6 +19,12 @@
   * [Interevent-Time Distributions](#interevent-time-distributions)
   * [Stationarity Plot](#stationarity-plot)
 * [Input File](#input-file)
+
+## Full Catalog GMPE Comparisons
+*[(top)](#bruce-2337)*
+
+* [BSSA2014](gmpe_bbp_comparisons_BSSA2014/)
+* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
 
 ## Plots
 ### Magnitude-Frequency Plot
