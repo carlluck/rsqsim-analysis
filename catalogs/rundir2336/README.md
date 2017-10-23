@@ -13,6 +13,7 @@
 * [Metadata](#metadata)
 * [Single Event Comparisons](#single-event-comparisons)
 * [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
+* [Full Catalog GMPE Comparisons with BBP Rupture Generator](#full-catalog-gmpe-comparisons-with-bbp-rupture-generator)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
@@ -31,6 +32,12 @@
 
 * [BSSA2014](gmpe_bbp_comparisons_BSSA2014/)
 * [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
+
+## Full Catalog GMPE Comparisons with BBP Rupture Generator
+*[(top)](#bruce-2336)*
+
+* [NGAWest_2014_NoIdr](gmpe_bbp_rg_comparisons_NGAWest_2014_NoIdr/)
+* [BSSA2014](gmpe_bbp_rg_comparisons_BSSA2014/)
 
 ## Plots
 ### Magnitude-Frequency Plot
