@@ -3,6 +3,7 @@
 | Date | Name | Duration | Element Area | Description |
 |-----|-----|-----|-----|-----|
 | 2017/10/23 | [Bruce 2326](rundir2326#bruce-2326) | 161,366 yrs | 1.35 km | reference_1: a=.001 b=.008  Veq=1.0  sigmaN=100. backslipFromStress |
+| 2017/10/23 | [Bruce 2342](rundir2342#bruce-2342) | 542,088 yrs | 1.35 km | larger Veq=1.2          relative to reference_1 |
 | 2017/10/20 | [Bruce 2336](rundir2336#bruce-2336) | 63,498 yrs | 1.35 km | Larger slip velocity (1.5 m/s), backslipFromStress loading |
 | 2017/10/20 | [Bruce 2337](rundir2337#bruce-2337) | 59,520 yrs | 1.35 km | Larger slip velocity (2.0 m/s), backslipFromStress loading |
 | 2017/10/17 | [Bruce 2320](rundir2320#bruce-2320) | 320,117 yrs | 1.35 km | Backslip loading, less refined geometry, projection fix (but all faults surface breaking), same as rundir2310 but less resolved |
