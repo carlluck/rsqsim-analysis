@@ -13,6 +13,7 @@ Ruptures are binned by their moment magnitude (**Mw**) and the Joyner-Boore dist
   * [All Sites, 7.5 < Mw < 8](#all-sites-75--mw--8)
     * [All Sites, 7.5 < Mw < 8, Scatter Plots](#all-sites-75--mw--8-scatter-plots)
     * [All Sites, 7.5 < Mw < 8, Standard Normal Plots](#all-sites-75--mw--8-standard-normal-plots)
+  * [All Sites, All Ruptures, Standard Normal Plots](#all-sites-all-ruptures-standard-normal-plots)
 * [Site USC](#site-usc)
   * [USC, 7 < Mw < 7.5](#usc-7--mw--75)
     * [USC, 7 < Mw < 7.5, Scatter Plots](#usc-7--mw--75-scatter-plots)
@@ -20,6 +21,7 @@ Ruptures are binned by their moment magnitude (**Mw**) and the Joyner-Boore dist
   * [USC, 7.5 < Mw < 8](#usc-75--mw--8)
     * [USC, 7.5 < Mw < 8, Scatter Plots](#usc-75--mw--8-scatter-plots)
     * [USC, 7.5 < Mw < 8, Standard Normal Plots](#usc-75--mw--8-standard-normal-plots)
+  * [USC, All Ruptures, Standard Normal Plots](#usc-all-ruptures-standard-normal-plots)
 * [Site SBSM](#site-sbsm)
   * [SBSM, 7 < Mw < 7.5](#sbsm-7--mw--75)
     * [SBSM, 7 < Mw < 7.5, Scatter Plots](#sbsm-7--mw--75-scatter-plots)
@@ -27,6 +29,7 @@ Ruptures are binned by their moment magnitude (**Mw**) and the Joyner-Boore dist
   * [SBSM, 7.5 < Mw < 8](#sbsm-75--mw--8)
     * [SBSM, 7.5 < Mw < 8, Scatter Plots](#sbsm-75--mw--8-scatter-plots)
     * [SBSM, 7.5 < Mw < 8, Standard Normal Plots](#sbsm-75--mw--8-standard-normal-plots)
+  * [SBSM, All Ruptures, Standard Normal Plots](#sbsm-all-ruptures-standard-normal-plots)
 * [Hazard Curves](#hazard-curves)
 ## All Sites Aggregated
 *[(top)](#table-of-contents)*
@@ -116,6 +119,20 @@ These plots compare RSQSim to the full GMPE log-normal distributions. Each ruptu
 | ![Standard Normal Plot](resources/All_Sites_mag_7.5_8_dist_0_10_BSSA2014_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_7.5_8_dist_10_20_BSSA2014_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_7.5_8_dist_20_40_BSSA2014_std_norm.png) |
 | **40 km < rJB < 80 km** | **80 km < rJB < 160 km** | **160 km < rJB < 200 km** |
 | ![Standard Normal Plot](resources/All_Sites_mag_7.5_8_dist_40_80_BSSA2014_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_7.5_8_dist_80_160_BSSA2014_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_7.5_8_dist_160_200_BSSA2014_std_norm.png) |
+### All Sites, All Ruptures, Standard Normal Plots
+*[(top)](#table-of-contents)*
+
+
+z-score standard normal plots across all magnitudes/distances
+
+**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-sigma*
+
+**Legend**
+* Black Line: Standard Normal distribution (in natural log space)
+* Gray Histogram: z-score for each rupture
+* Blue Dashed Line: RSQSim Mean
+
+![Standard Normal Plot](resources/All_Sites_all_mags_all_dists_BSSA2014_std_norm.png)
 ## Site USC
 *[(top)](#table-of-contents)*
 
@@ -191,6 +208,20 @@ These plots compare RSQSim to the full GMPE log-normal distributions. Each ruptu
 | ![Standard Normal Plot](resources/USC_mag_7.5_8_dist_0_10_BSSA2014_std_norm.png) | ![Standard Normal Plot](resources/USC_mag_7.5_8_dist_10_20_BSSA2014_std_norm.png) | ![Standard Normal Plot](resources/USC_mag_7.5_8_dist_20_40_BSSA2014_std_norm.png) |
 | **40 km < rJB < 80 km** | **80 km < rJB < 160 km** | **160 km < rJB < 200 km** |
 | ![Standard Normal Plot](resources/USC_mag_7.5_8_dist_40_80_BSSA2014_std_norm.png) | ![Standard Normal Plot](resources/USC_mag_7.5_8_dist_80_160_BSSA2014_std_norm.png) | ![Standard Normal Plot](resources/USC_mag_7.5_8_dist_160_200_BSSA2014_std_norm.png) |
+### USC, All Ruptures, Standard Normal Plots
+*[(top)](#table-of-contents)*
+
+
+z-score standard normal plots across all magnitudes/distances
+
+**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-sigma*
+
+**Legend**
+* Black Line: Standard Normal distribution (in natural log space)
+* Gray Histogram: z-score for each rupture
+* Blue Dashed Line: RSQSim Mean
+
+![Standard Normal Plot](resources/USC_all_mags_all_dists_BSSA2014_std_norm.png)
 ## Site SBSM
 *[(top)](#table-of-contents)*
 
@@ -266,13 +297,30 @@ These plots compare RSQSim to the full GMPE log-normal distributions. Each ruptu
 | ![Standard Normal Plot](resources/SBSM_mag_7.5_8_dist_0_10_BSSA2014_std_norm.png) | ![Standard Normal Plot](resources/SBSM_mag_7.5_8_dist_10_20_BSSA2014_std_norm.png) | ![Standard Normal Plot](resources/SBSM_mag_7.5_8_dist_20_40_BSSA2014_std_norm.png) |
 | **40 km < rJB < 80 km** | **80 km < rJB < 160 km** | **160 km < rJB < 200 km** |
 | ![Standard Normal Plot](resources/SBSM_mag_7.5_8_dist_40_80_BSSA2014_std_norm.png) | ![Standard Normal Plot](resources/SBSM_mag_7.5_8_dist_80_160_BSSA2014_std_norm.png) | ![Standard Normal Plot](resources/SBSM_mag_7.5_8_dist_160_200_BSSA2014_std_norm.png) |
+### SBSM, All Ruptures, Standard Normal Plots
+*[(top)](#table-of-contents)*
+
+
+z-score standard normal plots across all magnitudes/distances
+
+**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-sigma*
+
+**Legend**
+* Black Line: Standard Normal distribution (in natural log space)
+* Gray Histogram: z-score for each rupture
+* Blue Dashed Line: RSQSim Mean
+
+![Standard Normal Plot](resources/SBSM_all_mags_all_dists_BSSA2014_std_norm.png)
 ## Hazard Curves
+*[(top)](#table-of-contents)*
 
 **Legend**:
 * Black Solid Line: RSQSim/BBP
 * Blue Solid Line: BSSA2014
 * Blue Dashed Line: BSSA2014 3-sigma truncation
 * Blue Dotted Line: BSSA2014 2-sigma truncation
+* Blue Dotted and dashed Line: BSSA2014 1-sigma truncation
+* Green Dashed Line: BSSA2014 mean values only
 * Gray Dashed Lines: 1000 yr, 2500 yr, 10000 yr return periods
 
 | Site | 1s | 2s | 5s |

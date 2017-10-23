@@ -16,6 +16,7 @@ Ruptures are binned by their moment magnitude (**Mw**) and the Joyner-Boore dist
   * [All Sites, 8 < Mw < 8.5](#all-sites-8--mw--85)
     * [All Sites, 8 < Mw < 8.5, Scatter Plots](#all-sites-8--mw--85-scatter-plots)
     * [All Sites, 8 < Mw < 8.5, Standard Normal Plots](#all-sites-8--mw--85-standard-normal-plots)
+  * [All Sites, All Ruptures, Standard Normal Plots](#all-sites-all-ruptures-standard-normal-plots)
 * [Site USC](#site-usc)
   * [USC, 7 < Mw < 7.5](#usc-7--mw--75)
     * [USC, 7 < Mw < 7.5, Scatter Plots](#usc-7--mw--75-scatter-plots)
@@ -26,6 +27,7 @@ Ruptures are binned by their moment magnitude (**Mw**) and the Joyner-Boore dist
   * [USC, 8 < Mw < 8.5](#usc-8--mw--85)
     * [USC, 8 < Mw < 8.5, Scatter Plots](#usc-8--mw--85-scatter-plots)
     * [USC, 8 < Mw < 8.5, Standard Normal Plots](#usc-8--mw--85-standard-normal-plots)
+  * [USC, All Ruptures, Standard Normal Plots](#usc-all-ruptures-standard-normal-plots)
 * [Site SBSM](#site-sbsm)
   * [SBSM, 7 < Mw < 7.5](#sbsm-7--mw--75)
     * [SBSM, 7 < Mw < 7.5, Scatter Plots](#sbsm-7--mw--75-scatter-plots)
@@ -36,6 +38,7 @@ Ruptures are binned by their moment magnitude (**Mw**) and the Joyner-Boore dist
   * [SBSM, 8 < Mw < 8.5](#sbsm-8--mw--85)
     * [SBSM, 8 < Mw < 8.5, Scatter Plots](#sbsm-8--mw--85-scatter-plots)
     * [SBSM, 8 < Mw < 8.5, Standard Normal Plots](#sbsm-8--mw--85-standard-normal-plots)
+  * [SBSM, All Ruptures, Standard Normal Plots](#sbsm-all-ruptures-standard-normal-plots)
 * [Hazard Curves](#hazard-curves)
 ## All Sites Aggregated
 *[(top)](#table-of-contents)*
@@ -160,6 +163,20 @@ These plots compare RSQSim to the full GMPE log-normal distributions. Each ruptu
 | N/A | N/A | ![Standard Normal Plot](resources/All_Sites_mag_8_8.5_dist_20_40_NGAWest_2014_NoIdr_std_norm.png) |
 | **40 km < rJB < 80 km** | **80 km < rJB < 160 km** | **160 km < rJB < 200 km** |
 | ![Standard Normal Plot](resources/All_Sites_mag_8_8.5_dist_40_80_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_8_8.5_dist_80_160_NGAWest_2014_NoIdr_std_norm.png) | N/A |
+### All Sites, All Ruptures, Standard Normal Plots
+*[(top)](#table-of-contents)*
+
+
+z-score standard normal plots across all magnitudes/distances
+
+**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-sigma*
+
+**Legend**
+* Black Line: Standard Normal distribution (in natural log space)
+* Gray Histogram: z-score for each rupture
+* Blue Dashed Line: RSQSim Mean
+
+![Standard Normal Plot](resources/All_Sites_all_mags_all_dists_NGAWest_2014_NoIdr_std_norm.png)
 ## Site USC
 *[(top)](#table-of-contents)*
 
@@ -270,6 +287,20 @@ These plots compare RSQSim to the full GMPE log-normal distributions. Each ruptu
 | N/A | N/A | N/A |
 | **40 km < rJB < 80 km** | **80 km < rJB < 160 km** | **160 km < rJB < 200 km** |
 | N/A | N/A | N/A |
+### USC, All Ruptures, Standard Normal Plots
+*[(top)](#table-of-contents)*
+
+
+z-score standard normal plots across all magnitudes/distances
+
+**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-sigma*
+
+**Legend**
+* Black Line: Standard Normal distribution (in natural log space)
+* Gray Histogram: z-score for each rupture
+* Blue Dashed Line: RSQSim Mean
+
+![Standard Normal Plot](resources/USC_all_mags_all_dists_NGAWest_2014_NoIdr_std_norm.png)
 ## Site SBSM
 *[(top)](#table-of-contents)*
 
@@ -380,13 +411,29 @@ These plots compare RSQSim to the full GMPE log-normal distributions. Each ruptu
 | N/A | N/A | N/A |
 | **40 km < rJB < 80 km** | **80 km < rJB < 160 km** | **160 km < rJB < 200 km** |
 | N/A | N/A | N/A |
+### SBSM, All Ruptures, Standard Normal Plots
+*[(top)](#table-of-contents)*
+
+
+z-score standard normal plots across all magnitudes/distances
+
+**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-sigma*
+
+**Legend**
+* Black Line: Standard Normal distribution (in natural log space)
+* Gray Histogram: z-score for each rupture
+* Blue Dashed Line: RSQSim Mean
+
+![Standard Normal Plot](resources/SBSM_all_mags_all_dists_NGAWest_2014_NoIdr_std_norm.png)
 ## Hazard Curves
+*[(top)](#table-of-contents)*
 
 **Legend**:
 * Black Solid Line: RSQSim/BBP
 * Blue Solid Line: NGAWest_2014_NoIdr
 * Blue Dashed Line: NGAWest_2014_NoIdr 3-sigma truncation
 * Blue Dotted Line: NGAWest_2014_NoIdr 2-sigma truncation
+* Blue Dotted and dashed Line: NGAWest_2014_NoIdr 1-sigma truncation
 * Green Dashed Line: NGAWest_2014_NoIdr mean values only
 * Gray Dashed Lines: 1000 yr, 2500 yr, 10000 yr return periods
 
