@@ -2,7 +2,7 @@
 
 [Catalog Details](../#bruce-2320)
 
-**Graves & Pitarka (2015) Simulations: 200**
+**Graves & Pitarka (2015) Simulations: 200 per site**
 
 ## Table Of Contents
 * [Rupture Plots](#rupture-plots)
@@ -14,34 +14,41 @@
   * [Site USC](#site-usc)
     * [USC Fourier Amplitude Spectra](#usc-fourier-amplitude-spectra)
     * [USC RotD50 Spectra](#usc-rotd50-spectra)
+    * [USC RotD Ratio](#usc-rotd-ratio)
     * [USC Acceleration Seismograms](#usc-acceleration-seismograms)
     * [USC Velocity Seismograms](#usc-velocity-seismograms)
   * [Site SBSM](#site-sbsm)
     * [SBSM Fourier Amplitude Spectra](#sbsm-fourier-amplitude-spectra)
     * [SBSM RotD50 Spectra](#sbsm-rotd50-spectra)
+    * [SBSM RotD Ratio](#sbsm-rotd-ratio)
     * [SBSM Acceleration Seismograms](#sbsm-acceleration-seismograms)
     * [SBSM Velocity Seismograms](#sbsm-velocity-seismograms)
   * [Site Los Angeles](#site-los-angeles)
     * [Los Angeles Fourier Amplitude Spectra](#los-angeles-fourier-amplitude-spectra)
     * [Los Angeles RotD50 Spectra](#los-angeles-rotd50-spectra)
+    * [Los Angeles RotD Ratio](#los-angeles-rotd-ratio)
     * [Los Angeles Acceleration Seismograms](#los-angeles-acceleration-seismograms)
     * [Los Angeles Velocity Seismograms](#los-angeles-velocity-seismograms)
   * [Site Riverside](#site-riverside)
     * [Riverside Fourier Amplitude Spectra](#riverside-fourier-amplitude-spectra)
     * [Riverside RotD50 Spectra](#riverside-rotd50-spectra)
+    * [Riverside RotD Ratio](#riverside-rotd-ratio)
     * [Riverside Acceleration Seismograms](#riverside-acceleration-seismograms)
     * [Riverside Velocity Seismograms](#riverside-velocity-seismograms)
   * [Site San Diego](#site-san-diego)
     * [San Diego Fourier Amplitude Spectra](#san-diego-fourier-amplitude-spectra)
     * [San Diego RotD50 Spectra](#san-diego-rotd50-spectra)
+    * [San Diego RotD Ratio](#san-diego-rotd-ratio)
     * [San Diego Acceleration Seismograms](#san-diego-acceleration-seismograms)
     * [San Diego Velocity Seismograms](#san-diego-velocity-seismograms)
   * [Site Santa Barbara](#site-santa-barbara)
     * [Santa Barbara Fourier Amplitude Spectra](#santa-barbara-fourier-amplitude-spectra)
     * [Santa Barbara RotD50 Spectra](#santa-barbara-rotd50-spectra)
+    * [Santa Barbara RotD Ratio](#santa-barbara-rotd-ratio)
     * [Santa Barbara Acceleration Seismograms](#santa-barbara-acceleration-seismograms)
     * [Santa Barbara Velocity Seismograms](#santa-barbara-velocity-seismograms)
 * [ShakeMaps](#shakemaps)
+  * [Region RotD100/RotD50 Ratio](#region-rotd100rotd50-ratio)
 ## Rupture Plots
 *[(top)](#table-of-contents)*
 
@@ -91,6 +98,10 @@
 *[(top)](#table-of-contents)*
 
 ![USC RotD50 Plot](resources/rotd50_spectra_USC.png)
+#### USC RotD Ratio
+*[(top)](#table-of-contents)*
+
+![USC RotD Ratio Plot](resources/rotd_ratio_USC.png)
 #### USC Acceleration Seismograms
 *[(top)](#table-of-contents)*
 
@@ -122,6 +133,10 @@ RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparison
 *[(top)](#table-of-contents)*
 
 ![SBSM RotD50 Plot](resources/rotd50_spectra_SBSM.png)
+#### SBSM RotD Ratio
+*[(top)](#table-of-contents)*
+
+![SBSM RotD Ratio Plot](resources/rotd_ratio_SBSM.png)
 #### SBSM Acceleration Seismograms
 *[(top)](#table-of-contents)*
 
@@ -153,6 +168,10 @@ RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparison
 *[(top)](#table-of-contents)*
 
 ![Los Angeles RotD50 Plot](resources/rotd50_spectra_LOS_ANGELE.png)
+#### Los Angeles RotD Ratio
+*[(top)](#table-of-contents)*
+
+![Los Angeles RotD Ratio Plot](resources/rotd_ratio_LOS_ANGELE.png)
 #### Los Angeles Acceleration Seismograms
 *[(top)](#table-of-contents)*
 
@@ -184,6 +203,10 @@ RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparison
 *[(top)](#table-of-contents)*
 
 ![Riverside RotD50 Plot](resources/rotd50_spectra_RIVERSIDE.png)
+#### Riverside RotD Ratio
+*[(top)](#table-of-contents)*
+
+![Riverside RotD Ratio Plot](resources/rotd_ratio_RIVERSIDE.png)
 #### Riverside Acceleration Seismograms
 *[(top)](#table-of-contents)*
 
@@ -215,6 +238,10 @@ RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparison
 *[(top)](#table-of-contents)*
 
 ![San Diego RotD50 Plot](resources/rotd50_spectra_SAN_DIEGO.png)
+#### San Diego RotD Ratio
+*[(top)](#table-of-contents)*
+
+![San Diego RotD Ratio Plot](resources/rotd_ratio_SAN_DIEGO.png)
 #### San Diego Acceleration Seismograms
 *[(top)](#table-of-contents)*
 
@@ -246,6 +273,10 @@ RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparison
 *[(top)](#table-of-contents)*
 
 ![Santa Barbara RotD50 Plot](resources/rotd50_spectra_SANTA_BARB.png)
+#### Santa Barbara RotD Ratio
+*[(top)](#table-of-contents)*
+
+![Santa Barbara RotD Ratio Plot](resources/rotd_ratio_SANTA_BARB.png)
 #### Santa Barbara Acceleration Seismograms
 *[(top)](#table-of-contents)*
 
@@ -262,6 +293,9 @@ RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparison
 ## ShakeMaps
 *[(top)](#table-of-contents)*
 
+### Region RotD100/RotD50 Ratio
+
+![ShakeMap RotD Ratio Plot](resources/rotd_ratio_shakemap.png)
 
 | SA Period | RSQSim | NGAWest_2014_NoIdr | Ratio |
 |-----|-----|-----|-----|
