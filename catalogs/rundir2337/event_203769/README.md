@@ -308,6 +308,8 @@ RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparison
 
 ![ShakeMap RotD Ratio Plot](resources/rotd_ratio_shakemap.png)
 
+![ShakeMap RotD Dist Dependence](resources/rotd_ratio_shakemap_dist_dependence.png)
+
 | SA Period | RotD50 | RotD100 | RotD100/RotD50 Ratio |
 |-----|-----|-----|-----|
 | **1.0 s** | ![RotD50 Map](resources/shakemap_1s.png) | ![RotD100 Map](resources/shakemap_1s_rd100.png) | ![RotD Ratio Map](resources/shakemap_1s_rd100_ratio.png) |
