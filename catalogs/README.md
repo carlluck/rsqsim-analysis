@@ -9,6 +9,7 @@
 | 2017/10/20 | [Bruce 2336](rundir2336#bruce-2336) | 63,498 yrs | 1.35 km | Larger slip velocity (1.5 m/s), backslipFromStress loading |
 | 2017/10/20 | [Bruce 2337](rundir2337#bruce-2337) | 59,520 yrs | 1.35 km | Larger slip velocity (2.0 m/s), backslipFromStress loading |
 | 2017/10/17 | [Bruce 2320](rundir2320#bruce-2320) | 320,117 yrs | 1.35 km | Backslip loading, less refined geometry, projection fix (but all faults surface breaking), same as rundir2310 but less resolved |
+| 2017/10/16 | [JG 2194 K2](rundir2194_K2#jg-2194-k2) | 228,889 yrs | 0.90 km | Keith's fault geometry, normal backslip with U3 geologic long-term slip rates, and the same parameter values as Bruce's 2194 |
 | 2017/10/16 | [Bruce 2310](rundir2310#bruce-2310) | 44,742 yrs | 0.42 km | Backslip loading, more refined geometry, projection fix (but all faults surface breaking) |
 | 2017/10/13 | [Bruce 2273](rundir2273#bruce-2273) | 43,190 yrs | 0.42 km | Stress loading, more refined geometry, does not contain projection fix (some location discrepancies are present relative to UCERF3 faults). |
 | 2017/09/27 | [U3 1mil Element Test](JG_UCERF3_millionElement#u3-1mil-element-test) | 7,481 yrs | 0.23 km | Test 1 million element catalog on UCERF3 fault system, ~0.25 km^2 trianglar elements |

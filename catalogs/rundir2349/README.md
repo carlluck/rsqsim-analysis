@@ -12,6 +12,7 @@
 
 * [Metadata](#metadata)
 * [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
+* [Full Catalog RotD100/RotD50 Ratios](#full-catalog-rotd100rotd50-ratios)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
@@ -25,6 +26,11 @@
 
 * [BSSA2014](gmpe_bbp_comparisons_BSSA2014/)
 * [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
+
+## Full Catalog RotD100/RotD50 Ratios
+*[(top)](#bruce-2349)*
+
+[Full Catalog RotD100/RotD50 Ratios Plotted Here](catalog_rotd_ratio_comparisons/)
 
 ## Plots
 ### Magnitude-Frequency Plot
