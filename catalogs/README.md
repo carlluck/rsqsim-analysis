@@ -2,6 +2,7 @@
 
 | Date | Name | Duration | Element Area | Description |
 |-----|-----|-----|-----|-----|
+| 2017/11/02 | [JG Tune Base 1M](tuneBase1m#jg-tune-base-1m) | 69,601 yrs | 0.90 km | U3 fault geometry with 1km^2 triangles, normal backslip loading with U3 geologic slip rates,calibrated to U3 supraseismogenic recurrence intervals, and default a/b. |
 | 2017/10/23 | [Bruce 2349](rundir2349#bruce-2349) | 425,330 yrs | 1.35 km | smaller sigmaN=80   relative to reference_1 |
 | 2017/10/23 | [Bruce 2326](rundir2326#bruce-2326) | 161,366 yrs | 1.35 km | reference_1: a=.001 b=.008  Veq=1.0  sigmaN=100. backslipFromStress |
 | 2017/10/23 | [Bruce 2343](rundir2343#bruce-2343) | 566,960 yrs | 1.35 km | smaller Veq=0.8        relative to reference_1 |
