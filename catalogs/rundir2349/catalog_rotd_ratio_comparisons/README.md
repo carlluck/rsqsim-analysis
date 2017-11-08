@@ -74,7 +74,7 @@ Distance dependent plots use the Joyner-Boore distance (**rJB**), the shortest h
 
 **z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-sigma*
 
-GMPE: NGAWest2 2014 Averaged No Idriss
+**GMPE**: NGAWest2 2014 Averaged No Idriss
 
 ![RotD Ratio](resources/rot_d_ratio_all_mags_z_dependence.png)
 
@@ -115,7 +115,7 @@ GMPE: NGAWest2 2014 Averaged No Idriss
 
 **z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-sigma*
 
-GMPE: NGAWest2 2014 Averaged No Idriss
+**GMPE**: NGAWest2 2014 Averaged No Idriss
 
 ![RotD Ratio](resources/rot_d_ratio_mag_6_6.5_z_dependence.png)
 
@@ -156,7 +156,7 @@ GMPE: NGAWest2 2014 Averaged No Idriss
 
 **z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-sigma*
 
-GMPE: NGAWest2 2014 Averaged No Idriss
+**GMPE**: NGAWest2 2014 Averaged No Idriss
 
 ![RotD Ratio](resources/rot_d_ratio_mag_6.5_7_z_dependence.png)
 
@@ -197,7 +197,7 @@ GMPE: NGAWest2 2014 Averaged No Idriss
 
 **z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-sigma*
 
-GMPE: NGAWest2 2014 Averaged No Idriss
+**GMPE**: NGAWest2 2014 Averaged No Idriss
 
 ![RotD Ratio](resources/rot_d_ratio_mag_7_7.5_z_dependence.png)
 
@@ -238,7 +238,7 @@ GMPE: NGAWest2 2014 Averaged No Idriss
 
 **z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-sigma*
 
-GMPE: NGAWest2 2014 Averaged No Idriss
+**GMPE**: NGAWest2 2014 Averaged No Idriss
 
 ![RotD Ratio](resources/rot_d_ratio_mag_7.5_8_z_dependence.png)
 

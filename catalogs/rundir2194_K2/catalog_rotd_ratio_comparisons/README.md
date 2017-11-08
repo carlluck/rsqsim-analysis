@@ -9,27 +9,32 @@ Distance dependent plots use the Joyner-Boore distance (**rJB**), the shortest h
   * [All Mags, rJB Dependence](#all-mags-rjb-dependence)
   * [All Mags, Azimuth Dependence](#all-mags-azimuth-dependence)
   * [All Mags, RotD50 Dependence](#all-mags-rotd50-dependence)
-    * [All Mags, RotD50 Dependence Scatters](#all-mags-rotd50-dependence-scatters)
+  * [All Mags, GMPE Z Dependence](#all-mags-gmpe-z-dependence)
+    * [All Mags, GMPE Z Dependence Scatters](#all-mags-gmpe-z-dependence-scatters)
 * [6 < Mw < 6.5](#6--mw--65)
   * [6 < Mw < 6.5, rJB Dependence](#6--mw--65-rjb-dependence)
   * [6 < Mw < 6.5, Azimuth Dependence](#6--mw--65-azimuth-dependence)
   * [6 < Mw < 6.5, RotD50 Dependence](#6--mw--65-rotd50-dependence)
-    * [6 < Mw < 6.5, RotD50 Dependence Scatters](#6--mw--65-rotd50-dependence-scatters)
+  * [6 < Mw < 6.5, GMPE Z Dependence](#6--mw--65-gmpe-z-dependence)
+    * [6 < Mw < 6.5, GMPE Z Dependence Scatters](#6--mw--65-gmpe-z-dependence-scatters)
 * [6.5 < Mw < 7](#65--mw--7)
   * [6.5 < Mw < 7, rJB Dependence](#65--mw--7-rjb-dependence)
   * [6.5 < Mw < 7, Azimuth Dependence](#65--mw--7-azimuth-dependence)
   * [6.5 < Mw < 7, RotD50 Dependence](#65--mw--7-rotd50-dependence)
-    * [6.5 < Mw < 7, RotD50 Dependence Scatters](#65--mw--7-rotd50-dependence-scatters)
+  * [6.5 < Mw < 7, GMPE Z Dependence](#65--mw--7-gmpe-z-dependence)
+    * [6.5 < Mw < 7, GMPE Z Dependence Scatters](#65--mw--7-gmpe-z-dependence-scatters)
 * [7 < Mw < 7.5](#7--mw--75)
   * [7 < Mw < 7.5, rJB Dependence](#7--mw--75-rjb-dependence)
   * [7 < Mw < 7.5, Azimuth Dependence](#7--mw--75-azimuth-dependence)
   * [7 < Mw < 7.5, RotD50 Dependence](#7--mw--75-rotd50-dependence)
-    * [7 < Mw < 7.5, RotD50 Dependence Scatters](#7--mw--75-rotd50-dependence-scatters)
+  * [7 < Mw < 7.5, GMPE Z Dependence](#7--mw--75-gmpe-z-dependence)
+    * [7 < Mw < 7.5, GMPE Z Dependence Scatters](#7--mw--75-gmpe-z-dependence-scatters)
 * [7.5 < Mw < 8](#75--mw--8)
   * [7.5 < Mw < 8, rJB Dependence](#75--mw--8-rjb-dependence)
   * [7.5 < Mw < 8, Azimuth Dependence](#75--mw--8-azimuth-dependence)
   * [7.5 < Mw < 8, RotD50 Dependence](#75--mw--8-rotd50-dependence)
-    * [7.5 < Mw < 8, RotD50 Dependence Scatters](#75--mw--8-rotd50-dependence-scatters)
+  * [7.5 < Mw < 8, GMPE Z Dependence](#75--mw--8-gmpe-z-dependence)
+    * [7.5 < Mw < 8, GMPE Z Dependence Scatters](#75--mw--8-gmpe-z-dependence-scatters)
 ## Site List
 
 | Name | Location | # Events |
@@ -64,7 +69,16 @@ Distance dependent plots use the Joyner-Boore distance (**rJB**), the shortest h
 
 ![RotD Ratio](resources/rot_d_ratio_all_mags_amplitude_dependence.png)
 
-#### All Mags, RotD50 Dependence Scatters
+### All Mags, GMPE Z Dependence
+*[(top)](#table-of-contents)*
+
+**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-sigma*
+
+**GMPE**: NGAWest2 2014 Averaged No Idriss
+
+![RotD Ratio](resources/rot_d_ratio_all_mags_z_dependence.png)
+
+#### All Mags, GMPE Z Dependence Scatters
 *[(top)](#table-of-contents)*
 
 | Distance | **1s** | **2s** | **5s** |
@@ -96,7 +110,16 @@ Distance dependent plots use the Joyner-Boore distance (**rJB**), the shortest h
 
 ![RotD Ratio](resources/rot_d_ratio_mag_6_6.5_amplitude_dependence.png)
 
-#### 6 < Mw < 6.5, RotD50 Dependence Scatters
+### 6 < Mw < 6.5, GMPE Z Dependence
+*[(top)](#table-of-contents)*
+
+**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-sigma*
+
+**GMPE**: NGAWest2 2014 Averaged No Idriss
+
+![RotD Ratio](resources/rot_d_ratio_mag_6_6.5_z_dependence.png)
+
+#### 6 < Mw < 6.5, GMPE Z Dependence Scatters
 *[(top)](#table-of-contents)*
 
 | Distance | **1s** | **2s** | **5s** |
@@ -128,7 +151,16 @@ Distance dependent plots use the Joyner-Boore distance (**rJB**), the shortest h
 
 ![RotD Ratio](resources/rot_d_ratio_mag_6.5_7_amplitude_dependence.png)
 
-#### 6.5 < Mw < 7, RotD50 Dependence Scatters
+### 6.5 < Mw < 7, GMPE Z Dependence
+*[(top)](#table-of-contents)*
+
+**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-sigma*
+
+**GMPE**: NGAWest2 2014 Averaged No Idriss
+
+![RotD Ratio](resources/rot_d_ratio_mag_6.5_7_z_dependence.png)
+
+#### 6.5 < Mw < 7, GMPE Z Dependence Scatters
 *[(top)](#table-of-contents)*
 
 | Distance | **1s** | **2s** | **5s** |
@@ -160,7 +192,16 @@ Distance dependent plots use the Joyner-Boore distance (**rJB**), the shortest h
 
 ![RotD Ratio](resources/rot_d_ratio_mag_7_7.5_amplitude_dependence.png)
 
-#### 7 < Mw < 7.5, RotD50 Dependence Scatters
+### 7 < Mw < 7.5, GMPE Z Dependence
+*[(top)](#table-of-contents)*
+
+**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-sigma*
+
+**GMPE**: NGAWest2 2014 Averaged No Idriss
+
+![RotD Ratio](resources/rot_d_ratio_mag_7_7.5_z_dependence.png)
+
+#### 7 < Mw < 7.5, GMPE Z Dependence Scatters
 *[(top)](#table-of-contents)*
 
 | Distance | **1s** | **2s** | **5s** |
@@ -192,7 +233,16 @@ Distance dependent plots use the Joyner-Boore distance (**rJB**), the shortest h
 
 ![RotD Ratio](resources/rot_d_ratio_mag_7.5_8_amplitude_dependence.png)
 
-#### 7.5 < Mw < 8, RotD50 Dependence Scatters
+### 7.5 < Mw < 8, GMPE Z Dependence
+*[(top)](#table-of-contents)*
+
+**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-sigma*
+
+**GMPE**: NGAWest2 2014 Averaged No Idriss
+
+![RotD Ratio](resources/rot_d_ratio_mag_7.5_8_z_dependence.png)
+
+#### 7.5 < Mw < 8, GMPE Z Dependence Scatters
 *[(top)](#table-of-contents)*
 
 | Distance | **1s** | **2s** | **5s** |
