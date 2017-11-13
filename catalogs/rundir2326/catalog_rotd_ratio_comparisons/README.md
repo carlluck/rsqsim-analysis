@@ -3,6 +3,7 @@
 Distance dependent plots use the Joyner-Boore distance (**rJB**), the shortest horizontal distance from a site to the surface projection of the rupture surface distance metric
 
 [Catalog Details](../#bruce-2326)
+
 ## Table Of Contents
 * [Site List](#site-list)
 * [All Mags](#all-mags)
@@ -72,7 +73,7 @@ Distance dependent plots use the Joyner-Boore distance (**rJB**), the shortest h
 ### All Mags, GMPE Z Dependence
 *[(top)](#table-of-contents)*
 
-**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-sigma*
+**z-score**: (ln(*RSQSim/BBP*) - ln(*GMPE-mean*)) / *GMPE-sigma*
 
 **GMPE**: NGAWest2 2014 Averaged No Idriss
 
@@ -113,7 +114,7 @@ Distance dependent plots use the Joyner-Boore distance (**rJB**), the shortest h
 ### 6 < Mw < 6.5, GMPE Z Dependence
 *[(top)](#table-of-contents)*
 
-**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-sigma*
+**z-score**: (ln(*RSQSim/BBP*) - ln(*GMPE-mean*)) / *GMPE-sigma*
 
 **GMPE**: NGAWest2 2014 Averaged No Idriss
 
@@ -154,7 +155,7 @@ Distance dependent plots use the Joyner-Boore distance (**rJB**), the shortest h
 ### 6.5 < Mw < 7, GMPE Z Dependence
 *[(top)](#table-of-contents)*
 
-**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-sigma*
+**z-score**: (ln(*RSQSim/BBP*) - ln(*GMPE-mean*)) / *GMPE-sigma*
 
 **GMPE**: NGAWest2 2014 Averaged No Idriss
 
@@ -195,7 +196,7 @@ Distance dependent plots use the Joyner-Boore distance (**rJB**), the shortest h
 ### 7 < Mw < 7.5, GMPE Z Dependence
 *[(top)](#table-of-contents)*
 
-**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-sigma*
+**z-score**: (ln(*RSQSim/BBP*) - ln(*GMPE-mean*)) / *GMPE-sigma*
 
 **GMPE**: NGAWest2 2014 Averaged No Idriss
 
@@ -236,7 +237,7 @@ Distance dependent plots use the Joyner-Boore distance (**rJB**), the shortest h
 ### 7.5 < Mw < 8, GMPE Z Dependence
 *[(top)](#table-of-contents)*
 
-**z-score**: (ln(*RSQSim*) - ln(*GMPE-mean*)) / *GMPE-sigma*
+**z-score**: (ln(*RSQSim/BBP*) - ln(*GMPE-mean*)) / *GMPE-sigma*
 
 **GMPE**: NGAWest2 2014 Averaged No Idriss
 
