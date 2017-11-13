@@ -115,11 +115,11 @@ Ruptures are binned by their moment magnitude (**Mw**) and the Joyner-Boore dist
 
 | Name | Location | # Events |
 |-----|-----|-----|
-| USC | *34.0192, -118.286* | 6997 |
-| WNGC | *34.041824, -118.0653* | 7076 |
-| SBSM | *34.064987, -117.29201* | 7044 |
-| COO | *33.89604, -118.21639* | 6962 |
-| PAS | *34.148426, -118.17119* | 7155 |
+| USC | *34.0192, -118.286* | 6997 (476429 sims) |
+| WNGC | *34.041824, -118.0653* | 7076 (478210 sims) |
+| SBSM | *34.064987, -117.29201* | 7044 (483672 sims) |
+| COO | *33.89604, -118.21639* | 6962 (474592 sims) |
+| PAS | *34.148426, -118.17119* | 7155 (484943 sims) |
 7588 ruptures within 200.0 km of *any* site
 ### All Sites, 6 < Mw < 6.5
 99 Ruptures
