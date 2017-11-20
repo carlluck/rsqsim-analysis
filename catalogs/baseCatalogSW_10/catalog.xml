@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OpenSHA>
+  <RSQSimCatalog name="JG Base SW" author="Jacqui Gilchrist" dateMillis="1511164800000" metadata="Untuned, additional slip weakening parameters using Keith's fault geometry. muSlipAmp = 0.2, muSlipInvDist_1 = 2.0, cohesion = 6." fm="FM3_1" dm="GEOLOGIC" slipVel="1.0" aveArea="0.8955149569090848" numEvents="38360499" durationYears="113505.75806470148"/>
+</OpenSHA>

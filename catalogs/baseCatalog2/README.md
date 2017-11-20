@@ -1,18 +1,16 @@
-# JG Tune Base 1M
+# JG Base Catalog 2
 ## Metadata
-| **Catalog** | JG Tune Base 1M |
+| **Catalog** | JG Base Catalog 2 |
 |-----|-----|
-| **Author** | Jacqui Gilchrist, 2017/11/02 |
-| **Description** | U3 fault geometry with 1km^2 triangles, normal backslip loading with U3 geologic slip rates,calibrated to U3 supraseismogenic recurrence intervals, and default a/b |
+| **Author** | Jacqui Gilchrist, 2017/11/16 |
+| **Description** | Untuned version of tuneBase1m. Same fault model and frictional parameters, without any stress adjustments |
 | **Fault/Def Model** | Fault Model 3.1, Geologic |
 | **Slip Velocity** | 1.0 m/s |
 | **Average Element Area** | 0.90 km^2 |
-| **Length** | 21,141,999 events in 69,601 years |
+| **Length** | 30,278,027 events in 199,867 years |
 | **Frictional Params** | a=0.01, b=0.015, (b-a)=0.005, ddotEQ=1 |
 
 * [Metadata](#metadata)
-* [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
-* [Full Catalog RotD100/RotD50 Ratios](#full-catalog-rotd100rotd50-ratios)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
@@ -21,47 +19,36 @@
   * [Stationarity Plot](#stationarity-plot)
 * [Input File](#input-file)
 
-## Full Catalog GMPE Comparisons
-*[(top)](#jg-tune-base-1m)*
-
-* [BSSA2014](gmpe_bbp_comparisons_BSSA2014/)
-* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
-
-## Full Catalog RotD100/RotD50 Ratios
-*[(top)](#jg-tune-base-1m)*
-
-[Full Catalog RotD100/RotD50 Ratios Plotted Here](catalog_rotd_ratio_comparisons/)
-
 ## Plots
 ### Magnitude-Frequency Plot
-*[(top)](#jg-tune-base-1m)*
+*[(top)](#jg-base-catalog-2)*
 
 ![MFD](resources/mfd.png)
 ### Magnitude-Area Plots
-*[(top)](#jg-tune-base-1m)*
+*[(top)](#jg-base-catalog-2)*
 
 | Scatter | 2-D Hist |
 |-----|-----|
 | ![MFD Scatter](resources/mag_area.png) | ![MFD Hist](resources/mag_area_hist2D.png) |
 ### Rupture Velocity Plots
-*[(top)](#jg-tune-base-1m)*
+*[(top)](#jg-base-catalog-2)*
 
 | **Scatter** | ![Rupture Velocity Scatter](resources/rupture_velocity_scatter.png) |
 |-----|-----|
 | **Distance/Velocity** | ![Rupture Velocity vs Dist](resources/rupture_velocity_vs_dist.png) |
 ### Interevent-Time Distributions
-*[(top)](#jg-tune-base-1m)*
+*[(top)](#jg-base-catalog-2)*
 
 | **M≥6** | **M≥6.5** | **M≥7** | **M≥7.5** |
 |-----|-----|-----|-----|
 | ![Interevent Times](resources/interevent_times_m6.png) | ![Interevent Times](resources/interevent_times_m6.5.png) | ![Interevent Times](resources/interevent_times_m7.png) | ![Interevent Times](resources/interevent_times_m7.5.png) |
 ### Stationarity Plot
-*[(top)](#jg-tune-base-1m)*
+*[(top)](#jg-base-catalog-2)*
 
 ![Stationarity](resources/stationarity.png)
 
 ## Input File
-*[(top)](#jg-tune-base-1m)*
+*[(top)](#jg-base-catalog-2)*
 
 ```
   A_1 = 0.01
@@ -84,16 +71,16 @@
   lameMu = 30000
   slowSlip_1 = 0
   nEq = 3e20
-  tStart = 55651082300705.9921875
-  maxT = 6.0381475e+13
+  tStart = 6307000279896.11328125 
+  maxT = 1.261e13
   faultFname = UCERF3.D3.1.1km.tri.2.flt
-  outFnameInfix = tuneBase1m
-  writeTau = 2
-  writeSigma = 2
+  outFnameInfix = baseCatalog2
+  writeTau = 0
+  writeSigma = 0
   writeSlip = 0
   writeSlipSpeed = 0
   writeState = 0
-  writeTheta = 2
+  writeTheta = 0
   writePED = 1
   writeTransitions = 1
   minDtWrite = 3.15e10
@@ -120,7 +107,7 @@
   tauFailFname = 
   tauDotFname = 
   sigmaDotFname = 
-  pinnedFname = tuneBase1m.pin 
+  pinnedFname = baseCatalog2.pin 
   neighborFname = neighbors.12
   stressRateFname = 
   slowSlipFname = 

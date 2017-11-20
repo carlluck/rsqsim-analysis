@@ -13,26 +13,24 @@ img {
 </style>
 </head>
 <body>
-<h1 id="jg-tune-base-1m">JG Tune Base 1M</h1>
+<h1 id="jg-base-catalog-2">JG Base Catalog 2</h1>
 <h2 id="metadata">Metadata</h2>
 <table>
 <thead>
-<tr><th><strong>Catalog</strong></th><th>JG Tune Base 1M</th></tr>
+<tr><th><strong>Catalog</strong></th><th>JG Base Catalog 2</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>Author</strong></td><td>Jacqui Gilchrist, 2017/11/02</td></tr>
-<tr><td><strong>Description</strong></td><td>U3 fault geometry with 1km^2 triangles, normal backslip loading with U3 geologic slip rates,calibrated to U3 supraseismogenic recurrence intervals, and default a/b</td></tr>
+<tr><td><strong>Author</strong></td><td>Jacqui Gilchrist, 2017/11/16</td></tr>
+<tr><td><strong>Description</strong></td><td>Untuned version of tuneBase1m. Same fault model and frictional parameters, without any stress adjustments</td></tr>
 <tr><td><strong>Fault/Def Model</strong></td><td>Fault Model 3.1, Geologic</td></tr>
 <tr><td><strong>Slip Velocity</strong></td><td>1.0 m/s</td></tr>
 <tr><td><strong>Average Element Area</strong></td><td>0.90 km^2</td></tr>
-<tr><td><strong>Length</strong></td><td>21,141,999 events in 69,601 years</td></tr>
+<tr><td><strong>Length</strong></td><td>30,278,027 events in 199,867 years</td></tr>
 <tr><td><strong>Frictional Params</strong></td><td>a=0.01, b=0.015, (b-a)=0.005, ddotEQ=1</td></tr>
 </tbody>
 </table>
 <ul>
 <li><a href="#metadata">Metadata</a></li>
-<li><a href="#full-catalog-gmpe-comparisons">Full Catalog GMPE Comparisons</a></li>
-<li><a href="#full-catalog-rotd100rotd50-ratios">Full Catalog RotD100/RotD50 Ratios</a></li>
 <li><a href="#plots">Plots</a>
 <ul>
 <li><a href="#magnitude-frequency-plot">Magnitude-Frequency Plot</a></li>
@@ -44,21 +42,12 @@ img {
 </li>
 <li><a href="#input-file">Input File</a></li>
 </ul>
-<h2 id="full-catalog-gmpe-comparisons">Full Catalog GMPE Comparisons</h2>
-<p><em><a href="#jg-tune-base-1m">(top)</a></em></p>
-<ul>
-<li><a href="gmpe_bbp_comparisons_BSSA2014/">BSSA2014</a></li>
-<li><a href="gmpe_bbp_comparisons_NGAWest_2014_NoIdr/">NGAWest_2014_NoIdr</a></li>
-</ul>
-<h2 id="full-catalog-rotd100rotd50-ratios">Full Catalog RotD100/RotD50 Ratios</h2>
-<p><em><a href="#jg-tune-base-1m">(top)</a></em></p>
-<p><a href="catalog_rotd_ratio_comparisons/">Full Catalog RotD100/RotD50 Ratios Plotted Here</a></p>
 <h2 id="plots">Plots</h2>
 <h3 id="magnitude-frequency-plot">Magnitude-Frequency Plot</h3>
-<p><em><a href="#jg-tune-base-1m">(top)</a></em></p>
+<p><em><a href="#jg-base-catalog-2">(top)</a></em></p>
 <p><img src="resources/mfd.png" alt="MFD" /></p>
 <h3 id="magnitude-area-plots">Magnitude-Area Plots</h3>
-<p><em><a href="#jg-tune-base-1m">(top)</a></em></p>
+<p><em><a href="#jg-base-catalog-2">(top)</a></em></p>
 <table>
 <thead>
 <tr><th>Scatter</th><th>2-D Hist</th></tr>
@@ -68,7 +57,7 @@ img {
 </tbody>
 </table>
 <h3 id="rupture-velocity-plots">Rupture Velocity Plots</h3>
-<p><em><a href="#jg-tune-base-1m">(top)</a></em></p>
+<p><em><a href="#jg-base-catalog-2">(top)</a></em></p>
 <table>
 <thead>
 <tr><th><strong>Scatter</strong></th><th><img src="resources/rupture_velocity_scatter.png" alt="Rupture Velocity Scatter" /></th></tr>
@@ -78,7 +67,7 @@ img {
 </tbody>
 </table>
 <h3 id="interevent-time-distributions">Interevent-Time Distributions</h3>
-<p><em><a href="#jg-tune-base-1m">(top)</a></em></p>
+<p><em><a href="#jg-base-catalog-2">(top)</a></em></p>
 <table>
 <thead>
 <tr><th><strong>M≥6</strong></th><th><strong>M≥6.5</strong></th><th><strong>M≥7</strong></th><th><strong>M≥7.5</strong></th></tr>
@@ -88,10 +77,10 @@ img {
 </tbody>
 </table>
 <h3 id="stationarity-plot">Stationarity Plot</h3>
-<p><em><a href="#jg-tune-base-1m">(top)</a></em></p>
+<p><em><a href="#jg-base-catalog-2">(top)</a></em></p>
 <p><img src="resources/stationarity.png" alt="Stationarity" /></p>
 <h2 id="input-file">Input File</h2>
-<p><em><a href="#jg-tune-base-1m">(top)</a></em></p>
+<p><em><a href="#jg-base-catalog-2">(top)</a></em></p>
 <pre><code>  A_1 = 0.01
   fA = 0.1
   B_1 = 0.015
@@ -112,16 +101,16 @@ img {
   lameMu = 30000
   slowSlip_1 = 0
   nEq = 3e20
-  tStart = 55651082300705.9921875
-  maxT = 6.0381475e+13
+  tStart = 6307000279896.11328125 
+  maxT = 1.261e13
   faultFname = UCERF3.D3.1.1km.tri.2.flt
-  outFnameInfix = tuneBase1m
-  writeTau = 2
-  writeSigma = 2
+  outFnameInfix = baseCatalog2
+  writeTau = 0
+  writeSigma = 0
   writeSlip = 0
   writeSlipSpeed = 0
   writeState = 0
-  writeTheta = 2
+  writeTheta = 0
   writePED = 1
   writeTransitions = 1
   minDtWrite = 3.15e10
@@ -148,7 +137,7 @@ img {
   tauFailFname = 
   tauDotFname = 
   sigmaDotFname = 
-  pinnedFname = tuneBase1m.pin 
+  pinnedFname = baseCatalog2.pin 
   neighborFname = neighbors.12
   stressRateFname = 
   slowSlipFname = 

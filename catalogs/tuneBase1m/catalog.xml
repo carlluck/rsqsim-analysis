@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <OpenSHA>
-  <RSQSimCatalog name="JG Tune Base 1M" author="Jacqui Gilchrist" dateMillis="1509606000000" metadata="U3 fault geometry with 1km^2 triangles, normal backslip loading with U3 geologic slip rates,calibrated to U3 supraseismogenic recurrence intervals, and default a/b." fm="FM3_1" dm="GEOLOGIC" slipVel="1.0" aveArea="0.8955149569090848" numEvents="21141999" durationYears="69600.73758571826"/>
+  <RSQSimCatalog name="JG Tune Base 1M" author="Jacqui Gilchrist" dateMillis="1509606000000" metadata="U3 fault geometry with 1km^2 triangles, normal backslip loading with U3 geologic slip rates,calibrated to U3 supraseismogenic recurrence intervals, and default a/b" fm="FM3_1" dm="GEOLOGIC" slipVel="1.0" aveArea="0.8955149569090848" numEvents="21141999" durationYears="69600.73758571826"/>
 </OpenSHA>

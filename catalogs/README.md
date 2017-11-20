@@ -2,8 +2,11 @@
 
 | Date | Name | Duration | Element Area | Description |
 |-----|-----|-----|-----|-----|
+| 2017/11/20 | [JG Base SW](baseCatalogSW_10#jg-base-sw) | 113,506 yrs | 0.90 km | Untuned, additional slip weakening parameters using Keith's fault geometry. muSlipAmp = 0.2, muSlipInvDist_1 = 2.0, cohesion = 6. |
+| 2017/11/20 | [JG Tune Base SW](tuneBaseSW_1e5#jg-tune-base-sw) | 110,918 yrs | 0.90 km | Tuned, additional slip weakening parameters using Keith's fault geometry. muSlipAmp = 0.2, muSlipInvDist_1 = 2.0, cohesion = 6. |
+| 2017/11/16 | [JG Base Catalog 2](baseCatalog2#jg-base-catalog-2) | 199,867 yrs | 0.90 km | Untuned version of tuneBase1m. Same fault model and frictional parameters, without any stress adjustments |
 | 2017/11/14 | [JG Mod Load Test B](modLoad_testB#jg-mod-load-test-b) | 192,869 yrs | 1.34 km | Bruce's modified loading with higher values of frictional parameters |
-| 2017/11/02 | [JG Tune Base 1M](tuneBase1m#jg-tune-base-1m) | 69,601 yrs | 0.90 km | U3 fault geometry with 1km^2 triangles, normal backslip loading with U3 geologic slip rates,calibrated to U3 supraseismogenic recurrence intervals, and default a/b. |
+| 2017/11/02 | [JG Tune Base 1M](tuneBase1m#jg-tune-base-1m) | 69,601 yrs | 0.90 km | U3 fault geometry with 1km^2 triangles, normal backslip loading with U3 geologic slip rates,calibrated to U3 supraseismogenic recurrence intervals, and default a/b |
 | 2017/10/23 | [Bruce 2349](rundir2349#bruce-2349) | 425,330 yrs | 1.35 km | smaller sigmaN=80   relative to reference_1 |
 | 2017/10/23 | [Bruce 2326](rundir2326#bruce-2326) | 161,366 yrs | 1.35 km | reference_1: a=.001 b=.008  Veq=1.0  sigmaN=100. backslipFromStress |
 | 2017/10/23 | [Bruce 2343](rundir2343#bruce-2343) | 566,960 yrs | 1.35 km | smaller Veq=0.8        relative to reference_1 |
