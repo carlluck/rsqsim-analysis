@@ -1,0 +1,1917 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	max-width:1000px;
+	margin: auto;
+}
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+</style>
+</head>
+<body>
+<h1 id="cs-study-173-1-dngawest_2014_noidr-gmpe-comparisons">CS Study 17.3 1-D/NGAWest_2014_NoIdr GMPE Comparisons</h1>
+<p><strong>GMPE: NGAWest2 2014 Averaged No Idriss</strong></p>
+<p>Ruptures are binned by their moment magnitude (<strong>Mw</strong>) and the Joyner-Boore distance (<strong>rJB</strong>), the shortest horizontal distance from a site to the surface projection of the rupture surface</p>
+<h2 id="table-of-contents">Table Of Contents</h2>
+<ul>
+<li><a href="#all-sites-aggregated">All Sites Aggregated</a>
+<ul>
+<li><a href="#all-sites-6--mw--65">All Sites, 6 &lt; Mw &lt; 6.5</a>
+<ul>
+<li><a href="#all-sites-6--mw--65-scatter-plots">All Sites, 6 &lt; Mw &lt; 6.5, Scatter Plots</a></li>
+<li><a href="#all-sites-6--mw--65-standard-normal-plots">All Sites, 6 &lt; Mw &lt; 6.5, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#all-sites-65--mw--7">All Sites, 6.5 &lt; Mw &lt; 7</a>
+<ul>
+<li><a href="#all-sites-65--mw--7-scatter-plots">All Sites, 6.5 &lt; Mw &lt; 7, Scatter Plots</a></li>
+<li><a href="#all-sites-65--mw--7-standard-normal-plots">All Sites, 6.5 &lt; Mw &lt; 7, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#all-sites-7--mw--75">All Sites, 7 &lt; Mw &lt; 7.5</a>
+<ul>
+<li><a href="#all-sites-7--mw--75-scatter-plots">All Sites, 7 &lt; Mw &lt; 7.5, Scatter Plots</a></li>
+<li><a href="#all-sites-7--mw--75-standard-normal-plots">All Sites, 7 &lt; Mw &lt; 7.5, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#all-sites-75--mw--8">All Sites, 7.5 &lt; Mw &lt; 8</a>
+<ul>
+<li><a href="#all-sites-75--mw--8-scatter-plots">All Sites, 7.5 &lt; Mw &lt; 8, Scatter Plots</a></li>
+<li><a href="#all-sites-75--mw--8-standard-normal-plots">All Sites, 7.5 &lt; Mw &lt; 8, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#all-sites-8--mw--9">All Sites, 8 &lt; Mw &lt; 9</a>
+<ul>
+<li><a href="#all-sites-8--mw--9-scatter-plots">All Sites, 8 &lt; Mw &lt; 9, Scatter Plots</a></li>
+<li><a href="#all-sites-8--mw--9-standard-normal-plots">All Sites, 8 &lt; Mw &lt; 9, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#all-sites-all-ruptures-standard-normal-plots">All Sites, All Ruptures, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#site-lem">Site LEM</a>
+<ul>
+<li><a href="#lem-6--mw--65">LEM, 6 &lt; Mw &lt; 6.5</a>
+<ul>
+<li><a href="#lem-6--mw--65-scatter-plots">LEM, 6 &lt; Mw &lt; 6.5, Scatter Plots</a></li>
+<li><a href="#lem-6--mw--65-standard-normal-plots">LEM, 6 &lt; Mw &lt; 6.5, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#lem-65--mw--7">LEM, 6.5 &lt; Mw &lt; 7</a>
+<ul>
+<li><a href="#lem-65--mw--7-scatter-plots">LEM, 6.5 &lt; Mw &lt; 7, Scatter Plots</a></li>
+<li><a href="#lem-65--mw--7-standard-normal-plots">LEM, 6.5 &lt; Mw &lt; 7, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#lem-7--mw--75">LEM, 7 &lt; Mw &lt; 7.5</a>
+<ul>
+<li><a href="#lem-7--mw--75-scatter-plots">LEM, 7 &lt; Mw &lt; 7.5, Scatter Plots</a></li>
+<li><a href="#lem-7--mw--75-standard-normal-plots">LEM, 7 &lt; Mw &lt; 7.5, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#lem-75--mw--8">LEM, 7.5 &lt; Mw &lt; 8</a>
+<ul>
+<li><a href="#lem-75--mw--8-scatter-plots">LEM, 7.5 &lt; Mw &lt; 8, Scatter Plots</a></li>
+<li><a href="#lem-75--mw--8-standard-normal-plots">LEM, 7.5 &lt; Mw &lt; 8, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#lem-8--mw--9">LEM, 8 &lt; Mw &lt; 9</a>
+<ul>
+<li><a href="#lem-8--mw--9-scatter-plots">LEM, 8 &lt; Mw &lt; 9, Scatter Plots</a></li>
+<li><a href="#lem-8--mw--9-standard-normal-plots">LEM, 8 &lt; Mw &lt; 9, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#lem-all-ruptures-standard-normal-plots">LEM, All Ruptures, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#site-slo">Site SLO</a>
+<ul>
+<li><a href="#slo-6--mw--65">SLO, 6 &lt; Mw &lt; 6.5</a>
+<ul>
+<li><a href="#slo-6--mw--65-scatter-plots">SLO, 6 &lt; Mw &lt; 6.5, Scatter Plots</a></li>
+<li><a href="#slo-6--mw--65-standard-normal-plots">SLO, 6 &lt; Mw &lt; 6.5, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#slo-65--mw--7">SLO, 6.5 &lt; Mw &lt; 7</a>
+<ul>
+<li><a href="#slo-65--mw--7-scatter-plots">SLO, 6.5 &lt; Mw &lt; 7, Scatter Plots</a></li>
+<li><a href="#slo-65--mw--7-standard-normal-plots">SLO, 6.5 &lt; Mw &lt; 7, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#slo-7--mw--75">SLO, 7 &lt; Mw &lt; 7.5</a>
+<ul>
+<li><a href="#slo-7--mw--75-scatter-plots">SLO, 7 &lt; Mw &lt; 7.5, Scatter Plots</a></li>
+<li><a href="#slo-7--mw--75-standard-normal-plots">SLO, 7 &lt; Mw &lt; 7.5, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#slo-75--mw--8">SLO, 7.5 &lt; Mw &lt; 8</a>
+<ul>
+<li><a href="#slo-75--mw--8-scatter-plots">SLO, 7.5 &lt; Mw &lt; 8, Scatter Plots</a></li>
+<li><a href="#slo-75--mw--8-standard-normal-plots">SLO, 7.5 &lt; Mw &lt; 8, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#slo-8--mw--9">SLO, 8 &lt; Mw &lt; 9</a>
+<ul>
+<li><a href="#slo-8--mw--9-scatter-plots">SLO, 8 &lt; Mw &lt; 9, Scatter Plots</a></li>
+<li><a href="#slo-8--mw--9-standard-normal-plots">SLO, 8 &lt; Mw &lt; 9, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#slo-all-ruptures-standard-normal-plots">SLO, All Ruptures, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#site-car">Site CAR</a>
+<ul>
+<li><a href="#car-6--mw--65">CAR, 6 &lt; Mw &lt; 6.5</a>
+<ul>
+<li><a href="#car-6--mw--65-scatter-plots">CAR, 6 &lt; Mw &lt; 6.5, Scatter Plots</a></li>
+<li><a href="#car-6--mw--65-standard-normal-plots">CAR, 6 &lt; Mw &lt; 6.5, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#car-65--mw--7">CAR, 6.5 &lt; Mw &lt; 7</a>
+<ul>
+<li><a href="#car-65--mw--7-scatter-plots">CAR, 6.5 &lt; Mw &lt; 7, Scatter Plots</a></li>
+<li><a href="#car-65--mw--7-standard-normal-plots">CAR, 6.5 &lt; Mw &lt; 7, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#car-7--mw--75">CAR, 7 &lt; Mw &lt; 7.5</a>
+<ul>
+<li><a href="#car-7--mw--75-scatter-plots">CAR, 7 &lt; Mw &lt; 7.5, Scatter Plots</a></li>
+<li><a href="#car-7--mw--75-standard-normal-plots">CAR, 7 &lt; Mw &lt; 7.5, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#car-75--mw--8">CAR, 7.5 &lt; Mw &lt; 8</a>
+<ul>
+<li><a href="#car-75--mw--8-scatter-plots">CAR, 7.5 &lt; Mw &lt; 8, Scatter Plots</a></li>
+<li><a href="#car-75--mw--8-standard-normal-plots">CAR, 7.5 &lt; Mw &lt; 8, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#car-8--mw--9">CAR, 8 &lt; Mw &lt; 9</a>
+<ul>
+<li><a href="#car-8--mw--9-scatter-plots">CAR, 8 &lt; Mw &lt; 9, Scatter Plots</a></li>
+<li><a href="#car-8--mw--9-standard-normal-plots">CAR, 8 &lt; Mw &lt; 9, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#car-all-ruptures-standard-normal-plots">CAR, All Ruptures, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#site-bak">Site BAK</a>
+<ul>
+<li><a href="#bak-6--mw--65">BAK, 6 &lt; Mw &lt; 6.5</a>
+<ul>
+<li><a href="#bak-6--mw--65-scatter-plots">BAK, 6 &lt; Mw &lt; 6.5, Scatter Plots</a></li>
+<li><a href="#bak-6--mw--65-standard-normal-plots">BAK, 6 &lt; Mw &lt; 6.5, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#bak-65--mw--7">BAK, 6.5 &lt; Mw &lt; 7</a>
+<ul>
+<li><a href="#bak-65--mw--7-scatter-plots">BAK, 6.5 &lt; Mw &lt; 7, Scatter Plots</a></li>
+<li><a href="#bak-65--mw--7-standard-normal-plots">BAK, 6.5 &lt; Mw &lt; 7, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#bak-7--mw--75">BAK, 7 &lt; Mw &lt; 7.5</a>
+<ul>
+<li><a href="#bak-7--mw--75-scatter-plots">BAK, 7 &lt; Mw &lt; 7.5, Scatter Plots</a></li>
+<li><a href="#bak-7--mw--75-standard-normal-plots">BAK, 7 &lt; Mw &lt; 7.5, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#bak-75--mw--8">BAK, 7.5 &lt; Mw &lt; 8</a>
+<ul>
+<li><a href="#bak-75--mw--8-scatter-plots">BAK, 7.5 &lt; Mw &lt; 8, Scatter Plots</a></li>
+<li><a href="#bak-75--mw--8-standard-normal-plots">BAK, 7.5 &lt; Mw &lt; 8, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#bak-8--mw--9">BAK, 8 &lt; Mw &lt; 9</a>
+<ul>
+<li><a href="#bak-8--mw--9-scatter-plots">BAK, 8 &lt; Mw &lt; 9, Scatter Plots</a></li>
+<li><a href="#bak-8--mw--9-standard-normal-plots">BAK, 8 &lt; Mw &lt; 9, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#bak-all-ruptures-standard-normal-plots">BAK, All Ruptures, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#site-sbr">Site SBR</a>
+<ul>
+<li><a href="#sbr-6--mw--65">SBR, 6 &lt; Mw &lt; 6.5</a>
+<ul>
+<li><a href="#sbr-6--mw--65-scatter-plots">SBR, 6 &lt; Mw &lt; 6.5, Scatter Plots</a></li>
+<li><a href="#sbr-6--mw--65-standard-normal-plots">SBR, 6 &lt; Mw &lt; 6.5, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#sbr-65--mw--7">SBR, 6.5 &lt; Mw &lt; 7</a>
+<ul>
+<li><a href="#sbr-65--mw--7-scatter-plots">SBR, 6.5 &lt; Mw &lt; 7, Scatter Plots</a></li>
+<li><a href="#sbr-65--mw--7-standard-normal-plots">SBR, 6.5 &lt; Mw &lt; 7, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#sbr-7--mw--75">SBR, 7 &lt; Mw &lt; 7.5</a>
+<ul>
+<li><a href="#sbr-7--mw--75-scatter-plots">SBR, 7 &lt; Mw &lt; 7.5, Scatter Plots</a></li>
+<li><a href="#sbr-7--mw--75-standard-normal-plots">SBR, 7 &lt; Mw &lt; 7.5, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#sbr-75--mw--8">SBR, 7.5 &lt; Mw &lt; 8</a>
+<ul>
+<li><a href="#sbr-75--mw--8-scatter-plots">SBR, 7.5 &lt; Mw &lt; 8, Scatter Plots</a></li>
+<li><a href="#sbr-75--mw--8-standard-normal-plots">SBR, 7.5 &lt; Mw &lt; 8, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#sbr-8--mw--9">SBR, 8 &lt; Mw &lt; 9</a>
+<ul>
+<li><a href="#sbr-8--mw--9-scatter-plots">SBR, 8 &lt; Mw &lt; 9, Scatter Plots</a></li>
+<li><a href="#sbr-8--mw--9-standard-normal-plots">SBR, 8 &lt; Mw &lt; 9, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#sbr-all-ruptures-standard-normal-plots">SBR, All Ruptures, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#site-vent">Site VENT</a>
+<ul>
+<li><a href="#vent-6--mw--65">VENT, 6 &lt; Mw &lt; 6.5</a>
+<ul>
+<li><a href="#vent-6--mw--65-scatter-plots">VENT, 6 &lt; Mw &lt; 6.5, Scatter Plots</a></li>
+<li><a href="#vent-6--mw--65-standard-normal-plots">VENT, 6 &lt; Mw &lt; 6.5, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#vent-65--mw--7">VENT, 6.5 &lt; Mw &lt; 7</a>
+<ul>
+<li><a href="#vent-65--mw--7-scatter-plots">VENT, 6.5 &lt; Mw &lt; 7, Scatter Plots</a></li>
+<li><a href="#vent-65--mw--7-standard-normal-plots">VENT, 6.5 &lt; Mw &lt; 7, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#vent-7--mw--75">VENT, 7 &lt; Mw &lt; 7.5</a>
+<ul>
+<li><a href="#vent-7--mw--75-scatter-plots">VENT, 7 &lt; Mw &lt; 7.5, Scatter Plots</a></li>
+<li><a href="#vent-7--mw--75-standard-normal-plots">VENT, 7 &lt; Mw &lt; 7.5, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#vent-75--mw--8">VENT, 7.5 &lt; Mw &lt; 8</a>
+<ul>
+<li><a href="#vent-75--mw--8-scatter-plots">VENT, 7.5 &lt; Mw &lt; 8, Scatter Plots</a></li>
+<li><a href="#vent-75--mw--8-standard-normal-plots">VENT, 7.5 &lt; Mw &lt; 8, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#vent-8--mw--9">VENT, 8 &lt; Mw &lt; 9</a>
+<ul>
+<li><a href="#vent-8--mw--9-scatter-plots">VENT, 8 &lt; Mw &lt; 9, Scatter Plots</a></li>
+<li><a href="#vent-8--mw--9-standard-normal-plots">VENT, 8 &lt; Mw &lt; 9, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#vent-all-ruptures-standard-normal-plots">VENT, All Ruptures, Standard Normal Plots</a></li>
+</ul>
+</li>
+<li><a href="#hazard-curves">Hazard Curves</a></li>
+</ul>
+<h2 id="all-sites-aggregated">All Sites Aggregated</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>6 sites</strong></p>
+<table>
+<thead>
+<tr><th>Name</th><th>Location</th><th># Ruptures</th><th>Vs30 (m/s)</th><th>Z1.0 (km)</th><th>Z2.5 (km)</th></tr>
+</thead>
+<tbody>
+<tr><td>LEM</td><td><em>36.30078, -119.78291</em></td><td>3414 (278567 sims)</td><td>1987.29</td><td>5.11</td><td>0</td></tr>
+<tr><td>SLO</td><td><em>35.28286, -120.66268</em></td><td>3297 (261448 sims)</td><td>1987.29</td><td>5.11</td><td>0</td></tr>
+<tr><td>CAR</td><td><em>35.30819, -119.84583</em></td><td>4130 (305087 sims)</td><td>1987.29</td><td>5.11</td><td>0</td></tr>
+<tr><td>BAK</td><td><em>35.34444, -119.10445</em></td><td>5723 (394368 sims)</td><td>1987.29</td><td>5.11</td><td>0</td></tr>
+<tr><td>SBR</td><td><em>34.42083, -119.69819</em></td><td>4749 (358868 sims)</td><td>1987.29</td><td>5.11</td><td>0</td></tr>
+<tr><td>VENT</td><td><em>34.27464, -119.229004</em></td><td>5740 (421461 sims)</td><td>1987.29</td><td>5.11</td><td>0</td></tr>
+</tbody>
+</table>
+<p>7586 ruptures within 200 km of <em>any</em> site</p>
+<h3 id="all-sites-6--mw--65">All Sites, 6 &lt; Mw &lt; 6.5</h3>
+<p>204 Ruptures</p>
+<h4 id="all-sites-6--mw--65-scatter-plots">All Sites, 6 &lt; Mw &lt; 6.5, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td><img src="resources/All_Sites_mag_6_6.5_dist_0_10_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_0_10_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_0_10_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td><img src="resources/All_Sites_mag_6_6.5_dist_10_20_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_10_20_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_10_20_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/All_Sites_mag_6_6.5_dist_20_40_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_20_40_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_20_40_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/All_Sites_mag_6_6.5_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/All_Sites_mag_6_6.5_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/All_Sites_mag_6_6.5_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="all-sites-6--mw--65-standard-normal-plots">All Sites, 6 &lt; Mw &lt; 6.5, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/All_Sites_mag_6_6.5_dist_0_10_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_10_20_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_20_40_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/All_Sites_mag_6_6.5_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="all-sites-65--mw--7">All Sites, 6.5 &lt; Mw &lt; 7</h3>
+<p>4313 Ruptures</p>
+<h4 id="all-sites-65--mw--7-scatter-plots">All Sites, 6.5 &lt; Mw &lt; 7, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td><img src="resources/All_Sites_mag_6.5_7_dist_0_10_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_0_10_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_0_10_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td><img src="resources/All_Sites_mag_6.5_7_dist_10_20_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_10_20_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_10_20_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/All_Sites_mag_6.5_7_dist_20_40_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_20_40_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_20_40_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/All_Sites_mag_6.5_7_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/All_Sites_mag_6.5_7_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/All_Sites_mag_6.5_7_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="all-sites-65--mw--7-standard-normal-plots">All Sites, 6.5 &lt; Mw &lt; 7, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/All_Sites_mag_6.5_7_dist_0_10_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_10_20_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_20_40_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/All_Sites_mag_6.5_7_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="all-sites-7--mw--75">All Sites, 7 &lt; Mw &lt; 7.5</h3>
+<p>2233 Ruptures</p>
+<h4 id="all-sites-7--mw--75-scatter-plots">All Sites, 7 &lt; Mw &lt; 7.5, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td><img src="resources/All_Sites_mag_7_7.5_dist_0_10_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_0_10_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_0_10_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td><img src="resources/All_Sites_mag_7_7.5_dist_10_20_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_10_20_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_10_20_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/All_Sites_mag_7_7.5_dist_20_40_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_20_40_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_20_40_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/All_Sites_mag_7_7.5_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/All_Sites_mag_7_7.5_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/All_Sites_mag_7_7.5_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="all-sites-7--mw--75-standard-normal-plots">All Sites, 7 &lt; Mw &lt; 7.5, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/All_Sites_mag_7_7.5_dist_0_10_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_10_20_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_20_40_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/All_Sites_mag_7_7.5_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="all-sites-75--mw--8">All Sites, 7.5 &lt; Mw &lt; 8</h3>
+<p>742 Ruptures</p>
+<h4 id="all-sites-75--mw--8-scatter-plots">All Sites, 7.5 &lt; Mw &lt; 8, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td><img src="resources/All_Sites_mag_7.5_8_dist_0_10_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_0_10_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_0_10_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td><img src="resources/All_Sites_mag_7.5_8_dist_10_20_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_10_20_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_10_20_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/All_Sites_mag_7.5_8_dist_20_40_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_20_40_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_20_40_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/All_Sites_mag_7.5_8_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/All_Sites_mag_7.5_8_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/All_Sites_mag_7.5_8_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="all-sites-75--mw--8-standard-normal-plots">All Sites, 7.5 &lt; Mw &lt; 8, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/All_Sites_mag_7.5_8_dist_0_10_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_10_20_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_20_40_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/All_Sites_mag_7.5_8_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="all-sites-8--mw--9">All Sites, 8 &lt; Mw &lt; 9</h3>
+<p>80 Ruptures</p>
+<h4 id="all-sites-8--mw--9-scatter-plots">All Sites, 8 &lt; Mw &lt; 9, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td><img src="resources/All_Sites_mag_8_9_dist_0_10_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_8_9_dist_0_10_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_8_9_dist_0_10_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/All_Sites_mag_8_9_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_8_9_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_8_9_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/All_Sites_mag_8_9_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_8_9_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_8_9_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/All_Sites_mag_8_9_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_8_9_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_8_9_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="all-sites-8--mw--9-standard-normal-plots">All Sites, 8 &lt; Mw &lt; 9, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/All_Sites_mag_8_9_dist_0_10_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/All_Sites_mag_8_9_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_8_9_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_8_9_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="all-sites-all-ruptures-standard-normal-plots">All Sites, All Ruptures, Standard Normal Plots</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>z-score standard normal plots across all magnitudes/distances</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<p><img src="resources/All_Sites_all_mags_all_dists_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></p>
+<h2 id="site-lem">Site LEM</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><em>Location: 36.30078, -119.78291</em>
+3414 ruptures within 200.0 km</p>
+<h3 id="lem-6--mw--65">LEM, 6 &lt; Mw &lt; 6.5</h3>
+<p>204 Ruptures</p>
+<h4 id="lem-6--mw--65-scatter-plots">LEM, 6 &lt; Mw &lt; 6.5, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/LEM_mag_6_6.5_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_6_6.5_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_6_6.5_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/LEM_mag_6_6.5_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_6_6.5_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_6_6.5_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/LEM_mag_6_6.5_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_6_6.5_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_6_6.5_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="lem-6--mw--65-standard-normal-plots">LEM, 6 &lt; Mw &lt; 6.5, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/LEM_mag_6_6.5_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/LEM_mag_6_6.5_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/LEM_mag_6_6.5_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="lem-65--mw--7">LEM, 6.5 &lt; Mw &lt; 7</h3>
+<p>4313 Ruptures</p>
+<h4 id="lem-65--mw--7-scatter-plots">LEM, 6.5 &lt; Mw &lt; 7, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/LEM_mag_6.5_7_dist_20_40_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_6.5_7_dist_20_40_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_6.5_7_dist_20_40_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/LEM_mag_6.5_7_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_6.5_7_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_6.5_7_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/LEM_mag_6.5_7_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_6.5_7_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_6.5_7_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/LEM_mag_6.5_7_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_6.5_7_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_6.5_7_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="lem-65--mw--7-standard-normal-plots">LEM, 6.5 &lt; Mw &lt; 7, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td>N/A</td><td>N/A</td><td><img src="resources/LEM_mag_6.5_7_dist_20_40_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/LEM_mag_6.5_7_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/LEM_mag_6.5_7_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/LEM_mag_6.5_7_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="lem-7--mw--75">LEM, 7 &lt; Mw &lt; 7.5</h3>
+<p>2233 Ruptures</p>
+<h4 id="lem-7--mw--75-scatter-plots">LEM, 7 &lt; Mw &lt; 7.5, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/LEM_mag_7_7.5_dist_20_40_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_7_7.5_dist_20_40_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_7_7.5_dist_20_40_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/LEM_mag_7_7.5_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_7_7.5_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_7_7.5_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/LEM_mag_7_7.5_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_7_7.5_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_7_7.5_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/LEM_mag_7_7.5_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_7_7.5_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_7_7.5_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="lem-7--mw--75-standard-normal-plots">LEM, 7 &lt; Mw &lt; 7.5, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td>N/A</td><td>N/A</td><td><img src="resources/LEM_mag_7_7.5_dist_20_40_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/LEM_mag_7_7.5_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/LEM_mag_7_7.5_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/LEM_mag_7_7.5_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="lem-75--mw--8">LEM, 7.5 &lt; Mw &lt; 8</h3>
+<p>742 Ruptures</p>
+<h4 id="lem-75--mw--8-scatter-plots">LEM, 7.5 &lt; Mw &lt; 8, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/LEM_mag_7.5_8_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_7.5_8_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_7.5_8_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/LEM_mag_7.5_8_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_7.5_8_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_7.5_8_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/LEM_mag_7.5_8_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_7.5_8_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_7.5_8_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="lem-75--mw--8-standard-normal-plots">LEM, 7.5 &lt; Mw &lt; 8, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/LEM_mag_7.5_8_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/LEM_mag_7.5_8_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/LEM_mag_7.5_8_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="lem-8--mw--9">LEM, 8 &lt; Mw &lt; 9</h3>
+<p>80 Ruptures</p>
+<h4 id="lem-8--mw--9-scatter-plots">LEM, 8 &lt; Mw &lt; 9, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/LEM_mag_8_9_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_8_9_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_8_9_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/LEM_mag_8_9_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_8_9_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_8_9_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/LEM_mag_8_9_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_8_9_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/LEM_mag_8_9_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="lem-8--mw--9-standard-normal-plots">LEM, 8 &lt; Mw &lt; 9, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/LEM_mag_8_9_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/LEM_mag_8_9_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/LEM_mag_8_9_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="lem-all-ruptures-standard-normal-plots">LEM, All Ruptures, Standard Normal Plots</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>z-score standard normal plots across all magnitudes/distances</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<p><img src="resources/LEM_all_mags_all_dists_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></p>
+<h2 id="site-slo">Site SLO</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><em>Location: 35.28286, -120.66268</em>
+3297 ruptures within 200.0 km</p>
+<h3 id="slo-6--mw--65">SLO, 6 &lt; Mw &lt; 6.5</h3>
+<p>204 Ruptures</p>
+<h4 id="slo-6--mw--65-scatter-plots">SLO, 6 &lt; Mw &lt; 6.5, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/SLO_mag_6_6.5_dist_20_40_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_6_6.5_dist_20_40_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_6_6.5_dist_20_40_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/SLO_mag_6_6.5_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_6_6.5_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_6_6.5_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/SLO_mag_6_6.5_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_6_6.5_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_6_6.5_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/SLO_mag_6_6.5_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_6_6.5_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_6_6.5_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="slo-6--mw--65-standard-normal-plots">SLO, 6 &lt; Mw &lt; 6.5, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td>N/A</td><td>N/A</td><td><img src="resources/SLO_mag_6_6.5_dist_20_40_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/SLO_mag_6_6.5_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SLO_mag_6_6.5_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SLO_mag_6_6.5_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="slo-65--mw--7">SLO, 6.5 &lt; Mw &lt; 7</h3>
+<p>4313 Ruptures</p>
+<h4 id="slo-65--mw--7-scatter-plots">SLO, 6.5 &lt; Mw &lt; 7, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td><img src="resources/SLO_mag_6.5_7_dist_0_10_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_6.5_7_dist_0_10_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_6.5_7_dist_0_10_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td><img src="resources/SLO_mag_6.5_7_dist_10_20_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_6.5_7_dist_10_20_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_6.5_7_dist_10_20_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/SLO_mag_6.5_7_dist_20_40_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_6.5_7_dist_20_40_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_6.5_7_dist_20_40_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/SLO_mag_6.5_7_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_6.5_7_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_6.5_7_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/SLO_mag_6.5_7_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_6.5_7_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_6.5_7_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/SLO_mag_6.5_7_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_6.5_7_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_6.5_7_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="slo-65--mw--7-standard-normal-plots">SLO, 6.5 &lt; Mw &lt; 7, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/SLO_mag_6.5_7_dist_0_10_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SLO_mag_6.5_7_dist_10_20_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SLO_mag_6.5_7_dist_20_40_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/SLO_mag_6.5_7_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SLO_mag_6.5_7_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SLO_mag_6.5_7_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="slo-7--mw--75">SLO, 7 &lt; Mw &lt; 7.5</h3>
+<p>2233 Ruptures</p>
+<h4 id="slo-7--mw--75-scatter-plots">SLO, 7 &lt; Mw &lt; 7.5, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td><img src="resources/SLO_mag_7_7.5_dist_0_10_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_7_7.5_dist_0_10_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_7_7.5_dist_0_10_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td><img src="resources/SLO_mag_7_7.5_dist_10_20_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_7_7.5_dist_10_20_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_7_7.5_dist_10_20_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/SLO_mag_7_7.5_dist_20_40_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_7_7.5_dist_20_40_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_7_7.5_dist_20_40_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/SLO_mag_7_7.5_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_7_7.5_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_7_7.5_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/SLO_mag_7_7.5_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_7_7.5_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_7_7.5_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/SLO_mag_7_7.5_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_7_7.5_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_7_7.5_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="slo-7--mw--75-standard-normal-plots">SLO, 7 &lt; Mw &lt; 7.5, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/SLO_mag_7_7.5_dist_0_10_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SLO_mag_7_7.5_dist_10_20_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SLO_mag_7_7.5_dist_20_40_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/SLO_mag_7_7.5_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SLO_mag_7_7.5_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SLO_mag_7_7.5_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="slo-75--mw--8">SLO, 7.5 &lt; Mw &lt; 8</h3>
+<p>742 Ruptures</p>
+<h4 id="slo-75--mw--8-scatter-plots">SLO, 7.5 &lt; Mw &lt; 8, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td><img src="resources/SLO_mag_7.5_8_dist_10_20_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_7.5_8_dist_10_20_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_7.5_8_dist_10_20_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/SLO_mag_7.5_8_dist_20_40_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_7.5_8_dist_20_40_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_7.5_8_dist_20_40_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/SLO_mag_7.5_8_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_7.5_8_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_7.5_8_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/SLO_mag_7.5_8_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_7.5_8_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_7.5_8_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/SLO_mag_7.5_8_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_7.5_8_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_7.5_8_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="slo-75--mw--8-standard-normal-plots">SLO, 7.5 &lt; Mw &lt; 8, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td>N/A</td><td><img src="resources/SLO_mag_7.5_8_dist_10_20_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SLO_mag_7.5_8_dist_20_40_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/SLO_mag_7.5_8_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SLO_mag_7.5_8_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SLO_mag_7.5_8_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="slo-8--mw--9">SLO, 8 &lt; Mw &lt; 9</h3>
+<p>80 Ruptures</p>
+<h4 id="slo-8--mw--9-scatter-plots">SLO, 8 &lt; Mw &lt; 9, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/SLO_mag_8_9_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_8_9_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_8_9_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/SLO_mag_8_9_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_8_9_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_8_9_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/SLO_mag_8_9_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_8_9_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SLO_mag_8_9_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="slo-8--mw--9-standard-normal-plots">SLO, 8 &lt; Mw &lt; 9, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/SLO_mag_8_9_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SLO_mag_8_9_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SLO_mag_8_9_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="slo-all-ruptures-standard-normal-plots">SLO, All Ruptures, Standard Normal Plots</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>z-score standard normal plots across all magnitudes/distances</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<p><img src="resources/SLO_all_mags_all_dists_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></p>
+<h2 id="site-car">Site CAR</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><em>Location: 35.30819, -119.84583</em>
+4130 ruptures within 200.0 km</p>
+<h3 id="car-6--mw--65">CAR, 6 &lt; Mw &lt; 6.5</h3>
+<p>204 Ruptures</p>
+<h4 id="car-6--mw--65-scatter-plots">CAR, 6 &lt; Mw &lt; 6.5, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/CAR_mag_6_6.5_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_6_6.5_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_6_6.5_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/CAR_mag_6_6.5_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_6_6.5_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_6_6.5_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/CAR_mag_6_6.5_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_6_6.5_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_6_6.5_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="car-6--mw--65-standard-normal-plots">CAR, 6 &lt; Mw &lt; 6.5, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/CAR_mag_6_6.5_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/CAR_mag_6_6.5_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/CAR_mag_6_6.5_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="car-65--mw--7">CAR, 6.5 &lt; Mw &lt; 7</h3>
+<p>4313 Ruptures</p>
+<h4 id="car-65--mw--7-scatter-plots">CAR, 6.5 &lt; Mw &lt; 7, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td><img src="resources/CAR_mag_6.5_7_dist_0_10_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_6.5_7_dist_0_10_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_6.5_7_dist_0_10_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td><img src="resources/CAR_mag_6.5_7_dist_10_20_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_6.5_7_dist_10_20_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_6.5_7_dist_10_20_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/CAR_mag_6.5_7_dist_20_40_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_6.5_7_dist_20_40_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_6.5_7_dist_20_40_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/CAR_mag_6.5_7_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_6.5_7_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_6.5_7_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/CAR_mag_6.5_7_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_6.5_7_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_6.5_7_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/CAR_mag_6.5_7_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_6.5_7_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_6.5_7_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="car-65--mw--7-standard-normal-plots">CAR, 6.5 &lt; Mw &lt; 7, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/CAR_mag_6.5_7_dist_0_10_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/CAR_mag_6.5_7_dist_10_20_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/CAR_mag_6.5_7_dist_20_40_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/CAR_mag_6.5_7_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/CAR_mag_6.5_7_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/CAR_mag_6.5_7_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="car-7--mw--75">CAR, 7 &lt; Mw &lt; 7.5</h3>
+<p>2233 Ruptures</p>
+<h4 id="car-7--mw--75-scatter-plots">CAR, 7 &lt; Mw &lt; 7.5, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td><img src="resources/CAR_mag_7_7.5_dist_0_10_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_7_7.5_dist_0_10_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_7_7.5_dist_0_10_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td><img src="resources/CAR_mag_7_7.5_dist_10_20_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_7_7.5_dist_10_20_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_7_7.5_dist_10_20_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/CAR_mag_7_7.5_dist_20_40_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_7_7.5_dist_20_40_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_7_7.5_dist_20_40_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/CAR_mag_7_7.5_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_7_7.5_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_7_7.5_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/CAR_mag_7_7.5_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_7_7.5_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_7_7.5_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/CAR_mag_7_7.5_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_7_7.5_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_7_7.5_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="car-7--mw--75-standard-normal-plots">CAR, 7 &lt; Mw &lt; 7.5, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/CAR_mag_7_7.5_dist_0_10_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/CAR_mag_7_7.5_dist_10_20_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/CAR_mag_7_7.5_dist_20_40_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/CAR_mag_7_7.5_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/CAR_mag_7_7.5_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/CAR_mag_7_7.5_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="car-75--mw--8">CAR, 7.5 &lt; Mw &lt; 8</h3>
+<p>742 Ruptures</p>
+<h4 id="car-75--mw--8-scatter-plots">CAR, 7.5 &lt; Mw &lt; 8, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td><img src="resources/CAR_mag_7.5_8_dist_0_10_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_7.5_8_dist_0_10_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_7.5_8_dist_0_10_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td><img src="resources/CAR_mag_7.5_8_dist_10_20_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_7.5_8_dist_10_20_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_7.5_8_dist_10_20_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/CAR_mag_7.5_8_dist_20_40_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_7.5_8_dist_20_40_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_7.5_8_dist_20_40_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/CAR_mag_7.5_8_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_7.5_8_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_7.5_8_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/CAR_mag_7.5_8_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_7.5_8_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_7.5_8_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/CAR_mag_7.5_8_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_7.5_8_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_7.5_8_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="car-75--mw--8-standard-normal-plots">CAR, 7.5 &lt; Mw &lt; 8, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/CAR_mag_7.5_8_dist_0_10_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/CAR_mag_7.5_8_dist_10_20_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/CAR_mag_7.5_8_dist_20_40_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/CAR_mag_7.5_8_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/CAR_mag_7.5_8_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/CAR_mag_7.5_8_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="car-8--mw--9">CAR, 8 &lt; Mw &lt; 9</h3>
+<p>80 Ruptures</p>
+<h4 id="car-8--mw--9-scatter-plots">CAR, 8 &lt; Mw &lt; 9, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td><img src="resources/CAR_mag_8_9_dist_0_10_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_8_9_dist_0_10_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_8_9_dist_0_10_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/CAR_mag_8_9_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_8_9_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_8_9_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/CAR_mag_8_9_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_8_9_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/CAR_mag_8_9_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+</tbody>
+</table>
+<h4 id="car-8--mw--9-standard-normal-plots">CAR, 8 &lt; Mw &lt; 9, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/CAR_mag_8_9_dist_0_10_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/CAR_mag_8_9_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/CAR_mag_8_9_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td>N/A</td></tr>
+</tbody>
+</table>
+<h3 id="car-all-ruptures-standard-normal-plots">CAR, All Ruptures, Standard Normal Plots</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>z-score standard normal plots across all magnitudes/distances</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<p><img src="resources/CAR_all_mags_all_dists_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></p>
+<h2 id="site-bak">Site BAK</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><em>Location: 35.34444, -119.10445</em>
+5723 ruptures within 200.0 km</p>
+<h3 id="bak-6--mw--65">BAK, 6 &lt; Mw &lt; 6.5</h3>
+<p>204 Ruptures</p>
+<h4 id="bak-6--mw--65-scatter-plots">BAK, 6 &lt; Mw &lt; 6.5, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/BAK_mag_6_6.5_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_6_6.5_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_6_6.5_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/BAK_mag_6_6.5_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_6_6.5_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_6_6.5_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/BAK_mag_6_6.5_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_6_6.5_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_6_6.5_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="bak-6--mw--65-standard-normal-plots">BAK, 6 &lt; Mw &lt; 6.5, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/BAK_mag_6_6.5_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/BAK_mag_6_6.5_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/BAK_mag_6_6.5_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="bak-65--mw--7">BAK, 6.5 &lt; Mw &lt; 7</h3>
+<p>4313 Ruptures</p>
+<h4 id="bak-65--mw--7-scatter-plots">BAK, 6.5 &lt; Mw &lt; 7, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/BAK_mag_6.5_7_dist_20_40_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_6.5_7_dist_20_40_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_6.5_7_dist_20_40_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/BAK_mag_6.5_7_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_6.5_7_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_6.5_7_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/BAK_mag_6.5_7_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_6.5_7_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_6.5_7_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/BAK_mag_6.5_7_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_6.5_7_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_6.5_7_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="bak-65--mw--7-standard-normal-plots">BAK, 6.5 &lt; Mw &lt; 7, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td>N/A</td><td>N/A</td><td><img src="resources/BAK_mag_6.5_7_dist_20_40_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/BAK_mag_6.5_7_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/BAK_mag_6.5_7_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/BAK_mag_6.5_7_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="bak-7--mw--75">BAK, 7 &lt; Mw &lt; 7.5</h3>
+<p>2233 Ruptures</p>
+<h4 id="bak-7--mw--75-scatter-plots">BAK, 7 &lt; Mw &lt; 7.5, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/BAK_mag_7_7.5_dist_20_40_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_7_7.5_dist_20_40_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_7_7.5_dist_20_40_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/BAK_mag_7_7.5_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_7_7.5_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_7_7.5_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/BAK_mag_7_7.5_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_7_7.5_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_7_7.5_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/BAK_mag_7_7.5_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_7_7.5_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_7_7.5_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="bak-7--mw--75-standard-normal-plots">BAK, 7 &lt; Mw &lt; 7.5, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td>N/A</td><td>N/A</td><td><img src="resources/BAK_mag_7_7.5_dist_20_40_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/BAK_mag_7_7.5_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/BAK_mag_7_7.5_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/BAK_mag_7_7.5_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="bak-75--mw--8">BAK, 7.5 &lt; Mw &lt; 8</h3>
+<p>742 Ruptures</p>
+<h4 id="bak-75--mw--8-scatter-plots">BAK, 7.5 &lt; Mw &lt; 8, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/BAK_mag_7.5_8_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_7.5_8_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_7.5_8_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/BAK_mag_7.5_8_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_7.5_8_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_7.5_8_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/BAK_mag_7.5_8_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_7.5_8_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_7.5_8_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="bak-75--mw--8-standard-normal-plots">BAK, 7.5 &lt; Mw &lt; 8, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/BAK_mag_7.5_8_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/BAK_mag_7.5_8_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/BAK_mag_7.5_8_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="bak-8--mw--9">BAK, 8 &lt; Mw &lt; 9</h3>
+<p>80 Ruptures</p>
+<h4 id="bak-8--mw--9-scatter-plots">BAK, 8 &lt; Mw &lt; 9, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/BAK_mag_8_9_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_8_9_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_8_9_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/BAK_mag_8_9_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_8_9_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_8_9_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/BAK_mag_8_9_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_8_9_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/BAK_mag_8_9_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="bak-8--mw--9-standard-normal-plots">BAK, 8 &lt; Mw &lt; 9, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/BAK_mag_8_9_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/BAK_mag_8_9_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/BAK_mag_8_9_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="bak-all-ruptures-standard-normal-plots">BAK, All Ruptures, Standard Normal Plots</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>z-score standard normal plots across all magnitudes/distances</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<p><img src="resources/BAK_all_mags_all_dists_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></p>
+<h2 id="site-sbr">Site SBR</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><em>Location: 34.42083, -119.69819</em>
+4749 ruptures within 200.0 km</p>
+<h3 id="sbr-6--mw--65">SBR, 6 &lt; Mw &lt; 6.5</h3>
+<p>204 Ruptures</p>
+<h4 id="sbr-6--mw--65-scatter-plots">SBR, 6 &lt; Mw &lt; 6.5, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td><img src="resources/SBR_mag_6_6.5_dist_0_10_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_6_6.5_dist_0_10_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_6_6.5_dist_0_10_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td><img src="resources/SBR_mag_6_6.5_dist_10_20_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_6_6.5_dist_10_20_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_6_6.5_dist_10_20_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/SBR_mag_6_6.5_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_6_6.5_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_6_6.5_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/SBR_mag_6_6.5_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_6_6.5_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_6_6.5_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/SBR_mag_6_6.5_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_6_6.5_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_6_6.5_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="sbr-6--mw--65-standard-normal-plots">SBR, 6 &lt; Mw &lt; 6.5, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/SBR_mag_6_6.5_dist_0_10_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBR_mag_6_6.5_dist_10_20_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td>N/A</td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/SBR_mag_6_6.5_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBR_mag_6_6.5_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBR_mag_6_6.5_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="sbr-65--mw--7">SBR, 6.5 &lt; Mw &lt; 7</h3>
+<p>4313 Ruptures</p>
+<h4 id="sbr-65--mw--7-scatter-plots">SBR, 6.5 &lt; Mw &lt; 7, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td><img src="resources/SBR_mag_6.5_7_dist_0_10_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_6.5_7_dist_0_10_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_6.5_7_dist_0_10_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td><img src="resources/SBR_mag_6.5_7_dist_10_20_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_6.5_7_dist_10_20_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_6.5_7_dist_10_20_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/SBR_mag_6.5_7_dist_20_40_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_6.5_7_dist_20_40_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_6.5_7_dist_20_40_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/SBR_mag_6.5_7_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_6.5_7_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_6.5_7_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/SBR_mag_6.5_7_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_6.5_7_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_6.5_7_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/SBR_mag_6.5_7_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_6.5_7_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_6.5_7_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="sbr-65--mw--7-standard-normal-plots">SBR, 6.5 &lt; Mw &lt; 7, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/SBR_mag_6.5_7_dist_0_10_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBR_mag_6.5_7_dist_10_20_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBR_mag_6.5_7_dist_20_40_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/SBR_mag_6.5_7_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBR_mag_6.5_7_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBR_mag_6.5_7_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="sbr-7--mw--75">SBR, 7 &lt; Mw &lt; 7.5</h3>
+<p>2233 Ruptures</p>
+<h4 id="sbr-7--mw--75-scatter-plots">SBR, 7 &lt; Mw &lt; 7.5, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td><img src="resources/SBR_mag_7_7.5_dist_0_10_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_7_7.5_dist_0_10_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_7_7.5_dist_0_10_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td><img src="resources/SBR_mag_7_7.5_dist_10_20_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_7_7.5_dist_10_20_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_7_7.5_dist_10_20_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/SBR_mag_7_7.5_dist_20_40_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_7_7.5_dist_20_40_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_7_7.5_dist_20_40_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/SBR_mag_7_7.5_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_7_7.5_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_7_7.5_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/SBR_mag_7_7.5_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_7_7.5_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_7_7.5_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/SBR_mag_7_7.5_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_7_7.5_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_7_7.5_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="sbr-7--mw--75-standard-normal-plots">SBR, 7 &lt; Mw &lt; 7.5, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/SBR_mag_7_7.5_dist_0_10_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBR_mag_7_7.5_dist_10_20_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBR_mag_7_7.5_dist_20_40_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/SBR_mag_7_7.5_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBR_mag_7_7.5_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBR_mag_7_7.5_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="sbr-75--mw--8">SBR, 7.5 &lt; Mw &lt; 8</h3>
+<p>742 Ruptures</p>
+<h4 id="sbr-75--mw--8-scatter-plots">SBR, 7.5 &lt; Mw &lt; 8, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td><img src="resources/SBR_mag_7.5_8_dist_0_10_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_7.5_8_dist_0_10_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_7.5_8_dist_0_10_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td><img src="resources/SBR_mag_7.5_8_dist_10_20_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_7.5_8_dist_10_20_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_7.5_8_dist_10_20_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/SBR_mag_7.5_8_dist_20_40_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_7.5_8_dist_20_40_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_7.5_8_dist_20_40_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/SBR_mag_7.5_8_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_7.5_8_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_7.5_8_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/SBR_mag_7.5_8_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_7.5_8_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_7.5_8_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/SBR_mag_7.5_8_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_7.5_8_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_7.5_8_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="sbr-75--mw--8-standard-normal-plots">SBR, 7.5 &lt; Mw &lt; 8, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/SBR_mag_7.5_8_dist_0_10_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBR_mag_7.5_8_dist_10_20_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBR_mag_7.5_8_dist_20_40_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/SBR_mag_7.5_8_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBR_mag_7.5_8_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBR_mag_7.5_8_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="sbr-8--mw--9">SBR, 8 &lt; Mw &lt; 9</h3>
+<p>80 Ruptures</p>
+<h4 id="sbr-8--mw--9-scatter-plots">SBR, 8 &lt; Mw &lt; 9, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/SBR_mag_8_9_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_8_9_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_8_9_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/SBR_mag_8_9_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_8_9_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_8_9_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/SBR_mag_8_9_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_8_9_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/SBR_mag_8_9_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="sbr-8--mw--9-standard-normal-plots">SBR, 8 &lt; Mw &lt; 9, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/SBR_mag_8_9_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBR_mag_8_9_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/SBR_mag_8_9_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="sbr-all-ruptures-standard-normal-plots">SBR, All Ruptures, Standard Normal Plots</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>z-score standard normal plots across all magnitudes/distances</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<p><img src="resources/SBR_all_mags_all_dists_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></p>
+<h2 id="site-vent">Site VENT</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><em>Location: 34.27464, -119.229004</em>
+5740 ruptures within 200.0 km</p>
+<h3 id="vent-6--mw--65">VENT, 6 &lt; Mw &lt; 6.5</h3>
+<p>204 Ruptures</p>
+<h4 id="vent-6--mw--65-scatter-plots">VENT, 6 &lt; Mw &lt; 6.5, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td><img src="resources/VENT_mag_6_6.5_dist_0_10_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_6_6.5_dist_0_10_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_6_6.5_dist_0_10_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td><img src="resources/VENT_mag_6_6.5_dist_10_20_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_6_6.5_dist_10_20_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_6_6.5_dist_10_20_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/VENT_mag_6_6.5_dist_20_40_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_6_6.5_dist_20_40_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_6_6.5_dist_20_40_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/VENT_mag_6_6.5_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_6_6.5_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_6_6.5_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/VENT_mag_6_6.5_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_6_6.5_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_6_6.5_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/VENT_mag_6_6.5_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_6_6.5_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_6_6.5_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="vent-6--mw--65-standard-normal-plots">VENT, 6 &lt; Mw &lt; 6.5, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/VENT_mag_6_6.5_dist_0_10_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/VENT_mag_6_6.5_dist_10_20_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/VENT_mag_6_6.5_dist_20_40_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/VENT_mag_6_6.5_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/VENT_mag_6_6.5_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/VENT_mag_6_6.5_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="vent-65--mw--7">VENT, 6.5 &lt; Mw &lt; 7</h3>
+<p>4313 Ruptures</p>
+<h4 id="vent-65--mw--7-scatter-plots">VENT, 6.5 &lt; Mw &lt; 7, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td><img src="resources/VENT_mag_6.5_7_dist_0_10_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_6.5_7_dist_0_10_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_6.5_7_dist_0_10_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td><img src="resources/VENT_mag_6.5_7_dist_10_20_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_6.5_7_dist_10_20_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_6.5_7_dist_10_20_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/VENT_mag_6.5_7_dist_20_40_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_6.5_7_dist_20_40_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_6.5_7_dist_20_40_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/VENT_mag_6.5_7_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_6.5_7_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_6.5_7_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/VENT_mag_6.5_7_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_6.5_7_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_6.5_7_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/VENT_mag_6.5_7_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_6.5_7_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_6.5_7_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="vent-65--mw--7-standard-normal-plots">VENT, 6.5 &lt; Mw &lt; 7, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/VENT_mag_6.5_7_dist_0_10_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/VENT_mag_6.5_7_dist_10_20_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/VENT_mag_6.5_7_dist_20_40_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/VENT_mag_6.5_7_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/VENT_mag_6.5_7_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/VENT_mag_6.5_7_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="vent-7--mw--75">VENT, 7 &lt; Mw &lt; 7.5</h3>
+<p>2233 Ruptures</p>
+<h4 id="vent-7--mw--75-scatter-plots">VENT, 7 &lt; Mw &lt; 7.5, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td><img src="resources/VENT_mag_7_7.5_dist_0_10_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_7_7.5_dist_0_10_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_7_7.5_dist_0_10_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td><img src="resources/VENT_mag_7_7.5_dist_10_20_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_7_7.5_dist_10_20_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_7_7.5_dist_10_20_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/VENT_mag_7_7.5_dist_20_40_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_7_7.5_dist_20_40_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_7_7.5_dist_20_40_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/VENT_mag_7_7.5_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_7_7.5_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_7_7.5_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/VENT_mag_7_7.5_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_7_7.5_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_7_7.5_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/VENT_mag_7_7.5_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_7_7.5_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_7_7.5_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="vent-7--mw--75-standard-normal-plots">VENT, 7 &lt; Mw &lt; 7.5, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/VENT_mag_7_7.5_dist_0_10_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/VENT_mag_7_7.5_dist_10_20_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/VENT_mag_7_7.5_dist_20_40_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/VENT_mag_7_7.5_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/VENT_mag_7_7.5_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/VENT_mag_7_7.5_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="vent-75--mw--8">VENT, 7.5 &lt; Mw &lt; 8</h3>
+<p>742 Ruptures</p>
+<h4 id="vent-75--mw--8-scatter-plots">VENT, 7.5 &lt; Mw &lt; 8, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td><img src="resources/VENT_mag_7.5_8_dist_0_10_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_7.5_8_dist_0_10_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_7.5_8_dist_0_10_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td><img src="resources/VENT_mag_7.5_8_dist_10_20_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_7.5_8_dist_10_20_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_7.5_8_dist_10_20_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/VENT_mag_7.5_8_dist_20_40_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_7.5_8_dist_20_40_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_7.5_8_dist_20_40_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/VENT_mag_7.5_8_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_7.5_8_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_7.5_8_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/VENT_mag_7.5_8_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_7.5_8_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_7.5_8_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/VENT_mag_7.5_8_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_7.5_8_dist_160_200_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_7.5_8_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="vent-75--mw--8-standard-normal-plots">VENT, 7.5 &lt; Mw &lt; 8, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/VENT_mag_7.5_8_dist_0_10_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/VENT_mag_7.5_8_dist_10_20_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/VENT_mag_7.5_8_dist_20_40_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/VENT_mag_7.5_8_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/VENT_mag_7.5_8_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/VENT_mag_7.5_8_dist_160_200_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="vent-8--mw--9">VENT, 8 &lt; Mw &lt; 9</h3>
+<p>80 Ruptures</p>
+<h4 id="vent-8--mw--9-scatter-plots">VENT, 8 &lt; Mw &lt; 9, Scatter Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/CS Study 17.3 1-D single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>2 s</strong></th><th><strong>3 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/VENT_mag_8_9_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_8_9_dist_40_80_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_8_9_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/VENT_mag_8_9_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_8_9_dist_80_160_3s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/VENT_mag_8_9_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+</tbody>
+</table>
+<h4 id="vent-8--mw--9-standard-normal-plots">VENT, 8 &lt; Mw &lt; 9, Standard Normal Plots</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare CS Study 17.3 1-D to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/VENT_mag_8_9_dist_40_80_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/VENT_mag_8_9_dist_80_160_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></td><td>N/A</td></tr>
+</tbody>
+</table>
+<h3 id="vent-all-ruptures-standard-normal-plots">VENT, All Ruptures, Standard Normal Plots</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>z-score standard normal plots across all magnitudes/distances</p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 1-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: CS Study 17.3 1-D Mean</li>
+</ul>
+<p><img src="resources/VENT_all_mags_all_dists_NGAWest_2014_NoIdr_std_norm.png" alt="Standard Normal Plot" /></p>
+<h2 id="hazard-curves">Hazard Curves</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong>:</p>
+<ul>
+<li>Black Solid Line: CS Study 17.3 1-D</li>
+<li>Blue Solid Line: NGAWest_2014_NoIdr</li>
+<li>Blue Dashed Line: NGAWest_2014_NoIdr 3-sigma truncation</li>
+<li>Blue Dotted Line: NGAWest_2014_NoIdr 2-sigma truncation</li>
+<li>Blue Dotted and dashed Line: NGAWest_2014_NoIdr 1-sigma truncation</li>
+<li>Green Dashed Line: NGAWest_2014_NoIdr mean values only</li>
+<li>Gray Dashed Lines: 1000 yr, 2500 yr, 10000 yr return periods</li>
+</ul>
+<table>
+<thead>
+<tr><th>Site</th><th>2s</th><th>3s</th><th>5s</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>LEM</strong></td><td><img src="resources/LEM_curves_2.0s_NGAWest_2014_NoIdr.png" alt="Hazard Curve" /></td><td><img src="resources/LEM_curves_3.0s_NGAWest_2014_NoIdr.png" alt="Hazard Curve" /></td><td><img src="resources/LEM_curves_5.0s_NGAWest_2014_NoIdr.png" alt="Hazard Curve" /></td></tr>
+<tr><td><strong>SLO</strong></td><td><img src="resources/SLO_curves_2.0s_NGAWest_2014_NoIdr.png" alt="Hazard Curve" /></td><td><img src="resources/SLO_curves_3.0s_NGAWest_2014_NoIdr.png" alt="Hazard Curve" /></td><td><img src="resources/SLO_curves_5.0s_NGAWest_2014_NoIdr.png" alt="Hazard Curve" /></td></tr>
+<tr><td><strong>CAR</strong></td><td><img src="resources/CAR_curves_2.0s_NGAWest_2014_NoIdr.png" alt="Hazard Curve" /></td><td><img src="resources/CAR_curves_3.0s_NGAWest_2014_NoIdr.png" alt="Hazard Curve" /></td><td><img src="resources/CAR_curves_5.0s_NGAWest_2014_NoIdr.png" alt="Hazard Curve" /></td></tr>
+<tr><td><strong>BAK</strong></td><td><img src="resources/BAK_curves_2.0s_NGAWest_2014_NoIdr.png" alt="Hazard Curve" /></td><td><img src="resources/BAK_curves_3.0s_NGAWest_2014_NoIdr.png" alt="Hazard Curve" /></td><td><img src="resources/BAK_curves_5.0s_NGAWest_2014_NoIdr.png" alt="Hazard Curve" /></td></tr>
+<tr><td><strong>SBR</strong></td><td><img src="resources/SBR_curves_2.0s_NGAWest_2014_NoIdr.png" alt="Hazard Curve" /></td><td><img src="resources/SBR_curves_3.0s_NGAWest_2014_NoIdr.png" alt="Hazard Curve" /></td><td><img src="resources/SBR_curves_5.0s_NGAWest_2014_NoIdr.png" alt="Hazard Curve" /></td></tr>
+<tr><td><strong>VENT</strong></td><td><img src="resources/VENT_curves_2.0s_NGAWest_2014_NoIdr.png" alt="Hazard Curve" /></td><td><img src="resources/VENT_curves_3.0s_NGAWest_2014_NoIdr.png" alt="Hazard Curve" /></td><td><img src="resources/VENT_curves_5.0s_NGAWest_2014_NoIdr.png" alt="Hazard Curve" /></td></tr>
+</tbody>
+</table>
+</body>
+</html>

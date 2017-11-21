@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	max-width:1000px;
+	margin: auto;
+}
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+</style>
+</head>
+<body>
+<h1 id="cs-study-173-3-dngawest_2014_noidr-rotd100rotd50-ratios">CS Study 17.3 3-D/NGAWest_2014_NoIdr RotD100/RotD50 Ratios</h1>
+<p>Distance dependent plots use the Joyner-Boore distance (<strong>rJB</strong>), the shortest horizontal distance from a site to the surface projection of the rupture surface distance metric</p>
+<h2 id="table-of-contents">Table Of Contents</h2>
+<ul>
+<li><a href="#site-list">Site List</a></li>
+<li><a href="#all-mags">All Mags</a>
+<ul>
+<li><a href="#all-mags-rjb-dependence">All Mags, rJB Dependence</a></li>
+<li><a href="#all-mags-azimuth-dependence">All Mags, Azimuth Dependence</a></li>
+<li><a href="#all-mags-rotd50-dependence">All Mags, RotD50 Dependence</a></li>
+<li><a href="#all-mags-gmpe-z-dependence">All Mags, GMPE Z Dependence</a>
+<ul>
+<li><a href="#all-mags-gmpe-z-dependence-scatters">All Mags, GMPE Z Dependence Scatters</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#6--mw--65">6 &lt; Mw &lt; 6.5</a>
+<ul>
+<li><a href="#6--mw--65-rjb-dependence">6 &lt; Mw &lt; 6.5, rJB Dependence</a></li>
+<li><a href="#6--mw--65-azimuth-dependence">6 &lt; Mw &lt; 6.5, Azimuth Dependence</a></li>
+<li><a href="#6--mw--65-rotd50-dependence">6 &lt; Mw &lt; 6.5, RotD50 Dependence</a></li>
+<li><a href="#6--mw--65-gmpe-z-dependence">6 &lt; Mw &lt; 6.5, GMPE Z Dependence</a>
+<ul>
+<li><a href="#6--mw--65-gmpe-z-dependence-scatters">6 &lt; Mw &lt; 6.5, GMPE Z Dependence Scatters</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#65--mw--7">6.5 &lt; Mw &lt; 7</a>
+<ul>
+<li><a href="#65--mw--7-rjb-dependence">6.5 &lt; Mw &lt; 7, rJB Dependence</a></li>
+<li><a href="#65--mw--7-azimuth-dependence">6.5 &lt; Mw &lt; 7, Azimuth Dependence</a></li>
+<li><a href="#65--mw--7-rotd50-dependence">6.5 &lt; Mw &lt; 7, RotD50 Dependence</a></li>
+<li><a href="#65--mw--7-gmpe-z-dependence">6.5 &lt; Mw &lt; 7, GMPE Z Dependence</a>
+<ul>
+<li><a href="#65--mw--7-gmpe-z-dependence-scatters">6.5 &lt; Mw &lt; 7, GMPE Z Dependence Scatters</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#7--mw--75">7 &lt; Mw &lt; 7.5</a>
+<ul>
+<li><a href="#7--mw--75-rjb-dependence">7 &lt; Mw &lt; 7.5, rJB Dependence</a></li>
+<li><a href="#7--mw--75-azimuth-dependence">7 &lt; Mw &lt; 7.5, Azimuth Dependence</a></li>
+<li><a href="#7--mw--75-rotd50-dependence">7 &lt; Mw &lt; 7.5, RotD50 Dependence</a></li>
+<li><a href="#7--mw--75-gmpe-z-dependence">7 &lt; Mw &lt; 7.5, GMPE Z Dependence</a>
+<ul>
+<li><a href="#7--mw--75-gmpe-z-dependence-scatters">7 &lt; Mw &lt; 7.5, GMPE Z Dependence Scatters</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#75--mw--8">7.5 &lt; Mw &lt; 8</a>
+<ul>
+<li><a href="#75--mw--8-rjb-dependence">7.5 &lt; Mw &lt; 8, rJB Dependence</a></li>
+<li><a href="#75--mw--8-azimuth-dependence">7.5 &lt; Mw &lt; 8, Azimuth Dependence</a></li>
+<li><a href="#75--mw--8-rotd50-dependence">7.5 &lt; Mw &lt; 8, RotD50 Dependence</a></li>
+<li><a href="#75--mw--8-gmpe-z-dependence">7.5 &lt; Mw &lt; 8, GMPE Z Dependence</a>
+<ul>
+<li><a href="#75--mw--8-gmpe-z-dependence-scatters">7.5 &lt; Mw &lt; 8, GMPE Z Dependence Scatters</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="site-list">Site List</h2>
+<table>
+<thead>
+<tr><th>Name</th><th>Location</th><th># Events</th></tr>
+</thead>
+<tbody>
+<tr><td>LEM</td><td><em>36.30078, -119.78291</em></td><td>3414</td></tr>
+<tr><td>SLO</td><td><em>35.28286, -120.66268</em></td><td>3297</td></tr>
+<tr><td>CAR</td><td><em>35.30819, -119.84583</em></td><td>4130</td></tr>
+<tr><td>BAK</td><td><em>35.34444, -119.10445</em></td><td>5723</td></tr>
+<tr><td>SBR</td><td><em>34.42083, -119.69819</em></td><td>4749</td></tr>
+<tr><td>VENT</td><td><em>34.27464, -119.229004</em></td><td>5740</td></tr>
+</tbody>
+</table>
+<h2 id="all-mags">All Mags</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rot_d_ratio_all_mags_aggregated.png" alt="RotD Ratio" /></p>
+<h3 id="all-mags-rjb-dependence">All Mags, rJB Dependence</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rot_d_ratio_all_mags_rJB_dependence.png" alt="RotD Ratio" /></p>
+<h3 id="all-mags-azimuth-dependence">All Mags, Azimuth Dependence</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rot_d_ratio_all_mags_az_dependence.png" alt="RotD Ratio" /></p>
+<h3 id="all-mags-rotd50-dependence">All Mags, RotD50 Dependence</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rot_d_ratio_all_mags_amplitude_dependence.png" alt="RotD Ratio" /></p>
+<h3 id="all-mags-gmpe-z-dependence">All Mags, GMPE Z Dependence</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 3-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>GMPE</strong>: NGAWest2 2014 Averaged No Idriss</p>
+<p><img src="resources/rot_d_ratio_all_mags_z_dependence.png" alt="RotD Ratio" /></p>
+<h4 id="all-mags-gmpe-z-dependence-scatters">All Mags, GMPE Z Dependence Scatters</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>Distance</th><th><strong>2s</strong></th><th><strong>3s</strong></th><th><strong>5s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td><img src="resources/rot_d_ratio_all_mags_dist_0_10_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_all_mags_dist_0_10_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_all_mags_dist_0_10_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td><img src="resources/rot_d_ratio_all_mags_dist_10_20_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_all_mags_dist_10_20_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_all_mags_dist_10_20_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/rot_d_ratio_all_mags_dist_20_40_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_all_mags_dist_20_40_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_all_mags_dist_20_40_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/rot_d_ratio_all_mags_dist_40_80_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_all_mags_dist_40_80_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_all_mags_dist_40_80_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/rot_d_ratio_all_mags_dist_80_160_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_all_mags_dist_80_160_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_all_mags_dist_80_160_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/rot_d_ratio_all_mags_dist_160_200_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_all_mags_dist_160_200_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_all_mags_dist_160_200_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+</tbody>
+</table>
+<h2 id="6--mw--65">6 &lt; Mw &lt; 6.5</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rot_d_ratio_mag_6_6.5_aggregated.png" alt="RotD Ratio" /></p>
+<h3 id="6--mw--65-rjb-dependence">6 &lt; Mw &lt; 6.5, rJB Dependence</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rot_d_ratio_mag_6_6.5_rJB_dependence.png" alt="RotD Ratio" /></p>
+<h3 id="6--mw--65-azimuth-dependence">6 &lt; Mw &lt; 6.5, Azimuth Dependence</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rot_d_ratio_mag_6_6.5_az_dependence.png" alt="RotD Ratio" /></p>
+<h3 id="6--mw--65-rotd50-dependence">6 &lt; Mw &lt; 6.5, RotD50 Dependence</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rot_d_ratio_mag_6_6.5_amplitude_dependence.png" alt="RotD Ratio" /></p>
+<h3 id="6--mw--65-gmpe-z-dependence">6 &lt; Mw &lt; 6.5, GMPE Z Dependence</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 3-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>GMPE</strong>: NGAWest2 2014 Averaged No Idriss</p>
+<p><img src="resources/rot_d_ratio_mag_6_6.5_z_dependence.png" alt="RotD Ratio" /></p>
+<h4 id="6--mw--65-gmpe-z-dependence-scatters">6 &lt; Mw &lt; 6.5, GMPE Z Dependence Scatters</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>Distance</th><th><strong>2s</strong></th><th><strong>3s</strong></th><th><strong>5s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td><img src="resources/rot_d_ratio_mag_6_6.5_dist_0_10_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_6_6.5_dist_0_10_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_6_6.5_dist_0_10_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td><img src="resources/rot_d_ratio_mag_6_6.5_dist_10_20_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_6_6.5_dist_10_20_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_6_6.5_dist_10_20_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/rot_d_ratio_mag_6_6.5_dist_20_40_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_6_6.5_dist_20_40_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_6_6.5_dist_20_40_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/rot_d_ratio_mag_6_6.5_dist_40_80_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_6_6.5_dist_40_80_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_6_6.5_dist_40_80_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/rot_d_ratio_mag_6_6.5_dist_80_160_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_6_6.5_dist_80_160_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_6_6.5_dist_80_160_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/rot_d_ratio_mag_6_6.5_dist_160_200_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_6_6.5_dist_160_200_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_6_6.5_dist_160_200_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+</tbody>
+</table>
+<h2 id="65--mw--7">6.5 &lt; Mw &lt; 7</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rot_d_ratio_mag_6.5_7_aggregated.png" alt="RotD Ratio" /></p>
+<h3 id="65--mw--7-rjb-dependence">6.5 &lt; Mw &lt; 7, rJB Dependence</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rot_d_ratio_mag_6.5_7_rJB_dependence.png" alt="RotD Ratio" /></p>
+<h3 id="65--mw--7-azimuth-dependence">6.5 &lt; Mw &lt; 7, Azimuth Dependence</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rot_d_ratio_mag_6.5_7_az_dependence.png" alt="RotD Ratio" /></p>
+<h3 id="65--mw--7-rotd50-dependence">6.5 &lt; Mw &lt; 7, RotD50 Dependence</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rot_d_ratio_mag_6.5_7_amplitude_dependence.png" alt="RotD Ratio" /></p>
+<h3 id="65--mw--7-gmpe-z-dependence">6.5 &lt; Mw &lt; 7, GMPE Z Dependence</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 3-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>GMPE</strong>: NGAWest2 2014 Averaged No Idriss</p>
+<p><img src="resources/rot_d_ratio_mag_6.5_7_z_dependence.png" alt="RotD Ratio" /></p>
+<h4 id="65--mw--7-gmpe-z-dependence-scatters">6.5 &lt; Mw &lt; 7, GMPE Z Dependence Scatters</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>Distance</th><th><strong>2s</strong></th><th><strong>3s</strong></th><th><strong>5s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td><img src="resources/rot_d_ratio_mag_6.5_7_dist_0_10_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_6.5_7_dist_0_10_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_6.5_7_dist_0_10_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td><img src="resources/rot_d_ratio_mag_6.5_7_dist_10_20_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_6.5_7_dist_10_20_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_6.5_7_dist_10_20_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/rot_d_ratio_mag_6.5_7_dist_20_40_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_6.5_7_dist_20_40_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_6.5_7_dist_20_40_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/rot_d_ratio_mag_6.5_7_dist_40_80_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_6.5_7_dist_40_80_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_6.5_7_dist_40_80_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/rot_d_ratio_mag_6.5_7_dist_80_160_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_6.5_7_dist_80_160_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_6.5_7_dist_80_160_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/rot_d_ratio_mag_6.5_7_dist_160_200_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_6.5_7_dist_160_200_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_6.5_7_dist_160_200_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+</tbody>
+</table>
+<h2 id="7--mw--75">7 &lt; Mw &lt; 7.5</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rot_d_ratio_mag_7_7.5_aggregated.png" alt="RotD Ratio" /></p>
+<h3 id="7--mw--75-rjb-dependence">7 &lt; Mw &lt; 7.5, rJB Dependence</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rot_d_ratio_mag_7_7.5_rJB_dependence.png" alt="RotD Ratio" /></p>
+<h3 id="7--mw--75-azimuth-dependence">7 &lt; Mw &lt; 7.5, Azimuth Dependence</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rot_d_ratio_mag_7_7.5_az_dependence.png" alt="RotD Ratio" /></p>
+<h3 id="7--mw--75-rotd50-dependence">7 &lt; Mw &lt; 7.5, RotD50 Dependence</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rot_d_ratio_mag_7_7.5_amplitude_dependence.png" alt="RotD Ratio" /></p>
+<h3 id="7--mw--75-gmpe-z-dependence">7 &lt; Mw &lt; 7.5, GMPE Z Dependence</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 3-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>GMPE</strong>: NGAWest2 2014 Averaged No Idriss</p>
+<p><img src="resources/rot_d_ratio_mag_7_7.5_z_dependence.png" alt="RotD Ratio" /></p>
+<h4 id="7--mw--75-gmpe-z-dependence-scatters">7 &lt; Mw &lt; 7.5, GMPE Z Dependence Scatters</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>Distance</th><th><strong>2s</strong></th><th><strong>3s</strong></th><th><strong>5s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td><img src="resources/rot_d_ratio_mag_7_7.5_dist_0_10_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_7_7.5_dist_0_10_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_7_7.5_dist_0_10_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td><img src="resources/rot_d_ratio_mag_7_7.5_dist_10_20_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_7_7.5_dist_10_20_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_7_7.5_dist_10_20_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/rot_d_ratio_mag_7_7.5_dist_20_40_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_7_7.5_dist_20_40_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_7_7.5_dist_20_40_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/rot_d_ratio_mag_7_7.5_dist_40_80_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_7_7.5_dist_40_80_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_7_7.5_dist_40_80_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/rot_d_ratio_mag_7_7.5_dist_80_160_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_7_7.5_dist_80_160_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_7_7.5_dist_80_160_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/rot_d_ratio_mag_7_7.5_dist_160_200_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_7_7.5_dist_160_200_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_7_7.5_dist_160_200_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+</tbody>
+</table>
+<h2 id="75--mw--8">7.5 &lt; Mw &lt; 8</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rot_d_ratio_mag_7.5_8_aggregated.png" alt="RotD Ratio" /></p>
+<h3 id="75--mw--8-rjb-dependence">7.5 &lt; Mw &lt; 8, rJB Dependence</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rot_d_ratio_mag_7.5_8_rJB_dependence.png" alt="RotD Ratio" /></p>
+<h3 id="75--mw--8-azimuth-dependence">7.5 &lt; Mw &lt; 8, Azimuth Dependence</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rot_d_ratio_mag_7.5_8_az_dependence.png" alt="RotD Ratio" /></p>
+<h3 id="75--mw--8-rotd50-dependence">7.5 &lt; Mw &lt; 8, RotD50 Dependence</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rot_d_ratio_mag_7.5_8_amplitude_dependence.png" alt="RotD Ratio" /></p>
+<h3 id="75--mw--8-gmpe-z-dependence">7.5 &lt; Mw &lt; 8, GMPE Z Dependence</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>z-score</strong>: (ln(<em>CS Study 17.3 3-D</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>GMPE</strong>: NGAWest2 2014 Averaged No Idriss</p>
+<p><img src="resources/rot_d_ratio_mag_7.5_8_z_dependence.png" alt="RotD Ratio" /></p>
+<h4 id="75--mw--8-gmpe-z-dependence-scatters">7.5 &lt; Mw &lt; 8, GMPE Z Dependence Scatters</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>Distance</th><th><strong>2s</strong></th><th><strong>3s</strong></th><th><strong>5s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td><img src="resources/rot_d_ratio_mag_7.5_8_dist_0_10_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_7.5_8_dist_0_10_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_7.5_8_dist_0_10_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td><img src="resources/rot_d_ratio_mag_7.5_8_dist_10_20_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_7.5_8_dist_10_20_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_7.5_8_dist_10_20_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/rot_d_ratio_mag_7.5_8_dist_20_40_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_7.5_8_dist_20_40_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_7.5_8_dist_20_40_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/rot_d_ratio_mag_7.5_8_dist_40_80_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_7.5_8_dist_40_80_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_7.5_8_dist_40_80_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/rot_d_ratio_mag_7.5_8_dist_80_160_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_7.5_8_dist_80_160_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_7.5_8_dist_80_160_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/rot_d_ratio_mag_7.5_8_dist_160_200_scatter_2s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_7.5_8_dist_160_200_scatter_3s.png" alt="RotD Ratio" /></td><td><img src="resources/rot_d_ratio_mag_7.5_8_dist_160_200_scatter_5s.png" alt="RotD Ratio" /></td></tr>
+</tbody>
+</table>
+</body>
+</html>
