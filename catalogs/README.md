@@ -2,6 +2,7 @@
 
 | Date | Name | Duration | Element Area | Description |
 |-----|-----|-----|-----|-----|
+| 2017/11/26 | [JG Tune Base Mod Vel](tunedBase1m_ddotEQmod#jg-tune-base-mod-vel) | 112,714 yrs | 0.90 km | New version of tuneBase1m, with patch-specific slip velocities. |
 | 2017/11/20 | [JG Base SW](baseCatalogSW_10#jg-base-sw) | 113,506 yrs | 0.90 km | Untuned, additional slip weakening parameters using Keith's fault geometry. muSlipAmp = 0.2, muSlipInvDist_1 = 2.0, cohesion = 6. |
 | 2017/11/20 | [JG Tune Base SW](tuneBaseSW_1e5#jg-tune-base-sw) | 110,918 yrs | 0.90 km | Tuned, additional slip weakening parameters using Keith's fault geometry. muSlipAmp = 0.2, muSlipInvDist_1 = 2.0, cohesion = 6. |
 | 2017/11/16 | [JG Base Catalog 2](baseCatalog2#jg-base-catalog-2) | 199,867 yrs | 0.90 km | Untuned version of tuneBase1m. Same fault model and frictional parameters, without any stress adjustments |
