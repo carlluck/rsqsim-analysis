@@ -36,8 +36,14 @@ img {
 <li><a href="#magnitude-frequency-plot">Magnitude-Frequency Plot</a></li>
 <li><a href="#magnitude-area-plots">Magnitude-Area Plots</a></li>
 <li><a href="#rupture-velocity-plots">Rupture Velocity Plots</a></li>
-<li><a href="#interevent-time-distributions">Interevent-Time Distributions</a></li>
+<li><a href="#global-interevent-time-distributions">Global Interevent-Time Distributions</a></li>
 <li><a href="#stationarity-plot">Stationarity Plot</a></li>
+<li><a href="#elementsubsection-interevent-time-comparisons">Element/Subsection Interevent Time Comparisons</a>
+<ul>
+<li><a href="#element-interevent-time-comparisons">Element Interevent Time Comparisons</a></li>
+<li><a href="#subsection-interevent-time-comparisons">Subsection Interevent Time Comparisons</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><a href="#input-file">Input File</a></li>
@@ -66,7 +72,7 @@ img {
 <tr><td><strong>Distance/Velocity</strong></td><td><img src="resources/rupture_velocity_vs_dist.png" alt="Rupture Velocity vs Dist" /></td></tr>
 </tbody>
 </table>
-<h3 id="interevent-time-distributions">Interevent-Time Distributions</h3>
+<h3 id="global-interevent-time-distributions">Global Interevent-Time Distributions</h3>
 <p><em><a href="#jg-tune-base-sw">(top)</a></em></p>
 <table>
 <thead>
@@ -79,6 +85,34 @@ img {
 <h3 id="stationarity-plot">Stationarity Plot</h3>
 <p><em><a href="#jg-tune-base-sw">(top)</a></em></p>
 <p><img src="resources/stationarity.png" alt="Stationarity" /></p>
+<h3 id="elementsubsection-interevent-time-comparisons">Element/Subsection Interevent Time Comparisons</h3>
+<h4 id="element-interevent-time-comparisons">Element Interevent Time Comparisons</h4>
+<p><em><a href="#jg-tune-base-sw">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>Min Mag</th><th>Scatter</th><th>2-D Hist</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>M≥6.0</strong></td><td><img src="resources/interevent_elements_m6_scatter.png" alt="Element Scatter" /></td><td><img src="resources/interevent_elements_m6_hist2D.png" alt="Element 2-D Hist" /></td></tr>
+<tr><td><strong>M≥6.5</strong></td><td><img src="resources/interevent_elements_m6.5_scatter.png" alt="Element Scatter" /></td><td><img src="resources/interevent_elements_m6.5_hist2D.png" alt="Element 2-D Hist" /></td></tr>
+<tr><td><strong>M≥7.0</strong></td><td><img src="resources/interevent_elements_m7_scatter.png" alt="Element Scatter" /></td><td><img src="resources/interevent_elements_m7_hist2D.png" alt="Element 2-D Hist" /></td></tr>
+<tr><td><strong>M≥7.5</strong></td><td><img src="resources/interevent_elements_m7.5_scatter.png" alt="Element Scatter" /></td><td><img src="resources/interevent_elements_m7.5_hist2D.png" alt="Element 2-D Hist" /></td></tr>
+</tbody>
+</table>
+<h4 id="subsection-interevent-time-comparisons">Subsection Interevent Time Comparisons</h4>
+<p><em><a href="#jg-tune-base-sw">(top)</a></em></p>
+<p><em>Subsections participates in a rupture if at least 20.0 % of its area ruptures</em></p>
+<table>
+<thead>
+<tr><th>Min Mag</th><th>Scatter</th><th>2-D Hist</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>M≥6.0</strong></td><td><img src="resources/interevent_sub_sects_m6_scatter.png" alt="Subsection Scatter" /></td><td><img src="resources/interevent_sub_sects_m6_hist2D.png" alt="Subsection 2-D Hist" /></td></tr>
+<tr><td><strong>M≥6.5</strong></td><td><img src="resources/interevent_sub_sects_m6.5_scatter.png" alt="Subsection Scatter" /></td><td><img src="resources/interevent_sub_sects_m6.5_hist2D.png" alt="Subsection 2-D Hist" /></td></tr>
+<tr><td><strong>M≥7.0</strong></td><td><img src="resources/interevent_sub_sects_m7_scatter.png" alt="Subsection Scatter" /></td><td><img src="resources/interevent_sub_sects_m7_hist2D.png" alt="Subsection 2-D Hist" /></td></tr>
+<tr><td><strong>M≥7.5</strong></td><td><img src="resources/interevent_sub_sects_m7.5_scatter.png" alt="Subsection Scatter" /></td><td><img src="resources/interevent_sub_sects_m7.5_hist2D.png" alt="Subsection 2-D Hist" /></td></tr>
+</tbody>
+</table>
 <h2 id="input-file">Input File</h2>
 <p><em><a href="#jg-tune-base-sw">(top)</a></em></p>
 <pre><code>A_1 = 0.005

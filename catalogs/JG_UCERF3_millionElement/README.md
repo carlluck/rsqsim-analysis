@@ -16,8 +16,11 @@
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
   * [Rupture Velocity Plots](#rupture-velocity-plots)
-  * [Interevent-Time Distributions](#interevent-time-distributions)
+  * [Global Interevent-Time Distributions](#global-interevent-time-distributions)
   * [Stationarity Plot](#stationarity-plot)
+  * [Element/Subsection Interevent Time Comparisons](#elementsubsection-interevent-time-comparisons)
+    * [Element Interevent Time Comparisons](#element-interevent-time-comparisons)
+    * [Subsection Interevent Time Comparisons](#subsection-interevent-time-comparisons)
 * [Input File](#input-file)
 
 ## Single Event Comparisons
@@ -42,7 +45,7 @@
 | **Scatter** | ![Rupture Velocity Scatter](resources/rupture_velocity_scatter.png) |
 |-----|-----|
 | **Distance/Velocity** | ![Rupture Velocity vs Dist](resources/rupture_velocity_vs_dist.png) |
-### Interevent-Time Distributions
+### Global Interevent-Time Distributions
 *[(top)](#u3-1mil-element-test)*
 
 | **M≥6** | **M≥6.5** | **M≥7** | **M≥7.5** |
@@ -52,6 +55,29 @@
 *[(top)](#u3-1mil-element-test)*
 
 ![Stationarity](resources/stationarity.png)
+### Element/Subsection Interevent Time Comparisons
+
+#### Element Interevent Time Comparisons
+*[(top)](#u3-1mil-element-test)*
+
+| Min Mag | Scatter | 2-D Hist |
+|-----|-----|-----|
+| **M≥6.0** | ![Element Scatter](resources/interevent_elements_m6_scatter.png) | ![Element 2-D Hist](resources/interevent_elements_m6_hist2D.png) |
+| **M≥6.5** | ![Element Scatter](resources/interevent_elements_m6.5_scatter.png) | ![Element 2-D Hist](resources/interevent_elements_m6.5_hist2D.png) |
+| **M≥7.0** | ![Element Scatter](resources/interevent_elements_m7_scatter.png) | ![Element 2-D Hist](resources/interevent_elements_m7_hist2D.png) |
+| **M≥7.5** | ![Element Scatter](resources/interevent_elements_m7.5_scatter.png) | ![Element 2-D Hist](resources/interevent_elements_m7.5_hist2D.png) |
+
+#### Subsection Interevent Time Comparisons
+*[(top)](#u3-1mil-element-test)*
+
+*Subsections participates in a rupture if at least 20.0 % of its area ruptures*
+
+| Min Mag | Scatter | 2-D Hist |
+|-----|-----|-----|
+| **M≥6.0** | ![Subsection Scatter](resources/interevent_sub_sects_m6_scatter.png) | ![Subsection 2-D Hist](resources/interevent_sub_sects_m6_hist2D.png) |
+| **M≥6.5** | ![Subsection Scatter](resources/interevent_sub_sects_m6.5_scatter.png) | ![Subsection 2-D Hist](resources/interevent_sub_sects_m6.5_hist2D.png) |
+| **M≥7.0** | ![Subsection Scatter](resources/interevent_sub_sects_m7_scatter.png) | ![Subsection 2-D Hist](resources/interevent_sub_sects_m7_hist2D.png) |
+| **M≥7.5** | ![Subsection Scatter](resources/interevent_sub_sects_m7.5_scatter.png) | ![Subsection 2-D Hist](resources/interevent_sub_sects_m7.5_hist2D.png) |
 
 ## Input File
 *[(top)](#u3-1mil-element-test)*

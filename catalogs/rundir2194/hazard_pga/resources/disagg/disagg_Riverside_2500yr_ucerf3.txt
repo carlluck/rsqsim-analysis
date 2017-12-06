@@ -1,0 +1,231 @@
+Mean/Mode Metadata :
+
+
+  Mbar = 7.885408
+  Dbar = 20.57473
+  Ebar = 1.5484542
+
+  8.0 ≤ Mmode < 8.2
+  10.0 ≤ Dmode < 20.0
+1.0 < Emode <= 2.0
+
+Disaggregation Plot Parameters Info :
+Custom disagg
+
+Disaggregation Bin Data :
+Dist	Mag	E≤-2	-2<E≤-1	-1<E≤-0.5	 -0.5>E≤0	 0<E≤0.5	 0.5<E≤1	 1<E≤2	 2>E 
+-----	----	------	------	-------	-------	-------	-------	-------	------
+005.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+015.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.88 	 00.02 	 01.90
+015.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.00 	 00.03
+015.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.00 	 00.03
+015.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.06 	 00.00 	 00.06
+015.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.53 	 00.00 	 01.53
+015.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.73 	 00.00 	 03.73
+015.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 13.18 	 00.00 	 13.18
+015.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 21.92 	 00.00 	 21.92
+015.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 15.95 	 00.00 	 15.95
+025.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.48 	 01.48
+025.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.39 	 01.39
+025.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 01.76 	 01.76
+025.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.09 	 01.31 	 01.40
+025.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.10 	 00.65 	 01.75
+025.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.39 	 01.33 	 02.72
+025.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 06.03 	 01.40 	 07.43
+025.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 08.18 	 00.08 	 08.26
+025.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 07.89 	 00.00 	 07.89
+025.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.80 	 00.00 	 03.80
+035.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+035.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.13 	 00.13
+035.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.10 	 00.10
+035.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.11 	 00.11
+035.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.16 	 00.16
+035.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.32 	 00.32
+035.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.80 	 00.80
+035.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.51 	 00.53
+035.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.03 	 00.08
+035.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.15 	 00.00 	 00.15
+045.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+045.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+045.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.17 	 00.17
+045.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.28 	 00.28
+045.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.21 	 00.21
+045.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.18 	 00.18
+045.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+055.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+055.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+055.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.09 	 00.09
+055.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.07
+055.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+065.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+065.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+065.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+065.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+065.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+075.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+075.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+085.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+085.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+
+
+Disaggregation Source List Info:
+Source#	% Contribution	TotExceedRate	SourceName	DistRup	DistX	DistSeis	DistJB
+231556	01.88	7.6037395E-6	Inversion Src #235768; 3 SECTIONS BETWEEN Fontana (Seismicity), Subsection 0 AND Fontana (Seismicity), Subsection 2	15.65	-15.56	16.31	15.57
+237515	01.09	4.4235217E-6	Inversion Src #241894; 7 SECTIONS BETWEEN San Andreas (San Bernardino S), Subsection 0 AND San Andreas (San Bernardino S), Subsection 6	27.66	26.57	27.80	27.63
+217052	00.83	3.3551107E-6	Inversion Src #220112; 4 SECTIONS BETWEEN Elsinore (Glen Ivy) rev, Subsection 0 AND Elsinore (Glen Ivy) rev, Subsection 3	20.53	-20.49	20.71	20.49
+216186	00.77	3.1049437E-6	Inversion Src #219231; 34 SECTIONS BETWEEN Whittier alt 1, Subsection 7 AND Elsinore (Coyote Mountains), Subsection 0	20.53	-20.49	20.71	18.28
+231845	00.65	2.6499977E-6	Inversion Src #236060; 18 SECTIONS BETWEEN San Jacinto (San Jacinto Valley) rev, Subsection 1 AND San Jacinto (Clark) rev, Subsection 5	19.90	14.92	20.12	19.89
+217058	00.52	2.093613E-6	Inversion Src #220118; 12 SECTIONS BETWEEN Elsinore (Glen Ivy) rev, Subsection 0 AND Elsinore (Temecula) rev, Subsection 5	20.53	-20.49	20.71	20.49
+164850	00.50	2.0255934E-6	Inversion Src #166727; 179 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 20 AND San Jacinto (Clark) rev, Subsection 5	16.25	16.24	16.52	16.24
+164338	00.50	2.0081388E-6	Inversion Src #166212; 178 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 19 AND San Jacinto (Clark) rev, Subsection 5	16.25	16.24	16.52	16.24
+163828	00.48	1.9608265E-6	Inversion Src #165699; 177 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 18 AND San Jacinto (Clark) rev, Subsection 5	16.25	16.24	16.52	16.24
+217070	00.46	1.8801835E-6	Inversion Src #220130; 26 SECTIONS BETWEEN Elsinore (Glen Ivy) rev, Subsection 0 AND Elsinore (Coyote Mountains), Subsection 0	20.53	-20.49	20.71	20.49
+231720	00.45	1.8078607E-6	Inversion Src #235934; 32 SECTIONS BETWEEN San Jacinto (San Jacinto Valley) rev, Subsection 0 AND Superstition Hills, Subsection 5	16.78	15.07	17.04	16.77
+213652	00.41	1.6778343E-6	Inversion Src #216675; 6 SECTIONS BETWEEN Chino alt 1, Subsection 2 AND Elsinore (Glen Ivy) rev, Subsection 2	20.53	-20.49	20.71	20.49
+216176	00.36	1.443936E-6	Inversion Src #219221; 23 SECTIONS BETWEEN Whittier alt 1, Subsection 7 AND Elsinore (Julian), Subsection 5	20.53	-20.49	20.71	18.28
+213629	00.34	1.371366E-6	Inversion Src #216648; 31 SECTIONS BETWEEN Peralta Hills, Subsection 1 AND Elsinore (Coyote Mountains), Subsection 0	20.53	-20.49	20.71	18.28
+231398	00.31	1.271215E-6	Inversion Src #235608; 22 SECTIONS BETWEEN San Jacinto (San Bernardino), Subsection 2 AND San Jacinto (Clark) rev, Subsection 5	16.25	16.24	16.52	16.24
+217119	00.29	1.1559774E-6	Inversion Src #220181; 5 SECTIONS BETWEEN Elsinore (Glen Ivy) rev, Subsection 1 AND Elsinore (Stepovers Combined), Subsection 1	20.71	-20.44	20.88	20.67
+166636	00.28	1.1292469E-6	Inversion Src #168526; 182 SECTIONS BETWEEN Mendocino, Subsection 1 AND San Jacinto (Clark) rev, Subsection 3	16.25	16.24	16.52	16.24
+003122	00.25	1.0036614E-6	Inversion Src #3204; 92 SECTIONS BETWEEN Garlock (East), Subsection 7 AND San Jacinto (Borrego), Subsection 3	16.25	16.24	16.52	16.24
+165785	00.25	9.928526E-7	Inversion Src #167667; 180 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 22 AND San Jacinto (Clark) rev, Subsection 4	16.25	16.24	16.52	16.24
+216185	00.24	9.639908E-7	Inversion Src #219230; 33 SECTIONS BETWEEN Whittier alt 1, Subsection 7 AND Elsinore (Coyote Mountains), Subsection 1	20.53	-20.49	20.71	18.28
+166635	00.24	9.590518E-7	Inversion Src #168525; 181 SECTIONS BETWEEN Mendocino, Subsection 1 AND San Jacinto (Clark) rev, Subsection 2	16.25	16.24	16.52	16.24
+231705	00.23	9.520615E-7	Inversion Src #235919; 19 SECTIONS BETWEEN San Jacinto (San Jacinto Valley) rev, Subsection 0 AND San Jacinto (Clark) rev, Subsection 5	16.78	15.07	17.04	16.77
+231294	00.23	9.348489E-7	Inversion Src #235503; 21 SECTIONS BETWEEN San Jacinto (San Bernardino), Subsection 3 AND San Jacinto (Clark) rev, Subsection 5	16.25	16.24	16.52	16.24
+233292	00.23	9.219953E-7	Inversion Src #237520; 168 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 5 AND San Andreas (Offshore) 2011 CFM, Subsection 9	16.25	16.24	16.52	16.24
+003121	00.22	8.7388696E-7	Inversion Src #3203; 91 SECTIONS BETWEEN Garlock (East), Subsection 7 AND San Jacinto (Borrego), Subsection 2	16.25	16.24	16.52	16.24
+233298	00.21	8.472054E-7	Inversion Src #237526; 174 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 5 AND San Andreas (Offshore) 2011 CFM, Subsection 15	16.25	16.24	16.52	16.24
+165348	00.20	8.1584056E-7	Inversion Src #167228; 179 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 21 AND San Jacinto (Clark) rev, Subsection 4	16.25	16.24	16.52	16.24
+216453	00.20	8.104357E-7	Inversion Src #219505; 31 SECTIONS BETWEEN Whittier alt 1, Subsection 4 AND Elsinore (Coyote Mountains), Subsection 0	20.53	-20.49	20.71	18.28
+233291	00.20	8.022723E-7	Inversion Src #237519; 167 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 5 AND San Andreas (Offshore) 2011 CFM, Subsection 8	16.25	16.24	16.52	16.24
+166221	00.20	7.949122E-7	Inversion Src #168106; 181 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 23 AND San Jacinto (Clark) rev, Subsection 4	16.25	16.24	16.52	16.24
+233293	00.18	7.2232746E-7	Inversion Src #237521; 169 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 5 AND San Andreas (Offshore) 2011 CFM, Subsection 10	16.25	16.24	16.52	16.24
+231413	00.18	7.0905753E-7	Inversion Src #235623; 35 SECTIONS BETWEEN San Jacinto (San Bernardino), Subsection 2 AND Superstition Hills, Subsection 5	16.25	16.24	16.52	16.24
+233299	00.17	7.0550846E-7	Inversion Src #237527; 175 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 5 AND San Andreas (Offshore) 2011 CFM, Subsection 16	16.25	16.24	16.52	16.24
+233297	00.17	7.0207875E-7	Inversion Src #237525; 173 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 5 AND San Andreas (Offshore) 2011 CFM, Subsection 14	16.25	16.24	16.52	16.24
+213929	00.17	6.752059E-7	Inversion Src #216957; 34 SECTIONS BETWEEN Puente Hills, Subsection 1 AND Elsinore (Coyote Mountains), Subsection 0	20.53	-20.49	20.71	18.28
+216595	00.17	6.727341E-7	Inversion Src #219649; 30 SECTIONS BETWEEN Whittier alt 1, Subsection 3 AND Elsinore (Coyote Mountains), Subsection 0	20.53	-20.49	20.71	18.28
+163357	00.16	6.5546595E-7	Inversion Src #165225; 176 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 17 AND San Jacinto (Clark) rev, Subsection 5	16.25	16.24	16.52	16.24
+233295	00.16	6.5346086E-7	Inversion Src #237523; 171 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 5 AND San Andreas (Offshore) 2011 CFM, Subsection 12	16.25	16.24	16.52	16.24
+233296	00.16	6.4460403E-7	Inversion Src #237524; 172 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 5 AND San Andreas (Offshore) 2011 CFM, Subsection 13	16.25	16.24	16.52	16.24
+190394	00.16	6.4054944E-7	Inversion Src #192883; 5 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 4 AND San Andreas (San Bernardino N), Subsection 0	27.45	27.05	27.61	27.45
+231309	00.16	6.3937733E-7	Inversion Src #235518; 34 SECTIONS BETWEEN San Jacinto (San Bernardino), Subsection 3 AND Superstition Hills, Subsection 5	16.25	16.24	16.52	16.24
+233724	00.16	6.3566335E-7	Inversion Src #237972; 170 SECTIONS BETWEEN San Jacinto (Borrego), Subsection 3 AND San Andreas (Offshore) 2011 CFM, Subsection 7	16.25	16.24	16.52	16.24
+164849	00.16	6.306583E-7	Inversion Src #166726; 178 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 20 AND San Jacinto (Clark) rev, Subsection 4	16.25	16.24	16.52	16.24
+233723	00.16	6.295279E-7	Inversion Src #237971; 169 SECTIONS BETWEEN San Jacinto (Borrego), Subsection 3 AND San Andreas (Offshore) 2011 CFM, Subsection 6	16.25	16.24	16.52	16.24
+233294	00.15	6.2030807E-7	Inversion Src #237522; 170 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 5 AND San Andreas (Offshore) 2011 CFM, Subsection 11	16.25	16.24	16.52	16.24
+233199	00.14	5.779755E-7	Inversion Src #237426; 170 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 4 AND San Andreas (Offshore) 2011 CFM, Subsection 12	16.25	16.24	16.52	16.24
+160072	00.14	5.7154875E-7	Inversion Src #161904; 168 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 5 AND San Jacinto (Borrego), Subsection 3	16.25	16.24	16.52	16.24
+190810	00.14	5.6610617E-7	Inversion Src #193299; 4 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 4 AND San Andreas (San Bernardino S), Subsection 1	27.35	27.35	27.51	27.35
+217069	00.13	5.347337E-7	Inversion Src #220129; 25 SECTIONS BETWEEN Elsinore (Glen Ivy) rev, Subsection 0 AND Elsinore (Coyote Mountains), Subsection 1	20.53	-20.49	20.71	20.49
+231984	00.13	5.2583874E-7	Inversion Src #236200; 16 SECTIONS BETWEEN San Jacinto (Stepovers Combined), Subsection 0 AND San Jacinto (Clark) rev, Subsection 5	29.09	16.76	29.24	29.08
+231509	00.13	5.2305677E-7	Inversion Src #235720; 23 SECTIONS BETWEEN San Jacinto (San Bernardino), Subsection 1 AND San Jacinto (Clark) rev, Subsection 5	16.25	16.24	16.52	16.24
+064715	00.13	5.2284753E-7	Inversion Src #65476; 118 SECTIONS BETWEEN San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 5 AND Superstition Hills, Subsection 5	16.25	16.24	16.52	16.24
+216184	00.13	5.160441E-7	Inversion Src #219229; 32 SECTIONS BETWEEN Whittier alt 1, Subsection 7 AND Elsinore (Coyote Mountains), Subsection 2	20.53	-20.49	20.71	18.28
+216175	00.13	5.157772E-7	Inversion Src #219220; 22 SECTIONS BETWEEN Whittier alt 1, Subsection 7 AND Elsinore (Julian), Subsection 6	20.53	-20.49	20.71	18.28
+213799	00.13	5.126304E-7	Inversion Src #216827; 32 SECTIONS BETWEEN Chino alt 1, Subsection 0 AND Elsinore (Coyote Mountains), Subsection 0	20.53	-20.49	20.71	18.28
+213773	00.12	4.9072656E-7	Inversion Src #216801; 31 SECTIONS BETWEEN Chino alt 1, Subsection 0 AND Elsinore (Coyote Mountains), Subsection 0	20.53	-20.49	20.71	20.49
+217060	00.12	4.836764E-7	Inversion Src #220120; 15 SECTIONS BETWEEN Elsinore (Glen Ivy) rev, Subsection 0 AND Elsinore (Julian), Subsection 5	20.53	-20.49	20.71	20.49
+166220	00.12	4.7472525E-7	Inversion Src #168105; 180 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 23 AND San Jacinto (Clark) rev, Subsection 3	16.25	16.24	16.52	16.24
+057620	00.12	4.6849627E-7	Inversion Src #58366; 111 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 17 AND Superstition Hills, Subsection 5	16.25	16.24	16.52	16.24
+231704	00.11	4.6504556E-7	Inversion Src #235918; 18 SECTIONS BETWEEN San Jacinto (San Jacinto Valley) rev, Subsection 0 AND San Jacinto (Clark) rev, Subsection 4	16.78	15.07	17.04	16.77
+060830	00.11	4.6304314E-7	Inversion Src #61586; 114 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 20 AND Superstition Hills, Subsection 5	16.25	16.24	16.52	16.24
+126477	00.11	4.568095E-7	Inversion Src #128176; 136 SECTIONS BETWEEN San Andreas (Peninsula) 2011 CFM, Subsection 14 AND San Jacinto (Superstition Mtn), Subsection 4	16.25	16.24	16.52	16.24
+233203	00.11	4.5652604E-7	Inversion Src #237430; 174 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 4 AND San Andreas (Offshore) 2011 CFM, Subsection 16	16.25	16.24	16.52	16.24
+214197	00.11	4.5487585E-7	Inversion Src #217225; 37 SECTIONS BETWEEN Puente Hills, Subsection 4 AND Elsinore (Coyote Mountains), Subsection 0	20.53	-20.49	20.71	18.28
+192193	00.11	4.5287092E-7	Inversion Src #194687; 12 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 1 AND San Andreas (San Bernardino S), Subsection 6	27.35	27.35	27.51	27.35
+233683	00.11	4.5255896E-7	Inversion Src #237926; 169 SECTIONS BETWEEN San Jacinto (Borrego), Subsection 2 AND San Andreas (Offshore) 2011 CFM, Subsection 7	16.25	16.24	16.52	16.24
+242338	00.11	4.49812E-7	Inversion Src #247040; 44 SECTIONS BETWEEN San Gorgonio Pass, Subsection 2 AND Imperial, Subsection 1	31.40	-09.39	31.88	31.34
+056558	00.11	4.4594947E-7	Inversion Src #57299; 110 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 16 AND Superstition Hills, Subsection 5	16.25	16.24	16.52	16.24
+066833	00.11	4.4279614E-7	Inversion Src #67596; 120 SECTIONS BETWEEN San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 3 AND Superstition Hills, Subsection 5	16.25	16.24	16.52	16.24
+213755	00.11	4.383799E-7	Inversion Src #216783; 9 SECTIONS BETWEEN Chino alt 1, Subsection 0 AND Elsinore (Glen Ivy) rev, Subsection 3	20.53	-20.49	20.71	20.49
+237542	00.11	4.3340745E-7	Inversion Src #241921; 48 SECTIONS BETWEEN San Andreas (San Bernardino S), Subsection 0 AND Imperial, Subsection 1	27.66	26.57	27.80	27.63
+231860	00.11	4.2653485E-7	Inversion Src #236075; 31 SECTIONS BETWEEN San Jacinto (San Jacinto Valley) rev, Subsection 1 AND Superstition Hills, Subsection 5	19.90	14.92	20.12	19.89
+213753	00.11	4.2608272E-7	Inversion Src #216781; 7 SECTIONS BETWEEN Chino alt 1, Subsection 0 AND Elsinore (Glen Ivy) rev, Subsection 1	20.53	-20.49	20.71	20.49
+059756	00.10	4.2181946E-7	Inversion Src #60509; 113 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 19 AND Superstition Hills, Subsection 5	16.25	16.24	16.52	16.24
+190055	00.10	4.1935496E-7	Inversion Src #192542; 6 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 5 AND San Andreas (San Bernardino N), Subsection 0	27.35	27.35	27.51	27.35
+190858	00.10	4.1557456E-7	Inversion Src #193349; 4 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 3 AND San Andreas (San Bernardino N), Subsection 0	28.87	26.73	29.03	28.87
+233640	00.10	4.0574506E-7	Inversion Src #237878; 168 SECTIONS BETWEEN San Jacinto (Borrego), Subsection 1 AND San Andreas (Offshore) 2011 CFM, Subsection 7	16.25	16.24	16.52	16.24
+163826	00.10	4.0285775E-7	Inversion Src #165697; 175 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 18 AND San Jacinto (Clark) rev, Subsection 3	16.25	16.24	16.52	16.24
+154799	00.10	4.0143527E-7	Inversion Src #156606; 154 SECTIONS BETWEEN San Andreas (North Coast) 2011 CFM, Subsection 27 AND San Jacinto (Clark) rev, Subsection 5	16.25	16.24	16.52	16.24
+126893	00.10	4.0117385E-7	Inversion Src #128593; 137 SECTIONS BETWEEN San Andreas (Peninsula) 2011 CFM, Subsection 15 AND San Jacinto (Superstition Mtn), Subsection 4	16.25	16.24	16.52	16.24
+216583	00.10	4.0066703E-7	Inversion Src #219637; 16 SECTIONS BETWEEN Whittier alt 1, Subsection 3 AND Elsinore (Temecula) rev, Subsection 5	20.53	-20.49	20.71	18.28
+214069	00.10	3.9746888E-7	Inversion Src #217097; 34 SECTIONS BETWEEN Puente Hills, Subsection 2 AND Elsinore (Coyote Mountains), Subsection 1	20.53	-20.49	20.71	18.28
+242334	00.10	3.9484328E-7	Inversion Src #247036; 40 SECTIONS BETWEEN San Gorgonio Pass, Subsection 2 AND Imperial, Subsection 5	31.40	-09.39	31.88	31.34
+216238	00.10	3.9469757E-7	Inversion Src #219285; 33 SECTIONS BETWEEN Whittier alt 1, Subsection 6 AND Elsinore (Coyote Mountains), Subsection 0	20.53	-20.49	20.71	18.28
+164337	00.09	3.8316486E-7	Inversion Src #166211; 177 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 19 AND San Jacinto (Clark) rev, Subsection 4	16.25	16.24	16.52	16.24
+217075	00.09	3.8231497E-7	Inversion Src #220135; 4 SECTIONS BETWEEN Elsinore (Glen Ivy) rev, Subsection 1 AND Chino alt 1, Subsection 3	20.53	-20.49	20.71	20.49
+058686	00.09	3.767795E-7	Inversion Src #59436; 112 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 18 AND Superstition Hills, Subsection 5	16.25	16.24	16.52	16.24
+217123	00.09	3.699833E-7	Inversion Src #220185; 10 SECTIONS BETWEEN Elsinore (Glen Ivy) rev, Subsection 1 AND Elsinore (Temecula) rev, Subsection 4	20.71	-20.44	20.88	20.67
+231555	00.09	3.598158E-7	Inversion Src #235766; 37 SECTIONS BETWEEN San Jacinto (San Bernardino), Subsection 0 AND Superstition Hills, Subsection 5	16.25	16.24	16.52	16.24
+190853	00.09	3.5523038E-7	Inversion Src #193342; 50 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 4 AND Imperial, Subsection 1	27.35	27.35	27.51	27.35
+233682	00.09	3.5235635E-7	Inversion Src #237925; 168 SECTIONS BETWEEN San Jacinto (Borrego), Subsection 2 AND San Andreas (Offshore) 2011 CFM, Subsection 6	16.25	16.24	16.52	16.24
+231524	00.09	3.5215828E-7	Inversion Src #235735; 36 SECTIONS BETWEEN San Jacinto (San Bernardino), Subsection 1 AND Superstition Hills, Subsection 5	16.25	16.24	16.52	16.24
+073762	00.09	3.5104404E-7	Inversion Src #74550; 112 SECTIONS BETWEEN San Andreas (Peninsula) 2011 CFM, Subsection 1 AND San Jacinto (Clark) rev, Subsection 5	16.25	16.24	16.52	16.24
+160071	00.09	3.4744048E-7	Inversion Src #161903; 167 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 5 AND San Jacinto (Borrego), Subsection 2	16.25	16.24	16.52	16.24
+237539	00.09	3.4620237E-7	Inversion Src #241918; 45 SECTIONS BETWEEN San Andreas (San Bernardino S), Subsection 0 AND Imperial, Subsection 4	27.66	26.57	27.80	27.63
+039462	00.08	3.4393796E-7	Inversion Src #39989; 82 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 1 AND San Jacinto (Clark) rev, Subsection 5	16.25	16.24	16.52	16.24
+217125	00.08	3.4155383E-7	Inversion Src #220187; 13 SECTIONS BETWEEN Elsinore (Glen Ivy) rev, Subsection 1 AND Elsinore (Julian), Subsection 6	20.71	-20.44	20.88	20.67
+213619	00.08	3.371961E-7	Inversion Src #216638; 20 SECTIONS BETWEEN Peralta Hills, Subsection 1 AND Elsinore (Julian), Subsection 5	20.53	-20.49	20.71	18.28
+068596	00.08	3.358569E-7	Inversion Src #69361; 122 SECTIONS BETWEEN San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 1 AND Superstition Hills, Subsection 5	16.25	16.24	16.52	16.24
+068823	00.08	3.3070322E-7	Inversion Src #69588; 123 SECTIONS BETWEEN San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 0 AND Superstition Hills, Subsection 5	16.25	16.24	16.52	16.24
