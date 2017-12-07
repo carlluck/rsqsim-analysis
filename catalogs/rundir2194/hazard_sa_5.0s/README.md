@@ -54,5 +54,5 @@
 | ![Pasadena](resources/curves/curves_Pasadena.png) | ![Riverside](resources/curves/curves_Riverside.png) | ![Sacramento](resources/curves/curves_Sacramento.png) | ![San Bernardino](resources/curves/curves_San_Bernardino.png) |
 | ![San Diego](resources/curves/curves_San_Diego.png) | ![San Francisco](resources/curves/curves_San_Francisco.png) | ![San Jose](resources/curves/curves_San_Jose.png) | ![San Luis Obispo](resources/curves/curves_San_Luis_Obispo.png) |
 | ![San Mateo](resources/curves/curves_San_Mateo.png) | ![Santa Barbara](resources/curves/curves_Santa_Barbara.png) | ![Santa Cruz](resources/curves/curves_Santa_Cruz.png) | ![Santa Rosa](resources/curves/curves_Santa_Rosa.png) |
-| ![USC](resources/curves/curves_USC.png) | ![Vallejo](resources/curves/curves_Vallejo.png) | ![Ventura](resources/curves/curves_Ventura.png) | null |
+| ![USC](resources/curves/curves_USC.png) | ![Vallejo](resources/curves/curves_Vallejo.png) | ![Ventura](resources/curves/curves_Ventura.png) |  |
 
