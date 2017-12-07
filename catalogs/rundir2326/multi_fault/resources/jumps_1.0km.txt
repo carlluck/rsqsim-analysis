@@ -1,0 +1,33 @@
+
+X-Axis: Num Jumps ≥1.0km
+Y-Axis: Fraction (Rate-Weighted)
+Number of Data Sets: 2
+
+
+DATASET #1
+
+     Name: UCERF3
+   Points: 4
+     Info: 
+
+Data[x,y]:
+0.0	  0.8624448
+1.0	  0.11405326
+2.0	  0.02177062
+3.0	  0.001731328
+
+
+
+DATASET #2
+
+     Name: Bruce 2326
+   Points: 4
+     Info: 
+
+Data[x,y]:
+0.0	  0.83717763
+1.0	  0.11578296
+2.0	  0.035609655
+3.0	  0.01142975
+
+

@@ -12,6 +12,7 @@
 
 * [Metadata](#metadata)
 * [Hazard Comparisons](#hazard-comparisons)
+* [Multi-Fault Rupture Comparisons](#multi-fault-rupture-comparisons)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
@@ -32,6 +33,11 @@
 * [0.2s SA](hazard_sa_0.2s/)
 * [1.0s SA](hazard_sa_1.0s/)
 * [5.0s SA](hazard_sa_5.0s/)
+
+## Multi-Fault Rupture Comparisons
+*[(top)](#bruce-2194)*
+
+[Multi-Fault Rupture Comparisons here](multi_fault/)
 
 ## Plots
 ### Magnitude-Frequency Plot

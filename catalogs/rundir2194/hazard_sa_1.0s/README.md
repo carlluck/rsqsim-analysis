@@ -3,6 +3,7 @@
 *IMT: 1.0s SA (g)*
 
 *Subsections participates in a rupture if at least 20.0 % of its area ruptures*
+
 [Catalog Details](../#bruce-2194)
 
 ## Table Of Contents
@@ -11,8 +12,6 @@
 * [0-D Histogram](#0-d-histogram)
 * [1-D Histogram](#1-d-histogram)
 * [2-D Histograms](#2-d-histograms)
-* [Cumulant Magnitude](#cumulant-magnitude)
-* [Fault Connectivity](#fault-connectivity)
 * [Hazard Curves](#hazard-curves)
 ## Hazard Maps
 *[(top)](#table-of-contents)*
@@ -45,22 +44,6 @@
 | **2500 yr** | ![2-D Hist](resources/hist_2d_2500yr.png) |
 | **5000 yr** | ![2-D Hist](resources/hist_2d_5000yr.png) |
 | **10000 yr** | ![2-D Hist](resources/hist_2d_10000yr.png) |
-
-## Cumulant Magnitude
-*[(top)](#table-of-contents)*
-
-
-| rsqsim | UCERF3 | Difference |
-|-----|-----|-----|
-| ![RSQSim](resources/mag_cumulant_medians_rsqsim.png) | ![UCERF3](resources/mag_cumulant_medians_ucerf3.png) | ![Difference](resources/mag_cumulant_medians_diff.png) |
-
-## Fault Connectivity
-*[(top)](#table-of-contents)*
-
-
-| rsqsim | UCERF3 |
-|-----|-----|
-| ![RSQSim](resources/connectivity_rsqsim.png) | ![UCERF3](resources/connectivity_ucerf3.png) |
 
 ## Hazard Curves
 *[(top)](#table-of-contents)*

@@ -14,6 +14,7 @@
 * [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
 * [Full Catalog RotD100/RotD50 Ratios](#full-catalog-rotd100rotd50-ratios)
 * [Hazard Comparisons](#hazard-comparisons)
+* [Multi-Fault Rupture Comparisons](#multi-fault-rupture-comparisons)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
@@ -40,6 +41,11 @@
 *[(top)](#bruce-2326)*
 
 * [PGA](hazard_pga/)
+
+## Multi-Fault Rupture Comparisons
+*[(top)](#bruce-2326)*
+
+[Multi-Fault Rupture Comparisons here](multi_fault/)
 
 ## Plots
 ### Magnitude-Frequency Plot
