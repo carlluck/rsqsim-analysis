@@ -27,6 +27,7 @@
 ## Single Event Comparisons
 *[(top)](#bruce-2194-long)*
 
+* [Event 526885, M7.45](event_526885/)
 * [Event 136704, M7.32](event_136704/)
 
 ## Full Catalog GMPE Comparisons
