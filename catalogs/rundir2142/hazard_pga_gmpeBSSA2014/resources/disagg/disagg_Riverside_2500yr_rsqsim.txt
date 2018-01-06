@@ -1,0 +1,231 @@
+Mean/Mode Metadata :
+
+
+  Mbar = 7.3177896
+  Dbar = 20.65946
+  Ebar = 1.7936996
+
+  7.4 ≤ Mmode < 7.6
+  10.0 ≤ Dmode < 20.0
+1.0 < Emode <= 2.0
+
+Disaggregation Plot Parameters Info :
+Custom disagg
+
+Disaggregation Bin Data :
+Dist	Mag	E≤-2	-2<E≤-1	-1<E≤-0.5	 -0.5>E≤0	 0<E≤0.5	 0.5<E≤1	 1<E≤2	 2>E 
+-----	----	------	------	-------	-------	-------	-------	-------	------
+005.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.94 	 02.94
+015.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.90 	 01.11 	 04.02
+015.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 07.05 	 00.56 	 07.62
+015.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 07.36 	 00.00 	 07.36
+015.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 08.21 	 00.00 	 08.21
+015.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 20.52 	 00.00 	 20.52
+015.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 07.29 	 00.00 	 07.29
+015.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.45 	 00.00 	 01.45
+015.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.00 	 01.00
+025.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.66 	 01.66
+025.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.07 	 02.07
+025.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.96 	 02.77 	 03.73
+025.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 07.80 	 02.28 	 10.08
+025.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.90 	 02.63 	 05.53
+025.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 05.94 	 01.42 	 07.35
+025.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.23 	 00.00 	 01.23
+025.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.10 	 00.10
+035.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.16 	 00.16
+035.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.22 	 00.22
+035.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.22 	 00.22
+035.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.32 	 00.32
+035.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.23 	 03.23
+035.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.91 	 01.91
+035.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.08 	 00.08
+035.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+045.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+045.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.14 	 00.14
+045.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.33 	 00.33
+045.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.30 	 00.30
+045.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.31 	 00.31
+045.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.07
+045.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+055.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.06 	 00.06
+055.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.15 	 00.15
+055.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.10 	 00.10
+055.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+065.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+065.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+065.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+065.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+075.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+075.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+085.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+
+
+Disaggregation Source List Info:
+Source#	% Contribution	TotExceedRate	SourceName	DistRup	DistX	DistSeis	DistJB
+003274	00.49	1.9912618E-6	Inversion Src #3274; 15 SECTIONS BETWEEN Compton, Subsection 4 AND Richfield, Subsection 1	21.10	20.27	21.10	18.28
+000150	00.37	1.4947262E-6	Inversion Src #150; 58 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 2 AND Big Pine (East), Subsection 1	16.25	16.24	16.52	16.24
+009749	00.37	1.4790241E-6	Inversion Src #9749; 40 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 0 AND San Andreas (Mojave S), Subsection 0	16.25	16.24	16.52	16.24
+013203	00.36	1.4562379E-6	Inversion Src #13203; 36 SECTIONS BETWEEN Compton, Subsection 4 AND Chino alt 1, Subsection 4	21.10	20.27	21.10	18.28
+017878	00.36	1.4336575E-6	Inversion Src #17878; 32 SECTIONS BETWEEN San Andreas (San Bernardino S), Subsection 1 AND San Andreas (Mojave N), Subsection 1	16.25	16.24	16.52	16.24
+001868	00.35	1.4284884E-6	Inversion Src #1868; 47 SECTIONS BETWEEN San Jacinto (San Bernardino), Subsection 3 AND Pleito, Subsection 3	16.56	16.03	16.82	16.55
+006301	00.35	1.4209029E-6	Inversion Src #6301; 42 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 0 AND Sierra Madre, Subsection 1	16.25	16.24	16.52	16.24
+003569	00.33	1.3202999E-6	Inversion Src #3569; 24 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 5 AND San Jacinto (San Bernardino), Subsection 0	16.25	16.24	16.52	16.24
+013631	00.33	1.31792E-6	Inversion Src #13631; 29 SECTIONS BETWEEN San Jacinto (San Bernardino), Subsection 4 AND San Andreas (Big Bend), Subsection 4	16.25	16.24	16.52	16.24
+014409	00.33	1.3118405E-6	Inversion Src #14409; 27 SECTIONS BETWEEN San Andreas (San Bernardino S), Subsection 4 AND San Andreas (Mojave S), Subsection 0	16.25	16.24	16.52	16.24
+018357	00.32	1.3081502E-6	Inversion Src #18357; 35 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 5 AND San Andreas (Big Bend), Subsection 5	16.56	16.03	16.82	16.55
+013656	00.32	1.3008478E-6	Inversion Src #13656; 22 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 2 AND San Jacinto (Lytle Creek connector), Subsection 0	16.25	16.24	16.52	16.24
+018023	00.32	1.2947091E-6	Inversion Src #18023; 31 SECTIONS BETWEEN San Jacinto (San Jacinto Valley) rev, Subsection 2 AND San Andreas (Mojave S), Subsection 0	16.25	16.24	16.52	16.24
+008969	00.32	1.286433E-6	Inversion Src #8969; 23 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 2 AND San Andreas (North Branch Mill Creek), Subsection 1	16.25	16.24	16.52	16.24
+015032	00.32	1.2709628E-6	Inversion Src #15032; 20 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 1 AND San Jacinto (Lytle Creek connector), Subsection 1	16.25	16.24	16.52	16.24
+015143	00.31	1.2581912E-6	Inversion Src #15143; 28 SECTIONS BETWEEN San Jacinto (San Bernardino), Subsection 4 AND San Andreas (Mojave N), Subsection 0	16.25	16.24	16.52	16.24
+006011	00.31	1.2574172E-6	Inversion Src #6011; 32 SECTIONS BETWEEN San Jacinto (San Jacinto Valley) rev, Subsection 0 AND San Andreas (Mojave N), Subsection 4	16.25	16.24	16.52	16.24
+015939	00.31	1.2494147E-6	Inversion Src #15939; 19 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 2 AND San Jacinto (San Bernardino), Subsection 2	16.25	16.24	16.52	16.24
+007770	00.31	1.2468157E-6	Inversion Src #7770; 21 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 1 AND San Jacinto (Lytle Creek connector), Subsection 1	16.25	16.24	16.52	16.24
+015253	00.31	1.242304E-6	Inversion Src #15253; 19 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 2 AND San Jacinto (Lytle Creek connector), Subsection 2	16.25	16.24	16.52	16.24
+018202	00.31	1.2402795E-6	Inversion Src #18202; 24 SECTIONS BETWEEN San Andreas (San Bernardino S), Subsection 0 AND San Andreas (Mojave S), Subsection 3	16.25	16.24	16.52	16.24
+008587	00.30	1.2264195E-6	Inversion Src #8587; 20 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 0 AND San Jacinto (Lytle Creek connector), Subsection 0	16.25	16.24	16.52	16.24
+007967	00.30	1.2247193E-6	Inversion Src #7967; 22 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 2 AND San Jacinto (Lytle Creek connector), Subsection 2	16.25	16.24	16.52	16.24
+017651	00.30	1.2172221E-6	Inversion Src #17651; 21 SECTIONS BETWEEN San Jacinto (Anza) rev, Subsection 5 AND San Andreas (North Branch Mill Creek), Subsection 1	16.25	16.24	16.52	16.24
+018571	00.30	1.2135017E-6	Inversion Src #18571; 21 SECTIONS BETWEEN San Jacinto (Lytle Creek connector), Subsection 0 AND San Jacinto (Anza) rev, Subsection 5	16.25	16.24	16.52	16.24
+016317	00.30	1.2126836E-6	Inversion Src #16317; 18 SECTIONS BETWEEN San Jacinto (Anza) rev, Subsection 2 AND San Jacinto (Lytle Creek connector), Subsection 0	16.25	16.24	16.52	16.24
+012953	00.30	1.2085468E-6	Inversion Src #12953; 29 SECTIONS BETWEEN San Andreas (San Bernardino S), Subsection 1 AND Elysian Park (Lower CFM), Subsection 0	16.56	16.03	16.82	16.55
+015710	00.30	1.2083277E-6	Inversion Src #15710; 16 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 0 AND San Jacinto (San Bernardino), Subsection 3	16.25	16.24	16.52	16.24
+001059	00.30	1.208242E-6	Inversion Src #1059; 23 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 4 AND San Jacinto (San Bernardino), Subsection 0	16.25	16.24	16.52	16.24
+013704	00.30	1.2077678E-6	Inversion Src #13704; 30 SECTIONS BETWEEN San Jacinto (San Jacinto Valley) rev, Subsection 2 AND San Andreas (Mojave N), Subsection 0	16.25	16.24	16.52	16.24
+005964	00.30	1.2069754E-6	Inversion Src #5964; 20 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 3 AND San Jacinto (San Bernardino), Subsection 2	16.25	16.24	16.52	16.24
+016592	00.30	1.2048364E-6	Inversion Src #16592; 25 SECTIONS BETWEEN San Jacinto (San Bernardino), Subsection 4 AND San Andreas (Mojave N), Subsection 0	16.25	16.24	16.52	16.24
+002746	00.30	1.2039663E-6	Inversion Src #2746; 25 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 2 AND San Jacinto (Lytle Creek connector), Subsection 0	16.25	16.24	16.52	16.24
+016671	00.30	1.1925935E-6	Inversion Src #16671; 21 SECTIONS BETWEEN San Jacinto (Anza) rev, Subsection 5 AND San Jacinto (Lytle Creek connector), Subsection 0	16.25	16.24	16.52	16.24
+008165	00.30	1.1906388E-6	Inversion Src #8165; 19 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 0 AND San Jacinto (San Bernardino), Subsection 0	16.25	16.24	16.52	16.24
+013995	00.29	1.1869596E-6	Inversion Src #13995; 17 SECTIONS BETWEEN San Jacinto (Lytle Creek connector), Subsection 0 AND San Jacinto (Anza) rev, Subsection 4	16.25	16.24	16.52	16.24
+005836	00.29	1.1841028E-6	Inversion Src #5836; 21 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 2 AND San Jacinto (Lytle Creek connector), Subsection 1	16.25	16.24	16.52	16.24
+008369	00.29	1.1823828E-6	Inversion Src #8369; 21 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 2 AND San Jacinto (Lytle Creek connector), Subsection 2	16.25	16.24	16.52	16.24
+006140	00.29	1.1821902E-6	Inversion Src #6140; 21 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 2 AND San Jacinto (San Bernardino), Subsection 0	16.25	16.24	16.52	16.24
+009952	00.29	1.1819093E-6	Inversion Src #9952; 21 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 0 AND San Jacinto (Lytle Creek connector), Subsection 1	16.25	16.24	16.52	16.24
+012559	00.29	1.1801561E-6	Inversion Src #12559; 21 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 1 AND San Jacinto (Lytle Creek connector), Subsection 2	16.25	16.24	16.52	16.24
+013183	00.29	1.1788832E-6	Inversion Src #13183; 19 SECTIONS BETWEEN San Jacinto (Anza) rev, Subsection 5 AND San Jacinto (Lytle Creek connector), Subsection 2	16.25	16.24	16.52	16.24
+010487	00.29	1.1703326E-6	Inversion Src #10487; 19 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 0 AND San Jacinto (Lytle Creek connector), Subsection 0	16.25	16.24	16.52	16.24
+008788	00.29	1.1643434E-6	Inversion Src #8788; 20 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 1 AND San Jacinto (Lytle Creek connector), Subsection 2	16.25	16.24	16.52	16.24
+015476	00.29	1.1593633E-6	Inversion Src #15476; 18 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 1 AND San Jacinto (San Bernardino), Subsection 2	16.25	16.24	16.52	16.24
+017324	00.29	1.1579136E-6	Inversion Src #17324; 18 SECTIONS BETWEEN San Jacinto (Anza) rev, Subsection 5 AND San Jacinto (San Bernardino), Subsection 0	16.25	16.24	16.52	16.24
+003734	00.29	1.1574903E-6	Inversion Src #3734; 18 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 2 AND San Jacinto (San Bernardino), Subsection 3	16.25	16.24	16.52	16.24
+007061	00.29	1.1543174E-6	Inversion Src #7061; 17 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 0 AND San Jacinto (San Bernardino), Subsection 2	16.25	16.24	16.52	16.24
+004441	00.29	1.153959E-6	Inversion Src #4441; 19 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 1 AND San Jacinto (San Bernardino), Subsection 1	16.25	16.24	16.52	16.24
+015532	00.29	1.1519084E-6	Inversion Src #15532; 24 SECTIONS BETWEEN San Jacinto (San Bernardino), Subsection 4 AND San Andreas (Mojave S), Subsection 2	16.25	16.24	16.52	16.24
+004958	00.29	1.1496126E-6	Inversion Src #4958; 30 SECTIONS BETWEEN San Jacinto (San Jacinto Valley) rev, Subsection 0 AND San Andreas (Big Bend), Subsection 5	16.25	16.24	16.52	16.24
+010124	00.28	1.146757E-6	Inversion Src #10124; 16 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 1 AND San Jacinto (San Bernardino), Subsection 4	16.25	16.24	16.52	16.24
+017458	00.28	1.1417279E-6	Inversion Src #17458; 25 SECTIONS BETWEEN San Jacinto (San Bernardino), Subsection 4 AND San Andreas (Mojave S), Subsection 0	16.25	16.24	16.52	16.24
+002615	00.28	1.1407972E-6	Inversion Src #2615; 19 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 0 AND San Jacinto (San Bernardino), Subsection 0	16.25	16.24	16.52	16.24
+014337	00.28	1.136206E-6	Inversion Src #14337; 15 SECTIONS BETWEEN San Jacinto (Anza) rev, Subsection 0 AND San Jacinto (Lytle Creek connector), Subsection 1	16.25	16.24	16.52	16.24
+014698	00.28	1.134514E-6	Inversion Src #14698; 16 SECTIONS BETWEEN San Jacinto (Anza) rev, Subsection 0 AND San Jacinto (Lytle Creek connector), Subsection 0	16.25	16.24	16.52	16.24
+000061	00.28	1.133509E-6	Inversion Src #61; 22 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 2 AND San Jacinto (Lytle Creek connector), Subsection 2	16.25	16.24	16.52	16.24
+002073	00.28	1.1283997E-6	Inversion Src #2073; 19 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 0 AND San Jacinto (San Bernardino), Subsection 0	16.25	16.24	16.52	16.24
+018961	00.28	1.1258718E-6	Inversion Src #18961; 14 SECTIONS BETWEEN San Jacinto (Lytle Creek connector), Subsection 0 AND San Jacinto (Anza) rev, Subsection 0	16.25	16.24	16.52	16.24
+011546	00.28	1.1226565E-6	Inversion Src #11546; 17 SECTIONS BETWEEN San Jacinto (Lytle Creek connector), Subsection 0 AND San Jacinto (Anza) rev, Subsection 2	16.25	16.24	16.52	16.24
+004675	00.28	1.1221777E-6	Inversion Src #4675; 31 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 5 AND San Andreas (Big Bend), Subsection 5	16.56	16.03	16.82	16.55
+001310	00.28	1.1214571E-6	Inversion Src #1310; 19 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 0 AND San Jacinto (San Bernardino), Subsection 0	16.25	16.24	16.52	16.24
+003417	00.28	1.1168297E-6	Inversion Src #3417; 19 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 2 AND San Jacinto (San Bernardino), Subsection 2	16.25	16.24	16.52	16.24
+016895	00.28	1.1149626E-6	Inversion Src #16895; 20 SECTIONS BETWEEN San Jacinto (San Jacinto Valley) rev, Subsection 0 AND San Andreas (Mojave S), Subsection 4	16.25	16.24	16.52	16.24
+002920	00.28	1.1145523E-6	Inversion Src #2920; 19 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 0 AND San Jacinto (San Bernardino), Subsection 0	16.25	16.24	16.52	16.24
+003066	00.28	1.1119419E-6	Inversion Src #3066; 20 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 0 AND San Jacinto (Lytle Creek connector), Subsection 0	16.25	16.24	16.52	16.24
+015799	00.27	1.1036965E-6	Inversion Src #15799; 22 SECTIONS BETWEEN San Jacinto (San Bernardino), Subsection 4 AND San Andreas (Mojave S), Subsection 4	16.25	16.24	16.52	16.24
+005377	00.27	1.1018237E-6	Inversion Src #5377; 17 SECTIONS BETWEEN San Jacinto (Anza) rev, Subsection 3 AND San Andreas (San Bernardino N), Subsection 1	16.25	16.24	16.52	16.24
+000626	00.27	1.0978215E-6	Inversion Src #626; 20 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 0 AND San Jacinto (Lytle Creek connector), Subsection 2	16.25	16.24	16.52	16.24
+001447	00.27	1.0947925E-6	Inversion Src #1447; 18 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 0 AND San Jacinto (San Bernardino), Subsection 1	16.25	16.24	16.52	16.24
+017985	00.27	1.0856469E-6	Inversion Src #17985; 17 SECTIONS BETWEEN San Jacinto (Lytle Creek connector), Subsection 0 AND San Jacinto (Anza) rev, Subsection 5	16.25	16.24	16.52	16.24
+005194	00.27	1.0826079E-6	Inversion Src #5194; 25 SECTIONS BETWEEN San Jacinto (San Bernardino), Subsection 4 AND San Andreas (Mojave S), Subsection 0	16.25	16.24	16.52	16.24
+016963	00.27	1.0802664E-6	Inversion Src #16963; 14 SECTIONS BETWEEN San Jacinto (Lytle Creek connector), Subsection 0 AND San Jacinto (Anza) rev, Subsection 0	16.25	16.24	16.52	16.24
+002991	00.27	1.073222E-6	Inversion Src #2991; 22 SECTIONS BETWEEN San Jacinto (San Bernardino), Subsection 4 AND San Andreas (Mojave S), Subsection 0	16.25	16.24	16.52	16.24
+001939	00.27	1.0722528E-6	Inversion Src #1939; 18 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 0 AND San Jacinto (San Bernardino), Subsection 1	16.25	16.24	16.52	16.24
+012342	00.27	1.0719214E-6	Inversion Src #12342; 17 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 0 AND San Jacinto (San Bernardino), Subsection 2	16.25	16.24	16.52	16.24
+002328	00.27	1.0706054E-6	Inversion Src #2328; 18 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 0 AND San Jacinto (San Bernardino), Subsection 1	16.25	16.24	16.52	16.24
+009279	00.26	1.0612441E-6	Inversion Src #9279; 19 SECTIONS BETWEEN San Jacinto (San Jacinto Valley) rev, Subsection 0 AND San Jacinto (Clark) rev, Subsection 5	16.78	15.07	17.04	16.77
+006758	00.26	1.0507221E-6	Inversion Src #6758; 17 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 0 AND San Jacinto (San Bernardino), Subsection 2	16.25	16.24	16.52	16.24
+011663	00.26	1.0488058E-6	Inversion Src #11663; 39 SECTIONS BETWEEN Elsinore (Glen Ivy) rev, Subsection 0 AND Oceanside alt1, Subsection 6	20.53	-20.49	20.71	20.49
+001709	00.26	1.0452931E-6	Inversion Src #1709; 16 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 0 AND San Jacinto (San Bernardino), Subsection 3	16.25	16.24	16.52	16.24
+011844	00.26	1.0337303E-6	Inversion Src #11844; 13 SECTIONS BETWEEN San Jacinto (Lytle Creek connector), Subsection 0 AND San Jacinto (Anza) rev, Subsection 0	16.25	16.24	16.52	16.24
+007458	00.26	1.0309941E-6	Inversion Src #7458; 13 SECTIONS BETWEEN San Jacinto (Stepovers Combined), Subsection 3 AND San Jacinto (Lytle Creek connector), Subsection 2	16.25	16.24	16.52	16.24
+018235	00.25	1.0216007E-6	Inversion Src #18235; 10 SECTIONS BETWEEN San Jacinto (Anza) rev, Subsection 0 AND San Jacinto (San Bernardino), Subsection 3	16.25	16.24	16.52	16.24
+001232	00.25	1.0195191E-6	Inversion Src #1232; 25 SECTIONS BETWEEN San Jacinto (San Jacinto Valley) rev, Subsection 2 AND San Andreas (Mojave S), Subsection 1	16.25	16.24	16.52	16.24
+009366	00.25	1.0163925E-6	Inversion Src #9366; 14 SECTIONS BETWEEN San Jacinto (Stepovers Combined), Subsection 3 AND San Jacinto (Lytle Creek connector), Subsection 0	16.25	16.24	16.52	16.24
+016177	00.25	1.0116115E-6	Inversion Src #16177; 16 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 0 AND San Jacinto (San Bernardino), Subsection 3	16.25	16.24	16.52	16.24
+000768	00.25	1.0015091E-6	Inversion Src #768; 16 SECTIONS BETWEEN San Jacinto (Anza) rev, Subsection 2 AND San Jacinto (Lytle Creek connector), Subsection 2	16.25	16.24	16.52	16.24
+001847	00.25	9.959691E-7	Inversion Src #1847; 15 SECTIONS BETWEEN San Jacinto (Anza) rev, Subsection 3 AND San Jacinto (San Bernardino), Subsection 1	16.25	16.24	16.52	16.24
+006241	00.25	9.955673E-7	Inversion Src #6241; 13 SECTIONS BETWEEN San Jacinto (San Bernardino), Subsection 1 AND Yorba Linda, Subsection 0	15.65	-15.56	16.31	15.57
+012763	00.25	9.948699E-7	Inversion Src #12763; 19 SECTIONS BETWEEN San Jacinto (Lytle Creek connector), Subsection 2 AND San Jacinto (Coyote Creek), Subsection 2	16.25	16.24	16.52	16.24
+002465	00.25	9.927618E-7	Inversion Src #2465; 13 SECTIONS BETWEEN San Jacinto (Anza) rev, Subsection 1 AND San Jacinto (San Bernardino), Subsection 1	16.25	16.24	16.52	16.24
+017088	00.25	9.877305E-7	Inversion Src #17088; 50 SECTIONS BETWEEN Rose Canyon, Subsection 8 AND Elsinore (Julian), Subsection 7	22.55	-21.25	22.71	22.51
+006892	00.24	9.837098E-7	Inversion Src #6892; 14 SECTIONS BETWEEN San Jacinto (Lytle Creek connector), Subsection 0 AND San Jacinto (Anza) rev, Subsection 0	16.25	16.24	16.52	16.24
+009558	00.24	9.816516E-7	Inversion Src #9558; 14 SECTIONS BETWEEN San Jacinto (Anza) rev, Subsection 0 AND San Jacinto (Lytle Creek connector), Subsection 1	16.25	16.24	16.52	16.24
+011109	00.24	9.803961E-7	Inversion Src #11109; 13 SECTIONS BETWEEN San Jacinto (Lytle Creek connector), Subsection 1 AND San Jacinto (Anza) rev, Subsection 0	16.25	16.24	16.52	16.24
+011337	00.24	9.801373E-7	Inversion Src #11337; 12 SECTIONS BETWEEN San Jacinto (Stepovers Combined), Subsection 3 AND San Jacinto (Lytle Creek connector), Subsection 1	16.25	16.24	16.52	16.24
+011999	00.24	9.720342E-7	Inversion Src #11999; 15 SECTIONS BETWEEN San Jacinto (San Jacinto Valley) rev, Subsection 0 AND San Jacinto (Clark) rev, Subsection 1	16.78	15.07	17.04	16.77
+013445	00.24	9.519381E-7	Inversion Src #13445; 12 SECTIONS BETWEEN San Jacinto (Anza) rev, Subsection 0 AND San Jacinto (San Bernardino), Subsection 1	16.25	16.24	16.52	16.24
+014557	00.23	9.462492E-7	Inversion Src #14557; 14 SECTIONS BETWEEN San Jacinto (San Jacinto Valley) rev, Subsection 0 AND San Jacinto (Clark) rev, Subsection 0	16.78	15.07	17.04	16.77

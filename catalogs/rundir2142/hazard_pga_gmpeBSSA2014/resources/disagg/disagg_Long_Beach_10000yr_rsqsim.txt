@@ -1,0 +1,231 @@
+Mean/Mode Metadata :
+
+
+  Mbar = 7.2447243
+  Dbar = 4.8957696
+  Ebar = 1.4476314
+
+  7.0 ≤ Mmode < 7.2
+  0.0 ≤ Dmode < 10.0
+1.0 < Emode <= 2.0
+
+Disaggregation Plot Parameters Info :
+Custom disagg
+
+Disaggregation Bin Data :
+Dist	Mag	E≤-2	-2<E≤-1	-1<E≤-0.5	 -0.5>E≤0	 0<E≤0.5	 0.5<E≤1	 1<E≤2	 2>E 
+-----	----	------	------	-------	-------	-------	-------	-------	------
+005.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.16 	 00.00 	 02.16
+005.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 04.74 	 01.16 	 05.90
+005.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 10.42 	 01.75 	 12.17
+005.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 21.39 	 03.98 	 25.36
+005.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 16.96 	 00.27 	 17.23
+005.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 11.39 	 00.00 	 11.39
+005.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 10.00 	 10.80 	 00.00 	 20.80
+005.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.15 	 00.15
+015.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.36 	 00.36
+015.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.44 	 00.54 	 00.99
+015.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.76 	 00.76
+015.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.56 	 00.56
+015.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.47 	 00.47
+015.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.07
+025.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.10 	 00.10
+025.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.22 	 00.22
+025.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.36 	 00.36
+025.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.53 	 00.53
+025.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.14 	 00.14
+025.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+025.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+025.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+035.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+035.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+035.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+035.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+035.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+035.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+035.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+
+
+Disaggregation Source List Info:
+Source#	% Contribution	TotExceedRate	SourceName	DistRup	DistX	DistSeis	DistJB
+011674	02.68	2.69877E-6	Inversion Src #11674; 17 SECTIONS BETWEEN Northridge, Subsection 2 AND Compton, Subsection 0	02.50	-02.00	04.01	00.00
+016328	02.62	2.6371158E-6	Inversion Src #16328; 16 SECTIONS BETWEEN Northridge, Subsection 4 AND Compton, Subsection 0	02.50	-02.00	04.01	00.00
+001702	02.41	2.4281749E-6	Inversion Src #1702; 26 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 0 AND Malibu Coast alt 1, Subsection 0	02.50	-02.00	04.01	00.00
+003274	02.29	2.3110042E-6	Inversion Src #3274; 15 SECTIONS BETWEEN Compton, Subsection 4 AND Richfield, Subsection 1	06.64	02.25	06.64	00.00
+004998	02.22	2.2398922E-6	Inversion Src #4998; 23 SECTIONS BETWEEN Hollywood, Subsection 1 AND Compton, Subsection 0	02.50	-02.00	04.01	00.00
+000168	02.22	2.2345544E-6	Inversion Src #168; 23 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 0 AND Palos Verdes, Subsection 14	02.50	-02.00	04.01	00.00
+009949	02.18	2.195578E-6	Inversion Src #9949; 25 SECTIONS BETWEEN Hollywood, Subsection 2 AND Anaheim, Subsection 2	02.50	-02.00	04.01	00.00
+014895	02.17	2.188221E-6	Inversion Src #14895; 10 SECTIONS BETWEEN Compton, Subsection 0 AND Palos Verdes, Subsection 11	02.50	-02.00	04.01	00.00
+008282	02.12	2.1345315E-6	Inversion Src #8282; 27 SECTIONS BETWEEN Compton, Subsection 4 AND Richfield, Subsection 0	02.50	-02.00	04.01	00.00
+013203	02.06	2.0730502E-6	Inversion Src #13203; 36 SECTIONS BETWEEN Compton, Subsection 4 AND Chino alt 1, Subsection 4	02.50	-02.00	04.01	00.00
+017867	02.04	2.0576492E-6	Inversion Src #17867; 4 SECTIONS BETWEEN Compton, Subsection 0 AND Newport-Inglewood alt 1, Subsection 5	02.50	-02.00	04.01	00.00
+006468	01.89	1.9042685E-6	Inversion Src #6468; 8 SECTIONS BETWEEN Compton, Subsection 1 AND Malibu Coast alt 1, Subsection 0	04.51	-00.97	05.48	00.00
+017791	01.76	1.7695194E-6	Inversion Src #17791; 19 SECTIONS BETWEEN San Pedro Escarpment, Subsection 1 AND Newport-Inglewood alt 1, Subsection 5	04.51	-00.97	05.48	00.00
+005816	01.61	1.6238556E-6	Inversion Src #5816; 22 SECTIONS BETWEEN Compton, Subsection 1 AND Elsinore (Temecula) rev, Subsection 5	06.64	02.25	06.64	00.00
+011388	01.53	1.5380311E-6	Inversion Src #11388; 9 SECTIONS BETWEEN Compton, Subsection 1 AND Richfield, Subsection 0	06.64	02.25	06.64	00.00
+003194	01.43	1.4369142E-6	Inversion Src #3194; 10 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 0 AND Hollywood, Subsection 2	02.50	-02.00	04.01	02.01
+004614	01.42	1.432072E-6	Inversion Src #4614; 10 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 0 AND Hollywood, Subsection 2	02.50	-02.00	04.01	02.01
+009512	01.42	1.4268694E-6	Inversion Src #9512; 12 SECTIONS BETWEEN Newport-Inglewood (Offshore), Subsection 2 AND Newport-Inglewood alt 1, Subsection 8	02.50	-02.00	04.01	02.01
+017439	01.41	1.4213588E-6	Inversion Src #17439; 9 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 0 AND Newport-Inglewood alt 1, Subsection 8	02.50	-02.00	04.01	02.01
+000850	01.41	1.4172394E-6	Inversion Src #850; 10 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 0 AND Hollywood, Subsection 2	02.50	-02.00	04.01	02.01
+003820	01.40	1.4098741E-6	Inversion Src #3820; 10 SECTIONS BETWEEN Santa Monica alt 1, Subsection 0 AND Newport-Inglewood alt 1, Subsection 0	02.50	-02.00	04.01	02.01
+006191	01.40	1.4069753E-6	Inversion Src #6191; 10 SECTIONS BETWEEN Newport-Inglewood (Offshore), Subsection 0 AND Newport-Inglewood alt 1, Subsection 8	02.50	-02.00	04.01	02.01
+007776	01.38	1.3918855E-6	Inversion Src #7776; 8 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 1 AND Newport-Inglewood alt 1, Subsection 8	02.50	-02.00	04.01	02.01
+010620	01.38	1.3881039E-6	Inversion Src #10620; 8 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 0 AND Newport-Inglewood alt 1, Subsection 7	02.50	-02.00	04.01	02.01
+010924	01.36	1.3730873E-6	Inversion Src #10924; 18 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 8 AND San Pedro Escarpment, Subsection 0	04.51	-00.97	05.48	04.25
+013737	01.36	1.3657203E-6	Inversion Src #13737; 7 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 2 AND Newport-Inglewood alt 1, Subsection 8	02.50	-02.00	04.01	02.01
+014597	01.35	1.3633409E-6	Inversion Src #14597; 6 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 0 AND Newport-Inglewood alt 1, Subsection 5	02.50	-02.00	04.01	02.01
+007038	01.34	1.3528472E-6	Inversion Src #7038; 7 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 0 AND Newport-Inglewood alt 1, Subsection 6	02.50	-02.00	04.01	02.01
+015471	01.34	1.3462433E-6	Inversion Src #15471; 8 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 1 AND Newport-Inglewood alt 1, Subsection 8	02.50	-02.00	04.01	02.01
+012803	01.33	1.3416067E-6	Inversion Src #12803; 6 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 3 AND Newport-Inglewood alt 1, Subsection 8	02.50	-02.00	04.01	02.01
+005600	01.33	1.3364235E-6	Inversion Src #5600; 7 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 2 AND Newport-Inglewood alt 1, Subsection 8	02.50	-02.00	04.01	02.01
+004616	01.32	1.3326385E-6	Inversion Src #4616; 3 SECTIONS BETWEEN Anaheim, Subsection 2 AND Compton, Subsection 1	06.64	02.25	06.64	00.00
+014702	01.32	1.3323681E-6	Inversion Src #14702; 24 SECTIONS BETWEEN San Pedro Basin, Subsection 2 AND Newport-Inglewood alt 1, Subsection 5	04.51	-00.97	05.48	04.25
+018502	01.32	1.3322466E-6	Inversion Src #18502; 7 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 0 AND Newport-Inglewood alt 1, Subsection 6	02.50	-02.00	04.01	02.01
+002363	01.31	1.317494E-6	Inversion Src #2363; 6 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 3 AND Newport-Inglewood alt 1, Subsection 8	02.50	-02.00	04.01	02.01
+001433	01.29	1.3023276E-6	Inversion Src #1433; 5 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 4 AND Newport-Inglewood alt 1, Subsection 8	02.50	-02.00	04.01	02.01
+011272	01.26	1.2725245E-6	Inversion Src #11272; 5 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 3 AND Newport-Inglewood alt 1, Subsection 7	02.50	-02.00	04.01	02.01
+008940	01.25	1.2610236E-6	Inversion Src #8940; 6 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 3 AND Newport-Inglewood alt 1, Subsection 8	02.50	-02.00	04.01	02.01
+018184	01.22	1.2297342E-6	Inversion Src #18184; 5 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 4 AND Newport-Inglewood alt 1, Subsection 8	02.50	-02.00	04.01	02.01
+012240	01.19	1.2013032E-6	Inversion Src #12240; 4 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 4 AND Newport-Inglewood alt 1, Subsection 7	02.50	-02.00	04.01	02.01
+014406	01.19	1.1965944E-6	Inversion Src #14406; 4 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 4 AND Newport-Inglewood alt 1, Subsection 7	02.50	-02.00	04.01	02.01
+016857	01.14	1.1491621E-6	Inversion Src #16857; 4 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 4 AND Newport-Inglewood alt 1, Subsection 7	02.50	-02.00	04.01	02.01
+006693	01.08	1.0908653E-6	Inversion Src #6693; 3 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 4 AND Newport-Inglewood alt 1, Subsection 6	02.50	-02.00	04.01	02.01
+016030	01.08	1.0890582E-6	Inversion Src #16030; 4 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 4 AND Newport-Inglewood alt 1, Subsection 7	02.50	-02.00	04.01	02.01
+013139	00.84	8.4504853E-7	Inversion Src #13139; 4 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 0 AND Newport-Inglewood alt 1, Subsection 3	04.32	-01.78	05.34	04.05
+011438	00.83	8.3854013E-7	Inversion Src #11438; 7 SECTIONS BETWEEN Newport-Inglewood (Offshore), Subsection 2 AND Newport-Inglewood alt 1, Subsection 3	04.32	-01.78	05.34	04.05
+007200	00.83	8.364648E-7	Inversion Src #7200; 2 SECTIONS BETWEEN Anaheim, Subsection 2 AND Compton, Subsection 0	08.24	01.81	08.24	05.24
+008399	00.82	8.2895446E-7	Inversion Src #8399; 4 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 0 AND Newport-Inglewood alt 1, Subsection 3	04.32	-01.78	05.34	04.05
+012360	00.80	8.0491077E-7	Inversion Src #12360; 4 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 0 AND Newport-Inglewood alt 1, Subsection 3	04.32	-01.78	05.34	04.05
+014703	00.44	4.4801115E-7	Inversion Src #14703; 2 SECTIONS BETWEEN Compton, Subsection 2 AND Compton, Subsection 3	10.25	01.95	10.25	07.61
+008887	00.43	4.3775452E-7	Inversion Src #8887; 16 SECTIONS BETWEEN Palos Verdes, Subsection 0 AND Palos Verdes, Subsection 15	07.92	07.80	08.36	07.80
+015094	00.42	4.2351556E-7	Inversion Src #15094; 14 SECTIONS BETWEEN Palos Verdes, Subsection 2 AND Palos Verdes, Subsection 15	07.92	07.80	08.36	07.80
+003192	00.42	4.229078E-7	Inversion Src #3192; 16 SECTIONS BETWEEN Palos Verdes, Subsection 0 AND Palos Verdes, Subsection 15	07.92	07.80	08.36	07.80
+017003	00.42	4.2091648E-7	Inversion Src #17003; 14 SECTIONS BETWEEN Palos Verdes, Subsection 2 AND Palos Verdes, Subsection 15	07.92	07.80	08.36	07.80
+003588	00.41	4.1743678E-7	Inversion Src #3588; 16 SECTIONS BETWEEN Palos Verdes, Subsection 0 AND Palos Verdes, Subsection 15	07.92	07.80	08.36	07.80
+000609	00.41	4.1654076E-7	Inversion Src #609; 16 SECTIONS BETWEEN Palos Verdes, Subsection 0 AND Palos Verdes, Subsection 15	07.92	07.80	08.36	07.80
+006057	00.41	4.1327968E-7	Inversion Src #6057; 13 SECTIONS BETWEEN Palos Verdes, Subsection 0 AND Palos Verdes, Subsection 12	07.92	07.80	08.36	07.80
+013832	00.41	4.1310057E-7	Inversion Src #13832; 12 SECTIONS BETWEEN Palos Verdes, Subsection 0 AND Palos Verdes, Subsection 11	07.92	07.80	08.36	07.80
+000990	00.41	4.119255E-7	Inversion Src #990; 16 SECTIONS BETWEEN Palos Verdes, Subsection 0 AND Palos Verdes, Subsection 15	07.92	07.80	08.36	07.80
+000137	00.40	4.0560522E-7	Inversion Src #137; 15 SECTIONS BETWEEN Palos Verdes, Subsection 0 AND Palos Verdes, Subsection 14	07.92	07.80	08.36	07.80
+003947	00.40	4.0452355E-7	Inversion Src #3947; 21 SECTIONS BETWEEN San Diego Trough north alt1, Subsection 24 AND Palos Verdes, Subsection 10	07.92	07.80	08.36	07.80
+007102	00.40	4.039238E-7	Inversion Src #7102; 15 SECTIONS BETWEEN Palos Verdes, Subsection 0 AND Palos Verdes, Subsection 14	07.92	07.80	08.36	07.80
+004381	00.40	4.0301853E-7	Inversion Src #4381; 12 SECTIONS BETWEEN Palos Verdes, Subsection 0 AND Palos Verdes, Subsection 11	07.92	07.80	08.36	07.80
+006705	00.40	4.024846E-7	Inversion Src #6705; 13 SECTIONS BETWEEN Palos Verdes, Subsection 3 AND Palos Verdes, Subsection 15	07.92	07.80	08.36	07.80
+001609	00.40	4.016202E-7	Inversion Src #1609; 14 SECTIONS BETWEEN Palos Verdes, Subsection 2 AND Palos Verdes, Subsection 15	07.92	07.80	08.36	07.80
+016437	00.40	4.0075443E-7	Inversion Src #16437; 12 SECTIONS BETWEEN Palos Verdes, Subsection 4 AND Palos Verdes, Subsection 15	07.92	07.80	08.36	07.80
+017699	00.39	3.977114E-7	Inversion Src #17699; 13 SECTIONS BETWEEN Palos Verdes, Subsection 2 AND Palos Verdes, Subsection 15	07.92	07.80	08.36	07.80
+011603	00.39	3.900225E-7	Inversion Src #11603; 11 SECTIONS BETWEEN Palos Verdes, Subsection 1 AND Palos Verdes, Subsection 11	07.92	07.80	08.36	07.80
+005625	00.39	3.8875385E-7	Inversion Src #5625; 11 SECTIONS BETWEEN Palos Verdes, Subsection 0 AND Palos Verdes, Subsection 10	07.92	07.80	08.36	07.80
+002740	00.38	3.8729834E-7	Inversion Src #2740; 11 SECTIONS BETWEEN Palos Verdes, Subsection 0 AND Palos Verdes, Subsection 10	07.92	07.80	08.36	07.80
+018340	00.38	3.860437E-7	Inversion Src #18340; 10 SECTIONS BETWEEN Palos Verdes, Subsection 3 AND Palos Verdes, Subsection 12	07.92	07.80	08.36	07.80
+014453	00.38	3.846424E-7	Inversion Src #14453; 10 SECTIONS BETWEEN Palos Verdes, Subsection 2 AND Palos Verdes, Subsection 11	07.92	07.80	08.36	07.80
+018962	00.38	3.8407177E-7	Inversion Src #18962; 11 SECTIONS BETWEEN Palos Verdes, Subsection 2 AND Palos Verdes, Subsection 12	07.92	07.80	08.36	07.80
+008431	00.38	3.7867304E-7	Inversion Src #8431; 11 SECTIONS BETWEEN Palos Verdes, Subsection 0 AND Palos Verdes, Subsection 10	07.92	07.80	08.36	07.80
+001284	00.37	3.7695654E-7	Inversion Src #1284; 15 SECTIONS BETWEEN Malibu Coast alt 1, Subsection 0 AND Palos Verdes, Subsection 2	07.92	07.80	08.36	07.80
+009339	00.37	3.7660985E-7	Inversion Src #9339; 11 SECTIONS BETWEEN Palos Verdes, Subsection 1 AND Palos Verdes, Subsection 11	07.92	07.80	08.36	07.80
+012626	00.37	3.7659592E-7	Inversion Src #12626; 11 SECTIONS BETWEEN San Diego Trough north alt1, Subsection 33 AND Palos Verdes, Subsection 11	07.92	07.80	08.36	07.80
+004807	00.37	3.7371169E-7	Inversion Src #4807; 11 SECTIONS BETWEEN Palos Verdes, Subsection 0 AND Palos Verdes, Subsection 10	07.92	07.80	08.36	07.80
+015755	00.37	3.697559E-7	Inversion Src #15755; 10 SECTIONS BETWEEN Palos Verdes, Subsection 2 AND Palos Verdes, Subsection 11	07.92	07.80	08.36	07.80
+007488	00.36	3.676402E-7	Inversion Src #7488; 9 SECTIONS BETWEEN Palos Verdes, Subsection 7 AND Palos Verdes, Subsection 15	07.92	07.80	08.36	07.80
+010401	00.36	3.603634E-7	Inversion Src #10401; 10 SECTIONS BETWEEN Palos Verdes, Subsection 2 AND Palos Verdes, Subsection 11	07.92	07.80	08.36	07.80
+002406	00.36	3.5819892E-7	Inversion Src #2406; 12 SECTIONS BETWEEN Malibu Coast alt 1, Subsection 0 AND Palos Verdes, Subsection 5	07.92	07.80	08.36	07.80
+007999	00.35	3.5353554E-7	Inversion Src #7999; 9 SECTIONS BETWEEN Palos Verdes, Subsection 7 AND Palos Verdes, Subsection 15	07.92	07.80	08.36	07.80
+011952	00.34	3.4473766E-7	Inversion Src #11952; 9 SECTIONS BETWEEN Palos Verdes, Subsection 7 AND Palos Verdes, Subsection 15	07.92	07.80	08.36	07.80
+000902	00.34	3.4039843E-7	Inversion Src #902; 17 SECTIONS BETWEEN San Pedro Basin, Subsection 10 AND Newport-Inglewood alt 1, Subsection 7	11.43	-01.44	11.85	11.33
+005388	00.33	3.3275177E-7	Inversion Src #5388; 9 SECTIONS BETWEEN Redondo Canyon alt 1, Subsection 0 AND Palos Verdes, Subsection 7	07.92	07.80	08.36	07.80
+001941	00.33	3.304135E-7	Inversion Src #1941; 8 SECTIONS BETWEEN Palos Verdes, Subsection 8 AND Palos Verdes, Subsection 15	07.92	07.80	08.36	07.80
+002153	00.32	3.1752276E-7	Inversion Src #2153; 8 SECTIONS BETWEEN Palos Verdes, Subsection 4 AND Palos Verdes, Subsection 11	07.92	07.80	08.36	07.80
+002946	00.31	3.1543516E-7	Inversion Src #2946; 6 SECTIONS BETWEEN Palos Verdes, Subsection 10 AND Palos Verdes, Subsection 15	07.92	07.80	08.36	07.80
+010425	00.31	3.1487858E-7	Inversion Src #10425; 6 SECTIONS BETWEEN Palos Verdes, Subsection 10 AND Palos Verdes, Subsection 15	07.92	07.80	08.36	07.80
+005764	00.31	3.132569E-7	Inversion Src #5764; 6 SECTIONS BETWEEN Palos Verdes, Subsection 10 AND Palos Verdes, Subsection 15	07.92	07.80	08.36	07.80
+011284	00.31	3.1225298E-7	Inversion Src #11284; 6 SECTIONS BETWEEN Palos Verdes, Subsection 10 AND Palos Verdes, Subsection 15	07.92	07.80	08.36	07.80
+009657	00.31	3.0858354E-7	Inversion Src #9657; 6 SECTIONS BETWEEN Palos Verdes, Subsection 10 AND Palos Verdes, Subsection 15	07.92	07.80	08.36	07.80
+015617	00.30	3.0700448E-7	Inversion Src #15617; 6 SECTIONS BETWEEN Palos Verdes, Subsection 10 AND Palos Verdes, Subsection 15	07.92	07.80	08.36	07.80
+000383	00.30	3.0645194E-7	Inversion Src #383; 7 SECTIONS BETWEEN Malibu Coast alt 1, Subsection 0 AND Palos Verdes, Subsection 10	07.92	07.80	08.36	07.80
+012399	00.30	3.0395995E-7	Inversion Src #12399; 6 SECTIONS BETWEEN Palos Verdes, Subsection 10 AND Palos Verdes, Subsection 15	07.92	07.80	08.36	07.80
+006387	00.30	3.0341377E-7	Inversion Src #6387; 6 SECTIONS BETWEEN Palos Verdes, Subsection 10 AND Palos Verdes, Subsection 15	07.92	07.80	08.36	07.80
+013552	00.30	3.0262223E-7	Inversion Src #13552; 6 SECTIONS BETWEEN Palos Verdes, Subsection 10 AND Palos Verdes, Subsection 15	07.92	07.80	08.36	07.80
+015980	00.30	3.0045527E-7	Inversion Src #15980; 5 SECTIONS BETWEEN Palos Verdes, Subsection 10 AND Palos Verdes, Subsection 14	07.92	07.80	08.36	07.80
+003946	00.30	3.003426E-7	Inversion Src #3946; 6 SECTIONS BETWEEN Palos Verdes, Subsection 10 AND Palos Verdes, Subsection 15	07.92	07.80	08.36	07.80
