@@ -1,0 +1,231 @@
+Mean/Mode Metadata :
+
+
+  Mbar = 7.2885613
+  Dbar = 65.30195
+  Ebar = 1.4002463
+
+  7.0 ≤ Mmode < 7.2
+  60.0 ≤ Dmode < 70.0
+1.0 < Emode <= 2.0
+
+Disaggregation Plot Parameters Info :
+Custom disagg
+
+Disaggregation Bin Data :
+Dist	Mag	E≤-2	-2<E≤-1	-1<E≤-0.5	 -0.5>E≤0	 0<E≤0.5	 0.5<E≤1	 1<E≤2	 2>E 
+-----	----	------	------	-------	-------	-------	-------	-------	------
+005.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.20 	 00.00 	 00.00 	 01.20
+025.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.76 	 00.00 	 00.00 	 01.76
+025.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.92 	 00.00 	 00.00 	 00.00 	 00.92
+025.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.27 	 01.08 	 00.00 	 00.00 	 00.00 	 01.36
+025.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.28 	 03.77 	 00.00 	 00.00 	 00.00 	 04.05
+025.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.28 	 01.82 	 00.00 	 00.00 	 00.00 	 02.09
+025.00 	 7.70 	 00.00 	 00.00 	 00.00 	 01.62 	 00.00 	 00.00 	 00.00 	 00.00 	 01.62
+025.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.98 	 00.00 	 00.00 	 00.00 	 00.00 	 00.98
+025.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.20 	 00.00 	 00.20
+035.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.53 	 00.00 	 00.53
+035.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.22 	 00.34 	 00.00 	 01.55
+035.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.26 	 00.00 	 00.00 	 00.26
+035.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.20 	 00.16 	 00.00 	 00.00 	 00.36
+035.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 02.99 	 00.00 	 00.00 	 00.00 	 02.99
+035.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.27 	 02.47 	 00.00 	 00.00 	 00.00 	 02.74
+035.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.29 	 00.72 	 00.00 	 00.00 	 00.00 	 01.01
+035.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.28 	 00.00 	 00.00 	 00.00 	 00.00 	 00.28
+035.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.40 	 00.00 	 00.40
+045.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.67 	 00.00 	 00.67
+045.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.19 	 00.08 	 00.00 	 00.26
+045.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.62 	 00.00 	 00.00 	 00.62
+045.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.61 	 00.00 	 00.00 	 01.61
+045.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.53 	 01.57 	 00.00 	 00.00 	 02.10
+045.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.60 	 00.00 	 00.00 	 00.00 	 00.60
+045.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 01.17 	 00.00 	 00.00 	 00.00 	 01.17
+045.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.22 	 00.03 	 00.25
+055.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.84 	 00.01 	 00.85
+055.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 05.03 	 00.00 	 05.03
+055.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.39 	 00.00 	 01.39
+055.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.87 	 00.43 	 00.00 	 01.30
+055.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.12 	 00.07 	 00.00 	 03.19
+055.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 02.02 	 00.81 	 00.00 	 00.00 	 02.83
+055.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.06 	 00.00 	 00.00 	 01.06
+055.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.65 	 00.67
+065.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.64 	 00.91 	 01.55
+065.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.96 	 00.14 	 03.10
+065.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 05.61 	 00.00 	 05.61
+065.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.59 	 00.00 	 03.59
+065.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.33 	 00.00 	 01.33
+065.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.34 	 00.00 	 00.34
+065.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.41 	 00.41
+075.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.12 	 00.90 	 01.02
+075.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.29 	 01.72 	 02.01
+075.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.31 	 01.10 	 01.41
+075.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.72 	 00.14 	 01.86
+075.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 04.60 	 00.00 	 04.60
+075.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.53 	 00.00 	 00.53
+075.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.20 	 00.20
+085.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.60 	 00.60
+085.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.49 	 00.49
+085.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.45 	 00.45
+085.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.27 	 00.77 	 01.04
+085.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.42 	 00.07 	 00.49
+085.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.08 	 00.00 	 00.08
+085.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.92 	 00.00 	 00.92
+085.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.16 	 00.16
+095.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.35 	 00.35
+095.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.37 	 00.37
+095.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.90 	 01.90
+095.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 04.36 	 04.36
+095.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.08 	 00.73 	 00.81
+095.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.12 	 00.05 	 00.17
+095.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.67 	 00.00 	 00.67
+095.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+105.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.21 	 00.21
+105.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.57 	 00.57
+105.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.66 	 00.66
+105.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.32 	 00.32
+105.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.09 	 00.09
+105.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.17 	 00.17
+105.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.11 	 00.18
+105.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+
+
+Disaggregation Source List Info:
+Source#	% Contribution	TotExceedRate	SourceName	DistRup	DistX	DistSeis	DistJB
+024321	00.33	1.3282404E-6	Inversion Src #24321; 14 SECTIONS BETWEEN Great Valley 03 Mysterious Ridge, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 0	27.26	31.44	27.26	26.59
+070332	00.33	1.3260653E-6	Inversion Src #70332; 13 SECTIONS BETWEEN Great Valley 04b Gordon Valley, Subsection 3 AND Great Valley 03a Dunnigan Hills, Subsection 4	27.26	31.44	27.26	26.59
+059333	00.33	1.3222592E-6	Inversion Src #59333; 41 SECTIONS BETWEEN Bartlett Springs 2011 CFM, Subsection 9 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 13	27.26	31.44	27.26	26.59
+073787	00.33	1.3194536E-6	Inversion Src #73787; 17 SECTIONS BETWEEN Rodgers Creek - Healdsburg 2011 CFM, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 0	27.26	31.44	27.26	26.59
+037491	00.33	1.3127193E-6	Inversion Src #37491; 45 SECTIONS BETWEEN Bartlett Springs 2011 CFM, Subsection 9 AND Green Valley 2011 CFM, Subsection 3	27.26	31.44	27.26	26.59
+048821	00.32	1.2961547E-6	Inversion Src #48821; 32 SECTIONS BETWEEN Bartlett Springs 2011 CFM, Subsection 5 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 7	27.26	31.44	27.26	26.59
+050186	00.32	1.289568E-6	Inversion Src #50186; 16 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 6 AND Great Valley 03a Dunnigan Hills, Subsection 0	27.26	31.44	27.26	26.59
+002425	00.31	1.2410344E-6	Inversion Src #2425; 18 SECTIONS BETWEEN Rodgers Creek - Healdsburg 2011 CFM, Subsection 2 AND Great Valley 03a Dunnigan Hills, Subsection 0	27.26	31.44	27.26	26.59
+025848	00.29	1.1835958E-6	Inversion Src #25848; 24 SECTIONS BETWEEN Maacama 2011 CFM, Subsection 11 AND Great Valley 03a Dunnigan Hills, Subsection 3	34.78	20.78	34.78	34.26
+045968	00.28	1.1286661E-6	Inversion Src #45968; 9 SECTIONS BETWEEN Great Valley 03 Mysterious Ridge, Subsection 6 AND Great Valley 03a Dunnigan Hills, Subsection 0	27.26	31.44	27.26	26.59
+030014	00.28	1.1280653E-6	Inversion Src #30014; 65 SECTIONS BETWEEN Great Valley 06 (Midland) 2011 CFM alt1, Subsection 7 AND Bartlett Springs 2011 CFM, Subsection 2	35.05	-34.24	35.71	34.96
+010262	00.28	1.1041184E-6	Inversion Src #10262; 15 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 8 AND Great Valley 03a Dunnigan Hills, Subsection 0	27.26	31.44	27.26	26.59
+066039	00.27	1.1026546E-6	Inversion Src #66039; 5 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 4 AND Great Valley 03a Dunnigan Hills, Subsection 0	27.26	31.44	27.26	26.59
+011271	00.27	1.0953493E-6	Inversion Src #11271; 19 SECTIONS BETWEEN Rodgers Creek - Healdsburg 2011 CFM, Subsection 10 AND Great Valley 03a Dunnigan Hills, Subsection 3	34.78	20.78	34.78	34.26
+064081	00.27	1.0635312E-6	Inversion Src #64081; 11 SECTIONS BETWEEN Great Valley 03 Mysterious Ridge, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 4	38.44	20.99	38.44	37.97
+079636	00.26	1.0600771E-6	Inversion Src #79636; 4 SECTIONS BETWEEN Great Valley 04a Trout Creek, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 1	29.33	31.53	29.33	28.71
+054334	00.26	1.0495916E-6	Inversion Src #54334; 7 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 6	27.26	31.44	27.26	26.59
+021086	00.26	1.0445663E-6	Inversion Src #21086; 16 SECTIONS BETWEEN Maacama 2011 CFM, Subsection 17 AND Great Valley 03a Dunnigan Hills, Subsection 3	34.78	20.78	34.78	34.26
+003487	00.26	1.043884E-6	Inversion Src #3487; 7 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 6	27.26	31.44	27.26	26.59
+042924	00.26	1.0428408E-6	Inversion Src #42924; 7 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 6	27.26	31.44	27.26	26.59
+021547	00.26	1.042078E-6	Inversion Src #21547; 7 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 6	27.26	31.44	27.26	26.59
+018597	00.26	1.039825E-6	Inversion Src #18597; 7 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 6	27.26	31.44	27.26	26.59
+072285	00.26	1.037108E-6	Inversion Src #72285; 7 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 6	27.26	31.44	27.26	26.59
+009220	00.26	1.0327101E-6	Inversion Src #9220; 7 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 6	27.26	31.44	27.26	26.59
+031493	00.26	1.0311717E-6	Inversion Src #31493; 7 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 6	27.26	31.44	27.26	26.59
+006195	00.26	1.0296119E-6	Inversion Src #6195; 7 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 6	27.26	31.44	27.26	26.59
+077916	00.25	1.0227236E-6	Inversion Src #77916; 7 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 6	27.26	31.44	27.26	26.59
+012962	00.25	1.0179824E-6	Inversion Src #12962; 7 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 6	27.26	31.44	27.26	26.59
+064972	00.25	1.0150638E-6	Inversion Src #64972; 7 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 6	27.26	31.44	27.26	26.59
+085306	00.25	1.0134565E-6	Inversion Src #85306; 20 SECTIONS BETWEEN Collayami 2011 CFM, Subsection 4 AND Great Valley 03a Dunnigan Hills, Subsection 4	38.44	20.99	38.44	37.97
+067537	00.25	1.0076643E-6	Inversion Src #67537; 7 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 6	27.26	31.44	27.26	26.59
+015708	00.25	1.0071351E-6	Inversion Src #15708; 7 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 6	27.26	31.44	27.26	26.59
+040442	00.25	1.0068226E-6	Inversion Src #40442; 7 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 6	27.26	31.44	27.26	26.59
+075306	00.25	1.0038056E-6	Inversion Src #75306; 7 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 6	27.26	31.44	27.26	26.59
+012305	00.25	1.0036539E-6	Inversion Src #12305; 36 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 8 AND Greenville (No) 2011 CFM, Subsection 5	35.05	-34.24	35.71	34.96
+051336	00.25	1.0021237E-6	Inversion Src #51336; 7 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 6	27.26	31.44	27.26	26.59
+026982	00.25	1.0016046E-6	Inversion Src #26982; 7 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 6	27.26	31.44	27.26	26.59
+034376	00.25	1.0015228E-6	Inversion Src #34376; 7 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 6	27.26	31.44	27.26	26.59
+062423	00.25	9.960991E-7	Inversion Src #62423; 7 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 6	27.26	31.44	27.26	26.59
+075503	00.24	9.558476E-7	Inversion Src #75503; 9 SECTIONS BETWEEN Great Valley 06 (Midland) 2011 CFM alt1, Subsection 1 AND Great Valley 04a Trout Creek, Subsection 0	35.05	-34.24	35.71	34.96
+016931	00.23	9.3840873E-7	Inversion Src #16931; 31 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 2 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 0	35.05	-34.24	35.71	34.96
+083641	00.23	9.3696735E-7	Inversion Src #83641; 18 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 4 AND Great Valley 06 (Midland) 2011 CFM alt1, Subsection 1	35.05	-34.24	35.71	34.96
+001254	00.23	9.327733E-7	Inversion Src #1254; 5 SECTIONS BETWEEN Great Valley 03 Mysterious Ridge, Subsection 7 AND Great Valley 03a Dunnigan Hills, Subsection 0	27.26	31.44	27.26	26.59
+082987	00.23	9.309241E-7	Inversion Src #82987; 7 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 6	27.26	31.44	27.26	26.59
+047277	00.23	9.2859284E-7	Inversion Src #47277; 36 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 5 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 0	35.05	-34.24	35.71	34.96
+064138	00.23	9.2160695E-7	Inversion Src #64138; 12 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 1 AND Great Valley 06 (Midland) 2011 CFM alt1, Subsection 1	35.05	-34.24	35.71	34.96
+005858	00.23	9.1827224E-7	Inversion Src #5858; 7 SECTIONS BETWEEN Great Valley 06 (Midland) 2011 CFM alt1, Subsection 1 AND Great Valley 04a Trout Creek, Subsection 2	35.05	-34.24	35.71	34.96
+076988	00.23	9.1690566E-7	Inversion Src #76988; 43 SECTIONS BETWEEN Great Valley 06 (Midland) 2011 CFM alt1, Subsection 7 AND Hayward (No) 2011 CFM, Subsection 0	35.05	-34.24	35.71	34.96
+036294	00.23	9.087084E-7	Inversion Src #36294; 19 SECTIONS BETWEEN Great Valley 06 (Midland) 2011 CFM alt1, Subsection 0 AND Hunting Creek - Bartlett Springs connector 2011, Subsection 1	35.05	-34.24	35.71	34.96
+084324	00.23	9.08082E-7	Inversion Src #84324; 7 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 6	27.26	31.44	27.26	26.59
+006250	00.22	8.941503E-7	Inversion Src #6250; 13 SECTIONS BETWEEN Great Valley 03 Mysterious Ridge, Subsection 0 AND Collayami 2011 CFM, Subsection 6	46.36	-45.37	46.36	45.38
+038464	00.22	8.84681E-7	Inversion Src #38464; 39 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 6 AND Great Valley 06 (Midland) 2011 CFM alt1, Subsection 0	35.05	-34.24	35.71	34.96
+041770	00.22	8.8408973E-7	Inversion Src #41770; 14 SECTIONS BETWEEN Maacama 2011 CFM, Subsection 2 AND Great Valley 03a Dunnigan Hills, Subsection 5	42.14	21.19	42.14	41.71
+019941	00.22	8.784302E-7	Inversion Src #19941; 14 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 6 AND Great Valley 06 (Midland) 2011 CFM alt1, Subsection 0	35.05	-34.24	35.71	34.96
+021222	00.22	8.712725E-7	Inversion Src #21222; 19 SECTIONS BETWEEN Great Valley 06 (Midland) 2011 CFM alt1, Subsection 7 AND Great Valley 04b Gordon Valley, Subsection 2	35.05	-34.24	35.71	34.96
+044453	00.22	8.697911E-7	Inversion Src #44453; 33 SECTIONS BETWEEN Bartlett Springs 2011 CFM, Subsection 9 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 12	38.44	20.99	38.44	37.97
+042643	00.21	8.540704E-7	Inversion Src #42643; 18 SECTIONS BETWEEN Great Valley 06 (Midland) 2011 CFM alt1, Subsection 0 AND Mount Diablo Thrust South, Subsection 1	35.05	-34.24	35.71	34.96
+029430	00.21	8.522378E-7	Inversion Src #29430; 5 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 4	27.26	31.44	27.26	26.59
+081151	00.21	8.368517E-7	Inversion Src #81151; 29 SECTIONS BETWEEN Great Valley 06 (Midland) 2011 CFM alt1, Subsection 0 AND Clayton, Subsection 1	35.05	-34.24	35.71	34.96
+085147	00.21	8.2318076E-7	Inversion Src #85147; 5 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 4	27.26	31.44	27.26	26.59
+019552	00.20	8.2159346E-7	Inversion Src #19552; 11 SECTIONS BETWEEN Great Valley 03 Mysterious Ridge, Subsection 0 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 7	48.31	-45.66	48.31	47.37
+080612	00.20	8.1920683E-7	Inversion Src #80612; 6 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 1 AND Great Valley 03a Dunnigan Hills, Subsection 6	29.33	31.53	29.33	28.71
+051390	00.20	8.169449E-7	Inversion Src #51390; 16 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 0 AND Great Valley 06 (Midland) 2011 CFM alt1, Subsection 7	35.05	-34.24	35.71	34.96
+056166	00.20	8.160859E-7	Inversion Src #56166; 18 SECTIONS BETWEEN Great Valley 06 (Midland) 2011 CFM alt1, Subsection 7 AND Great Valley 04b Gordon Valley, Subsection 2	35.05	-34.24	35.71	34.96
+046978	00.20	8.108307E-7	Inversion Src #46978; 42 SECTIONS BETWEEN Bartlett Springs 2011 CFM, Subsection 14 AND Great Valley 04b Gordon Valley, Subsection 1	46.36	-45.37	46.36	45.38
+028347	00.20	8.086715E-7	Inversion Src #28347; 9 SECTIONS BETWEEN Great Valley 06 (Midland) 2011 CFM alt1, Subsection 0 AND West Napa 2011 CFM, Subsection 0	35.05	-34.24	35.71	34.96
+085493	00.20	8.0771065E-7	Inversion Src #85493; 21 SECTIONS BETWEEN Great Valley 06 (Midland) 2011 CFM alt1, Subsection 0 AND Greenville (No) 2011 CFM, Subsection 5	35.05	-34.24	35.71	34.96
+008036	00.20	8.072483E-7	Inversion Src #8036; 16 SECTIONS BETWEEN Great Valley 06 (Midland) 2011 CFM alt1, Subsection 0 AND Mount Diablo Thrust South, Subsection 0	35.05	-34.24	35.71	34.96
+060754	00.20	8.063506E-7	Inversion Src #60754; 18 SECTIONS BETWEEN Great Valley 06 (Midland) 2011 CFM alt1, Subsection 0 AND Clayton, Subsection 2	35.05	-34.24	35.71	34.96
+039930	00.20	8.044037E-7	Inversion Src #39930; 54 SECTIONS BETWEEN Bartlett Springs 2011 CFM, Subsection 2 AND Great Valley 04a Trout Creek, Subsection 0	46.36	-45.37	46.36	45.38
+072521	00.20	8.0373627E-7	Inversion Src #72521; 14 SECTIONS BETWEEN Great Valley 06 (Midland) 2011 CFM alt1, Subsection 0 AND Concord 2011 CFM, Subsection 1	35.05	-34.24	35.71	34.96
+003730	00.20	8.0339856E-7	Inversion Src #3730; 24 SECTIONS BETWEEN Great Valley 06 (Midland) 2011 CFM alt1, Subsection 7 AND Great Valley 04b Gordon Valley, Subsection 3	35.05	-34.24	35.71	34.96
+034017	00.20	7.991133E-7	Inversion Src #34017; 25 SECTIONS BETWEEN Great Valley 06 (Midland) 2011 CFM alt1, Subsection 7 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 0	35.05	-34.24	35.71	34.96
+067426	00.20	7.829456E-7	Inversion Src #67426; 4 SECTIONS BETWEEN Great Valley 06 (Midland) 2011 CFM alt1, Subsection 0 AND Great Valley 04b Gordon Valley, Subsection 1	35.05	-34.24	35.71	34.96
+011437	00.19	7.812914E-7	Inversion Src #11437; 4 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 3	27.26	31.44	27.26	26.59
+082408	00.19	7.795295E-7	Inversion Src #82408; 27 SECTIONS BETWEEN Great Valley 03 Mysterious Ridge, Subsection 0 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 0	46.36	-45.37	46.36	45.38
+025793	00.19	7.720233E-7	Inversion Src #25793; 19 SECTIONS BETWEEN Great Valley 06 (Midland) 2011 CFM alt1, Subsection 7 AND Contra Costa (Lafayette) 2011 CFM, Subsection 1	35.05	-34.24	35.71	34.96
+061428	00.19	7.662358E-7	Inversion Src #61428; 10 SECTIONS BETWEEN Maacama 2011 CFM, Subsection 6 AND Great Valley 03 Mysterious Ridge, Subsection 0	50.70	-43.56	50.70	49.80
+079173	00.19	7.529057E-7	Inversion Src #79173; 15 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 2 AND Great Valley 03 Mysterious Ridge, Subsection 0	50.70	-43.56	50.70	49.80
+057203	00.19	7.506254E-7	Inversion Src #57203; 4 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 3	27.26	31.44	27.26	26.59
+074092	00.19	7.476804E-7	Inversion Src #74092; 9 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 8 AND Great Valley 03 Mysterious Ridge, Subsection 0	50.70	-43.56	50.70	49.80
+001668	00.19	7.4517294E-7	Inversion Src #1668; 9 SECTIONS BETWEEN Maacama 2011 CFM, Subsection 2 AND Great Valley 03 Mysterious Ridge, Subsection 0	50.70	-43.56	50.70	49.80
+009482	00.19	7.4440266E-7	Inversion Src #9482; 10 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 7 AND Great Valley 03 Mysterious Ridge, Subsection 0	50.70	-43.56	50.70	49.80
+052930	00.18	7.4102667E-7	Inversion Src #52930; 14 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 3 AND Great Valley 03 Mysterious Ridge, Subsection 0	50.70	-43.56	50.70	49.80
+081539	00.18	7.3613376E-7	Inversion Src #81539; 3 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 2	27.26	31.44	27.26	26.59
+067636	00.18	7.32751E-7	Inversion Src #67636; 8 SECTIONS BETWEEN Great Valley 03 Mysterious Ridge, Subsection 0 AND Great Valley 03 Mysterious Ridge, Subsection 7	50.70	-43.56	50.70	49.80
+022709	00.18	7.3044566E-7	Inversion Src #22709; 14 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 3 AND Great Valley 03 Mysterious Ridge, Subsection 0	50.70	-43.56	50.70	49.80
+003200	00.18	7.280854E-7	Inversion Src #3200; 10 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 7 AND Great Valley 03 Mysterious Ridge, Subsection 0	50.70	-43.56	50.70	49.80
+016158	00.18	7.2505924E-7	Inversion Src #16158; 41 SECTIONS BETWEEN Bartlett Springs 2011 CFM, Subsection 9 AND Green Valley 2011 CFM, Subsection 3	48.31	-45.66	48.31	47.37
+037703	00.18	7.1861456E-7	Inversion Src #37703; 9 SECTIONS BETWEEN Great Valley 04a Trout Creek, Subsection 0 AND Hunting Creek - Berryessa 2011 CFM, Subsection 1	46.36	-45.37	46.36	45.38
+025016	00.18	7.1654574E-7	Inversion Src #25016; 6 SECTIONS BETWEEN Great Valley 04a Trout Creek, Subsection 1 AND Great Valley 04b Gordon Valley, Subsection 3	46.36	-45.37	46.36	45.38
+036399	00.18	7.159235E-7	Inversion Src #36399; 3 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 2	27.26	31.44	27.26	26.59
+065937	00.18	7.140138E-7	Inversion Src #65937; 16 SECTIONS BETWEEN Great Valley 02, Subsection 2 AND Collayami 2011 CFM, Subsection 5	50.70	-43.56	50.70	49.80
+080294	00.18	7.1245574E-7	Inversion Src #80294; 2 SECTIONS BETWEEN Great Valley 03a Dunnigan Hills, Subsection 0 AND Great Valley 03a Dunnigan Hills, Subsection 1	27.26	31.44	27.26	26.59
+017734	00.18	7.0826513E-7	Inversion Src #17734; 9 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 8 AND Great Valley 03 Mysterious Ridge, Subsection 0	50.70	-43.56	50.70	49.80
+000760	00.18	7.079661E-7	Inversion Src #760; 11 SECTIONS BETWEEN Great Valley 04a Trout Creek, Subsection 0 AND Green Valley 2011 CFM, Subsection 2	46.36	-45.37	46.36	45.38
+021614	00.17	6.9772454E-7	Inversion Src #21614; 20 SECTIONS BETWEEN Great Valley 03 Mysterious Ridge, Subsection 6 AND West Napa 2011 CFM, Subsection 0	46.36	-45.37	46.36	45.38
+056392	00.17	6.8784084E-7	Inversion Src #56392; 25 SECTIONS BETWEEN Great Valley 04a Trout Creek, Subsection 1 AND Bartlett Springs 2011 CFM, Subsection 3	48.31	-45.66	48.31	47.37
+007990	00.17	6.858182E-7	Inversion Src #7990; 12 SECTIONS BETWEEN Great Valley 03 Mysterious Ridge, Subsection 7 AND Collayami 2011 CFM, Subsection 3	50.70	-43.56	50.70	49.80
+061062	00.17	6.8318616E-7	Inversion Src #61062; 15 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 6 AND Green Valley 2011 CFM, Subsection 0	46.36	-45.37	46.36	45.38

@@ -1,0 +1,231 @@
+Mean/Mode Metadata :
+
+
+  Mbar = 7.3824196
+  Dbar = 15.4752245
+  Ebar = 2.034503
+
+  7.4 ≤ Mmode < 7.6
+  10.0 ≤ Dmode < 20.0
+1.0 < Emode <= 2.0
+
+Disaggregation Plot Parameters Info :
+Custom disagg
+
+Disaggregation Bin Data :
+Dist	Mag	E≤-2	-2<E≤-1	-1<E≤-0.5	 -0.5>E≤0	 0<E≤0.5	 0.5<E≤1	 1<E≤2	 2>E 
+-----	----	------	------	-------	-------	-------	-------	-------	------
+005.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.29 	 00.29
+005.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.00 	 01.00
+005.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.97 	 02.57 	 03.54
+005.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 06.04 	 00.05 	 06.09
+005.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 11.90 	 00.00 	 11.90
+005.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 13.43 	 00.00 	 13.43
+005.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.31 	 00.00 	 03.31
+005.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.46 	 00.00 	 00.00 	 00.46
+005.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.13 	 00.13
+015.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.49 	 00.49
+015.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.17 	 01.17
+015.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.89 	 01.89
+015.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.12 	 05.97 	 06.09
+015.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 13.94 	 05.27 	 19.21
+015.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.33 	 00.00 	 01.33
+015.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.28 	 00.00 	 02.28
+015.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+025.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.08 	 00.08
+025.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.02 	 01.02
+025.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.89 	 02.89
+025.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 10.85 	 10.85
+025.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 04.37 	 04.37
+025.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.44 	 00.51
+025.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.16 	 01.17 	 02.33
+025.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+035.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.06 	 00.06
+035.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.18 	 00.18
+035.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.31 	 00.31
+035.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.25 	 00.25
+035.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.07
+035.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.23 	 00.23
+035.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+045.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.12 	 00.12
+045.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.25 	 00.25
+045.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.09 	 00.09
+045.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.15 	 00.15
+045.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.67 	 00.67
+045.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+055.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.30 	 00.30
+055.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.08 	 00.08
+055.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.18 	 00.18
+055.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.09 	 01.09
+055.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+065.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+065.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+065.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+065.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.12 	 00.12
+065.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+075.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+075.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+075.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.06 	 00.06
+075.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+085.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+085.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+085.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+085.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+095.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+095.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+095.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+105.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+105.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+
+
+Disaggregation Source List Info:
+Source#	% Contribution	TotExceedRate	SourceName	DistRup	DistX	DistSeis	DistJB
+078275	00.46	4.6443137E-7	Inversion Src #78275; 50 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 4 AND Clayton, Subsection 2	06.08	-05.98	08.30	05.98
+004779	00.31	3.1509785E-7	Inversion Src #4779; 48 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 4 AND Silver Creek 2011 CFM, Subsection 0	06.08	-05.98	08.30	05.98
+053313	00.30	3.0417047E-7	Inversion Src #53313; 44 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 0 AND Rinconada 2011 CFM, Subsection 14	06.08	-05.98	07.60	05.98
+058174	00.29	2.9154504E-7	Inversion Src #58174; 39 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 18 AND Hosgri, Subsection 26	06.08	-05.98	08.30	05.98
+039733	00.29	2.9038299E-7	Inversion Src #39733; 37 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 17 AND San Gregorio (South) 2011 CFM, Subsection 7	06.08	-05.98	07.60	05.98
+000663	00.28	2.8564907E-7	Inversion Src #663; 38 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 20 AND Monterey Bay-Tularcitos, Subsection 7	06.08	-05.98	08.30	05.98
+056533	00.28	2.7841386E-7	Inversion Src #56533; 28 SECTIONS BETWEEN San Gregorio (South) 2011 CFM, Subsection 0 AND Reliz 2011 CFM, Subsection 2	06.08	-05.98	08.30	05.98
+018969	00.27	2.733143E-7	Inversion Src #18969; 38 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 1 AND San Gregorio (South) 2011 CFM, Subsection 0	07.37	-06.21	09.42	07.29
+072175	00.27	2.6954606E-7	Inversion Src #72175; 29 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 1 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+031467	00.27	2.667826E-7	Inversion Src #31467; 25 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 18 AND San Andreas (Peninsula) 2011 CFM, Subsection 5	08.44	14.68	08.44	00.00
+003408	00.26	2.6546743E-7	Inversion Src #3408; 40 SECTIONS BETWEEN Great Valley 10 (Panoche), Subsection 2 AND Monterey Bay-Tularcitos, Subsection 11	08.67	07.20	09.07	08.56
+013388	00.26	2.641905E-7	Inversion Src #13388; 39 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 11 AND San Gregorio (South) 2011 CFM, Subsection 0	07.12	06.97	07.60	06.98
+066751	00.26	2.6195335E-7	Inversion Src #66751; 29 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 1 AND Reliz 2011 CFM, Subsection 6	06.08	-05.98	08.30	05.98
+062020	00.26	2.6010014E-7	Inversion Src #62020; 22 SECTIONS BETWEEN Calaveras (So) 2011 CFM, Subsection 0 AND Calaveras (Central) 2011 CFM, Subsection 0	08.44	14.68	08.44	00.00
+004119	00.26	2.5944897E-7	Inversion Src #4119; 36 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 16 AND San Andreas (Peninsula) 2011 CFM, Subsection 5	07.12	06.97	07.60	06.98
+021134	00.26	2.5914142E-7	Inversion Src #21134; 24 SECTIONS BETWEEN San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 6 AND San Gregorio (North) 2011 CFM, Subsection 14	08.44	14.68	08.44	00.00
+051601	00.25	2.5436057E-7	Inversion Src #51601; 26 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 19 AND Monterey Bay-Tularcitos, Subsection 12	06.08	-05.98	07.60	05.98
+008745	00.25	2.534486E-7	Inversion Src #8745; 31 SECTIONS BETWEEN Pilarcitos 2011 CFM, Subsection 5 AND Reliz 2011 CFM, Subsection 17	06.08	-05.98	08.30	05.98
+074438	00.25	2.5316646E-7	Inversion Src #74438; 45 SECTIONS BETWEEN San Gregorio (South) 2011 CFM, Subsection 0 AND Pilarcitos 2011 CFM, Subsection 3	07.37	-06.21	09.42	07.29
+057877	00.25	2.528354E-7	Inversion Src #57877; 23 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 1 AND Zayante-Vergeles 2011 CFM, Subsection 4	08.44	14.68	08.44	00.00
+082067	00.25	2.5143586E-7	Inversion Src #82067; 20 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 7 AND Zayante-Vergeles 2011 CFM, Subsection 6	08.44	14.68	08.44	00.00
+052088	00.25	2.506683E-7	Inversion Src #52088; 22 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 17 AND San Gregorio (South) 2011 CFM, Subsection 0	06.08	-05.98	08.30	05.98
+054716	00.25	2.5024113E-7	Inversion Src #54716; 28 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 1 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+082618	00.24	2.4212483E-7	Inversion Src #82618; 18 SECTIONS BETWEEN San Gregorio (South) 2011 CFM, Subsection 0 AND Reliz 2011 CFM, Subsection 2	06.08	-05.98	08.30	05.98
+017087	00.24	2.4197664E-7	Inversion Src #17087; 20 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 6 AND Zayante-Vergeles 2011 CFM, Subsection 4	08.44	14.68	08.44	00.00
+022056	00.24	2.4086188E-7	Inversion Src #22056; 39 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 3 AND San Gregorio (South) 2011 CFM, Subsection 5	07.37	-06.21	09.42	07.29
+021672	00.24	2.4072827E-7	Inversion Src #21672; 20 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 21 AND San Gregorio (South) 2011 CFM, Subsection 0	06.08	-05.98	08.30	05.98
+081190	00.24	2.402981E-7	Inversion Src #81190; 31 SECTIONS BETWEEN Monte Vista - Shannon 2011 CFM, Subsection 7 AND Monterey Bay-Tularcitos, Subsection 4	07.12	06.97	07.60	06.98
+059944	00.24	2.3789265E-7	Inversion Src #59944; 19 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 19 AND Monterey Bay-Tularcitos, Subsection 7	06.08	-05.98	08.30	05.98
+049922	00.24	2.376758E-7	Inversion Src #49922; 24 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 18 AND Monterey Bay-Tularcitos, Subsection 4	06.08	-05.98	07.60	05.98
+063509	00.23	2.3207356E-7	Inversion Src #63509; 20 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 21 AND Reliz 2011 CFM, Subsection 4	06.08	-05.98	08.30	05.98
+056971	00.23	2.3101444E-7	Inversion Src #56971; 27 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 12 AND San Gregorio (South) 2011 CFM, Subsection 0	07.37	-06.21	09.42	07.29
+063941	00.23	2.288602E-7	Inversion Src #63941; 25 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 18 AND Hosgri, Subsection 26	06.08	-05.98	08.30	05.98
+056283	00.23	2.2809876E-7	Inversion Src #56283; 15 SECTIONS BETWEEN San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 0 AND San Andreas (Creeping Section) 2011 CFM, Subsection 20	08.44	14.68	08.44	00.00
+076922	00.23	2.2736302E-7	Inversion Src #76922; 19 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 20 AND San Gregorio (South) 2011 CFM, Subsection 0	06.08	-05.98	08.30	05.98
+019701	00.22	2.2479448E-7	Inversion Src #19701; 21 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 16 AND Reliz 2011 CFM, Subsection 14	06.08	-05.98	08.30	05.98
+057615	00.22	2.2048009E-7	Inversion Src #57615; 23 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 6 AND Reliz 2011 CFM, Subsection 6	06.08	-05.98	08.30	05.98
+041731	00.22	2.1996419E-7	Inversion Src #41731; 35 SECTIONS BETWEEN San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 7 AND Reliz 2011 CFM, Subsection 4	06.08	-05.98	08.30	05.98
+075629	00.22	2.1750233E-7	Inversion Src #75629; 25 SECTIONS BETWEEN San Gregorio (South) 2011 CFM, Subsection 5 AND Pilarcitos 2011 CFM, Subsection 4	06.08	-05.98	08.30	05.98
+071374	00.21	2.1520324E-7	Inversion Src #71374; 61 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 4 AND Great Valley 07 (Orestimba), Subsection 17	13.99	-13.99	14.31	13.99
+081518	00.21	2.1157368E-7	Inversion Src #81518; 67 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 3 AND Hayward (So) extension 2011 CFM, Subsection 0	13.99	-13.99	14.31	13.99
+083607	00.21	2.0774453E-7	Inversion Src #83607; 21 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 12 AND Monterey Bay-Tularcitos, Subsection 12	06.08	-05.98	07.60	05.98
+024095	00.21	2.0694705E-7	Inversion Src #24095; 86 SECTIONS BETWEEN San Gregorio (South) 2011 CFM, Subsection 10 AND San Andreas (Offshore) 2011 CFM, Subsection 20	13.99	-13.65	14.31	12.04
+077921	00.21	2.060985E-7	Inversion Src #77921; 31 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 22 AND Hayward (No) 2011 CFM, Subsection 8	07.37	-06.21	09.42	07.29
+035043	00.20	2.0521365E-7	Inversion Src #35043; 30 SECTIONS BETWEEN San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 0 AND San Gregorio (South) 2011 CFM, Subsection 0	07.12	06.97	07.60	06.98
+073650	00.20	2.0508267E-7	Inversion Src #73650; 17 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 20 AND Reliz 2011 CFM, Subsection 15	06.08	-05.98	08.30	05.98
+076729	00.20	2.025675E-7	Inversion Src #76729; 18 SECTIONS BETWEEN San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 0 AND San Andreas (Creeping Section) 2011 CFM, Subsection 19	08.44	14.68	08.44	00.00
+034071	00.20	2.0020231E-7	Inversion Src #34071; 95 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 21 AND San Andreas (Offshore) 2011 CFM, Subsection 21	13.99	-13.99	14.31	13.99
+015619	00.20	1.9896412E-7	Inversion Src #15619; 18 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 1 AND Monterey Bay-Tularcitos, Subsection 5	06.08	-05.98	07.60	05.98
+060176	00.20	1.9842983E-7	Inversion Src #60176; 20 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 4 AND Zayante-Vergeles 2011 CFM, Subsection 2	08.69	15.17	08.69	01.40
+011741	00.19	1.9585553E-7	Inversion Src #11741; 19 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 4 AND Monterey Bay-Tularcitos, Subsection 1	07.12	06.97	07.60	06.98
+059397	00.19	1.9470623E-7	Inversion Src #59397; 18 SECTIONS BETWEEN San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 0 AND San Andreas (Creeping Section) 2011 CFM, Subsection 15	08.44	14.68	08.44	00.00
+017457	00.19	1.9434913E-7	Inversion Src #17457; 19 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 4 AND Monterey Bay-Tularcitos, Subsection 0	07.12	06.97	07.60	06.98
+034940	00.19	1.9431059E-7	Inversion Src #34940; 7 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 18 AND Zayante-Vergeles 2011 CFM, Subsection 6	08.44	14.68	08.44	00.00
+027176	00.19	1.9371146E-7	Inversion Src #27176; 6 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 1 AND Zayante-Vergeles 2011 CFM, Subsection 6	08.44	14.68	08.44	00.00
+016314	00.19	1.9330075E-7	Inversion Src #16314; 78 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 21 AND San Andreas (Offshore) 2011 CFM, Subsection 20	13.99	-13.99	14.31	13.99
+037600	00.19	1.926541E-7	Inversion Src #37600; 91 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 22 AND Bartlett Springs 2011 CFM, Subsection 12	13.99	-13.65	14.31	13.99
+012894	00.19	1.9253248E-7	Inversion Src #12894; 6 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 1 AND Zayante-Vergeles 2011 CFM, Subsection 6	08.44	14.68	08.44	00.00
+021221	00.19	1.9251513E-7	Inversion Src #21221; 21 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 13 AND Monterey Bay-Tularcitos, Subsection 11	07.35	-05.90	09.07	07.27
+025588	00.19	1.9166701E-7	Inversion Src #25588; 22 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 1 AND Monterey Bay-Tularcitos, Subsection 1	06.08	-05.98	08.30	05.98
+048444	00.19	1.9079177E-7	Inversion Src #48444; 24 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 1 AND San Gregorio (South) 2011 CFM, Subsection 14	07.37	-06.21	09.42	07.29
+084005	00.19	1.9069155E-7	Inversion Src #84005; 28 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 3 AND Concord 2011 CFM, Subsection 2	07.35	-05.90	09.35	07.27
+077204	00.19	1.9020179E-7	Inversion Src #77204; 19 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 16 AND Monterey Bay-Tularcitos, Subsection 6	06.08	-05.98	07.60	05.98
+034207	00.19	1.879648E-7	Inversion Src #34207; 23 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 1 AND Reliz 2011 CFM, Subsection 1	07.37	-06.21	09.42	07.29
+071994	00.19	1.870624E-7	Inversion Src #71994; 17 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 1 AND Reliz 2011 CFM, Subsection 17	06.08	-05.98	08.30	05.98
+033421	00.18	1.858479E-7	Inversion Src #33421; 76 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 21 AND San Andreas (Offshore) 2011 CFM, Subsection 19	13.99	-13.99	14.31	13.99
+009865	00.18	1.8457494E-7	Inversion Src #9865; 15 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 7 AND Monterey Bay-Tularcitos, Subsection 0	07.12	06.97	07.60	06.98
+033250	00.18	1.830663E-7	Inversion Src #33250; 16 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 5 AND Monterey Bay-Tularcitos, Subsection 0	07.12	06.97	07.60	06.98
+066972	00.18	1.8287778E-7	Inversion Src #66972; 17 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 10 AND Monterey Bay-Tularcitos, Subsection 12	07.12	06.97	07.60	06.98
+016430	00.18	1.8223157E-7	Inversion Src #16430; 18 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 4 AND Monterey Bay-Tularcitos, Subsection 0	07.12	06.97	07.60	06.98
+068834	00.18	1.8160672E-7	Inversion Src #68834; 21 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 15 AND Monterey Bay-Tularcitos, Subsection 12	07.12	06.97	07.60	06.98
+049000	00.18	1.809176E-7	Inversion Src #49000; 6 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 1 AND Zayante-Vergeles 2011 CFM, Subsection 6	08.44	14.68	08.44	00.00
+085114	00.18	1.7869166E-7	Inversion Src #85114; 21 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 17 AND Monterey Bay-Tularcitos, Subsection 12	07.12	06.97	07.60	06.98
+072544	00.18	1.7859053E-7	Inversion Src #72544; 23 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 1 AND Reliz 2011 CFM, Subsection 1	07.37	-06.21	09.42	07.29
+082998	00.18	1.7806116E-7	Inversion Src #82998; 16 SECTIONS BETWEEN San Gregorio (South) 2011 CFM, Subsection 0 AND Reliz 2011 CFM, Subsection 2	06.08	-05.98	08.30	05.98
+023395	00.18	1.7783645E-7	Inversion Src #23395; 6 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 1 AND Zayante-Vergeles 2011 CFM, Subsection 6	08.44	14.68	08.44	00.00
+078874	00.18	1.768234E-7	Inversion Src #78874; 17 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 1 AND Monterey Bay-Tularcitos, Subsection 4	06.08	-05.98	07.60	05.98
+011818	00.17	1.7460495E-7	Inversion Src #11818; 22 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 1 AND Reliz 2011 CFM, Subsection 1	07.37	-06.21	09.42	07.29
+051489	00.17	1.7389905E-7	Inversion Src #51489; 7 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 1 AND Zayante-Vergeles 2011 CFM, Subsection 6	07.37	-06.21	08.44	00.00
+066119	00.17	1.7363719E-7	Inversion Src #66119; 15 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 1 AND San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 4	06.08	-05.98	07.60	05.98
+084265	00.17	1.7316238E-7	Inversion Src #84265; 15 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 4 AND Monterey Bay-Tularcitos, Subsection 0	07.12	06.97	07.60	06.98
+075053	00.17	1.7309303E-7	Inversion Src #75053; 13 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 0 AND Monterey Bay-Tularcitos, Subsection 12	07.12	06.97	07.60	06.98
+040406	00.17	1.7245861E-7	Inversion Src #40406; 20 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 7 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+042010	00.17	1.7172859E-7	Inversion Src #42010; 6 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 1 AND Zayante-Vergeles 2011 CFM, Subsection 6	08.44	14.68	08.44	00.00
+014288	00.17	1.7166099E-7	Inversion Src #14288; 16 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 6 AND Monterey Bay-Tularcitos, Subsection 0	07.12	06.97	07.60	06.98
+063886	00.17	1.7133097E-7	Inversion Src #63886; 19 SECTIONS BETWEEN San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 7 AND Calaveras (No) 2011 CFM, Subsection 6	08.44	14.68	08.44	00.00
+039502	00.17	1.7040571E-7	Inversion Src #39502; 16 SECTIONS BETWEEN San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 8 AND San Andreas (Peninsula) 2011 CFM, Subsection 4	08.44	14.68	08.44	00.00
+031887	00.17	1.7013902E-7	Inversion Src #31887; 24 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 2 AND San Gregorio (South) 2011 CFM, Subsection 14	07.37	-06.21	09.42	07.29
+054398	00.17	1.6855114E-7	Inversion Src #54398; 20 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 21 AND San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 7	07.35	-05.90	09.35	07.27
+001104	00.17	1.6670921E-7	Inversion Src #1104; 13 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 0 AND Monterey Bay-Tularcitos, Subsection 12	07.12	06.97	07.60	06.98
+018688	00.16	1.6449094E-7	Inversion Src #18688; 6 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 3 AND Zayante-Vergeles 2011 CFM, Subsection 6	07.35	-05.90	08.44	00.00
+079711	00.16	1.6437721E-7	Inversion Src #79711; 15 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 9 AND Monterey Bay-Tularcitos, Subsection 12	07.12	06.97	07.60	06.98
+061216	00.16	1.6361061E-7	Inversion Src #61216; 79 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 20 AND San Andreas (Offshore) 2011 CFM, Subsection 20	15.37	-14.71	15.66	15.37
+007576	00.16	1.6275247E-7	Inversion Src #7576; 12 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 1 AND Monterey Bay-Tularcitos, Subsection 12	07.12	06.97	07.60	06.98
+066582	00.16	1.6206543E-7	Inversion Src #66582; 16 SECTIONS BETWEEN San Gregorio (South) 2011 CFM, Subsection 0 AND Reliz 2011 CFM, Subsection 3	07.35	-05.90	09.35	07.27
+003790	00.16	1.6176169E-7	Inversion Src #3790; 6 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 1 AND Zayante-Vergeles 2011 CFM, Subsection 6	08.44	14.68	08.44	00.00
+083012	00.16	1.6052611E-7	Inversion Src #83012; 18 SECTIONS BETWEEN San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 0 AND Reliz 2011 CFM, Subsection 7	07.12	06.97	07.60	06.98
+010570	00.16	1.5925099E-7	Inversion Src #10570; 13 SECTIONS BETWEEN San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 0 AND San Andreas (Creeping Section) 2011 CFM, Subsection 16	08.44	14.68	08.44	00.00
+077890	00.16	1.5693729E-7	Inversion Src #77890; 11 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 19 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+007303	00.16	1.5658911E-7	Inversion Src #7303; 8 SECTIONS BETWEEN Sargent 2011 CFM, Subsection 4 AND Zayante-Vergeles 2011 CFM, Subsection 1	08.44	14.68	08.44	00.00

@@ -1,0 +1,231 @@
+Mean/Mode Metadata :
+
+
+  Mbar = 7.5385766
+  Dbar = 19.727587
+  Ebar = 1.842818
+
+  7.8 ≤ Mmode < 8.0
+  10.0 ≤ Dmode < 20.0
+1.0 < Emode <= 2.0
+
+Disaggregation Plot Parameters Info :
+Custom disagg
+
+Disaggregation Bin Data :
+Dist	Mag	E≤-2	-2<E≤-1	-1<E≤-0.5	 -0.5>E≤0	 0<E≤0.5	 0.5<E≤1	 1<E≤2	 2>E 
+-----	----	------	------	-------	-------	-------	-------	-------	------
+005.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.32 	 00.32
+005.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.82 	 01.82
+005.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.61 	 03.40 	 05.00
+005.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 08.35 	 00.38 	 08.73
+005.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 07.35 	 00.00 	 07.35
+005.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 05.90 	 00.00 	 05.90
+005.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.75 	 02.10 	 00.00 	 02.85
+005.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.84 	 00.33 	 00.00 	 04.17
+005.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.58 	 00.00 	 00.00 	 00.58
+005.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.17 	 00.17
+015.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.61 	 00.61
+015.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.72 	 00.72
+015.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.12 	 01.62 	 02.74
+015.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.32 	 00.56 	 02.87
+015.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.38 	 00.65 	 04.04
+015.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 08.08 	 00.00 	 08.08
+015.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.45 	 14.58 	 00.00 	 15.03
+015.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+025.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.06 	 00.06
+025.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.20 	 00.20
+025.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.67 	 00.67
+025.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.93 	 01.93
+025.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.47 	 01.47
+025.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.64 	 01.45 	 02.09
+025.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.35 	 00.39 	 02.74
+025.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+035.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+035.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.14 	 00.14
+035.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.33 	 00.33
+035.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.12 	 00.12
+035.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.88 	 01.88
+035.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 04.75 	 04.75
+035.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+045.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.07
+045.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.09 	 00.09
+045.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.06 	 00.06
+045.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.51 	 00.51
+045.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.14 	 01.14
+045.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+055.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.09 	 00.09
+055.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+055.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.18 	 00.18
+055.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.51 	 00.51
+055.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+065.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.13 	 00.13
+065.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.12 	 00.12
+065.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.58 	 02.58
+065.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 06.09 	 06.09
+065.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+075.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.09 	 00.09
+075.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.09 	 00.09
+075.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+075.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+085.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.25 	 00.25
+085.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.14 	 00.14
+085.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+095.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+095.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+095.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+095.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+105.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+105.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+105.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+
+
+Disaggregation Source List Info:
+Source#	% Contribution	TotExceedRate	SourceName	DistRup	DistX	DistSeis	DistJB
+000080	00.58	5.8117615E-7	Inversion Src #80; 63 SECTIONS BETWEEN Santa Cruz Catalina Ridge alt1, Subsection 19 AND San Gabriel (Extension), Subsection 7	07.73	07.58	08.26	00.00
+041035	00.45	4.5718107E-7	Inversion Src #41035; 75 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 1 AND San Andreas (San Bernardino N), Subsection 2	11.21	30.07	11.21	00.00
+069565	00.45	4.4781888E-7	Inversion Src #69565; 76 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Andreas (San Bernardino N), Subsection 1	07.73	07.58	08.26	07.13
+010575	00.43	4.3623706E-7	Inversion Src #10575; 65 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Andreas (San Bernardino S), Subsection 1	07.25	-04.34	07.25	04.35
+054059	00.40	4.050908E-7	Inversion Src #54059; 77 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND Fontana (Seismicity), Subsection 2	09.13	-07.31	09.13	08.11
+005578	00.38	3.828883E-7	Inversion Src #5578; 39 SECTIONS BETWEEN Hollywood, Subsection 2 AND San Pedro Basin, Subsection 10	06.32	-04.74	06.32	00.00
+075370	00.38	3.8031038E-7	Inversion Src #75370; 65 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 2 AND San Andreas (Cholame) rev, Subsection 10	09.13	-07.31	09.13	08.11
+031282	00.37	3.7558246E-7	Inversion Src #31282; 64 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 1 AND San Andreas (San Bernardino N), Subsection 5	09.13	-07.31	09.13	08.11
+059823	00.37	3.752477E-7	Inversion Src #59823; 25 SECTIONS BETWEEN San Pedro Basin, Subsection 10 AND Newport-Inglewood alt 1, Subsection 1	07.73	07.58	08.26	00.00
+068410	00.37	3.7486288E-7	Inversion Src #68410; 62 SECTIONS BETWEEN San Jacinto (San Bernardino), Subsection 2 AND San Andreas (Cholame) rev, Subsection 10	09.13	-07.31	09.13	08.11
+054485	00.37	3.739275E-7	Inversion Src #54485; 60 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Andreas (San Bernardino N), Subsection 2	09.04	-04.51	09.04	08.47
+024036	00.36	3.6315038E-7	Inversion Src #24036; 58 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Andreas (San Bernardino N), Subsection 2	09.13	-07.31	09.13	08.11
+011630	00.36	3.6120863E-7	Inversion Src #11630; 54 SECTIONS BETWEEN San Jacinto (San Bernardino), Subsection 2 AND San Andreas (Big Bend), Subsection 5	09.13	-07.31	09.13	08.11
+003167	00.35	3.4921362E-7	Inversion Src #3167; 55 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Andreas (San Bernardino S), Subsection 0	09.04	-04.51	09.04	08.47
+027659	00.33	3.3624346E-7	Inversion Src #27659; 22 SECTIONS BETWEEN Santa Cruz Catalina Ridge alt1, Subsection 0 AND Newport-Inglewood alt 1, Subsection 4	07.73	07.58	08.26	00.00
+071262	00.33	3.3035647E-7	Inversion Src #71262; 22 SECTIONS BETWEEN San Pedro Escarpment, Subsection 1 AND Whittier alt 1, Subsection 5	07.73	07.58	08.26	00.00
+007795	00.33	3.281087E-7	Inversion Src #7795; 49 SECTIONS BETWEEN San Andreas (North Branch Mill Creek), Subsection 3 AND San Andreas (Carrizo) rev, Subsection 5	09.18	-08.04	09.18	08.16
+040668	00.30	3.0424061E-7	Inversion Src #40668; 44 SECTIONS BETWEEN San Jacinto (San Bernardino), Subsection 2 AND San Andreas (Carrizo) rev, Subsection 5	09.18	-08.04	09.18	08.16
+063003	00.30	3.0377444E-7	Inversion Src #63003; 42 SECTIONS BETWEEN San Jacinto (San Bernardino), Subsection 2 AND San Andreas (Carrizo) rev, Subsection 5	09.13	-07.31	09.13	08.11
+077138	00.30	3.0372382E-7	Inversion Src #77138; 20 SECTIONS BETWEEN San Pedro Escarpment, Subsection 1 AND Newport-Inglewood alt 1, Subsection 3	07.91	07.64	08.43	00.00
+020938	00.30	3.0293623E-7	Inversion Src #20938; 27 SECTIONS BETWEEN Santa Susana East (connector), Subsection 0 AND San Pedro Basin, Subsection 6	07.73	07.58	08.26	00.00
+029868	00.30	3.0067866E-7	Inversion Src #29868; 69 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 4 AND San Juan, Subsection 0	11.21	-11.07	12.26	11.07
+030185	00.30	2.9903669E-7	Inversion Src #30185; 60 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 1 AND San Andreas (San Bernardino N), Subsection 4	11.21	-11.07	12.26	11.07
+041078	00.29	2.9629737E-7	Inversion Src #41078; 38 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 5 AND San Andreas (Carrizo) rev, Subsection 5	09.13	-07.31	09.13	08.11
+014091	00.29	2.9233905E-7	Inversion Src #14091; 28 SECTIONS BETWEEN Malibu Coast alt 1, Subsection 0 AND Newport-Inglewood alt 1, Subsection 4	07.73	07.58	08.26	00.00
+048354	00.28	2.827014E-7	Inversion Src #48354; 26 SECTIONS BETWEEN San Pedro Basin, Subsection 11 AND Santa Monica alt 1, Subsection 0	11.21	30.07	11.21	00.00
+073649	00.28	2.8241848E-7	Inversion Src #73649; 57 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Andreas (San Bernardino N), Subsection 5	11.25	-11.01	12.30	11.11
+000735	00.28	2.8115772E-7	Inversion Src #735; 53 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND North Frontal  (West), Subsection 0	11.25	-11.01	12.30	11.11
+029104	00.28	2.7984447E-7	Inversion Src #29104; 60 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 2 AND San Andreas (San Bernardino S), Subsection 1	11.25	-11.01	12.30	11.11
+067900	00.28	2.7977495E-7	Inversion Src #67900; 59 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Jacinto (San Bernardino), Subsection 2	11.25	-11.01	12.30	11.11
+033428	00.28	2.7767308E-7	Inversion Src #33428; 17 SECTIONS BETWEEN Compton, Subsection 0 AND San Pedro Escarpment, Subsection 0	07.91	07.64	08.43	00.00
+084129	00.28	2.770917E-7	Inversion Src #84129; 54 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Andreas (San Bernardino N), Subsection 2	11.25	-11.01	12.30	11.11
+083065	00.27	2.7629594E-7	Inversion Src #83065; 56 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 1 AND San Andreas (San Bernardino N), Subsection 3	11.25	-11.01	12.30	11.11
+028613	00.27	2.759835E-7	Inversion Src #28613; 54 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Andreas (San Bernardino N), Subsection 2	11.25	-11.01	12.30	11.11
+052352	00.27	2.7417775E-7	Inversion Src #52352; 53 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 1 AND San Jacinto (Lytle Creek connector), Subsection 0	11.25	-11.01	12.30	11.11
+023605	00.27	2.7348133E-7	Inversion Src #23605; 53 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Andreas (San Bernardino N), Subsection 1	11.25	-11.01	12.30	11.11
+086305	00.27	2.7311134E-7	Inversion Src #86305; 79 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Jacinto (San Bernardino), Subsection 2	13.12	-11.63	13.75	13.03
+065124	00.27	2.7291713E-7	Inversion Src #65124; 37 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 1 AND San Andreas (Mojave N), Subsection 0	09.13	-07.31	09.13	08.11
+002440	00.27	2.6969073E-7	Inversion Src #2440; 54 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 0 AND San Andreas (Cholame) rev, Subsection 10	10.25	-09.68	11.70	10.03
+062817	00.27	2.6949436E-7	Inversion Src #62817; 54 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 4 AND San Andreas (Cholame) rev, Subsection 10	11.21	-11.07	12.26	11.07
+027085	00.27	2.676444E-7	Inversion Src #27085; 54 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Andreas (San Bernardino N), Subsection 1	11.25	-11.01	12.30	11.11
+078163	00.27	2.6704313E-7	Inversion Src #78163; 37 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 2 AND San Andreas (Carrizo) rev, Subsection 5	09.18	-08.04	09.18	08.16
+013090	00.26	2.6468115E-7	Inversion Src #13090; 43 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 5 AND San Andreas (Carrizo) rev, Subsection 5	10.25	-09.68	11.70	10.03
+039286	00.26	2.6218854E-7	Inversion Src #39286; 56 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 1 AND San Andreas (San Bernardino N), Subsection 0	11.21	-11.07	12.26	11.07
+032047	00.26	2.62145E-7	Inversion Src #32047; 71 SECTIONS BETWEEN San Andreas (San Bernardino S), Subsection 6 AND San Andreas (Parkfield), Subsection 0	13.12	-11.63	13.75	13.03
+045128	00.26	2.57131E-7	Inversion Src #45128; 23 SECTIONS BETWEEN San Pedro Basin, Subsection 10 AND Newport-Inglewood alt 1, Subsection 6	10.05	08.66	10.46	00.00
+012686	00.26	2.5681464E-7	Inversion Src #12686; 54 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 1 AND San Juan, Subsection 0	11.25	-11.01	12.30	11.11
+050450	00.25	2.5577353E-7	Inversion Src #50450; 63 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Andreas (San Bernardino N), Subsection 2	13.03	-04.45	13.03	12.33
+053410	00.25	2.5207126E-7	Inversion Src #53410; 56 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 3 AND San Andreas (San Bernardino N), Subsection 4	12.07	-11.59	13.07	11.95
+026099	00.25	2.4861737E-7	Inversion Src #26099; 13 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 2 AND Palos Verdes, Subsection 13	07.73	07.58	08.26	00.00
+074786	00.24	2.4609164E-7	Inversion Src #74786; 49 SECTIONS BETWEEN San Andreas (San Bernardino S), Subsection 0 AND Morales (East), Subsection 1	11.21	-11.07	12.26	11.07
+011146	00.24	2.455206E-7	Inversion Src #11146; 67 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Andreas (San Bernardino N), Subsection 0	13.12	-11.63	13.75	13.03
+032295	00.24	2.4211823E-7	Inversion Src #32295; 60 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 2 AND San Andreas (San Bernardino N), Subsection 0	12.07	-11.59	13.07	11.95
+039071	00.24	2.4209777E-7	Inversion Src #39071; 51 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Andreas (San Bernardino N), Subsection 2	11.25	-11.01	12.30	11.11
+023959	00.24	2.414664E-7	Inversion Src #23959; 67 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 1 AND San Jacinto (San Bernardino), Subsection 2	13.12	-11.63	13.75	13.03
+020594	00.24	2.411986E-7	Inversion Src #20594; 72 SECTIONS BETWEEN San Jacinto (Lytle Creek connector), Subsection 2 AND San Andreas (Creeping Section) 2011 CFM, Subsection 3	13.12	-11.63	13.75	13.03
+039630	00.24	2.4032556E-7	Inversion Src #39630; 52 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 1 AND San Andreas (San Bernardino N), Subsection 1	12.07	-11.59	13.07	11.95
+068679	00.24	2.4010387E-7	Inversion Src #68679; 15 SECTIONS BETWEEN Compton, Subsection 4 AND Newport-Inglewood alt 1, Subsection 8	07.73	07.58	08.26	00.00
+067379	00.24	2.3914149E-7	Inversion Src #67379; 18 SECTIONS BETWEEN Anaheim, Subsection 2 AND Redondo Canyon alt 1, Subsection 1	10.05	08.66	10.46	00.00
+060103	00.24	2.389636E-7	Inversion Src #60103; 57 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 1 AND San Andreas (San Bernardino N), Subsection 2	13.12	-11.63	13.75	13.03
+083750	00.24	2.3826892E-7	Inversion Src #83750; 17 SECTIONS BETWEEN San Pedro Escarpment, Subsection 1 AND Newport-Inglewood alt 1, Subsection 4	07.91	07.64	08.43	00.00
+001163	00.24	2.3748579E-7	Inversion Src #1163; 45 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 5 AND San Andreas (Carrizo) rev, Subsection 5	11.25	-11.01	12.30	11.11
+038997	00.24	2.372424E-7	Inversion Src #38997; 56 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 5 AND San Juan, Subsection 0	12.07	-11.59	13.07	11.95
+073177	00.23	2.3560607E-7	Inversion Src #73177; 15 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 2 AND Palos Verdes, Subsection 14	07.73	07.58	08.26	00.00
+043701	00.23	2.3454669E-7	Inversion Src #43701; 66 SECTIONS BETWEEN San Andreas (Carrizo) rev, Subsection 6 AND San Pedro Basin, Subsection 0	13.12	-11.63	13.75	13.03
+050724	00.23	2.3372021E-7	Inversion Src #50724; 62 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 1 AND San Andreas (San Bernardino S), Subsection 0	13.12	-11.63	13.75	13.03
+005104	00.23	2.3329723E-7	Inversion Src #5104; 54 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Andreas (San Bernardino N), Subsection 5	13.12	-11.63	13.75	13.03
+006774	00.23	2.3323558E-7	Inversion Src #6774; 44 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 0 AND San Andreas (Carrizo) rev, Subsection 5	11.25	-11.01	12.30	11.11
+036402	00.23	2.326177E-7	Inversion Src #36402; 40 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 5 AND Garlock (West), Subsection 13	11.25	-11.01	12.30	11.11
+017772	00.23	2.318292E-7	Inversion Src #17772; 60 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 1 AND San Jacinto (San Bernardino), Subsection 1	13.12	-11.63	13.75	13.03
+084572	00.23	2.2940665E-7	Inversion Src #84572; 51 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Andreas (San Bernardino N), Subsection 1	13.12	-11.63	13.75	13.03
+010755	00.23	2.292496E-7	Inversion Src #10755; 19 SECTIONS BETWEEN San Pedro Escarpment, Subsection 0 AND Whittier alt 1, Subsection 5	10.05	08.66	10.46	00.00
+081358	00.23	2.2784971E-7	Inversion Src #81358; 41 SECTIONS BETWEEN San Andreas (North Branch Mill Creek), Subsection 0 AND San Andreas (Carrizo) rev, Subsection 5	11.25	-11.01	12.30	11.11
+010098	00.23	2.26928E-7	Inversion Src #10098; 40 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 5 AND San Andreas (Carrizo) rev, Subsection 5	11.25	-11.01	12.30	11.11
+015221	00.22	2.2557793E-7	Inversion Src #15221; 52 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Andreas (San Bernardino N), Subsection 2	13.12	-11.63	13.75	13.03
+022967	00.22	2.2522393E-7	Inversion Src #22967; 20 SECTIONS BETWEEN Whittier alt 1, Subsection 2 AND Hollywood, Subsection 0	07.25	-04.34	07.25	04.35
+074279	00.22	2.25003E-7	Inversion Src #74279; 52 SECTIONS BETWEEN San Andreas (North Branch Mill Creek), Subsection 5 AND San Andreas (Carrizo) rev, Subsection 7	11.25	-11.01	12.30	11.11
+045222	00.22	2.2421112E-7	Inversion Src #45222; 55 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 1 AND San Andreas (San Bernardino N), Subsection 2	13.12	-11.63	13.75	13.03
+003579	00.22	2.2366555E-7	Inversion Src #3579; 51 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Andreas (San Bernardino N), Subsection 2	13.12	-11.63	13.75	13.03
+037594	00.22	2.2335405E-7	Inversion Src #37594; 58 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Andreas (San Bernardino N), Subsection 2	13.30	-10.94	14.03	13.18
+085115	00.22	2.2326775E-7	Inversion Src #85115; 14 SECTIONS BETWEEN Compton, Subsection 0 AND San Pedro Basin, Subsection 6	11.21	30.07	11.21	00.00
+022345	00.22	2.2291759E-7	Inversion Src #22345; 14 SECTIONS BETWEEN Compton, Subsection 0 AND San Pedro Escarpment, Subsection 0	11.21	30.07	11.21	00.00
+064440	00.22	2.229072E-7	Inversion Src #64440; 13 SECTIONS BETWEEN Puente Hills, Subsection 4 AND Whittier alt 1, Subsection 0	07.25	-04.34	07.25	04.35
+022647	00.22	2.2270403E-7	Inversion Src #22647; 53 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Andreas (San Bernardino N), Subsection 2	13.12	-11.63	13.75	13.03
+064833	00.22	2.2259326E-7	Inversion Src #64833; 15 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 0 AND San Pedro Escarpment, Subsection 0	07.73	07.58	08.26	00.00
+005637	00.22	2.2211711E-7	Inversion Src #5637; 60 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Andreas (San Bernardino S), Subsection 0	13.12	-11.63	13.75	13.03
+087137	00.22	2.2089507E-7	Inversion Src #87137; 65 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 2 AND San Andreas (Cholame) rev, Subsection 10	13.12	-11.63	13.75	13.03
+029388	00.22	2.2076739E-7	Inversion Src #29388; 57 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 3 AND San Jacinto (San Bernardino), Subsection 2	13.30	-10.94	14.03	13.18
+051113	00.22	2.204417E-7	Inversion Src #51113; 55 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND Fontana (Seismicity), Subsection 0	13.12	-11.63	13.75	13.03
+063392	00.22	2.1883196E-7	Inversion Src #63392; 22 SECTIONS BETWEEN Compton, Subsection 4 AND Newport-Inglewood alt 1, Subsection 2	12.95	20.39	12.95	00.00
+071763	00.22	2.1874999E-7	Inversion Src #71763; 39 SECTIONS BETWEEN San Andreas (San Bernardino S), Subsection 0 AND San Andreas (Carrizo) rev, Subsection 5	11.25	-11.01	12.30	11.11
+035722	00.21	2.1488098E-7	Inversion Src #35722; 54 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Jacinto (Lytle Creek connector), Subsection 2	13.30	-10.94	14.03	13.18
+045550	00.21	2.1412336E-7	Inversion Src #45550; 52 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 2 AND San Andreas (Cholame) rev, Subsection 10	13.12	-11.63	13.75	13.03
+009317	00.21	2.1020547E-7	Inversion Src #9317; 50 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 0 AND San Andreas (Cholame) rev, Subsection 10	13.12	-11.63	13.75	13.03
+071387	00.21	2.098957E-7	Inversion Src #71387; 57 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Andreas (San Bernardino N), Subsection 0	13.30	-10.94	14.03	13.18
+061447	00.21	2.0900897E-7	Inversion Src #61447; 36 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 2 AND San Andreas (Carrizo) rev, Subsection 6	11.25	-11.01	12.30	11.11
+010034	00.21	2.069606E-7	Inversion Src #10034; 45 SECTIONS BETWEEN San Andreas (San Bernardino S), Subsection 4 AND White Wolf (Extension), Subsection 0	13.03	-04.45	13.03	12.33
+035173	00.21	2.0654163E-7	Inversion Src #35173; 19 SECTIONS BETWEEN San Pedro Basin, Subsection 0 AND Newport-Inglewood alt 1, Subsection 2	11.21	30.07	11.21	00.00
+074720	00.20	2.0584376E-7	Inversion Src #74720; 13 SECTIONS BETWEEN San Pedro Escarpment, Subsection 1 AND Newport-Inglewood alt 1, Subsection 5	07.91	07.64	08.43	00.00
+026072	00.20	2.0526001E-7	Inversion Src #26072; 43 SECTIONS BETWEEN Fontana (Seismicity), Subsection 1 AND San Andreas (Carrizo) rev, Subsection 5	12.07	-11.59	13.07	11.95

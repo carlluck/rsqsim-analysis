@@ -1,0 +1,231 @@
+Mean/Mode Metadata :
+
+
+  Mbar = 7.610853
+  Dbar = 17.201275
+  Ebar = 1.1842699
+
+  7.4 ≤ Mmode < 7.6
+  0.0 ≤ Dmode < 10.0
+0.5 < Emode <= 1.0
+
+Disaggregation Plot Parameters Info :
+Custom disagg
+
+Disaggregation Bin Data :
+Dist	Mag	E≤-2	-2<E≤-1	-1<E≤-0.5	 -0.5>E≤0	 0<E≤0.5	 0.5<E≤1	 1<E≤2	 2>E 
+-----	----	------	------	-------	-------	-------	-------	-------	------
+005.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.57 	 00.05 	 00.62
+005.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.83 	 00.11 	 00.94
+005.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.13 	 00.26 	 02.39
+005.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.59 	 06.39 	 00.00 	 06.98
+005.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.86 	 12.29 	 00.00 	 14.15
+005.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 01.91 	 19.49 	 00.75 	 00.00 	 22.15
+005.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 08.66 	 12.33 	 00.01 	 00.00 	 20.99
+005.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 01.09 	 08.33 	 00.00 	 00.00 	 09.42
+005.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.00 	 00.00 	 00.00 	 00.01
+005.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+015.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.09 	 00.09
+015.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.12 	 00.12
+015.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.16 	 00.21
+015.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.12 	 00.12 	 00.24
+015.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.38 	 00.00 	 01.38
+015.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.46 	 00.00 	 00.46
+015.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.12 	 00.00 	 00.12
+015.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+025.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+025.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+025.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+025.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.19 	 00.22
+025.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.03 	 00.10
+025.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.00 	 00.02
+025.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+035.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+035.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.07
+035.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.07
+035.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.32 	 00.32
+035.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+035.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+035.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+045.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.17 	 00.17
+045.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+045.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+055.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.14 	 00.14
+055.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.10 	 00.10
+055.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.08 	 00.08
+055.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+065.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.17 	 00.17
+065.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.98 	 00.98
+065.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.24 	 03.24
+065.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 06.38 	 06.38
+065.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.34 	 02.97 	 06.30
+075.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+075.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+075.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.07
+075.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.14 	 00.14
+085.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.32 	 00.32
+085.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.25 	 00.25
+085.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+095.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+095.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+095.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+105.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+105.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+105.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+
+
+Disaggregation Source List Info:
+Source#	% Contribution	TotExceedRate	SourceName	DistRup	DistX	DistSeis	DistJB
+181577	05.18	2.0849166E-5	Inversion Src #183960; 12 SECTIONS BETWEEN Red Mountain, Subsection 0 AND Red Mountain, Subsection 11	08.27	09.02	08.27	00.47
+183292	01.98	7.955783E-6	Inversion Src #185679; 29 SECTIONS BETWEEN San Cayetano, Subsection 0 AND Santa Ynez (West), Subsection 0	06.44	06.49	06.63	03.59
+181595	01.87	7.534714E-6	Inversion Src #183978; 13 SECTIONS BETWEEN Red Mountain, Subsection 0 AND Red Mountain, Subsection 11	08.94	21.08	08.94	00.00
+181573	01.56	6.287058E-6	Inversion Src #183956; 8 SECTIONS BETWEEN Red Mountain, Subsection 0 AND Red Mountain, Subsection 7	08.27	09.02	08.27	00.47
+207176	01.55	6.2533213E-6	Inversion Src #210001; 23 SECTIONS BETWEEN Santa Ynez (East), Subsection 9 AND Red Mountain, Subsection 11	06.44	06.49	06.63	03.59
+207172	01.42	5.7243956E-6	Inversion Src #209997; 27 SECTIONS BETWEEN Santa Ynez (East), Subsection 9 AND Santa Ynez (West), Subsection 0	06.44	06.49	06.63	03.59
+183133	01.19	4.784391E-6	Inversion Src #185520; 28 SECTIONS BETWEEN San Cayetano, Subsection 1 AND Santa Ynez (West), Subsection 0	06.44	06.49	06.63	03.59
+181609	00.94	3.7848856E-6	Inversion Src #183992; 19 SECTIONS BETWEEN Red Mountain, Subsection 0 AND Santa Ynez (West), Subsection 0	08.94	21.08	08.94	00.00
+181576	00.88	3.5267838E-6	Inversion Src #183959; 11 SECTIONS BETWEEN Red Mountain, Subsection 0 AND Red Mountain, Subsection 10	08.27	09.02	08.27	00.47
+181540	00.87	3.4883483E-6	Inversion Src #183923; 11 SECTIONS BETWEEN Red Mountain, Subsection 1 AND Red Mountain, Subsection 11	08.27	09.02	08.27	00.47
+181585	00.86	3.4456823E-6	Inversion Src #183968; 15 SECTIONS BETWEEN Red Mountain, Subsection 0 AND Red Mountain, Subsection 11	03.32	-00.44	04.87	00.47
+181290	00.85	3.431732E-6	Inversion Src #183667; 7 SECTIONS BETWEEN Red Mountain, Subsection 6 AND Red Mountain, Subsection 0	08.27	09.02	08.27	00.47
+207185	00.83	3.3291901E-6	Inversion Src #210010; 18 SECTIONS BETWEEN Santa Ynez (East), Subsection 9 AND Red Mountain, Subsection 11	08.94	21.08	08.94	00.00
+181574	00.80	3.2025268E-6	Inversion Src #183957; 9 SECTIONS BETWEEN Red Mountain, Subsection 0 AND Red Mountain, Subsection 8	08.27	09.02	08.27	00.47
+183131	00.78	3.1370207E-6	Inversion Src #185518; 26 SECTIONS BETWEEN San Cayetano, Subsection 1 AND Santa Ynez (West), Subsection 2	06.44	06.49	06.63	03.59
+183291	00.76	3.0747246E-6	Inversion Src #185678; 28 SECTIONS BETWEEN San Cayetano, Subsection 0 AND Santa Ynez (West), Subsection 1	06.44	06.49	06.63	03.59
+209910	00.67	2.708395E-6	Inversion Src #212830; 7 SECTIONS BETWEEN Pitas Point (Lower West), Subsection 0 AND Red Mountain, Subsection 11	08.94	21.08	08.94	05.64
+215062	00.52	2.0757209E-6	Inversion Src #218095; 33 SECTIONS BETWEEN Northridge, Subsection 4 AND Red Mountain, Subsection 11	00.93	-00.42	03.61	00.53
+207198	00.51	2.0619148E-6	Inversion Src #210023; 24 SECTIONS BETWEEN Santa Ynez (East), Subsection 9 AND Santa Ynez (West), Subsection 0	08.94	21.08	08.94	00.00
+183288	00.51	2.0592006E-6	Inversion Src #185675; 25 SECTIONS BETWEEN San Cayetano, Subsection 0 AND Santa Ynez (West), Subsection 4	06.44	06.49	06.63	03.59
+181456	00.49	1.9892416E-6	Inversion Src #183836; 4 SECTIONS BETWEEN Red Mountain, Subsection 4 AND Red Mountain, Subsection 7	08.27	09.02	08.27	00.47
+182666	00.46	1.8418594E-6	Inversion Src #185053; 27 SECTIONS BETWEEN San Cayetano, Subsection 2 AND Santa Ynez (West), Subsection 0	06.44	06.49	06.63	03.59
+183290	00.46	1.8378081E-6	Inversion Src #185677; 27 SECTIONS BETWEEN San Cayetano, Subsection 0 AND Santa Ynez (West), Subsection 2	06.44	06.49	06.63	03.59
+181594	00.44	1.7694186E-6	Inversion Src #183977; 12 SECTIONS BETWEEN Red Mountain, Subsection 0 AND Red Mountain, Subsection 10	08.94	21.08	08.94	00.00
+208607	00.43	1.7345986E-6	Inversion Src #211498; 27 SECTIONS BETWEEN Santa Ynez (West), Subsection 0 AND Northridge, Subsection 2	08.94	21.08	08.94	00.00
+183130	00.43	1.7147338E-6	Inversion Src #185517; 25 SECTIONS BETWEEN San Cayetano, Subsection 1 AND Santa Ynez (West), Subsection 3	06.44	06.49	06.63	03.59
+181592	00.42	1.7027749E-6	Inversion Src #183975; 9 SECTIONS BETWEEN Red Mountain, Subsection 0 AND Pitas Point (Lower West), Subsection 2	08.94	21.08	08.94	00.00
+229976	00.40	1.6133447E-6	Inversion Src #234093; 9 SECTIONS BETWEEN Mission Ridge-Arroyo Parida-Santa Ana, Subsection 8 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 0	00.93	-00.42	03.61	00.53
+181559	00.40	1.590783E-6	Inversion Src #183942; 12 SECTIONS BETWEEN Red Mountain, Subsection 1 AND Red Mountain, Subsection 11	08.94	21.08	08.94	00.00
+183287	00.39	1.5776304E-6	Inversion Src #185674; 24 SECTIONS BETWEEN San Cayetano, Subsection 0 AND Santa Ynez (West), Subsection 5	06.44	06.49	06.63	03.59
+207171	00.36	1.4424369E-6	Inversion Src #209996; 26 SECTIONS BETWEEN Santa Ynez (East), Subsection 9 AND Santa Ynez (West), Subsection 1	06.44	06.49	06.63	03.59
+208269	00.35	1.416969E-6	Inversion Src #211150; 24 SECTIONS BETWEEN Santa Ynez (West), Subsection 5 AND Northridge, Subsection 4	08.94	21.08	08.94	00.00
+185519	00.35	1.4156747E-6	Inversion Src #187912; 16 SECTIONS BETWEEN Oak Ridge (Onshore), Subsection 2 AND Red Mountain, Subsection 11	08.94	21.08	08.94	00.00
+221143	00.35	1.4149039E-6	Inversion Src #224245; 31 SECTIONS BETWEEN Santa Susana alt 1, Subsection 0 AND Red Mountain, Subsection 11	00.93	-00.42	03.61	00.53
+183132	00.34	1.3767407E-6	Inversion Src #185519; 27 SECTIONS BETWEEN San Cayetano, Subsection 1 AND Santa Ynez (West), Subsection 1	06.44	06.49	06.63	03.59
+183289	00.34	1.3525225E-6	Inversion Src #185676; 26 SECTIONS BETWEEN San Cayetano, Subsection 0 AND Santa Ynez (West), Subsection 3	06.44	06.49	06.63	03.59
+207785	00.33	1.3142244E-6	Inversion Src #210630; 15 SECTIONS BETWEEN Santa Ynez (West), Subsection 14 AND Santa Ynez (West), Subsection 0	08.09	05.27	08.18	05.58
+183185	00.32	1.279407E-6	Inversion Src #185572; 18 SECTIONS BETWEEN San Cayetano, Subsection 1 AND Red Mountain, Subsection 11	08.94	21.08	08.94	00.00
+181580	00.31	1.2529663E-6	Inversion Src #183963; 10 SECTIONS BETWEEN Red Mountain, Subsection 0 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 0	03.32	-00.44	04.87	00.47
+230781	00.30	1.2268615E-6	Inversion Src #234978; 18 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 7 AND Northridge, Subsection 4	18.21	17.21	18.21	13.22
+207280	00.30	1.21108E-6	Inversion Src #210106; 26 SECTIONS BETWEEN Santa Ynez (East), Subsection 8 AND Santa Ynez (West), Subsection 0	06.44	06.49	06.63	03.59
+181452	00.30	1.2068849E-6	Inversion Src #183831; 7 SECTIONS BETWEEN Red Mountain, Subsection 5 AND Red Mountain, Subsection 11	09.44	09.78	09.44	04.77
+230813	00.28	1.1217275E-6	Inversion Src #235010; 15 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 7 AND Santa Susana East (connector), Subsection 1	18.21	17.21	18.21	13.22
+181536	00.27	1.1011191E-6	Inversion Src #183919; 7 SECTIONS BETWEEN Red Mountain, Subsection 1 AND Red Mountain, Subsection 7	08.27	09.02	08.27	00.47
+229950	00.27	1.0795073E-6	Inversion Src #234046; 5 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Pitas Point (Lower West), Subsection 2	08.94	21.08	08.94	00.00
+207169	00.26	1.0586296E-6	Inversion Src #209994; 24 SECTIONS BETWEEN Santa Ynez (East), Subsection 9 AND Santa Ynez (West), Subsection 3	06.44	06.49	06.63	03.59
+181479	00.26	1.0542797E-6	Inversion Src #183860; 4 SECTIONS BETWEEN Red Mountain, Subsection 3 AND Red Mountain, Subsection 0	09.05	09.26	09.05	03.64
+181519	00.25	1.025855E-6	Inversion Src #183901; 7 SECTIONS BETWEEN Red Mountain, Subsection 2 AND Pitas Point (Lower West), Subsection 2	08.94	21.08	08.94	00.00
+181447	00.25	1.0216588E-6	Inversion Src #183826; 6 SECTIONS BETWEEN Red Mountain, Subsection 5 AND Red Mountain, Subsection 0	08.27	09.02	08.27	00.47
+183286	00.25	9.936467E-7	Inversion Src #185673; 23 SECTIONS BETWEEN San Cayetano, Subsection 0 AND Santa Ynez (West), Subsection 6	06.44	06.49	06.63	03.59
+181506	00.24	9.835031E-7	Inversion Src #183888; 8 SECTIONS BETWEEN Red Mountain, Subsection 2 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 0	03.32	-00.44	04.87	00.47
+181460	00.22	8.8268376E-7	Inversion Src #183840; 8 SECTIONS BETWEEN Red Mountain, Subsection 4 AND Red Mountain, Subsection 11	08.27	09.02	08.27	00.47
+183129	00.21	8.6016314E-7	Inversion Src #185516; 24 SECTIONS BETWEEN San Cayetano, Subsection 1 AND Santa Ynez (West), Subsection 4	06.44	06.49	06.63	03.59
+183364	00.21	8.47197E-7	Inversion Src #185751; 25 SECTIONS BETWEEN San Cayetano, Subsection 0 AND Santa Ynez (West), Subsection 0	08.94	21.08	08.94	00.00
+207715	00.21	8.424926E-7	Inversion Src #210552; 17 SECTIONS BETWEEN Santa Ynez (West), Subsection 16 AND Santa Ynez (West), Subsection 0	06.44	06.49	06.63	03.59
+207743	00.20	8.087243E-7	Inversion Src #210584; 16 SECTIONS BETWEEN Santa Ynez (West), Subsection 15 AND Santa Ynez (West), Subsection 0	06.44	06.46	06.63	03.59
+181591	00.20	8.0447245E-7	Inversion Src #183974; 8 SECTIONS BETWEEN Red Mountain, Subsection 0 AND Pitas Point (Lower West), Subsection 1	08.94	21.08	08.94	00.00
+183284	00.20	7.922892E-7	Inversion Src #185671; 21 SECTIONS BETWEEN San Cayetano, Subsection 0 AND Santa Ynez (West), Subsection 8	06.44	06.49	06.63	03.59
+229926	00.20	7.863065E-7	Inversion Src #234022; 19 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 1 AND Northridge, Subsection 4	09.37	28.05	09.37	00.00
+181463	00.19	7.79337E-7	Inversion Src #183843; 6 SECTIONS BETWEEN Red Mountain, Subsection 4 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 0	03.32	-00.44	04.87	00.47
+229951	00.19	7.5675047E-7	Inversion Src #234047; 7 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Red Mountain, Subsection 9	08.94	21.08	08.94	00.00
+207157	00.19	7.493288E-7	Inversion Src #209982; 12 SECTIONS BETWEEN Santa Ynez (East), Subsection 9 AND Santa Ynez (West), Subsection 15	06.44	06.49	06.63	03.59
+207589	00.18	7.267754E-7	Inversion Src #210420; 21 SECTIONS BETWEEN Santa Ynez (East), Subsection 3 AND Santa Ynez (West), Subsection 0	06.44	06.49	06.63	03.59
+229953	00.18	7.0999164E-7	Inversion Src #234049; 9 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Red Mountain, Subsection 11	08.94	21.08	08.94	00.00
+181266	00.17	6.9653805E-7	Inversion Src #183640; 21 SECTIONS BETWEEN Santa Ynez River, Subsection 9 AND San Cayetano, Subsection 0	06.44	06.46	06.63	03.59
+207293	00.17	6.8853825E-7	Inversion Src #210119; 17 SECTIONS BETWEEN Santa Ynez (East), Subsection 8 AND Red Mountain, Subsection 11	08.94	21.08	08.94	00.00
+215061	00.17	6.8417114E-7	Inversion Src #218094; 32 SECTIONS BETWEEN Northridge, Subsection 4 AND Red Mountain, Subsection 10	00.93	-00.42	03.61	00.53
+207284	00.15	6.090215E-7	Inversion Src #210110; 22 SECTIONS BETWEEN Santa Ynez (East), Subsection 8 AND Red Mountain, Subsection 11	06.44	06.49	06.63	03.59
+207174	00.15	6.037183E-7	Inversion Src #209999; 21 SECTIONS BETWEEN Santa Ynez (East), Subsection 9 AND Red Mountain, Subsection 9	06.44	06.49	06.63	03.59
+230160	00.15	5.9794735E-7	Inversion Src #234326; 11 SECTIONS BETWEEN Mission Ridge-Arroyo Parida-Santa Ana, Subsection 10 AND Red Mountain, Subsection 11	08.94	21.08	08.94	00.00
+230785	00.15	5.926376E-7	Inversion Src #234982; 16 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 7 AND Santa Susana alt 1, Subsection 0	18.21	17.21	18.21	13.22
+208197	00.15	5.8523085E-7	Inversion Src #211074; 23 SECTIONS BETWEEN Santa Ynez (West), Subsection 6 AND Northridge, Subsection 4	08.94	21.08	08.94	00.00
+207173	00.14	5.8130024E-7	Inversion Src #209998; 19 SECTIONS BETWEEN Santa Ynez (East), Subsection 9 AND Pitas Point (Lower West), Subsection 2	06.44	06.49	06.63	03.59
+184633	00.14	5.7971266E-7	Inversion Src #187023; 32 SECTIONS BETWEEN Northridge, Subsection 3 AND Red Mountain, Subsection 11	00.93	-00.42	03.61	00.53
+207434	00.14	5.7467525E-7	Inversion Src #210262; 24 SECTIONS BETWEEN Santa Ynez (East), Subsection 6 AND Santa Ynez (West), Subsection 0	06.44	06.49	06.63	03.59
+181608	00.14	5.6862064E-7	Inversion Src #183991; 18 SECTIONS BETWEEN Red Mountain, Subsection 0 AND Santa Ynez (West), Subsection 1	08.94	21.08	08.94	00.00
+164850	00.13	5.3513793E-7	Inversion Src #166727; 179 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 20 AND San Jacinto (Clark) rev, Subsection 5	60.33	60.33	60.41	60.33
+179843	00.13	5.3185124E-7	Inversion Src #182199; 29 SECTIONS BETWEEN Santa Ynez River, Subsection 0 AND San Cayetano, Subsection 1	06.44	06.46	06.63	03.59
+164338	00.13	5.285346E-7	Inversion Src #166212; 178 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 19 AND San Jacinto (Clark) rev, Subsection 5	60.33	60.33	60.41	60.33
+207197	00.13	5.2287663E-7	Inversion Src #210022; 23 SECTIONS BETWEEN Santa Ynez (East), Subsection 9 AND Santa Ynez (West), Subsection 1	08.94	21.08	08.94	00.00
+184541	00.13	5.226378E-7	Inversion Src #186931; 25 SECTIONS BETWEEN Northridge, Subsection 3 AND Santa Ynez (West), Subsection 3	08.94	21.08	08.94	00.00
+207164	00.13	5.225609E-7	Inversion Src #209989; 19 SECTIONS BETWEEN Santa Ynez (East), Subsection 9 AND Santa Ynez (West), Subsection 8	06.44	06.49	06.63	03.59
+183279	00.13	5.209438E-7	Inversion Src #185666; 16 SECTIONS BETWEEN San Cayetano, Subsection 0 AND Santa Ynez (West), Subsection 13	06.44	06.49	06.63	03.59
+181500	00.13	5.207195E-7	Inversion Src #183882; 7 SECTIONS BETWEEN Red Mountain, Subsection 2 AND Red Mountain, Subsection 8	08.27	09.02	08.27	00.47
+230134	00.13	5.193801E-7	Inversion Src #234300; 11 SECTIONS BETWEEN Mission Ridge-Arroyo Parida-Santa Ana, Subsection 0 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 10	00.93	-00.42	03.61	00.53
+183676	00.13	5.182547E-7	Inversion Src #186064; 27 SECTIONS BETWEEN Del Valle, Subsection 1 AND Santa Ynez (West), Subsection 0	08.94	21.08	08.94	00.00
+208540	00.13	5.175528E-7	Inversion Src #211431; 26 SECTIONS BETWEEN Santa Ynez (West), Subsection 1 AND Northridge, Subsection 2	08.94	21.08	08.94	00.00
+221266	00.13	5.166013E-7	Inversion Src #224368; 30 SECTIONS BETWEEN Santa Susana alt 1, Subsection 1 AND Red Mountain, Subsection 11	00.93	-00.42	03.61	00.53
+163828	00.13	5.141335E-7	Inversion Src #165699; 177 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 18 AND San Jacinto (Clark) rev, Subsection 5	60.33	60.33	60.41	60.33
+207170	00.13	5.125582E-7	Inversion Src #209995; 25 SECTIONS BETWEEN Santa Ynez (East), Subsection 9 AND Santa Ynez (West), Subsection 2	06.44	06.49	06.63	03.59
+230927	00.13	5.0870386E-7	Inversion Src #235128; 31 SECTIONS BETWEEN Red Mountain, Subsection 11 AND Northridge, Subsection 2	00.93	-00.42	03.61	00.53
+180336	00.12	4.9776446E-7	Inversion Src #182698; 27 SECTIONS BETWEEN Santa Ynez River, Subsection 3 AND San Cayetano, Subsection 0	06.44	06.46	06.63	03.59
+185292	00.12	4.9601135E-7	Inversion Src #187685; 17 SECTIONS BETWEEN Oak Ridge (Onshore), Subsection 3 AND Red Mountain, Subsection 11	08.94	21.08	08.94	00.00
+182662	00.12	4.9494747E-7	Inversion Src #185049; 23 SECTIONS BETWEEN San Cayetano, Subsection 2 AND Santa Ynez (West), Subsection 4	06.44	06.49	06.63	03.59
+179840	00.12	4.8319697E-7	Inversion Src #182196; 28 SECTIONS BETWEEN Santa Ynez River, Subsection 0 AND Santa Ynez (East), Subsection 9	06.44	06.46	06.63	03.59
+183285	00.12	4.750439E-7	Inversion Src #185672; 22 SECTIONS BETWEEN San Cayetano, Subsection 0 AND Santa Ynez (West), Subsection 7	06.44	06.49	06.63	03.59
+230029	00.12	4.7111237E-7	Inversion Src #234170; 11 SECTIONS BETWEEN Mission Ridge-Arroyo Parida-Santa Ana, Subsection 6 AND Red Mountain, Subsection 11	00.93	-00.42	03.61	00.53
+186588	00.12	4.6724915E-7	Inversion Src #188984; 32 SECTIONS BETWEEN San Gabriel, Subsection 0 AND Red Mountain, Subsection 11	00.93	-00.42	03.61	00.53
+207166	00.11	4.5561274E-7	Inversion Src #209991; 21 SECTIONS BETWEEN Santa Ynez (East), Subsection 9 AND Santa Ynez (West), Subsection 6	06.44	06.49	06.63	03.59
+220970	00.11	4.46863E-7	Inversion Src #224072; 32 SECTIONS BETWEEN Santa Susana East (connector), Subsection 1 AND Red Mountain, Subsection 11	00.93	-00.42	03.61	00.53

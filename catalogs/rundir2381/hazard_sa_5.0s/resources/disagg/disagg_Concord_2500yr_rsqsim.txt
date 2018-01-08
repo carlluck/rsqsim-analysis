@@ -1,0 +1,231 @@
+Mean/Mode Metadata :
+
+
+  Mbar = 7.19446
+  Dbar = 15.43487
+  Ebar = 1.4264503
+
+  6.6 ≤ Mmode < 6.8
+  0.0 ≤ Dmode < 10.0
+1.0 < Emode <= 2.0
+
+Disaggregation Plot Parameters Info :
+Custom disagg
+
+Disaggregation Bin Data :
+Dist	Mag	E≤-2	-2<E≤-1	-1<E≤-0.5	 -0.5>E≤0	 0<E≤0.5	 0.5<E≤1	 1<E≤2	 2>E 
+-----	----	------	------	-------	-------	-------	-------	-------	------
+005.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.20 	 00.03 	 02.22
+005.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 10.48 	 00.00 	 10.48
+005.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 07.95 	 09.80 	 00.00 	 17.76
+005.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 07.30 	 01.97 	 00.00 	 09.27
+005.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 01.92 	 08.89 	 00.73 	 00.00 	 11.55
+005.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 02.11 	 02.49 	 00.00 	 00.00 	 04.59
+005.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 01.60 	 00.15 	 00.00 	 00.00 	 01.75
+005.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.19 	 00.00 	 00.00 	 00.00 	 00.19
+005.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.29 	 00.00 	 00.00 	 00.00 	 00.00 	 00.29
+005.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.67 	 00.67
+015.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 01.22 	 01.25
+015.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.48 	 01.73 	 03.21
+015.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.29 	 00.22 	 02.51
+015.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.80 	 00.00 	 02.80
+015.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.49 	 00.00 	 01.49
+015.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.20 	 00.14 	 00.00 	 00.34
+015.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.12 	 00.00 	 00.00 	 02.12
+015.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+025.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.24 	 00.24
+025.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.69 	 00.69
+025.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.54 	 02.54
+025.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.70 	 04.05 	 05.75
+025.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.75 	 00.09 	 01.85
+025.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.14 	 00.00 	 00.14
+025.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.67 	 00.00 	 00.67
+025.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+035.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.13 	 00.13
+035.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.24 	 00.24
+035.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.33 	 00.33
+035.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.27 	 00.27
+035.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.27 	 00.27
+035.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.07 	 00.10
+035.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.29 	 00.00 	 00.29
+035.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+045.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.14 	 00.14
+045.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.31 	 00.31
+045.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+045.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.04 	 00.06
+045.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+055.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.15 	 00.15
+055.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.69 	 00.69
+055.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.43 	 00.43
+055.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.60 	 03.60
+055.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 07.49 	 07.50
+055.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+065.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+065.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.10 	 00.10
+065.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.06 	 00.06
+065.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.10 	 00.10
+065.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+065.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+075.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+075.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+075.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+075.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+075.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+085.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.08 	 00.08
+085.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.10 	 00.10
+085.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+085.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+085.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+095.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+095.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+095.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+095.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+105.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+105.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+
+
+Disaggregation Source List Info:
+Source#	% Contribution	TotExceedRate	SourceName	DistRup	DistX	DistSeis	DistJB
+030014	00.29	1.1468853E-6	Inversion Src #30014; 65 SECTIONS BETWEEN Great Valley 06 (Midland) 2011 CFM alt1, Subsection 7 AND Bartlett Springs 2011 CFM, Subsection 2	04.73	04.38	05.37	04.45
+038464	00.25	1.0217319E-6	Inversion Src #38464; 39 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 6 AND Great Valley 06 (Midland) 2011 CFM alt1, Subsection 0	02.44	-01.34	03.29	01.34
+047277	00.25	1.0191083E-6	Inversion Src #47277; 36 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 5 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 0	02.44	-01.34	03.29	01.34
+081151	00.23	9.3731467E-7	Inversion Src #81151; 29 SECTIONS BETWEEN Great Valley 06 (Midland) 2011 CFM alt1, Subsection 0 AND Clayton, Subsection 1	02.44	-01.34	03.29	01.34
+003730	00.23	9.2512465E-7	Inversion Src #3730; 24 SECTIONS BETWEEN Great Valley 06 (Midland) 2011 CFM alt1, Subsection 7 AND Great Valley 04b Gordon Valley, Subsection 3	02.44	-01.34	03.29	01.34
+016931	00.22	8.80376E-7	Inversion Src #16931; 31 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 2 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 0	04.73	04.38	05.37	04.45
+015799	00.22	8.8022546E-7	Inversion Src #15799; 29 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 22 AND Green Valley 2011 CFM, Subsection 3	02.44	-01.34	03.29	01.34
+021222	00.21	8.623277E-7	Inversion Src #21222; 19 SECTIONS BETWEEN Great Valley 06 (Midland) 2011 CFM alt1, Subsection 7 AND Great Valley 04b Gordon Valley, Subsection 2	02.44	-01.34	03.29	01.34
+008477	00.21	8.406862E-7	Inversion Src #8477; 29 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 2 AND Concord 2011 CFM, Subsection 0	02.44	-01.34	03.29	01.34
+084005	00.21	8.274584E-7	Inversion Src #84005; 28 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 3 AND Concord 2011 CFM, Subsection 2	02.44	-01.34	03.29	01.34
+020028	00.20	8.0691655E-7	Inversion Src #20028; 20 SECTIONS BETWEEN Greenville (So) 2011 CFM, Subsection 0 AND Concord 2011 CFM, Subsection 1	02.44	-01.34	03.29	01.34
+079359	00.20	7.8640244E-7	Inversion Src #79359; 27 SECTIONS BETWEEN Pilarcitos 2011 CFM, Subsection 7 AND Green Valley 2011 CFM, Subsection 5	02.44	-01.34	03.29	01.34
+024095	00.19	7.804671E-7	Inversion Src #24095; 86 SECTIONS BETWEEN San Gregorio (South) 2011 CFM, Subsection 10 AND San Andreas (Offshore) 2011 CFM, Subsection 20	08.18	08.07	08.61	08.07
+056166	00.19	7.648884E-7	Inversion Src #56166; 18 SECTIONS BETWEEN Great Valley 06 (Midland) 2011 CFM alt1, Subsection 7 AND Great Valley 04b Gordon Valley, Subsection 2	04.73	04.38	05.37	04.45
+006808	00.19	7.5547575E-7	Inversion Src #6808; 20 SECTIONS BETWEEN Hayward (So) 2011 CFM, Subsection 4 AND Hayward (No) 2011 CFM, Subsection 9	02.44	-01.34	03.29	01.34
+060754	00.19	7.524989E-7	Inversion Src #60754; 18 SECTIONS BETWEEN Great Valley 06 (Midland) 2011 CFM alt1, Subsection 0 AND Clayton, Subsection 2	04.73	04.38	05.37	04.45
+083903	00.19	7.490925E-7	Inversion Src #83903; 30 SECTIONS BETWEEN Hayward (So) 2011 CFM, Subsection 1 AND Hayward (No) 2011 CFM, Subsection 9	04.73	04.38	05.37	01.52
+057433	00.18	7.3855193E-7	Inversion Src #57433; 16 SECTIONS BETWEEN Mount Diablo Thrust South, Subsection 1 AND Green Valley 2011 CFM, Subsection 0	02.44	-01.34	03.29	01.34
+030255	00.18	7.319273E-7	Inversion Src #30255; 15 SECTIONS BETWEEN Greenville (No) 2011 CFM, Subsection 0 AND Clayton, Subsection 2	02.44	-01.34	03.29	01.34
+031816	00.18	7.310463E-7	Inversion Src #31816; 17 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 6 AND Concord 2011 CFM, Subsection 2	02.44	-01.34	03.29	01.34
+043979	00.18	7.1765487E-7	Inversion Src #43979; 19 SECTIONS BETWEEN Great Valley 05 Pittsburg - Kirby Hills alt1, Subsection 3 AND Hayward (So) 2011 CFM, Subsection 6	02.44	-01.34	03.29	01.34
+036922	00.18	7.080572E-7	Inversion Src #36922; 16 SECTIONS BETWEEN Greenville (No) 2011 CFM, Subsection 0 AND Green Valley 2011 CFM, Subsection 6	02.44	-01.34	03.29	01.34
+067864	00.17	7.0104903E-7	Inversion Src #67864; 24 SECTIONS BETWEEN Greenville (So) 2011 CFM, Subsection 0 AND Clayton, Subsection 0	04.73	04.38	05.37	01.52
+011242	00.17	6.995122E-7	Inversion Src #11242; 15 SECTIONS BETWEEN Greenville (No) 2011 CFM, Subsection 4 AND Green Valley 2011 CFM, Subsection 6	02.44	-01.34	03.29	01.34
+041298	00.17	6.9585957E-7	Inversion Src #41298; 17 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 11 AND Green Valley 2011 CFM, Subsection 6	02.44	-01.34	03.29	01.34
+029743	00.17	6.9150184E-7	Inversion Src #29743; 31 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 18 AND Concord 2011 CFM, Subsection 1	06.20	-01.38	06.20	01.55
+024758	00.17	6.888203E-7	Inversion Src #24758; 16 SECTIONS BETWEEN Clayton, Subsection 1 AND Hayward (So) 2011 CFM, Subsection 3	02.44	-01.34	03.29	01.34
+037093	00.17	6.7411355E-7	Inversion Src #37093; 16 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 1 AND Concord 2011 CFM, Subsection 2	02.44	-01.34	03.29	01.34
+069651	00.17	6.737613E-7	Inversion Src #69651; 14 SECTIONS BETWEEN Greenville (So) 2011 CFM, Subsection 4 AND Concord 2011 CFM, Subsection 2	02.44	-01.34	03.29	01.34
+008036	00.17	6.7193105E-7	Inversion Src #8036; 16 SECTIONS BETWEEN Great Valley 06 (Midland) 2011 CFM alt1, Subsection 0 AND Mount Diablo Thrust South, Subsection 0	04.73	04.38	05.37	04.45
+017498	00.17	6.7052537E-7	Inversion Src #17498; 28 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 20 AND San Andreas (North Coast) 2011 CFM, Subsection 0	05.64	05.60	05.64	01.52
+009826	00.17	6.648879E-7	Inversion Src #9826; 12 SECTIONS BETWEEN Hayward (So) 2011 CFM, Subsection 5 AND Concord 2011 CFM, Subsection 1	02.44	-01.34	03.29	01.34
+076601	00.16	6.6032294E-7	Inversion Src #76601; 17 SECTIONS BETWEEN Hayward (So) 2011 CFM, Subsection 4 AND Green Valley 2011 CFM, Subsection 6	02.44	-01.34	03.29	01.34
+022284	00.16	6.539636E-7	Inversion Src #22284; 14 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 11 AND Concord 2011 CFM, Subsection 0	02.44	-01.34	03.29	01.34
+048050	00.16	6.5005287E-7	Inversion Src #48050; 15 SECTIONS BETWEEN Contra Costa (Lafayette) 2011 CFM, Subsection 0 AND Concord 2011 CFM, Subsection 2	02.44	-01.34	03.29	01.34
+047043	00.16	6.5000756E-7	Inversion Src #47043; 26 SECTIONS BETWEEN Mount Diablo Thrust South, Subsection 1 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 10	05.64	05.60	05.64	01.52
+039400	00.16	6.4625E-7	Inversion Src #39400; 12 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 1 AND Concord 2011 CFM, Subsection 2	02.44	-01.34	03.29	01.34
+074234	00.16	6.4333784E-7	Inversion Src #74234; 14 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 2 AND Concord 2011 CFM, Subsection 2	02.44	-01.34	03.29	01.34
+060704	00.16	6.380618E-7	Inversion Src #60704; 20 SECTIONS BETWEEN Hayward (So) 2011 CFM, Subsection 4 AND Hayward (No) 2011 CFM, Subsection 9	05.64	05.60	05.64	01.52
+059583	00.16	6.372592E-7	Inversion Src #59583; 12 SECTIONS BETWEEN Greenville (No) 2011 CFM, Subsection 4 AND Clayton, Subsection 2	02.44	-01.34	03.29	01.34
+017095	00.16	6.324017E-7	Inversion Src #17095; 17 SECTIONS BETWEEN Mount Diablo Thrust North CFM, Subsection 1 AND Greenville (So) 2011 CFM, Subsection 0	05.64	05.60	05.64	01.52
+041981	00.16	6.30186E-7	Inversion Src #41981; 11 SECTIONS BETWEEN Greenville (No) 2011 CFM, Subsection 1 AND Concord 2011 CFM, Subsection 2	02.44	-01.34	03.29	01.34
+042651	00.16	6.2991677E-7	Inversion Src #42651; 10 SECTIONS BETWEEN Concord 2011 CFM, Subsection 2 AND Green Valley 2011 CFM, Subsection 0	02.44	-01.34	03.29	01.34
+063235	00.16	6.27713E-7	Inversion Src #63235; 9 SECTIONS BETWEEN Mount Diablo Thrust South, Subsection 0 AND Concord 2011 CFM, Subsection 2	02.44	-01.34	03.29	01.34
+064925	00.15	6.2058837E-7	Inversion Src #64925; 23 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 3 AND Greenville (No) 2011 CFM, Subsection 6	05.64	05.60	05.64	01.52
+005603	00.15	6.200731E-7	Inversion Src #5603; 49 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 0 AND Franklin 2011 CFM, Subsection 5	08.18	08.07	08.61	08.07
+050968	00.15	6.18694E-7	Inversion Src #50968; 73 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 20 AND Contra Costa Shear Zone (connector) 2011 CFM, Subsection 4	10.72	-10.65	11.42	10.65
+072159	00.15	6.176349E-7	Inversion Src #72159; 12 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 1 AND Concord 2011 CFM, Subsection 2	02.44	-01.34	03.29	01.34
+072521	00.15	6.1459735E-7	Inversion Src #72521; 14 SECTIONS BETWEEN Great Valley 06 (Midland) 2011 CFM alt1, Subsection 0 AND Concord 2011 CFM, Subsection 1	06.20	-01.38	06.20	01.55
+086096	00.15	6.1456774E-7	Inversion Src #86096; 13 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 2 AND Concord 2011 CFM, Subsection 2	02.44	-01.34	03.29	01.34
+049164	00.15	6.1262836E-7	Inversion Src #49164; 12 SECTIONS BETWEEN Greenville (No) 2011 CFM, Subsection 3 AND Clayton, Subsection 2	02.44	-01.34	03.29	01.34
+044515	00.15	6.117445E-7	Inversion Src #44515; 13 SECTIONS BETWEEN Pilarcitos 2011 CFM, Subsection 9 AND Concord 2011 CFM, Subsection 2	02.44	-01.34	03.29	01.34
+081638	00.15	6.1138303E-7	Inversion Src #81638; 12 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 1 AND Concord 2011 CFM, Subsection 2	02.44	-01.34	03.29	01.34
+020876	00.15	6.1095324E-7	Inversion Src #20876; 14 SECTIONS BETWEEN Mount Diablo Thrust South, Subsection 0 AND Calaveras (No) 2011 CFM, Subsection 2	02.44	-01.34	03.29	01.34
+015136	00.15	6.1067794E-7	Inversion Src #15136; 12 SECTIONS BETWEEN Greenville (No) 2011 CFM, Subsection 4 AND Clayton, Subsection 2	02.44	-01.34	03.29	01.34
+014097	00.15	6.0993534E-7	Inversion Src #14097; 9 SECTIONS BETWEEN Greenville (No) 2011 CFM, Subsection 4 AND Clayton, Subsection 2	02.44	-01.34	03.29	01.34
+068570	00.15	6.0988765E-7	Inversion Src #68570; 11 SECTIONS BETWEEN Greenville (No) 2011 CFM, Subsection 4 AND Clayton, Subsection 1	02.44	-01.34	03.29	01.34
+040880	00.15	6.0855325E-7	Inversion Src #40880; 13 SECTIONS BETWEEN Clayton, Subsection 0 AND Hayward (So) 2011 CFM, Subsection 7	02.44	-01.34	03.29	01.34
+043475	00.15	6.0816717E-7	Inversion Src #43475; 12 SECTIONS BETWEEN Mount Diablo Thrust South, Subsection 0 AND Mount Diablo Thrust North CFM, Subsection 0	02.44	-01.34	03.29	01.34
+037377	00.15	6.064058E-7	Inversion Src #37377; 46 SECTIONS BETWEEN Great Valley 07 (Orestimba), Subsection 17 AND Clayton, Subsection 2	11.99	06.19	12.26	11.89
+051979	00.15	6.024219E-7	Inversion Src #51979; 9 SECTIONS BETWEEN Mount Diablo Thrust South, Subsection 0 AND Greenville (No) 2011 CFM, Subsection 6	02.44	-01.34	03.29	01.34
+072670	00.15	5.993973E-7	Inversion Src #72670; 10 SECTIONS BETWEEN Concord 2011 CFM, Subsection 2 AND Green Valley 2011 CFM, Subsection 0	02.44	-01.34	03.29	01.34
+058829	00.15	5.975464E-7	Inversion Src #58829; 14 SECTIONS BETWEEN Greenville (No) 2011 CFM, Subsection 2 AND Green Valley 2011 CFM, Subsection 6	02.44	-01.34	03.29	01.34
+037811	00.15	5.9742035E-7	Inversion Src #37811; 12 SECTIONS BETWEEN Greenville (No) 2011 CFM, Subsection 6 AND Green Valley 2011 CFM, Subsection 2	02.44	-01.34	03.29	01.34
+072492	00.15	5.9635465E-7	Inversion Src #72492; 13 SECTIONS BETWEEN Mount Diablo Thrust South, Subsection 0 AND Green Valley 2011 CFM, Subsection 5	02.44	-01.34	03.29	01.34
+078275	00.15	5.958079E-7	Inversion Src #78275; 50 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 4 AND Clayton, Subsection 2	11.99	06.19	12.26	11.89
+036016	00.15	5.957634E-7	Inversion Src #36016; 10 SECTIONS BETWEEN Concord 2011 CFM, Subsection 2 AND Green Valley 2011 CFM, Subsection 0	02.44	-01.34	03.29	01.34
+014769	00.15	5.936468E-7	Inversion Src #14769; 49 SECTIONS BETWEEN Great Valley 07 (Orestimba), Subsection 17 AND Clayton, Subsection 2	11.99	06.19	12.26	11.89
+022638	00.15	5.92107E-7	Inversion Src #22638; 14 SECTIONS BETWEEN Mount Diablo Thrust South, Subsection 1 AND Greenville (No) 2011 CFM, Subsection 6	02.44	-01.34	03.29	01.34
+065608	00.15	5.9199147E-7	Inversion Src #65608; 11 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 1 AND Concord 2011 CFM, Subsection 2	02.44	-01.34	03.29	01.34
+045275	00.15	5.915754E-7	Inversion Src #45275; 10 SECTIONS BETWEEN Concord 2011 CFM, Subsection 2 AND Green Valley 2011 CFM, Subsection 0	02.44	-01.34	03.29	01.34
+046302	00.15	5.909051E-7	Inversion Src #46302; 14 SECTIONS BETWEEN Contra Costa (Lafayette) 2011 CFM, Subsection 1 AND Mount Diablo Thrust South, Subsection 1	02.44	-01.34	03.29	01.34
+005183	00.15	5.8825987E-7	Inversion Src #5183; 13 SECTIONS BETWEEN Clayton, Subsection 0 AND Calaveras (No) 2011 CFM, Subsection 0	04.73	04.38	05.37	01.52
+031983	00.15	5.8780347E-7	Inversion Src #31983; 12 SECTIONS BETWEEN Mount Diablo Thrust South, Subsection 0 AND Greenville (No) 2011 CFM, Subsection 6	02.44	-01.34	03.29	01.34
+085493	00.15	5.8705615E-7	Inversion Src #85493; 21 SECTIONS BETWEEN Great Valley 06 (Midland) 2011 CFM alt1, Subsection 0 AND Greenville (No) 2011 CFM, Subsection 5	07.42	04.36	07.84	07.01
+050174	00.15	5.8368323E-7	Inversion Src #50174; 11 SECTIONS BETWEEN Clayton, Subsection 0 AND Hayward (So) 2011 CFM, Subsection 5	02.44	-01.34	03.29	01.34
+006879	00.15	5.8240437E-7	Inversion Src #6879; 10 SECTIONS BETWEEN Concord 2011 CFM, Subsection 2 AND Green Valley 2011 CFM, Subsection 0	02.44	-01.34	03.29	01.34
+067094	00.14	5.823195E-7	Inversion Src #67094; 10 SECTIONS BETWEEN Mount Diablo Thrust South, Subsection 0 AND Mount Diablo Thrust North CFM, Subsection 0	02.44	-01.34	03.29	01.34
+048912	00.14	5.7847365E-7	Inversion Src #48912; 11 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 0 AND Concord 2011 CFM, Subsection 2	02.44	-01.34	03.29	01.34
+074712	00.14	5.7710196E-7	Inversion Src #74712; 11 SECTIONS BETWEEN Greenville (No) 2011 CFM, Subsection 3 AND Concord 2011 CFM, Subsection 2	02.44	-01.34	03.29	01.34
+012616	00.14	5.763561E-7	Inversion Src #12616; 8 SECTIONS BETWEEN Mount Diablo Thrust South, Subsection 1 AND Greenville (No) 2011 CFM, Subsection 6	02.44	-01.34	03.29	01.34
+075454	00.14	5.758295E-7	Inversion Src #75454; 20 SECTIONS BETWEEN Bennett Valley 2011 CFM, Subsection 3 AND Clayton, Subsection 2	05.64	05.60	05.64	01.52
+021848	00.14	5.643799E-7	Inversion Src #21848; 9 SECTIONS BETWEEN Mount Diablo Thrust South, Subsection 1 AND Greenville (No) 2011 CFM, Subsection 5	02.44	-01.34	03.29	01.34
+045348	00.14	5.58886E-7	Inversion Src #45348; 14 SECTIONS BETWEEN Greenville (No) 2011 CFM, Subsection 2 AND Clayton, Subsection 0	04.73	04.38	05.37	01.52
+047158	00.14	5.579527E-7	Inversion Src #47158; 24 SECTIONS BETWEEN West Napa 2011 CFM, Subsection 3 AND Mission (connected) 2011 CFM, Subsection 4	06.20	-01.38	06.20	01.55
+062139	00.14	5.556315E-7	Inversion Src #62139; 11 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 0 AND Concord 2011 CFM, Subsection 2	02.44	-01.34	03.29	01.34
+077796	00.14	5.5525226E-7	Inversion Src #77796; 13 SECTIONS BETWEEN Greenville (No) 2011 CFM, Subsection 4 AND Clayton, Subsection 2	04.73	04.38	05.37	01.52
+007287	00.14	5.532588E-7	Inversion Src #7287; 9 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 5 AND Mount Diablo Thrust South, Subsection 1	02.44	-01.34	03.29	01.34
+055735	00.14	5.532159E-7	Inversion Src #55735; 9 SECTIONS BETWEEN Great Valley 05 Pittsburg - Kirby Hills alt1, Subsection 3 AND Concord 2011 CFM, Subsection 2	02.44	-01.34	03.29	01.34
+085825	00.14	5.5310136E-7	Inversion Src #85825; 16 SECTIONS BETWEEN Greenville (So) 2011 CFM, Subsection 4 AND Clayton, Subsection 0	04.73	04.38	05.37	01.52
+025629	00.14	5.5266236E-7	Inversion Src #25629; 10 SECTIONS BETWEEN Calaveras (No) 2011 CFM, Subsection 1 AND Greenville (No) 2011 CFM, Subsection 5	02.44	-01.34	03.29	01.34
+071524	00.14	5.469524E-7	Inversion Src #71524; 10 SECTIONS BETWEEN Contra Costa (Lafayette) 2011 CFM, Subsection 1 AND Mount Diablo Thrust South, Subsection 1	02.44	-01.34	03.29	01.34
+019610	00.14	5.464753E-7	Inversion Src #19610; 9 SECTIONS BETWEEN Great Valley 05 Pittsburg - Kirby Hills alt1, Subsection 3 AND Concord 2011 CFM, Subsection 2	02.44	-01.34	03.29	01.34
+053977	00.14	5.4233004E-7	Inversion Src #53977; 10 SECTIONS BETWEEN Concord 2011 CFM, Subsection 2 AND Green Valley 2011 CFM, Subsection 0	02.44	-01.34	03.29	01.34
+026372	00.13	5.4130504E-7	Inversion Src #26372; 11 SECTIONS BETWEEN Mount Diablo Thrust South, Subsection 1 AND Greenville (No) 2011 CFM, Subsection 6	02.44	-01.34	03.29	01.34
+058391	00.13	5.354272E-7	Inversion Src #58391; 17 SECTIONS BETWEEN Calaveras (Central) 2011 CFM, Subsection 3 AND Concord 2011 CFM, Subsection 1	06.20	-01.38	06.20	01.55
+021929	00.13	5.343452E-7	Inversion Src #21929; 10 SECTIONS BETWEEN Great Valley 05 Pittsburg - Kirby Hills alt1, Subsection 3 AND Concord 2011 CFM, Subsection 2	02.44	-01.34	03.29	01.34
+028378	00.13	5.30254E-7	Inversion Src #28378; 11 SECTIONS BETWEEN Clayton, Subsection 0 AND Calaveras (No) 2011 CFM, Subsection 0	04.73	04.38	05.37	01.52
+036101	00.13	5.3015015E-7	Inversion Src #36101; 10 SECTIONS BETWEEN Mount Diablo Thrust South, Subsection 0 AND Mount Diablo Thrust North CFM, Subsection 1	04.73	04.38	05.37	01.52
+039154	00.13	5.27571E-7	Inversion Src #39154; 7 SECTIONS BETWEEN Mount Diablo Thrust South, Subsection 1 AND Clayton, Subsection 2	02.44	-01.34	03.29	01.34

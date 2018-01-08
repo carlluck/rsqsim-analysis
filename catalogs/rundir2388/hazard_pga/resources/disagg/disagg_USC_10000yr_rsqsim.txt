@@ -1,0 +1,231 @@
+Mean/Mode Metadata :
+
+
+  Mbar = 7.15843
+  Dbar = 10.549999
+  Ebar = 1.5098246
+
+  7.0 ≤ Mmode < 7.2
+  0.0 ≤ Dmode < 10.0
+1.0 < Emode <= 2.0
+
+Disaggregation Plot Parameters Info :
+Custom disagg
+
+Disaggregation Bin Data :
+Dist	Mag	E≤-2	-2<E≤-1	-1<E≤-0.5	 -0.5>E≤0	 0<E≤0.5	 0.5<E≤1	 1<E≤2	 2>E 
+-----	----	------	------	-------	-------	-------	-------	-------	------
+005.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.87 	 00.00 	 02.87
+005.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 08.81 	 00.00 	 08.81
+005.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.38 	 13.74 	 00.00 	 14.12
+005.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.26 	 14.11 	 00.00 	 16.37
+005.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.39 	 08.15 	 00.00 	 10.54
+005.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.64 	 04.69 	 00.00 	 06.32
+005.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.26 	 00.87 	 00.00 	 02.13
+005.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.51 	 00.00 	 01.51
+005.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.32 	 00.00 	 00.00 	 00.32
+005.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.75 	 00.90 	 01.65
+015.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.73 	 01.26 	 01.78 	 03.77
+015.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.80 	 01.17 	 00.82 	 02.79
+015.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.62 	 03.26 	 00.91 	 07.80
+015.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.53 	 02.83 	 00.49 	 04.85
+015.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.93 	 02.20 	 00.49 	 04.62
+015.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.26 	 00.45 	 02.71
+015.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.57 	 00.62 	 04.19
+015.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.12 	 00.12
+025.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.15 	 00.15
+025.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.24 	 00.24
+025.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.45 	 00.45
+025.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.83 	 00.83
+025.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.51 	 00.51
+025.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.39 	 00.39
+025.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.43 	 00.43
+025.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+035.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+035.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.07
+035.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.10 	 00.10
+035.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+035.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.22 	 00.22
+035.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.49 	 00.49
+035.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+045.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+045.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+045.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.07
+045.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+055.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+055.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+065.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+065.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.09 	 00.09
+065.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.21 	 00.21
+065.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+
+
+Disaggregation Source List Info:
+Source#	% Contribution	TotExceedRate	SourceName	DistRup	DistX	DistSeis	DistJB
+036864	00.51	5.1554986E-7	Inversion Src #36864; 3 SECTIONS BETWEEN San Pedro Escarpment, Subsection 0 AND Redondo Canyon alt 1, Subsection 1	11.21	30.07	11.21	00.00
+071262	00.50	5.089699E-7	Inversion Src #71262; 22 SECTIONS BETWEEN San Pedro Escarpment, Subsection 1 AND Whittier alt 1, Subsection 5	07.73	07.58	08.26	00.00
+084663	00.50	5.02093E-7	Inversion Src #84663; 4 SECTIONS BETWEEN San Pedro Escarpment, Subsection 0 AND Palos Verdes, Subsection 12	11.21	30.07	11.21	00.00
+077138	00.49	4.9720325E-7	Inversion Src #77138; 20 SECTIONS BETWEEN San Pedro Escarpment, Subsection 1 AND Newport-Inglewood alt 1, Subsection 3	07.91	07.64	08.43	00.00
+048953	00.47	4.7426315E-7	Inversion Src #48953; 2 SECTIONS BETWEEN San Pedro Escarpment, Subsection 0 AND Redondo Canyon alt 1, Subsection 0	11.21	30.07	11.21	00.00
+013999	00.47	4.7176263E-7	Inversion Src #13999; 4 SECTIONS BETWEEN San Pedro Escarpment, Subsection 0 AND Palos Verdes, Subsection 12	11.21	30.07	11.21	00.00
+056916	00.46	4.6513216E-7	Inversion Src #56916; 8 SECTIONS BETWEEN Compton, Subsection 1 AND Newport-Inglewood alt 1, Subsection 8	07.73	07.58	08.26	00.00
+016759	00.45	4.5848373E-7	Inversion Src #16759; 18 SECTIONS BETWEEN San Pedro Escarpment, Subsection 1 AND Whittier alt 1, Subsection 6	11.21	30.07	11.21	00.00
+083750	00.45	4.504413E-7	Inversion Src #83750; 17 SECTIONS BETWEEN San Pedro Escarpment, Subsection 1 AND Newport-Inglewood alt 1, Subsection 4	07.91	07.64	08.43	00.00
+078986	00.44	4.4359962E-7	Inversion Src #78986; 4 SECTIONS BETWEEN Compton, Subsection 2 AND Newport-Inglewood alt 1, Subsection 2	12.95	20.39	12.95	00.00
+001586	00.43	4.3498588E-7	Inversion Src #1586; 4 SECTIONS BETWEEN San Pedro Escarpment, Subsection 0 AND Palos Verdes, Subsection 15	11.21	30.07	11.21	00.00
+058369	00.42	4.2840043E-7	Inversion Src #58369; 12 SECTIONS BETWEEN Compton, Subsection 4 AND Newport-Inglewood alt 1, Subsection 8	07.73	07.58	08.26	00.00
+025111	00.42	4.2723192E-7	Inversion Src #25111; 11 SECTIONS BETWEEN San Pedro Escarpment, Subsection 1 AND Newport-Inglewood alt 1, Subsection 4	07.73	07.58	08.26	00.00
+010755	00.42	4.2183612E-7	Inversion Src #10755; 19 SECTIONS BETWEEN San Pedro Escarpment, Subsection 0 AND Whittier alt 1, Subsection 5	10.05	08.66	10.46	00.00
+059823	00.42	4.2032988E-7	Inversion Src #59823; 25 SECTIONS BETWEEN San Pedro Basin, Subsection 10 AND Newport-Inglewood alt 1, Subsection 1	07.73	07.58	08.26	00.00
+074720	00.41	4.1311284E-7	Inversion Src #74720; 13 SECTIONS BETWEEN San Pedro Escarpment, Subsection 1 AND Newport-Inglewood alt 1, Subsection 5	07.91	07.64	08.43	00.00
+023692	00.40	4.037073E-7	Inversion Src #23692; 10 SECTIONS BETWEEN Redondo Canyon alt 1, Subsection 0 AND Newport-Inglewood alt 1, Subsection 8	07.73	07.58	08.26	00.34
+035173	00.40	4.030731E-7	Inversion Src #35173; 19 SECTIONS BETWEEN San Pedro Basin, Subsection 0 AND Newport-Inglewood alt 1, Subsection 2	11.21	30.07	11.21	00.00
+007035	00.40	4.003411E-7	Inversion Src #7035; 6 SECTIONS BETWEEN Compton, Subsection 4 AND Newport-Inglewood alt 1, Subsection 5	07.73	07.58	08.26	00.34
+034677	00.39	3.9878793E-7	Inversion Src #34677; 11 SECTIONS BETWEEN Compton, Subsection 4 AND Newport-Inglewood alt 1, Subsection 3	07.73	07.58	08.26	00.34
+009051	00.39	3.9039202E-7	Inversion Src #9051; 5 SECTIONS BETWEEN Compton, Subsection 2 AND Newport-Inglewood alt 1, Subsection 3	12.95	20.39	12.95	00.00
+009205	00.39	3.8898906E-7	Inversion Src #9205; 12 SECTIONS BETWEEN San Pedro Escarpment, Subsection 1 AND San Gabriel (Extension), Subsection 5	11.21	30.07	11.21	00.00
+081905	00.38	3.8817316E-7	Inversion Src #81905; 8 SECTIONS BETWEEN San Pedro Escarpment, Subsection 0 AND Malibu Coast alt 1, Subsection 0	11.21	30.07	11.21	00.00
+043935	00.38	3.861228E-7	Inversion Src #43935; 5 SECTIONS BETWEEN Compton, Subsection 4 AND Newport-Inglewood alt 1, Subsection 8	07.73	07.58	08.26	00.34
+033428	00.38	3.8447746E-7	Inversion Src #33428; 17 SECTIONS BETWEEN Compton, Subsection 0 AND San Pedro Escarpment, Subsection 0	07.91	07.64	08.43	00.00
+010667	00.37	3.7690128E-7	Inversion Src #10667; 4 SECTIONS BETWEEN Compton, Subsection 3 AND Newport-Inglewood alt 1, Subsection 8	07.73	07.58	08.26	00.34
+039174	00.37	3.7012407E-7	Inversion Src #39174; 7 SECTIONS BETWEEN Compton, Subsection 2 AND Newport-Inglewood alt 1, Subsection 2	12.95	20.39	12.95	00.00
+074173	00.36	3.6736554E-7	Inversion Src #74173; 7 SECTIONS BETWEEN San Pedro Basin, Subsection 9 AND Redondo Canyon alt 1, Subsection 1	11.21	30.07	11.21	00.00
+064833	00.35	3.5740038E-7	Inversion Src #64833; 15 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 0 AND San Pedro Escarpment, Subsection 0	07.73	07.58	08.26	00.00
+054735	00.35	3.5104696E-7	Inversion Src #54735; 9 SECTIONS BETWEEN Santa Monica alt 1, Subsection 1 AND Newport-Inglewood alt 1, Subsection 7	07.91	07.64	08.43	00.00
+029154	00.34	3.4786535E-7	Inversion Src #29154; 8 SECTIONS BETWEEN Elysian Park (Lower CFM), Subsection 4 AND San Pedro Escarpment, Subsection 1	11.21	30.07	11.21	00.00
+027659	00.34	3.4427475E-7	Inversion Src #27659; 22 SECTIONS BETWEEN Santa Cruz Catalina Ridge alt1, Subsection 0 AND Newport-Inglewood alt 1, Subsection 4	07.73	07.58	08.26	00.00
+063392	00.34	3.4340232E-7	Inversion Src #63392; 22 SECTIONS BETWEEN Compton, Subsection 4 AND Newport-Inglewood alt 1, Subsection 2	12.95	20.39	12.95	00.00
+039847	00.34	3.4310062E-7	Inversion Src #39847; 7 SECTIONS BETWEEN Compton, Subsection 4 AND Palos Verdes, Subsection 12	12.95	20.39	12.95	00.00
+031332	00.34	3.4208165E-7	Inversion Src #31332; 11 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 4 AND San Pedro Escarpment, Subsection 0	07.91	07.64	08.43	00.00
+012823	00.34	3.4123465E-7	Inversion Src #12823; 9 SECTIONS BETWEEN Redondo Canyon alt 1, Subsection 0 AND Newport-Inglewood alt 1, Subsection 4	12.95	20.39	12.95	00.00
+020072	00.33	3.3368877E-7	Inversion Src #20072; 1 SECTIONS BETWEEN Compton, Subsection 2 AND Compton, Subsection 2	12.95	20.39	12.95	00.00
+061557	00.33	3.3031222E-7	Inversion Src #61557; 7 SECTIONS BETWEEN Compton, Subsection 2 AND Newport-Inglewood alt 1, Subsection 8	07.73	07.58	08.26	00.00
+000080	00.32	3.2142628E-7	Inversion Src #80; 63 SECTIONS BETWEEN Santa Cruz Catalina Ridge alt1, Subsection 19 AND San Gabriel (Extension), Subsection 7	07.73	07.58	08.26	00.00
+029877	00.32	3.2055598E-7	Inversion Src #29877; 13 SECTIONS BETWEEN Redondo Canyon alt 1, Subsection 0 AND Palos Verdes, Subsection 7	12.95	20.39	12.95	00.00
+068679	00.32	3.2039765E-7	Inversion Src #68679; 15 SECTIONS BETWEEN Compton, Subsection 4 AND Newport-Inglewood alt 1, Subsection 8	07.73	07.58	08.26	00.00
+024167	00.32	3.1917787E-7	Inversion Src #24167; 8 SECTIONS BETWEEN Compton, Subsection 2 AND Newport-Inglewood alt 1, Subsection 0	12.95	20.39	12.95	00.00
+008134	00.31	3.153983E-7	Inversion Src #8134; 5 SECTIONS BETWEEN Compton, Subsection 2 AND Palos Verdes, Subsection 15	12.95	20.39	12.95	00.00
+061330	00.31	3.1414652E-7	Inversion Src #61330; 5 SECTIONS BETWEEN San Pedro Escarpment, Subsection 1 AND Palos Verdes, Subsection 13	11.21	30.07	11.21	00.00
+002782	00.30	3.0773114E-7	Inversion Src #2782; 14 SECTIONS BETWEEN Compton, Subsection 4 AND San Pedro Escarpment, Subsection 0	07.91	07.64	08.43	00.00
+081084	00.30	3.0278895E-7	Inversion Src #81084; 15 SECTIONS BETWEEN Compton, Subsection 4 AND San Pedro Escarpment, Subsection 0	07.91	07.64	08.43	00.00
+005578	00.30	3.0124824E-7	Inversion Src #5578; 39 SECTIONS BETWEEN Hollywood, Subsection 2 AND San Pedro Basin, Subsection 10	06.32	-04.74	06.32	00.00
+073177	00.30	3.0013982E-7	Inversion Src #73177; 15 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 2 AND Palos Verdes, Subsection 14	07.73	07.58	08.26	00.00
+085115	00.30	2.9918604E-7	Inversion Src #85115; 14 SECTIONS BETWEEN Compton, Subsection 0 AND San Pedro Basin, Subsection 6	11.21	30.07	11.21	00.00
+066131	00.30	2.9796198E-7	Inversion Src #66131; 9 SECTIONS BETWEEN San Pedro Basin, Subsection 9 AND Palos Verdes, Subsection 12	12.95	20.39	12.95	00.00
+049798	00.29	2.9779162E-7	Inversion Src #49798; 16 SECTIONS BETWEEN Compton, Subsection 4 AND Newport-Inglewood alt 1, Subsection 8	07.73	07.58	08.26	00.00
+030270	00.29	2.9605326E-7	Inversion Src #30270; 5 SECTIONS BETWEEN Compton, Subsection 4 AND Palos Verdes, Subsection 13	12.97	20.78	12.97	00.34
+022345	00.29	2.9577515E-7	Inversion Src #22345; 14 SECTIONS BETWEEN Compton, Subsection 0 AND San Pedro Escarpment, Subsection 0	11.21	30.07	11.21	00.00
+052349	00.29	2.946228E-7	Inversion Src #52349; 6 SECTIONS BETWEEN San Pedro Escarpment, Subsection 1 AND Newport-Inglewood alt 1, Subsection 7	07.91	07.64	08.43	00.00
+070004	00.29	2.928988E-7	Inversion Src #70004; 17 SECTIONS BETWEEN Compton, Subsection 4 AND Newport-Inglewood alt 1, Subsection 8	07.73	07.58	08.26	00.00
+067379	00.29	2.9262674E-7	Inversion Src #67379; 18 SECTIONS BETWEEN Anaheim, Subsection 2 AND Redondo Canyon alt 1, Subsection 1	10.05	08.66	10.46	00.00
+026155	00.29	2.9197963E-7	Inversion Src #26155; 5 SECTIONS BETWEEN Compton, Subsection 4 AND Palos Verdes, Subsection 13	12.97	20.78	12.97	00.34
+052459	00.29	2.9085223E-7	Inversion Src #52459; 2 SECTIONS BETWEEN Compton, Subsection 2 AND Palos Verdes, Subsection 12	12.95	20.39	12.95	00.00
+042511	00.29	2.8866302E-7	Inversion Src #42511; 4 SECTIONS BETWEEN Santa Monica alt 1, Subsection 0 AND Compton, Subsection 3	12.97	20.78	12.97	00.34
+014091	00.28	2.8721726E-7	Inversion Src #14091; 28 SECTIONS BETWEEN Malibu Coast alt 1, Subsection 0 AND Newport-Inglewood alt 1, Subsection 4	07.73	07.58	08.26	00.00
+020938	00.28	2.8719865E-7	Inversion Src #20938; 27 SECTIONS BETWEEN Santa Susana East (connector), Subsection 0 AND San Pedro Basin, Subsection 6	07.73	07.58	08.26	00.00
+045128	00.28	2.8511616E-7	Inversion Src #45128; 23 SECTIONS BETWEEN San Pedro Basin, Subsection 10 AND Newport-Inglewood alt 1, Subsection 6	10.05	08.66	10.46	00.00
+046827	00.28	2.8314597E-7	Inversion Src #46827; 5 SECTIONS BETWEEN San Pedro Escarpment, Subsection 0 AND Compton, Subsection 3	11.21	30.07	11.21	00.00
+029176	00.28	2.8312166E-7	Inversion Src #29176; 6 SECTIONS BETWEEN San Pedro Escarpment, Subsection 0 AND Palos Verdes, Subsection 15	11.21	30.07	11.21	00.00
+086271	00.28	2.7860094E-7	Inversion Src #86271; 6 SECTIONS BETWEEN San Pedro Escarpment, Subsection 1 AND Newport-Inglewood alt 1, Subsection 8	07.73	07.58	08.26	00.34
+048354	00.26	2.658996E-7	Inversion Src #48354; 26 SECTIONS BETWEEN San Pedro Basin, Subsection 11 AND Santa Monica alt 1, Subsection 0	11.21	30.07	11.21	00.00
+076165	00.26	2.6506152E-7	Inversion Src #76165; 5 SECTIONS BETWEEN Compton, Subsection 4 AND Palos Verdes, Subsection 13	12.97	20.78	12.97	00.34
+037130	00.25	2.5613153E-7	Inversion Src #37130; 15 SECTIONS BETWEEN Santa Monica alt 1, Subsection 1 AND Newport-Inglewood alt 1, Subsection 2	12.95	20.39	12.95	00.00
+086634	00.25	2.5030332E-7	Inversion Src #86634; 9 SECTIONS BETWEEN Compton, Subsection 3 AND Palos Verdes, Subsection 9	12.95	20.39	12.95	00.00
+079852	00.25	2.490516E-7	Inversion Src #79852; 7 SECTIONS BETWEEN San Pedro Escarpment, Subsection 1 AND Palos Verdes, Subsection 12	12.97	20.78	12.97	00.34
+078532	00.24	2.4229138E-7	Inversion Src #78532; 13 SECTIONS BETWEEN Compton, Subsection 4 AND San Pedro Escarpment, Subsection 0	07.91	07.64	08.43	00.00
+053562	00.24	2.4122153E-7	Inversion Src #53562; 3 SECTIONS BETWEEN Compton, Subsection 3 AND Palos Verdes, Subsection 14	12.97	20.78	12.97	00.34
+019842	00.24	2.40604E-7	Inversion Src #19842; 16 SECTIONS BETWEEN Compton, Subsection 4 AND Newport-Inglewood alt 1, Subsection 1	07.73	07.58	08.26	00.00
+003241	00.24	2.3748397E-7	Inversion Src #3241; 11 SECTIONS BETWEEN Compton, Subsection 0 AND Newport-Inglewood alt 1, Subsection 8	07.73	07.58	08.26	07.13
+012424	00.23	2.3675643E-7	Inversion Src #12424; 8 SECTIONS BETWEEN San Pedro Basin, Subsection 10 AND Palos Verdes, Subsection 13	11.21	30.07	11.21	00.00
+026099	00.23	2.356112E-7	Inversion Src #26099; 13 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 2 AND Palos Verdes, Subsection 13	07.73	07.58	08.26	00.00
+068829	00.23	2.3527375E-7	Inversion Src #68829; 6 SECTIONS BETWEEN Puente Hills, Subsection 4 AND Anaheim, Subsection 2	07.25	-04.34	07.25	04.35
+077043	00.23	2.3504778E-7	Inversion Src #77043; 1 SECTIONS BETWEEN Compton, Subsection 2 AND Compton, Subsection 2	12.95	20.39	12.95	00.00
+027210	00.23	2.3372779E-7	Inversion Src #27210; 13 SECTIONS BETWEEN Elysian Park (Upper), Subsection 2 AND Anaheim, Subsection 2	07.25	-04.34	07.25	04.35
+035781	00.23	2.319434E-7	Inversion Src #35781; 9 SECTIONS BETWEEN San Pedro Basin, Subsection 10 AND Palos Verdes, Subsection 13	12.97	20.78	12.97	00.34
+015474	00.23	2.3105365E-7	Inversion Src #15474; 7 SECTIONS BETWEEN San Vicente, Subsection 1 AND San Pedro Escarpment, Subsection 0	09.04	-04.51	09.04	00.00
+049713	00.23	2.2961605E-7	Inversion Src #49713; 13 SECTIONS BETWEEN Whittier alt 1, Subsection 2 AND Palos Verdes, Subsection 15	07.25	-04.34	07.25	04.35
+036249	00.23	2.2848197E-7	Inversion Src #36249; 14 SECTIONS BETWEEN Puente Hills, Subsection 0 AND Newport-Inglewood alt 1, Subsection 3	07.25	-04.34	07.25	04.35
+064440	00.23	2.2789274E-7	Inversion Src #64440; 13 SECTIONS BETWEEN Puente Hills, Subsection 4 AND Whittier alt 1, Subsection 0	07.25	-04.34	07.25	04.35
+032143	00.23	2.2780597E-7	Inversion Src #32143; 7 SECTIONS BETWEEN San Pedro Escarpment, Subsection 1 AND Palos Verdes, Subsection 12	12.97	20.78	12.97	00.34
+006290	00.22	2.2264676E-7	Inversion Src #6290; 8 SECTIONS BETWEEN Puente Hills, Subsection 0 AND Newport-Inglewood alt 1, Subsection 8	07.25	-04.34	07.25	04.35
+022967	00.22	2.2214948E-7	Inversion Src #22967; 20 SECTIONS BETWEEN Whittier alt 1, Subsection 2 AND Hollywood, Subsection 0	07.25	-04.34	07.25	04.35
+056126	00.22	2.216467E-7	Inversion Src #56126; 12 SECTIONS BETWEEN Compton, Subsection 4 AND Palos Verdes, Subsection 6	12.97	20.78	12.97	00.34
+054961	00.22	2.2067525E-7	Inversion Src #54961; 8 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 7 AND Palos Verdes, Subsection 11	07.91	07.64	08.43	00.00
+051251	00.22	2.1975967E-7	Inversion Src #51251; 13 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 4 AND Redondo Canyon alt 1, Subsection 0	07.73	07.58	08.26	00.00
+082890	00.22	2.1918471E-7	Inversion Src #82890; 10 SECTIONS BETWEEN Puente Hills, Subsection 4 AND Anaheim, Subsection 1	07.25	-04.34	07.25	04.35
+074399	00.22	2.1912324E-7	Inversion Src #74399; 10 SECTIONS BETWEEN Puente Hills, Subsection 4 AND Whittier alt 1, Subsection 4	07.25	-04.34	07.25	04.35
+002934	00.22	2.1762202E-7	Inversion Src #2934; 15 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 8 AND Peralta Hills, Subsection 1	07.25	-04.34	07.25	04.35
+084205	00.21	2.1709478E-7	Inversion Src #84205; 9 SECTIONS BETWEEN Compton, Subsection 0 AND Newport-Inglewood alt 1, Subsection 8	07.73	07.58	08.26	07.13
+020763	00.21	2.1668008E-7	Inversion Src #20763; 9 SECTIONS BETWEEN Puente Hills, Subsection 0 AND Raymond, Subsection 2	07.25	-04.34	07.25	04.35
+072393	00.21	2.1658681E-7	Inversion Src #72393; 7 SECTIONS BETWEEN Anaheim, Subsection 2 AND Raymond, Subsection 2	07.25	-04.34	07.25	04.35
+041035	00.21	2.1566994E-7	Inversion Src #41035; 75 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 1 AND San Andreas (San Bernardino N), Subsection 2	11.21	30.07	11.21	00.00
+062085	00.21	2.1496854E-7	Inversion Src #62085; 9 SECTIONS BETWEEN San Pedro Escarpment, Subsection 0 AND Palos Verdes, Subsection 15	11.21	30.07	11.21	00.00
+011439	00.21	2.1361411E-7	Inversion Src #11439; 14 SECTIONS BETWEEN Puente Hills, Subsection 0 AND Palos Verdes, Subsection 13	07.25	-04.34	07.25	04.35
+030803	00.21	2.1350093E-7	Inversion Src #30803; 10 SECTIONS BETWEEN Puente Hills, Subsection 4 AND Anaheim, Subsection 2	07.25	-04.34	07.25	04.35

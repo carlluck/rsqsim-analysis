@@ -1,0 +1,231 @@
+Mean/Mode Metadata :
+
+
+  Mbar = 7.1551785
+  Dbar = 12.919812
+  Ebar = 1.239764
+
+  7.4 ≤ Mmode < 7.6
+  10.0 ≤ Dmode < 20.0
+1.0 < Emode <= 2.0
+
+Disaggregation Plot Parameters Info :
+Custom disagg
+
+Disaggregation Bin Data :
+Dist	Mag	E≤-2	-2<E≤-1	-1<E≤-0.5	 -0.5>E≤0	 0<E≤0.5	 0.5<E≤1	 1<E≤2	 2>E 
+-----	----	------	------	-------	-------	-------	-------	-------	------
+005.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 01.59 	 00.00 	 00.78 	 00.00 	 02.38
+005.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 03.02 	 02.41 	 01.22 	 00.00 	 06.65
+005.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.96 	 05.27 	 05.45 	 01.17 	 00.00 	 12.85
+005.00 	 7.10 	 00.00 	 00.00 	 00.00 	 03.05 	 00.34 	 05.94 	 00.28 	 00.00 	 09.61
+005.00 	 7.30 	 00.00 	 00.00 	 00.00 	 01.59 	 00.37 	 06.55 	 00.00 	 00.00 	 08.51
+005.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 09.73 	 00.07 	 00.00 	 09.80
+005.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.00 	 00.00 	 00.00 	 01.00
+005.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.22 	 00.00 	 00.00 	 00.22
+005.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.85 	 00.67 	 01.52
+015.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.07 	 00.48 	 02.55
+015.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.21 	 00.04 	 03.24
+015.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.51 	 00.03 	 02.54
+015.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.61 	 00.02 	 03.63
+015.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 11.47 	 00.00 	 11.47
+015.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.64 	 00.00 	 00.64
+015.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.43 	 00.00 	 00.43
+015.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.15 	 00.15
+025.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.72 	 00.72
+025.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.28 	 02.28
+025.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 04.28 	 04.28
+025.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.00 	 08.59 	 10.58
+025.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.38 	 01.01 	 02.40
+025.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.12 	 00.02 	 00.14
+025.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.30 	 00.11 	 00.41
+025.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.10 	 00.10
+035.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.14 	 00.14
+035.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.10 	 00.10
+035.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.22 	 00.22
+035.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.22 	 00.22
+035.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.07
+035.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+035.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+035.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.06 	 00.06
+045.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.12 	 00.12
+045.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.23 	 00.23
+045.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.12 	 00.12
+045.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+045.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+045.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+045.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+055.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+055.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.07
+055.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.12 	 00.12
+055.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+055.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+055.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+055.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+065.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+065.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+065.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+075.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+075.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+085.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+085.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+
+
+Disaggregation Source List Info:
+Source#	% Contribution	TotExceedRate	SourceName	DistRup	DistX	DistSeis	DistJB
+033813	00.27	1.0812131E-6	Inversion Src #33813; 6 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 1 AND Zayante-Vergeles 2011 CFM, Subsection 6	08.44	14.68	08.44	00.00
+044073	00.27	1.0763661E-6	Inversion Src #44073; 6 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 1 AND Zayante-Vergeles 2011 CFM, Subsection 6	08.44	14.68	08.44	00.00
+079700	00.27	1.0693245E-6	Inversion Src #79700; 5 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 6	08.44	14.68	08.44	00.00
+059325	00.27	1.0678648E-6	Inversion Src #59325; 6 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Calaveras (So) 2011 CFM, Subsection 5	08.44	14.68	08.44	00.00
+075369	00.26	1.0623728E-6	Inversion Src #75369; 4 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 3 AND Zayante-Vergeles 2011 CFM, Subsection 6	08.44	14.68	08.44	00.00
+037734	00.26	1.0573251E-6	Inversion Src #37734; 5 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 6	08.44	14.68	08.44	00.00
+077565	00.26	1.0419856E-6	Inversion Src #77565; 5 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 6	08.44	14.68	08.44	00.00
+082875	00.26	1.0408439E-6	Inversion Src #82875; 4 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 1 AND Zayante-Vergeles 2011 CFM, Subsection 4	08.44	14.68	08.44	00.00
+007557	00.26	1.0397615E-6	Inversion Src #7557; 4 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 3 AND Zayante-Vergeles 2011 CFM, Subsection 6	08.44	14.68	08.44	00.00
+071398	00.26	1.0356243E-6	Inversion Src #71398; 4 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 3 AND Zayante-Vergeles 2011 CFM, Subsection 6	08.44	14.68	08.44	00.00
+004204	00.26	1.029695E-6	Inversion Src #4204; 4 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 5	08.44	14.68	08.44	00.00
+055419	00.26	1.0270375E-6	Inversion Src #55419; 4 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 3 AND Zayante-Vergeles 2011 CFM, Subsection 6	08.44	14.68	08.44	00.00
+048259	00.25	1.024884E-6	Inversion Src #48259; 3 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 1 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+019320	00.25	1.0211091E-6	Inversion Src #19320; 3 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 1 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+020387	00.25	1.0209529E-6	Inversion Src #20387; 4 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 3 AND Zayante-Vergeles 2011 CFM, Subsection 6	08.44	14.68	08.44	00.00
+069097	00.25	1.012934E-6	Inversion Src #69097; 3 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 1 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+052284	00.25	1.0048084E-6	Inversion Src #52284; 3 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 1 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+013680	00.25	9.903403E-7	Inversion Src #13680; 3 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 4	08.44	14.68	08.44	00.00
+085676	00.24	9.826109E-7	Inversion Src #85676; 3 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 4	08.44	14.68	08.44	00.00
+031574	00.24	9.703047E-7	Inversion Src #31574; 2 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+072864	00.24	9.657577E-7	Inversion Src #72864; 2 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+062402	00.24	9.601822E-7	Inversion Src #62402; 2 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+057204	00.24	9.587303E-7	Inversion Src #57204; 2 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+050667	00.24	9.584637E-7	Inversion Src #50667; 2 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+054572	00.24	9.548373E-7	Inversion Src #54572; 2 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+021946	00.24	9.527643E-7	Inversion Src #21946; 3 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 4	08.44	14.68	08.44	00.00
+039284	00.24	9.491608E-7	Inversion Src #39284; 2 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+074627	00.24	9.479324E-7	Inversion Src #74627; 2 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+046598	00.24	9.4732957E-7	Inversion Src #46598; 2 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+029220	00.23	9.38287E-7	Inversion Src #29220; 2 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+000905	00.23	9.3735645E-7	Inversion Src #905; 2 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+015190	00.23	9.3198514E-7	Inversion Src #15190; 3 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 4	08.44	14.68	08.44	00.00
+008898	00.23	9.304169E-7	Inversion Src #8898; 2 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+036464	00.23	9.28683E-7	Inversion Src #36464; 2 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+042231	00.23	9.285223E-7	Inversion Src #42231; 2 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+081193	00.23	9.2687065E-7	Inversion Src #81193; 2 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+006570	00.23	9.237101E-7	Inversion Src #6570; 2 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+060877	00.23	9.2346323E-7	Inversion Src #60877; 2 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+025128	00.23	9.2128465E-7	Inversion Src #25128; 2 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+040666	00.23	9.210324E-7	Inversion Src #40666; 2 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+012230	00.23	9.2080137E-7	Inversion Src #12230; 2 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+079090	00.23	9.172899E-7	Inversion Src #79090; 2 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+017795	00.23	9.139047E-7	Inversion Src #17795; 2 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+045700	00.22	9.0423134E-7	Inversion Src #45700; 2 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+041487	00.22	9.0340296E-7	Inversion Src #41487; 1 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 3 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+070464	00.22	9.032827E-7	Inversion Src #70464; 2 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+065542	00.22	9.002351E-7	Inversion Src #65542; 2 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+005631	00.22	8.751654E-7	Inversion Src #5631; 1 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 3 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+058556	00.22	8.691544E-7	Inversion Src #58556; 1 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 3 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+087224	00.21	8.6533595E-7	Inversion Src #87224; 2 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+084211	00.21	8.6439053E-7	Inversion Src #84211; 2 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+040667	00.21	8.6203283E-7	Inversion Src #40667; 2 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 1 AND Zayante-Vergeles 2011 CFM, Subsection 2	08.69	15.17	08.69	01.40
+049891	00.21	8.444282E-7	Inversion Src #49891; 1 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 3 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+030715	00.21	8.439251E-7	Inversion Src #30715; 1 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 3 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+009763	00.21	8.3845265E-7	Inversion Src #9763; 1 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 3 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+032363	00.21	8.343631E-7	Inversion Src #32363; 1 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 3 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+077092	00.21	8.3393945E-7	Inversion Src #77092; 2 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 1 AND Zayante-Vergeles 2011 CFM, Subsection 2	08.69	15.17	08.69	01.40
+063191	00.20	8.186935E-7	Inversion Src #63191; 1 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 3 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+066511	00.20	8.152029E-7	Inversion Src #66511; 1 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 3 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+001718	00.20	8.084631E-7	Inversion Src #1718; 1 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 3 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+028362	00.20	8.0303016E-7	Inversion Src #28362; 1 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 3 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+018572	00.20	8.014313E-7	Inversion Src #18572; 1 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 3 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+072051	00.20	7.942056E-7	Inversion Src #72051; 1 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 3 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+027424	00.20	7.941215E-7	Inversion Src #27424; 3 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 18 AND Zayante-Vergeles 2011 CFM, Subsection 2	08.69	15.17	08.69	01.40
+049036	00.20	7.917968E-7	Inversion Src #49036; 1 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 3 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+076187	00.20	7.9084515E-7	Inversion Src #76187; 1 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 2 AND Zayante-Vergeles 2011 CFM, Subsection 2	08.69	15.17	08.69	01.40
+053084	00.20	7.8745825E-7	Inversion Src #53084; 1 SECTIONS BETWEEN Zayante-Vergeles 2011 CFM, Subsection 3 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+010556	00.19	7.7951506E-7	Inversion Src #10556; 6 SECTIONS BETWEEN Sargent 2011 CFM, Subsection 0 AND Zayante-Vergeles 2011 CFM, Subsection 6	08.44	14.68	08.44	00.00
+064012	00.17	7.0379133E-7	Inversion Src #64012; 13 SECTIONS BETWEEN Calaveras (Central) 2011 CFM, Subsection 3 AND Zayante-Vergeles 2011 CFM, Subsection 6	08.44	14.68	08.44	00.00
+053375	00.17	6.929548E-7	Inversion Src #53375; 5 SECTIONS BETWEEN Calaveras (Central) 2011 CFM, Subsection 1 AND Zayante-Vergeles 2011 CFM, Subsection 3	08.44	14.68	08.44	00.00
+027178	00.17	6.6549785E-7	Inversion Src #27178; 5 SECTIONS BETWEEN San Gregorio (South) 2011 CFM, Subsection 12 AND Zayante-Vergeles 2011 CFM, Subsection 2	08.44	14.68	08.44	00.00
+005888	00.14	5.547541E-7	Inversion Src #5888; 24 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 6 AND Zayante-Vergeles 2011 CFM, Subsection 2	08.69	15.17	08.69	01.40
+067425	00.13	5.319731E-7	Inversion Src #67425; 4 SECTIONS BETWEEN Sargent 2011 CFM, Subsection 0 AND Zayante-Vergeles 2011 CFM, Subsection 4	08.44	14.68	08.44	00.00
+016121	00.13	5.316902E-7	Inversion Src #16121; 4 SECTIONS BETWEEN San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 3 AND Zayante-Vergeles 2011 CFM, Subsection 2	08.44	14.68	08.44	00.00
+023637	00.13	5.2020596E-7	Inversion Src #23637; 21 SECTIONS BETWEEN San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 4 AND Pilarcitos 2011 CFM, Subsection 5	08.44	14.68	08.44	00.00
+002595	00.13	5.0784735E-7	Inversion Src #2595; 12 SECTIONS BETWEEN San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 6 AND San Andreas (Peninsula) 2011 CFM, Subsection 5	08.44	14.68	08.44	00.00
+072130	00.12	4.9533355E-7	Inversion Src #72130; 21 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 0 AND Zayante-Vergeles 2011 CFM, Subsection 2	08.69	15.17	08.69	01.40
+082057	00.12	4.9127686E-7	Inversion Src #82057; 19 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 7 AND Zayante-Vergeles 2011 CFM, Subsection 2	08.69	15.17	08.69	01.40
+040056	00.12	4.829315E-7	Inversion Src #40056; 39 SECTIONS BETWEEN Great Valley 07 (Orestimba), Subsection 0 AND Reliz 2011 CFM, Subsection 1	07.37	-06.21	09.42	07.29
+068550	00.12	4.6587897E-7	Inversion Src #68550; 36 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 2 AND Hosgri, Subsection 26	06.08	-05.98	08.30	05.98
+000281	00.11	4.618563E-7	Inversion Src #281; 31 SECTIONS BETWEEN San Gregorio (South) 2011 CFM, Subsection 0 AND Monterey Bay-Tularcitos, Subsection 11	06.08	-05.98	08.30	05.98
+032957	00.11	4.6135403E-7	Inversion Src #32957; 28 SECTIONS BETWEEN Ortigalita (North), Subsection 4 AND Monterey Bay-Tularcitos, Subsection 2	06.08	-05.98	07.60	05.98
+085529	00.11	4.6062E-7	Inversion Src #85529; 41 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 0 AND Rinconada 2011 CFM, Subsection 20	06.08	-05.98	08.30	05.98
+047470	00.11	4.5842575E-7	Inversion Src #47470; 37 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 14 AND San Andreas (Peninsula) 2011 CFM, Subsection 4	06.08	-05.98	07.60	05.98
+059422	00.11	4.5458066E-7	Inversion Src #59422; 30 SECTIONS BETWEEN San Gregorio (South) 2011 CFM, Subsection 0 AND Reliz 2011 CFM, Subsection 1	06.08	-05.98	08.30	05.98
+016164	00.11	4.5426043E-7	Inversion Src #16164; 28 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 1 AND San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 7	06.08	-05.98	07.60	05.98
+062509	00.11	4.5388737E-7	Inversion Src #62509; 23 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 1 AND Monterey Bay-Tularcitos, Subsection 0	06.08	-05.98	07.60	05.98
+035424	00.11	4.5332908E-7	Inversion Src #35424; 26 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 0 AND Monterey Bay-Tularcitos, Subsection 0	06.08	-05.98	07.60	05.98
+025937	00.11	4.523661E-7	Inversion Src #25937; 26 SECTIONS BETWEEN Sargent 2011 CFM, Subsection 0 AND Reliz 2011 CFM, Subsection 15	06.08	-05.98	07.60	05.98
+073120	00.11	4.5194216E-7	Inversion Src #73120; 23 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 19 AND Monterey Bay-Tularcitos, Subsection 12	07.12	06.97	07.60	06.98
+057376	00.11	4.5111932E-7	Inversion Src #57376; 25 SECTIONS BETWEEN San Gregorio (South) 2011 CFM, Subsection 0 AND Reliz 2011 CFM, Subsection 2	06.08	-05.98	08.30	05.98
+031532	00.11	4.484001E-7	Inversion Src #31532; 33 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 11 AND Monterey Bay-Tularcitos, Subsection 0	06.08	-05.98	08.30	05.98
+005780	00.11	4.4652938E-7	Inversion Src #5780; 23 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 19 AND Monterey Bay-Tularcitos, Subsection 9	06.08	-05.98	08.30	05.98
+021708	00.11	4.4566625E-7	Inversion Src #21708; 23 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 17 AND Monterey Bay-Tularcitos, Subsection 12	06.08	-05.98	07.60	05.98
+079865	00.11	4.454093E-7	Inversion Src #79865; 26 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 0 AND Monterey Bay-Tularcitos, Subsection 1	06.08	-05.98	07.60	05.98
+060915	00.11	4.4536583E-7	Inversion Src #60915; 21 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 0 AND Monterey Bay-Tularcitos, Subsection 2	06.08	-05.98	07.60	05.98
+054321	00.11	4.4518765E-7	Inversion Src #54321; 23 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 0 AND Monterey Bay-Tularcitos, Subsection 1	06.08	-05.98	07.60	05.98
+054748	00.11	4.448167E-7	Inversion Src #54748; 24 SECTIONS BETWEEN San Gregorio (South) 2011 CFM, Subsection 0 AND Monterey Bay-Tularcitos, Subsection 9	06.08	-05.98	08.30	05.98
+063017	00.11	4.446756E-7	Inversion Src #63017; 24 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 19 AND Monterey Bay-Tularcitos, Subsection 11	06.08	-05.98	08.30	05.98
+019740	00.11	4.4416925E-7	Inversion Src #19740; 22 SECTIONS BETWEEN Sargent 2011 CFM, Subsection 0 AND Monterey Bay-Tularcitos, Subsection 4	06.08	-05.98	07.60	05.98

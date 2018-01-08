@@ -1,0 +1,231 @@
+Mean/Mode Metadata :
+
+
+  Mbar = 7.5447364
+  Dbar = 20.52363
+  Ebar = 1.6901466
+
+  7.4 ≤ Mmode < 7.6
+  10.0 ≤ Dmode < 20.0
+1.0 < Emode <= 2.0
+
+Disaggregation Plot Parameters Info :
+Custom disagg
+
+Disaggregation Bin Data :
+Dist	Mag	E≤-2	-2<E≤-1	-1<E≤-0.5	 -0.5>E≤0	 0<E≤0.5	 0.5<E≤1	 1<E≤2	 2>E 
+-----	----	------	------	-------	-------	-------	-------	-------	------
+005.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.39 	 00.37 	 00.76
+015.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.07 	 00.33 	 02.40
+015.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.21 	 00.24 	 01.45
+015.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.09 	 00.00 	 00.09
+015.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.51 	 00.00 	 00.51
+015.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 27.79 	 00.00 	 27.79
+015.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 25.64 	 00.00 	 25.64
+015.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.87 	 00.00 	 03.87
+015.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.44 	 00.44
+025.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.24 	 01.24
+025.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 01.37 	 01.40
+025.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.93 	 01.21 	 02.14
+025.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 05.10 	 00.46 	 05.56
+025.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.79 	 00.47 	 03.26
+025.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 05.54 	 04.79 	 10.33
+025.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.24 	 00.03 	 03.27
+025.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.11 	 00.11
+035.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.23 	 00.23
+035.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.33 	 00.33
+035.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.21 	 00.21
+035.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.33 	 00.33
+035.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.67 	 00.67
+035.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 05.26 	 05.27
+035.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.66 	 01.66
+035.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+045.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+045.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+045.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.20 	 00.20
+045.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.15 	 00.15
+045.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.16 	 00.16
+045.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.11 	 00.11
+045.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+055.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.07
+055.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+055.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+065.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+065.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+065.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+065.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+075.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+075.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+085.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+085.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+
+
+Disaggregation Source List Info:
+Source#	% Contribution	TotExceedRate	SourceName	DistRup	DistX	DistSeis	DistJB
+028479	00.06	2.4332343E-7	Inversion Src #28479; 75 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 3 AND Fontana (Seismicity), Subsection 2	15.65	-15.56	16.31	15.57
+060812	00.06	2.3638255E-7	Inversion Src #60812; 58 SECTIONS BETWEEN Fontana (Seismicity), Subsection 0 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+068776	00.06	2.3625813E-7	Inversion Src #68776; 79 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 0 AND Fontana (Seismicity), Subsection 1	15.65	-15.56	16.31	15.57
+025239	00.06	2.3344595E-7	Inversion Src #25239; 64 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 0 AND Fontana (Seismicity), Subsection 2	15.66	-15.35	16.32	15.57
+040717	00.06	2.3148556E-7	Inversion Src #40717; 68 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 2 AND Fontana (Seismicity), Subsection 1	15.65	-15.56	16.31	15.57
+005600	00.06	2.304977E-7	Inversion Src #5600; 65 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 6 AND San Andreas (San Bernardino S), Subsection 0	15.65	-15.56	16.31	15.57
+031064	00.06	2.30452E-7	Inversion Src #31064; 51 SECTIONS BETWEEN San Andreas (San Bernardino S), Subsection 0 AND Anacapa-Dume alt 1, Subsection 0	15.65	-15.56	16.31	15.57
+084671	00.06	2.3023706E-7	Inversion Src #84671; 65 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 5 AND Fontana (Seismicity), Subsection 1	15.65	-15.56	16.31	15.57
+085470	00.06	2.2999754E-7	Inversion Src #85470; 55 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 4 AND San Cayetano, Subsection 0	15.65	-15.56	16.31	15.57
+073842	00.06	2.2938966E-7	Inversion Src #73842; 67 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 0 AND Fontana (Seismicity), Subsection 1	15.65	-15.56	16.31	15.57
+050596	00.06	2.2867323E-7	Inversion Src #50596; 65 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 6 AND Fontana (Seismicity), Subsection 2	15.66	-15.35	16.32	15.57
+022005	00.06	2.2748712E-7	Inversion Src #22005; 64 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 0 AND Fontana (Seismicity), Subsection 2	15.66	-15.35	16.32	15.57
+039873	00.06	2.2728435E-7	Inversion Src #39873; 54 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 5 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+034279	00.06	2.2725376E-7	Inversion Src #34279; 62 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 0 AND Fontana (Seismicity), Subsection 1	15.65	-15.56	16.31	15.57
+045262	00.06	2.2724794E-7	Inversion Src #45262; 60 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 0 AND San Andreas (Carrizo) rev, Subsection 6	15.65	-15.56	16.31	15.57
+030457	00.06	2.2713081E-7	Inversion Src #30457; 63 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 0 AND Fontana (Seismicity), Subsection 2	15.66	-15.35	16.32	15.57
+062204	00.06	2.2694786E-7	Inversion Src #62204; 71 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 0 AND Fontana (Seismicity), Subsection 1	15.65	-15.56	16.31	15.57
+017436	00.06	2.2593181E-7	Inversion Src #17436; 66 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 2 AND Fontana (Seismicity), Subsection 1	15.65	-15.56	16.31	15.57
+010159	00.06	2.25658E-7	Inversion Src #10159; 67 SECTIONS BETWEEN San Jacinto (Borrego), Subsection 4 AND San Andreas (Carrizo) rev, Subsection 5	16.25	16.24	16.52	16.24
+018582	00.06	2.2460593E-7	Inversion Src #18582; 60 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 7 AND Fontana (Seismicity), Subsection 1	15.65	-15.56	16.31	15.57
+057254	00.06	2.2383632E-7	Inversion Src #57254; 64 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 0 AND Fontana (Seismicity), Subsection 2	15.65	-15.56	16.31	15.57
+052221	00.06	2.2369386E-7	Inversion Src #52221; 64 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 0 AND San Andreas (San Bernardino S), Subsection 0	15.65	-15.56	16.31	15.57
+027161	00.06	2.2341688E-7	Inversion Src #27161; 60 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 0 AND Fontana (Seismicity), Subsection 1	15.65	-15.56	16.31	15.57
+061649	00.06	2.2311525E-7	Inversion Src #61649; 50 SECTIONS BETWEEN Fontana (Seismicity), Subsection 0 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+034539	00.06	2.2297607E-7	Inversion Src #34539; 61 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 0 AND Fontana (Seismicity), Subsection 1	15.65	-15.56	16.31	15.57
+004735	00.06	2.2095543E-7	Inversion Src #4735; 42 SECTIONS BETWEEN Fontana (Seismicity), Subsection 1 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+019349	00.05	2.1985413E-7	Inversion Src #19349; 51 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 4 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+001232	00.05	2.1776872E-7	Inversion Src #1232; 47 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 4 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+063294	00.05	2.1771383E-7	Inversion Src #63294; 61 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 0 AND Fontana (Seismicity), Subsection 1	15.65	-15.56	16.31	15.57
+006635	00.05	2.1587769E-7	Inversion Src #6635; 50 SECTIONS BETWEEN San Andreas (San Bernardino S), Subsection 1 AND San Andreas (Cholame) rev, Subsection 3	15.65	-15.56	16.31	15.57
+025081	00.05	2.1398012E-7	Inversion Src #25081; 42 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 5 AND Elsinore (Julian), Subsection 3	16.25	16.24	16.52	16.24
+039924	00.05	2.1365209E-7	Inversion Src #39924; 40 SECTIONS BETWEEN San Jacinto (Lytle Creek connector), Subsection 1 AND San Jacinto (Clark) rev, Subsection 2	16.25	16.24	16.52	16.24
+061331	00.05	2.1354167E-7	Inversion Src #61331; 44 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 5 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+076570	00.05	2.1337289E-7	Inversion Src #76570; 58 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 1 AND San Andreas (Carrizo) rev, Subsection 5	16.25	16.24	16.52	16.24
+065319	00.05	2.1313491E-7	Inversion Src #65319; 39 SECTIONS BETWEEN Fontana (Seismicity), Subsection 0 AND San Andreas (Carrizo) rev, Subsection 6	15.65	-15.56	16.31	15.57
+084932	00.05	2.1305519E-7	Inversion Src #84932; 53 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 5 AND San Andreas (Carrizo) rev, Subsection 2	15.65	-15.56	16.31	15.57
+063542	00.05	2.12183E-7	Inversion Src #63542; 44 SECTIONS BETWEEN Fontana (Seismicity), Subsection 0 AND San Andreas (Carrizo) rev, Subsection 5	15.66	-15.35	16.32	15.57
+083878	00.05	2.1103578E-7	Inversion Src #83878; 46 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 4 AND San Andreas (Carrizo) rev, Subsection 1	15.65	-15.56	16.31	15.57
+032307	00.05	2.1061544E-7	Inversion Src #32307; 42 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 3 AND Calico-Hidalgo, Subsection 6	16.25	16.24	16.52	16.24
+054117	00.05	2.104003E-7	Inversion Src #54117; 50 SECTIONS BETWEEN Fontana (Seismicity), Subsection 0 AND San Andreas (Cholame) rev, Subsection 9	15.65	-15.56	16.31	15.57
+012138	00.05	2.1034813E-7	Inversion Src #12138; 51 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 3 AND San Andreas (Big Bend), Subsection 4	16.25	16.24	16.52	16.24
+065040	00.05	2.1030584E-7	Inversion Src #65040; 41 SECTIONS BETWEEN Fontana (Seismicity), Subsection 0 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+070101	00.05	2.0934623E-7	Inversion Src #70101; 36 SECTIONS BETWEEN Fontana (Seismicity), Subsection 0 AND Pleito, Subsection 1	15.65	-15.56	16.31	15.57
+050640	00.05	2.0917591E-7	Inversion Src #50640; 43 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 4 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+080447	00.05	2.0891669E-7	Inversion Src #80447; 39 SECTIONS BETWEEN Elsinore (Julian), Subsection 0 AND Elsinore (Temecula) rev, Subsection 5	16.25	16.24	16.52	16.24
+067993	00.05	2.0887532E-7	Inversion Src #67993; 44 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 5 AND San Andreas (Big Bend), Subsection 0	15.65	-15.56	16.31	15.57
+053506	00.05	2.0868413E-7	Inversion Src #53506; 44 SECTIONS BETWEEN San Jacinto (San Bernardino), Subsection 2 AND San Andreas (Carrizo) rev, Subsection 4	15.65	-15.56	16.31	15.57
+082898	00.05	2.0854841E-7	Inversion Src #82898; 39 SECTIONS BETWEEN Fontana (Seismicity), Subsection 0 AND San Andreas (Big Bend), Subsection 5	15.65	-15.56	16.31	15.57
+035726	00.05	2.0850602E-7	Inversion Src #35726; 40 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 5 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+042825	00.05	2.0786015E-7	Inversion Src #42825; 40 SECTIONS BETWEEN Elsinore (Glen Ivy) rev, Subsection 1 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+015828	00.05	2.0762378E-7	Inversion Src #15828; 41 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 5 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+084394	00.05	2.072071E-7	Inversion Src #84394; 42 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 5 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+071419	00.05	2.0719457E-7	Inversion Src #71419; 37 SECTIONS BETWEEN Fontana (Seismicity), Subsection 0 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+024951	00.05	2.0681931E-7	Inversion Src #24951; 41 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 5 AND Santa Susana alt 1, Subsection 2	15.65	-15.56	16.31	15.57
+027433	00.05	2.0655087E-7	Inversion Src #27433; 41 SECTIONS BETWEEN Fontana (Seismicity), Subsection 0 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+075214	00.05	2.0617266E-7	Inversion Src #75214; 38 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 4 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+010356	00.05	2.0609986E-7	Inversion Src #10356; 39 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 5 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+015299	00.05	2.0608056E-7	Inversion Src #15299; 38 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 5 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+075776	00.05	2.0594383E-7	Inversion Src #75776; 40 SECTIONS BETWEEN Fontana (Seismicity), Subsection 0 AND San Andreas (Carrizo) rev, Subsection 4	15.65	-15.56	16.31	15.57
+000721	00.05	2.0584602E-7	Inversion Src #721; 35 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 5 AND San Andreas (Coachella) rev, Subsection 1	16.25	16.24	16.52	16.24
+067454	00.05	2.0504417E-7	Inversion Src #67454; 41 SECTIONS BETWEEN San Jacinto (San Bernardino), Subsection 2 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+054595	00.05	2.0476294E-7	Inversion Src #54595; 41 SECTIONS BETWEEN Fontana (Seismicity), Subsection 0 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+048505	00.05	2.047043E-7	Inversion Src #48505; 44 SECTIONS BETWEEN Laguna Salada, Subsection 13 AND San Andreas (San Bernardino S), Subsection 0	16.25	16.24	16.52	16.24
+065426	00.05	2.0451417E-7	Inversion Src #65426; 50 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 4 AND San Andreas (Cholame) rev, Subsection 5	15.66	-15.35	16.32	15.57
+037441	00.05	2.0446456E-7	Inversion Src #37441; 36 SECTIONS BETWEEN San Jacinto (San Bernardino), Subsection 2 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+041281	00.05	2.0445229E-7	Inversion Src #41281; 41 SECTIONS BETWEEN Fontana (Seismicity), Subsection 1 AND San Andreas (Carrizo) rev, Subsection 6	15.65	-15.56	16.31	15.57
+081894	00.05	2.0418648E-7	Inversion Src #81894; 38 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 5 AND San Andreas (Carrizo) rev, Subsection 6	15.65	-15.56	16.31	15.57
+058919	00.05	2.0417858E-7	Inversion Src #58919; 34 SECTIONS BETWEEN Fontana (Seismicity), Subsection 2 AND San Andreas (Carrizo) rev, Subsection 5	15.66	-15.35	16.32	15.57
+066442	00.05	2.0417242E-7	Inversion Src #66442; 39 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 1 AND Pinto Mtn, Subsection 7	16.25	16.24	16.52	16.24
+013592	00.05	2.0407403E-7	Inversion Src #13592; 36 SECTIONS BETWEEN San Jacinto (Borrego), Subsection 3 AND Elsinore (Julian), Subsection 2	16.25	16.24	16.52	16.24
+027936	00.05	2.0370747E-7	Inversion Src #27936; 38 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 4 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+051906	00.05	2.0353521E-7	Inversion Src #51906; 37 SECTIONS BETWEEN Fontana (Seismicity), Subsection 0 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+009493	00.05	2.0343255E-7	Inversion Src #9493; 44 SECTIONS BETWEEN Fontana (Seismicity), Subsection 1 AND San Andreas (Cholame) rev, Subsection 3	15.65	-15.56	16.31	15.57
+072785	00.05	2.0290507E-7	Inversion Src #72785; 37 SECTIONS BETWEEN Fontana (Seismicity), Subsection 0 AND Garlock (West), Subsection 8	15.65	-15.56	16.31	15.57
+042556	00.05	2.02873E-7	Inversion Src #42556; 46 SECTIONS BETWEEN Fontana (Seismicity), Subsection 0 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+052990	00.05	2.0274733E-7	Inversion Src #52990; 34 SECTIONS BETWEEN Elsinore (Julian), Subsection 0 AND Elsinore (Temecula) rev, Subsection 5	16.25	16.24	16.52	16.24
+016365	00.05	2.0268922E-7	Inversion Src #16365; 36 SECTIONS BETWEEN Fontana (Seismicity), Subsection 0 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+068238	00.05	2.026278E-7	Inversion Src #68238; 36 SECTIONS BETWEEN Fontana (Seismicity), Subsection 0 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+056099	00.05	2.0244259E-7	Inversion Src #56099; 41 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 5 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+046700	00.05	2.0233102E-7	Inversion Src #46700; 37 SECTIONS BETWEEN San Jacinto (San Bernardino), Subsection 2 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+085739	00.05	2.0210626E-7	Inversion Src #85739; 39 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 5 AND San Andreas (Carrizo) rev, Subsection 6	15.65	-15.56	16.31	15.57
+026055	00.05	2.0199838E-7	Inversion Src #26055; 40 SECTIONS BETWEEN Fontana (Seismicity), Subsection 0 AND San Andreas (Carrizo) rev, Subsection 3	15.65	-15.56	16.31	15.57
+060577	00.05	2.0190491E-7	Inversion Src #60577; 39 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 5 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+069243	00.05	2.0180502E-7	Inversion Src #69243; 42 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 5 AND Pinto Mtn, Subsection 1	16.25	16.24	16.52	16.24
+053791	00.05	2.0165918E-7	Inversion Src #53791; 42 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 4 AND San Andreas (Carrizo) rev, Subsection 1	15.65	-15.56	16.31	15.57
+035143	00.05	2.016227E-7	Inversion Src #35143; 38 SECTIONS BETWEEN San Jacinto (San Bernardino), Subsection 2 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+058591	00.05	2.0162021E-7	Inversion Src #58591; 30 SECTIONS BETWEEN Earthquake Valley (So Extension), Subsection 1 AND San Jacinto (San Bernardino), Subsection 3	16.25	16.24	16.52	16.24
+029505	00.05	2.0052472E-7	Inversion Src #29505; 30 SECTIONS BETWEEN Earthquake Valley (So Extension), Subsection 1 AND San Jacinto (San Bernardino), Subsection 3	16.25	16.24	16.52	16.24
+021652	00.05	2.0046141E-7	Inversion Src #21652; 28 SECTIONS BETWEEN Elsinore (Julian), Subsection 0 AND San Jacinto (San Bernardino), Subsection 3	16.25	16.24	16.52	16.24
+010941	00.05	2.004204E-7	Inversion Src #10941; 35 SECTIONS BETWEEN Fontana (Seismicity), Subsection 0 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+046992	00.05	2.0021487E-7	Inversion Src #46992; 41 SECTIONS BETWEEN San Andreas (San Bernardino S), Subsection 1 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+059640	00.05	2.0000866E-7	Inversion Src #59640; 32 SECTIONS BETWEEN San Andreas (North Branch Mill Creek), Subsection 0 AND Elsinore (Coyote Mountains), Subsection 5	16.25	16.24	16.52	16.24
+059388	00.05	1.9995863E-7	Inversion Src #59388; 38 SECTIONS BETWEEN Fontana (Seismicity), Subsection 0 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+073806	00.05	1.9994367E-7	Inversion Src #73806; 37 SECTIONS BETWEEN Fontana (Seismicity), Subsection 1 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+002212	00.05	1.9984883E-7	Inversion Src #2212; 41 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 5 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+045466	00.05	1.9974307E-7	Inversion Src #45466; 37 SECTIONS BETWEEN San Jacinto (San Bernardino), Subsection 3 AND San Andreas (Big Bend), Subsection 5	15.65	-15.56	16.31	15.57
+039631	00.05	1.9966019E-7	Inversion Src #39631; 41 SECTIONS BETWEEN San Andreas (San Bernardino S), Subsection 1 AND San Andreas (Carrizo) rev, Subsection 5	15.65	-15.56	16.31	15.57
+053007	00.05	1.9943832E-7	Inversion Src #53007; 37 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 5 AND San Andreas (Big Bend), Subsection 1	15.65	-15.56	16.31	15.57
+072266	00.05	1.9918164E-7	Inversion Src #72266; 36 SECTIONS BETWEEN San Andreas (San Bernardino S), Subsection 1 AND San Andreas (Big Bend), Subsection 1	15.65	-15.56	16.31	15.57
+081348	00.05	1.9918077E-7	Inversion Src #81348; 37 SECTIONS BETWEEN San Jacinto (Borrego), Subsection 3 AND San Jacinto (Lytle Creek connector), Subsection 0	16.25	16.24	16.52	16.24

@@ -1,0 +1,231 @@
+Mean/Mode Metadata :
+
+
+  Mbar = 7.8495693
+  Dbar = 16.136337
+  Ebar = 2.2726855
+
+  8.2 ≤ Mmode < 8.4
+  10.0 ≤ Dmode < 20.0
+1.0 < Emode <= 2.0
+
+Disaggregation Plot Parameters Info :
+Custom disagg
+
+Disaggregation Bin Data :
+Dist	Mag	E≤-2	-2<E≤-1	-1<E≤-0.5	 -0.5>E≤0	 0<E≤0.5	 0.5<E≤1	 1<E≤2	 2>E 
+-----	----	------	------	-------	-------	-------	-------	-------	------
+005.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+005.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.52 	 00.52
+005.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.55 	 01.55
+005.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.99 	 01.03
+005.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.32 	 02.43 	 02.75
+005.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.53 	 07.42 	 07.95
+005.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.17 	 10.23 	 10.40
+005.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.79 	 00.00 	 00.79
+005.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.62 	 00.00 	 02.62
+005.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.07
+015.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.31 	 00.31
+015.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.52 	 00.52
+015.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.71 	 02.71
+015.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 06.67 	 06.67
+015.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.80 	 03.80
+015.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.81 	 03.81
+015.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.67 	 06.87 	 07.54
+015.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.70 	 09.85 	 13.55
+015.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 16.47 	 12.08 	 28.55
+025.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+025.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+025.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.20 	 00.20
+025.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.26 	 00.26
+025.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.06 	 00.06
+025.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.15 	 00.15
+025.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.82 	 00.82
+025.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.43 	 01.43
+025.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+035.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+035.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+035.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+035.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.20 	 00.20
+035.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.36 	 00.36
+035.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+045.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.26 	 00.26
+045.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.37 	 00.37
+045.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.20 	 00.20
+045.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.08 	 00.08
+055.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.06 	 00.06
+055.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+065.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+065.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+075.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+075.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+075.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+085.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+095.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+
+
+Disaggregation Source List Info:
+Source#	% Contribution	TotExceedRate	SourceName	DistRup	DistX	DistSeis	DistJB
+084443	00.74	7.4508444E-7	Inversion Src #85295; 29 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 5 AND Calaveras (No) 2011 CFM, Subsection 0	12.34	-12.23	13.44	11.99
+085490	00.63	6.2812705E-7	Inversion Src #86348; 32 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 8 AND Calaveras (No) 2011 CFM, Subsection 0	12.34	-12.23	13.44	11.99
+164850	00.59	5.9509114E-7	Inversion Src #166727; 179 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 20 AND San Jacinto (Clark) rev, Subsection 5	19.60	19.60	19.83	19.60
+164338	00.59	5.881031E-7	Inversion Src #166212; 178 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 19 AND San Jacinto (Clark) rev, Subsection 5	19.60	19.60	19.83	19.60
+163828	00.57	5.7242653E-7	Inversion Src #165699; 177 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 18 AND San Jacinto (Clark) rev, Subsection 5	19.60	19.60	19.83	19.60
+099826	00.55	5.494981E-7	Inversion Src #101102; 32 SECTIONS BETWEEN Hayward (So) 2011 CFM, Subsection 0 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 13	09.96	-09.93	11.13	09.93
+084868	00.54	5.4331474E-7	Inversion Src #85723; 30 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 6 AND Calaveras (No) 2011 CFM, Subsection 0	12.34	-12.23	13.44	11.99
+085887	00.47	4.709589E-7	Inversion Src #86751; 46 SECTIONS BETWEEN Calaveras (So) 2011 CFM, Subsection 0 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 12	09.96	-09.93	11.13	09.93
+085785	00.44	4.4659384E-7	Inversion Src #86649; 23 SECTIONS BETWEEN Calaveras (So) 2011 CFM, Subsection 0 AND Calaveras (No) 2011 CFM, Subsection 0	12.34	-12.23	13.44	11.99
+084437	00.41	4.1412105E-7	Inversion Src #85289; 22 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 5 AND Calaveras (Central) 2011 CFM, Subsection 9	12.34	-12.23	13.44	12.31
+084018	00.41	4.128543E-7	Inversion Src #84866; 28 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 4 AND Calaveras (No) 2011 CFM, Subsection 0	12.34	-12.23	13.44	11.99
+099803	00.39	3.9593704E-7	Inversion Src #101079; 7 SECTIONS BETWEEN Hayward (So) 2011 CFM, Subsection 0 AND Hayward (So) 2011 CFM, Subsection 6	09.96	-09.93	11.13	09.93
+166636	00.33	3.3211927E-7	Inversion Src #168526; 182 SECTIONS BETWEEN Mendocino, Subsection 1 AND San Jacinto (Clark) rev, Subsection 3	19.60	19.60	19.83	19.60
+049791	00.32	3.2570128E-7	Inversion Src #50478; 34 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 9 AND Calaveras (No) 2011 CFM, Subsection 0	12.34	-12.23	13.44	11.99
+050979	00.32	3.193074E-7	Inversion Src #51681; 33 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 10 AND Calaveras (No) 2011 CFM, Subsection 0	12.34	-12.23	13.44	11.99
+082706	00.30	2.9829445E-7	Inversion Src #83541; 25 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 1 AND Calaveras (No) 2011 CFM, Subsection 0	12.34	-12.23	13.44	11.99
+085888	00.30	2.979184E-7	Inversion Src #86752; 47 SECTIONS BETWEEN Calaveras (So) 2011 CFM, Subsection 0 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 13	09.96	-09.93	11.13	09.93
+165785	00.29	2.91552E-7	Inversion Src #167667; 180 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 22 AND San Jacinto (Clark) rev, Subsection 4	19.60	19.60	19.83	19.60
+085484	00.29	2.899504E-7	Inversion Src #86342; 25 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 8 AND Calaveras (Central) 2011 CFM, Subsection 9	12.34	-12.23	13.44	12.31
+086239	00.29	2.8861842E-7	Inversion Src #87109; 46 SECTIONS BETWEEN Calaveras (So) 2011 CFM, Subsection 1 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 13	09.96	-09.93	11.13	09.93
+090380	00.29	2.8797254E-7	Inversion Src #91327; 34 SECTIONS BETWEEN Calaveras (Central) 2011 CFM, Subsection 7 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 13	09.96	-09.93	11.13	09.93
+166635	00.28	2.8015654E-7	Inversion Src #168525; 181 SECTIONS BETWEEN Mendocino, Subsection 1 AND San Jacinto (Clark) rev, Subsection 2	19.60	19.60	19.83	19.60
+084545	00.28	2.7662756E-7	Inversion Src #85397; 53 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 5 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 13	09.96	-09.93	11.13	09.93
+090355	00.27	2.7389638E-7	Inversion Src #91302; 7 SECTIONS BETWEEN Calaveras (Central) 2011 CFM, Subsection 7 AND Hayward (So) 2011 CFM, Subsection 4	09.96	-09.93	11.13	09.93
+086588	00.27	2.735772E-7	Inversion Src #87468; 45 SECTIONS BETWEEN Calaveras (So) 2011 CFM, Subsection 2 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 13	09.96	-09.93	11.13	09.93
+048602	00.27	2.723182E-7	Inversion Src #49274; 35 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 8 AND Calaveras (No) 2011 CFM, Subsection 0	12.34	-12.23	13.44	11.99
+086136	00.27	2.6689986E-7	Inversion Src #87006; 22 SECTIONS BETWEEN Calaveras (So) 2011 CFM, Subsection 1 AND Calaveras (No) 2011 CFM, Subsection 0	12.34	-12.23	13.44	11.99
+233292	00.26	2.61361E-7	Inversion Src #237520; 168 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 5 AND San Andreas (Offshore) 2011 CFM, Subsection 9	19.60	19.60	19.83	19.60
+082805	00.26	2.6011142E-7	Inversion Src #83640; 46 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 1 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 10	09.96	-09.93	11.13	09.93
+084541	00.25	2.4718105E-7	Inversion Src #85393; 49 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 5 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 9	09.96	-09.93	11.13	09.93
+233298	00.24	2.4495444E-7	Inversion Src #237526; 174 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 5 AND San Andreas (Offshore) 2011 CFM, Subsection 15	19.60	19.60	19.83	19.60
+165348	00.24	2.3881626E-7	Inversion Src #167228; 179 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 21 AND San Jacinto (Clark) rev, Subsection 4	19.60	19.60	19.83	19.60
+166221	00.23	2.341615E-7	Inversion Src #168106; 181 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 23 AND San Jacinto (Clark) rev, Subsection 4	19.60	19.60	19.83	19.60
+083151	00.23	2.2858664E-7	Inversion Src #83988; 26 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 2 AND Calaveras (No) 2011 CFM, Subsection 0	12.34	-12.23	13.44	11.99
+233291	00.23	2.2665961E-7	Inversion Src #237519; 167 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 5 AND San Andreas (Offshore) 2011 CFM, Subsection 8	19.60	19.60	19.83	19.60
+085293	00.22	2.2298401E-7	Inversion Src #86150; 31 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 7 AND Calaveras (No) 2011 CFM, Subsection 0	12.34	-12.23	13.44	11.99
+083585	00.22	2.2081727E-7	Inversion Src #84428; 27 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 3 AND Calaveras (No) 2011 CFM, Subsection 0	12.34	-12.23	13.44	11.99
+085884	00.21	2.1256156E-7	Inversion Src #86748; 43 SECTIONS BETWEEN Calaveras (So) 2011 CFM, Subsection 0 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 9	09.96	-09.93	11.13	09.93
+084542	00.21	2.110759E-7	Inversion Src #85394; 50 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 5 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 10	09.96	-09.93	11.13	09.93
+084862	00.21	2.0927449E-7	Inversion Src #85717; 23 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 6 AND Calaveras (Central) 2011 CFM, Subsection 9	12.34	-12.23	13.44	12.31
+084540	00.21	2.0628636E-7	Inversion Src #85392; 48 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 5 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 8	09.96	-09.93	11.13	09.93
+233293	00.20	2.0544594E-7	Inversion Src #237521; 169 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 5 AND San Andreas (Offshore) 2011 CFM, Subsection 10	19.60	19.60	19.83	19.60
+233299	00.20	2.0464509E-7	Inversion Src #237527; 175 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 5 AND San Andreas (Offshore) 2011 CFM, Subsection 16	19.60	19.60	19.83	19.60
+099802	00.20	2.025251E-7	Inversion Src #101078; 6 SECTIONS BETWEEN Hayward (So) 2011 CFM, Subsection 0 AND Hayward (So) 2011 CFM, Subsection 5	09.96	-09.93	11.13	09.93
+233297	00.20	2.0233546E-7	Inversion Src #237525; 173 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 5 AND San Andreas (Offshore) 2011 CFM, Subsection 14	19.60	19.60	19.83	19.60
+085883	00.20	1.997602E-7	Inversion Src #86747; 42 SECTIONS BETWEEN Calaveras (So) 2011 CFM, Subsection 0 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 8	09.96	-09.93	11.13	09.93
+100028	00.19	1.9310359E-7	Inversion Src #101309; 31 SECTIONS BETWEEN Hayward (So) 2011 CFM, Subsection 1 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 13	10.80	-09.78	11.87	10.78
+047412	00.19	1.9305813E-7	Inversion Src #48069; 36 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 7 AND Calaveras (No) 2011 CFM, Subsection 0	12.34	-12.23	13.44	11.99
+089695	00.19	1.924989E-7	Inversion Src #90631; 36 SECTIONS BETWEEN Calaveras (Central) 2011 CFM, Subsection 5 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 13	09.96	-09.93	11.13	09.93
+049785	00.19	1.910479E-7	Inversion Src #50472; 27 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 9 AND Calaveras (Central) 2011 CFM, Subsection 9	12.34	-12.23	13.44	12.31
+163357	00.19	1.9074092E-7	Inversion Src #165225; 176 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 17 AND San Jacinto (Clark) rev, Subsection 5	19.60	19.60	19.83	19.60
+084543	00.19	1.8915048E-7	Inversion Src #85395; 51 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 5 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 11	09.96	-09.93	11.13	09.93
+233295	00.19	1.8709439E-7	Inversion Src #237523; 171 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 5 AND San Andreas (Offshore) 2011 CFM, Subsection 12	19.60	19.60	19.83	19.60
+100025	00.19	1.860149E-7	Inversion Src #101306; 28 SECTIONS BETWEEN Hayward (So) 2011 CFM, Subsection 1 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 10	10.80	-09.78	11.87	10.78
+233296	00.18	1.8516577E-7	Inversion Src #237524; 172 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 5 AND San Andreas (Offshore) 2011 CFM, Subsection 13	19.60	19.60	19.83	19.60
+085779	00.18	1.8422139E-7	Inversion Src #86643; 16 SECTIONS BETWEEN Calaveras (So) 2011 CFM, Subsection 0 AND Calaveras (Central) 2011 CFM, Subsection 9	12.34	-12.23	13.44	12.31
+164849	00.18	1.8402312E-7	Inversion Src #166726; 178 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 20 AND San Jacinto (Clark) rev, Subsection 4	19.60	19.60	19.83	19.60
+082806	00.18	1.8150469E-7	Inversion Src #83641; 47 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 1 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 11	09.96	-09.93	11.13	09.93
+233724	00.18	1.8125989E-7	Inversion Src #237972; 170 SECTIONS BETWEEN San Jacinto (Borrego), Subsection 3 AND San Andreas (Offshore) 2011 CFM, Subsection 7	19.60	19.60	19.83	19.60
+084539	00.18	1.8020884E-7	Inversion Src #85391; 47 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 5 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 7	09.96	-09.93	11.13	09.93
+100026	00.18	1.792601E-7	Inversion Src #101307; 29 SECTIONS BETWEEN Hayward (So) 2011 CFM, Subsection 1 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 11	10.80	-09.78	11.87	10.78
+233723	00.18	1.7891351E-7	Inversion Src #237971; 169 SECTIONS BETWEEN San Jacinto (Borrego), Subsection 3 AND San Andreas (Offshore) 2011 CFM, Subsection 6	19.60	19.60	19.83	19.60
+233294	00.18	1.7701655E-7	Inversion Src #237522; 170 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 5 AND San Andreas (Offshore) 2011 CFM, Subsection 11	19.60	19.60	19.83	19.60
+082172	00.18	1.7672578E-7	Inversion Src #83004; 55 SECTIONS BETWEEN Sargent 2011 CFM, Subsection 9 AND San Andreas (North Coast) 2011 CFM, Subsection 27	19.60	19.60	19.83	19.60
+083249	00.18	1.759079E-7	Inversion Src #84086; 46 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 2 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 9	09.96	-09.93	11.13	09.93
+083250	00.17	1.6649595E-7	Inversion Src #84087; 47 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 2 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 10	09.96	-09.93	11.13	09.93
+085592	00.16	1.6495345E-7	Inversion Src #86450; 56 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 8 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 13	09.96	-09.93	11.13	09.93
+233199	00.16	1.6430879E-7	Inversion Src #237426; 170 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 4 AND San Andreas (Offshore) 2011 CFM, Subsection 12	19.60	19.60	19.83	19.60
+084115	00.16	1.6229426E-7	Inversion Src #84963; 47 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 4 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 8	09.96	-09.93	11.13	09.93
+160072	00.16	1.6189244E-7	Inversion Src #161904; 168 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 5 AND San Jacinto (Borrego), Subsection 3	19.60	19.60	19.83	19.60
+242883	00.16	1.5991883E-7	Inversion Src #247642; 156 SECTIONS BETWEEN Imperial, Subsection 2 AND San Andreas (North Coast) 2011 CFM, Subsection 2	19.60	19.60	19.83	19.60
+084538	00.16	1.5949495E-7	Inversion Src #85390; 46 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 5 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 6	09.96	-09.93	11.13	09.93
+092018	00.16	1.582844E-7	Inversion Src #92996; 123 SECTIONS BETWEEN Calaveras (No) 2011 CFM, Subsection 0 AND San Jacinto (Clark) rev, Subsection 5	12.34	-12.23	13.44	11.99
+083682	00.16	1.560261E-7	Inversion Src #84525; 46 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 3 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 8	09.96	-09.93	11.13	09.93
+100027	00.15	1.552282E-7	Inversion Src #101308; 30 SECTIONS BETWEEN Hayward (So) 2011 CFM, Subsection 1 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 12	10.80	-09.78	11.87	10.78
+084117	00.15	1.5505509E-7	Inversion Src #84965; 49 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 4 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 10	09.96	-09.93	11.13	09.93
+084118	00.15	1.535435E-7	Inversion Src #84966; 50 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 4 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 11	09.96	-09.93	11.13	09.93
+084544	00.15	1.5273574E-7	Inversion Src #85396; 52 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 5 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 12	09.96	-09.93	11.13	09.93
+089398	00.15	1.5246248E-7	Inversion Src #90331; 36 SECTIONS BETWEEN Calaveras (Central) 2011 CFM, Subsection 4 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 12	09.96	-09.93	11.13	09.93
+084120	00.15	1.5244139E-7	Inversion Src #84968; 52 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 4 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 13	09.96	-09.93	11.13	09.93
+090004	00.15	1.5128208E-7	Inversion Src #90944; 7 SECTIONS BETWEEN Calaveras (Central) 2011 CFM, Subsection 6 AND Hayward (So) 2011 CFM, Subsection 3	09.96	-09.93	11.13	09.93
+085885	00.15	1.512547E-7	Inversion Src #86749; 44 SECTIONS BETWEEN Calaveras (So) 2011 CFM, Subsection 0 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 10	09.96	-09.93	11.13	09.93
+048596	00.15	1.5050453E-7	Inversion Src #49268; 28 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 8 AND Calaveras (Central) 2011 CFM, Subsection 9	12.34	-12.23	13.44	12.31
+090356	00.15	1.5040493E-7	Inversion Src #91303; 8 SECTIONS BETWEEN Calaveras (Central) 2011 CFM, Subsection 7 AND Hayward (So) 2011 CFM, Subsection 5	09.96	-09.93	11.13	09.93
+090030	00.15	1.4642394E-7	Inversion Src #90970; 35 SECTIONS BETWEEN Calaveras (Central) 2011 CFM, Subsection 6 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 13	09.96	-09.93	11.13	09.93
+083251	00.15	1.4620143E-7	Inversion Src #84088; 48 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 2 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 11	09.96	-09.93	11.13	09.93
+047488	00.15	1.4604225E-7	Inversion Src #48145; 33 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 7 AND Hayward (So) 2011 CFM, Subsection 4	09.96	-09.93	11.13	09.93
+082807	00.14	1.4483616E-7	Inversion Src #83642; 48 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 1 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 12	09.96	-09.93	11.13	09.93
+083683	00.14	1.4249551E-7	Inversion Src #84526; 47 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 3 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 9	09.96	-09.93	11.13	09.93
+090379	00.14	1.423557E-7	Inversion Src #91326; 33 SECTIONS BETWEEN Calaveras (Central) 2011 CFM, Subsection 7 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 12	09.96	-09.93	11.13	09.93
+089399	00.14	1.421788E-7	Inversion Src #90332; 37 SECTIONS BETWEEN Calaveras (Central) 2011 CFM, Subsection 4 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 13	09.96	-09.93	11.13	09.93
+100231	00.14	1.4113031E-7	Inversion Src #101514; 30 SECTIONS BETWEEN Hayward (So) 2011 CFM, Subsection 2 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 13	15.32	-07.12	15.63	15.10
+084114	00.14	1.4002511E-7	Inversion Src #84962; 46 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 4 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 7	09.96	-09.93	11.13	09.93
+166220	00.14	1.3889931E-7	Inversion Src #168105; 180 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 23 AND San Jacinto (Clark) rev, Subsection 3	19.60	19.60	19.83	19.60
+083684	00.14	1.3845265E-7	Inversion Src #84527; 48 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 3 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 10	09.96	-09.93	11.13	09.93
+084116	00.14	1.3837794E-7	Inversion Src #84964; 48 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 4 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 9	09.96	-09.93	11.13	09.93
+083685	00.14	1.3577025E-7	Inversion Src #84528; 49 SECTIONS BETWEEN Calaveras (So) - Paicines extension 2011 CFM, Subsection 3 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 11	09.96	-09.93	11.13	09.93
+090029	00.13	1.3500666E-7	Inversion Src #90969; 34 SECTIONS BETWEEN Calaveras (Central) 2011 CFM, Subsection 6 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 12	09.96	-09.93	11.13	09.93
+100230	00.13	1.3349587E-7	Inversion Src #101513; 29 SECTIONS BETWEEN Hayward (So) 2011 CFM, Subsection 2 AND Rodgers Creek - Healdsburg 2011 CFM, Subsection 12	15.32	-07.12	15.63	15.10
+086485	00.13	1.3335016E-7	Inversion Src #87365; 21 SECTIONS BETWEEN Calaveras (So) 2011 CFM, Subsection 2 AND Calaveras (No) 2011 CFM, Subsection 0	12.34	-12.23	13.44	11.99

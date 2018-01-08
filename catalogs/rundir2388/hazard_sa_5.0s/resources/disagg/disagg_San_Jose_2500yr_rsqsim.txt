@@ -1,0 +1,231 @@
+Mean/Mode Metadata :
+
+
+  Mbar = 7.1663036
+  Dbar = 17.842958
+  Ebar = 1.7471162
+
+  7.2 ≤ Mmode < 7.4
+  10.0 ≤ Dmode < 20.0
+1.0 < Emode <= 2.0
+
+Disaggregation Plot Parameters Info :
+Custom disagg
+
+Disaggregation Bin Data :
+Dist	Mag	E≤-2	-2<E≤-1	-1<E≤-0.5	 -0.5>E≤0	 0<E≤0.5	 0.5<E≤1	 1<E≤2	 2>E 
+-----	----	------	------	-------	-------	-------	-------	-------	------
+005.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.77 	 00.04 	 01.81
+005.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 05.96 	 00.06 	 06.02
+005.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.81 	 03.92 	 00.00 	 06.73
+005.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.37 	 02.37 	 00.00 	 05.74
+005.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 01.11 	 01.45 	 01.47 	 00.00 	 04.02
+005.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.53 	 00.74 	 01.05 	 00.00 	 02.32
+005.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.21 	 00.12 	 00.00 	 00.00 	 00.33
+005.00 	 7.90 	 00.00 	 00.00 	 00.00 	 01.04 	 00.60 	 00.29 	 00.00 	 00.00 	 01.93
+005.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.22 	 01.22
+015.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 04.85 	 04.92
+015.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 05.85 	 06.07 	 11.92
+015.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 06.62 	 01.73 	 08.36
+015.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 11.79 	 00.28 	 12.07
+015.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.08 	 02.59 	 00.00 	 02.67
+015.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.52 	 00.17 	 00.00 	 00.69
+015.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.48 	 00.22 	 00.00 	 00.70
+015.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.10 	 00.10
+025.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.31 	 00.31
+025.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.58 	 00.58
+025.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.13 	 03.13
+025.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.19 	 06.17 	 09.36
+025.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.78 	 00.25 	 02.04
+025.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.35 	 00.00 	 00.35
+025.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.02 	 00.00 	 01.02
+025.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+035.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+035.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.15 	 00.15
+035.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.84 	 00.84
+035.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.16 	 01.16
+035.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.70 	 00.70
+035.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.06 	 00.04 	 00.11
+035.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.98 	 00.00 	 00.98
+035.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+045.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.09 	 00.09
+045.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.36 	 00.36
+045.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.94 	 00.94
+045.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.91 	 00.91
+045.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.21 	 00.21
+045.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.43 	 00.38 	 00.82
+045.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+055.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.08 	 00.08
+055.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.12 	 00.12
+055.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.31 	 00.31
+055.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.06 	 00.06
+055.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.06 	 00.06
+055.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+065.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+065.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+065.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+065.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+065.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.06 	 00.06
+065.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+075.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+075.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+075.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+075.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.19 	 00.19
+075.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.24 	 00.24
+075.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+085.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+085.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.41 	 00.41
+085.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.89 	 00.89
+085.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+095.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+095.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+095.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.69 	 00.69
+095.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.74 	 00.74
+095.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+105.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+105.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+105.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+105.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+105.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+
+
+Disaggregation Source List Info:
+Source#	% Contribution	TotExceedRate	SourceName	DistRup	DistX	DistSeis	DistJB
+015507	00.27	1.0667824E-6	Inversion Src #15507; 51 SECTIONS BETWEEN Sargent 2011 CFM, Subsection 4 AND San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 0	01.96	-01.58	04.47	01.62
+053690	00.26	1.0498385E-6	Inversion Src #53690; 52 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 8 AND Ortigalita (North), Subsection 6	01.96	-01.58	04.47	01.62
+022475	00.26	1.0462276E-6	Inversion Src #22475; 51 SECTIONS BETWEEN Great Valley 07 (Orestimba), Subsection 0 AND Reliz 2011 CFM, Subsection 4	01.96	-01.58	04.47	01.62
+060911	00.26	1.0354328E-6	Inversion Src #60911; 53 SECTIONS BETWEEN Great Valley 07 (Orestimba), Subsection 17 AND Sargent 2011 CFM, Subsection 0	01.96	-01.58	04.47	01.62
+071455	00.22	8.989007E-7	Inversion Src #71455; 51 SECTIONS BETWEEN Ortigalita (North), Subsection 4 AND Silver Creek 2011 CFM, Subsection 0	04.54	-01.28	06.19	04.40
+012058	00.21	8.6197275E-7	Inversion Src #12058; 45 SECTIONS BETWEEN San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 6 AND Silver Creek 2011 CFM, Subsection 2	04.54	-01.28	06.19	04.40
+064417	00.21	8.437601E-7	Inversion Src #64417; 38 SECTIONS BETWEEN Ortigalita (North), Subsection 3 AND Greenville (No) 2011 CFM, Subsection 5	04.54	-01.28	06.19	04.40
+067533	00.20	8.1647397E-7	Inversion Src #67533; 31 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 11 AND San Gregorio (South) 2011 CFM, Subsection 0	02.40	-01.11	04.67	02.12
+014417	00.18	7.0673315E-7	Inversion Src #14417; 22 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 8 AND Calaveras (So) - Paicines extension 2011 CFM, Subsection 2	01.96	-01.58	04.47	01.62
+062414	00.17	6.850193E-7	Inversion Src #62414; 24 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 5 AND Hayward (No) 2011 CFM, Subsection 9	01.96	-01.58	04.47	01.62
+054377	00.17	6.6544635E-7	Inversion Src #54377; 21 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 6 AND Hayward (No) 2011 CFM, Subsection 9	02.40	-01.11	04.67	02.12
+047887	00.16	6.432635E-7	Inversion Src #47887; 54 SECTIONS BETWEEN Ortigalita (North), Subsection 0 AND San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 0	09.96	-09.93	11.13	09.93
+009686	00.16	6.3399176E-7	Inversion Src #9686; 19 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 6 AND Hayward (No) 2011 CFM, Subsection 9	02.40	-01.11	04.67	02.12
+043381	00.16	6.316083E-7	Inversion Src #43381; 15 SECTIONS BETWEEN San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 7 AND Silver Creek 2011 CFM, Subsection 6	01.96	-01.58	04.47	01.62
+028973	00.15	6.2040607E-7	Inversion Src #28973; 23 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 0 AND Mission (connected) 2011 CFM, Subsection 4	01.96	-01.58	04.47	01.62
+006261	00.15	6.1173284E-7	Inversion Src #6261; 16 SECTIONS BETWEEN San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 3 AND Great Valley 07 (Orestimba), Subsection 17	04.54	-01.28	06.19	04.40
+051754	00.15	6.10302E-7	Inversion Src #51754; 21 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 5 AND Contra Costa (Lafayette) 2011 CFM, Subsection 0	01.96	-01.58	04.47	01.62
+002256	00.15	6.084298E-7	Inversion Src #2256; 18 SECTIONS BETWEEN Sargent 2011 CFM, Subsection 0 AND Greenville (So) 2011 CFM, Subsection 5	01.96	-01.58	04.47	01.62
+008559	00.15	5.962955E-7	Inversion Src #8559; 36 SECTIONS BETWEEN Ortigalita (North), Subsection 4 AND Green Valley 2011 CFM, Subsection 5	09.96	-09.93	11.13	09.93
+041382	00.15	5.849931E-7	Inversion Src #41382; 29 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 13 AND Hayward (So) extension 2011 CFM, Subsection 5	04.54	-01.28	06.19	04.40
+040056	00.14	5.827537E-7	Inversion Src #40056; 39 SECTIONS BETWEEN Great Valley 07 (Orestimba), Subsection 0 AND Reliz 2011 CFM, Subsection 1	09.96	-09.93	11.13	09.93
+069263	00.14	5.746464E-7	Inversion Src #69263; 22 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 17 AND San Andreas (Peninsula) 2011 CFM, Subsection 5	04.54	-01.28	06.19	04.40
+013069	00.14	5.548284E-7	Inversion Src #13069; 12 SECTIONS BETWEEN Greenville (So) 2011 CFM, Subsection 1 AND Silver Creek 2011 CFM, Subsection 6	01.96	-01.58	04.47	01.62
+034379	00.14	5.459907E-7	Inversion Src #34379; 12 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 5 AND Hayward (So) 2011 CFM, Subsection 7	01.96	-01.58	04.47	01.62
+067153	00.13	5.270413E-7	Inversion Src #67153; 13 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 7 AND Greenville (So) 2011 CFM, Subsection 0	01.96	-01.58	04.47	01.62
+080217	00.13	5.243765E-7	Inversion Src #80217; 12 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 5 AND Hayward (So) 2011 CFM, Subsection 7	01.96	-01.58	04.47	01.62
+030531	00.13	5.129109E-7	Inversion Src #30531; 17 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 5 AND Calaveras (So) 2011 CFM, Subsection 0	01.96	-01.58	04.47	01.62
+033407	00.12	5.0056684E-7	Inversion Src #33407; 15 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 19 AND Silver Creek 2011 CFM, Subsection 4	04.54	-01.28	06.19	04.40
+050495	00.12	5.005313E-7	Inversion Src #50495; 17 SECTIONS BETWEEN San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 8 AND Calaveras (Central) 2011 CFM, Subsection 9	04.54	-01.28	06.19	04.40
+009390	00.12	4.959961E-7	Inversion Src #9390; 10 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 6 AND Mission (connected) 2011 CFM, Subsection 4	02.40	-01.11	04.67	02.12
+029482	00.12	4.940315E-7	Inversion Src #29482; 34 SECTIONS BETWEEN Ortigalita (North), Subsection 3 AND Calaveras (No) 2011 CFM, Subsection 2	10.80	-09.78	11.87	10.78
+067897	00.12	4.9383215E-7	Inversion Src #67897; 42 SECTIONS BETWEEN Ortigalita (South), Subsection 3 AND Greenville (No) 2011 CFM, Subsection 4	12.34	-12.23	13.44	12.31
+069636	00.12	4.9248865E-7	Inversion Src #69636; 12 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 20 AND Silver Creek 2011 CFM, Subsection 4	04.54	-01.28	06.19	04.40
+036520	00.12	4.851371E-7	Inversion Src #36520; 32 SECTIONS BETWEEN Sargent 2011 CFM, Subsection 3 AND Hayward (So) 2011 CFM, Subsection 0	09.96	-09.93	11.13	09.93
+046704	00.12	4.7841974E-7	Inversion Src #46704; 14 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 5 AND Pilarcitos 2011 CFM, Subsection 5	01.96	-01.58	04.47	01.62
+024585	00.12	4.7356423E-7	Inversion Src #24585; 11 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 5 AND Greenville (So) 2011 CFM, Subsection 0	01.96	-01.58	04.47	01.62
+025920	00.12	4.690025E-7	Inversion Src #25920; 32 SECTIONS BETWEEN Great Valley 07 (Orestimba), Subsection 17 AND Mission (connected) 2011 CFM, Subsection 2	10.80	-09.78	11.87	10.78
+019195	00.12	4.6727592E-7	Inversion Src #19195; 16 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 5 AND Calaveras (Central) 2011 CFM, Subsection 2	01.96	-01.58	04.47	01.62
+019064	00.12	4.6297777E-7	Inversion Src #19064; 43 SECTIONS BETWEEN Great Valley 07 (Orestimba), Subsection 17 AND Hayward (So) extension 2011 CFM, Subsection 3	12.34	-12.23	13.44	11.99
+032940	00.11	4.6130188E-7	Inversion Src #32940; 34 SECTIONS BETWEEN Great Valley 07 (Orestimba), Subsection 0 AND Ortigalita (North), Subsection 7	10.80	-09.78	11.87	10.78
+006782	00.11	4.5927828E-7	Inversion Src #6782; 10 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 1 AND Calaveras (Central) 2011 CFM, Subsection 9	01.96	-01.58	04.47	01.62
+087545	00.11	4.5832164E-7	Inversion Src #87545; 9 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 5 AND Hayward (So) 2011 CFM, Subsection 4	01.96	-01.58	04.47	01.62
+045722	00.11	4.5636162E-7	Inversion Src #45722; 8 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 5 AND San Andreas (Peninsula) 2011 CFM, Subsection 4	01.96	-01.58	04.47	01.62
+079514	00.11	4.5610696E-7	Inversion Src #79514; 14 SECTIONS BETWEEN San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 7 AND Silver Creek 2011 CFM, Subsection 4	04.54	-01.28	06.19	04.40
+085666	00.11	4.3772374E-7	Inversion Src #85666; 40 SECTIONS BETWEEN San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 5 AND Greenville (So) 2011 CFM, Subsection 2	10.80	-09.78	11.87	10.78
+067923	00.11	4.3628998E-7	Inversion Src #67923; 11 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 5 AND Calaveras (Central) 2011 CFM, Subsection 2	01.96	-01.58	04.47	01.62
+016740	00.11	4.3249395E-7	Inversion Src #16740; 12 SECTIONS BETWEEN Sargent 2011 CFM, Subsection 2 AND Hayward (So) 2011 CFM, Subsection 1	01.96	-01.58	04.47	01.62
+008047	00.11	4.303917E-7	Inversion Src #8047; 10 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 8 AND Calaveras (Central) 2011 CFM, Subsection 2	01.96	-01.58	04.47	01.62
+047375	00.11	4.27056E-7	Inversion Src #47375; 13 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 8 AND Calaveras (So) 2011 CFM, Subsection 4	01.96	-01.58	04.47	01.62
+084485	00.11	4.2332E-7	Inversion Src #84485; 9 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 8 AND San Andreas (Peninsula) 2011 CFM, Subsection 0	01.96	-01.58	04.47	01.62
+059171	00.10	4.20141E-7	Inversion Src #59171; 17 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 4 AND Calaveras (So) - Paicines extension 2011 CFM, Subsection 2	04.54	-01.28	06.19	04.40
+082159	00.10	4.1878343E-7	Inversion Src #82159; 31 SECTIONS BETWEEN Great Valley 07 (Orestimba), Subsection 11 AND Hayward (So) 2011 CFM, Subsection 1	10.80	-09.78	11.87	10.78
+020985	00.10	4.1837546E-7	Inversion Src #20985; 9 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 0 AND Silver Creek 2011 CFM, Subsection 8	01.96	-01.58	04.47	01.62
+059577	00.10	4.1536074E-7	Inversion Src #59577; 13 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 0 AND Greenville (No) 2011 CFM, Subsection 1	04.54	-01.28	06.19	04.40
+015913	00.10	4.141124E-7	Inversion Src #15913; 13 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 0 AND Greenville (No) 2011 CFM, Subsection 1	04.54	-01.28	06.19	04.40
+015125	00.10	4.13498E-7	Inversion Src #15125; 9 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 4 AND Calaveras (No) 2011 CFM, Subsection 3	01.96	-01.58	04.47	01.62
+039420	00.10	4.1298816E-7	Inversion Src #39420; 9 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 5 AND Hayward (So) 2011 CFM, Subsection 4	01.96	-01.58	04.47	01.62
+039804	00.10	4.114025E-7	Inversion Src #39804; 19 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 4 AND San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 8	04.54	-01.28	06.19	04.40
+021631	00.10	4.1004964E-7	Inversion Src #21631; 9 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 5 AND Hayward (So) 2011 CFM, Subsection 5	01.96	-01.58	04.47	01.62
+053328	00.10	4.0826E-7	Inversion Src #53328; 10 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 7 AND Calaveras (Central) 2011 CFM, Subsection 6	01.96	-01.58	04.47	01.62
+003896	00.10	4.0570976E-7	Inversion Src #3896; 9 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 5 AND Hayward (So) 2011 CFM, Subsection 5	01.96	-01.58	04.47	01.62
+077107	00.10	4.052132E-7	Inversion Src #77107; 9 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 0 AND Silver Creek 2011 CFM, Subsection 8	01.96	-01.58	04.47	01.62
+001790	00.10	4.0209684E-7	Inversion Src #1790; 13 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 8 AND Calaveras (Central) 2011 CFM, Subsection 0	01.96	-01.58	04.47	01.62
+040938	00.10	3.991434E-7	Inversion Src #40938; 10 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 8 AND Calaveras (Central) 2011 CFM, Subsection 1	01.96	-01.58	04.47	01.62
+084973	00.10	3.9796765E-7	Inversion Src #84973; 18 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 7 AND Hayward (No) 2011 CFM, Subsection 9	07.33	00.80	08.41	07.24
+040155	00.10	3.9723844E-7	Inversion Src #40155; 9 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 0 AND Silver Creek 2011 CFM, Subsection 8	01.96	-01.58	04.47	01.62
+083646	00.10	3.9230216E-7	Inversion Src #83646; 37 SECTIONS BETWEEN San Andreas (Santa Cruz Mts) 2011 CFM, Subsection 0 AND Ortigalita (North), Subsection 5	11.97	-11.69	13.28	11.79
+058372	00.10	3.8426046E-7	Inversion Src #58372; 35 SECTIONS BETWEEN Maacama 2011 CFM, Subsection 7 AND Mission (connected) 2011 CFM, Subsection 5	09.96	-09.93	11.13	09.93
+042608	00.10	3.837032E-7	Inversion Src #42608; 12 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 0 AND Calaveras (Central) 2011 CFM, Subsection 9	01.96	-01.58	04.47	01.62
+045048	00.10	3.8341335E-7	Inversion Src #45048; 8 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 0 AND Silver Creek 2011 CFM, Subsection 7	01.96	-01.58	04.47	01.62
+026593	00.10	3.8239364E-7	Inversion Src #26593; 14 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 4 AND Calaveras (So) 2011 CFM, Subsection 0	04.54	-01.28	06.19	04.40
+003177	00.10	3.821128E-7	Inversion Src #3177; 30 SECTIONS BETWEEN Great Valley 07 (Orestimba), Subsection 17 AND Calaveras (Central) 2011 CFM, Subsection 5	12.34	-12.23	13.44	11.99
+032174	00.09	3.811547E-7	Inversion Src #32174; 8 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 0 AND Silver Creek 2011 CFM, Subsection 7	01.96	-01.58	04.47	01.62
+054904	00.09	3.810363E-7	Inversion Src #54904; 10 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 0 AND Hayward (So) 2011 CFM, Subsection 1	01.96	-01.58	04.47	01.62
+009093	00.09	3.7801107E-7	Inversion Src #9093; 10 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 8 AND Calaveras (Central) 2011 CFM, Subsection 2	01.96	-01.58	04.47	01.62
+038086	00.09	3.772266E-7	Inversion Src #38086; 14 SECTIONS BETWEEN Calaveras (Central) 2011 CFM, Subsection 2 AND Greenville (No) 2011 CFM, Subsection 4	04.54	-01.28	06.19	04.40
+074248	00.09	3.7672189E-7	Inversion Src #74248; 10 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 6 AND Calaveras (Central) 2011 CFM, Subsection 0	01.96	-01.58	04.47	01.62
+058295	00.09	3.7531402E-7	Inversion Src #58295; 8 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 5 AND Calaveras (No) 2011 CFM, Subsection 3	01.96	-01.58	04.47	01.62
+085413	00.09	3.745256E-7	Inversion Src #85413; 14 SECTIONS BETWEEN Calaveras (Central) 2011 CFM, Subsection 2 AND Greenville (No) 2011 CFM, Subsection 0	04.54	-01.28	06.19	04.40
+037008	00.09	3.7379044E-7	Inversion Src #37008; 17 SECTIONS BETWEEN Calaveras (Central) 2011 CFM, Subsection 0 AND Greenville (No) 2011 CFM, Subsection 1	04.54	-01.28	06.19	04.40
+040613	00.09	3.6991574E-7	Inversion Src #40613; 18 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 7 AND Hayward (No) 2011 CFM, Subsection 8	07.33	00.80	08.41	07.24
+078642	00.09	3.676987E-7	Inversion Src #78642; 21 SECTIONS BETWEEN Calaveras (Central) 2011 CFM, Subsection 6 AND Great Valley 07 (Orestimba), Subsection 8	09.96	-09.93	11.13	09.93
+013525	00.09	3.6485213E-7	Inversion Src #13525; 10 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 5 AND Calaveras (Central) 2011 CFM, Subsection 4	01.96	-01.58	04.47	01.62
+035784	00.09	3.6380231E-7	Inversion Src #35784; 13 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 4 AND Calaveras (So) 2011 CFM, Subsection 0	04.54	-01.28	06.19	04.40
+019422	00.09	3.625335E-7	Inversion Src #19422; 30 SECTIONS BETWEEN Rodgers Creek - Healdsburg 2011 CFM, Subsection 1 AND Hayward (So) 2011 CFM, Subsection 0	09.96	-09.93	11.13	09.93
+077917	00.09	3.6071617E-7	Inversion Src #77917; 8 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 6 AND Calaveras (Central) 2011 CFM, Subsection 3	01.96	-01.58	04.47	01.62
+029984	00.09	3.5561067E-7	Inversion Src #29984; 7 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 6 AND San Andreas (Peninsula) 2011 CFM, Subsection 4	02.40	-01.11	04.67	02.12
+029727	00.09	3.546877E-7	Inversion Src #29727; 7 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 5 AND Calaveras (Central) 2011 CFM, Subsection 2	01.96	-01.58	04.47	01.62
+047805	00.09	3.52231E-7	Inversion Src #47805; 10 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 4 AND Greenville (No) 2011 CFM, Subsection 0	04.54	-01.28	06.19	04.40
+064511	00.09	3.485248E-7	Inversion Src #64511; 8 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 7 AND Calaveras (Central) 2011 CFM, Subsection 0	01.96	-01.58	04.47	01.62
+016370	00.09	3.4750468E-7	Inversion Src #16370; 6 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 6 AND Hayward (So) 2011 CFM, Subsection 4	02.40	-01.11	04.67	02.12
+053762	00.09	3.4677507E-7	Inversion Src #53762; 31 SECTIONS BETWEEN West Napa 2011 CFM, Subsection 0 AND Mission (connected) 2011 CFM, Subsection 4	09.96	-09.93	11.13	09.93
+086621	00.09	3.45003E-7	Inversion Src #86621; 7 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 0 AND Silver Creek 2011 CFM, Subsection 6	01.96	-01.58	04.47	01.62
+004579	00.09	3.4295405E-7	Inversion Src #4579; 27 SECTIONS BETWEEN West Napa 2011 CFM, Subsection 0 AND Mission (connected) 2011 CFM, Subsection 4	09.96	-09.93	11.13	09.93
+075334	00.08	3.4030938E-7	Inversion Src #75334; 19 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 7 AND Hayward (No) 2011 CFM, Subsection 6	07.33	00.80	08.41	07.24
+025389	00.08	3.3953975E-7	Inversion Src #25389; 8 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 5 AND Calaveras (Central) 2011 CFM, Subsection 1	01.96	-01.58	04.47	01.62
+016329	00.08	3.3465972E-7	Inversion Src #16329; 12 SECTIONS BETWEEN Calaveras (No) 2011 CFM, Subsection 6 AND Silver Creek 2011 CFM, Subsection 0	04.54	-01.28	06.19	04.40
+075532	00.08	3.329864E-7	Inversion Src #75532; 12 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 4 AND Calaveras (Central) 2011 CFM, Subsection 0	04.54	-01.28	06.19	04.40
+057437	00.08	3.3110106E-7	Inversion Src #57437; 31 SECTIONS BETWEEN Great Valley 07 (Orestimba), Subsection 11 AND San Andreas (Peninsula) 2011 CFM, Subsection 5	11.97	-11.69	13.28	11.79
+060045	00.08	3.274505E-7	Inversion Src #60045; 8 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 5 AND Calaveras (Central) 2011 CFM, Subsection 3	01.96	-01.58	04.47	01.62

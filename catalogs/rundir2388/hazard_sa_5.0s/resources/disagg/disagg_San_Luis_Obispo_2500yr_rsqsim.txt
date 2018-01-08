@@ -1,0 +1,231 @@
+Mean/Mode Metadata :
+
+
+  Mbar = 7.547846
+  Dbar = 35.438282
+  Ebar = 1.3186814
+
+  7.8 ≤ Mmode < 8.0
+  50.0 ≤ Dmode < 60.0
+1.0 < Emode <= 2.0
+
+Disaggregation Plot Parameters Info :
+Custom disagg
+
+Disaggregation Bin Data :
+Dist	Mag	E≤-2	-2<E≤-1	-1<E≤-0.5	 -0.5>E≤0	 0<E≤0.5	 0.5<E≤1	 1<E≤2	 2>E 
+-----	----	------	------	-------	-------	-------	-------	-------	------
+005.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.10 	 00.00 	 00.10
+005.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.09 	 00.24 	 00.00 	 00.33
+005.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.16 	 00.33 	 00.63 	 00.00 	 01.12
+005.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 01.00 	 01.64 	 00.07 	 00.00 	 02.70
+005.00 	 7.30 	 00.00 	 00.00 	 00.00 	 01.22 	 04.48 	 01.09 	 00.00 	 00.00 	 06.79
+005.00 	 7.50 	 00.00 	 00.00 	 00.00 	 10.04 	 01.55 	 00.00 	 00.00 	 00.00 	 11.59
+005.00 	 7.70 	 00.00 	 00.00 	 00.00 	 02.23 	 00.45 	 00.00 	 00.00 	 00.00 	 02.67
+005.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.09 	 00.03 	 00.12
+015.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.20 	 00.10 	 00.29
+015.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.26 	 00.01 	 01.28
+015.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.85 	 02.78 	 00.00 	 03.63
+015.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.88 	 00.82 	 00.00 	 02.70
+015.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.32 	 02.44 	 00.31 	 00.00 	 03.08
+015.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.17 	 00.22 	 00.00 	 00.00 	 00.40
+015.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.35 	 00.00 	 00.00 	 00.00 	 00.35
+015.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+025.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.07
+025.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.25 	 00.28
+025.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.28 	 00.25 	 01.53
+025.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.75 	 00.00 	 02.75
+025.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 05.31 	 00.00 	 05.31
+025.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.93 	 00.00 	 01.93
+025.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.13 	 00.00 	 00.00 	 01.13
+025.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+035.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+035.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.07
+035.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.15 	 00.15
+035.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.10 	 00.07 	 00.17
+035.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.62 	 00.00 	 01.62
+035.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.19 	 00.00 	 00.19
+035.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.31 	 00.00 	 00.31
+035.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+045.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.24 	 00.24
+045.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.22 	 00.22
+045.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.40 	 00.40
+045.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.18 	 00.31 	 00.49
+045.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.06 	 00.00 	 00.06
+045.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.92 	 00.00 	 00.92
+045.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+055.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.36 	 00.36
+055.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.49 	 01.49
+055.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 06.80 	 06.80
+055.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.46 	 01.11 	 01.57
+055.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 29.25 	 00.00 	 29.25
+055.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+065.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+065.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.24 	 00.24
+065.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.29 	 00.29
+065.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.06 	 00.06
+065.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+065.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.00 	 00.02
+065.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+075.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+075.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+075.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.08 	 00.08
+075.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+075.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+085.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.06 	 00.06
+085.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+085.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+085.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+085.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+095.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.12 	 00.12
+095.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.11 	 00.11
+095.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.59 	 02.59
+095.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.19 	 00.19
+095.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+105.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+105.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+105.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.29 	 00.29
+105.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+105.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+
+
+Disaggregation Source List Info:
+Source#	% Contribution	TotExceedRate	SourceName	DistRup	DistX	DistSeis	DistJB
+024686	00.30	1.2130478E-6	Inversion Src #24686; 39 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 1 AND Oceanic - West Huasna, Subsection 0	03.34	-03.27	05.63	03.27
+023130	00.30	1.2063776E-6	Inversion Src #23130; 44 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 21 AND East Huasna 2011 CFM, Subsection 2	03.34	-03.27	05.63	03.27
+085533	00.29	1.1800086E-6	Inversion Src #85533; 34 SECTIONS BETWEEN La Panza 2011, Subsection 4 AND Oceanic - West Huasna, Subsection 29	03.34	-03.22	05.63	03.27
+030122	00.29	1.1525627E-6	Inversion Src #30122; 31 SECTIONS BETWEEN San Luis Range - Oceano 2011 CFM, Subsection 2 AND Oceanic - West Huasna, Subsection 29	03.34	-03.22	05.63	03.27
+067171	00.29	1.1482929E-6	Inversion Src #67171; 31 SECTIONS BETWEEN Shoreline, Subsection 0 AND Oceanic - West Huasna, Subsection 29	03.34	-03.22	05.63	03.27
+061619	00.28	1.1367829E-6	Inversion Src #61619; 28 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 19 AND East Huasna 2011 CFM, Subsection 2	03.34	-03.27	05.63	03.27
+075550	00.28	1.1328817E-6	Inversion Src #75550; 37 SECTIONS BETWEEN San Luis Range 2011 CFM, Subsection 5 AND Oceanic - West Huasna, Subsection 29	03.34	-03.22	05.63	03.27
+069898	00.28	1.1319663E-6	Inversion Src #69898; 31 SECTIONS BETWEEN La Panza 2011, Subsection 0 AND San Luis Range 2011 CFM, Subsection 10	03.34	-03.22	05.63	03.27
+017039	00.28	1.130304E-6	Inversion Src #17039; 31 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 29 AND East Huasna 2011 CFM, Subsection 9	03.34	-03.27	05.63	03.27
+000496	00.28	1.1256175E-6	Inversion Src #496; 26 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 0 AND Oceanic - West Huasna, Subsection 25	03.34	-03.22	05.63	03.27
+019694	00.28	1.1250123E-6	Inversion Src #19694; 32 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 21 AND San Luis Range 2011 CFM, Subsection 2	03.34	-03.27	05.63	03.27
+058640	00.28	1.1248791E-6	Inversion Src #58640; 33 SECTIONS BETWEEN San Luis Range - Oceano 2011 CFM, Subsection 1 AND Oceanic - West Huasna, Subsection 29	03.34	-03.22	05.63	03.27
+038887	00.28	1.1238545E-6	Inversion Src #38887; 25 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 0 AND Oceanic - West Huasna, Subsection 24	03.34	-03.22	05.63	03.27
+084163	00.28	1.1055089E-6	Inversion Src #84163; 37 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 21 AND San Juan, Subsection 12	03.34	-03.27	05.63	03.27
+064190	00.27	1.1003393E-6	Inversion Src #64190; 28 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 29 AND San Luis Range - Pecho 2011 CFM, Subsection 4	03.34	-03.27	05.63	03.27
+003287	00.27	1.0990834E-6	Inversion Src #3287; 25 SECTIONS BETWEEN San Luis Range 2011 CFM, Subsection 4 AND Hosgri, Subsection 1	03.34	-03.22	05.63	03.27
+081235	00.27	1.0942244E-6	Inversion Src #81235; 30 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 21 AND Santa Ynez (West), Subsection 6	03.34	-03.27	05.63	03.27
+043037	00.27	1.093408E-6	Inversion Src #43037; 30 SECTIONS BETWEEN San Luis Range 2011 CFM, Subsection 3 AND Shoreline, Subsection 0	03.34	-03.22	05.63	03.27
+008723	00.27	1.089671E-6	Inversion Src #8723; 29 SECTIONS BETWEEN San Luis Range 2011 CFM, Subsection 5 AND East Huasna 2011 CFM, Subsection 9	03.34	-03.22	05.63	03.27
+041508	00.27	1.0892758E-6	Inversion Src #41508; 29 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 16 AND San Luis Range 2011 CFM, Subsection 1	03.34	-03.27	05.63	03.27
+046067	00.27	1.0779613E-6	Inversion Src #46067; 23 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 18 AND East Huasna 2011 CFM, Subsection 8	03.34	-03.27	05.63	03.27
+047560	00.27	1.0653703E-6	Inversion Src #47560; 30 SECTIONS BETWEEN Rinconada 2011 CFM, Subsection 21 AND East Huasna 2011 CFM, Subsection 2	03.34	-03.27	05.63	03.27
+078444	00.26	1.0601342E-6	Inversion Src #78444; 29 SECTIONS BETWEEN San Luis Range 2011 CFM, Subsection 4 AND San Luis Range - Oceano 2011 CFM, Subsection 2	03.34	-03.22	05.63	03.27
+015733	00.26	1.0580654E-6	Inversion Src #15733; 24 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 4 AND San Juan, Subsection 0	03.34	-03.22	05.63	03.27
+010238	00.26	1.0554204E-6	Inversion Src #10238; 21 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 2 AND Oceanic - West Huasna, Subsection 22	03.34	-03.22	05.63	03.27
+082730	00.26	1.0463924E-6	Inversion Src #82730; 28 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 25 AND East Huasna 2011 CFM, Subsection 7	03.34	-03.27	05.63	03.27
+065608	00.26	1.0405386E-6	Inversion Src #65608; 22 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 0 AND Oceanic - West Huasna, Subsection 21	03.34	-03.22	05.63	03.27
+011538	00.26	1.0383496E-6	Inversion Src #11538; 22 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 18 AND East Huasna 2011 CFM, Subsection 7	03.34	-03.27	05.63	03.27
+057229	00.26	1.0381564E-6	Inversion Src #57229; 22 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 0 AND Oceanic - West Huasna, Subsection 21	03.34	-03.22	05.63	03.27
+004763	00.26	1.0376181E-6	Inversion Src #4763; 26 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 29 AND Rinconada 2011 CFM, Subsection 28	03.34	-03.27	05.63	03.27
+071900	00.26	1.0351141E-6	Inversion Src #71900; 17 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 10 AND Oceanic - West Huasna, Subsection 26	03.34	-03.22	05.63	03.27
+026213	00.26	1.0302275E-6	Inversion Src #26213; 20 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 0 AND Oceanic - West Huasna, Subsection 19	03.34	-03.22	05.63	03.27
+077090	00.26	1.0232561E-6	Inversion Src #77090; 23 SECTIONS BETWEEN San Luis Range 2011 CFM, Subsection 5 AND Shoreline, Subsection 0	03.34	-03.22	05.63	03.27
+055619	00.25	1.0206704E-6	Inversion Src #55619; 25 SECTIONS BETWEEN San Luis Range 2011 CFM, Subsection 4 AND Oceanic - West Huasna, Subsection 23	03.34	-03.22	05.63	03.27
+018468	00.25	1.020459E-6	Inversion Src #18468; 30 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 18 AND San Juan, Subsection 4	03.34	-03.27	05.63	03.27
+050265	00.25	1.0194636E-6	Inversion Src #50265; 20 SECTIONS BETWEEN Shoreline, Subsection 0 AND Oceanic - West Huasna, Subsection 0	03.34	-03.27	05.63	03.27
+012827	00.25	1.0123749E-6	Inversion Src #12827; 23 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 18 AND San Luis Range 2011 CFM, Subsection 4	03.34	-03.27	05.63	03.27
+014494	00.25	1.0092151E-6	Inversion Src #14494; 20 SECTIONS BETWEEN San Luis Range - Oceano 2011 CFM, Subsection 1 AND East Huasna 2011 CFM, Subsection 9	03.34	-03.22	05.63	03.27
+054133	00.25	1.0068121E-6	Inversion Src #54133; 22 SECTIONS BETWEEN San Luis Range 2011 CFM, Subsection 7 AND Oceanic - West Huasna, Subsection 18	03.34	-03.22	05.63	03.27
+044542	00.25	1.0033342E-6	Inversion Src #44542; 24 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 18 AND San Juan, Subsection 8	03.34	-03.27	05.63	03.27
+048781	00.25	1.0028785E-6	Inversion Src #48781; 17 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 1 AND Oceanic - West Huasna, Subsection 17	03.34	-03.22	05.63	03.27
+027368	00.25	1.0026969E-6	Inversion Src #27368; 20 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 10 AND Oceanic - West Huasna, Subsection 29	03.34	-03.22	05.63	03.27
+063211	00.25	9.901512E-7	Inversion Src #63211; 19 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 0 AND Oceanic - West Huasna, Subsection 18	03.34	-03.22	05.63	03.27
+005680	00.25	9.897245E-7	Inversion Src #5680; 17 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 0 AND Oceanic - West Huasna, Subsection 16	03.34	-03.22	05.63	03.27
+079774	00.25	9.896494E-7	Inversion Src #79774; 22 SECTIONS BETWEEN San Luis Range 2011 CFM, Subsection 3 AND Oceanic - West Huasna, Subsection 18	03.34	-03.22	05.63	03.27
+072883	00.24	9.815166E-7	Inversion Src #72883; 19 SECTIONS BETWEEN San Luis Range 2011 CFM, Subsection 6 AND Oceanic - West Huasna, Subsection 14	03.34	-03.22	05.63	03.27
+044182	00.24	9.775785E-7	Inversion Src #44182; 36 SECTIONS BETWEEN Hosgri (Extension), Subsection 7 AND Los Osos 2011, Subsection 0	07.80	-07.70	10.25	07.70
+033116	00.24	9.766753E-7	Inversion Src #33116; 18 SECTIONS BETWEEN La Panza 2011, Subsection 3 AND Oceanic - West Huasna, Subsection 16	03.34	-03.22	05.63	03.27
+007120	00.24	9.659658E-7	Inversion Src #7120; 18 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 1 AND East Huasna 2011 CFM, Subsection 9	03.34	-03.22	05.63	03.27
+031452	00.24	9.637337E-7	Inversion Src #31452; 36 SECTIONS BETWEEN Hosgri (Extension), Subsection 7 AND Los Osos 2011, Subsection 4	07.80	-07.70	10.25	07.70
+051305	00.24	9.602497E-7	Inversion Src #51305; 17 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 13 AND Oceanic - West Huasna, Subsection 29	03.34	-03.27	05.63	03.27
+052894	00.24	9.58886E-7	Inversion Src #52894; 21 SECTIONS BETWEEN San Luis Range - Oceano 2011 CFM, Subsection 1 AND San Luis Range - Pecho 2011 CFM, Subsection 4	03.34	-03.22	05.63	03.27
+037533	00.24	9.5361185E-7	Inversion Src #37533; 18 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 4 AND Oceanic - West Huasna, Subsection 21	03.34	-03.22	05.63	03.27
+087337	00.24	9.5348497E-7	Inversion Src #87337; 20 SECTIONS BETWEEN San Luis Range 2011 CFM, Subsection 7 AND Oceanic - West Huasna, Subsection 20	03.34	-03.22	05.63	03.27
+028725	00.24	9.49069E-7	Inversion Src #28725; 21 SECTIONS BETWEEN La Panza 2011, Subsection 8 AND Oceanic - West Huasna, Subsection 0	05.29	-02.97	06.81	05.24
+060140	00.24	9.4902197E-7	Inversion Src #60140; 17 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 0 AND Oceanic - West Huasna, Subsection 16	03.34	-03.22	05.63	03.27
+068594	00.24	9.485087E-7	Inversion Src #68594; 17 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 1 AND East Huasna 2011 CFM, Subsection 9	03.34	-03.22	05.63	03.27
+075057	00.23	9.4009687E-7	Inversion Src #75057; 19 SECTIONS BETWEEN Rinconada 2011 CFM, Subsection 12 AND East Huasna 2011 CFM, Subsection 9	03.34	-03.22	05.63	03.27
+002819	00.23	9.382591E-7	Inversion Src #2819; 14 SECTIONS BETWEEN Rinconada 2011 CFM, Subsection 26 AND Hosgri, Subsection 10	03.34	-03.22	05.63	03.27
+081875	00.23	9.0697006E-7	Inversion Src #81875; 31 SECTIONS BETWEEN San Luis Range 2011 CFM, Subsection 7 AND Hosgri, Subsection 27	07.80	-07.70	10.25	07.70
+036071	00.23	9.05072E-7	Inversion Src #36071; 14 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 8 AND Oceanic - West Huasna, Subsection 21	03.34	-03.22	05.63	03.27
+071345	00.23	9.032706E-7	Inversion Src #71345; 15 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 0 AND Oceanic - West Huasna, Subsection 14	03.34	-03.22	05.63	03.27
+021811	00.22	8.9331394E-7	Inversion Src #21811; 17 SECTIONS BETWEEN San Luis Range 2011 CFM, Subsection 10 AND East Huasna 2011 CFM, Subsection 9	03.34	-03.27	05.63	03.27
+051700	00.22	8.9310925E-7	Inversion Src #51700; 14 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 2 AND East Huasna 2011 CFM, Subsection 9	03.34	-03.22	05.63	03.27
+057128	00.22	8.921692E-7	Inversion Src #57128; 37 SECTIONS BETWEEN San Luis Range 2011 CFM, Subsection 6 AND Hosgri, Subsection 13	07.80	-07.70	10.25	06.28
+028837	00.22	8.8338606E-7	Inversion Src #28837; 17 SECTIONS BETWEEN San Luis Range 2011 CFM, Subsection 10 AND Oceanic - West Huasna, Subsection 26	03.34	-03.22	05.63	03.27
+071286	00.21	8.620416E-7	Inversion Src #71286; 29 SECTIONS BETWEEN Hosgri (Extension), Subsection 7 AND Los Osos 2011, Subsection 6	07.80	-07.70	10.25	07.70
+035260	00.21	8.5564596E-7	Inversion Src #35260; 11 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 3 AND Oceanic - West Huasna, Subsection 13	03.34	-03.22	05.63	03.27
+040318	00.21	8.455591E-7	Inversion Src #40318; 13 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 3 AND Oceanic - West Huasna, Subsection 15	03.34	-03.22	05.63	03.27
+021615	00.21	8.310455E-7	Inversion Src #21615; 13 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 12 AND Oceanic - West Huasna, Subsection 24	03.34	-03.22	05.63	03.27
+001838	00.21	8.2622125E-7	Inversion Src #1838; 13 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 1 AND Oceanic - West Huasna, Subsection 13	03.34	-03.22	05.63	03.27
+031857	00.20	8.1512025E-7	Inversion Src #31857; 11 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 7 AND Oceanic - West Huasna, Subsection 17	03.34	-03.22	05.63	03.27
+078198	00.20	8.128893E-7	Inversion Src #78198; 27 SECTIONS BETWEEN Hosgri (Extension), Subsection 0 AND Los Osos 2011, Subsection 3	07.80	-07.70	10.25	07.70
+073830	00.19	7.8060947E-7	Inversion Src #73830; 12 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 10 AND Oceanic - West Huasna, Subsection 21	03.34	-03.22	05.63	03.27
+010024	00.19	7.691062E-7	Inversion Src #10024; 25 SECTIONS BETWEEN Hosgri (Extension), Subsection 0 AND Los Osos 2011, Subsection 3	07.80	-07.70	10.25	07.70
+087365	00.19	7.648274E-7	Inversion Src #87365; 61 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Andreas (San Bernardino N), Subsection 2	14.42	-06.63	14.65	14.34
+034021	00.19	7.4677723E-7	Inversion Src #34021; 12 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 0 AND Oceanic - West Huasna, Subsection 11	05.29	-02.97	06.81	05.24
+034468	00.19	7.4364885E-7	Inversion Src #34468; 8 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 10 AND Oceanic - West Huasna, Subsection 17	03.34	-03.22	05.63	03.27
+063896	00.18	7.237625E-7	Inversion Src #63896; 18 SECTIONS BETWEEN Los Osos 2011, Subsection 0 AND Shoreline, Subsection 0	07.80	-07.70	10.25	07.70
+021308	00.18	7.1812417E-7	Inversion Src #21308; 15 SECTIONS BETWEEN Hosgri (Extension), Subsection 6 AND Los Osos 2011, Subsection 3	07.80	-07.70	10.25	07.70
+067819	00.17	6.94677E-7	Inversion Src #67819; 17 SECTIONS BETWEEN San Luis Range 2011 CFM, Subsection 3 AND Shoreline, Subsection 3	07.80	-07.70	10.25	07.55
+055244	00.17	6.9248864E-7	Inversion Src #55244; 36 SECTIONS BETWEEN Hosgri (Extension), Subsection 6 AND San Juan, Subsection 4	11.34	11.17	11.55	10.26
+060847	00.17	6.8733635E-7	Inversion Src #60847; 17 SECTIONS BETWEEN Los Osos 2011, Subsection 0 AND Hosgri, Subsection 1	07.80	-07.70	10.25	07.70
+006360	00.17	6.8123035E-7	Inversion Src #6360; 13 SECTIONS BETWEEN San Luis Range - Oceano 2011 CFM, Subsection 1 AND San Luis Range - Pecho 2011 CFM, Subsection 4	07.80	-07.70	10.25	06.28
+013703	00.17	6.6982966E-7	Inversion Src #13703; 16 SECTIONS BETWEEN Los Osos 2011, Subsection 0 AND San Luis Range - Pecho 2011 CFM, Subsection 4	07.80	-07.70	10.25	07.70
+060131	00.16	6.595355E-7	Inversion Src #60131; 31 SECTIONS BETWEEN San Luis Range 2011 CFM, Subsection 9 AND Rinconada 2011 CFM, Subsection 0	11.34	11.17	11.55	06.28
+017997	00.16	6.371492E-7	Inversion Src #17997; 37 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 13 AND East Huasna 2011 CFM, Subsection 9	11.34	11.33	11.55	10.26
+032191	00.16	6.2372413E-7	Inversion Src #32191; 60 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 5 AND San Andreas (Parkfield), Subsection 0	18.20	07.51	18.31	17.48
+002181	00.16	6.2303263E-7	Inversion Src #2181; 8 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 13 AND Oceanic - West Huasna, Subsection 20	03.34	-03.27	05.63	03.27
+024309	00.16	6.224768E-7	Inversion Src #24309; 11 SECTIONS BETWEEN Los Osos 2011, Subsection 6 AND Hosgri, Subsection 7	07.80	-07.70	10.25	07.70
+050497	00.15	6.216086E-7	Inversion Src #50497; 13 SECTIONS BETWEEN Los Osos 2011, Subsection 5 AND Hosgri, Subsection 8	07.80	-07.70	10.25	07.70
+017570	00.15	6.081336E-7	Inversion Src #17570; 12 SECTIONS BETWEEN Los Osos 2011, Subsection 6 AND Hosgri, Subsection 8	07.80	-07.70	10.25	07.70
+038885	00.15	6.065165E-7	Inversion Src #38885; 13 SECTIONS BETWEEN Los Osos 2011, Subsection 6 AND Hosgri, Subsection 8	07.80	-07.70	10.25	07.70
+036680	00.15	6.0424287E-7	Inversion Src #36680; 17 SECTIONS BETWEEN La Panza 2011, Subsection 8 AND Oceanic - West Huasna, Subsection 1	08.82	-02.73	09.70	08.79
+028424	00.15	6.0082385E-7	Inversion Src #28424; 30 SECTIONS BETWEEN Rinconada 2011 CFM, Subsection 0 AND San Juan, Subsection 2	11.34	11.33	11.55	10.26
+033343	00.15	5.9772026E-7	Inversion Src #33343; 14 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 15 AND Oceanic - West Huasna, Subsection 28	08.35	-03.61	09.58	08.32
+021975	00.15	5.8969636E-7	Inversion Src #21975; 27 SECTIONS BETWEEN La Panza 2011, Subsection 0 AND Rinconada 2011 CFM, Subsection 12	11.34	11.17	11.55	10.26
+041511	00.15	5.8907375E-7	Inversion Src #41511; 15 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 15 AND Oceanic - West Huasna, Subsection 29	08.35	-03.61	09.58	08.32
+074383	00.15	5.8543486E-7	Inversion Src #74383; 9 SECTIONS BETWEEN Oceanic - West Huasna, Subsection 3 AND Oceanic - West Huasna, Subsection 11	05.29	-02.97	06.81	05.24
+004452	00.15	5.821835E-7	Inversion Src #4452; 22 SECTIONS BETWEEN Lions Head 2011 CFM, Subsection 3 AND San Luis Range 2011 CFM, Subsection 6	08.82	-02.73	09.70	08.79

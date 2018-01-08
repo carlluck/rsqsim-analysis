@@ -1,0 +1,231 @@
+Mean/Mode Metadata :
+
+
+  Mbar = 7.106886
+  Dbar = 6.1353574
+  Ebar = 1.5021186
+
+  7.0 ≤ Mmode < 7.2
+  0.0 ≤ Dmode < 10.0
+1.0 < Emode <= 2.0
+
+Disaggregation Plot Parameters Info :
+Custom disagg
+
+Disaggregation Bin Data :
+Dist	Mag	E≤-2	-2<E≤-1	-1<E≤-0.5	 -0.5>E≤0	 0<E≤0.5	 0.5<E≤1	 1<E≤2	 2>E 
+-----	----	------	------	-------	-------	-------	-------	-------	------
+005.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.82 	 00.10 	 02.92
+005.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 11.15 	 00.48 	 11.63
+005.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 12.47 	 00.39 	 12.86
+005.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 19.45 	 00.12 	 19.57
+005.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.13 	 18.65 	 00.00 	 20.78
+005.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.87 	 04.21 	 00.00 	 06.08
+005.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.41 	 00.13 	 00.00 	 00.55
+005.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.84 	 00.84
+015.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.30 	 02.30
+015.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.70 	 02.70
+015.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.89 	 03.89
+015.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.53 	 08.42 	 08.95
+015.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.48 	 01.76 	 02.24
+015.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.17 	 00.74 	 02.90
+015.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.11 	 00.07 	 00.18
+015.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+025.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+025.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.07
+025.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.26 	 00.26
+025.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.80 	 00.80
+025.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.14 	 00.14
+025.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+025.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+025.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+035.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+035.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+035.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+035.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+035.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+045.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+065.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+065.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+
+
+Disaggregation Source List Info:
+Source#	% Contribution	TotExceedRate	SourceName	DistRup	DistX	DistSeis	DistJB
+057678	00.41	4.176746E-7	Inversion Src #57678; 25 SECTIONS BETWEEN Channel Islands Thrust, Subsection 5 AND Santa Ynez (West), Subsection 16	02.69	01.17	03.34	00.00
+084652	00.40	4.0123246E-7	Inversion Src #84652; 19 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 1 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 15	02.69	01.17	03.34	00.00
+012928	00.38	3.8131893E-7	Inversion Src #12928; 13 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 0 AND Malibu Coast (Extension) alt 1, Subsection 5	02.69	01.17	03.34	00.00
+071488	00.37	3.7381005E-7	Inversion Src #71488; 20 SECTIONS BETWEEN Santa Susana alt 1, Subsection 0 AND Santa Ynez (East), Subsection 9	02.69	01.17	03.34	00.00
+017828	00.36	3.6748E-7	Inversion Src #17828; 7 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 3 AND Pitas Point (Lower)-Montalvo, Subsection 1	02.69	01.17	03.34	00.00
+075402	00.36	3.664228E-7	Inversion Src #75402; 7 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 4 AND Ozena, Subsection 0	02.69	01.17	03.34	00.00
+054991	00.36	3.6470357E-7	Inversion Src #54991; 13 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 7 AND Sisar, Subsection 0	02.69	01.17	03.34	00.00
+002146	00.36	3.6211398E-7	Inversion Src #2146; 8 SECTIONS BETWEEN Channel Islands Thrust, Subsection 1 AND Ventura-Pitas Point, Subsection 6	02.69	01.17	03.34	00.00
+074166	00.36	3.607139E-7	Inversion Src #74166; 7 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 5 AND Sisar, Subsection 0	02.69	01.17	03.34	00.00
+036647	00.35	3.5311217E-7	Inversion Src #36647; 11 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 0 AND Santa Ynez (West), Subsection 16	02.69	01.17	03.34	00.00
+014203	00.35	3.5279896E-7	Inversion Src #14203; 11 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 6 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 17	02.69	01.17	03.34	00.00
+035569	00.35	3.526953E-7	Inversion Src #35569; 8 SECTIONS BETWEEN Sisar, Subsection 0 AND Malibu Coast (Extension) alt 1, Subsection 8	02.69	01.17	03.34	00.00
+044501	00.35	3.5105893E-7	Inversion Src #44501; 10 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 6 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 16	02.69	01.17	03.34	00.00
+007773	00.35	3.4879193E-7	Inversion Src #7773; 14 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 2 AND Santa Ynez (West), Subsection 16	02.69	01.17	03.34	00.00
+083930	00.34	3.462759E-7	Inversion Src #83930; 6 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 6 AND Sisar, Subsection 0	02.69	01.17	03.34	00.00
+063088	00.34	3.428683E-7	Inversion Src #63088; 6 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 4 AND Sisar, Subsection 0	02.69	01.17	03.34	00.00
+046844	00.34	3.4218786E-7	Inversion Src #46844; 16 SECTIONS BETWEEN Malibu Coast (Extension) alt 1, Subsection 4 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 17	02.69	01.17	03.34	00.00
+050206	00.34	3.4166789E-7	Inversion Src #50206; 8 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 0 AND Ventura-Pitas Point, Subsection 7	02.69	01.17	03.34	00.00
+004395	00.34	3.4030523E-7	Inversion Src #4395; 18 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 1 AND Santa Ynez (West), Subsection 16	02.69	01.17	03.34	00.00
+026763	00.34	3.385909E-7	Inversion Src #26763; 17 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 0 AND Red Mountain, Subsection 2	02.69	01.17	03.34	00.00
+075907	00.34	3.380043E-7	Inversion Src #75907; 7 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 0 AND Ventura-Pitas Point, Subsection 6	02.69	01.17	03.34	00.00
+066170	00.34	3.3777673E-7	Inversion Src #66170; 7 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 0 AND Ventura-Pitas Point, Subsection 6	02.69	01.17	03.34	00.00
+060439	00.33	3.3772054E-7	Inversion Src #60439; 11 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 4 AND Pitas Point (Lower)-Montalvo, Subsection 1	02.69	01.17	03.34	00.00
+036150	00.33	3.369279E-7	Inversion Src #36150; 13 SECTIONS BETWEEN Big Pine (Central), Subsection 6 AND Ventura-Pitas Point, Subsection 6	02.69	01.17	03.34	00.00
+040662	00.33	3.3687166E-7	Inversion Src #40662; 11 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 0 AND Red Mountain, Subsection 2	02.69	01.17	03.34	00.00
+083302	00.33	3.3630738E-7	Inversion Src #83302; 7 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 0 AND Ventura-Pitas Point, Subsection 6	02.69	01.17	03.34	00.00
+077176	00.33	3.3623527E-7	Inversion Src #77176; 10 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 1 AND Red Mountain, Subsection 3	02.69	01.17	03.34	00.00
+059406	00.33	3.361491E-7	Inversion Src #59406; 8 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 0 AND Ventura-Pitas Point, Subsection 7	02.69	01.17	03.34	00.00
+016678	00.33	3.3506734E-7	Inversion Src #16678; 7 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 0 AND Ventura-Pitas Point, Subsection 6	02.69	01.17	03.34	00.00
+011775	00.33	3.3445468E-7	Inversion Src #11775; 8 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 6 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 16	02.69	01.17	03.34	00.00
+053883	00.33	3.3344085E-7	Inversion Src #53883; 7 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 0 AND Ventura-Pitas Point, Subsection 6	02.69	01.17	03.34	00.00
+002829	00.33	3.3320936E-7	Inversion Src #2829; 7 SECTIONS BETWEEN Oak Ridge (Onshore), Subsection 0 AND Sisar, Subsection 0	02.69	01.17	03.34	00.00
+015685	00.33	3.3186276E-7	Inversion Src #15685; 6 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 0 AND Ventura-Pitas Point, Subsection 5	02.69	01.17	03.34	00.00
+028905	00.33	3.3186151E-7	Inversion Src #28905; 7 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 1 AND Ventura-Pitas Point, Subsection 7	02.69	01.17	03.34	00.00
+058807	00.33	3.3137042E-7	Inversion Src #58807; 7 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 0 AND Ventura-Pitas Point, Subsection 6	02.69	01.17	03.34	00.00
+038643	00.33	3.3088227E-7	Inversion Src #38643; 12 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 0 AND Malibu Coast (Extension) alt 1, Subsection 8	02.69	01.17	03.34	00.00
+072283	00.33	3.307505E-7	Inversion Src #72283; 7 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 0 AND Ventura-Pitas Point, Subsection 6	02.69	01.17	03.34	00.00
+069896	00.33	3.307134E-7	Inversion Src #69896; 8 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 0 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 11	02.69	01.17	03.34	00.00
+031518	00.33	3.30374E-7	Inversion Src #31518; 7 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 6 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 16	02.69	01.17	03.34	00.00
+039820	00.33	3.2998304E-7	Inversion Src #39820; 6 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 1 AND Ventura-Pitas Point, Subsection 6	02.69	01.17	03.34	00.00
+049107	00.33	3.2996115E-7	Inversion Src #49107; 8 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 0 AND Malibu Coast (Extension) alt 1, Subsection 8	02.69	01.17	03.34	00.00
+047577	00.33	3.2913417E-7	Inversion Src #47577; 9 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 3 AND Red Mountain, Subsection 4	02.69	01.17	03.34	00.00
+025206	00.33	3.2903588E-7	Inversion Src #25206; 10 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 6 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 17	02.69	01.17	03.34	00.00
+064059	00.33	3.288829E-7	Inversion Src #64059; 5 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 2 AND Ventura-Pitas Point, Subsection 6	02.69	01.17	03.34	00.00
+055762	00.33	3.2827734E-7	Inversion Src #55762; 10 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 0 AND Malibu Coast (Extension) alt 1, Subsection 7	02.69	01.17	03.34	00.00
+010039	00.33	3.2824622E-7	Inversion Src #10039; 6 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 2 AND Ventura-Pitas Point, Subsection 7	02.69	01.17	03.34	00.00
+008860	00.33	3.2822194E-7	Inversion Src #8860; 23 SECTIONS BETWEEN Simi-Santa Rosa, Subsection 6 AND Santa Ynez (East), Subsection 0	02.69	01.17	03.34	00.00
+061113	00.33	3.2778914E-7	Inversion Src #61113; 12 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 6 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 17	02.69	01.17	03.34	00.00
+074898	00.32	3.2621637E-7	Inversion Src #74898; 6 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 2 AND Ventura-Pitas Point, Subsection 7	02.69	01.17	03.34	00.00
+005663	00.32	3.2546754E-7	Inversion Src #5663; 5 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 0 AND Ventura-Pitas Point, Subsection 4	02.69	01.17	03.34	00.00
+030345	00.32	3.245958E-7	Inversion Src #30345; 12 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 6 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 17	02.69	01.17	03.34	00.00
+070654	00.32	3.240691E-7	Inversion Src #70654; 6 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 0 AND Ventura-Pitas Point, Subsection 5	02.69	01.17	03.34	00.00
+026050	00.32	3.2338144E-7	Inversion Src #26050; 6 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 1 AND Ventura-Pitas Point, Subsection 6	02.69	01.17	03.34	00.00
+067282	00.32	3.2291788E-7	Inversion Src #67282; 5 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 3 AND Ventura-Pitas Point, Subsection 7	02.69	01.17	03.34	00.00
+037941	00.32	3.2278993E-7	Inversion Src #37941; 6 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 1 AND Ventura-Pitas Point, Subsection 6	02.69	01.17	03.34	00.00
+032666	00.32	3.2266928E-7	Inversion Src #32666; 8 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 0 AND Red Mountain, Subsection 0	02.69	01.17	03.34	00.00
+045266	00.32	3.2250102E-7	Inversion Src #45266; 7 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 5 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 16	02.69	01.17	03.34	00.00
+066955	00.32	3.219295E-7	Inversion Src #66955; 11 SECTIONS BETWEEN Oak Ridge (Onshore), Subsection 4 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 16	02.69	01.17	03.34	00.00
+037404	00.32	3.2177584E-7	Inversion Src #37404; 12 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 6 AND Santa Ynez (East), Subsection 4	02.69	01.17	03.34	00.00
+001458	00.32	3.2125934E-7	Inversion Src #1458; 14 SECTIONS BETWEEN Oak Ridge (Onshore), Subsection 1 AND Red Mountain, Subsection 2	02.69	01.17	03.34	00.00
+053222	00.32	3.2094454E-7	Inversion Src #53222; 12 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 6 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 17	02.69	01.17	03.34	00.00
+069208	00.32	3.2052247E-7	Inversion Src #69208; 6 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 0 AND Ventura-Pitas Point, Subsection 5	02.69	01.17	03.34	00.00
+081074	00.32	3.2022643E-7	Inversion Src #81074; 10 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 5 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 17	02.69	01.17	03.34	00.00
+056500	00.32	3.1954337E-7	Inversion Src #56500; 5 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 0 AND Ventura-Pitas Point, Subsection 4	02.69	01.17	03.34	00.00
+043501	00.32	3.1917344E-7	Inversion Src #43501; 6 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 2 AND Ventura-Pitas Point, Subsection 7	02.69	01.17	03.34	00.00
+000829	00.32	3.1857144E-7	Inversion Src #829; 5 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 2 AND Ventura-Pitas Point, Subsection 6	02.69	01.17	03.34	00.00
+041284	00.32	3.1801233E-7	Inversion Src #41284; 5 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 2 AND Ventura-Pitas Point, Subsection 6	02.69	01.17	03.34	00.00
+068374	00.32	3.1778873E-7	Inversion Src #68374; 19 SECTIONS BETWEEN Malibu Coast (Extension) alt 1, Subsection 4 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 13	02.69	01.17	03.34	00.00
+051957	00.31	3.1737258E-7	Inversion Src #51957; 5 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 2 AND Ventura-Pitas Point, Subsection 6	02.69	01.17	03.34	00.00
+064821	00.31	3.171945E-7	Inversion Src #64821; 10 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 5 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 17	02.69	01.17	03.34	00.00
+019218	00.31	3.166392E-7	Inversion Src #19218; 12 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 0 AND Malibu Coast (Extension) alt 1, Subsection 6	02.69	01.17	03.34	00.00
+071668	00.31	3.1656887E-7	Inversion Src #71668; 8 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 3 AND Red Mountain, Subsection 3	02.69	01.17	03.34	00.00
+080387	00.31	3.162151E-7	Inversion Src #80387; 5 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 2 AND Ventura-Pitas Point, Subsection 6	02.69	01.17	03.34	00.00
+027684	00.31	3.1618933E-7	Inversion Src #27684; 14 SECTIONS BETWEEN Oak Ridge (Onshore), Subsection 4 AND Ventura-Pitas Point, Subsection 7	02.69	01.17	03.34	00.00
+003995	00.31	3.1387992E-7	Inversion Src #3995; 6 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 4 AND Sisar, Subsection 1	02.69	01.17	03.34	00.00
+073350	00.31	3.126562E-7	Inversion Src #73350; 7 SECTIONS BETWEEN Red Mountain, Subsection 1 AND Malibu Coast (Extension) alt 1, Subsection 6	02.69	01.17	03.34	00.00
+017430	00.31	3.1247234E-7	Inversion Src #17430; 5 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 0 AND Ventura-Pitas Point, Subsection 4	02.69	01.17	03.34	00.00
+004978	00.31	3.1204968E-7	Inversion Src #4978; 8 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 3 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 14	02.69	01.17	03.34	00.00
+006650	00.31	3.1135613E-7	Inversion Src #6650; 4 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 3 AND Ventura-Pitas Point, Subsection 6	02.69	01.17	03.34	00.00
+065396	00.31	3.1127192E-7	Inversion Src #65396; 4 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 3 AND Ventura-Pitas Point, Subsection 6	02.69	01.17	03.34	00.00
+085394	00.31	3.1121706E-7	Inversion Src #85394; 6 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 4 AND Sisar, Subsection 1	02.69	01.17	03.34	00.00
+077844	00.31	3.1051727E-7	Inversion Src #77844; 5 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 0 AND Ventura-Pitas Point, Subsection 4	02.69	01.17	03.34	00.00
+079102	00.31	3.102833E-7	Inversion Src #79102; 17 SECTIONS BETWEEN Oak Ridge (Onshore), Subsection 4 AND Red Mountain, Subsection 0	02.69	01.17	03.34	00.00
+057036	00.31	3.0993064E-7	Inversion Src #57036; 4 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 3 AND Ventura-Pitas Point, Subsection 6	02.69	01.17	03.34	00.00
+033361	00.31	3.094868E-7	Inversion Src #33361; 8 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 5 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 17	02.69	01.17	03.34	00.00
+023524	00.31	3.09106E-7	Inversion Src #23524; 5 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 0 AND Ventura-Pitas Point, Subsection 4	02.69	01.17	03.34	00.00
+023904	00.31	3.0869876E-7	Inversion Src #23904; 7 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 3 AND Red Mountain, Subsection 2	02.69	01.17	03.34	00.00
+020426	00.31	3.0766842E-7	Inversion Src #20426; 5 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 2 AND Ventura-Pitas Point, Subsection 6	02.69	01.17	03.34	00.00
+011111	00.31	3.075879E-7	Inversion Src #11111; 4 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 4 AND Ventura-Pitas Point, Subsection 7	02.69	01.17	03.34	00.00
+071091	00.30	3.0712403E-7	Inversion Src #71091; 3 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 4 AND Ventura-Pitas Point, Subsection 6	02.69	01.17	03.34	00.00
+003377	00.30	3.0680832E-7	Inversion Src #3377; 7 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 6 AND Malibu Coast (Extension) alt 1, Subsection 6	02.69	01.17	03.34	00.00
+072987	00.30	3.0612028E-7	Inversion Src #72987; 5 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 4 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 17	02.69	01.17	03.34	00.00
+052601	00.30	3.0589626E-7	Inversion Src #52601; 6 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 5 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 17	02.69	01.17	03.34	00.00
+079732	00.30	3.043619E-7	Inversion Src #79732; 4 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 3 AND Ventura-Pitas Point, Subsection 6	02.69	01.17	03.34	00.00
+022060	00.30	3.026364E-7	Inversion Src #22060; 11 SECTIONS BETWEEN Malibu Coast (Extension) alt 1, Subsection 7 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 15	02.69	01.17	03.34	00.00
+024487	00.30	3.0246193E-7	Inversion Src #24487; 7 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 4 AND Red Mountain, Subsection 3	02.69	01.17	03.34	00.00
+067881	00.30	3.0166055E-7	Inversion Src #67881; 4 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 3 AND Ventura-Pitas Point, Subsection 6	02.69	01.17	03.34	00.00
+023235	00.30	3.011985E-7	Inversion Src #23235; 5 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 4 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 11	02.69	01.17	03.34	00.00
+042412	00.30	3.001617E-7	Inversion Src #42412; 13 SECTIONS BETWEEN Simi-Santa Rosa, Subsection 6 AND Santa Ynez (East), Subsection 3	02.69	01.17	03.34	00.00
+022902	00.30	2.9973444E-7	Inversion Src #22902; 4 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 1 AND Ventura-Pitas Point, Subsection 4	02.69	01.17	03.34	00.00

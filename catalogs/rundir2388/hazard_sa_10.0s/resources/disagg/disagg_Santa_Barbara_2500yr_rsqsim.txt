@@ -1,0 +1,231 @@
+Mean/Mode Metadata :
+
+
+  Mbar = 7.559307
+  Dbar = 36.760242
+  Ebar = 1.7976972
+
+  7.8 ≤ Mmode < 8.0
+  60.0 ≤ Dmode < 70.0
+2.0 < Emode 
+
+Disaggregation Plot Parameters Info :
+Custom disagg
+
+Disaggregation Bin Data :
+Dist	Mag	E≤-2	-2<E≤-1	-1<E≤-0.5	 -0.5>E≤0	 0<E≤0.5	 0.5<E≤1	 1<E≤2	 2>E 
+-----	----	------	------	-------	-------	-------	-------	-------	------
+005.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.22 	 00.24
+005.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.09 	 00.75 	 00.84
+005.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.21 	 00.32 	 01.52
+005.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 04.98 	 00.00 	 04.98
+005.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.23 	 11.49 	 00.00 	 13.72
+005.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.16 	 12.78 	 02.59 	 00.00 	 15.53
+005.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 01.38 	 01.94 	 00.00 	 00.00 	 03.32
+005.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 01.83 	 00.00 	 00.00 	 00.00 	 01.83
+005.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+015.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.19 	 00.19
+015.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.56 	 00.57
+015.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.13 	 00.82 	 00.95
+015.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.83 	 00.04 	 00.87
+015.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.44 	 00.00 	 00.44
+015.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.11 	 00.08 	 00.00 	 00.18
+015.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.14 	 00.00 	 00.00 	 00.14
+015.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+025.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.15 	 00.15
+025.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.21 	 00.21
+025.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.83 	 00.87
+025.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.31 	 00.10 	 00.41
+025.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.14 	 00.00 	 00.14
+025.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.11 	 00.50 	 00.00 	 00.60
+025.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+035.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+035.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.30 	 00.30
+035.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.12 	 01.12
+035.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.49 	 00.52
+035.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.18 	 00.28 	 00.46
+035.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.15 	 00.00 	 00.15
+035.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+045.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.23 	 00.23
+045.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.84 	 00.84
+045.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.28 	 00.28
+045.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.10 	 00.10
+045.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.43 	 00.03 	 00.46
+045.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.10 	 00.10
+055.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.39 	 00.39
+055.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.46 	 00.46
+055.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.51 	 00.51
+055.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.16 	 01.71 	 01.87
+055.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.00 	 00.04
+055.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+065.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.07
+065.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.36 	 00.36
+065.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.88 	 03.88
+065.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 11.85 	 11.85
+065.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.33 	 24.41 	 24.74
+065.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+075.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+075.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.17 	 00.17
+075.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.79 	 00.79
+075.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.10 	 00.10
+075.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+085.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+085.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.11 	 00.11
+085.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.36 	 00.36
+085.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.25 	 00.25
+085.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+085.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+095.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+095.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+095.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+095.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+105.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.06 	 00.06
+105.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+105.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.07
+105.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+105.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+
+
+Disaggregation Source List Info:
+Source#	% Contribution	TotExceedRate	SourceName	DistRup	DistX	DistSeis	DistJB
+013200	00.22	8.9046034E-7	Inversion Src #13200; 80 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 4 AND Santa Ynez (West), Subsection 16	06.44	06.49	06.63	03.59
+067478	00.21	8.511679E-7	Inversion Src #67478; 63 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 1 AND San Andreas (San Bernardino N), Subsection 2	06.44	06.49	06.63	03.59
+027735	00.21	8.41439E-7	Inversion Src #27735; 60 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Andreas (San Bernardino N), Subsection 2	06.44	06.49	06.63	03.59
+050650	00.21	8.3756163E-7	Inversion Src #50650; 64 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 5 AND San Juan, Subsection 0	06.44	06.49	06.63	03.59
+006256	00.21	8.3737575E-7	Inversion Src #6256; 59 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Jacinto (Lytle Creek connector), Subsection 0	06.44	06.49	06.63	03.59
+046114	00.20	8.2536104E-7	Inversion Src #46114; 77 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 1 AND San Andreas (San Bernardino N), Subsection 0	07.87	05.60	08.07	06.59
+081316	00.20	8.06601E-7	Inversion Src #81316; 57 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND Santa Ynez (West), Subsection 16	06.44	06.49	06.63	03.59
+076813	00.19	7.819116E-7	Inversion Src #76813; 77 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND San Jacinto (Lytle Creek connector), Subsection 0	07.87	05.60	08.07	06.59
+074514	00.19	7.74012E-7	Inversion Src #74514; 13 SECTIONS BETWEEN Santa Ynez (West), Subsection 10 AND Red Mountain, Subsection 3	03.32	-00.44	04.87	00.00
+052323	00.19	7.5070125E-7	Inversion Src #52323; 27 SECTIONS BETWEEN Pitas Point (Lower West), Subsection 2 AND Pitas Point (Lower)-Montalvo, Subsection 1	06.44	06.46	06.63	00.00
+064656	00.18	7.2080604E-7	Inversion Src #64656; 51 SECTIONS BETWEEN San Jacinto (San Bernardino), Subsection 2 AND San Andreas (Carrizo) rev, Subsection 5	07.87	05.60	08.07	06.59
+003137	00.18	7.195551E-7	Inversion Src #3137; 27 SECTIONS BETWEEN Channel Islands Western Deep Ramp, Subsection 4 AND Pitas Point (Lower West), Subsection 2	06.44	06.49	06.63	00.00
+038218	00.17	6.823897E-7	Inversion Src #38218; 19 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Pitas Point (Lower West), Subsection 2	06.44	06.49	06.63	00.00
+026319	00.17	6.775707E-7	Inversion Src #26319; 15 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez River, Subsection 10	06.44	06.49	06.63	00.00
+057137	00.17	6.672795E-7	Inversion Src #57137; 18 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez (East), Subsection 0	06.44	06.49	06.63	00.00
+039794	00.16	6.557667E-7	Inversion Src #39794; 9 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez (West), Subsection 16	00.93	-00.42	03.61	00.00
+008407	00.16	6.477652E-7	Inversion Src #8407; 15 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Pitas Point (Lower West), Subsection 0	06.44	06.49	06.63	00.00
+045324	00.16	6.4039165E-7	Inversion Src #45324; 18 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 1 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 1	06.44	06.49	06.63	00.00
+072260	00.15	6.0685966E-7	Inversion Src #72260; 17 SECTIONS BETWEEN South Cuyama, Subsection 4 AND Santa Ynez (West), Subsection 15	06.44	06.49	06.63	03.59
+071561	00.15	5.9613404E-7	Inversion Src #71561; 20 SECTIONS BETWEEN Channel Islands Thrust, Subsection 5 AND Santa Ynez (East), Subsection 6	07.87	05.60	08.07	06.59
+029293	00.15	5.8929766E-7	Inversion Src #29293; 12 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 1 AND Santa Ynez (West), Subsection 15	06.44	06.49	06.63	00.00
+079150	00.15	5.8885365E-7	Inversion Src #79150; 22 SECTIONS BETWEEN Oak Ridge (Onshore), Subsection 4 AND Santa Ynez (West), Subsection 15	06.44	06.49	06.63	03.59
+014256	00.14	5.8309047E-7	Inversion Src #14256; 16 SECTIONS BETWEEN Santa Cruz Catalina Ridge alt1, Subsection 18 AND Santa Ynez (West), Subsection 16	06.44	06.49	06.63	03.59
+056186	00.14	5.759787E-7	Inversion Src #56186; 12 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 1 AND Santa Ynez (West), Subsection 15	06.44	06.49	06.63	00.00
+048158	00.14	5.7525335E-7	Inversion Src #48158; 8 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez (West), Subsection 10	07.09	-01.47	08.01	00.00
+047933	00.14	5.7272337E-7	Inversion Src #47933; 24 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND Santa Ynez (West), Subsection 16	06.44	06.49	06.63	03.59
+022139	00.14	5.702283E-7	Inversion Src #22139; 62 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 1 AND San Andreas (San Bernardino N), Subsection 2	14.55	09.89	14.55	11.99
+068996	00.14	5.605459E-7	Inversion Src #68996; 17 SECTIONS BETWEEN Big Pine (Central), Subsection 6 AND Santa Ynez (West), Subsection 14	06.44	06.49	06.63	03.59
+026881	00.14	5.587122E-7	Inversion Src #26881; 24 SECTIONS BETWEEN Oak Ridge (Onshore), Subsection 4 AND Simi-Santa Rosa, Subsection 6	07.87	05.60	08.07	00.00
+035312	00.14	5.5544047E-7	Inversion Src #35312; 18 SECTIONS BETWEEN Pitas Point (Lower West), Subsection 0 AND Santa Ynez (West), Subsection 0	08.94	21.08	08.94	05.64
+082980	00.14	5.522653E-7	Inversion Src #82980; 10 SECTIONS BETWEEN Channel Islands Thrust, Subsection 0 AND Santa Ynez (West), Subsection 15	06.44	06.46	06.63	03.59
+075060	00.14	5.5050475E-7	Inversion Src #75060; 19 SECTIONS BETWEEN San Andreas (Parkfield), Subsection 0 AND Santa Ynez (West), Subsection 16	06.44	06.49	06.63	03.59
+065117	00.14	5.4849113E-7	Inversion Src #65117; 9 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 1 AND Santa Ynez (West), Subsection 15	06.44	06.49	06.63	00.00
+006842	00.14	5.463684E-7	Inversion Src #6842; 15 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Pitas Point (Lower West), Subsection 1	06.44	06.49	06.63	00.00
+016647	00.14	5.446295E-7	Inversion Src #16647; 8 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez (East), Subsection 0	06.44	06.49	06.63	00.00
+031212	00.13	5.3579623E-7	Inversion Src #31212; 22 SECTIONS BETWEEN Oak Ridge (Onshore), Subsection 4 AND Big Pine (Central), Subsection 5	06.44	06.49	06.63	03.59
+038777	00.13	5.3014566E-7	Inversion Src #38777; 6 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez (West), Subsection 14	06.44	06.49	06.63	00.00
+021230	00.13	5.294701E-7	Inversion Src #21230; 9 SECTIONS BETWEEN Channel Islands Western Deep Ramp, Subsection 4 AND Santa Ynez (West), Subsection 12	06.44	06.49	06.63	00.00
+062996	00.13	5.277139E-7	Inversion Src #62996; 10 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez (West), Subsection 16	06.44	06.49	06.63	00.00
+077368	00.13	5.230623E-7	Inversion Src #77368; 9 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez (West), Subsection 13	06.44	06.49	06.63	00.00
+001214	00.13	5.227327E-7	Inversion Src #1214; 10 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez (West), Subsection 16	06.44	06.49	06.63	00.00
+044207	00.13	5.2156554E-7	Inversion Src #44207; 6 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez (West), Subsection 15	06.44	06.49	06.63	00.00
+030746	00.13	5.171992E-7	Inversion Src #30746; 9 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez (West), Subsection 13	06.44	06.49	06.63	00.00
+078318	00.13	5.1644497E-7	Inversion Src #78318; 10 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Pitas Point (Lower West), Subsection 0	06.44	06.49	06.63	00.00
+042775	00.13	5.078633E-7	Inversion Src #42775; 15 SECTIONS BETWEEN Pitas Point (Lower West), Subsection 0 AND Santa Ynez (West), Subsection 0	08.94	21.08	08.94	05.64
+005228	00.13	5.0674817E-7	Inversion Src #5228; 7 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez (West), Subsection 16	06.44	06.49	06.63	00.00
+073707	00.12	5.0141443E-7	Inversion Src #73707; 23 SECTIONS BETWEEN Pitas Point (Lower West), Subsection 0 AND Santa Ynez (West), Subsection 1	08.94	21.08	08.94	04.77
+010499	00.12	5.000771E-7	Inversion Src #10499; 8 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez (West), Subsection 16	06.44	06.49	06.63	00.00
+004265	00.12	4.9845096E-7	Inversion Src #4265; 6 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Pitas Point (Lower West), Subsection 0	06.44	06.49	06.63	00.00
+019715	00.12	4.9758967E-7	Inversion Src #19715; 7 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 2	06.44	06.46	06.63	00.00
+014010	00.12	4.9568763E-7	Inversion Src #14010; 9 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez (West), Subsection 12	06.44	06.49	06.63	00.00
+015609	00.12	4.910175E-7	Inversion Src #15609; 14 SECTIONS BETWEEN Ozena, Subsection 0 AND Santa Ynez (West), Subsection 15	06.44	06.49	06.63	03.59
+060621	00.12	4.8926984E-7	Inversion Src #60621; 13 SECTIONS BETWEEN Pitas Point (Lower West), Subsection 0 AND Santa Ynez (West), Subsection 7	08.94	21.08	08.94	04.77
+025132	00.12	4.844956E-7	Inversion Src #25132; 20 SECTIONS BETWEEN Oak Ridge (Onshore), Subsection 4 AND Santa Ynez (West), Subsection 12	06.44	06.49	06.63	03.59
+032382	00.12	4.792588E-7	Inversion Src #32382; 5 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez (West), Subsection 16	06.44	06.49	06.63	00.00
+084355	00.12	4.785914E-7	Inversion Src #84355; 13 SECTIONS BETWEEN Pitas Point (Lower West), Subsection 0 AND Los Alamos 2011 CFM, Subsection 0	08.94	21.08	08.94	04.77
+066520	00.12	4.776753E-7	Inversion Src #66520; 17 SECTIONS BETWEEN Oak Ridge (Onshore), Subsection 2 AND Santa Ynez (West), Subsection 15	06.44	06.49	06.63	03.59
+007108	00.12	4.7700956E-7	Inversion Src #7108; 19 SECTIONS BETWEEN Pitas Point (Lower West), Subsection 2 AND San Andreas (Mojave N), Subsection 0	08.94	21.08	08.94	04.77
+019057	00.12	4.7455268E-7	Inversion Src #19057; 8 SECTIONS BETWEEN Red Mountain, Subsection 8 AND Santa Ynez (West), Subsection 16	06.44	06.49	06.63	00.00
+061599	00.12	4.7302012E-7	Inversion Src #61599; 8 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 1 AND Santa Ynez (East), Subsection 0	07.87	05.60	08.07	00.00
+007932	00.12	4.7271755E-7	Inversion Src #7932; 13 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Pitas Point (Lower West), Subsection 0	08.94	21.08	08.94	00.00
+058973	00.12	4.682717E-7	Inversion Src #58973; 11 SECTIONS BETWEEN Santa Ynez (West), Subsection 8 AND Santa Cruz Island, Subsection 8	08.94	21.08	08.94	00.00
+071658	00.12	4.6827046E-7	Inversion Src #71658; 6 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez (West), Subsection 11	06.44	06.49	06.63	00.00
+023680	00.12	4.6599098E-7	Inversion Src #23680; 6 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 2	06.44	06.49	06.63	00.00
+025361	00.12	4.6559305E-7	Inversion Src #25361; 26 SECTIONS BETWEEN Hosgri (Extension), Subsection 7 AND Los Alamos 2011 CFM, Subsection 1	08.94	21.08	08.94	05.64
+036665	00.12	4.640828E-7	Inversion Src #36665; 7 SECTIONS BETWEEN Red Mountain, Subsection 7 AND Ventura-Pitas Point, Subsection 7	08.94	21.08	08.94	00.00
+067073	00.12	4.638574E-7	Inversion Src #67073; 8 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez (West), Subsection 14	07.09	-01.47	08.01	00.00
+071782	00.12	4.6348669E-7	Inversion Src #71782; 9 SECTIONS BETWEEN Pitas Point (Lower West), Subsection 0 AND Santa Ynez (West), Subsection 6	08.94	21.08	08.94	05.64
+085245	00.11	4.6266473E-7	Inversion Src #85245; 7 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez (West), Subsection 16	06.44	06.49	06.63	00.00
+081824	00.11	4.6150214E-7	Inversion Src #81824; 6 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez (West), Subsection 13	07.09	-01.47	08.01	00.00
+059514	00.11	4.5861697E-7	Inversion Src #59514; 7 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez (West), Subsection 16	06.44	06.49	06.63	00.00
+025884	00.11	4.5835807E-7	Inversion Src #25884; 6 SECTIONS BETWEEN Channel Islands Thrust, Subsection 1 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 2	07.09	-01.47	08.01	07.05
+086121	00.11	4.5832167E-7	Inversion Src #86121; 5 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez (West), Subsection 16	06.44	06.49	06.63	00.00
+078023	00.11	4.5723468E-7	Inversion Src #78023; 13 SECTIONS BETWEEN Pitas Point (Lower West), Subsection 0 AND Santa Ynez River, Subsection 10	08.94	21.08	08.94	04.77
+030273	00.11	4.5705087E-7	Inversion Src #30273; 6 SECTIONS BETWEEN Pitas Point (Lower West), Subsection 0 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 2	07.09	-01.47	08.01	05.64
+062401	00.11	4.5522637E-7	Inversion Src #62401; 6 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 2	07.09	-01.47	08.01	00.00
+062565	00.11	4.5309045E-7	Inversion Src #62565; 18 SECTIONS BETWEEN Pitas Point (Lower West), Subsection 0 AND Santa Ynez (West), Subsection 0	08.94	21.08	08.94	05.64
+051243	00.11	4.5271594E-7	Inversion Src #51243; 10 SECTIONS BETWEEN Pitas Point (Lower West), Subsection 0 AND Santa Ynez (West), Subsection 10	08.94	21.08	08.94	04.77
+054213	00.11	4.523852E-7	Inversion Src #54213; 7 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez (West), Subsection 16	06.44	06.49	06.63	00.00
+011165	00.11	4.4891604E-7	Inversion Src #11165; 15 SECTIONS BETWEEN Pitas Point (Lower West), Subsection 0 AND Los Alamos 2011 CFM, Subsection 2	07.09	-01.47	08.01	04.77
+034527	00.11	4.4356963E-7	Inversion Src #34527; 7 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 2	06.44	06.49	06.63	00.00
+050487	00.11	4.4108972E-7	Inversion Src #50487; 6 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez (West), Subsection 16	06.44	06.49	06.63	00.00
+033473	00.11	4.4089893E-7	Inversion Src #33473; 10 SECTIONS BETWEEN Pitas Point (Lower West), Subsection 0 AND Santa Ynez (West), Subsection 9	08.94	21.08	08.94	05.64
+079638	00.11	4.404185E-7	Inversion Src #79638; 4 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez (West), Subsection 16	06.44	06.49	06.63	00.00
+012941	00.11	4.4041192E-7	Inversion Src #12941; 6 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez (West), Subsection 16	06.44	06.49	06.63	00.00
+071021	00.11	4.3880874E-7	Inversion Src #71021; 9 SECTIONS BETWEEN Pitas Point (Lower West), Subsection 0 AND Red Mountain, Subsection 4	08.27	09.02	08.27	00.00
+049815	00.11	4.376164E-7	Inversion Src #49815; 10 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez (West), Subsection 14	06.44	06.49	06.63	00.00
+015238	00.11	4.3636376E-7	Inversion Src #15238; 4 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez (West), Subsection 16	06.44	06.49	06.63	00.00
+087079	00.11	4.358307E-7	Inversion Src #87079; 5 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez (West), Subsection 16	06.44	06.49	06.63	00.00
+081166	00.11	4.3565822E-7	Inversion Src #81166; 73 SECTIONS BETWEEN San Andreas (Creeping Section) 2011 CFM, Subsection 2 AND San Andreas (San Bernardino N), Subsection 1	22.61	18.03	22.61	18.57
+000942	00.11	4.3560232E-7	Inversion Src #942; 9 SECTIONS BETWEEN Pitas Point (Lower West), Subsection 0 AND Santa Ynez (West), Subsection 9	08.94	21.08	08.94	04.77
+060163	00.11	4.3387803E-7	Inversion Src #60163; 12 SECTIONS BETWEEN Oak Ridge (Onshore), Subsection 2 AND Santa Ynez (West), Subsection 15	06.44	06.49	06.63	03.59
+084224	00.11	4.3375985E-7	Inversion Src #84224; 7 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez (West), Subsection 16	06.44	06.46	06.63	00.00
+048592	00.11	4.3341532E-7	Inversion Src #48592; 15 SECTIONS BETWEEN Red Mountain, Subsection 5 AND Santa Ynez (East), Subsection 6	06.44	06.49	06.63	00.47
+033552	00.11	4.299038E-7	Inversion Src #33552; 4 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 2	07.09	-01.47	08.01	00.00
+031231	00.11	4.278086E-7	Inversion Src #31231; 9 SECTIONS BETWEEN Pitas Point (Lower West), Subsection 0 AND Santa Ynez (West), Subsection 7	08.94	21.08	08.94	04.77
+029750	00.11	4.275589E-7	Inversion Src #29750; 9 SECTIONS BETWEEN Ventura-Pitas Point, Subsection 2 AND Mission Ridge-Arroyo Parida-Santa Ana, Subsection 2	07.09	-01.47	08.01	00.00
+055212	00.11	4.2719788E-7	Inversion Src #55212; 5 SECTIONS BETWEEN Pitas Point (Lower)-Montalvo, Subsection 0 AND Santa Ynez (West), Subsection 15	06.44	06.49	06.63	00.00
+029832	00.11	4.2448775E-7	Inversion Src #29832; 16 SECTIONS BETWEEN Mission Ridge-Arroyo Parida-Santa Ana, Subsection 1 AND Santa Cruz Catalina Ridge alt1, Subsection 19	10.85	-00.99	11.48	10.82
+040062	00.10	4.2288076E-7	Inversion Src #40062; 14 SECTIONS BETWEEN Santa Ynez (West), Subsection 15 AND Ventura-Pitas Point, Subsection 5	06.44	06.46	06.63	03.59

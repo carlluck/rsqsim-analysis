@@ -1,0 +1,231 @@
+Mean/Mode Metadata :
+
+
+  Mbar = 7.292848
+  Dbar = 6.25339
+  Ebar = 1.1587255
+
+  7.2 ≤ Mmode < 7.4
+  0.0 ≤ Dmode < 10.0
+0.5 < Emode <= 1.0
+
+Disaggregation Plot Parameters Info :
+Custom disagg
+
+Disaggregation Bin Data :
+Dist	Mag	E≤-2	-2<E≤-1	-1<E≤-0.5	 -0.5>E≤0	 0<E≤0.5	 0.5<E≤1	 1<E≤2	 2>E 
+-----	----	------	------	-------	-------	-------	-------	-------	------
+005.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.61 	 01.09 	 02.70
+005.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 07.26 	 00.40 	 07.67
+005.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 10.71 	 00.17 	 10.88
+005.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.12 	 11.84 	 00.00 	 13.96
+005.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 23.71 	 02.61 	 00.00 	 26.32
+005.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 10.95 	 00.00 	 00.00 	 10.95
+005.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 01.50 	 02.10 	 00.00 	 00.00 	 03.60
+005.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 09.52 	 00.00 	 00.00 	 00.00 	 09.52
+005.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+015.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+015.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.09 	 00.09
+015.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.89 	 00.89
+015.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.81 	 00.81
+015.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.09 	 02.57 	 04.66
+015.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.36 	 00.00 	 00.36
+015.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.85 	 00.00 	 01.85
+015.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+025.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.09 	 00.09
+025.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.11 	 00.11
+025.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.32 	 00.32
+025.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.59 	 00.59
+025.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.22 	 00.04 	 00.27
+025.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.70 	 00.00 	 00.70
+025.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+035.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+035.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.33 	 00.33
+035.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.50 	 00.50
+035.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.30 	 00.30
+035.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.52 	 00.59
+035.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+045.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.06 	 00.06
+045.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+045.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+055.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+065.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.06 	 00.06
+065.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.11 	 00.11
+065.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.07
+065.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+065.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+075.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.10 	 00.10
+075.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.13 	 00.13
+075.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.12 	 00.12
+075.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+085.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+085.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+085.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+085.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+105.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.19 	 00.19
+105.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.11 	 00.11
+105.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+105.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+
+
+Disaggregation Source List Info:
+Source#	% Contribution	TotExceedRate	SourceName	DistRup	DistX	DistSeis	DistJB
+044624	00.89	8.9594215E-7	Inversion Src #44624; 62 SECTIONS BETWEEN Rose Canyon, Subsection 0 AND Newport-Inglewood (Offshore), Subsection 8	01.41	01.15	03.22	01.18
+057684	00.89	8.902216E-7	Inversion Src #57684; 64 SECTIONS BETWEEN Elsinore (Glen Ivy) rev, Subsection 0 AND Newport-Inglewood alt 1, Subsection 0	01.41	01.13	03.22	01.18
+050513	00.89	8.891582E-7	Inversion Src #50513; 76 SECTIONS BETWEEN San Jacinto (Coyote Creek), Subsection 2 AND San Diego Trough south, Subsection 5	01.41	01.13	03.22	01.18
+027663	00.88	8.8276846E-7	Inversion Src #27663; 43 SECTIONS BETWEEN Newport-Inglewood (Offshore), Subsection 1 AND Carlsbad, Subsection 6	01.41	01.13	03.22	01.18
+074382	00.88	8.7985734E-7	Inversion Src #74382; 61 SECTIONS BETWEEN Elsinore (Glen Ivy) rev, Subsection 0 AND San Diego Trough north alt1, Subsection 19	01.41	01.13	03.22	01.18
+019995	00.87	8.761557E-7	Inversion Src #19995; 42 SECTIONS BETWEEN Newport-Inglewood (Offshore), Subsection 0 AND Carlsbad, Subsection 6	01.41	01.13	03.22	01.18
+084201	00.86	8.648904E-7	Inversion Src #84201; 58 SECTIONS BETWEEN San Jacinto (Coyote Creek), Subsection 1 AND Palos Verdes, Subsection 8	01.41	01.13	03.22	01.18
+032798	00.85	8.535063E-7	Inversion Src #32798; 39 SECTIONS BETWEEN Newport-Inglewood (Offshore), Subsection 2 AND Carlsbad, Subsection 3	01.41	01.13	03.22	01.18
+066845	00.84	8.4298546E-7	Inversion Src #66845; 62 SECTIONS BETWEEN San Diego Trough north alt1, Subsection 0 AND Newport-Inglewood (Offshore), Subsection 6	01.41	01.15	03.22	01.18
+015069	00.83	8.3598496E-7	Inversion Src #15069; 45 SECTIONS BETWEEN San Diego Trough north alt1, Subsection 0 AND San Joaquin Hills, Subsection 2	01.41	01.15	03.22	01.18
+005379	00.82	8.1964953E-7	Inversion Src #5379; 40 SECTIONS BETWEEN Newport-Inglewood (Offshore), Subsection 2 AND Rose Canyon, Subsection 4	01.41	01.13	03.22	01.18
+009391	00.76	7.6503954E-7	Inversion Src #9391; 50 SECTIONS BETWEEN San Diego Trough north alt1, Subsection 26 AND Newport-Inglewood (Offshore), Subsection 9	01.41	01.13	03.22	01.18
+082079	00.74	7.409672E-7	Inversion Src #82079; 62 SECTIONS BETWEEN San Diego Trough north alt1, Subsection 15 AND San Diego Trough south, Subsection 1	01.41	01.13	03.22	01.18
+021553	00.64	6.405546E-7	Inversion Src #21553; 49 SECTIONS BETWEEN Coronado Bank alt1, Subsection 30 AND Rose Canyon, Subsection 19	01.41	01.15	03.22	01.18
+064219	00.63	6.3503586E-7	Inversion Src #64219; 36 SECTIONS BETWEEN Newport-Inglewood (Offshore), Subsection 7 AND Rose Canyon, Subsection 0	01.41	01.13	03.22	01.18
+079603	00.63	6.313794E-7	Inversion Src #79603; 49 SECTIONS BETWEEN Coronado Bank alt1, Subsection 30 AND Rose Canyon, Subsection 19	01.41	01.15	03.22	01.18
+035515	00.60	6.0554726E-7	Inversion Src #35515; 42 SECTIONS BETWEEN Coronado Bank alt1, Subsection 28 AND Rose Canyon, Subsection 12	01.41	01.15	03.22	01.18
+086102	00.60	6.011374E-7	Inversion Src #86102; 34 SECTIONS BETWEEN Coronado Bank alt1, Subsection 30 AND Rose Canyon, Subsection 5	01.41	01.15	03.22	01.18
+085567	00.60	6.002808E-7	Inversion Src #85567; 32 SECTIONS BETWEEN San Diego Trough north alt1, Subsection 23 AND Rose Canyon, Subsection 4	01.41	01.13	03.22	01.18
+040290	00.59	5.900291E-7	Inversion Src #40290; 40 SECTIONS BETWEEN Coronado Bank alt1, Subsection 24 AND Rose Canyon, Subsection 19	01.41	01.15	03.22	01.18
+006450	00.58	5.823506E-7	Inversion Src #6450; 29 SECTIONS BETWEEN Coronado Bank alt1, Subsection 30 AND Rose Canyon, Subsection 6	01.41	01.15	03.22	01.18
+039559	00.58	5.8112545E-7	Inversion Src #39559; 28 SECTIONS BETWEEN Newport-Inglewood (Offshore), Subsection 9 AND Rose Canyon, Subsection 0	01.41	01.13	03.22	01.18
+031498	00.57	5.707374E-7	Inversion Src #31498; 33 SECTIONS BETWEEN Coronado Bank alt1, Subsection 18 AND Rose Canyon, Subsection 19	01.41	01.15	03.22	01.18
+075185	00.57	5.6743795E-7	Inversion Src #75185; 29 SECTIONS BETWEEN Coronado Bank alt1, Subsection 30 AND Rose Canyon, Subsection 6	01.41	01.15	03.22	01.18
+016879	00.56	5.6475136E-7	Inversion Src #16879; 27 SECTIONS BETWEEN Oceanside alt1, Subsection 2 AND Newport-Inglewood (Offshore), Subsection 12	01.41	01.13	03.22	01.18
+022706	00.56	5.588158E-7	Inversion Src #22706; 27 SECTIONS BETWEEN Elsinore (Julian), Subsection 0 AND Rose Canyon, Subsection 2	01.41	01.13	03.22	01.18
+049552	00.55	5.4729406E-7	Inversion Src #49552; 27 SECTIONS BETWEEN Carlsbad, Subsection 6 AND Rose Canyon, Subsection 0	01.41	01.13	03.22	01.18
+078699	00.54	5.4236983E-7	Inversion Src #78699; 31 SECTIONS BETWEEN San Diego Trough north alt1, Subsection 0 AND Rose Canyon, Subsection 19	01.41	01.15	03.22	01.18
+077425	00.54	5.391019E-7	Inversion Src #77425; 32 SECTIONS BETWEEN Coronado Bank alt1, Subsection 12 AND Rose Canyon, Subsection 19	01.41	01.15	03.22	01.18
+059328	00.53	5.3265654E-7	Inversion Src #59328; 27 SECTIONS BETWEEN Newport-Inglewood (Offshore), Subsection 9 AND Rose Canyon, Subsection 2	01.41	01.13	03.22	01.18
+011243	00.53	5.317817E-7	Inversion Src #11243; 27 SECTIONS BETWEEN Oceanside alt1, Subsection 1 AND Rose Canyon, Subsection 2	01.41	01.13	03.22	01.18
+045112	00.53	5.259445E-7	Inversion Src #45112; 32 SECTIONS BETWEEN Coronado Bank alt1, Subsection 20 AND Rose Canyon, Subsection 14	01.41	01.15	03.22	01.18
+054778	00.49	4.8749854E-7	Inversion Src #54778; 24 SECTIONS BETWEEN Coronado Bank alt1, Subsection 11 AND Carlsbad, Subsection 6	01.41	01.15	03.22	01.18
+046209	00.48	4.849123E-7	Inversion Src #46209; 24 SECTIONS BETWEEN Oceanside alt1, Subsection 1 AND Newport-Inglewood (Offshore), Subsection 13	01.41	01.13	03.22	01.18
+046757	00.48	4.833993E-7	Inversion Src #46757; 29 SECTIONS BETWEEN San Diego Trough north alt1, Subsection 0 AND Carlsbad, Subsection 4	01.41	01.15	03.22	01.18
+019057	00.48	4.8330406E-7	Inversion Src #19057; 23 SECTIONS BETWEEN Newport-Inglewood (Offshore), Subsection 8 AND San Diego Trough north alt1, Subsection 5	01.41	01.13	03.22	01.18
+024755	00.48	4.824162E-7	Inversion Src #24755; 24 SECTIONS BETWEEN San Diego Trough north alt1, Subsection 0 AND Rose Canyon, Subsection 13	01.41	01.15	03.22	01.18
+070042	00.48	4.76927E-7	Inversion Src #70042; 20 SECTIONS BETWEEN Rose Canyon, Subsection 0 AND Rose Canyon, Subsection 19	01.41	01.15	03.22	01.18
+032321	00.47	4.7216702E-7	Inversion Src #32321; 21 SECTIONS BETWEEN Oceanside alt1, Subsection 0 AND Rose Canyon, Subsection 0	01.41	01.13	03.22	01.18
+054082	00.47	4.707558E-7	Inversion Src #54082; 20 SECTIONS BETWEEN Rose Canyon, Subsection 0 AND Rose Canyon, Subsection 19	01.41	01.15	03.22	01.18
+028842	00.47	4.6982606E-7	Inversion Src #28842; 20 SECTIONS BETWEEN Rose Canyon, Subsection 0 AND Rose Canyon, Subsection 19	01.41	01.15	03.22	01.18
+029497	00.47	4.6825107E-7	Inversion Src #29497; 42 SECTIONS BETWEEN San Diego Trough south, Subsection 27 AND Rose Canyon, Subsection 6	04.32	-00.21	05.20	04.25
+008143	00.46	4.616828E-7	Inversion Src #8143; 20 SECTIONS BETWEEN Rose Canyon, Subsection 0 AND Rose Canyon, Subsection 19	01.41	01.15	03.22	01.18
+008787	00.46	4.6134383E-7	Inversion Src #8787; 24 SECTIONS BETWEEN Coronado Bank alt1, Subsection 1 AND Rose Canyon, Subsection 0	01.41	01.13	03.22	01.18
+033819	00.46	4.6065045E-7	Inversion Src #33819; 21 SECTIONS BETWEEN Oceanside alt1, Subsection 0 AND Rose Canyon, Subsection 0	01.41	01.13	03.22	01.18
+038437	00.46	4.5888584E-7	Inversion Src #38437; 21 SECTIONS BETWEEN Carlsbad, Subsection 4 AND Rose Canyon, Subsection 0	01.41	01.13	03.22	01.18
+045628	00.45	4.549657E-7	Inversion Src #45628; 23 SECTIONS BETWEEN Coronado Bank alt1, Subsection 11 AND Rose Canyon, Subsection 19	01.41	01.15	03.22	01.18
+003105	00.45	4.5216018E-7	Inversion Src #3105; 20 SECTIONS BETWEEN Carlsbad, Subsection 3 AND Rose Canyon, Subsection 0	01.41	01.13	03.22	01.18
+037330	00.45	4.492161E-7	Inversion Src #37330; 20 SECTIONS BETWEEN Newport-Inglewood (Offshore), Subsection 12 AND Rose Canyon, Subsection 2	01.41	01.13	03.22	01.18
+058599	00.45	4.474982E-7	Inversion Src #58599; 20 SECTIONS BETWEEN Rose Canyon, Subsection 0 AND Rose Canyon, Subsection 19	01.41	01.15	03.22	01.18
+073065	00.44	4.4490528E-7	Inversion Src #73065; 21 SECTIONS BETWEEN San Diego Trough north alt1, Subsection 0 AND Rose Canyon, Subsection 19	01.41	01.15	03.22	01.18
+051476	00.44	4.4454308E-7	Inversion Src #51476; 22 SECTIONS BETWEEN Newport-Inglewood (Offshore), Subsection 11 AND Rose Canyon, Subsection 1	01.41	01.13	03.22	01.18
+010676	00.44	4.4356906E-7	Inversion Src #10676; 20 SECTIONS BETWEEN Rose Canyon, Subsection 0 AND Rose Canyon, Subsection 19	01.41	01.15	03.22	01.18
+042429	00.44	4.4285136E-7	Inversion Src #42429; 20 SECTIONS BETWEEN Rose Canyon, Subsection 0 AND Rose Canyon, Subsection 19	01.41	01.15	03.22	01.18
+048815	00.44	4.419194E-7	Inversion Src #48815; 21 SECTIONS BETWEEN Newport-Inglewood (Offshore), Subsection 12 AND Carlsbad, Subsection 2	01.41	01.13	03.22	01.18
+037769	00.44	4.364753E-7	Inversion Src #37769; 19 SECTIONS BETWEEN Coronado Bank alt1, Subsection 30 AND Rose Canyon, Subsection 4	01.41	01.15	03.22	01.18
+081709	00.43	4.3497084E-7	Inversion Src #81709; 21 SECTIONS BETWEEN Carlsbad, Subsection 6 AND Rose Canyon, Subsection 3	01.41	01.13	03.22	01.18
+013647	00.43	4.3178127E-7	Inversion Src #13647; 21 SECTIONS BETWEEN San Diego Trough north alt1, Subsection 1 AND Rose Canyon, Subsection 19	01.41	01.15	03.22	01.18
+083587	00.43	4.317228E-7	Inversion Src #83587; 23 SECTIONS BETWEEN Newport-Inglewood (Offshore), Subsection 10 AND Carlsbad, Subsection 6	01.41	01.15	03.22	01.18
+001797	00.43	4.2811334E-7	Inversion Src #1797; 20 SECTIONS BETWEEN Rose Canyon, Subsection 0 AND Rose Canyon, Subsection 19	01.41	01.15	03.22	01.18
+055829	00.42	4.23508E-7	Inversion Src #55829; 34 SECTIONS BETWEEN Newport-Inglewood (Offshore), Subsection 2 AND Carlsbad, Subsection 6	08.03	02.93	08.54	08.00
+026482	00.42	4.2008986E-7	Inversion Src #26482; 18 SECTIONS BETWEEN Rose Canyon, Subsection 0 AND Rose Canyon, Subsection 17	01.41	01.15	03.22	01.18
+013080	00.42	4.1956767E-7	Inversion Src #13080; 15 SECTIONS BETWEEN Rose Canyon, Subsection 5 AND Rose Canyon, Subsection 19	01.41	01.13	03.22	01.18
+075551	00.42	4.1805362E-7	Inversion Src #75551; 16 SECTIONS BETWEEN Rose Canyon, Subsection 4 AND Rose Canyon, Subsection 19	01.41	01.15	03.22	01.18
+032680	00.42	4.1585682E-7	Inversion Src #32680; 26 SECTIONS BETWEEN Coronado Bank alt1, Subsection 30 AND Rose Canyon, Subsection 3	03.96	01.67	04.91	03.89
+026117	00.41	4.1554435E-7	Inversion Src #26117; 16 SECTIONS BETWEEN Rose Canyon, Subsection 4 AND Rose Canyon, Subsection 19	01.41	01.15	03.22	01.18
+036505	00.41	4.154221E-7	Inversion Src #36505; 17 SECTIONS BETWEEN Newport-Inglewood (Offshore), Subsection 13 AND Rose Canyon, Subsection 4	01.41	01.13	03.22	01.18
+012331	00.41	4.1357637E-7	Inversion Src #12331; 20 SECTIONS BETWEEN Coronado Bank alt1, Subsection 4 AND Rose Canyon, Subsection 19	01.41	01.15	03.22	01.18
+007290	00.41	4.09224E-7	Inversion Src #7290; 16 SECTIONS BETWEEN Rose Canyon, Subsection 4 AND Rose Canyon, Subsection 19	01.41	01.15	03.22	01.18
+003668	00.41	4.0888E-7	Inversion Src #3668; 17 SECTIONS BETWEEN Rose Canyon, Subsection 3 AND Rose Canyon, Subsection 19	01.41	01.15	03.22	01.18
+020367	00.41	4.066563E-7	Inversion Src #20367; 27 SECTIONS BETWEEN Coronado Bank alt1, Subsection 30 AND Rose Canyon, Subsection 3	03.96	01.67	04.91	03.89
+018315	00.40	4.044891E-7	Inversion Src #18315; 52 SECTIONS BETWEEN San Clemente, Subsection 44 AND Newport-Inglewood (Offshore), Subsection 12	08.03	02.93	08.54	08.00
+030558	00.40	4.0371825E-7	Inversion Src #30558; 18 SECTIONS BETWEEN Rose Canyon, Subsection 1 AND Rose Canyon, Subsection 19	01.41	01.15	03.22	01.18
+020581	00.40	4.0289666E-7	Inversion Src #20581; 22 SECTIONS BETWEEN Coronado Bank alt1, Subsection 7 AND Rose Canyon, Subsection 16	01.41	01.15	03.22	01.18
+085017	00.40	4.0205742E-7	Inversion Src #85017; 15 SECTIONS BETWEEN Rose Canyon, Subsection 5 AND Rose Canyon, Subsection 19	01.41	01.13	03.22	01.18
+001126	00.40	4.0022493E-7	Inversion Src #1126; 17 SECTIONS BETWEEN Rose Canyon, Subsection 3 AND Rose Canyon, Subsection 19	01.41	01.15	03.22	01.18
+000245	00.40	3.9564807E-7	Inversion Src #245; 15 SECTIONS BETWEEN Rose Canyon, Subsection 5 AND Rose Canyon, Subsection 19	01.41	01.13	03.22	01.18
+006186	00.39	3.939435E-7	Inversion Src #6186; 15 SECTIONS BETWEEN Rose Canyon, Subsection 4 AND Rose Canyon, Subsection 19	01.41	01.15	03.22	01.18
+052884	00.39	3.9132203E-7	Inversion Src #52884; 16 SECTIONS BETWEEN Rose Canyon, Subsection 4 AND Rose Canyon, Subsection 19	01.41	01.15	03.22	01.18
+023988	00.39	3.901439E-7	Inversion Src #23988; 17 SECTIONS BETWEEN Rose Canyon, Subsection 3 AND Rose Canyon, Subsection 19	01.41	01.15	03.22	01.18
+076481	00.39	3.8953365E-7	Inversion Src #76481; 15 SECTIONS BETWEEN Rose Canyon, Subsection 0 AND Rose Canyon, Subsection 14	01.41	01.15	03.22	01.18
+016256	00.39	3.859023E-7	Inversion Src #16256; 16 SECTIONS BETWEEN Newport-Inglewood (Offshore), Subsection 13 AND Rose Canyon, Subsection 5	01.41	01.13	03.22	01.18
+065184	00.38	3.835967E-7	Inversion Src #65184; 15 SECTIONS BETWEEN Rose Canyon, Subsection 0 AND Rose Canyon, Subsection 14	01.41	01.15	03.22	01.18
+082398	00.38	3.8305973E-7	Inversion Src #82398; 16 SECTIONS BETWEEN Rose Canyon, Subsection 4 AND Rose Canyon, Subsection 19	01.41	01.15	03.22	01.18
+033275	00.38	3.819257E-7	Inversion Src #33275; 16 SECTIONS BETWEEN Rose Canyon, Subsection 0 AND Rose Canyon, Subsection 15	01.41	01.15	03.22	01.18
+060596	00.38	3.7767674E-7	Inversion Src #60596; 15 SECTIONS BETWEEN Rose Canyon, Subsection 0 AND Rose Canyon, Subsection 14	01.41	01.15	03.22	01.18
+067477	00.38	3.76319E-7	Inversion Src #67477; 16 SECTIONS BETWEEN Rose Canyon, Subsection 0 AND Rose Canyon, Subsection 15	01.41	01.15	03.22	01.18
+006802	00.37	3.7518168E-7	Inversion Src #6802; 17 SECTIONS BETWEEN San Diego Trough south, Subsection 1 AND Rose Canyon, Subsection 14	01.41	01.15	03.22	01.18
+014528	00.37	3.7410538E-7	Inversion Src #14528; 15 SECTIONS BETWEEN Rose Canyon, Subsection 0 AND Rose Canyon, Subsection 14	01.41	01.15	03.22	01.18
+023475	00.37	3.7397254E-7	Inversion Src #23475; 12 SECTIONS BETWEEN Rose Canyon, Subsection 0 AND Rose Canyon, Subsection 11	01.41	01.15	03.22	01.18
+041753	00.37	3.6926951E-7	Inversion Src #41753; 16 SECTIONS BETWEEN Coronado Bank alt1, Subsection 8 AND Rose Canyon, Subsection 14	01.41	01.15	03.22	01.18
+047814	00.37	3.6850594E-7	Inversion Src #47814; 17 SECTIONS BETWEEN Rose Canyon, Subsection 0 AND Rose Canyon, Subsection 16	01.41	01.15	03.22	01.18
+017384	00.37	3.6837451E-7	Inversion Src #17384; 15 SECTIONS BETWEEN Rose Canyon, Subsection 4 AND Rose Canyon, Subsection 19	01.41	01.15	03.22	01.18
+071470	00.36	3.5921397E-7	Inversion Src #71470; 13 SECTIONS BETWEEN Rose Canyon, Subsection 0 AND Rose Canyon, Subsection 12	01.41	01.15	03.22	01.18
+055488	00.36	3.5845787E-7	Inversion Src #55488; 13 SECTIONS BETWEEN Rose Canyon, Subsection 0 AND Rose Canyon, Subsection 12	01.41	01.15	03.22	01.18
+022247	00.36	3.5802043E-7	Inversion Src #22247; 13 SECTIONS BETWEEN San Diego Trough south, Subsection 1 AND Rose Canyon, Subsection 11	01.41	01.15	03.22	01.18
+067962	00.35	3.548254E-7	Inversion Src #67962; 16 SECTIONS BETWEEN Rose Canyon, Subsection 0 AND Rose Canyon, Subsection 15	01.41	01.15	03.22	01.18
+037889	00.35	3.5134207E-7	Inversion Src #37889; 48 SECTIONS BETWEEN Elsinore (Glen Ivy) rev, Subsection 0 AND San Diego Trough north alt1, Subsection 26	11.63	-00.31	11.98	11.60
+004366	00.35	3.5083858E-7	Inversion Src #4366; 13 SECTIONS BETWEEN Rose Canyon, Subsection 0 AND Rose Canyon, Subsection 12	01.41	01.15	03.22	01.18
+080683	00.35	3.4601493E-7	Inversion Src #80683; 15 SECTIONS BETWEEN Coronado Bank alt1, Subsection 8 AND Rose Canyon, Subsection 17	01.41	01.15	03.22	01.18

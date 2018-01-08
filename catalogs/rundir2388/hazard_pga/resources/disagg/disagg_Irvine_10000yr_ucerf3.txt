@@ -1,0 +1,231 @@
+Mean/Mode Metadata :
+
+
+  Mbar = 7.418857
+  Dbar = 9.995543
+  Ebar = 1.051592
+
+  7.4 ≤ Mmode < 7.6
+  0.0 ≤ Dmode < 10.0
+0.0 < Emode <= 0.5
+
+Disaggregation Plot Parameters Info :
+Custom disagg
+
+Disaggregation Bin Data :
+Dist	Mag	E≤-2	-2<E≤-1	-1<E≤-0.5	 -0.5>E≤0	 0<E≤0.5	 0.5<E≤1	 1<E≤2	 2>E 
+-----	----	------	------	-------	-------	-------	-------	-------	------
+005.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 01.40 	 00.00 	 00.00 	 00.00 	 01.40
+005.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 03.54 	 00.16 	 00.00 	 00.00 	 03.70
+005.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 03.70 	 00.52 	 00.00 	 00.00 	 04.22
+005.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 08.09 	 00.26 	 00.00 	 00.00 	 08.35
+005.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 25.17 	 00.00 	 00.00 	 00.00 	 25.17
+005.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 19.16 	 00.00 	 00.00 	 00.00 	 19.16
+005.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.00 	 00.00 	 00.00 	 00.02
+005.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.74 	 00.74
+015.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.33 	 01.34 	 01.67
+015.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.34 	 00.07 	 01.41
+015.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.03 	 00.21 	 03.24
+015.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 04.98 	 00.03 	 05.01
+015.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 05.22 	 00.00 	 05.22
+015.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.18 	 00.00 	 03.18
+015.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.35 	 00.35
+025.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.54 	 00.54
+025.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.74 	 00.74
+025.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.06 	 01.06
+025.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.50 	 03.75 	 04.25
+025.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.33 	 01.20 	 01.52
+025.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 04.26 	 04.28
+025.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.22 	 00.24
+025.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+035.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+035.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.14 	 00.14
+035.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.17 	 00.17
+035.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.46 	 01.46
+035.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+035.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+035.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+045.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+045.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+045.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+045.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.06 	 00.06
+045.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+055.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.06 	 00.06
+055.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.10 	 00.10
+055.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.10 	 00.10
+055.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+065.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+065.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.15 	 00.15
+065.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.51 	 00.51
+065.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.63 	 00.63
+075.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+075.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+075.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.18 	 00.18
+075.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.26 	 00.26
+075.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.21 	 00.21
+085.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+085.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+085.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+
+
+Disaggregation Source List Info:
+Source#	% Contribution	TotExceedRate	SourceName	DistRup	DistX	DistSeis	DistJB
+227378	03.95	3.9682573E-6	Inversion Src #231270; 10 SECTIONS BETWEEN Oceanside alt1, Subsection 0 AND San Joaquin Hills, Subsection 0	03.05	00.19	03.05	00.00
+227442	03.25	3.264804E-6	Inversion Src #231334; 3 SECTIONS BETWEEN San Joaquin Hills, Subsection 2 AND San Joaquin Hills, Subsection 0	03.05	00.19	03.05	00.00
+215188	02.53	2.5434822E-6	Inversion Src #218221; 20 SECTIONS BETWEEN Compton, Subsection 4 AND Oceanside alt1, Subsection 0	03.05	00.19	03.05	00.00
+223180	02.41	2.4199596E-6	Inversion Src #226306; 12 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 1 AND Oceanside alt1, Subsection 0	03.05	00.19	03.05	00.00
+215271	01.84	1.8474454E-6	Inversion Src #218304; 19 SECTIONS BETWEEN Compton, Subsection 3 AND Oceanside alt1, Subsection 0	03.05	00.19	03.05	00.00
+222638	01.81	1.8183376E-6	Inversion Src #225757; 19 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 8 AND Oceanside alt1, Subsection 0	03.05	00.19	03.05	00.00
+215187	01.68	1.6922606E-6	Inversion Src #218220; 19 SECTIONS BETWEEN Compton, Subsection 4 AND Oceanside alt1, Subsection 1	03.05	00.19	03.05	00.00
+227438	01.42	1.4282672E-6	Inversion Src #231330; 5 SECTIONS BETWEEN Oceanside alt1, Subsection 5 AND San Joaquin Hills, Subsection 0	03.05	00.19	03.05	00.00
+227443	01.32	1.3311732E-6	Inversion Src #231335; 2 SECTIONS BETWEEN San Joaquin Hills, Subsection 1 AND San Joaquin Hills, Subsection 0	03.05	00.19	03.05	00.00
+215185	01.26	1.2699311E-6	Inversion Src #218218; 17 SECTIONS BETWEEN Compton, Subsection 4 AND Oceanside alt1, Subsection 3	03.05	00.19	03.05	00.00
+222637	01.25	1.2570636E-6	Inversion Src #225756; 18 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 8 AND Oceanside alt1, Subsection 1	03.05	00.19	03.05	00.00
+213394	01.25	1.2528942E-6	Inversion Src #216404; 5 SECTIONS BETWEEN Compton, Subsection 0 AND Compton, Subsection 4	23.48	08.19	23.48	21.86
+227433	01.11	1.1114736E-6	Inversion Src #231325; 6 SECTIONS BETWEEN Oceanside alt1, Subsection 4 AND San Joaquin Hills, Subsection 0	03.05	00.19	03.05	00.00
+227377	01.09	1.1000274E-6	Inversion Src #231269; 9 SECTIONS BETWEEN Oceanside alt1, Subsection 0 AND San Joaquin Hills, Subsection 1	03.05	00.19	03.05	00.00
+222797	01.08	1.086734E-6	Inversion Src #225918; 17 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 6 AND Oceanside alt1, Subsection 0	03.05	00.19	03.05	00.00
+227376	01.08	1.0833788E-6	Inversion Src #231268; 7 SECTIONS BETWEEN Oceanside alt1, Subsection 0 AND Oceanside alt1, Subsection 6	14.63	04.48	14.63	14.18
+222947	01.01	1.0169681E-6	Inversion Src #226070; 15 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 4 AND Oceanside alt1, Subsection 0	03.05	00.19	03.05	00.00
+227444	00.90	8.995281E-7	Inversion Src #231336; 11 SECTIONS BETWEEN San Joaquin Hills, Subsection 1 AND Carlsbad, Subsection 5	03.05	00.19	03.05	00.00
+215184	00.86	8.678057E-7	Inversion Src #218217; 16 SECTIONS BETWEEN Compton, Subsection 4 AND Oceanside alt1, Subsection 4	03.05	00.19	03.05	00.00
+223175	00.80	8.064755E-7	Inversion Src #226301; 7 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 1 AND Oceanside alt1, Subsection 5	03.05	00.19	03.05	00.00
+223094	00.80	8.041333E-7	Inversion Src #226219; 13 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 2 AND Oceanside alt1, Subsection 0	03.05	00.19	03.05	00.00
+227405	00.77	7.736731E-7	Inversion Src #231297; 8 SECTIONS BETWEEN Oceanside alt1, Subsection 2 AND San Joaquin Hills, Subsection 0	03.05	00.19	03.05	00.00
+215182	00.76	7.631059E-7	Inversion Src #218215; 13 SECTIONS BETWEEN Compton, Subsection 4 AND San Joaquin Hills, Subsection 2	03.05	00.19	03.05	00.00
+222889	00.74	7.483571E-7	Inversion Src #226011; 16 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 5 AND Oceanside alt1, Subsection 0	03.05	00.19	03.05	00.00
+223036	00.73	7.3152796E-7	Inversion Src #226160; 16 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 3 AND Carlsbad, Subsection 5	03.05	00.19	03.05	00.00
+215186	00.71	7.144359E-7	Inversion Src #218219; 18 SECTIONS BETWEEN Compton, Subsection 4 AND Oceanside alt1, Subsection 2	03.05	00.19	03.05	00.00
+227426	00.70	7.025437E-7	Inversion Src #231318; 4 SECTIONS BETWEEN Oceanside alt1, Subsection 3 AND Oceanside alt1, Subsection 6	14.63	04.48	14.63	14.18
+227399	00.66	6.681256E-7	Inversion Src #231291; 8 SECTIONS BETWEEN Oceanside alt1, Subsection 1 AND San Joaquin Hills, Subsection 1	03.05	00.19	03.05	00.00
+223179	00.64	6.39353E-7	Inversion Src #226305; 11 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 1 AND Oceanside alt1, Subsection 1	03.05	00.19	03.05	00.00
+227431	00.63	6.3489745E-7	Inversion Src #231323; 3 SECTIONS BETWEEN Oceanside alt1, Subsection 4 AND Oceanside alt1, Subsection 6	14.63	04.48	14.63	14.18
+215183	00.61	6.176803E-7	Inversion Src #218216; 15 SECTIONS BETWEEN Compton, Subsection 4 AND Oceanside alt1, Subsection 5	03.05	00.19	03.05	00.00
+223174	00.59	5.884438E-7	Inversion Src #226300; 5 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 1 AND San Joaquin Hills, Subsection 2	03.05	00.19	03.05	00.00
+224243	00.58	5.8327834E-7	Inversion Src #227552; 13 SECTIONS BETWEEN Carlsbad, Subsection 4 AND San Joaquin Hills, Subsection 0	03.05	00.19	03.05	00.00
+222798	00.58	5.808966E-7	Inversion Src #225919; 19 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 6 AND Carlsbad, Subsection 5	03.05	00.19	03.05	00.00
+216186	00.56	5.638176E-7	Inversion Src #219231; 34 SECTIONS BETWEEN Whittier alt 1, Subsection 7 AND Elsinore (Coyote Mountains), Subsection 0	26.46	-26.15	27.28	26.43
+223035	00.54	5.4066E-7	Inversion Src #226159; 14 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 3 AND Oceanside alt1, Subsection 0	03.05	00.19	03.05	00.00
+223093	00.54	5.4036E-7	Inversion Src #226218; 12 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 2 AND Oceanside alt1, Subsection 1	03.05	00.19	03.05	00.00
+223095	00.54	5.3868234E-7	Inversion Src #226220; 15 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 2 AND Carlsbad, Subsection 5	03.05	00.19	03.05	00.00
+223181	00.53	5.295066E-7	Inversion Src #226307; 14 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 1 AND Carlsbad, Subsection 5	03.05	00.19	03.05	00.00
+222633	00.52	5.2054014E-7	Inversion Src #225752; 14 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 8 AND Oceanside alt1, Subsection 5	03.05	00.19	03.05	00.00
+222890	00.52	5.1788635E-7	Inversion Src #226012; 18 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 5 AND Carlsbad, Subsection 5	03.05	00.19	03.05	00.00
+213629	00.52	5.1761265E-7	Inversion Src #216648; 31 SECTIONS BETWEEN Peralta Hills, Subsection 1 AND Elsinore (Coyote Mountains), Subsection 0	20.72	-18.89	22.08	20.65
+227436	00.50	5.057512E-7	Inversion Src #231328; 2 SECTIONS BETWEEN Oceanside alt1, Subsection 5 AND Oceanside alt1, Subsection 6	14.63	04.48	14.63	14.18
+222941	00.48	4.8348556E-7	Inversion Src #226064; 8 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 4 AND San Joaquin Hills, Subsection 2	03.05	00.19	03.05	00.00
+222705	00.47	4.7181726E-7	Inversion Src #225825; 18 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 7 AND Oceanside alt1, Subsection 0	03.05	00.19	03.05	00.00
+227526	00.47	4.700442E-7	Inversion Src #231430; 16 SECTIONS BETWEEN Palos Verdes, Subsection 0 AND Palos Verdes, Subsection 15	31.65	31.03	31.77	31.63
+223178	00.46	4.637834E-7	Inversion Src #226304; 10 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 1 AND Oceanside alt1, Subsection 2	03.05	00.19	03.05	00.00
+222635	00.46	4.609793E-7	Inversion Src #225754; 16 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 8 AND Oceanside alt1, Subsection 3	03.05	00.19	03.05	00.00
+223176	00.45	4.4764627E-7	Inversion Src #226302; 8 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 1 AND Oceanside alt1, Subsection 4	03.05	00.19	03.05	00.00
+222636	00.44	4.3910703E-7	Inversion Src #225755; 17 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 8 AND Oceanside alt1, Subsection 2	03.05	00.19	03.05	00.00
+215270	00.41	4.1158842E-7	Inversion Src #218303; 18 SECTIONS BETWEEN Compton, Subsection 3 AND Oceanside alt1, Subsection 1	03.05	00.19	03.05	00.00
+213393	00.40	4.0209596E-7	Inversion Src #216403; 4 SECTIONS BETWEEN Compton, Subsection 0 AND Compton, Subsection 3	23.48	08.19	23.48	21.86
+224205	00.39	3.9156262E-7	Inversion Src #227508; 28 SECTIONS BETWEEN Rose Canyon, Subsection 0 AND Oceanside alt1, Subsection 6	14.63	04.48	14.63	14.18
+224060	00.39	3.9053202E-7	Inversion Src #227283; 15 SECTIONS BETWEEN Rose Canyon, Subsection 15 AND San Joaquin Hills, Subsection 0	03.05	00.19	03.05	00.00
+222943	00.38	3.8527193E-7	Inversion Src #226066; 11 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 4 AND Oceanside alt1, Subsection 4	03.05	00.19	03.05	00.00
+213397	00.38	3.8436048E-7	Inversion Src #216407; 5 SECTIONS BETWEEN Compton, Subsection 0 AND Redondo Canyon alt 1, Subsection 0	23.48	08.19	23.48	21.86
+222706	00.38	3.819181E-7	Inversion Src #225826; 20 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 7 AND Carlsbad, Subsection 5	03.05	00.19	03.05	00.00
+213313	00.37	3.697707E-7	Inversion Src #216323; 2 SECTIONS BETWEEN Compton, Subsection 1 AND Compton, Subsection 0	23.48	08.19	23.48	21.86
+222948	00.37	3.689845E-7	Inversion Src #226071; 17 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 4 AND Carlsbad, Subsection 5	03.05	00.19	03.05	00.00
+215174	00.36	3.5841362E-7	Inversion Src #218207; 44 SECTIONS BETWEEN Compton, Subsection 4 AND Rose Canyon, Subsection 0	11.93	-11.89	12.26	11.89
+213269	00.35	3.520722E-7	Inversion Src #216279; 3 SECTIONS BETWEEN Compton, Subsection 2 AND Compton, Subsection 0	23.48	08.19	23.48	21.86
+223088	00.35	3.4728447E-7	Inversion Src #226213; 6 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 2 AND San Joaquin Hills, Subsection 2	03.05	00.19	03.05	00.00
+223030	00.35	3.4673596E-7	Inversion Src #226154; 9 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 3 AND Oceanside alt1, Subsection 5	03.05	00.19	03.05	00.00
+215272	00.33	3.325782E-7	Inversion Src #218305; 21 SECTIONS BETWEEN Compton, Subsection 3 AND Carlsbad, Subsection 5	03.05	00.19	03.05	00.00
+227525	00.33	3.2998253E-7	Inversion Src #231429; 15 SECTIONS BETWEEN Palos Verdes, Subsection 0 AND Palos Verdes, Subsection 14	31.65	31.03	31.77	31.63
+227513	00.33	3.2657024E-7	Inversion Src #231417; 15 SECTIONS BETWEEN Palos Verdes, Subsection 1 AND Palos Verdes, Subsection 15	31.65	31.03	31.77	31.63
+222886	00.32	3.2294784E-7	Inversion Src #226008; 13 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 5 AND Oceanside alt1, Subsection 3	03.05	00.19	03.05	00.00
+223034	00.32	3.221075E-7	Inversion Src #226158; 13 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 3 AND Oceanside alt1, Subsection 1	03.05	00.19	03.05	00.00
+213447	00.32	3.1964439E-7	Inversion Src #216461; 8 SECTIONS BETWEEN Anaheim, Subsection 0 AND Compton, Subsection 4	20.18	-00.22	20.18	19.59
+227403	00.31	3.141638E-7	Inversion Src #231295; 5 SECTIONS BETWEEN Oceanside alt1, Subsection 2 AND Oceanside alt1, Subsection 6	14.63	04.48	14.63	14.18
+223033	00.30	3.0276132E-7	Inversion Src #226157; 12 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 3 AND Oceanside alt1, Subsection 2	03.05	00.19	03.05	00.00
+227450	00.30	3.017073E-7	Inversion Src #231342; 22 SECTIONS BETWEEN San Joaquin Hills, Subsection 1 AND Rose Canyon, Subsection 7	03.05	00.19	03.05	00.00
+222634	00.30	3.0018523E-7	Inversion Src #225753; 15 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 8 AND Oceanside alt1, Subsection 4	03.05	00.19	03.05	00.00
+224244	00.29	2.9533285E-7	Inversion Src #227553; 22 SECTIONS BETWEEN Carlsbad, Subsection 4 AND Newport-Inglewood alt 1, Subsection 8	03.05	00.19	03.05	00.00
+213652	00.29	2.9187586E-7	Inversion Src #216675; 6 SECTIONS BETWEEN Chino alt 1, Subsection 2 AND Elsinore (Glen Ivy) rev, Subsection 2	23.85	27.84	23.85	22.08
+217070	00.29	2.8907485E-7	Inversion Src #220130; 26 SECTIONS BETWEEN Elsinore (Glen Ivy) rev, Subsection 0 AND Elsinore (Coyote Mountains), Subsection 0	27.83	26.57	27.96	27.80
+213396	00.28	2.8000636E-7	Inversion Src #216406; 6 SECTIONS BETWEEN Compton, Subsection 0 AND Newport-Inglewood alt 1, Subsection 8	23.48	08.19	23.48	21.86
+224242	00.27	2.7620297E-7	Inversion Src #227551; 12 SECTIONS BETWEEN Carlsbad, Subsection 4 AND San Joaquin Hills, Subsection 1	03.05	00.19	03.05	00.00
+223196	00.27	2.7140152E-7	Inversion Src #226326; 11 SECTIONS BETWEEN Newport-Inglewood (Offshore), Subsection 0 AND Newport-Inglewood (Offshore), Subsection 10	11.93	-11.89	12.26	11.89
+222949	00.27	2.6834616E-7	Inversion Src #226072; 18 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 4 AND Carlsbad, Subsection 4	03.05	00.19	03.05	00.00
+215173	00.25	2.5420374E-7	Inversion Src #218206; 43 SECTIONS BETWEEN Compton, Subsection 4 AND Rose Canyon, Subsection 1	11.93	-11.89	12.26	11.89
+222704	00.25	2.5167597E-7	Inversion Src #225824; 17 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 7 AND Oceanside alt1, Subsection 1	03.05	00.19	03.05	00.00
+227452	00.25	2.5134713E-7	Inversion Src #231344; 25 SECTIONS BETWEEN San Joaquin Hills, Subsection 1 AND Rose Canyon, Subsection 4	03.05	00.19	03.05	00.00
+223091	00.25	2.5117427E-7	Inversion Src #226216; 10 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 2 AND Oceanside alt1, Subsection 3	03.05	00.19	03.05	00.00
+223182	00.25	2.4654773E-7	Inversion Src #226308; 15 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 1 AND Carlsbad, Subsection 4	03.05	00.19	03.05	00.00
+227432	00.24	2.44394E-7	Inversion Src #231324; 5 SECTIONS BETWEEN Oceanside alt1, Subsection 4 AND San Joaquin Hills, Subsection 1	03.05	00.19	03.05	00.00
+227451	00.24	2.4152232E-7	Inversion Src #231343; 23 SECTIONS BETWEEN San Joaquin Hills, Subsection 1 AND Rose Canyon, Subsection 6	03.05	00.19	03.05	00.00
+223173	00.23	2.3049506E-7	Inversion Src #226299; 4 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 1 AND San Joaquin Hills, Subsection 1	03.05	00.19	03.05	00.00
+216176	00.22	2.2070898E-7	Inversion Src #219221; 23 SECTIONS BETWEEN Whittier alt 1, Subsection 7 AND Elsinore (Julian), Subsection 5	26.46	-26.15	27.28	26.43
+227404	00.22	2.170132E-7	Inversion Src #231296; 7 SECTIONS BETWEEN Oceanside alt1, Subsection 2 AND San Joaquin Hills, Subsection 1	03.05	00.19	03.05	00.00
+222793	00.21	2.1469474E-7	Inversion Src #225914; 13 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 6 AND Oceanside alt1, Subsection 4	03.05	00.19	03.05	00.00
+215180	00.21	2.110801E-7	Inversion Src #218213; 25 SECTIONS BETWEEN Compton, Subsection 4 AND Oceanside alt1, Subsection 0	11.93	-11.89	12.26	11.89
+224150	00.21	2.1105215E-7	Inversion Src #227432; 21 SECTIONS BETWEEN Rose Canyon, Subsection 7 AND Oceanside alt1, Subsection 6	14.63	04.48	14.63	14.18
+215145	00.21	2.09723E-7	Inversion Src #218178; 14 SECTIONS BETWEEN Compton, Subsection 4 AND Newport-Inglewood (Offshore), Subsection 3	11.93	-11.89	12.26	11.89
+217058	00.21	2.0754877E-7	Inversion Src #220118; 12 SECTIONS BETWEEN Elsinore (Glen Ivy) rev, Subsection 0 AND Elsinore (Temecula) rev, Subsection 5	27.83	26.57	27.96	27.80
+223194	00.21	2.067248E-7	Inversion Src #226324; 9 SECTIONS BETWEEN Newport-Inglewood (Offshore), Subsection 0 AND Newport-Inglewood (Offshore), Subsection 8	11.93	-11.89	12.26	11.89
+222946	00.21	2.0658375E-7	Inversion Src #226069; 14 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 4 AND Oceanside alt1, Subsection 1	03.05	00.19	03.05	00.00
+223177	00.21	2.0644443E-7	Inversion Src #226303; 9 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 1 AND Oceanside alt1, Subsection 3	03.05	00.19	03.05	00.00
+222940	00.21	2.0624523E-7	Inversion Src #226063; 7 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 4 AND San Joaquin Hills, Subsection 1	03.05	00.19	03.05	00.00
+222615	00.20	2.034826E-7	Inversion Src #225734; 42 SECTIONS BETWEEN Newport-Inglewood alt 1, Subsection 8 AND Rose Canyon, Subsection 1	11.93	-11.89	12.26	11.89

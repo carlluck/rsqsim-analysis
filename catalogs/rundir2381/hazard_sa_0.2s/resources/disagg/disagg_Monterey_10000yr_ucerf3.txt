@@ -1,0 +1,231 @@
+Mean/Mode Metadata :
+
+
+  Mbar = 7.3722425
+  Dbar = 10.85318
+  Ebar = 1.5473925
+
+  7.6 ≤ Mmode < 7.8
+  10.0 ≤ Dmode < 20.0
+1.0 < Emode <= 2.0
+
+Disaggregation Plot Parameters Info :
+Custom disagg
+
+Disaggregation Bin Data :
+Dist	Mag	E≤-2	-2<E≤-1	-1<E≤-0.5	 -0.5>E≤0	 0<E≤0.5	 0.5<E≤1	 1<E≤2	 2>E 
+-----	----	------	------	-------	-------	-------	-------	-------	------
+005.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.00 	 00.03
+005.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 08.43 	 00.00 	 08.43
+005.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 12.94 	 03.92 	 00.00 	 16.86
+005.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 09.78 	 00.33 	 00.00 	 10.11
+005.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.87 	 00.38 	 00.00 	 03.26
+005.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.62 	 00.64 	 00.00 	 01.26
+005.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.40 	 00.03 	 00.00 	 00.43
+005.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.00 	 00.00 	 00.03
+005.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.22 	 00.15 	 00.38
+015.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.85 	 01.02 	 01.87
+015.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.86 	 00.17 	 02.04
+015.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.75 	 00.09 	 01.84
+015.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.09 	 00.08 	 02.18
+015.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 07.39 	 00.25 	 07.64
+015.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 21.50 	 00.81 	 22.31
+015.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 07.72 	 00.14 	 07.86
+015.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.79 	 00.12 	 03.90
+015.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.00 	 00.01
+025.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+025.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+025.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+025.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.07
+025.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+025.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.19 	 00.19
+025.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.69 	 00.69
+025.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.22 	 00.22
+025.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+025.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+035.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+035.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+035.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+035.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.09 	 00.09
+035.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.12 	 00.12
+035.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.09 	 00.09
+035.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.20 	 00.20
+045.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+045.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.33 	 00.33
+045.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.19 	 00.19
+045.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.42 	 00.42
+045.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.26 	 00.26
+045.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.72 	 00.72
+045.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.68 	 01.68
+045.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.07 	 03.07
+055.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+055.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.07
+055.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.20 	 00.20
+055.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+055.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.19 	 00.19
+055.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.11 	 00.11
+055.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.26 	 00.26
+055.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+065.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+065.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+065.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+065.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+
+
+Disaggregation Source List Info:
+Source#	% Contribution	TotExceedRate	SourceName	DistRup	DistX	DistSeis	DistJB
+243163	02.08	2.0883833E-6	Inversion Src #247940; 6 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 7 AND Monterey Bay-Tularcitos, Subsection 12	02.90	-01.96	03.93	02.54
+243167	01.82	1.8191415E-6	Inversion Src #247946; 7 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 6 AND Monterey Bay-Tularcitos, Subsection 0	02.45	-01.98	03.61	02.01
+243160	01.60	1.6015905E-6	Inversion Src #247936; 8 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 7 AND Monterey Bay-Tularcitos, Subsection 0	02.45	-01.98	03.61	02.01
+243174	01.44	1.4412154E-6	Inversion Src #247955; 6 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 5 AND Monterey Bay-Tularcitos, Subsection 0	05.73	-00.78	06.32	05.56
+243171	01.35	1.3530396E-6	Inversion Src #247950; 7 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 6 AND Monterey Bay-Tularcitos, Subsection 12	02.45	-01.98	03.61	02.01
+243201	01.31	1.3132762E-6	Inversion Src #247989; 13 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 0 AND Monterey Bay-Tularcitos, Subsection 12	02.45	-01.98	03.61	02.01
+243156	01.30	1.3073328E-6	Inversion Src #247932; 4 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 7 AND Monterey Bay-Tularcitos, Subsection 4	02.45	-01.98	03.61	02.01
+243158	01.07	1.0699664E-6	Inversion Src #247934; 6 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 7 AND Monterey Bay-Tularcitos, Subsection 2	02.45	-01.98	03.61	02.01
+243157	00.99	9.965325E-7	Inversion Src #247933; 5 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 7 AND Monterey Bay-Tularcitos, Subsection 3	02.45	-01.98	03.61	02.01
+243198	00.92	9.1823836E-7	Inversion Src #247986; 10 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 0 AND Monterey Bay-Tularcitos, Subsection 9	02.45	-01.98	03.61	02.01
+243184	00.86	8.6359194E-7	Inversion Src #247967; 9 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 4 AND Monterey Bay-Tularcitos, Subsection 12	02.45	-01.98	03.61	02.01
+243153	00.86	8.5876604E-7	Inversion Src #247925; 9 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 8 AND Monterey Bay-Tularcitos, Subsection 0	02.45	-01.98	03.61	02.01
+243178	00.85	8.537294E-7	Inversion Src #247959; 8 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 5 AND Monterey Bay-Tularcitos, Subsection 12	02.45	-01.98	03.61	02.01
+243189	00.83	8.2883514E-7	Inversion Src #247974; 10 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 3 AND Monterey Bay-Tularcitos, Subsection 12	02.45	-01.98	03.61	02.01
+243165	00.76	7.608612E-7	Inversion Src #247944; 5 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 6 AND Monterey Bay-Tularcitos, Subsection 2	02.45	-01.98	03.61	02.01
+243199	00.75	7.5179116E-7	Inversion Src #247987; 11 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 0 AND Monterey Bay-Tularcitos, Subsection 10	02.45	-01.98	03.61	02.01
+243193	00.74	7.398895E-7	Inversion Src #247980; 11 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 2 AND Monterey Bay-Tularcitos, Subsection 12	02.45	-01.98	03.61	02.01
+243197	00.70	7.042137E-7	Inversion Src #247985; 12 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 1 AND Monterey Bay-Tularcitos, Subsection 12	02.45	-01.98	03.61	02.01
+243164	00.67	6.687501E-7	Inversion Src #247943; 4 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 6 AND Monterey Bay-Tularcitos, Subsection 3	02.45	-01.98	03.61	02.01
+243155	00.63	6.30126E-7	Inversion Src #247929; 5 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 8 AND Monterey Bay-Tularcitos, Subsection 12	08.54	-01.68	08.94	08.42
+243151	00.59	5.9387474E-7	Inversion Src #247923; 7 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 8 AND Monterey Bay-Tularcitos, Subsection 2	02.45	-01.98	03.61	02.01
+243169	00.59	5.89911E-7	Inversion Src #247948; 5 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 6 AND Monterey Bay-Tularcitos, Subsection 10	02.45	-01.98	03.61	02.01
+243200	00.57	5.683172E-7	Inversion Src #247988; 12 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 0 AND Monterey Bay-Tularcitos, Subsection 11	02.45	-01.98	03.61	02.01
+243161	00.56	5.6101004E-7	Inversion Src #247938; 4 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 7 AND Monterey Bay-Tularcitos, Subsection 10	02.90	-01.96	03.93	02.54
+243159	00.54	5.440486E-7	Inversion Src #247935; 7 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 7 AND Monterey Bay-Tularcitos, Subsection 1	02.45	-01.98	03.61	02.01
+243182	00.54	5.4270254E-7	Inversion Src #247965; 7 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 4 AND Monterey Bay-Tularcitos, Subsection 10	02.45	-01.98	03.61	02.01
+243190	00.52	5.1715017E-7	Inversion Src #247977; 8 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 2 AND Monterey Bay-Tularcitos, Subsection 9	02.45	-01.98	03.61	02.01
+243176	00.51	5.1141757E-7	Inversion Src #247957; 6 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 5 AND Monterey Bay-Tularcitos, Subsection 10	02.45	-01.98	03.61	02.01
+243186	00.49	4.889136E-7	Inversion Src #247971; 7 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 3 AND Monterey Bay-Tularcitos, Subsection 9	02.45	-01.98	03.61	02.01
+243191	00.48	4.815507E-7	Inversion Src #247978; 9 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 2 AND Monterey Bay-Tularcitos, Subsection 10	02.45	-01.98	03.61	02.01
+243172	00.48	4.803541E-7	Inversion Src #247953; 4 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 5 AND Monterey Bay-Tularcitos, Subsection 2	05.73	-00.78	06.32	05.56
+243175	00.48	4.8027096E-7	Inversion Src #247956; 5 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 5 AND Monterey Bay-Tularcitos, Subsection 9	02.45	-01.98	03.61	02.01
+243181	00.47	4.704054E-7	Inversion Src #247964; 6 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 4 AND Monterey Bay-Tularcitos, Subsection 9	02.45	-01.98	03.61	02.01
+243168	00.45	4.481907E-7	Inversion Src #247947; 4 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 6 AND Monterey Bay-Tularcitos, Subsection 9	02.45	-01.98	03.61	02.01
+243166	00.42	4.2489617E-7	Inversion Src #247945; 6 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 6 AND Monterey Bay-Tularcitos, Subsection 1	02.45	-01.98	03.61	02.01
+243148	00.39	3.9370772E-7	Inversion Src #247920; 4 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 8 AND Monterey Bay-Tularcitos, Subsection 5	02.45	-01.98	03.61	02.01
+243187	00.37	3.723976E-7	Inversion Src #247972; 8 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 3 AND Monterey Bay-Tularcitos, Subsection 10	02.45	-01.98	03.61	02.01
+243149	00.36	3.6013824E-7	Inversion Src #247921; 5 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 8 AND Monterey Bay-Tularcitos, Subsection 4	02.45	-01.98	03.61	02.01
+243180	00.34	3.4040104E-7	Inversion Src #247963; 5 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 4 AND Monterey Bay-Tularcitos, Subsection 0	12.17	-00.35	12.46	12.09
+243150	00.33	3.3365495E-7	Inversion Src #247922; 6 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 8 AND Monterey Bay-Tularcitos, Subsection 3	02.45	-01.98	03.61	02.01
+117206	00.30	3.0546786E-7	Inversion Src #118864; 40 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 0 AND Hosgri, Subsection 26	11.25	11.34	11.25	08.55
+243177	00.30	3.013646E-7	Inversion Src #247958; 7 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 5 AND Monterey Bay-Tularcitos, Subsection 11	02.45	-01.98	03.61	02.01
+243192	00.29	2.9369284E-7	Inversion Src #247979; 10 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 2 AND Monterey Bay-Tularcitos, Subsection 11	02.45	-01.98	03.61	02.01
+175264	00.28	2.830142E-7	Inversion Src #177343; 13 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 3 AND Monterey Bay-Tularcitos, Subsection 0	02.45	-01.98	03.61	02.01
+175465	00.28	2.8097904E-7	Inversion Src #177548; 11 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 5 AND Monterey Bay-Tularcitos, Subsection 0	02.45	-01.98	03.61	02.01
+117202	00.28	2.8032318E-7	Inversion Src #118860; 35 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 0 AND San Gregorio (South) 2011 CFM, Subsection 3	11.25	11.34	11.25	08.55
+243162	00.27	2.711207E-7	Inversion Src #247939; 5 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 7 AND Monterey Bay-Tularcitos, Subsection 11	02.90	-01.96	03.93	02.54
+243170	00.26	2.6488237E-7	Inversion Src #247949; 6 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 6 AND Monterey Bay-Tularcitos, Subsection 11	02.45	-01.98	03.61	02.01
+243195	00.26	2.6371117E-7	Inversion Src #247983; 10 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 1 AND Monterey Bay-Tularcitos, Subsection 10	02.45	-01.98	03.61	02.01
+243152	00.25	2.5504548E-7	Inversion Src #247924; 8 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 8 AND Monterey Bay-Tularcitos, Subsection 1	02.45	-01.98	03.61	02.01
+243202	00.25	2.4828856E-7	Inversion Src #247992; 4 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 9 AND Monterey Bay-Tularcitos, Subsection 12	14.99	-01.41	15.22	14.92
+204946	00.24	2.4126138E-7	Inversion Src #207697; 10 SECTIONS BETWEEN San Gregorio (South) 2011 CFM, Subsection 0 AND San Gregorio (South) 2011 CFM, Subsection 9	11.25	11.07	11.25	08.55
+243173	00.24	2.3698045E-7	Inversion Src #247954; 5 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 5 AND Monterey Bay-Tularcitos, Subsection 1	05.73	-00.78	06.32	05.56
+243183	00.23	2.2676018E-7	Inversion Src #247966; 8 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 4 AND Monterey Bay-Tularcitos, Subsection 11	02.45	-01.98	03.61	02.01
+243188	00.22	2.248697E-7	Inversion Src #247973; 9 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 3 AND Monterey Bay-Tularcitos, Subsection 11	02.45	-01.98	03.61	02.01
+131580	00.22	2.2237431E-7	Inversion Src #133312; 39 SECTIONS BETWEEN San Andreas (North Coast) 2011 CFM, Subsection 2 AND San Gregorio (South) 2011 CFM, Subsection 1	11.25	11.34	11.25	08.55
+243194	00.22	2.2069506E-7	Inversion Src #247982; 9 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 1 AND Monterey Bay-Tularcitos, Subsection 9	02.45	-01.98	03.61	02.01
+174944	00.21	2.1351632E-7	Inversion Src #177019; 16 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 0 AND Monterey Bay-Tularcitos, Subsection 0	02.45	-01.98	03.61	02.01
+116793	00.21	2.1235286E-7	Inversion Src #118451; 39 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 1 AND Hosgri, Subsection 26	11.25	11.34	11.25	08.55
+117203	00.20	1.9768292E-7	Inversion Src #118861; 36 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 0 AND San Gregorio (South) 2011 CFM, Subsection 2	11.25	11.34	11.25	08.55
+175162	00.20	1.9763192E-7	Inversion Src #177239; 14 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 2 AND Monterey Bay-Tularcitos, Subsection 0	02.45	-01.98	03.61	02.01
+144025	00.19	1.9445625E-7	Inversion Src #145796; 53 SECTIONS BETWEEN San Andreas (North Coast) 2011 CFM, Subsection 15 AND San Gregorio (South) 2011 CFM, Subsection 0	11.25	11.34	11.25	08.55
+175365	00.19	1.9236732E-7	Inversion Src #177446; 12 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 4 AND Monterey Bay-Tularcitos, Subsection 0	02.45	-01.98	03.61	02.01
+144023	00.19	1.8847545E-7	Inversion Src #145794; 51 SECTIONS BETWEEN San Andreas (North Coast) 2011 CFM, Subsection 15 AND San Gregorio (South) 2011 CFM, Subsection 2	11.25	11.34	11.25	08.55
+243196	00.18	1.8122394E-7	Inversion Src #247984; 11 SECTIONS BETWEEN Monterey Bay-Tularcitos, Subsection 1 AND Monterey Bay-Tularcitos, Subsection 11	02.45	-01.98	03.61	02.01
+117207	00.18	1.8027808E-7	Inversion Src #118865; 41 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 0 AND Hosgri, Subsection 25	11.25	11.34	11.25	08.55
+144020	00.18	1.7988096E-7	Inversion Src #145791; 48 SECTIONS BETWEEN San Andreas (North Coast) 2011 CFM, Subsection 15 AND San Gregorio (South) 2011 CFM, Subsection 5	11.25	11.34	11.25	08.55
+204948	00.17	1.6895552E-7	Inversion Src #207699; 12 SECTIONS BETWEEN San Gregorio (South) 2011 CFM, Subsection 0 AND San Gregorio (South) 2011 CFM, Subsection 11	11.25	11.07	11.25	08.55
+174942	00.15	1.494596E-7	Inversion Src #177017; 14 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 0 AND Monterey Bay-Tularcitos, Subsection 2	02.45	-01.98	03.61	02.01
+174875	00.15	1.4675047E-7	Inversion Src #176950; 8 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 0 AND Reliz 2011 CFM, Subsection 7	11.17	12.30	11.17	06.55
+117204	00.14	1.4473963E-7	Inversion Src #118862; 37 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 0 AND San Gregorio (South) 2011 CFM, Subsection 1	11.25	11.34	11.25	08.55
+144024	00.14	1.4472215E-7	Inversion Src #145795; 52 SECTIONS BETWEEN San Andreas (North Coast) 2011 CFM, Subsection 15 AND San Gregorio (South) 2011 CFM, Subsection 1	11.25	11.34	11.25	08.55
+175262	00.14	1.4280653E-7	Inversion Src #177341; 11 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 3 AND Monterey Bay-Tularcitos, Subsection 2	02.45	-01.98	03.61	02.01
+204947	00.14	1.4223194E-7	Inversion Src #207698; 11 SECTIONS BETWEEN San Gregorio (South) 2011 CFM, Subsection 0 AND San Gregorio (South) 2011 CFM, Subsection 10	11.25	11.07	11.25	08.55
+174876	00.14	1.3571652E-7	Inversion Src #176951; 9 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 0 AND Reliz 2011 CFM, Subsection 8	11.17	12.30	11.17	06.55
+117205	00.13	1.3418936E-7	Inversion Src #118863; 38 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 0 AND San Gregorio (South) 2011 CFM, Subsection 0	11.25	11.34	11.25	08.55
+155010	00.13	1.2998613E-7	Inversion Src #156817; 55 SECTIONS BETWEEN San Andreas (North Coast) 2011 CFM, Subsection 27 AND San Gregorio (South) 2011 CFM, Subsection 10	12.88	12.11	12.88	10.72
+155011	00.13	1.281487E-7	Inversion Src #156818; 56 SECTIONS BETWEEN San Andreas (North Coast) 2011 CFM, Subsection 27 AND San Gregorio (South) 2011 CFM, Subsection 9	11.25	11.34	11.25	08.56
+154187	00.13	1.275225E-7	Inversion Src #155991; 64 SECTIONS BETWEEN San Andreas (North Coast) 2011 CFM, Subsection 26 AND San Gregorio (South) 2011 CFM, Subsection 0	11.25	11.34	11.25	08.55
+144021	00.13	1.2701733E-7	Inversion Src #145792; 49 SECTIONS BETWEEN San Andreas (North Coast) 2011 CFM, Subsection 15 AND San Gregorio (South) 2011 CFM, Subsection 4	11.25	11.34	11.25	08.55
+114318	00.13	1.2556775E-7	Inversion Src #115960; 48 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 8 AND Hosgri, Subsection 10	11.25	11.34	11.25	08.55
+155009	00.12	1.2431519E-7	Inversion Src #156816; 54 SECTIONS BETWEEN San Andreas (North Coast) 2011 CFM, Subsection 27 AND San Gregorio (South) 2011 CFM, Subsection 11	16.42	12.04	16.42	14.93
+113857	00.12	1.2428693E-7	Inversion Src #115497; 35 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 9 AND Hosgri, Subsection 22	11.25	11.34	11.25	08.55
+141120	00.12	1.213891E-7	Inversion Src #142882; 40 SECTIONS BETWEEN San Andreas (North Coast) 2011 CFM, Subsection 12 AND San Gregorio (South) 2011 CFM, Subsection 10	12.88	12.11	12.88	10.72
+131581	00.12	1.2012211E-7	Inversion Src #133313; 40 SECTIONS BETWEEN San Andreas (North Coast) 2011 CFM, Subsection 2 AND San Gregorio (South) 2011 CFM, Subsection 0	11.25	11.34	11.25	08.55
+175261	00.12	1.1545121E-7	Inversion Src #177340; 10 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 3 AND Monterey Bay-Tularcitos, Subsection 3	02.45	-01.98	03.61	02.01
+175535	00.11	1.12171776E-7	Inversion Src #177622; 5 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 7 AND Reliz 2011 CFM, Subsection 11	11.17	12.30	11.17	06.55
+174937	00.11	1.1129633E-7	Inversion Src #177012; 9 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 0 AND Monterey Bay-Tularcitos, Subsection 7	02.90	-01.96	03.93	02.54
+116794	00.11	1.107488E-7	Inversion Src #118452; 40 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 1 AND Hosgri, Subsection 25	11.25	11.34	11.25	08.55
+116790	00.11	1.10222786E-7	Inversion Src #118448; 35 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 1 AND San Gregorio (South) 2011 CFM, Subsection 2	11.25	11.34	11.25	08.55
+174938	00.11	1.0968604E-7	Inversion Src #177013; 10 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 0 AND Monterey Bay-Tularcitos, Subsection 6	02.45	-01.98	03.61	02.01
+175534	00.11	1.0755325E-7	Inversion Src #177621; 4 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 7 AND Reliz 2011 CFM, Subsection 10	11.17	12.30	11.17	06.55
+174874	00.11	1.0747577E-7	Inversion Src #176949; 7 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 0 AND Reliz 2011 CFM, Subsection 6	12.23	10.29	12.23	09.03
+155020	00.11	1.0742491E-7	Inversion Src #156827; 65 SECTIONS BETWEEN San Andreas (North Coast) 2011 CFM, Subsection 27 AND San Gregorio (South) 2011 CFM, Subsection 0	11.25	11.34	11.25	08.55
+174941	00.11	1.0683942E-7	Inversion Src #177016; 13 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 0 AND Monterey Bay-Tularcitos, Subsection 3	02.45	-01.98	03.61	02.01
+144014	00.11	1.0525381E-7	Inversion Src #145785; 42 SECTIONS BETWEEN San Andreas (North Coast) 2011 CFM, Subsection 15 AND San Gregorio (South) 2011 CFM, Subsection 11	16.42	12.04	16.42	14.93
+175463	00.10	1.0304515E-7	Inversion Src #177546; 9 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 5 AND Monterey Bay-Tularcitos, Subsection 2	02.45	-01.98	03.61	02.01
+117211	00.10	1.01360435E-7	Inversion Src #118869; 45 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 0 AND Hosgri, Subsection 21	11.25	11.34	11.25	08.55
+144978	00.10	1.012146E-7	Inversion Src #146752; 48 SECTIONS BETWEEN San Andreas (North Coast) 2011 CFM, Subsection 16 AND San Gregorio (South) 2011 CFM, Subsection 6	11.25	11.34	11.25	08.55
+174877	00.10	1.0004972E-7	Inversion Src #176952; 10 SECTIONS BETWEEN Reliz 2011 CFM, Subsection 0 AND Reliz 2011 CFM, Subsection 9	11.17	12.30	11.17	06.55

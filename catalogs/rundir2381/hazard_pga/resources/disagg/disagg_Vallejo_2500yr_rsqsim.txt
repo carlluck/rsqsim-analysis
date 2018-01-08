@@ -1,0 +1,231 @@
+Mean/Mode Metadata :
+
+
+  Mbar = 7.0534678
+  Dbar = 10.902112
+  Ebar = 1.2931882
+
+  7.2 ≤ Mmode < 7.4
+  10.0 ≤ Dmode < 20.0
+1.0 < Emode <= 2.0
+
+Disaggregation Plot Parameters Info :
+Custom disagg
+
+Disaggregation Bin Data :
+Dist	Mag	E≤-2	-2<E≤-1	-1<E≤-0.5	 -0.5>E≤0	 0<E≤0.5	 0.5<E≤1	 1<E≤2	 2>E 
+-----	----	------	------	-------	-------	-------	-------	-------	------
+005.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.03 	 02.20 	 00.00 	 03.23
+005.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 05.42 	 03.93 	 00.00 	 09.36
+005.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 12.33 	 04.87 	 02.70 	 00.00 	 19.90
+005.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 03.07 	 02.92 	 03.96 	 00.00 	 09.95
+005.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 01.82 	 01.75 	 00.49 	 00.00 	 04.05
+005.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 02.07 	 01.12 	 00.00 	 00.00 	 03.19
+005.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.41 	 00.00 	 00.00 	 00.00 	 00.41
+005.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.19 	 00.00 	 00.00 	 00.00 	 00.19
+005.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+005.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.56 	 01.28 	 01.83
+015.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.54 	 03.42 	 05.96
+015.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 06.45 	 00.53 	 06.99
+015.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 07.67 	 01.80 	 09.48
+015.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 13.03 	 02.47 	 15.50
+015.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 03.34 	 00.00 	 03.34
+015.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.62 	 00.00 	 00.62
+015.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.37 	 00.00 	 00.37
+015.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.08 	 00.00 	 00.08
+015.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.13 	 00.13
+025.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.17 	 00.17
+025.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.21 	 00.21
+025.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.42 	 00.42
+025.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.13 	 00.39 	 00.52
+025.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.47 	 00.10 	 00.57
+025.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.06 	 00.01 	 00.07
+025.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.06 	 00.02 	 00.08
+025.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+035.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.06 	 00.06
+035.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.07
+035.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.15 	 00.15
+035.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+035.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+035.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+035.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+035.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+045.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.05 	 00.05
+045.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.22 	 00.22
+045.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.11 	 00.11
+045.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.83 	 00.83
+045.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.56 	 01.56
+045.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+065.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+065.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+065.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+065.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+
+
+Disaggregation Source List Info:
+Source#	% Contribution	TotExceedRate	SourceName	DistRup	DistX	DistSeis	DistJB
+003730	00.23	9.1942445E-7	Inversion Src #3730; 24 SECTIONS BETWEEN Great Valley 06 (Midland) 2011 CFM alt1, Subsection 7 AND Great Valley 04b Gordon Valley, Subsection 3	03.72	03.47	04.53	01.65
+025793	00.22	8.894728E-7	Inversion Src #25793; 19 SECTIONS BETWEEN Great Valley 06 (Midland) 2011 CFM alt1, Subsection 7 AND Contra Costa (Lafayette) 2011 CFM, Subsection 1	01.89	01.35	03.29	01.36
+064925	00.21	8.255526E-7	Inversion Src #64925; 23 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 3 AND Greenville (No) 2011 CFM, Subsection 6	01.89	01.35	03.29	01.36
+076900	00.20	8.051641E-7	Inversion Src #76900; 8 SECTIONS BETWEEN Los Medanos - Roe Island, Subsection 0 AND Contra Costa Shear Zone (connector) 2011 CFM, Subsection 4	01.89	01.35	03.29	01.36
+001429	00.20	7.9932687E-7	Inversion Src #1429; 27 SECTIONS BETWEEN Hayward (So) 2011 CFM, Subsection 0 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+063371	00.20	7.901504E-7	Inversion Src #63371; 26 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 7 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+056866	00.19	7.8117614E-7	Inversion Src #56866; 11 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 5 AND Great Valley 05 Pittsburg - Kirby Hills alt1, Subsection 3	01.89	01.35	03.29	01.36
+066317	00.19	7.773731E-7	Inversion Src #66317; 18 SECTIONS BETWEEN Hayward (So) 2011 CFM, Subsection 4 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+006317	00.19	7.7373284E-7	Inversion Src #6317; 19 SECTIONS BETWEEN Rodgers Creek - Healdsburg 2011 CFM, Subsection 1 AND Hayward (So) 2011 CFM, Subsection 6	01.89	01.35	03.29	01.36
+035066	00.19	7.6776087E-7	Inversion Src #35066; 33 SECTIONS BETWEEN Calaveras (Central) 2011 CFM, Subsection 8 AND Pilarcitos 2011 CFM, Subsection 3	01.89	01.35	03.29	01.36
+028154	00.19	7.6583103E-7	Inversion Src #28154; 6 SECTIONS BETWEEN Mount Diablo Thrust North CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+046479	00.19	7.6378456E-7	Inversion Src #46479; 13 SECTIONS BETWEEN Los Medanos - Roe Island, Subsection 0 AND Hayward (No) 2011 CFM, Subsection 7	03.72	03.47	04.53	01.65
+073563	00.19	7.59431E-7	Inversion Src #73563; 9 SECTIONS BETWEEN Mount Diablo Thrust North CFM, Subsection 1 AND Contra Costa Shear Zone (connector) 2011 CFM, Subsection 2	01.89	01.35	03.29	01.36
+024095	00.19	7.5632573E-7	Inversion Src #24095; 86 SECTIONS BETWEEN San Gregorio (South) 2011 CFM, Subsection 10 AND San Andreas (Offshore) 2011 CFM, Subsection 20	01.89	01.35	03.29	01.36
+021698	00.19	7.5190513E-7	Inversion Src #21698; 16 SECTIONS BETWEEN Contra Costa (Lafayette) 2011 CFM, Subsection 1 AND West Napa 2011 CFM, Subsection 1	01.89	01.35	03.29	01.36
+052667	00.19	7.4533466E-7	Inversion Src #52667; 9 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 5 AND Great Valley 05 Pittsburg - Kirby Hills alt1, Subsection 0	01.89	01.35	03.29	01.36
+045604	00.19	7.446231E-7	Inversion Src #45604; 10 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 5 AND Concord 2011 CFM, Subsection 2	01.89	01.35	03.29	01.36
+008034	00.18	7.4050195E-7	Inversion Src #8034; 9 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 5 AND Concord 2011 CFM, Subsection 2	01.89	01.35	03.29	01.36
+082600	00.18	7.37775E-7	Inversion Src #82600; 13 SECTIONS BETWEEN West Napa 2011 CFM, Subsection 3 AND Franklin 2011 CFM, Subsection 1	01.89	01.35	03.29	01.36
+069084	00.18	7.318111E-7	Inversion Src #69084; 9 SECTIONS BETWEEN Contra Costa Shear Zone (connector) 2011 CFM, Subsection 1 AND Green Valley 2011 CFM, Subsection 0	03.72	03.47	04.53	01.65
+010053	00.18	7.290158E-7	Inversion Src #10053; 10 SECTIONS BETWEEN Hunting Creek - Berryessa 2011 CFM, Subsection 0 AND Contra Costa Shear Zone (connector) 2011 CFM, Subsection 1	03.72	03.47	04.53	01.65
+014425	00.18	7.284825E-7	Inversion Src #14425; 36 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 21 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+050284	00.18	7.276605E-7	Inversion Src #50284; 10 SECTIONS BETWEEN West Napa 2011 CFM, Subsection 0 AND Franklin 2011 CFM, Subsection 1	01.89	01.35	03.29	01.36
+005603	00.18	7.274145E-7	Inversion Src #5603; 49 SECTIONS BETWEEN San Andreas (Offshore) 2011 CFM, Subsection 0 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+085742	00.18	7.1858983E-7	Inversion Src #85742; 10 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 5 AND Concord 2011 CFM, Subsection 0	01.89	01.35	03.29	01.36
+008721	00.18	7.1605564E-7	Inversion Src #8721; 12 SECTIONS BETWEEN Contra Costa (Lafayette) 2011 CFM, Subsection 0 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+002323	00.18	7.144896E-7	Inversion Src #2323; 25 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 19 AND Contra Costa Shear Zone (connector) 2011 CFM, Subsection 4	01.89	01.35	03.29	01.36
+029822	00.18	7.137187E-7	Inversion Src #29822; 7 SECTIONS BETWEEN Calaveras (No) 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+081847	00.18	7.1146883E-7	Inversion Src #81847; 30 SECTIONS BETWEEN San Gregorio (North) 2011 CFM, Subsection 11 AND Contra Costa (Lafayette) 2011 CFM, Subsection 1	01.89	01.35	03.29	01.36
+065583	00.18	7.1000994E-7	Inversion Src #65583; 9 SECTIONS BETWEEN Contra Costa Shear Zone (connector) 2011 CFM, Subsection 0 AND Franklin 2011 CFM, Subsection 1	01.89	01.35	03.29	01.36
+078338	00.18	7.0754476E-7	Inversion Src #78338; 23 SECTIONS BETWEEN Contra Costa Shear Zone (connector) 2011 CFM, Subsection 0 AND Pilarcitos 2011 CFM, Subsection 4	01.89	01.35	03.29	01.36
+024880	00.18	7.0743306E-7	Inversion Src #24880; 9 SECTIONS BETWEEN Contra Costa Shear Zone (connector) 2011 CFM, Subsection 0 AND Franklin 2011 CFM, Subsection 1	01.89	01.35	03.29	01.36
+033520	00.18	7.0687526E-7	Inversion Src #33520; 9 SECTIONS BETWEEN Contra Costa Shear Zone (connector) 2011 CFM, Subsection 0 AND Franklin 2011 CFM, Subsection 1	01.89	01.35	03.29	01.36
+067058	00.18	7.041805E-7	Inversion Src #67058; 18 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 5 AND San Andreas (North Coast) 2011 CFM, Subsection 0	01.89	01.35	03.29	01.36
+018557	00.18	7.036546E-7	Inversion Src #18557; 11 SECTIONS BETWEEN Contra Costa (Lafayette) 2011 CFM, Subsection 0 AND Green Valley 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+032002	00.17	7.022404E-7	Inversion Src #32002; 17 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 5 AND Pilarcitos 2011 CFM, Subsection 10	01.89	01.35	03.29	01.36
+047763	00.17	6.9956E-7	Inversion Src #47763; 8 SECTIONS BETWEEN Calaveras (No) 2011 CFM, Subsection 2 AND Hayward (No) 2011 CFM, Subsection 4	01.89	01.35	03.29	01.36
+060894	00.17	6.9730925E-7	Inversion Src #60894; 16 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 5 AND San Andreas (Peninsula) 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+000646	00.17	6.952608E-7	Inversion Src #646; 17 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 5 AND San Gregorio (North) 2011 CFM, Subsection 2	01.89	01.35	03.29	01.36
+077547	00.17	6.9468035E-7	Inversion Src #77547; 8 SECTIONS BETWEEN Contra Costa (Lafayette) 2011 CFM, Subsection 0 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+009518	00.17	6.9399977E-7	Inversion Src #9518; 8 SECTIONS BETWEEN Contra Costa Shear Zone (connector) 2011 CFM, Subsection 4 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+083450	00.17	6.8838426E-7	Inversion Src #83450; 7 SECTIONS BETWEEN Contra Costa Shear Zone (connector) 2011 CFM, Subsection 3 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+051125	00.17	6.8744254E-7	Inversion Src #51125; 9 SECTIONS BETWEEN Calaveras (No) 2011 CFM, Subsection 0 AND Contra Costa Shear Zone (connector) 2011 CFM, Subsection 3	01.89	01.35	03.29	01.36
+036779	00.17	6.8639145E-7	Inversion Src #36779; 7 SECTIONS BETWEEN Contra Costa (Lafayette) 2011 CFM, Subsection 1 AND Contra Costa Shear Zone (connector) 2011 CFM, Subsection 4	01.89	01.35	03.29	01.36
+070190	00.17	6.857308E-7	Inversion Src #70190; 7 SECTIONS BETWEEN Contra Costa Shear Zone (connector) 2011 CFM, Subsection 3 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+049294	00.17	6.8474964E-7	Inversion Src #49294; 26 SECTIONS BETWEEN Rodgers Creek - Healdsburg 2011 CFM, Subsection 12 AND Contra Costa Shear Zone (connector) 2011 CFM, Subsection 2	03.72	03.47	04.53	01.65
+041642	00.17	6.8453147E-7	Inversion Src #41642; 6 SECTIONS BETWEEN Contra Costa Shear Zone (connector) 2011 CFM, Subsection 3 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+051927	00.17	6.844341E-7	Inversion Src #51927; 6 SECTIONS BETWEEN Calaveras (No) 2011 CFM, Subsection 0 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+019373	00.17	6.8271277E-7	Inversion Src #19373; 7 SECTIONS BETWEEN Contra Costa Shear Zone (connector) 2011 CFM, Subsection 4 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+047007	00.17	6.8268275E-7	Inversion Src #47007; 7 SECTIONS BETWEEN Contra Costa Shear Zone (connector) 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 1	01.89	01.35	03.29	01.36
+015370	00.17	6.826741E-7	Inversion Src #15370; 6 SECTIONS BETWEEN Contra Costa Shear Zone (connector) 2011 CFM, Subsection 3 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+079262	00.17	6.822645E-7	Inversion Src #79262; 7 SECTIONS BETWEEN Contra Costa Shear Zone (connector) 2011 CFM, Subsection 4 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+034153	00.17	6.820066E-7	Inversion Src #34153; 5 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+068725	00.17	6.81597E-7	Inversion Src #68725; 7 SECTIONS BETWEEN Contra Costa Shear Zone (connector) 2011 CFM, Subsection 4 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+074440	00.17	6.81231E-7	Inversion Src #74440; 6 SECTIONS BETWEEN Contra Costa Shear Zone (connector) 2011 CFM, Subsection 3 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+046287	00.17	6.8113445E-7	Inversion Src #46287; 7 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 1 AND Green Valley 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+054390	00.17	6.803859E-7	Inversion Src #54390; 5 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+056051	00.17	6.8023155E-7	Inversion Src #56051; 5 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+044090	00.17	6.8010246E-7	Inversion Src #44090; 7 SECTIONS BETWEEN Contra Costa (Lafayette) 2011 CFM, Subsection 0 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+060134	00.17	6.796595E-7	Inversion Src #60134; 5 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+062526	00.17	6.790759E-7	Inversion Src #62526; 6 SECTIONS BETWEEN Contra Costa Shear Zone (connector) 2011 CFM, Subsection 3 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+010254	00.17	6.7860964E-7	Inversion Src #10254; 7 SECTIONS BETWEEN Contra Costa Shear Zone (connector) 2011 CFM, Subsection 4 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+064120	00.17	6.7850544E-7	Inversion Src #64120; 8 SECTIONS BETWEEN Contra Costa (Lafayette) 2011 CFM, Subsection 0 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+027431	00.17	6.781494E-7	Inversion Src #27431; 8 SECTIONS BETWEEN Contra Costa (Lafayette) 2011 CFM, Subsection 0 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+080939	00.17	6.780394E-7	Inversion Src #80939; 6 SECTIONS BETWEEN Contra Costa Shear Zone (connector) 2011 CFM, Subsection 3 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+072756	00.17	6.7760544E-7	Inversion Src #72756; 5 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+037587	00.17	6.773997E-7	Inversion Src #37587; 6 SECTIONS BETWEEN Contra Costa Shear Zone (connector) 2011 CFM, Subsection 3 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+080021	00.17	6.764823E-7	Inversion Src #80021; 6 SECTIONS BETWEEN Contra Costa (Lafayette) 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+067915	00.17	6.7625626E-7	Inversion Src #67915; 5 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+004024	00.17	6.7586814E-7	Inversion Src #4024; 5 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+016927	00.17	6.756582E-7	Inversion Src #16927; 5 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+058606	00.17	6.755822E-7	Inversion Src #58606; 5 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+049437	00.17	6.752529E-7	Inversion Src #49437; 5 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+040026	00.17	6.751059E-7	Inversion Src #40026; 5 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+031316	00.17	6.744243E-7	Inversion Src #31316; 5 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+039201	00.17	6.7432484E-7	Inversion Src #39201; 5 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+027967	00.17	6.739788E-7	Inversion Src #27967; 11 SECTIONS BETWEEN Contra Costa Shear Zone (connector) 2011 CFM, Subsection 3 AND West Napa 2011 CFM, Subsection 0	03.72	03.47	04.53	01.65
+043255	00.17	6.7396763E-7	Inversion Src #43255; 5 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+075221	00.17	6.739534E-7	Inversion Src #75221; 5 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+042490	00.17	6.7366676E-7	Inversion Src #42490; 5 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+081890	00.17	6.7359235E-7	Inversion Src #81890; 9 SECTIONS BETWEEN Contra Costa Shear Zone (connector) 2011 CFM, Subsection 1 AND West Napa 2011 CFM, Subsection 0	03.72	03.47	04.53	01.65
+030541	00.17	6.735104E-7	Inversion Src #30541; 6 SECTIONS BETWEEN Contra Costa Shear Zone (connector) 2011 CFM, Subsection 3 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+081179	00.17	6.734548E-7	Inversion Src #81179; 18 SECTIONS BETWEEN Silver Creek 2011 CFM, Subsection 8 AND Contra Costa Shear Zone (connector) 2011 CFM, Subsection 1	03.88	03.46	04.66	01.89
+044870	00.17	6.7320144E-7	Inversion Src #44870; 6 SECTIONS BETWEEN Contra Costa Shear Zone (connector) 2011 CFM, Subsection 3 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+069419	00.17	6.731334E-7	Inversion Src #69419; 6 SECTIONS BETWEEN Contra Costa Shear Zone (connector) 2011 CFM, Subsection 3 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+020167	00.17	6.731322E-7	Inversion Src #20167; 5 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+071090	00.17	6.731066E-7	Inversion Src #71090; 5 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+032834	00.17	6.7300465E-7	Inversion Src #32834; 5 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+048611	00.17	6.725648E-7	Inversion Src #48611; 5 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+004830	00.17	6.7238494E-7	Inversion Src #4830; 5 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+017658	00.17	6.720894E-7	Inversion Src #17658; 5 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+023306	00.17	6.720478E-7	Inversion Src #23306; 5 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+022432	00.17	6.719384E-7	Inversion Src #22432; 6 SECTIONS BETWEEN Contra Costa Shear Zone (connector) 2011 CFM, Subsection 4 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+013696	00.17	6.7162404E-7	Inversion Src #13696; 6 SECTIONS BETWEEN Contra Costa Shear Zone (connector) 2011 CFM, Subsection 0 AND Franklin 2011 CFM, Subsection 1	01.89	01.35	03.29	01.36
+084240	00.17	6.7160306E-7	Inversion Src #84240; 6 SECTIONS BETWEEN Contra Costa Shear Zone (connector) 2011 CFM, Subsection 3 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+071869	00.17	6.7035705E-7	Inversion Src #71869; 5 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+026618	00.17	6.703499E-7	Inversion Src #26618; 5 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+076061	00.17	6.701966E-7	Inversion Src #76061; 5 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+028994	00.17	6.6977645E-7	Inversion Src #28994; 6 SECTIONS BETWEEN Contra Costa (Lafayette) 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36
+057711	00.17	6.6962724E-7	Inversion Src #57711; 5 SECTIONS BETWEEN Franklin 2011 CFM, Subsection 1 AND Franklin 2011 CFM, Subsection 5	01.89	01.35	03.29	01.36

@@ -1,0 +1,231 @@
+Mean/Mode Metadata :
+
+
+  Mbar = 7.2241325
+  Dbar = 9.359633
+  Ebar = 1.2036966
+
+  6.4 ≤ Mmode < 6.6
+  0.0 ≤ Dmode < 10.0
+1.0 < Emode <= 2.0
+
+Disaggregation Plot Parameters Info :
+Custom disagg
+
+Disaggregation Bin Data :
+Dist	Mag	E≤-2	-2<E≤-1	-1<E≤-0.5	 -0.5>E≤0	 0<E≤0.5	 0.5<E≤1	 1<E≤2	 2>E 
+-----	----	------	------	-------	-------	-------	-------	-------	------
+005.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 19.79 	 00.00 	 19.79
+005.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.28 	 02.06 	 00.00 	 02.34
+005.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.77 	 07.21 	 00.00 	 09.98
+005.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 06.37 	 01.12 	 00.00 	 07.49
+005.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 09.72 	 00.59 	 00.00 	 10.32
+005.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.06 	 09.78 	 05.56 	 00.00 	 15.39
+005.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.83 	 03.00 	 04.69 	 00.00 	 08.52
+005.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.19 	 01.65 	 02.63 	 00.00 	 04.47
+005.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.08 	 00.00 	 00.14
+005.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.32 	 00.03 	 01.35
+015.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.44 	 00.18 	 00.62
+015.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.73 	 00.02 	 00.76
+015.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.40 	 00.41 	 00.04 	 00.85
+015.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.88 	 00.45 	 00.02 	 01.35
+015.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.08 	 01.14 	 00.14 	 01.36
+015.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.62 	 00.01 	 01.63
+015.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.83 	 00.00 	 00.83
+015.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+015.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+025.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+025.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.15 	 00.15
+025.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.49 	 00.49
+025.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.43 	 00.45
+025.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.55 	 00.15 	 01.70
+025.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.35 	 01.06 	 01.42
+025.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.61 	 00.88 	 01.49
+025.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.14 	 00.15
+025.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.00 	 00.01
+025.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+035.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+035.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.07
+035.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.12 	 00.12
+035.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.08 	 00.08
+035.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+035.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+045.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+045.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+045.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.16 	 00.16
+045.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.07 	 00.07
+045.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.27 	 00.27
+045.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.79 	 01.79
+045.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 02.24 	 02.24
+045.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 01.75 	 01.75
+055.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+055.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.04 	 00.04
+055.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+055.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+055.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+065.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+065.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+065.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+065.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+075.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.03 	 00.03
+075.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+075.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.02 	 00.02
+085.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+085.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+095.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+095.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+095.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 6.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.50 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 7.70 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.01 	 00.01
+105.00 	 7.90 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.10 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+105.00 	 8.30 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00 	 00.00
+
+
+Disaggregation Source List Info:
+Source#	% Contribution	TotExceedRate	SourceName	DistRup	DistX	DistSeis	DistJB
+214300	11.07	4.4498178E-5	Inversion Src #217330; 3 SECTIONS BETWEEN Elysian Park (Upper), Subsection 0 AND Elysian Park (Upper), Subsection 2	09.17	08.41	09.17	00.00
+221941	08.72	3.5052115E-5	Inversion Src #225056; 3 SECTIONS BETWEEN Raymond, Subsection 0 AND Raymond, Subsection 2	03.28	02.88	04.26	00.33
+222012	06.05	2.4321944E-5	Inversion Src #225127; 5 SECTIONS BETWEEN Raymond, Subsection 0 AND Elysian Park (Upper), Subsection 2	03.28	02.88	04.26	00.00
+219563	01.69	6.811987E-6	Inversion Src #222661; 16 SECTIONS BETWEEN Sierra Madre, Subsection 4 AND Oak Ridge (Onshore), Subsection 0	07.56	-07.42	09.83	07.42
+219205	01.50	6.012674E-6	Inversion Src #222302; 17 SECTIONS BETWEEN Sierra Madre, Subsection 3 AND Oak Ridge (Onshore), Subsection 0	07.56	-07.42	09.83	07.42
+221676	01.47	5.8965425E-6	Inversion Src #224790; 5 SECTIONS BETWEEN Clamshell-Sawpit, Subsection 0 AND Raymond, Subsection 2	03.28	02.88	04.26	00.33
+214153	01.37	5.523584E-6	Inversion Src #217181; 4 SECTIONS BETWEEN Puente Hills, Subsection 3 AND Elysian Park (Upper), Subsection 2	09.17	08.41	09.17	00.00
+214152	01.15	4.639646E-6	Inversion Src #217180; 2 SECTIONS BETWEEN Puente Hills, Subsection 3 AND Puente Hills, Subsection 4	11.17	13.48	11.17	00.00
+189181	01.09	4.3650184E-6	Inversion Src #191587; 17 SECTIONS BETWEEN Cucamonga, Subsection 1 AND Santa Monica alt 1, Subsection 1	03.28	02.88	04.26	00.00
+218434	00.94	3.7951409E-6	Inversion Src #221529; 19 SECTIONS BETWEEN Sierra Madre, Subsection 1 AND Oak Ridge (Onshore), Subsection 0	07.56	-07.42	09.83	07.42
+221692	00.90	3.6100432E-6	Inversion Src #224806; 7 SECTIONS BETWEEN Clamshell-Sawpit, Subsection 0 AND Elysian Park (Upper), Subsection 2	03.28	02.88	04.26	00.00
+214156	00.79	3.1599982E-6	Inversion Src #217184; 9 SECTIONS BETWEEN Puente Hills, Subsection 3 AND Santa Monica alt 1, Subsection 1	05.73	01.91	06.45	00.00
+188880	00.67	2.7002902E-6	Inversion Src #191285; 16 SECTIONS BETWEEN Cucamonga, Subsection 2 AND Santa Monica alt 1, Subsection 1	03.28	02.88	04.26	00.00
+213394	00.54	2.1680166E-6	Inversion Src #216404; 5 SECTIONS BETWEEN Compton, Subsection 0 AND Compton, Subsection 4	20.02	37.79	20.02	12.54
+218453	00.51	2.0634368E-6	Inversion Src #221548; 13 SECTIONS BETWEEN Sierra Madre, Subsection 1 AND Santa Monica alt 1, Subsection 1	03.28	02.88	04.26	00.00
+182043	00.50	2.0006382E-6	Inversion Src #184426; 18 SECTIONS BETWEEN Oak Ridge (Onshore), Subsection 1 AND Sierra Madre, Subsection 1	07.56	-07.42	09.83	07.42
+188877	00.49	1.9793858E-6	Inversion Src #191282; 11 SECTIONS BETWEEN Cucamonga, Subsection 2 AND Elysian Park (Upper), Subsection 2	03.28	02.88	04.26	00.00
+218035	00.47	1.9037045E-6	Inversion Src #221129; 7 SECTIONS BETWEEN Sierra Madre, Subsection 0 AND Raymond, Subsection 2	03.28	02.88	04.26	00.33
+222013	00.46	1.8581718E-6	Inversion Src #225128; 10 SECTIONS BETWEEN Raymond, Subsection 0 AND Santa Monica alt 1, Subsection 1	03.28	02.88	04.26	00.00
+222050	00.45	1.8081579E-6	Inversion Src #225165; 8 SECTIONS BETWEEN Raymond, Subsection 0 AND Santa Monica alt 1, Subsection 1	03.28	02.88	04.26	00.33
+221675	00.41	1.639467E-6	Inversion Src #224789; 4 SECTIONS BETWEEN Clamshell-Sawpit, Subsection 0 AND Raymond, Subsection 1	04.30	03.69	05.04	02.12
+221707	00.39	1.5486128E-6	Inversion Src #224821; 10 SECTIONS BETWEEN Clamshell-Sawpit, Subsection 0 AND Santa Monica alt 1, Subsection 1	03.28	02.88	04.26	00.33
+218051	00.38	1.5477929E-6	Inversion Src #221145; 9 SECTIONS BETWEEN Sierra Madre, Subsection 0 AND Elysian Park (Upper), Subsection 2	03.28	02.88	04.26	00.00
+189547	00.37	1.4790674E-6	Inversion Src #191956; 20 SECTIONS BETWEEN Cleghorn, Subsection 3 AND Santa Monica alt 1, Subsection 1	03.28	02.88	04.26	00.33
+222340	00.37	1.4702998E-6	Inversion Src #225456; 7 SECTIONS BETWEEN Raymond, Subsection 1 AND Santa Monica alt 1, Subsection 1	03.28	02.88	04.26	00.33
+221693	00.33	1.3099854E-6	Inversion Src #224807; 12 SECTIONS BETWEEN Clamshell-Sawpit, Subsection 0 AND Santa Monica alt 1, Subsection 1	03.28	02.88	04.26	00.00
+214581	00.32	1.2807978E-6	Inversion Src #217612; 6 SECTIONS BETWEEN Verdugo, Subsection 1 AND Clamshell-Sawpit, Subsection 0	01.49	-00.35	03.42	00.35
+182044	00.30	1.2173373E-6	Inversion Src #184427; 19 SECTIONS BETWEEN Oak Ridge (Onshore), Subsection 1 AND Sierra Madre, Subsection 0	07.56	-07.42	09.83	07.42
+213944	00.29	1.166757E-6	Inversion Src #216972; 6 SECTIONS BETWEEN Puente Hills, Subsection 1 AND Elysian Park (Upper), Subsection 2	09.17	08.41	09.17	00.00
+214080	00.29	1.1562187E-6	Inversion Src #217108; 5 SECTIONS BETWEEN Puente Hills, Subsection 2 AND Elysian Park (Upper), Subsection 2	09.17	08.41	09.17	00.00
+217883	00.28	1.1439834E-6	Inversion Src #220976; 10 SECTIONS BETWEEN San Jose, Subsection 0 AND Elysian Park (Upper), Subsection 2	09.17	08.41	09.17	00.00
+221940	00.28	1.1231518E-6	Inversion Src #225054; 18 SECTIONS BETWEEN Clamshell-Sawpit, Subsection 0 AND Oak Ridge (Onshore), Subsection 0	07.56	-07.42	09.83	07.42
+216186	00.28	1.1213137E-6	Inversion Src #219231; 34 SECTIONS BETWEEN Whittier alt 1, Subsection 7 AND Elsinore (Coyote Mountains), Subsection 0	20.14	10.57	20.14	18.45
+213809	00.27	1.0995325E-6	Inversion Src #216837; 9 SECTIONS BETWEEN Puente Hills, Subsection 0 AND Hollywood, Subsection 1	05.73	01.91	06.45	00.00
+215344	00.27	1.0966694E-6	Inversion Src #218380; 9 SECTIONS BETWEEN Hollywood, Subsection 1 AND Clamshell-Sawpit, Subsection 0	03.28	02.88	04.26	00.00
+214197	00.27	1.0914627E-6	Inversion Src #217225; 37 SECTIONS BETWEEN Puente Hills, Subsection 4 AND Elsinore (Coyote Mountains), Subsection 0	11.17	13.48	11.17	00.00
+213945	00.27	1.0876428E-6	Inversion Src #216973; 8 SECTIONS BETWEEN Puente Hills, Subsection 1 AND Hollywood, Subsection 1	05.73	01.91	06.45	00.00
+214079	00.26	1.0628413E-6	Inversion Src #217107; 3 SECTIONS BETWEEN Puente Hills, Subsection 2 AND Puente Hills, Subsection 4	11.17	13.48	11.17	00.00
+218052	00.26	1.026504E-6	Inversion Src #221146; 14 SECTIONS BETWEEN Sierra Madre, Subsection 0 AND Santa Monica alt 1, Subsection 1	03.28	02.88	04.26	00.00
+222423	00.25	1.0147646E-6	Inversion Src #225539; 19 SECTIONS BETWEEN Raymond, Subsection 2 AND San Andreas (San Bernardino S), Subsection 2	03.28	02.88	04.26	00.33
+214083	00.25	9.891323E-7	Inversion Src #217111; 10 SECTIONS BETWEEN Puente Hills, Subsection 2 AND Santa Monica alt 1, Subsection 1	05.73	01.91	06.45	00.00
+214580	00.24	9.748198E-7	Inversion Src #217611; 4 SECTIONS BETWEEN Verdugo, Subsection 1 AND Raymond, Subsection 0	01.49	-00.35	03.42	00.35
+213943	00.23	9.2912416E-7	Inversion Src #216971; 4 SECTIONS BETWEEN Puente Hills, Subsection 1 AND Puente Hills, Subsection 4	11.17	13.48	11.17	00.00
+214303	00.22	9.045414E-7	Inversion Src #217333; 8 SECTIONS BETWEEN Elysian Park (Upper), Subsection 0 AND Santa Monica alt 1, Subsection 1	05.73	01.91	06.45	00.00
+218785	00.22	8.997317E-7	Inversion Src #221881; 5 SECTIONS BETWEEN Sierra Madre, Subsection 2 AND Raymond, Subsection 2	03.28	02.88	04.26	00.33
+213807	00.22	8.943246E-7	Inversion Src #216835; 5 SECTIONS BETWEEN Puente Hills, Subsection 0 AND Puente Hills, Subsection 4	11.17	13.48	11.17	00.00
+218467	00.22	8.751374E-7	Inversion Src #221562; 11 SECTIONS BETWEEN Sierra Madre, Subsection 1 AND Santa Monica alt 1, Subsection 1	03.28	02.88	04.26	00.33
+213946	00.22	8.7111346E-7	Inversion Src #216974; 9 SECTIONS BETWEEN Puente Hills, Subsection 1 AND Hollywood, Subsection 2	05.73	01.91	06.45	00.00
+222302	00.22	8.671867E-7	Inversion Src #225418; 9 SECTIONS BETWEEN Raymond, Subsection 1 AND Santa Monica alt 1, Subsection 1	03.28	02.88	04.26	00.00
+185728	00.21	8.583099E-7	Inversion Src #188121; 18 SECTIONS BETWEEN Oak Ridge (Onshore), Subsection 2 AND Sierra Madre, Subsection 0	07.56	-07.42	09.83	07.42
+218033	00.21	8.4978274E-7	Inversion Src #221127; 15 SECTIONS BETWEEN Sierra Madre, Subsection 0 AND Santa Susana alt 1, Subsection 2	07.56	-07.42	09.83	07.42
+218055	00.20	8.2007494E-7	Inversion Src #221149; 12 SECTIONS BETWEEN Sierra Madre, Subsection 0 AND Santa Monica alt 1, Subsection 1	03.28	02.88	04.26	00.33
+213808	00.20	8.0579184E-7	Inversion Src #216836; 7 SECTIONS BETWEEN Puente Hills, Subsection 0 AND Elysian Park (Upper), Subsection 2	09.17	08.41	09.17	00.00
+217866	00.20	7.996091E-7	Inversion Src #220959; 9 SECTIONS BETWEEN San Jose, Subsection 1 AND Elysian Park (Upper), Subsection 2	09.17	08.41	09.17	00.00
+215341	00.20	7.888625E-7	Inversion Src #218377; 12 SECTIONS BETWEEN Hollywood, Subsection 1 AND San Jose, Subsection 0	05.73	01.91	06.45	00.00
+215297	00.19	7.6366064E-7	Inversion Src #218331; 6 SECTIONS BETWEEN Hollywood, Subsection 2 AND Raymond, Subsection 0	03.28	02.88	04.26	00.33
+217924	00.18	7.436246E-7	Inversion Src #221018; 7 SECTIONS BETWEEN Sierra Madre, Subsection 0 AND Sierra Madre, Subsection 6	07.56	-07.42	09.83	07.42
+214196	00.18	7.330196E-7	Inversion Src #217224; 36 SECTIONS BETWEEN Puente Hills, Subsection 4 AND Elsinore (Coyote Mountains), Subsection 1	11.17	13.48	11.17	00.00
+215136	00.18	7.313479E-7	Inversion Src #218169; 2 SECTIONS BETWEEN Compton, Subsection 4 AND Compton, Subsection 3	20.25	38.62	20.25	12.91
+214171	00.18	7.1053387E-7	Inversion Src #217199; 8 SECTIONS BETWEEN Puente Hills, Subsection 4 AND San Jose, Subsection 0	11.17	13.48	11.17	00.00
+215288	00.17	7.033237E-7	Inversion Src #218322; 12 SECTIONS BETWEEN Hollywood, Subsection 2 AND San Jose, Subsection 1	05.73	01.91	06.45	00.00
+213393	00.17	7.011072E-7	Inversion Src #216403; 4 SECTIONS BETWEEN Compton, Subsection 0 AND Compton, Subsection 3	20.02	37.79	20.02	12.54
+182045	00.17	6.9999317E-7	Inversion Src #184428; 17 SECTIONS BETWEEN Oak Ridge (Onshore), Subsection 1 AND Clamshell-Sawpit, Subsection 0	07.56	-07.42	09.83	07.42
+185724	00.17	6.9712286E-7	Inversion Src #188117; 14 SECTIONS BETWEEN Oak Ridge (Onshore), Subsection 2 AND Sierra Madre, Subsection 4	07.56	-07.42	09.83	07.42
+218802	00.17	6.9558234E-7	Inversion Src #221898; 12 SECTIONS BETWEEN Sierra Madre, Subsection 2 AND Santa Monica alt 1, Subsection 1	03.28	02.88	04.26	00.00
+191201	00.17	6.8320907E-7	Inversion Src #193692; 17 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 3 AND Hollywood, Subsection 2	03.28	02.88	04.26	00.33
+215289	00.17	6.7460917E-7	Inversion Src #218323; 13 SECTIONS BETWEEN Hollywood, Subsection 2 AND San Jose, Subsection 0	05.73	01.91	06.45	00.00
+214078	00.17	6.7313186E-7	Inversion Src #217106; 2 SECTIONS BETWEEN Puente Hills, Subsection 2 AND Puente Hills, Subsection 3	11.45	13.72	11.45	00.93
+213397	00.17	6.652047E-7	Inversion Src #216407; 5 SECTIONS BETWEEN Compton, Subsection 0 AND Redondo Canyon alt 1, Subsection 0	20.02	37.79	20.02	12.54
+184245	00.16	6.6105866E-7	Inversion Src #186634; 8 SECTIONS BETWEEN Mission Hills 2011, Subsection 1 AND Sierra Madre, Subsection 4	07.56	-07.42	09.83	07.42
+213942	00.16	6.5546476E-7	Inversion Src #216970; 3 SECTIONS BETWEEN Puente Hills, Subsection 1 AND Puente Hills, Subsection 3	11.45	13.72	11.45	00.93
+213947	00.16	6.529044E-7	Inversion Src #216975; 11 SECTIONS BETWEEN Puente Hills, Subsection 1 AND Santa Monica alt 1, Subsection 1	05.73	01.91	06.45	00.00
+222424	00.16	6.50967E-7	Inversion Src #225540; 20 SECTIONS BETWEEN Raymond, Subsection 2 AND San Andreas (San Bernardino S), Subsection 3	03.28	02.88	04.26	00.33
+213811	00.16	6.3362444E-7	Inversion Src #216839; 12 SECTIONS BETWEEN Puente Hills, Subsection 0 AND Santa Monica alt 1, Subsection 1	05.73	01.91	06.45	00.00
+213810	00.16	6.281383E-7	Inversion Src #216838; 10 SECTIONS BETWEEN Puente Hills, Subsection 0 AND Hollywood, Subsection 2	05.73	01.91	06.45	00.00
+213269	00.15	6.17407E-7	Inversion Src #216279; 3 SECTIONS BETWEEN Compton, Subsection 2 AND Compton, Subsection 0	20.02	37.79	20.02	12.54
+214081	00.15	6.0952715E-7	Inversion Src #217109; 7 SECTIONS BETWEEN Puente Hills, Subsection 2 AND Hollywood, Subsection 1	05.73	01.91	06.45	00.00
+191200	00.15	5.98782E-7	Inversion Src #193691; 16 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 3 AND Hollywood, Subsection 1	03.28	02.88	04.26	00.33
+214187	00.14	5.806367E-7	Inversion Src #217215; 26 SECTIONS BETWEEN Puente Hills, Subsection 4 AND Elsinore (Julian), Subsection 5	11.17	13.48	11.17	00.00
+233251	00.14	5.769022E-7	Inversion Src #237479; 34 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 5 AND Raymond, Subsection 1	04.30	03.69	05.04	02.12
+214170	00.14	5.7498005E-7	Inversion Src #217198; 7 SECTIONS BETWEEN Puente Hills, Subsection 4 AND San Jose, Subsection 1	11.17	13.48	11.17	00.00
+233066	00.14	5.724138E-7	Inversion Src #237292; 33 SECTIONS BETWEEN San Jacinto (Clark) rev, Subsection 3 AND Raymond, Subsection 2	03.28	02.88	04.26	00.33
+189360	00.14	5.635138E-7	Inversion Src #191766; 16 SECTIONS BETWEEN Cucamonga, Subsection 0 AND Santa Monica alt 1, Subsection 1	03.28	02.88	04.26	00.33
+189237	00.14	5.5101776E-7	Inversion Src #191643; 12 SECTIONS BETWEEN Cucamonga, Subsection 0 AND Puente Hills, Subsection 4	11.17	13.48	11.17	00.00
+215298	00.14	5.499217E-7	Inversion Src #218332; 8 SECTIONS BETWEEN Hollywood, Subsection 2 AND Clamshell-Sawpit, Subsection 0	03.28	02.88	04.26	00.33
+189059	00.13	5.3958024E-7	Inversion Src #191465; 11 SECTIONS BETWEEN Cucamonga, Subsection 1 AND Puente Hills, Subsection 4	11.17	13.48	11.17	00.00
+222301	00.13	5.328026E-7	Inversion Src #225417; 4 SECTIONS BETWEEN Raymond, Subsection 1 AND Elysian Park (Upper), Subsection 2	03.28	02.88	04.26	00.00
+214186	00.13	5.27149E-7	Inversion Src #217214; 25 SECTIONS BETWEEN Puente Hills, Subsection 4 AND Elsinore (Julian), Subsection 6	11.17	13.48	11.17	00.00
+216812	00.13	5.265132E-7	Inversion Src #219869; 11 SECTIONS BETWEEN Whittier alt 1, Subsection 2 AND Elysian Park (Upper), Subsection 2	09.17	08.41	09.17	00.00
+222428	00.13	5.246213E-7	Inversion Src #225544; 25 SECTIONS BETWEEN Raymond, Subsection 2 AND San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 6	03.28	02.88	04.26	00.33
+214154	00.13	5.2362157E-7	Inversion Src #217182; 6 SECTIONS BETWEEN Puente Hills, Subsection 3 AND Hollywood, Subsection 1	05.73	01.91	06.45	00.00
+214098	00.13	5.2162403E-7	Inversion Src #217126; 7 SECTIONS BETWEEN Puente Hills, Subsection 3 AND San Jose, Subsection 0	11.45	13.72	11.45	00.93
+213806	00.13	5.203581E-7	Inversion Src #216834; 4 SECTIONS BETWEEN Puente Hills, Subsection 0 AND Puente Hills, Subsection 3	11.45	13.72	11.45	00.93
+189430	00.13	5.0925235E-7	Inversion Src #191837; 18 SECTIONS BETWEEN Cleghorn, Subsection 1 AND Santa Monica alt 1, Subsection 1	03.28	02.88	04.26	00.33
+220999	00.13	5.084725E-7	Inversion Src #224101; 11 SECTIONS BETWEEN Santa Susana East (connector), Subsection 1 AND San Cayetano, Subsection 3	27.72	-03.34	27.72	26.73
+189479	00.12	4.9981577E-7	Inversion Src #191887; 19 SECTIONS BETWEEN Cleghorn, Subsection 2 AND Santa Monica alt 1, Subsection 1	03.28	02.88	04.26	00.33
+214185	00.12	4.979678E-7	Inversion Src #217213; 23 SECTIONS BETWEEN Puente Hills, Subsection 4 AND Elsinore (Temecula) rev, Subsection 5	11.17	13.48	11.17	00.00
+217922	00.12	4.922033E-7	Inversion Src #221016; 5 SECTIONS BETWEEN Sierra Madre, Subsection 0 AND Sierra Madre, Subsection 4	07.72	-07.57	09.98	07.58
+191664	00.12	4.917825E-7	Inversion Src #194157; 13 SECTIONS BETWEEN San Andreas (San Bernardino N), Subsection 2 AND Raymond, Subsection 2	03.28	02.88	04.26	00.33
+214302	00.12	4.89508E-7	Inversion Src #217332; 6 SECTIONS BETWEEN Elysian Park (Upper), Subsection 0 AND Hollywood, Subsection 2	05.73	01.91	06.45	00.00
