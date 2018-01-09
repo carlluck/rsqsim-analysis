@@ -2,9 +2,12 @@
 
 | Date | Name | Duration | Element Area | Description |
 |-----|-----|-----|-----|-----|
+| 2017/12/22 | [Bruce 2410](rundir2410#bruce-2410) | 38,131 yrs | 1.35 km | factorNormal=2.0;  50ky reference time; 212ky spinup |
+| 2017/12/22 | [Bruce 2412](rundir2412#bruce-2412) | 247,078 yrs | 1.35 km | factorNormal=2.0;  50ky reference time; 85ky spinup; srt(slipRate) |
 | 2017/12/22 | [Bruce 2413](rundir2413#bruce-2413) | 209,234 yrs | 1.35 km | factorNormal=2.0;  100ky reference time; 85ky spinup; sqrt(slipRate) |
 | 2017/12/22 | [Bruce 2381](rundir2381#bruce-2381) | 472,840 yrs | 1.35 km | fracCreep=0.5 |
 | 2017/12/22 | [Bruce 2388](rundir2388#bruce-2388) | 526,404 yrs | 1.35 km | fracCreep=0.25 |
+| 2017/12/22 | [Bruce 2411](rundir2411#bruce-2411) | 37,504 yrs | 1.35 km | factorNormal=2.0;  50ky reference time; 85ky spinup |
 | 2017/11/26 | [JG Tune Base Mod Vel](tunedBase1m_ddotEQmod#jg-tune-base-mod-vel) | 112,714 yrs | 0.90 km | New version of tuneBase1m, with patch-specific slip velocities. |
 | 2017/11/20 | [JG Base SW](baseCatalogSW_10#jg-base-sw) | 113,506 yrs | 0.90 km | Untuned, additional slip weakening parameters using Keith's fault geometry. muSlipAmp = 0.2, muSlipInvDist_1 = 2.0, cohesion = 6. |
 | 2017/11/20 | [JG Tune Base SW](tuneBaseSW_1e5#jg-tune-base-sw) | 110,918 yrs | 0.90 km | Tuned, additional slip weakening parameters using Keith's fault geometry. muSlipAmp = 0.2, muSlipInvDist_1 = 2.0, cohesion = 6. |
