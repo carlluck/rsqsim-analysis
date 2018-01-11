@@ -14,6 +14,7 @@
 * [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
 * [Full Catalog RotD100/RotD50 Ratios](#full-catalog-rotd100rotd50-ratios)
 * [Hazard Comparisons](#hazard-comparisons)
+* [Hazard Clustering Comparisons](#hazard-clustering-comparisons)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
@@ -43,6 +44,11 @@
 * [10.0s SA](hazard_sa_10.0s/)
 * [0.2s SA](hazard_sa_0.2s/)
 * [5.0s SA](hazard_sa_5.0s/)
+
+## Hazard Clustering Comparisons
+*[(top)](#bruce-2381)*
+
+* [PGA](hazard_clustering_pga/)
 
 ## Plots
 ### Magnitude-Frequency Plot
