@@ -1,4 +1,4 @@
-# Hazard Comparisons
+# Hazard Clustering Comparisons
 
 * GMPE: Boore, Stewart, Seyhan & Atkinson (2014)
 * IMT: PGA
