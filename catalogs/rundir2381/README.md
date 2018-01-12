@@ -43,6 +43,7 @@
 * [PGA](hazard_pga/)
 * [10.0s SA](hazard_sa_10.0s/)
 * [0.2s SA](hazard_sa_0.2s/)
+* [1.0s SA](hazard_sa_1.0s/)
 * [5.0s SA](hazard_sa_5.0s/)
 
 ## Hazard Clustering Comparisons
