@@ -8,29 +8,29 @@
 ## Table Of Contents
 * [1yr Sub-Catalogs](#1yr-sub-catalogs)
   * [1yr Scatters](#1yr-scatters)
-  * [1yr M≥7 Counts](#1yr-m7-counts)
+  * [1yr Event Count Hists](#1yr-event-count-hists)
   * [1yr Site Fractile Curves](#1yr-site-fractile-curves)
 * [50yr Sub-Catalogs](#50yr-sub-catalogs)
   * [50yr Scatters](#50yr-scatters)
-  * [50yr M≥7 Counts](#50yr-m7-counts)
+  * [50yr Event Count Hists](#50yr-event-count-hists)
   * [50yr Site Fractile Curves](#50yr-site-fractile-curves)
 * [1715.5yr Sub-Catalogs](#17155yr-sub-catalogs)
   * [1715.5yr Scatters](#17155yr-scatters)
-  * [1715.5yr M≥7 Counts](#17155yr-m7-counts)
+  * [1715.5yr Event Count Hists](#17155yr-event-count-hists)
   * [1715.5yr Site Fractile Curves](#17155yr-site-fractile-curves)
 * [328.9yr Sub-Catalogs](#3289yr-sub-catalogs)
   * [328.9yr Scatters](#3289yr-scatters)
-  * [328.9yr M≥7 Counts](#3289yr-m7-counts)
+  * [328.9yr Event Count Hists](#3289yr-event-count-hists)
   * [328.9yr Site Fractile Curves](#3289yr-site-fractile-curves)
 * [2500yr Sub-Catalogs](#2500yr-sub-catalogs)
   * [2500yr Scatters](#2500yr-scatters)
-  * [2500yr M≥7 Counts](#2500yr-m7-counts)
+  * [2500yr Event Count Hists](#2500yr-event-count-hists)
   * [2500yr Site Fractile Curves](#2500yr-site-fractile-curves)
 * [Site 2% in 50 years RP Functions](#site-2-in-50-years-rp-functions)
 ## 1yr Sub-Catalogs
 *[(top)](#table-of-contents)*
 
-**467709 sub-catalogs**
+**467712 sub-catalogs**
 
 | Fractile | Time-Independent Probability |
 |-----|-----|
@@ -43,12 +43,14 @@
 
 ![2.1E-3 Fract Scatter](resources/1yr_scatter_p2.1E-3.png)
 
-### 1yr M≥7 Counts
+### 1yr Event Count Hists
 *[(top)](#table-of-contents)*
 
-| Simulation | Poisson |
-|-----|-----|
-| ![Simulation M≥7 Count](resources/1yr_m7_hist.png) | ![Poisson M≥7 Count](resources/1yr_m7_hist_poisson.png) |
+| Min Mag | Simulation | Poisson |
+|-----|-----|-----|
+| M≥6.0 | ![Simulation M≥6 Count](resources/1yr_m6_hist.png) | ![Poisson M≥6 Count](resources/1yr_m6_hist_poisson.png) |
+| M≥6.5 | ![Simulation M≥6.5 Count](resources/1yr_m6.5_hist.png) | ![Poisson M≥6.5 Count](resources/1yr_m6.5_hist_poisson.png) |
+| M≥7.0 | ![Simulation M≥7 Count](resources/1yr_m7_hist.png) | ![Poisson M≥7 Count](resources/1yr_m7_hist_poisson.png) |
 
 ### 1yr Site Fractile Curves
 *[(top)](#table-of-contents)*
@@ -95,12 +97,14 @@
 
 ![0.1 Fract Scatter](resources/50yr_scatter_p0.1.png)
 
-### 50yr M≥7 Counts
+### 50yr Event Count Hists
 *[(top)](#table-of-contents)*
 
-| Simulation | Poisson |
-|-----|-----|
-| ![Simulation M≥7 Count](resources/50yr_m7_hist.png) | ![Poisson M≥7 Count](resources/50yr_m7_hist_poisson.png) |
+| Min Mag | Simulation | Poisson |
+|-----|-----|-----|
+| M≥6.0 | ![Simulation M≥6 Count](resources/50yr_m6_hist.png) | ![Poisson M≥6 Count](resources/50yr_m6_hist_poisson.png) |
+| M≥6.5 | ![Simulation M≥6.5 Count](resources/50yr_m6.5_hist.png) | ![Poisson M≥6.5 Count](resources/50yr_m6.5_hist_poisson.png) |
+| M≥7.0 | ![Simulation M≥7 Count](resources/50yr_m7_hist.png) | ![Poisson M≥7 Count](resources/50yr_m7_hist_poisson.png) |
 
 ### 50yr Site Fractile Curves
 *[(top)](#table-of-contents)*
@@ -147,12 +151,14 @@
 
 ![0.97 Fract Scatter](resources/1715.5yr_scatter_p0.97.png)
 
-### 1715.5yr M≥7 Counts
+### 1715.5yr Event Count Hists
 *[(top)](#table-of-contents)*
 
-| Simulation | Poisson |
-|-----|-----|
-| ![Simulation M≥7 Count](resources/1715.5yr_m7_hist.png) | ![Poisson M≥7 Count](resources/1715.5yr_m7_hist_poisson.png) |
+| Min Mag | Simulation | Poisson |
+|-----|-----|-----|
+| M≥6.0 | ![Simulation M≥6 Count](resources/1715.5yr_m6_hist.png) | ![Poisson M≥6 Count](resources/1715.5yr_m6_hist_poisson.png) |
+| M≥6.5 | ![Simulation M≥6.5 Count](resources/1715.5yr_m6.5_hist.png) | ![Poisson M≥6.5 Count](resources/1715.5yr_m6.5_hist_poisson.png) |
+| M≥7.0 | ![Simulation M≥7 Count](resources/1715.5yr_m7_hist.png) | ![Poisson M≥7 Count](resources/1715.5yr_m7_hist_poisson.png) |
 
 ### 1715.5yr Site Fractile Curves
 *[(top)](#table-of-contents)*
@@ -199,12 +205,14 @@
 
 ![0.5 Fract Scatter](resources/328.9yr_scatter_p0.5.png)
 
-### 328.9yr M≥7 Counts
+### 328.9yr Event Count Hists
 *[(top)](#table-of-contents)*
 
-| Simulation | Poisson |
-|-----|-----|
-| ![Simulation M≥7 Count](resources/328.9yr_m7_hist.png) | ![Poisson M≥7 Count](resources/328.9yr_m7_hist_poisson.png) |
+| Min Mag | Simulation | Poisson |
+|-----|-----|-----|
+| M≥6.0 | ![Simulation M≥6 Count](resources/328.9yr_m6_hist.png) | ![Poisson M≥6 Count](resources/328.9yr_m6_hist_poisson.png) |
+| M≥6.5 | ![Simulation M≥6.5 Count](resources/328.9yr_m6.5_hist.png) | ![Poisson M≥6.5 Count](resources/328.9yr_m6.5_hist_poisson.png) |
+| M≥7.0 | ![Simulation M≥7 Count](resources/328.9yr_m7_hist.png) | ![Poisson M≥7 Count](resources/328.9yr_m7_hist_poisson.png) |
 
 ### 328.9yr Site Fractile Curves
 *[(top)](#table-of-contents)*
@@ -251,12 +259,14 @@
 
 ![0.99 Fract Scatter](resources/2500yr_scatter_p0.99.png)
 
-### 2500yr M≥7 Counts
+### 2500yr Event Count Hists
 *[(top)](#table-of-contents)*
 
-| Simulation | Poisson |
-|-----|-----|
-| ![Simulation M≥7 Count](resources/2500yr_m7_hist.png) | ![Poisson M≥7 Count](resources/2500yr_m7_hist_poisson.png) |
+| Min Mag | Simulation | Poisson |
+|-----|-----|-----|
+| M≥6.0 | ![Simulation M≥6 Count](resources/2500yr_m6_hist.png) | ![Poisson M≥6 Count](resources/2500yr_m6_hist_poisson.png) |
+| M≥6.5 | ![Simulation M≥6.5 Count](resources/2500yr_m6.5_hist.png) | ![Poisson M≥6.5 Count](resources/2500yr_m6.5_hist_poisson.png) |
+| M≥7.0 | ![Simulation M≥7 Count](resources/2500yr_m7_hist.png) | ![Poisson M≥7 Count](resources/2500yr_m7_hist_poisson.png) |
 
 ### 2500yr Site Fractile Curves
 *[(top)](#table-of-contents)*
