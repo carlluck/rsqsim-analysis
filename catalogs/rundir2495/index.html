@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	max-width:1000px;
+	margin: auto;
+}
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+</style>
+</head>
+<body>
+<h1 id="bruce-2495">Bruce 2495</h1>
+<h2 id="metadata">Metadata</h2>
+<table>
+<thead>
+<tr><th><strong>Catalog</strong></th><th>Bruce 2495</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Author</strong></td><td>Bruce Shaw, 2018/01/29</td></tr>
+<tr><td><strong>Description</strong></td><td>flat loaded.  fracCreep=0.5.  maxDepth=14.4</td></tr>
+<tr><td><strong>Fault/Def Model</strong></td><td>Fault Model 3.1, Geologic</td></tr>
+<tr><td><strong>Slip Velocity</strong></td><td>1.0 m/s</td></tr>
+<tr><td><strong>Average Element Area</strong></td><td>1.35 km^2</td></tr>
+<tr><td><strong>Length</strong></td><td>3,563,499 events in 429,340 years</td></tr>
+<tr><td><strong>Frictional Params</strong></td><td>a=0.001, b=0.008, (b-a)=0.007, ddotEQ=1</td></tr>
+</tbody>
+</table>
+<ul>
+<li><a href="#metadata">Metadata</a></li>
+<li><a href="#hazard-comparisons">Hazard Comparisons</a></li>
+<li><a href="#plots">Plots</a>
+<ul>
+<li><a href="#magnitude-frequency-plot">Magnitude-Frequency Plot</a></li>
+<li><a href="#magnitude-area-plots">Magnitude-Area Plots</a></li>
+<li><a href="#rupture-velocity-plots">Rupture Velocity Plots</a></li>
+<li><a href="#global-interevent-time-distributions">Global Interevent-Time Distributions</a></li>
+<li><a href="#stationarity-plot">Stationarity Plot</a></li>
+<li><a href="#elementsubsection-interevent-time-comparisons">Element/Subsection Interevent Time Comparisons</a>
+<ul>
+<li><a href="#element-interevent-time-comparisons">Element Interevent Time Comparisons</a></li>
+<li><a href="#subsection-interevent-time-comparisons">Subsection Interevent Time Comparisons</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#input-file">Input File</a></li>
+</ul>
+<h2 id="hazard-comparisons">Hazard Comparisons</h2>
+<p><em><a href="#bruce-2495">(top)</a></em></p>
+<ul>
+<li><a href="hazard_pga/">PGA</a></li>
+<li><a href="hazard_sa_10.0s/">10.0s SA</a></li>
+<li><a href="hazard_sa_0.2s/">0.2s SA</a></li>
+<li><a href="hazard_sa_1.0s/">1.0s SA</a></li>
+<li><a href="hazard_sa_5.0s/">5.0s SA</a></li>
+</ul>
+<h2 id="plots">Plots</h2>
+<h3 id="magnitude-frequency-plot">Magnitude-Frequency Plot</h3>
+<p><em><a href="#bruce-2495">(top)</a></em></p>
+<p><img src="resources/mfd.png" alt="MFD" /></p>
+<h3 id="magnitude-area-plots">Magnitude-Area Plots</h3>
+<p><em><a href="#bruce-2495">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>Scatter</th><th>2-D Hist</th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/mag_area.png" alt="MFD Scatter" /></td><td><img src="resources/mag_area_hist2D.png" alt="MFD Hist" /></td></tr>
+</tbody>
+</table>
+<h3 id="rupture-velocity-plots">Rupture Velocity Plots</h3>
+<p><em><a href="#bruce-2495">(top)</a></em></p>
+<table>
+<thead>
+<tr><th><strong>Scatter</strong></th><th><img src="resources/rupture_velocity_scatter.png" alt="Rupture Velocity Scatter" /></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Distance/Velocity</strong></td><td><img src="resources/rupture_velocity_vs_dist.png" alt="Rupture Velocity vs Dist" /></td></tr>
+</tbody>
+</table>
+<h3 id="global-interevent-time-distributions">Global Interevent-Time Distributions</h3>
+<p><em><a href="#bruce-2495">(top)</a></em></p>
+<table>
+<thead>
+<tr><th><strong>M≥6</strong></th><th><strong>M≥6.5</strong></th><th><strong>M≥7</strong></th><th><strong>M≥7.5</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/interevent_times_m6.png" alt="Interevent Times" /></td><td><img src="resources/interevent_times_m6.5.png" alt="Interevent Times" /></td><td><img src="resources/interevent_times_m7.png" alt="Interevent Times" /></td><td><img src="resources/interevent_times_m7.5.png" alt="Interevent Times" /></td></tr>
+</tbody>
+</table>
+<h3 id="stationarity-plot">Stationarity Plot</h3>
+<p><em><a href="#bruce-2495">(top)</a></em></p>
+<p><img src="resources/stationarity.png" alt="Stationarity" /></p>
+<h3 id="elementsubsection-interevent-time-comparisons">Element/Subsection Interevent Time Comparisons</h3>
+<h4 id="element-interevent-time-comparisons">Element Interevent Time Comparisons</h4>
+<p><em><a href="#bruce-2495">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>Min Mag</th><th>Scatter</th><th>2-D Hist</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>M≥6.0</strong></td><td><img src="resources/interevent_elements_m6_scatter.png" alt="Element Scatter" /></td><td><img src="resources/interevent_elements_m6_hist2D.png" alt="Element 2-D Hist" /></td></tr>
+<tr><td><strong>M≥6.5</strong></td><td><img src="resources/interevent_elements_m6.5_scatter.png" alt="Element Scatter" /></td><td><img src="resources/interevent_elements_m6.5_hist2D.png" alt="Element 2-D Hist" /></td></tr>
+<tr><td><strong>M≥7.0</strong></td><td><img src="resources/interevent_elements_m7_scatter.png" alt="Element Scatter" /></td><td><img src="resources/interevent_elements_m7_hist2D.png" alt="Element 2-D Hist" /></td></tr>
+<tr><td><strong>M≥7.5</strong></td><td><img src="resources/interevent_elements_m7.5_scatter.png" alt="Element Scatter" /></td><td><img src="resources/interevent_elements_m7.5_hist2D.png" alt="Element 2-D Hist" /></td></tr>
+</tbody>
+</table>
+<h4 id="subsection-interevent-time-comparisons">Subsection Interevent Time Comparisons</h4>
+<p><em><a href="#bruce-2495">(top)</a></em></p>
+<p><em>Subsections participates in a rupture if at least 20.0 % of its area ruptures</em></p>
+<table>
+<thead>
+<tr><th>Min Mag</th><th>Scatter</th><th>2-D Hist</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>M≥6.0</strong></td><td><img src="resources/interevent_sub_sects_m6_scatter.png" alt="Subsection Scatter" /></td><td><img src="resources/interevent_sub_sects_m6_hist2D.png" alt="Subsection 2-D Hist" /></td></tr>
+<tr><td><strong>M≥6.5</strong></td><td><img src="resources/interevent_sub_sects_m6.5_scatter.png" alt="Subsection Scatter" /></td><td><img src="resources/interevent_sub_sects_m6.5_hist2D.png" alt="Subsection 2-D Hist" /></td></tr>
+<tr><td><strong>M≥7.0</strong></td><td><img src="resources/interevent_sub_sects_m7_scatter.png" alt="Subsection Scatter" /></td><td><img src="resources/interevent_sub_sects_m7_hist2D.png" alt="Subsection 2-D Hist" /></td></tr>
+<tr><td><strong>M≥7.5</strong></td><td><img src="resources/interevent_sub_sects_m7.5_scatter.png" alt="Subsection Scatter" /></td><td><img src="resources/interevent_sub_sects_m7.5_hist2D.png" alt="Subsection 2-D Hist" /></td></tr>
+</tbody>
+</table>
+<h2 id="input-file">Input File</h2>
+<p><em><a href="#bruce-2495">(top)</a></em></p>
+<pre><code>  A_1 = 0.001
+  fA = .1
+  B_1 = 0.008
+  muSlipAmp_1 = .0
+  muSlipInvDist_1 = 1.0
+  cohesion = 0.0
+  Dc_1 = 1.0000000000000000818e-05
+  mu0_1 = 0.6
+  ddotStar_1 = 9.9999999999999995475e-07
+  ddotAB_1 = 9.9999999999999995475e-07
+  alpha_1 = 0.0
+  theta0_1 = 200000000
+  tau0_1 = 55
+  sigma0_1 = 100
+  sigmaFracPin = .5
+  lowSigmaAction = 1
+  maxThetaPin = 1.0e13
+  ddotEQ_1 = 1
+  ddotEQFname = 
+  stressOvershootFactor = 0.10000000000000000555
+  lameLambda = 30000
+  lameMu = 30000
+  slowSlip_1 = 0
+  nEq = 4000000
+  KZeroFrac = 0
+  KOneFrac =  0
+  muPin = 1.0
+  tStart = 0
+  maxT = 1.0000000000000000159e+100
+  maxTransitions = 1.0000000000000000159e+8
+  faultFname = zfault_Deepen.in
+  outFnameInfix = 
+  writeTau = 0
+  writeSigma = 0
+  writeSlip = 0
+  writeSlipSpeed = 0
+  writeState = 0
+  writeTheta = 0
+  writePED = 1
+  writeTransitions = 1
+  minDtWrite = 0
+  minDtWriteCoseismic = 0
+  minDtWriteInterseismic = 0
+  minMagWrite = 0
+  writeStiffness = 0
+  stressRateSpecification = 1
+  dMu3 = 0.01000000000000000
+  initTauFname = 
+  initSigmaFname = 
+  initThetaFname = 
+  initSlipSpeedFname = 
+  AFname = 
+  BFname =  
+  DcFname = 
+  mu0Fname = 
+  ddotStarFname = 
+  ddotABFname = 
+  alphaFname = 
+  KTauFname = 
+  KSigmaFname = 
+  tFailFname = 
+  tauFailFname = 
+  tauDotFname = 
+  sigmaDotFname = 
+  KZeroFname = zfault_Deepen_KZero.in
+  pinnedFname =  
+  neighborFname = 
+  stressRateFname =  
+  slowSlipFname = 
+  writePatchFname = 
+  DEBUG = 0
+  ZBrentUpperBracket = 0
+</code></pre>
+</body>
+</html>

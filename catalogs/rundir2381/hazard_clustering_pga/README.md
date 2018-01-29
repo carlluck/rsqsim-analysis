@@ -6,6 +6,14 @@
 [Catalog Details](../#bruce-2381)
 
 ## Table Of Contents
+* [1wk Sub-Catalogs](#1wk-sub-catalogs)
+  * [1wk Scatters](#1wk-scatters)
+  * [1wk Event Count Hists](#1wk-event-count-hists)
+  * [1wk Site Fractile Curves](#1wk-site-fractile-curves)
+* [1mo Sub-Catalogs](#1mo-sub-catalogs)
+  * [1mo Scatters](#1mo-scatters)
+  * [1mo Event Count Hists](#1mo-event-count-hists)
+  * [1mo Site Fractile Curves](#1mo-site-fractile-curves)
 * [1yr Sub-Catalogs](#1yr-sub-catalogs)
   * [1yr Scatters](#1yr-scatters)
   * [1yr Event Count Hists](#1yr-event-count-hists)
@@ -27,6 +35,114 @@
   * [2500yr Event Count Hists](#2500yr-event-count-hists)
   * [2500yr Site Fractile Curves](#2500yr-site-fractile-curves)
 * [Site 2% in 50 years RP Functions](#site-2-in-50-years-rp-functions)
+## 1wk Sub-Catalogs
+*[(top)](#table-of-contents)*
+
+**24404590 sub-catalogs**
+
+| Fractile | Time-Independent Probability |
+|-----|-----|
+| **7.7E-6** | **4E-4** |
+| **4E-5** | **2.1E-3** |
+### 1wk Scatters
+*[(top)](#table-of-contents)*
+
+![7.7E-6 Fract Scatter](resources/1wk_scatter_p7.7E-6.png)
+
+![4E-5 Fract Scatter](resources/1wk_scatter_p4E-5.png)
+
+### 1wk Event Count Hists
+*[(top)](#table-of-contents)*
+
+| Min Mag | Simulation | Poisson |
+|-----|-----|-----|
+| M≥6.0 | ![Simulation M≥6 Count](resources/1wk_m6_hist.png) | ![Poisson M≥6 Count](resources/1wk_m6_hist_poisson.png) |
+| M≥6.5 | ![Simulation M≥6.5 Count](resources/1wk_m6.5_hist.png) | ![Poisson M≥6.5 Count](resources/1wk_m6.5_hist_poisson.png) |
+| M≥7.0 | ![Simulation M≥7 Count](resources/1wk_m7_hist.png) | ![Poisson M≥7 Count](resources/1wk_m7_hist_poisson.png) |
+
+### 1wk Site Fractile Curves
+*[(top)](#table-of-contents)*
+
+| Site | Fractile Curve Plot |
+|-----|-----|
+| **Century City** | ![Century City](resources/Century_City_1wk.png) |
+| **Concord** | ![Concord](resources/Concord_1wk.png) |
+| **Irvine** | ![Irvine](resources/Irvine_1wk.png) |
+| **Long Beach** | ![Long Beach](resources/Long_Beach_1wk.png) |
+| **Los Angeles** | ![Los Angeles](resources/Los_Angeles_1wk.png) |
+| **Monterey** | ![Monterey](resources/Monterey_1wk.png) |
+| **Northridge** | ![Northridge](resources/Northridge_1wk.png) |
+| **Oakland** | ![Oakland](resources/Oakland_1wk.png) |
+| **Pasadena** | ![Pasadena](resources/Pasadena_1wk.png) |
+| **Riverside** | ![Riverside](resources/Riverside_1wk.png) |
+| **Sacramento** | ![Sacramento](resources/Sacramento_1wk.png) |
+| **San Bernardino** | ![San Bernardino](resources/San_Bernardino_1wk.png) |
+| **San Diego** | ![San Diego](resources/San_Diego_1wk.png) |
+| **San Francisco** | ![San Francisco](resources/San_Francisco_1wk.png) |
+| **San Jose** | ![San Jose](resources/San_Jose_1wk.png) |
+| **San Luis Obispo** | ![San Luis Obispo](resources/San_Luis_Obispo_1wk.png) |
+| **San Mateo** | ![San Mateo](resources/San_Mateo_1wk.png) |
+| **Santa Barbara** | ![Santa Barbara](resources/Santa_Barbara_1wk.png) |
+| **Santa Cruz** | ![Santa Cruz](resources/Santa_Cruz_1wk.png) |
+| **Santa Rosa** | ![Santa Rosa](resources/Santa_Rosa_1wk.png) |
+| **USC** | ![USC](resources/USC_1wk.png) |
+| **Vallejo** | ![Vallejo](resources/Vallejo_1wk.png) |
+| **Ventura** | ![Ventura](resources/Ventura_1wk.png) |
+
+## 1mo Sub-Catalogs
+*[(top)](#table-of-contents)*
+
+**5612554 sub-catalogs**
+
+| Fractile | Time-Independent Probability |
+|-----|-----|
+| **3.4E-5** | **4E-4** |
+| **1.8E-4** | **2.1E-3** |
+### 1mo Scatters
+*[(top)](#table-of-contents)*
+
+![3.4E-5 Fract Scatter](resources/1mo_scatter_p3.4E-5.png)
+
+![1.8E-4 Fract Scatter](resources/1mo_scatter_p1.8E-4.png)
+
+### 1mo Event Count Hists
+*[(top)](#table-of-contents)*
+
+| Min Mag | Simulation | Poisson |
+|-----|-----|-----|
+| M≥6.0 | ![Simulation M≥6 Count](resources/1mo_m6_hist.png) | ![Poisson M≥6 Count](resources/1mo_m6_hist_poisson.png) |
+| M≥6.5 | ![Simulation M≥6.5 Count](resources/1mo_m6.5_hist.png) | ![Poisson M≥6.5 Count](resources/1mo_m6.5_hist_poisson.png) |
+| M≥7.0 | ![Simulation M≥7 Count](resources/1mo_m7_hist.png) | ![Poisson M≥7 Count](resources/1mo_m7_hist_poisson.png) |
+
+### 1mo Site Fractile Curves
+*[(top)](#table-of-contents)*
+
+| Site | Fractile Curve Plot |
+|-----|-----|
+| **Century City** | ![Century City](resources/Century_City_1mo.png) |
+| **Concord** | ![Concord](resources/Concord_1mo.png) |
+| **Irvine** | ![Irvine](resources/Irvine_1mo.png) |
+| **Long Beach** | ![Long Beach](resources/Long_Beach_1mo.png) |
+| **Los Angeles** | ![Los Angeles](resources/Los_Angeles_1mo.png) |
+| **Monterey** | ![Monterey](resources/Monterey_1mo.png) |
+| **Northridge** | ![Northridge](resources/Northridge_1mo.png) |
+| **Oakland** | ![Oakland](resources/Oakland_1mo.png) |
+| **Pasadena** | ![Pasadena](resources/Pasadena_1mo.png) |
+| **Riverside** | ![Riverside](resources/Riverside_1mo.png) |
+| **Sacramento** | ![Sacramento](resources/Sacramento_1mo.png) |
+| **San Bernardino** | ![San Bernardino](resources/San_Bernardino_1mo.png) |
+| **San Diego** | ![San Diego](resources/San_Diego_1mo.png) |
+| **San Francisco** | ![San Francisco](resources/San_Francisco_1mo.png) |
+| **San Jose** | ![San Jose](resources/San_Jose_1mo.png) |
+| **San Luis Obispo** | ![San Luis Obispo](resources/San_Luis_Obispo_1mo.png) |
+| **San Mateo** | ![San Mateo](resources/San_Mateo_1mo.png) |
+| **Santa Barbara** | ![Santa Barbara](resources/Santa_Barbara_1mo.png) |
+| **Santa Cruz** | ![Santa Cruz](resources/Santa_Cruz_1mo.png) |
+| **Santa Rosa** | ![Santa Rosa](resources/Santa_Rosa_1mo.png) |
+| **USC** | ![USC](resources/USC_1mo.png) |
+| **Vallejo** | ![Vallejo](resources/Vallejo_1mo.png) |
+| **Ventura** | ![Ventura](resources/Ventura_1mo.png) |
+
 ## 1yr Sub-Catalogs
 *[(top)](#table-of-contents)*
 

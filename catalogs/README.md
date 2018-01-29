@@ -2,6 +2,7 @@
 
 | Date | Name | Duration | Element Area | Description |
 |-----|-----|-----|-----|-----|
+| 2018/01/29 | [Bruce 2495](rundir2495#bruce-2495) | 429,340 yrs | 1.35 km | flat loaded.  fracCreep=0.5.  maxDepth=14.4 |
 | 2018/01/14 | [Bruce 2457](rundir2457#bruce-2457) | 192,787 yrs | 1.35 km | new loading;  fCreep=0.25 |
 | 2017/12/22 | [Bruce 2410](rundir2410#bruce-2410) | 38,131 yrs | 1.35 km | factorNormal=2.0;  50ky reference time; 212ky spinup |
 | 2017/12/22 | [Bruce 2412](rundir2412#bruce-2412) | 247,078 yrs | 1.35 km | factorNormal=2.0;  50ky reference time; 85ky spinup; srt(slipRate) |
