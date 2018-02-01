@@ -11,6 +11,8 @@
 | **Frictional Params** | a=0.001, b=0.008, (b-a)=0.007, ddotEQ=1 |
 
 * [Metadata](#metadata)
+* [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
+* [Full Catalog RotD100/RotD50 Ratios](#full-catalog-rotd100rotd50-ratios)
 * [Hazard Comparisons](#hazard-comparisons)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
@@ -22,6 +24,17 @@
     * [Element Interevent Time Comparisons](#element-interevent-time-comparisons)
     * [Subsection Interevent Time Comparisons](#subsection-interevent-time-comparisons)
 * [Input File](#input-file)
+
+## Full Catalog GMPE Comparisons
+*[(top)](#bruce-2495)*
+
+* [BSSA2014](gmpe_bbp_comparisons_BSSA2014/)
+* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
+
+## Full Catalog RotD100/RotD50 Ratios
+*[(top)](#bruce-2495)*
+
+[Full Catalog RotD100/RotD50 Ratios Plotted Here](catalog_rotd_ratio_comparisons/)
 
 ## Hazard Comparisons
 *[(top)](#bruce-2495)*
