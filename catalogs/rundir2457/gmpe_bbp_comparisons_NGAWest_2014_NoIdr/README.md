@@ -7,50 +7,34 @@ Ruptures are binned by their moment magnitude (**Mw**) and the Joyner-Boore dist
 [Catalog Details](../#bruce-2457)
 
 ## Table Of Contents
-* [All Sites Aggregated](#all-sites-aggregated)
-  * [All Sites, 6 < Mw < 6.5](#all-sites-6--mw--65)
-    * [All Sites, 6 < Mw < 6.5, Scatter Plots](#all-sites-6--mw--65-scatter-plots)
-    * [All Sites, 6 < Mw < 6.5, Standard Normal Plots](#all-sites-6--mw--65-standard-normal-plots)
-  * [All Sites, 6.5 < Mw < 7](#all-sites-65--mw--7)
-    * [All Sites, 6.5 < Mw < 7, Scatter Plots](#all-sites-65--mw--7-scatter-plots)
-    * [All Sites, 6.5 < Mw < 7, Standard Normal Plots](#all-sites-65--mw--7-standard-normal-plots)
-  * [All Sites, 7 < Mw < 7.5](#all-sites-7--mw--75)
-    * [All Sites, 7 < Mw < 7.5, Scatter Plots](#all-sites-7--mw--75-scatter-plots)
-    * [All Sites, 7 < Mw < 7.5, Standard Normal Plots](#all-sites-7--mw--75-standard-normal-plots)
-  * [All Sites, 7.5 < Mw < 8](#all-sites-75--mw--8)
-    * [All Sites, 7.5 < Mw < 8, Scatter Plots](#all-sites-75--mw--8-scatter-plots)
-    * [All Sites, 7.5 < Mw < 8, Standard Normal Plots](#all-sites-75--mw--8-standard-normal-plots)
-  * [All Sites, All Ruptures, Standard Normal Plots](#all-sites-all-ruptures-standard-normal-plots)
-* [Site USC](#site-usc)
-  * [USC, 6 < Mw < 6.5](#usc-6--mw--65)
-    * [USC, 6 < Mw < 6.5, Scatter Plots](#usc-6--mw--65-scatter-plots)
-    * [USC, 6 < Mw < 6.5, Standard Normal Plots](#usc-6--mw--65-standard-normal-plots)
-  * [USC, 6.5 < Mw < 7](#usc-65--mw--7)
-    * [USC, 6.5 < Mw < 7, Scatter Plots](#usc-65--mw--7-scatter-plots)
-    * [USC, 6.5 < Mw < 7, Standard Normal Plots](#usc-65--mw--7-standard-normal-plots)
-  * [USC, 7 < Mw < 7.5](#usc-7--mw--75)
-    * [USC, 7 < Mw < 7.5, Scatter Plots](#usc-7--mw--75-scatter-plots)
-    * [USC, 7 < Mw < 7.5, Standard Normal Plots](#usc-7--mw--75-standard-normal-plots)
-  * [USC, 7.5 < Mw < 8](#usc-75--mw--8)
-    * [USC, 7.5 < Mw < 8, Scatter Plots](#usc-75--mw--8-scatter-plots)
-    * [USC, 7.5 < Mw < 8, Standard Normal Plots](#usc-75--mw--8-standard-normal-plots)
-  * [USC, All Ruptures, Standard Normal Plots](#usc-all-ruptures-standard-normal-plots)
-* [Site SBSM](#site-sbsm)
-  * [SBSM, 6 < Mw < 6.5](#sbsm-6--mw--65)
-    * [SBSM, 6 < Mw < 6.5, Scatter Plots](#sbsm-6--mw--65-scatter-plots)
-    * [SBSM, 6 < Mw < 6.5, Standard Normal Plots](#sbsm-6--mw--65-standard-normal-plots)
-  * [SBSM, 6.5 < Mw < 7](#sbsm-65--mw--7)
-    * [SBSM, 6.5 < Mw < 7, Scatter Plots](#sbsm-65--mw--7-scatter-plots)
-    * [SBSM, 6.5 < Mw < 7, Standard Normal Plots](#sbsm-65--mw--7-standard-normal-plots)
-  * [SBSM, 7 < Mw < 7.5](#sbsm-7--mw--75)
-    * [SBSM, 7 < Mw < 7.5, Scatter Plots](#sbsm-7--mw--75-scatter-plots)
-    * [SBSM, 7 < Mw < 7.5, Standard Normal Plots](#sbsm-7--mw--75-standard-normal-plots)
-  * [SBSM, 7.5 < Mw < 8](#sbsm-75--mw--8)
-    * [SBSM, 7.5 < Mw < 8, Scatter Plots](#sbsm-75--mw--8-scatter-plots)
-    * [SBSM, 7.5 < Mw < 8, Standard Normal Plots](#sbsm-75--mw--8-standard-normal-plots)
-  * [SBSM, All Ruptures, Standard Normal Plots](#sbsm-all-ruptures-standard-normal-plots)
+* [Site Scatters/Z-Score Histograms](#site-scattersz-score-histograms)
+  * [All Sites Aggregated](#all-sites-aggregated)
+    * [All Sites, 6 < Mw < 6.5](#all-sites-6--mw--65)
+    * [All Sites, 6.5 < Mw < 7](#all-sites-65--mw--7)
+    * [All Sites, 7 < Mw < 7.5](#all-sites-7--mw--75)
+    * [All Sites, 7.5 < Mw < 8](#all-sites-75--mw--8)
+    * [All Sites, All Ruptures, Z-Score Histograms](#all-sites-all-ruptures-z-score-histograms)
+  * [Site USC](#site-usc)
+    * [USC, 6 < Mw < 6.5](#usc-6--mw--65)
+    * [USC, 6.5 < Mw < 7](#usc-65--mw--7)
+    * [USC, 7 < Mw < 7.5](#usc-7--mw--75)
+    * [USC, 7.5 < Mw < 8](#usc-75--mw--8)
+    * [USC, All Ruptures, Z-Score Histograms](#usc-all-ruptures-z-score-histograms)
+  * [Site SBSM](#site-sbsm)
+    * [SBSM, 6 < Mw < 6.5](#sbsm-6--mw--65)
+    * [SBSM, 6.5 < Mw < 7](#sbsm-65--mw--7)
+    * [SBSM, 7 < Mw < 7.5](#sbsm-7--mw--75)
+    * [SBSM, 7.5 < Mw < 8](#sbsm-75--mw--8)
+    * [SBSM, All Ruptures, Z-Score Histograms](#sbsm-all-ruptures-z-score-histograms)
 * [Hazard Curves](#hazard-curves)
-## All Sites Aggregated
+* [GMPE Residuals](#gmpe-residuals)
+  * [GMPE Magnitude Residuals](#gmpe-magnitude-residuals)
+  * [GMPE rJB Residuals](#gmpe-rjb-residuals)
+  * [GMPE rRup Residuals](#gmpe-rrup-residuals)
+## Site Scatters/Z-Score Histograms
+*[(top)](#table-of-contents)*
+
+### All Sites Aggregated
 *[(top)](#table-of-contents)*
 
 **10 sites**
@@ -69,9 +53,9 @@ Ruptures are binned by their moment magnitude (**Mw**) and the Joyner-Boore dist
 | San Jose | *37.35, -121.9* | 36053 (36053 sims) | 863 | N/A | N/A |
 
 80306 ruptures within 200 km of *any* site
-### All Sites, 6 < Mw < 6.5
+#### All Sites, 6 < Mw < 6.5
 44939 Ruptures
-#### All Sites, 6 < Mw < 6.5, Scatter Plots
+##### All Sites, 6 < Mw < 6.5, Scatter Plots
 *[(top)](#table-of-contents)*
 
 **Legend**
@@ -87,7 +71,7 @@ Ruptures are binned by their moment magnitude (**Mw**) and the Joyner-Boore dist
 | **40 km < rJB < 80 km** | ![Scatter Plot](resources/All_Sites_mag_6_6.5_dist_40_80_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_6_6.5_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_6_6.5_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png) |
 | **80 km < rJB < 160 km** | ![Scatter Plot](resources/All_Sites_mag_6_6.5_dist_80_160_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_6_6.5_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_6_6.5_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png) |
 | **160 km < rJB < 200 km** | ![Scatter Plot](resources/All_Sites_mag_6_6.5_dist_160_200_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_6_6.5_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_6_6.5_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png) |
-#### All Sites, 6 < Mw < 6.5, Standard Normal Plots
+##### All Sites, 6 < Mw < 6.5, Z-Score Histograms
 *[(top)](#table-of-contents)*
 
 These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
@@ -104,9 +88,9 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 | ![Standard Normal Plot](resources/All_Sites_mag_6_6.5_dist_0_10_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_6_6.5_dist_10_20_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_6_6.5_dist_20_40_NGAWest_2014_NoIdr_std_norm.png) |
 | **40 km < rJB < 80 km** | **80 km < rJB < 160 km** | **160 km < rJB < 200 km** |
 | ![Standard Normal Plot](resources/All_Sites_mag_6_6.5_dist_40_80_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_6_6.5_dist_80_160_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_6_6.5_dist_160_200_NGAWest_2014_NoIdr_std_norm.png) |
-### All Sites, 6.5 < Mw < 7
+#### All Sites, 6.5 < Mw < 7
 18055 Ruptures
-#### All Sites, 6.5 < Mw < 7, Scatter Plots
+##### All Sites, 6.5 < Mw < 7, Scatter Plots
 *[(top)](#table-of-contents)*
 
 **Legend**
@@ -122,7 +106,7 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 | **40 km < rJB < 80 km** | ![Scatter Plot](resources/All_Sites_mag_6.5_7_dist_40_80_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_6.5_7_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_6.5_7_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png) |
 | **80 km < rJB < 160 km** | ![Scatter Plot](resources/All_Sites_mag_6.5_7_dist_80_160_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_6.5_7_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_6.5_7_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png) |
 | **160 km < rJB < 200 km** | ![Scatter Plot](resources/All_Sites_mag_6.5_7_dist_160_200_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_6.5_7_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_6.5_7_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png) |
-#### All Sites, 6.5 < Mw < 7, Standard Normal Plots
+##### All Sites, 6.5 < Mw < 7, Z-Score Histograms
 *[(top)](#table-of-contents)*
 
 These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
@@ -139,9 +123,9 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 | ![Standard Normal Plot](resources/All_Sites_mag_6.5_7_dist_0_10_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_6.5_7_dist_10_20_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_6.5_7_dist_20_40_NGAWest_2014_NoIdr_std_norm.png) |
 | **40 km < rJB < 80 km** | **80 km < rJB < 160 km** | **160 km < rJB < 200 km** |
 | ![Standard Normal Plot](resources/All_Sites_mag_6.5_7_dist_40_80_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_6.5_7_dist_80_160_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_6.5_7_dist_160_200_NGAWest_2014_NoIdr_std_norm.png) |
-### All Sites, 7 < Mw < 7.5
+#### All Sites, 7 < Mw < 7.5
 14410 Ruptures
-#### All Sites, 7 < Mw < 7.5, Scatter Plots
+##### All Sites, 7 < Mw < 7.5, Scatter Plots
 *[(top)](#table-of-contents)*
 
 **Legend**
@@ -157,7 +141,7 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 | **40 km < rJB < 80 km** | ![Scatter Plot](resources/All_Sites_mag_7_7.5_dist_40_80_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_7_7.5_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_7_7.5_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png) |
 | **80 km < rJB < 160 km** | ![Scatter Plot](resources/All_Sites_mag_7_7.5_dist_80_160_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_7_7.5_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_7_7.5_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png) |
 | **160 km < rJB < 200 km** | ![Scatter Plot](resources/All_Sites_mag_7_7.5_dist_160_200_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_7_7.5_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_7_7.5_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png) |
-#### All Sites, 7 < Mw < 7.5, Standard Normal Plots
+##### All Sites, 7 < Mw < 7.5, Z-Score Histograms
 *[(top)](#table-of-contents)*
 
 These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
@@ -174,9 +158,9 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 | ![Standard Normal Plot](resources/All_Sites_mag_7_7.5_dist_0_10_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_7_7.5_dist_10_20_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_7_7.5_dist_20_40_NGAWest_2014_NoIdr_std_norm.png) |
 | **40 km < rJB < 80 km** | **80 km < rJB < 160 km** | **160 km < rJB < 200 km** |
 | ![Standard Normal Plot](resources/All_Sites_mag_7_7.5_dist_40_80_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_7_7.5_dist_80_160_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_7_7.5_dist_160_200_NGAWest_2014_NoIdr_std_norm.png) |
-### All Sites, 7.5 < Mw < 8
+#### All Sites, 7.5 < Mw < 8
 2902 Ruptures
-#### All Sites, 7.5 < Mw < 8, Scatter Plots
+##### All Sites, 7.5 < Mw < 8, Scatter Plots
 *[(top)](#table-of-contents)*
 
 **Legend**
@@ -192,7 +176,7 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 | **40 km < rJB < 80 km** | ![Scatter Plot](resources/All_Sites_mag_7.5_8_dist_40_80_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_7.5_8_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_7.5_8_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png) |
 | **80 km < rJB < 160 km** | ![Scatter Plot](resources/All_Sites_mag_7.5_8_dist_80_160_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_7.5_8_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_7.5_8_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png) |
 | **160 km < rJB < 200 km** | ![Scatter Plot](resources/All_Sites_mag_7.5_8_dist_160_200_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_7.5_8_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_7.5_8_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png) |
-#### All Sites, 7.5 < Mw < 8, Standard Normal Plots
+##### All Sites, 7.5 < Mw < 8, Z-Score Histograms
 *[(top)](#table-of-contents)*
 
 These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
@@ -209,7 +193,7 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 | ![Standard Normal Plot](resources/All_Sites_mag_7.5_8_dist_0_10_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_7.5_8_dist_10_20_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_7.5_8_dist_20_40_NGAWest_2014_NoIdr_std_norm.png) |
 | **40 km < rJB < 80 km** | **80 km < rJB < 160 km** | **160 km < rJB < 200 km** |
 | ![Standard Normal Plot](resources/All_Sites_mag_7.5_8_dist_40_80_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_7.5_8_dist_80_160_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_7.5_8_dist_160_200_NGAWest_2014_NoIdr_std_norm.png) |
-### All Sites, All Ruptures, Standard Normal Plots
+#### All Sites, All Ruptures, Z-Score Histograms
 *[(top)](#table-of-contents)*
 
 
@@ -223,14 +207,14 @@ z-score standard normal plots across all magnitudes/distances
 * Blue Dashed Line: RSQSim/BBP Mean
 
 ![Standard Normal Plot](resources/All_Sites_all_mags_all_dists_NGAWest_2014_NoIdr_std_norm.png)
-## Site USC
+### Site USC
 *[(top)](#table-of-contents)*
 
 *Location: 34.0192, -118.286*
 26120 ruptures within 200.0 km
-### USC, 6 < Mw < 6.5
+#### USC, 6 < Mw < 6.5
 44939 Ruptures
-#### USC, 6 < Mw < 6.5, Scatter Plots
+##### USC, 6 < Mw < 6.5, Scatter Plots
 *[(top)](#table-of-contents)*
 
 **Legend**
@@ -246,7 +230,7 @@ z-score standard normal plots across all magnitudes/distances
 | **40 km < rJB < 80 km** | ![Scatter Plot](resources/USC_mag_6_6.5_dist_40_80_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/USC_mag_6_6.5_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/USC_mag_6_6.5_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png) |
 | **80 km < rJB < 160 km** | ![Scatter Plot](resources/USC_mag_6_6.5_dist_80_160_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/USC_mag_6_6.5_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/USC_mag_6_6.5_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png) |
 | **160 km < rJB < 200 km** | ![Scatter Plot](resources/USC_mag_6_6.5_dist_160_200_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/USC_mag_6_6.5_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/USC_mag_6_6.5_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png) |
-#### USC, 6 < Mw < 6.5, Standard Normal Plots
+##### USC, 6 < Mw < 6.5, Z-Score Histograms
 *[(top)](#table-of-contents)*
 
 These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
@@ -263,9 +247,9 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 | ![Standard Normal Plot](resources/USC_mag_6_6.5_dist_0_10_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/USC_mag_6_6.5_dist_10_20_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/USC_mag_6_6.5_dist_20_40_NGAWest_2014_NoIdr_std_norm.png) |
 | **40 km < rJB < 80 km** | **80 km < rJB < 160 km** | **160 km < rJB < 200 km** |
 | ![Standard Normal Plot](resources/USC_mag_6_6.5_dist_40_80_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/USC_mag_6_6.5_dist_80_160_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/USC_mag_6_6.5_dist_160_200_NGAWest_2014_NoIdr_std_norm.png) |
-### USC, 6.5 < Mw < 7
+#### USC, 6.5 < Mw < 7
 18055 Ruptures
-#### USC, 6.5 < Mw < 7, Scatter Plots
+##### USC, 6.5 < Mw < 7, Scatter Plots
 *[(top)](#table-of-contents)*
 
 **Legend**
@@ -281,7 +265,7 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 | **40 km < rJB < 80 km** | ![Scatter Plot](resources/USC_mag_6.5_7_dist_40_80_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/USC_mag_6.5_7_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/USC_mag_6.5_7_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png) |
 | **80 km < rJB < 160 km** | ![Scatter Plot](resources/USC_mag_6.5_7_dist_80_160_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/USC_mag_6.5_7_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/USC_mag_6.5_7_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png) |
 | **160 km < rJB < 200 km** | ![Scatter Plot](resources/USC_mag_6.5_7_dist_160_200_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/USC_mag_6.5_7_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/USC_mag_6.5_7_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png) |
-#### USC, 6.5 < Mw < 7, Standard Normal Plots
+##### USC, 6.5 < Mw < 7, Z-Score Histograms
 *[(top)](#table-of-contents)*
 
 These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
@@ -298,9 +282,9 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 | ![Standard Normal Plot](resources/USC_mag_6.5_7_dist_0_10_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/USC_mag_6.5_7_dist_10_20_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/USC_mag_6.5_7_dist_20_40_NGAWest_2014_NoIdr_std_norm.png) |
 | **40 km < rJB < 80 km** | **80 km < rJB < 160 km** | **160 km < rJB < 200 km** |
 | ![Standard Normal Plot](resources/USC_mag_6.5_7_dist_40_80_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/USC_mag_6.5_7_dist_80_160_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/USC_mag_6.5_7_dist_160_200_NGAWest_2014_NoIdr_std_norm.png) |
-### USC, 7 < Mw < 7.5
+#### USC, 7 < Mw < 7.5
 14410 Ruptures
-#### USC, 7 < Mw < 7.5, Scatter Plots
+##### USC, 7 < Mw < 7.5, Scatter Plots
 *[(top)](#table-of-contents)*
 
 **Legend**
@@ -316,7 +300,7 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 | **40 km < rJB < 80 km** | ![Scatter Plot](resources/USC_mag_7_7.5_dist_40_80_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/USC_mag_7_7.5_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/USC_mag_7_7.5_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png) |
 | **80 km < rJB < 160 km** | ![Scatter Plot](resources/USC_mag_7_7.5_dist_80_160_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/USC_mag_7_7.5_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/USC_mag_7_7.5_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png) |
 | **160 km < rJB < 200 km** | ![Scatter Plot](resources/USC_mag_7_7.5_dist_160_200_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/USC_mag_7_7.5_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/USC_mag_7_7.5_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png) |
-#### USC, 7 < Mw < 7.5, Standard Normal Plots
+##### USC, 7 < Mw < 7.5, Z-Score Histograms
 *[(top)](#table-of-contents)*
 
 These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
@@ -333,9 +317,9 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 | ![Standard Normal Plot](resources/USC_mag_7_7.5_dist_0_10_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/USC_mag_7_7.5_dist_10_20_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/USC_mag_7_7.5_dist_20_40_NGAWest_2014_NoIdr_std_norm.png) |
 | **40 km < rJB < 80 km** | **80 km < rJB < 160 km** | **160 km < rJB < 200 km** |
 | ![Standard Normal Plot](resources/USC_mag_7_7.5_dist_40_80_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/USC_mag_7_7.5_dist_80_160_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/USC_mag_7_7.5_dist_160_200_NGAWest_2014_NoIdr_std_norm.png) |
-### USC, 7.5 < Mw < 8
+#### USC, 7.5 < Mw < 8
 2902 Ruptures
-#### USC, 7.5 < Mw < 8, Scatter Plots
+##### USC, 7.5 < Mw < 8, Scatter Plots
 *[(top)](#table-of-contents)*
 
 **Legend**
@@ -351,7 +335,7 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 | **40 km < rJB < 80 km** | ![Scatter Plot](resources/USC_mag_7.5_8_dist_40_80_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/USC_mag_7.5_8_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/USC_mag_7.5_8_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png) |
 | **80 km < rJB < 160 km** | ![Scatter Plot](resources/USC_mag_7.5_8_dist_80_160_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/USC_mag_7.5_8_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/USC_mag_7.5_8_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png) |
 | **160 km < rJB < 200 km** | ![Scatter Plot](resources/USC_mag_7.5_8_dist_160_200_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/USC_mag_7.5_8_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/USC_mag_7.5_8_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png) |
-#### USC, 7.5 < Mw < 8, Standard Normal Plots
+##### USC, 7.5 < Mw < 8, Z-Score Histograms
 *[(top)](#table-of-contents)*
 
 These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
@@ -368,7 +352,7 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 | ![Standard Normal Plot](resources/USC_mag_7.5_8_dist_0_10_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/USC_mag_7.5_8_dist_10_20_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/USC_mag_7.5_8_dist_20_40_NGAWest_2014_NoIdr_std_norm.png) |
 | **40 km < rJB < 80 km** | **80 km < rJB < 160 km** | **160 km < rJB < 200 km** |
 | ![Standard Normal Plot](resources/USC_mag_7.5_8_dist_40_80_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/USC_mag_7.5_8_dist_80_160_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/USC_mag_7.5_8_dist_160_200_NGAWest_2014_NoIdr_std_norm.png) |
-### USC, All Ruptures, Standard Normal Plots
+#### USC, All Ruptures, Z-Score Histograms
 *[(top)](#table-of-contents)*
 
 
@@ -382,14 +366,14 @@ z-score standard normal plots across all magnitudes/distances
 * Blue Dashed Line: RSQSim/BBP Mean
 
 ![Standard Normal Plot](resources/USC_all_mags_all_dists_NGAWest_2014_NoIdr_std_norm.png)
-## Site SBSM
+### Site SBSM
 *[(top)](#table-of-contents)*
 
 *Location: 34.064987, -117.29201*
 29716 ruptures within 200.0 km
-### SBSM, 6 < Mw < 6.5
+#### SBSM, 6 < Mw < 6.5
 44939 Ruptures
-#### SBSM, 6 < Mw < 6.5, Scatter Plots
+##### SBSM, 6 < Mw < 6.5, Scatter Plots
 *[(top)](#table-of-contents)*
 
 **Legend**
@@ -405,7 +389,7 @@ z-score standard normal plots across all magnitudes/distances
 | **40 km < rJB < 80 km** | ![Scatter Plot](resources/SBSM_mag_6_6.5_dist_40_80_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6_6.5_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6_6.5_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png) |
 | **80 km < rJB < 160 km** | ![Scatter Plot](resources/SBSM_mag_6_6.5_dist_80_160_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6_6.5_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6_6.5_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png) |
 | **160 km < rJB < 200 km** | ![Scatter Plot](resources/SBSM_mag_6_6.5_dist_160_200_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6_6.5_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6_6.5_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png) |
-#### SBSM, 6 < Mw < 6.5, Standard Normal Plots
+##### SBSM, 6 < Mw < 6.5, Z-Score Histograms
 *[(top)](#table-of-contents)*
 
 These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
@@ -422,9 +406,9 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 | ![Standard Normal Plot](resources/SBSM_mag_6_6.5_dist_0_10_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/SBSM_mag_6_6.5_dist_10_20_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/SBSM_mag_6_6.5_dist_20_40_NGAWest_2014_NoIdr_std_norm.png) |
 | **40 km < rJB < 80 km** | **80 km < rJB < 160 km** | **160 km < rJB < 200 km** |
 | ![Standard Normal Plot](resources/SBSM_mag_6_6.5_dist_40_80_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/SBSM_mag_6_6.5_dist_80_160_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/SBSM_mag_6_6.5_dist_160_200_NGAWest_2014_NoIdr_std_norm.png) |
-### SBSM, 6.5 < Mw < 7
+#### SBSM, 6.5 < Mw < 7
 18055 Ruptures
-#### SBSM, 6.5 < Mw < 7, Scatter Plots
+##### SBSM, 6.5 < Mw < 7, Scatter Plots
 *[(top)](#table-of-contents)*
 
 **Legend**
@@ -440,7 +424,7 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 | **40 km < rJB < 80 km** | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_40_80_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png) |
 | **80 km < rJB < 160 km** | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_80_160_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png) |
 | **160 km < rJB < 200 km** | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_160_200_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/SBSM_mag_6.5_7_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png) |
-#### SBSM, 6.5 < Mw < 7, Standard Normal Plots
+##### SBSM, 6.5 < Mw < 7, Z-Score Histograms
 *[(top)](#table-of-contents)*
 
 These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
@@ -457,9 +441,9 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 | ![Standard Normal Plot](resources/SBSM_mag_6.5_7_dist_0_10_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/SBSM_mag_6.5_7_dist_10_20_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/SBSM_mag_6.5_7_dist_20_40_NGAWest_2014_NoIdr_std_norm.png) |
 | **40 km < rJB < 80 km** | **80 km < rJB < 160 km** | **160 km < rJB < 200 km** |
 | ![Standard Normal Plot](resources/SBSM_mag_6.5_7_dist_40_80_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/SBSM_mag_6.5_7_dist_80_160_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/SBSM_mag_6.5_7_dist_160_200_NGAWest_2014_NoIdr_std_norm.png) |
-### SBSM, 7 < Mw < 7.5
+#### SBSM, 7 < Mw < 7.5
 14410 Ruptures
-#### SBSM, 7 < Mw < 7.5, Scatter Plots
+##### SBSM, 7 < Mw < 7.5, Scatter Plots
 *[(top)](#table-of-contents)*
 
 **Legend**
@@ -475,7 +459,7 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 | **40 km < rJB < 80 km** | ![Scatter Plot](resources/SBSM_mag_7_7.5_dist_40_80_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7_7.5_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7_7.5_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png) |
 | **80 km < rJB < 160 km** | ![Scatter Plot](resources/SBSM_mag_7_7.5_dist_80_160_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7_7.5_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7_7.5_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png) |
 | **160 km < rJB < 200 km** | ![Scatter Plot](resources/SBSM_mag_7_7.5_dist_160_200_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7_7.5_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7_7.5_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png) |
-#### SBSM, 7 < Mw < 7.5, Standard Normal Plots
+##### SBSM, 7 < Mw < 7.5, Z-Score Histograms
 *[(top)](#table-of-contents)*
 
 These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
@@ -492,9 +476,9 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 | ![Standard Normal Plot](resources/SBSM_mag_7_7.5_dist_0_10_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/SBSM_mag_7_7.5_dist_10_20_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/SBSM_mag_7_7.5_dist_20_40_NGAWest_2014_NoIdr_std_norm.png) |
 | **40 km < rJB < 80 km** | **80 km < rJB < 160 km** | **160 km < rJB < 200 km** |
 | ![Standard Normal Plot](resources/SBSM_mag_7_7.5_dist_40_80_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/SBSM_mag_7_7.5_dist_80_160_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/SBSM_mag_7_7.5_dist_160_200_NGAWest_2014_NoIdr_std_norm.png) |
-### SBSM, 7.5 < Mw < 8
+#### SBSM, 7.5 < Mw < 8
 2902 Ruptures
-#### SBSM, 7.5 < Mw < 8, Scatter Plots
+##### SBSM, 7.5 < Mw < 8, Scatter Plots
 *[(top)](#table-of-contents)*
 
 **Legend**
@@ -510,7 +494,7 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 | **40 km < rJB < 80 km** | ![Scatter Plot](resources/SBSM_mag_7.5_8_dist_40_80_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7.5_8_dist_40_80_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7.5_8_dist_40_80_5s_NGAWest_2014_NoIdr_scatter.png) |
 | **80 km < rJB < 160 km** | ![Scatter Plot](resources/SBSM_mag_7.5_8_dist_80_160_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7.5_8_dist_80_160_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7.5_8_dist_80_160_5s_NGAWest_2014_NoIdr_scatter.png) |
 | **160 km < rJB < 200 km** | ![Scatter Plot](resources/SBSM_mag_7.5_8_dist_160_200_1s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7.5_8_dist_160_200_2s_NGAWest_2014_NoIdr_scatter.png) | ![Scatter Plot](resources/SBSM_mag_7.5_8_dist_160_200_5s_NGAWest_2014_NoIdr_scatter.png) |
-#### SBSM, 7.5 < Mw < 8, Standard Normal Plots
+##### SBSM, 7.5 < Mw < 8, Z-Score Histograms
 *[(top)](#table-of-contents)*
 
 These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
@@ -527,7 +511,7 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 | ![Standard Normal Plot](resources/SBSM_mag_7.5_8_dist_0_10_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/SBSM_mag_7.5_8_dist_10_20_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/SBSM_mag_7.5_8_dist_20_40_NGAWest_2014_NoIdr_std_norm.png) |
 | **40 km < rJB < 80 km** | **80 km < rJB < 160 km** | **160 km < rJB < 200 km** |
 | ![Standard Normal Plot](resources/SBSM_mag_7.5_8_dist_40_80_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/SBSM_mag_7.5_8_dist_80_160_NGAWest_2014_NoIdr_std_norm.png) | ![Standard Normal Plot](resources/SBSM_mag_7.5_8_dist_160_200_NGAWest_2014_NoIdr_std_norm.png) |
-### SBSM, All Ruptures, Standard Normal Plots
+#### SBSM, All Ruptures, Z-Score Histograms
 *[(top)](#table-of-contents)*
 
 
@@ -565,3 +549,32 @@ z-score standard normal plots across all magnitudes/distances
 | **Sacramento** | ![Hazard Curve](resources/Sacramento_curves_1.0s_NGAWest_2014_NoIdr.png) | ![Hazard Curve](resources/Sacramento_curves_2.0s_NGAWest_2014_NoIdr.png) | ![Hazard Curve](resources/Sacramento_curves_5.0s_NGAWest_2014_NoIdr.png) |
 | **San Francisco** | ![Hazard Curve](resources/San_Francisco_curves_1.0s_NGAWest_2014_NoIdr.png) | ![Hazard Curve](resources/San_Francisco_curves_2.0s_NGAWest_2014_NoIdr.png) | ![Hazard Curve](resources/San_Francisco_curves_5.0s_NGAWest_2014_NoIdr.png) |
 | **San Jose** | ![Hazard Curve](resources/San_Jose_curves_1.0s_NGAWest_2014_NoIdr.png) | ![Hazard Curve](resources/San_Jose_curves_2.0s_NGAWest_2014_NoIdr.png) | ![Hazard Curve](resources/San_Jose_curves_5.0s_NGAWest_2014_NoIdr.png) |
+## GMPE Residuals
+*[(top)](#table-of-contents)*
+
+Residuals of simulation data expressed as z-score relative to GMPE log-mean and total sigma
+
+### GMPE Magnitude Residuals
+*[(top)](#table-of-contents)*
+
+
+| **1 s** | **2 s** | **5 s** |
+|-----|-----|-----|
+| ![Scatter](resources/gmpe_residuals_MAG_1s_scatter.png) | ![Scatter](resources/gmpe_residuals_MAG_2s_scatter.png) | ![Scatter](resources/gmpe_residuals_MAG_5s_scatter.png) |
+| ![2-D Hist](resources/gmpe_residuals_MAG_1s_hist2d.png) | ![2-D Hist](resources/gmpe_residuals_MAG_2s_hist2d.png) | ![2-D Hist](resources/gmpe_residuals_MAG_5s_hist2d.png) |
+### GMPE rJB Residuals
+*[(top)](#table-of-contents)*
+
+
+| **1 s** | **2 s** | **5 s** |
+|-----|-----|-----|
+| ![Scatter](resources/gmpe_residuals_DIST_JB_1s_scatter.png) | ![Scatter](resources/gmpe_residuals_DIST_JB_2s_scatter.png) | ![Scatter](resources/gmpe_residuals_DIST_JB_5s_scatter.png) |
+| ![2-D Hist](resources/gmpe_residuals_DIST_JB_1s_hist2d.png) | ![2-D Hist](resources/gmpe_residuals_DIST_JB_2s_hist2d.png) | ![2-D Hist](resources/gmpe_residuals_DIST_JB_5s_hist2d.png) |
+### GMPE rRup Residuals
+*[(top)](#table-of-contents)*
+
+
+| **1 s** | **2 s** | **5 s** |
+|-----|-----|-----|
+| ![Scatter](resources/gmpe_residuals_DIST_RUP_1s_scatter.png) | ![Scatter](resources/gmpe_residuals_DIST_RUP_2s_scatter.png) | ![Scatter](resources/gmpe_residuals_DIST_RUP_5s_scatter.png) |
+| ![2-D Hist](resources/gmpe_residuals_DIST_RUP_1s_hist2d.png) | ![2-D Hist](resources/gmpe_residuals_DIST_RUP_2s_hist2d.png) | ![2-D Hist](resources/gmpe_residuals_DIST_RUP_5s_hist2d.png) |
