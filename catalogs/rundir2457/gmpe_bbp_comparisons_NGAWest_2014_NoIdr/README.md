@@ -552,7 +552,7 @@ z-score standard normal plots across all magnitudes/distances
 ## GMPE Residuals
 *[(top)](#table-of-contents)*
 
-Residuals of simulation data expressed as z-score relative to GMPE log-mean and total sigma
+Residuals of simulation data (RSQSim/BBP) in log space relative to GMPE log-mean
 
 ### GMPE Magnitude Residuals
 *[(top)](#table-of-contents)*
