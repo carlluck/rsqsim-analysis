@@ -74,11 +74,11 @@ Ratio of the total rupture length (UCERF3 mapped subsection rupture) to the idea
 
 | Event ID | Mapped Length Ratio | Plot |
 |-----|-----|-----|
-| **5798783** | **56.43** | ![Rupture Plot](resources/event_5798783.png) |
-| **7863322** | **56.43** | ![Rupture Plot](resources/event_7863322.png) |
-| **31243115** | **50.39** | ![Rupture Plot](resources/event_31243115.png) |
-| **27745787** | **48.35** | ![Rupture Plot](resources/event_27745787.png) |
-| **6804744** | **47.35** | ![Rupture Plot](resources/event_6804744.png) |
+| **33018686** | **3.07** | ![Rupture Plot](resources/event_33018686.png) |
+| **25481246** | **2.99** | ![Rupture Plot](resources/event_25481246.png) |
+| **18109274** | **2.96** | ![Rupture Plot](resources/event_18109274.png) |
+| **15232060** | **2.93** | ![Rupture Plot](resources/event_15232060.png) |
+| **12763766** | **2.9** | ![Rupture Plot](resources/event_12763766.png) |
 
 ## Mapped Excess Length
 *[(top)](#table-of-contents)*
@@ -93,11 +93,11 @@ Total rupture length (UCERF3 mapped subsection rupture) minus the idealized leng
 
 | Event ID | Mapped Excess Length | Plot |
 |-----|-----|-----|
-| **5798783** | **295.66 (km)** | ![Rupture Plot](resources/event_5798783.png) |
-| **7863322** | **295.66 (km)** | ![Rupture Plot](resources/event_7863322.png) |
-| **7380799** | **279.87 (km)** | ![Rupture Plot](resources/event_7380799.png) |
-| **36529162** | **276.58 (km)** | ![Rupture Plot](resources/event_36529162.png) |
-| **16476751** | **275.26 (km)** | ![Rupture Plot](resources/event_16476751.png) |
+| **29149906** | **164.27 (km)** | ![Rupture Plot](resources/event_29149906.png) |
+| **27046217** | **155.74 (km)** | ![Rupture Plot](resources/event_27046217.png) |
+| **18109274** | **139.99 (km)** | ![Rupture Plot](resources/event_18109274.png) |
+| **25481246** | **131.96 (km)** | ![Rupture Plot](resources/event_25481246.png) |
+| **21862982** | **122.01 (km)** | ![Rupture Plot](resources/event_21862982.png) |
 
 ## Moment Off Mapped Rupture
 *[(top)](#table-of-contents)*
