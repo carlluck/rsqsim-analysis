@@ -74,11 +74,11 @@ Ratio of the total rupture length (UCERF3 mapped subsection rupture) to the idea
 
 | Event ID | Mapped Length Ratio | Plot |
 |-----|-----|-----|
-| **1143371** | **117.3** | ![Rupture Plot](resources/event_1143371.png) |
-| **1057302** | **98.28** | ![Rupture Plot](resources/event_1057302.png) |
-| **1109125** | **95.81** | ![Rupture Plot](resources/event_1109125.png) |
-| **1386052** | **95.43** | ![Rupture Plot](resources/event_1386052.png) |
-| **1202919** | **94.25** | ![Rupture Plot](resources/event_1202919.png) |
+| **788299** | **3.27** | ![Rupture Plot](resources/event_788299.png) |
+| **1277639** | **3.07** | ![Rupture Plot](resources/event_1277639.png) |
+| **1296264** | **3.05** | ![Rupture Plot](resources/event_1296264.png) |
+| **254462** | **3.04** | ![Rupture Plot](resources/event_254462.png) |
+| **549007** | **3.03** | ![Rupture Plot](resources/event_549007.png) |
 
 ## Mapped Excess Length
 *[(top)](#table-of-contents)*
@@ -93,11 +93,11 @@ Total rupture length (UCERF3 mapped subsection rupture) minus the idealized leng
 
 | Event ID | Mapped Excess Length | Plot |
 |-----|-----|-----|
-| **1202919** | **549.19 (km)** | ![Rupture Plot](resources/event_1202919.png) |
-| **458932** | **505.05 (km)** | ![Rupture Plot](resources/event_458932.png) |
-| **575055** | **497.28 (km)** | ![Rupture Plot](resources/event_575055.png) |
-| **1350038** | **474.34 (km)** | ![Rupture Plot](resources/event_1350038.png) |
-| **457537** | **474.17 (km)** | ![Rupture Plot](resources/event_457537.png) |
+| **1202919** | **237.63 (km)** | ![Rupture Plot](resources/event_1202919.png) |
+| **457537** | **178.25 (km)** | ![Rupture Plot](resources/event_457537.png) |
+| **935211** | **177.56 (km)** | ![Rupture Plot](resources/event_935211.png) |
+| **1452878** | **174.91 (km)** | ![Rupture Plot](resources/event_1452878.png) |
+| **1497190** | **167.36 (km)** | ![Rupture Plot](resources/event_1497190.png) |
 
 ## Moment Off Mapped Rupture
 *[(top)](#table-of-contents)*
