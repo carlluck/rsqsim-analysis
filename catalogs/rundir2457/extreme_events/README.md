@@ -36,11 +36,11 @@ Total count of mapped UCERF3 subsections (e.g. SAF Mojave S Subsection 3), after
 
 | Event ID | Subsection Count | Plot |
 |-----|-----|-----|
-| **1350038** | **92** | ![Rupture Plot](resources/event_1350038.png) |
-| **844188** | **83** | ![Rupture Plot](resources/event_844188.png) |
-| **45936** | **82** | ![Rupture Plot](resources/event_45936.png) |
-| **83595** | **82** | ![Rupture Plot](resources/event_83595.png) |
-| **984679** | **82** | ![Rupture Plot](resources/event_984679.png) |
+| **1350038** | **92 (Subsection[s])** | ![Rupture Plot](resources/event_1350038.png) |
+| **844188** | **83 (Subsection[s])** | ![Rupture Plot](resources/event_844188.png) |
+| **45936** | **82 (Subsection[s])** | ![Rupture Plot](resources/event_45936.png) |
+| **83595** | **82 (Subsection[s])** | ![Rupture Plot](resources/event_83595.png) |
+| **984679** | **82 (Subsection[s])** | ![Rupture Plot](resources/event_984679.png) |
 
 ## Parent Section Count
 *[(top)](#table-of-contents)*
@@ -55,11 +55,11 @@ Total count of mapped UCERF3 subsections (e.g. SAF Mojave S), after application 
 
 | Event ID | Parent Section Count | Plot |
 |-----|-----|-----|
-| **40968** | **17** | ![Rupture Plot](resources/event_40968.png) |
-| **1202919** | **16** | ![Rupture Plot](resources/event_1202919.png) |
-| **50492** | **15** | ![Rupture Plot](resources/event_50492.png) |
-| **499423** | **15** | ![Rupture Plot](resources/event_499423.png) |
-| **575055** | **14** | ![Rupture Plot](resources/event_575055.png) |
+| **40968** | **17 (Section[s])** | ![Rupture Plot](resources/event_40968.png) |
+| **1202919** | **16 (Section[s])** | ![Rupture Plot](resources/event_1202919.png) |
+| **50492** | **15 (Section[s])** | ![Rupture Plot](resources/event_50492.png) |
+| **499423** | **15 (Section[s])** | ![Rupture Plot](resources/event_499423.png) |
+| **575055** | **14 (Section[s])** | ![Rupture Plot](resources/event_575055.png) |
 
 ## Mapped Length Ratio
 *[(top)](#table-of-contents)*
@@ -93,11 +93,11 @@ Total rupture length (UCERF3 mapped subsection rupture) minus the idealized leng
 
 | Event ID | Mapped Excess Length | Plot |
 |-----|-----|-----|
-| **1202919** | **549.19** | ![Rupture Plot](resources/event_1202919.png) |
-| **458932** | **505.05** | ![Rupture Plot](resources/event_458932.png) |
-| **575055** | **497.28** | ![Rupture Plot](resources/event_575055.png) |
-| **1350038** | **474.34** | ![Rupture Plot](resources/event_1350038.png) |
-| **457537** | **474.17** | ![Rupture Plot](resources/event_457537.png) |
+| **1202919** | **549.19 (km)** | ![Rupture Plot](resources/event_1202919.png) |
+| **458932** | **505.05 (km)** | ![Rupture Plot](resources/event_458932.png) |
+| **575055** | **497.28 (km)** | ![Rupture Plot](resources/event_575055.png) |
+| **1350038** | **474.34 (km)** | ![Rupture Plot](resources/event_1350038.png) |
+| **457537** | **474.17 (km)** | ![Rupture Plot](resources/event_457537.png) |
 
 ## Moment Off Mapped Rupture
 *[(top)](#table-of-contents)*
@@ -112,11 +112,11 @@ Moment of simulator elements not included in mapped UCERF3 subsection rupture
 
 | Event ID | Moment Off Mapped Rupture | Plot |
 |-----|-----|-----|
-| **576362** | **17496393647825635000** | ![Rupture Plot](resources/event_576362.png) |
-| **957840** | **17276246310289054000** | ![Rupture Plot](resources/event_957840.png) |
-| **345788** | **16680899624660270000** | ![Rupture Plot](resources/event_345788.png) |
-| **81590** | **16041316690326548000** | ![Rupture Plot](resources/event_81590.png) |
-| **840646** | **15931183664525515000** | ![Rupture Plot](resources/event_840646.png) |
+| **576362** | **1.7496393E19 (N-m)** | ![Rupture Plot](resources/event_576362.png) |
+| **957840** | **1.7276246E19 (N-m)** | ![Rupture Plot](resources/event_957840.png) |
+| **345788** | **1.66809E19 (N-m)** | ![Rupture Plot](resources/event_345788.png) |
+| **81590** | **1.6041317E19 (N-m)** | ![Rupture Plot](resources/event_81590.png) |
+| **840646** | **1.5931184E19 (N-m)** | ![Rupture Plot](resources/event_840646.png) |
 
 ## Magnitude
 *[(top)](#table-of-contents)*
