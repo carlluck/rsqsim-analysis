@@ -12,6 +12,8 @@
 
 * [Metadata](#metadata)
 * [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
+  * [Points Of Interest](#points-of-interest)
+  * [Gridded Sites](#gridded-sites)
 * [Full Catalog RotD100/RotD50 Ratios](#full-catalog-rotd100rotd50-ratios)
 * [Hazard Comparisons](#hazard-comparisons)
 * [Extreme Event Examples](#extreme-event-examples)
@@ -29,11 +31,21 @@
 ## Full Catalog GMPE Comparisons
 *[(top)](#bruce-2457)*
 
-* [BSSA2014](gmpe_bbp_comparisons_BSSA2014/)
-* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
-* [CY2014](gmpe_bbp_comparisons_CY2014/)
-* [CB2014](gmpe_bbp_comparisons_CB2014/)
+### Points Of Interest
+
 * [ASK2014](gmpe_bbp_comparisons_ASK2014/)
+* [BSSA2014](gmpe_bbp_comparisons_BSSA2014/)
+* [CB2014](gmpe_bbp_comparisons_CB2014/)
+* [CY2014](gmpe_bbp_comparisons_CY2014/)
+* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
+
+### Gridded Sites
+
+* [ASK2014](gmpe_bbp_comparisons_ASK2014_GriddedSites/)
+* [BSSA2014](gmpe_bbp_comparisons_BSSA2014_GriddedSites/)
+* [CB2014](gmpe_bbp_comparisons_CB2014_GriddedSites/)
+* [CY2014](gmpe_bbp_comparisons_CY2014_GriddedSites/)
+* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr_GriddedSites/)
 
 ## Full Catalog RotD100/RotD50 Ratios
 *[(top)](#bruce-2457)*
@@ -44,9 +56,9 @@
 *[(top)](#bruce-2457)*
 
 * [PGA](hazard_pga/)
-* [10.0s SA](hazard_sa_10.0s/)
 * [0.2s SA](hazard_sa_0.2s/)
 * [1.0s SA](hazard_sa_1.0s/)
+* [10.0s SA](hazard_sa_10.0s/)
 * [5.0s SA](hazard_sa_5.0s/)
 
 ## Extreme Event Examples
@@ -96,7 +108,7 @@
 #### Subsection Interevent Time Comparisons
 *[(top)](#bruce-2457)*
 
-*Subsections participates in a rupture if at least 20.0 % of its area ruptures*
+*Subsections participate in a rupture if at least 20.0 % of its area ruptures*
 
 | Min Mag | Scatter | 2-D Hist |
 |-----|-----|-----|
