@@ -23,6 +23,9 @@
 * [Magnitude](#magnitude)
   * [Magnitude Histogram](#magnitude-histogram)
   * [Magnitude Events](#magnitude-events)
+* [Moment >100km from Mapped](#moment-100km-from-mapped)
+  * [Moment >100km from Mapped Histogram](#moment-100km-from-mapped-histogram)
+  * [Moment >100km from Mapped Events](#moment-100km-from-mapped-events)
 ## Subsection Count
 *[(top)](#table-of-contents)*
 
@@ -136,4 +139,25 @@ Event Moment Magnitude
 | **28873598** | **7.81** | ![Rupture Plot](resources/event_28873598.png) |
 | **16476751** | **7.8** | ![Rupture Plot](resources/event_16476751.png) |
 | **3945661** | **7.8** | ![Rupture Plot](resources/event_3945661.png) |
+
+## Moment >100km from Mapped
+*[(top)](#table-of-contents)*
+
+
+Moment that is at least 100km from the nearest mapped subsection (after application of subsection area threshold)
+
+
+5 events above threshold of 1 [N-m]
+### Moment >100km from Mapped Histogram
+![Histogram](resources/mom_far_from_mapped_hist.png)
+### Moment >100km from Mapped Events
+*[(top)](#table-of-contents)*
+
+| Event ID | Moment >100km from Mapped | Plot |
+|-----|-----|-----|
+| **16253113** | **4.4740563E16 (N-m)** | ![Rupture Plot](resources/event_16253113.png) |
+| **26828956** | **4.390493E16 (N-m)** | ![Rupture Plot](resources/event_26828956.png) |
+| **16812331** | **2.94389922E16 (N-m)** | ![Rupture Plot](resources/event_16812331.png) |
+| **18634288** | **8.3409967E15 (N-m)** | ![Rupture Plot](resources/event_18634288.png) |
+| **20618120** | **2.23773876E15 (N-m)** | ![Rupture Plot](resources/event_20618120.png) |
 
