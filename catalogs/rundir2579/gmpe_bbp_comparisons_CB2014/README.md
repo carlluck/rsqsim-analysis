@@ -15,6 +15,7 @@ Ruptures are binned by their moment magnitude (**Mw**) and the Joyner-Boore dist
     * [All Sites, 7.5 < Mw < 8](#all-sites-75--mw--8)
     * [All Sites, 8 < Mw < 8.5](#all-sites-8--mw--85)
     * [All Sites, All Ruptures, Z-Score Histograms](#all-sites-all-ruptures-z-score-histograms)
+* [Hazard Curves](#hazard-curves)
 * [GMPE Residuals](#gmpe-residuals)
   * [GMPE Magnitude Residuals](#gmpe-magnitude-residuals)
   * [GMPE rJB Residuals](#gmpe-rjb-residuals)
@@ -230,6 +231,30 @@ z-score standard normal plots across all magnitudes/distances
 * Blue Dashed Line: RSQSim/BBP Mean
 
 ![Standard Normal Plot](resources/All_Sites_all_mags_all_dists_CB2014_std_norm.png)
+## Hazard Curves
+*[(top)](#table-of-contents)*
+
+**Legend**:
+* Black Solid Line: RSQSim/BBP
+* Blue Solid Line: CB2014
+* Blue Dashed Line: CB2014 3-sigma truncation
+* Blue Dotted Line: CB2014 2-sigma truncation
+* Blue Dotted and dashed Line: CB2014 1-sigma truncation
+* Green Dashed Line: CB2014 mean values only
+* Gray Dashed Lines: 1000 yr, 2500 yr, 10000 yr return periods
+
+| Site | 1s | 2s | 5s |
+|-----|-----|-----|-----|
+| **USC** | ![Hazard Curve](resources/USC_curves_1.0s_CB2014.png) | ![Hazard Curve](resources/USC_curves_2.0s_CB2014.png) | ![Hazard Curve](resources/USC_curves_5.0s_CB2014.png) |
+| **SBSM** | ![Hazard Curve](resources/SBSM_curves_1.0s_CB2014.png) | ![Hazard Curve](resources/SBSM_curves_2.0s_CB2014.png) | ![Hazard Curve](resources/SBSM_curves_5.0s_CB2014.png) |
+| **Los Angeles** | ![Hazard Curve](resources/Los_Angeles_curves_1.0s_CB2014.png) | ![Hazard Curve](resources/Los_Angeles_curves_2.0s_CB2014.png) | ![Hazard Curve](resources/Los_Angeles_curves_5.0s_CB2014.png) |
+| **Riverside** | ![Hazard Curve](resources/Riverside_curves_1.0s_CB2014.png) | ![Hazard Curve](resources/Riverside_curves_2.0s_CB2014.png) | ![Hazard Curve](resources/Riverside_curves_5.0s_CB2014.png) |
+| **San Diego** | ![Hazard Curve](resources/San_Diego_curves_1.0s_CB2014.png) | ![Hazard Curve](resources/San_Diego_curves_2.0s_CB2014.png) | ![Hazard Curve](resources/San_Diego_curves_5.0s_CB2014.png) |
+| **Santa Barbara** | ![Hazard Curve](resources/Santa_Barbara_curves_1.0s_CB2014.png) | ![Hazard Curve](resources/Santa_Barbara_curves_2.0s_CB2014.png) | ![Hazard Curve](resources/Santa_Barbara_curves_5.0s_CB2014.png) |
+| **Oakland** | ![Hazard Curve](resources/Oakland_curves_1.0s_CB2014.png) | ![Hazard Curve](resources/Oakland_curves_2.0s_CB2014.png) | ![Hazard Curve](resources/Oakland_curves_5.0s_CB2014.png) |
+| **Sacramento** | ![Hazard Curve](resources/Sacramento_curves_1.0s_CB2014.png) | ![Hazard Curve](resources/Sacramento_curves_2.0s_CB2014.png) | ![Hazard Curve](resources/Sacramento_curves_5.0s_CB2014.png) |
+| **San Francisco** | ![Hazard Curve](resources/San_Francisco_curves_1.0s_CB2014.png) | ![Hazard Curve](resources/San_Francisco_curves_2.0s_CB2014.png) | ![Hazard Curve](resources/San_Francisco_curves_5.0s_CB2014.png) |
+| **San Jose** | ![Hazard Curve](resources/San_Jose_curves_1.0s_CB2014.png) | ![Hazard Curve](resources/San_Jose_curves_2.0s_CB2014.png) | ![Hazard Curve](resources/San_Jose_curves_5.0s_CB2014.png) |
 ## GMPE Residuals
 *[(top)](#table-of-contents)*
 
