@@ -37,11 +37,11 @@ Total count of mapped UCERF3 subsections (e.g. SAF Mojave S Subsection 3), after
 
 | Event ID | Subsection Count | Plot |
 |-----|-----|-----|
-| **57268** | **96 (Subsection[s])** | ![Rupture Plot](resources/event_57268.png) |
-| **302755** | **93 (Subsection[s])** | ![Rupture Plot](resources/event_302755.png) |
-| **850952** | **90 (Subsection[s])** | ![Rupture Plot](resources/event_850952.png) |
-| **1470835** | **88 (Subsection[s])** | ![Rupture Plot](resources/event_1470835.png) |
-| **1532586** | **85 (Subsection[s])** | ![Rupture Plot](resources/event_1532586.png) |
+| **57268** | **97 (Subsection[s])** | ![Rupture Plot](resources/event_57268.png) |
+| **302755** | **94 (Subsection[s])** | ![Rupture Plot](resources/event_302755.png) |
+| **850952** | **94 (Subsection[s])** | ![Rupture Plot](resources/event_850952.png) |
+| **1470835** | **92 (Subsection[s])** | ![Rupture Plot](resources/event_1470835.png) |
+| **1532586** | **90 (Subsection[s])** | ![Rupture Plot](resources/event_1532586.png) |
 
 ## Parent Section Count
 *[(top)](#table-of-contents)*
@@ -56,11 +56,11 @@ Total count of mapped UCERF3 subsections (e.g. SAF Mojave S), after application 
 
 | Event ID | Parent Section Count | Plot |
 |-----|-----|-----|
+| **1530419** | **13 (Section[s])** | ![Rupture Plot](resources/event_1530419.png) |
 | **1007270** | **12 (Section[s])** | ![Rupture Plot](resources/event_1007270.png) |
 | **774925** | **12 (Section[s])** | ![Rupture Plot](resources/event_774925.png) |
 | **1127055** | **12 (Section[s])** | ![Rupture Plot](resources/event_1127055.png) |
-| **397439** | **11 (Section[s])** | ![Rupture Plot](resources/event_397439.png) |
-| **904206** | **11 (Section[s])** | ![Rupture Plot](resources/event_904206.png) |
+| **1267475** | **12 (Section[s])** | ![Rupture Plot](resources/event_1267475.png) |
 
 ## Mapped Length Ratio
 *[(top)](#table-of-contents)*
@@ -76,10 +76,10 @@ Ratio of the total rupture length (UCERF3 mapped subsection rupture) to the idea
 | Event ID | Mapped Length Ratio | Plot |
 |-----|-----|-----|
 | **840873** | **3.7** | ![Rupture Plot](resources/event_840873.png) |
-| **817407** | **3.06** | ![Rupture Plot](resources/event_817407.png) |
-| **533956** | **2.93** | ![Rupture Plot](resources/event_533956.png) |
-| **1215535** | **2.91** | ![Rupture Plot](resources/event_1215535.png) |
-| **1326122** | **2.89** | ![Rupture Plot](resources/event_1326122.png) |
+| **533956** | **3.63** | ![Rupture Plot](resources/event_533956.png) |
+| **1307642** | **3.26** | ![Rupture Plot](resources/event_1307642.png) |
+| **817407** | **3.13** | ![Rupture Plot](resources/event_817407.png) |
+| **267284** | **3.11** | ![Rupture Plot](resources/event_267284.png) |
 
 ## Mapped Excess Length
 *[(top)](#table-of-contents)*
@@ -94,10 +94,10 @@ Total rupture length (UCERF3 mapped subsection rupture) minus the idealized leng
 
 | Event ID | Mapped Excess Length | Plot |
 |-----|-----|-----|
-| **123649** | **178.18 (km)** | ![Rupture Plot](resources/event_123649.png) |
-| **157575** | **177.68 (km)** | ![Rupture Plot](resources/event_157575.png) |
-| **898340** | **162.23 (km)** | ![Rupture Plot](resources/event_898340.png) |
-| **653312** | **155.72 (km)** | ![Rupture Plot](resources/event_653312.png) |
+| **157575** | **198.05 (km)** | ![Rupture Plot](resources/event_157575.png) |
+| **123649** | **184.64 (km)** | ![Rupture Plot](resources/event_123649.png) |
+| **898340** | **183.34 (km)** | ![Rupture Plot](resources/event_898340.png) |
+| **653312** | **156.98 (km)** | ![Rupture Plot](resources/event_653312.png) |
 | **382311** | **155.48 (km)** | ![Rupture Plot](resources/event_382311.png) |
 
 ## Moment Off Mapped Rupture
@@ -113,11 +113,11 @@ Moment of simulator elements not included in mapped UCERF3 subsection rupture
 
 | Event ID | Moment Off Mapped Rupture | Plot |
 |-----|-----|-----|
-| **945108** | **1.7742906E19 (N-m)** | ![Rupture Plot](resources/event_945108.png) |
-| **1056939** | **1.7380615E19 (N-m)** | ![Rupture Plot](resources/event_1056939.png) |
-| **1379960** | **1.7312159E19 (N-m)** | ![Rupture Plot](resources/event_1379960.png) |
-| **730135** | **1.7028126E19 (N-m)** | ![Rupture Plot](resources/event_730135.png) |
-| **1052359** | **1.6424175E19 (N-m)** | ![Rupture Plot](resources/event_1052359.png) |
+| **971020** | **1.3959038E19 (N-m)** | ![Rupture Plot](resources/event_971020.png) |
+| **913107** | **1.1689138E19 (N-m)** | ![Rupture Plot](resources/event_913107.png) |
+| **109584** | **1.0601108E19 (N-m)** | ![Rupture Plot](resources/event_109584.png) |
+| **278109** | **1.0428503E19 (N-m)** | ![Rupture Plot](resources/event_278109.png) |
+| **945108** | **9.879665E18 (N-m)** | ![Rupture Plot](resources/event_945108.png) |
 
 ## Magnitude
 *[(top)](#table-of-contents)*

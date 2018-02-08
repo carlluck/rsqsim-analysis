@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	max-width:1000px;
+	margin: auto;
+}
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+</style>
+</head>
+<body>
+<h1 id="bruce-2579-bbpcy2014-gmpe-comparisons">Bruce 2579 BBP/CY2014 GMPE Comparisons</h1>
+<p><strong>GMPE: Chiou &amp; Youngs (2014)</strong></p>
+<p>Ruptures are binned by their moment magnitude (<strong>Mw</strong>) and the Joyner-Boore distance (<strong>rJB</strong>), the shortest horizontal distance from a site to the surface projection of the rupture surface</p>
+<p><a href="../#bruce-2579">Catalog Details</a></p>
+<h2 id="table-of-contents">Table Of Contents</h2>
+<ul>
+<li><a href="#site-scattersz-score-histograms">Site Scatters/Z-Score Histograms</a>
+<ul>
+<li><a href="#all-sites-aggregated">All Sites Aggregated</a>
+<ul>
+<li><a href="#all-sites-6--mw--65">All Sites, 6 &lt; Mw &lt; 6.5</a></li>
+<li><a href="#all-sites-65--mw--7">All Sites, 6.5 &lt; Mw &lt; 7</a></li>
+<li><a href="#all-sites-7--mw--75">All Sites, 7 &lt; Mw &lt; 7.5</a></li>
+<li><a href="#all-sites-75--mw--8">All Sites, 7.5 &lt; Mw &lt; 8</a></li>
+<li><a href="#all-sites-8--mw--85">All Sites, 8 &lt; Mw &lt; 8.5</a></li>
+<li><a href="#all-sites-all-ruptures-z-score-histograms">All Sites, All Ruptures, Z-Score Histograms</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#gmpe-residuals">GMPE Residuals</a>
+<ul>
+<li><a href="#gmpe-magnitude-residuals">GMPE Magnitude Residuals</a></li>
+<li><a href="#gmpe-rjb-residuals">GMPE rJB Residuals</a></li>
+<li><a href="#gmpe-rrup-residuals">GMPE rRup Residuals</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="site-scattersz-score-histograms">Site Scatters/Z-Score Histograms</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<h3 id="all-sites-aggregated">All Sites Aggregated</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>10 sites</strong></p>
+<table>
+<thead>
+<tr><th>Name</th><th>Location</th><th># Ruptures</th><th>Vs30 (m/s)</th><th>Z1.0 (km)</th><th>Z2.5 (km)</th></tr>
+</thead>
+<tbody>
+<tr><td>USC</td><td><em>34.0192, -118.286</em></td><td>21566 (21566 sims)</td><td>863</td><td>N/A</td><td>N/A</td></tr>
+<tr><td>SBSM</td><td><em>34.064987, -117.29201</em></td><td>24328 (24328 sims)</td><td>863</td><td>N/A</td><td>N/A</td></tr>
+<tr><td>Los Angeles</td><td><em>34.05, -118.25</em></td><td>21691 (21691 sims)</td><td>863</td><td>N/A</td><td>N/A</td></tr>
+<tr><td>Riverside</td><td><em>33.95, -117.4</em></td><td>24313 (24313 sims)</td><td>863</td><td>N/A</td><td>N/A</td></tr>
+<tr><td>San Diego</td><td><em>32.7, -117.15</em></td><td>23824 (23824 sims)</td><td>863</td><td>N/A</td><td>N/A</td></tr>
+<tr><td>Santa Barbara</td><td><em>34.45, -119.7</em></td><td>13181 (13181 sims)</td><td>863</td><td>N/A</td><td>N/A</td></tr>
+<tr><td>Oakland</td><td><em>37.8, -122.25</em></td><td>34130 (34130 sims)</td><td>863</td><td>N/A</td><td>N/A</td></tr>
+<tr><td>Sacramento</td><td><em>38.6, -121.5</em></td><td>27997 (27997 sims)</td><td>863</td><td>N/A</td><td>N/A</td></tr>
+<tr><td>San Francisco</td><td><em>37.75, -122.4</em></td><td>34159 (34159 sims)</td><td>863</td><td>N/A</td><td>N/A</td></tr>
+<tr><td>San Jose</td><td><em>37.35, -121.9</em></td><td>33699 (33699 sims)</td><td>863</td><td>N/A</td><td>N/A</td></tr>
+</tbody>
+</table>
+<p>69724 ruptures within 200 km of <em>any</em> site</p>
+<h4 id="all-sites-6--mw--65">All Sites, 6 &lt; Mw &lt; 6.5</h4>
+<p>37510 Ruptures</p>
+<h5 id="all-sites-6--mw--65-scatter-plots">All Sites, 6 &lt; Mw &lt; 6.5, Scatter Plots</h5>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/RSQSim/BBP single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>1 s</strong></th><th><strong>2 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td><img src="resources/All_Sites_mag_6_6.5_dist_0_10_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_0_10_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_0_10_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td><img src="resources/All_Sites_mag_6_6.5_dist_10_20_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_10_20_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_10_20_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/All_Sites_mag_6_6.5_dist_20_40_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_20_40_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_20_40_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/All_Sites_mag_6_6.5_dist_40_80_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_40_80_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_40_80_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/All_Sites_mag_6_6.5_dist_80_160_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_80_160_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_80_160_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/All_Sites_mag_6_6.5_dist_160_200_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_160_200_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_160_200_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h5 id="all-sites-6--mw--65-z-score-histograms">All Sites, 6 &lt; Mw &lt; 6.5, Z-Score Histograms</h5>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>RSQSim/BBP</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: RSQSim/BBP Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/All_Sites_mag_6_6.5_dist_0_10_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_10_20_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_20_40_CY2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/All_Sites_mag_6_6.5_dist_40_80_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_80_160_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_6_6.5_dist_160_200_CY2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="all-sites-65--mw--7">All Sites, 6.5 &lt; Mw &lt; 7</h4>
+<p>14374 Ruptures</p>
+<h5 id="all-sites-65--mw--7-scatter-plots">All Sites, 6.5 &lt; Mw &lt; 7, Scatter Plots</h5>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/RSQSim/BBP single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>1 s</strong></th><th><strong>2 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td><img src="resources/All_Sites_mag_6.5_7_dist_0_10_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_0_10_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_0_10_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td><img src="resources/All_Sites_mag_6.5_7_dist_10_20_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_10_20_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_10_20_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/All_Sites_mag_6.5_7_dist_20_40_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_20_40_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_20_40_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/All_Sites_mag_6.5_7_dist_40_80_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_40_80_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_40_80_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/All_Sites_mag_6.5_7_dist_80_160_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_80_160_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_80_160_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/All_Sites_mag_6.5_7_dist_160_200_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_160_200_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_160_200_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h5 id="all-sites-65--mw--7-z-score-histograms">All Sites, 6.5 &lt; Mw &lt; 7, Z-Score Histograms</h5>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>RSQSim/BBP</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: RSQSim/BBP Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/All_Sites_mag_6.5_7_dist_0_10_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_10_20_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_20_40_CY2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/All_Sites_mag_6.5_7_dist_40_80_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_80_160_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_6.5_7_dist_160_200_CY2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="all-sites-7--mw--75">All Sites, 7 &lt; Mw &lt; 7.5</h4>
+<p>13573 Ruptures</p>
+<h5 id="all-sites-7--mw--75-scatter-plots">All Sites, 7 &lt; Mw &lt; 7.5, Scatter Plots</h5>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/RSQSim/BBP single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>1 s</strong></th><th><strong>2 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td><img src="resources/All_Sites_mag_7_7.5_dist_0_10_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_0_10_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_0_10_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td><img src="resources/All_Sites_mag_7_7.5_dist_10_20_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_10_20_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_10_20_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/All_Sites_mag_7_7.5_dist_20_40_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_20_40_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_20_40_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/All_Sites_mag_7_7.5_dist_40_80_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_40_80_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_40_80_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/All_Sites_mag_7_7.5_dist_80_160_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_80_160_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_80_160_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/All_Sites_mag_7_7.5_dist_160_200_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_160_200_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_160_200_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h5 id="all-sites-7--mw--75-z-score-histograms">All Sites, 7 &lt; Mw &lt; 7.5, Z-Score Histograms</h5>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>RSQSim/BBP</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: RSQSim/BBP Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/All_Sites_mag_7_7.5_dist_0_10_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_10_20_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_20_40_CY2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/All_Sites_mag_7_7.5_dist_40_80_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_80_160_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_7_7.5_dist_160_200_CY2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="all-sites-75--mw--8">All Sites, 7.5 &lt; Mw &lt; 8</h4>
+<p>4243 Ruptures</p>
+<h5 id="all-sites-75--mw--8-scatter-plots">All Sites, 7.5 &lt; Mw &lt; 8, Scatter Plots</h5>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/RSQSim/BBP single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>1 s</strong></th><th><strong>2 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td><img src="resources/All_Sites_mag_7.5_8_dist_0_10_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_0_10_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_0_10_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td><img src="resources/All_Sites_mag_7.5_8_dist_10_20_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_10_20_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_10_20_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/All_Sites_mag_7.5_8_dist_20_40_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_20_40_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_20_40_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/All_Sites_mag_7.5_8_dist_40_80_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_40_80_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_40_80_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/All_Sites_mag_7.5_8_dist_80_160_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_80_160_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_80_160_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/All_Sites_mag_7.5_8_dist_160_200_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_160_200_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_160_200_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h5 id="all-sites-75--mw--8-z-score-histograms">All Sites, 7.5 &lt; Mw &lt; 8, Z-Score Histograms</h5>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>RSQSim/BBP</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: RSQSim/BBP Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/All_Sites_mag_7.5_8_dist_0_10_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_10_20_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_20_40_CY2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/All_Sites_mag_7.5_8_dist_40_80_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_80_160_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_7.5_8_dist_160_200_CY2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="all-sites-8--mw--85">All Sites, 8 &lt; Mw &lt; 8.5</h4>
+<p>24 Ruptures</p>
+<h5 id="all-sites-8--mw--85-scatter-plots">All Sites, 8 &lt; Mw &lt; 8.5, Scatter Plots</h5>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Red +: GMPE Mean/RSQSim/BBP single rupture comparison</li>
+<li>Yellow Region: Factor of 2 above &amp; below</li>
+<li>Green Line: Linear Regression</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>Distance Bin</strong></th><th><strong>1 s</strong></th><th><strong>2 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0 km &lt; rJB &lt; 10 km</strong></td><td><img src="resources/All_Sites_mag_8_8.5_dist_0_10_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_8_8.5_dist_0_10_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_8_8.5_dist_0_10_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>10 km &lt; rJB &lt; 20 km</strong></td><td><img src="resources/All_Sites_mag_8_8.5_dist_10_20_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_8_8.5_dist_10_20_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_8_8.5_dist_10_20_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>20 km &lt; rJB &lt; 40 km</strong></td><td><img src="resources/All_Sites_mag_8_8.5_dist_20_40_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_8_8.5_dist_20_40_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_8_8.5_dist_20_40_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><img src="resources/All_Sites_mag_8_8.5_dist_40_80_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_8_8.5_dist_40_80_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_8_8.5_dist_40_80_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><img src="resources/All_Sites_mag_8_8.5_dist_80_160_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_8_8.5_dist_80_160_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_8_8.5_dist_80_160_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+<tr><td><strong>160 km &lt; rJB &lt; 200 km</strong></td><td><img src="resources/All_Sites_mag_8_8.5_dist_160_200_1s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_8_8.5_dist_160_200_2s_CY2014_scatter.png" alt="Scatter Plot" /></td><td><img src="resources/All_Sites_mag_8_8.5_dist_160_200_5s_CY2014_scatter.png" alt="Scatter Plot" /></td></tr>
+</tbody>
+</table>
+<h5 id="all-sites-8--mw--85-z-score-histograms">All Sites, 8 &lt; Mw &lt; 8.5, Z-Score Histograms</h5>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:</p>
+<p><strong>z-score</strong>: (ln(<em>RSQSim/BBP</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: RSQSim/BBP Mean</li>
+</ul>
+<table>
+<thead>
+<tr><th><strong>0 km &lt; rJB &lt; 10 km</strong></th><th><strong>10 km &lt; rJB &lt; 20 km</strong></th><th><strong>20 km &lt; rJB &lt; 40 km</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/All_Sites_mag_8_8.5_dist_0_10_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_8_8.5_dist_10_20_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_8_8.5_dist_20_40_CY2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+<tr><td><strong>40 km &lt; rJB &lt; 80 km</strong></td><td><strong>80 km &lt; rJB &lt; 160 km</strong></td><td><strong>160 km &lt; rJB &lt; 200 km</strong></td></tr>
+<tr><td><img src="resources/All_Sites_mag_8_8.5_dist_40_80_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_8_8.5_dist_80_160_CY2014_std_norm.png" alt="Standard Normal Plot" /></td><td><img src="resources/All_Sites_mag_8_8.5_dist_160_200_CY2014_std_norm.png" alt="Standard Normal Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="all-sites-all-ruptures-z-score-histograms">All Sites, All Ruptures, Z-Score Histograms</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>z-score standard normal plots across all magnitudes/distances</p>
+<p><strong>z-score</strong>: (ln(<em>RSQSim/BBP</em>) - ln(<em>GMPE-mean</em>)) / <em>GMPE-sigma</em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Line: Standard Normal distribution (in natural log space)</li>
+<li>Gray Histogram: z-score for each rupture</li>
+<li>Blue Dashed Line: RSQSim/BBP Mean</li>
+</ul>
+<p><img src="resources/All_Sites_all_mags_all_dists_CY2014_std_norm.png" alt="Standard Normal Plot" /></p>
+<h2 id="gmpe-residuals">GMPE Residuals</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Residuals of simulation data (RSQSim/BBP) in log space relative to GMPE log-mean</p>
+<h3 id="gmpe-magnitude-residuals">GMPE Magnitude Residuals</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th><strong>1 s</strong></th><th><strong>2 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/gmpe_residuals_MAG_1s_scatter.png" alt="Scatter" /></td><td><img src="resources/gmpe_residuals_MAG_2s_scatter.png" alt="Scatter" /></td><td><img src="resources/gmpe_residuals_MAG_5s_scatter.png" alt="Scatter" /></td></tr>
+<tr><td><img src="resources/gmpe_residuals_MAG_1s_hist2d.png" alt="2-D Hist" /></td><td><img src="resources/gmpe_residuals_MAG_2s_hist2d.png" alt="2-D Hist" /></td><td><img src="resources/gmpe_residuals_MAG_5s_hist2d.png" alt="2-D Hist" /></td></tr>
+</tbody>
+</table>
+<h3 id="gmpe-rjb-residuals">GMPE rJB Residuals</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th><strong>1 s</strong></th><th><strong>2 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/gmpe_residuals_DIST_JB_1s_scatter.png" alt="Scatter" /></td><td><img src="resources/gmpe_residuals_DIST_JB_2s_scatter.png" alt="Scatter" /></td><td><img src="resources/gmpe_residuals_DIST_JB_5s_scatter.png" alt="Scatter" /></td></tr>
+<tr><td><img src="resources/gmpe_residuals_DIST_JB_1s_hist2d.png" alt="2-D Hist" /></td><td><img src="resources/gmpe_residuals_DIST_JB_2s_hist2d.png" alt="2-D Hist" /></td><td><img src="resources/gmpe_residuals_DIST_JB_5s_hist2d.png" alt="2-D Hist" /></td></tr>
+</tbody>
+</table>
+<h3 id="gmpe-rrup-residuals">GMPE rRup Residuals</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th><strong>1 s</strong></th><th><strong>2 s</strong></th><th><strong>5 s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/gmpe_residuals_DIST_RUP_1s_scatter.png" alt="Scatter" /></td><td><img src="resources/gmpe_residuals_DIST_RUP_2s_scatter.png" alt="Scatter" /></td><td><img src="resources/gmpe_residuals_DIST_RUP_5s_scatter.png" alt="Scatter" /></td></tr>
+<tr><td><img src="resources/gmpe_residuals_DIST_RUP_1s_hist2d.png" alt="2-D Hist" /></td><td><img src="resources/gmpe_residuals_DIST_RUP_2s_hist2d.png" alt="2-D Hist" /></td><td><img src="resources/gmpe_residuals_DIST_RUP_5s_hist2d.png" alt="2-D Hist" /></td></tr>
+</tbody>
+</table>
+</body>
+</html>
