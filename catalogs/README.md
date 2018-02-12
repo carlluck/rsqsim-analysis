@@ -3,6 +3,7 @@
 | Date | Name | Duration | Element Area | Description |
 |-----|-----|-----|-----|-----|
 | 2018/02/11 | [Bruce 2592](rundir2592#bruce-2592) | 312,617 yrs | 1.36 km | straight loaded;  fracCreep=0.5;  H=16 (2,11,3); stressMult=1.2; neighbors |
+| 2018/02/10 | [Bruce 2585](rundir2585#bruce-2585) | 469,390 yrs | 1.35 km | Longer run; else same as r2579. straight loaded;  fracCreep=0.5; H=18 (2,12,4); stressMult=1.2; neighbors |
 | 2018/02/07 | [Bruce 2579](rundir2579#bruce-2579) | 151,874 yrs | 1.35 km | straight loaded;  fracCreep=0.5;  H=18 (2,12,4);  stressMult=1.2;  neighbors |
 | 2018/01/29 | [Bruce 2495](rundir2495#bruce-2495) | 429,340 yrs | 1.35 km | flat loaded.  fracCreep=0.5.  maxDepth=14.4 |
 | 2018/01/14 | [Bruce 2457](rundir2457#bruce-2457) | 192,787 yrs | 1.35 km | new loading;  fCreep=0.25 |
