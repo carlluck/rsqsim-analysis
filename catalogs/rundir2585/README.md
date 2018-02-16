@@ -12,6 +12,7 @@
 
 * [Metadata](#metadata)
 * [Hazard Comparisons](#hazard-comparisons)
+* [Multi-Fault Rupture Comparisons](#multi-fault-rupture-comparisons)
 * [Extreme Event Examples](#extreme-event-examples)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
@@ -32,6 +33,11 @@
 * [1.0s SA](hazard_sa_1.0s/)
 * [10.0s SA](hazard_sa_10.0s/)
 * [5.0s SA](hazard_sa_5.0s/)
+
+## Multi-Fault Rupture Comparisons
+*[(top)](#bruce-2585)*
+
+[Multi-Fault Rupture Comparisons here](multi_fault/)
 
 ## Extreme Event Examples
 *[(top)](#bruce-2585)*
