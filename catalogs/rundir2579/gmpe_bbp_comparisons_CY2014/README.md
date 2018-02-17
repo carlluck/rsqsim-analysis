@@ -270,13 +270,16 @@ Residuals of simulation data (RSQSim/BBP) in log space relative to GMPE log-mean
   * Black Thin Dotted: ± data sigma
   * Blue Thin Dotted: ± GMPE sigma
 
-GMPE Residuals use the following values, averaged among all ruptures, for all paremeters which are not varied
+GMPE Residuals use the following values, averaged among all ruptures, for all paremeters which are not varied. All other parameters set to GMPE defaults
 
 | Name | Average Value |
 |-----|-----|
 | Magnitude | 6.62 |
-| rJB | 106.18 |
 | rRup | 106.08 |
+| rJB | 106.18 |
+| Vs30 | 863 |
+| Z10 | � |
+| Z25 | � |
 
 ### GMPE Magnitude Residuals
 *[(top)](#table-of-contents)*
