@@ -260,6 +260,24 @@ z-score standard normal plots across all magnitudes/distances
 
 Residuals of simulation data (RSQSim/BBP) in log space relative to GMPE log-mean
 
+**Legend**
+* Linear Least-Squares Fit to Residuals
+  * Black Thick Dashed: fit line
+  * Black Thin Dashed: ± data sigma
+  * Blue Thin Dashed: ± GMPE sigma
+* Binned Linear Least-Squares Fit to Residuals
+  * Black Thick Solid: fit lines for each bin
+  * Black Thin Dotted: ± data sigma
+  * Blue Thin Dotted: ± GMPE sigma
+
+GMPE Residuals use the following values, averaged among all ruptures, for all paremeters which are not varied
+
+| Name | Average Value |
+|-----|-----|
+| Magnitude | 6.62 |
+| rJB | 106.18 |
+| rRup | 106.08 |
+
 ### GMPE Magnitude Residuals
 *[(top)](#table-of-contents)*
 
