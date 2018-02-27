@@ -12,6 +12,8 @@
 
 * [Metadata](#metadata)
 * [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
+  * [Points Of Interest](#points-of-interest)
+  * [Gridded Sites](#gridded-sites)
 * [Hazard Comparisons](#hazard-comparisons)
 * [Multi-Fault Rupture Comparisons](#multi-fault-rupture-comparisons)
 * [Extreme Event Examples](#extreme-event-examples)
@@ -20,6 +22,7 @@
   * [Magnitude-Area Plots](#magnitude-area-plots)
   * [Rupture Velocity Plots](#rupture-velocity-plots)
   * [Global Interevent-Time Distributions](#global-interevent-time-distributions)
+  * [Normalized Fault Interevent-Time Distributions](#normalized-fault-interevent-time-distributions)
   * [Stationarity Plot](#stationarity-plot)
   * [Element/Subsection Interevent Time Comparisons](#elementsubsection-interevent-time-comparisons)
     * [Element Interevent Time Comparisons](#element-interevent-time-comparisons)
@@ -29,11 +32,21 @@
 ## Full Catalog GMPE Comparisons
 *[(top)](#bruce-2585)*
 
+### Points Of Interest
+
 * [ASK2014](gmpe_bbp_comparisons_ASK2014/)
 * [BSSA2014](gmpe_bbp_comparisons_BSSA2014/)
 * [CB2014](gmpe_bbp_comparisons_CB2014/)
 * [CY2014](gmpe_bbp_comparisons_CY2014/)
 * [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
+
+### Gridded Sites
+
+* [ASK2014](gmpe_bbp_comparisons_ASK2014_GriddedSites/)
+* [BSSA2014](gmpe_bbp_comparisons_BSSA2014_GriddedSites/)
+* [CB2014](gmpe_bbp_comparisons_CB2014_GriddedSites/)
+* [CY2014](gmpe_bbp_comparisons_CY2014_GriddedSites/)
+* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr_GriddedSites/)
 
 ## Hazard Comparisons
 *[(top)](#bruce-2585)*
@@ -78,6 +91,14 @@
 | **M≥6** | **M≥6.5** | **M≥7** | **M≥7.5** |
 |-----|-----|-----|-----|
 | ![Interevent Times](resources/interevent_times_m6.png) | ![Interevent Times](resources/interevent_times_m6.5.png) | ![Interevent Times](resources/interevent_times_m7.png) | ![Interevent Times](resources/interevent_times_m7.5.png) |
+### Normalized Fault Interevent-Time Distributions
+*[(top)](#bruce-2585)*
+
+|  | **M≥6** | **M≥6.5** | **M≥7** | **M≥7.5** |
+|-----|-----|-----|-----|-----|
+| **Elements** | ![Norm RIs](resources/norm_ri_elem_m6.png) | ![Norm RIs](resources/norm_ri_elem_m6.5.png) | ![Norm RIs](resources/norm_ri_elem_m7.png) | ![Norm RIs](resources/norm_ri_elem_m7.5.png) |
+| **Subsections** | ![Norm RIs](resources/norm_ri_subsect_m6.png) | ![Norm RIs](resources/norm_ri_subsect_m6.5.png) | ![Norm RIs](resources/norm_ri_subsect_m7.png) | ![Norm RIs](resources/norm_ri_subsect_m7.5.png) |
+| **Sections** | ![Norm RIs](resources/norm_ri_parent_m6.png) | ![Norm RIs](resources/norm_ri_parent_m6.5.png) | ![Norm RIs](resources/norm_ri_parent_m7.png) | ![Norm RIs](resources/norm_ri_parent_m7.5.png) |
 ### Stationarity Plot
 *[(top)](#bruce-2585)*
 

@@ -18,6 +18,7 @@
   * [Magnitude-Area Plots](#magnitude-area-plots)
   * [Rupture Velocity Plots](#rupture-velocity-plots)
   * [Global Interevent-Time Distributions](#global-interevent-time-distributions)
+  * [Normalized Fault Interevent-Time Distributions](#normalized-fault-interevent-time-distributions)
   * [Stationarity Plot](#stationarity-plot)
   * [Element/Subsection Interevent Time Comparisons](#elementsubsection-interevent-time-comparisons)
     * [Element Interevent Time Comparisons](#element-interevent-time-comparisons)
@@ -27,8 +28,8 @@
 ## Single Event Comparisons
 *[(top)](#bruce-2194-long)*
 
-* [Event 526885, M7.45](event_526885/)
 * [Event 136704, M7.32](event_136704/)
+* [Event 526885, M7.45](event_526885/)
 
 ## Full Catalog GMPE Comparisons
 *[(top)](#bruce-2194-long)*
@@ -59,6 +60,14 @@
 | **M≥6** | **M≥6.5** | **M≥7** | **M≥7.5** |
 |-----|-----|-----|-----|
 | ![Interevent Times](resources/interevent_times_m6.png) | ![Interevent Times](resources/interevent_times_m6.5.png) | ![Interevent Times](resources/interevent_times_m7.png) | ![Interevent Times](resources/interevent_times_m7.5.png) |
+### Normalized Fault Interevent-Time Distributions
+*[(top)](#bruce-2194-long)*
+
+|  | **M≥6** | **M≥6.5** | **M≥7** | **M≥7.5** |
+|-----|-----|-----|-----|-----|
+| **Elements** | ![Norm RIs](resources/norm_ri_elem_m6.png) | ![Norm RIs](resources/norm_ri_elem_m6.5.png) | ![Norm RIs](resources/norm_ri_elem_m7.png) | ![Norm RIs](resources/norm_ri_elem_m7.5.png) |
+| **Subsections** | ![Norm RIs](resources/norm_ri_subsect_m6.png) | ![Norm RIs](resources/norm_ri_subsect_m6.5.png) | ![Norm RIs](resources/norm_ri_subsect_m7.png) | ![Norm RIs](resources/norm_ri_subsect_m7.5.png) |
+| **Sections** | ![Norm RIs](resources/norm_ri_parent_m6.png) | ![Norm RIs](resources/norm_ri_parent_m6.5.png) | ![Norm RIs](resources/norm_ri_parent_m7.png) | ![Norm RIs](resources/norm_ri_parent_m7.5.png) |
 ### Stationarity Plot
 *[(top)](#bruce-2194-long)*
 
@@ -78,7 +87,7 @@
 #### Subsection Interevent Time Comparisons
 *[(top)](#bruce-2194-long)*
 
-*Subsections participates in a rupture if at least 20.0 % of its area ruptures*
+*Subsections participate in a rupture if at least 20.0 % of its area ruptures*
 
 | Min Mag | Scatter | 2-D Hist |
 |-----|-----|-----|
