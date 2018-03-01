@@ -11,6 +11,7 @@
 | **Frictional Params** | a=0.001, b=0.008, (b-a)=0.007, ddotEQ=1 |
 
 * [Metadata](#metadata)
+* [Single Event Comparisons](#single-event-comparisons)
 * [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
   * [Points Of Interest](#points-of-interest)
   * [Gridded Sites](#gridded-sites)
@@ -28,6 +29,13 @@
     * [Element Interevent Time Comparisons](#element-interevent-time-comparisons)
     * [Subsection Interevent Time Comparisons](#subsection-interevent-time-comparisons)
 * [Input File](#input-file)
+
+## Single Event Comparisons
+*[(top)](#bruce-2585)*
+
+* [Event 1670183, M7.52](event_1670183/)
+* [Event 2637969, M7.77](event_2637969/)
+* [Event 81854, M7.32](event_81854/)
 
 ## Full Catalog GMPE Comparisons
 *[(top)](#bruce-2585)*
