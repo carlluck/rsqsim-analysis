@@ -2,6 +2,18 @@
 
 | Date | Name | Duration | Element Area | Description |
 |-----|-----|-----|-----|-----|
+| 2018/03/08 | [Bruce 2620](rundir2620#bruce-2620) | 164,905 yrs | 1.35 km | sensitivity test, diff r2585   b=.006 |
+| 2018/03/08 | [Bruce 2623](rundir2623#bruce-2623) | 324,029 yrs | 1.35 km | sensitivity test, diff r2585   b=.010 |
+| 2018/03/08 | [Bruce 2621](rundir2621#bruce-2621) | 202,704 yrs | 1.35 km | sensitivity test, diff r2585   b=.007 |
+| 2018/03/08 | [Bruce 2630](rundir2630#bruce-2630) | 276,821 yrs | 1.35 km | sensitivity test, diff r2585   N=110 |
+| 2018/03/08 | [Bruce 2622](rundir2622#bruce-2622) | 283,109 yrs | 1.35 km | sensitivity test, diff r2585   b=.009 |
+| 2018/03/08 | [Bruce 2626](rundir2626#bruce-2626) | 237,343 yrs | 1.35 km | sensitivity test, diff r2585   a=.0011 |
+| 2018/03/08 | [Bruce 2631](rundir2631#bruce-2631) | 309,590 yrs | 1.35 km | sensitivity test, diff r2585   N=120 |
+| 2018/03/08 | [Bruce 2628](rundir2628#bruce-2628) | 169,703 yrs | 1.35 km | sensitivity test, diff r2585   N=80 |
+| 2018/03/08 | [Bruce 2627](rundir2627#bruce-2627) | 233,607 yrs | 1.35 km | sensitivity test, diff r2585   a=.0012 |
+| 2018/03/08 | [Bruce 2625](rundir2625#bruce-2625) | 246,492 yrs | 1.35 km | sensitivity test, diff r2585   a=.0009 |
+| 2018/03/08 | [Bruce 2624](rundir2624#bruce-2624) | 250,300 yrs | 1.35 km | sensitivity test, diff r2585   a=.0008 |
+| 2018/03/08 | [Bruce 2629](rundir2629#bruce-2629) | 203,770 yrs | 1.35 km | sensitivity test, diff r2585   N=90 |
 | 2018/02/11 | [Bruce 2592](rundir2592#bruce-2592) | 312,617 yrs | 1.36 km | straight loaded;  fracCreep=0.5;  H=16 (2,11,3); stressMult=1.2; neighbors |
 | 2018/02/10 | [Bruce 2585](rundir2585#bruce-2585) | 469,390 yrs | 1.35 km | Longer run; else same as r2579. straight loaded;  fracCreep=0.5; H=18 (2,12,4); stressMult=1.2; neighbors |
 | 2018/02/07 | [Bruce 2579](rundir2579#bruce-2579) | 151,874 yrs | 1.35 km | straight loaded;  fracCreep=0.5;  H=18 (2,12,4);  stressMult=1.2;  neighbors |
