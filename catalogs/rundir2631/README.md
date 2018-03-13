@@ -11,6 +11,7 @@
 | **Frictional Params** | a=0.001, b=0.008, (b-a)=0.007, ddotEQ=1 |
 
 * [Metadata](#metadata)
+* [Hazard Comparisons](#hazard-comparisons)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
@@ -22,6 +23,16 @@
     * [Element Interevent Time Comparisons](#element-interevent-time-comparisons)
     * [Subsection Interevent Time Comparisons](#subsection-interevent-time-comparisons)
 * [Input File](#input-file)
+
+## Hazard Comparisons
+*[(top)](#bruce-2631)*
+
+* [PGA](hazard_pga/)
+* [0.2s SA](hazard_sa_0.2s/)
+* [1.0s SA](hazard_sa_1.0s/)
+* [10.0s SA](hazard_sa_10.0s/)
+* [2.0s SA](hazard_sa_2.0s/)
+* [5.0s SA](hazard_sa_5.0s/)
 
 ## Plots
 ### Magnitude-Frequency Plot
