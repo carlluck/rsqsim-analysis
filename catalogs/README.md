@@ -2,6 +2,8 @@
 
 | Date | Name | Duration | Element Area | Description |
 |-----|-----|-----|-----|-----|
+| 2018/03/19 | [Bruce 2616](rundir2616#bruce-2616) | 271,128 yrs | 1.35 km | similar to r2585, but bigger seismogenic depth: H=18 (2,13,3) |
+| 2018/03/12 | [Bruce 2585 1myr](rundir2585_1myr#bruce-2585-1myr) | 1,002,001 yrs | 1.35 km | Extended version of Bruce's 2585 to 1 million years |
 | 2018/03/08 | [Bruce 2620](rundir2620#bruce-2620) | 164,905 yrs | 1.35 km | sensitivity test, diff r2585   b=.006 |
 | 2018/03/08 | [Bruce 2623](rundir2623#bruce-2623) | 324,029 yrs | 1.35 km | sensitivity test, diff r2585   b=.010 |
 | 2018/03/08 | [Bruce 2621](rundir2621#bruce-2621) | 202,704 yrs | 1.35 km | sensitivity test, diff r2585   b=.007 |
