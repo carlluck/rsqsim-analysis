@@ -31,6 +31,7 @@ Ruptures are binned by their moment magnitude (**Mw**) and the Joyner-Boore dist
     * [SBSM, All Ruptures, Z-Score Histograms](#sbsm-all-ruptures-z-score-histograms)
 * [Hazard Curves](#hazard-curves)
 * [GMPE Residuals](#gmpe-residuals)
+  * [Period-Dependent Residual Components](#period-dependent-residual-components)
   * [GMPE Magnitude Residuals](#gmpe-magnitude-residuals)
   * [GMPE rJB Residuals](#gmpe-rjb-residuals)
   * [GMPE rRup Residuals](#gmpe-rrup-residuals)
@@ -678,6 +679,11 @@ GMPE Residuals use the following values, averaged among all ruptures, for all pa
 | Vs30 | 863 |
 | Z10 | � |
 | Z25 | � |
+
+### Period-Dependent Residual Components
+*[(top)](#table-of-contents)*
+
+![Residual Components](resources/period_residual_components.png)
 
 ### GMPE Magnitude Residuals
 *[(top)](#table-of-contents)*
