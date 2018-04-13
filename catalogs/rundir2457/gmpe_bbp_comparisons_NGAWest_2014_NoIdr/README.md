@@ -28,6 +28,7 @@ Ruptures are binned by their moment magnitude (**Mw**) and the Joyner-Boore dist
     * [SBSM, All Ruptures, Z-Score Histograms](#sbsm-all-ruptures-z-score-histograms)
 * [Hazard Curves](#hazard-curves)
 * [GMPE Residuals](#gmpe-residuals)
+  * [Period-Dependent Residual Components](#period-dependent-residual-components)
   * [GMPE Magnitude Residuals](#gmpe-magnitude-residuals)
   * [GMPE rJB Residuals](#gmpe-rjb-residuals)
   * [GMPE rRup Residuals](#gmpe-rrup-residuals)
@@ -529,12 +530,14 @@ z-score standard normal plots across all magnitudes/distances
 *[(top)](#table-of-contents)*
 
 **Legend**:
-* Black Solid Line: RSQSim/BBP
-* Blue Solid Line: NGAWest_2014_NoIdr
-* Blue Dashed Line: NGAWest_2014_NoIdr 3-sigma truncation
-* Blue Dotted Line: NGAWest_2014_NoIdr 2-sigma truncation
-* Blue Dotted and dashed Line: NGAWest_2014_NoIdr 1-sigma truncation
-* Green Dashed Line: NGAWest_2014_NoIdr mean values only
+* **Simulations Curves** *(truncated below lowest possible y-value)*
+  * Black Solid Line: RSQSim/BBP
+* **GMPE Curves**
+  * Blue Solid Line: NGAWest_2014_NoIdr full curve
+  * Blue Dashed Line: NGAWest_2014_NoIdr, 3-sigma truncation
+  * Blue Dotted Line: NGAWest_2014_NoIdr, 2-sigma truncation
+  * Blue Dotted and dashed Line: NGAWest_2014_NoIdr, 1-sigma truncation
+  * Green Dashed Line: NGAWest_2014_NoIdr, Fixed sigma=0
 * Gray Dashed Lines: 1000 yr, 2500 yr, 10000 yr return periods
 
 | Site | 1s | 2s | 5s |
@@ -553,6 +556,30 @@ z-score standard normal plots across all magnitudes/distances
 *[(top)](#table-of-contents)*
 
 Residuals of simulation data (RSQSim/BBP) in log space relative to GMPE log-mean
+
+**Legend**
+* Black Thick Line: Linear Least-Squares Fit to Residuals
+* Black Circles: Binned Linear Least-Squares Fit to Residuals
+  * Black Thin Dashes: binned mean ± data sigma
+  * Blue Thin Dotted: binned mean ± GMPE sigma
+
+GMPE Residuals use the following values, averaged among all ruptures, for all paremeters which are not varied. All other parameters set to GMPE defaults
+
+| Name | Average Value |
+|-----|-----|
+| Magnitude | 6.58 |
+| rRup | 107.75 |
+| rJB | 107.8 |
+| Vs30 | 863 |
+| Z10 | � |
+| Z25 | � |
+
+### Period-Dependent Residual Components
+*[(top)](#table-of-contents)*
+
+**Note: These are not yet corrected for covariance. Currently only useful for comparing relative phi and tau, not absolute values**
+
+![Residual Components](resources/period_residual_components.png)
 
 ### GMPE Magnitude Residuals
 *[(top)](#table-of-contents)*

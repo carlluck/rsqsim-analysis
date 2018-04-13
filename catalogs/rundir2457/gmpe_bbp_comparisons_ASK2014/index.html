@@ -35,6 +35,7 @@ img {
 <li><a href="#hazard-curves">Hazard Curves</a></li>
 <li><a href="#gmpe-residuals">GMPE Residuals</a>
 <ul>
+<li><a href="#period-dependent-residual-components">Period-Dependent Residual Components</a></li>
 <li><a href="#gmpe-magnitude-residuals">GMPE Magnitude Residuals</a></li>
 <li><a href="#gmpe-rjb-residuals">GMPE rJB Residuals</a></li>
 <li><a href="#gmpe-rrup-residuals">GMPE rRup Residuals</a></li>
@@ -251,12 +252,20 @@ img {
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <p><strong>Legend</strong>:</p>
 <ul>
+<li><strong>Simulations Curves</strong> <em>(truncated below lowest possible y-value)</em>
+<ul>
 <li>Black Solid Line: RSQSim/BBP</li>
-<li>Blue Solid Line: ASK2014</li>
-<li>Blue Dashed Line: ASK2014 3-sigma truncation</li>
-<li>Blue Dotted Line: ASK2014 2-sigma truncation</li>
-<li>Blue Dotted and dashed Line: ASK2014 1-sigma truncation</li>
-<li>Green Dashed Line: ASK2014 mean values only</li>
+</ul>
+</li>
+<li><strong>GMPE Curves</strong>
+<ul>
+<li>Blue Solid Line: ASK2014 full curve</li>
+<li>Blue Dashed Line: ASK2014, 3-sigma truncation</li>
+<li>Blue Dotted Line: ASK2014, 2-sigma truncation</li>
+<li>Blue Dotted and dashed Line: ASK2014, 1-sigma truncation</li>
+<li>Green Dashed Line: ASK2014, Fixed sigma=0</li>
+</ul>
+</li>
 <li>Gray Dashed Lines: 1000 yr, 2500 yr, 10000 yr return periods</li>
 </ul>
 <table>
@@ -279,6 +288,34 @@ img {
 <h2 id="gmpe-residuals">GMPE Residuals</h2>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <p>Residuals of simulation data (RSQSim/BBP) in log space relative to GMPE log-mean</p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Black Thick Line: Linear Least-Squares Fit to Residuals</li>
+<li>Black Circles: Binned Linear Least-Squares Fit to Residuals
+<ul>
+<li>Black Thin Dashes: binned mean ± data sigma</li>
+<li>Blue Thin Dotted: binned mean ± GMPE sigma</li>
+</ul>
+</li>
+</ul>
+<p>GMPE Residuals use the following values, averaged among all ruptures, for all paremeters which are not varied. All other parameters set to GMPE defaults</p>
+<table>
+<thead>
+<tr><th>Name</th><th>Average Value</th></tr>
+</thead>
+<tbody>
+<tr><td>Magnitude</td><td>6.58</td></tr>
+<tr><td>rRup</td><td>107.75</td></tr>
+<tr><td>rJB</td><td>107.8</td></tr>
+<tr><td>Vs30</td><td>863</td></tr>
+<tr><td>Z10</td><td>�</td></tr>
+<tr><td>Z25</td><td>�</td></tr>
+</tbody>
+</table>
+<h3 id="period-dependent-residual-components">Period-Dependent Residual Components</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Note: These are not yet corrected for covariance. Currently only useful for comparing relative phi and tau, not absolute values</strong></p>
+<p><img src="resources/period_residual_components.png" alt="Residual Components" /></p>
 <h3 id="gmpe-magnitude-residuals">GMPE Magnitude Residuals</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <table>

@@ -15,6 +15,7 @@ Ruptures are binned by their moment magnitude (**Mw**) and the Joyner-Boore dist
     * [All Sites, 7.5 < Mw < 8](#all-sites-75--mw--8)
     * [All Sites, All Ruptures, Z-Score Histograms](#all-sites-all-ruptures-z-score-histograms)
 * [GMPE Residuals](#gmpe-residuals)
+  * [Period-Dependent Residual Components](#period-dependent-residual-components)
   * [GMPE Magnitude Residuals](#gmpe-magnitude-residuals)
   * [GMPE rJB Residuals](#gmpe-rjb-residuals)
   * [GMPE rRup Residuals](#gmpe-rrup-residuals)
@@ -264,6 +265,30 @@ z-score standard normal plots across all magnitudes/distances
 *[(top)](#table-of-contents)*
 
 Residuals of simulation data (RSQSim/BBP) in log space relative to GMPE log-mean
+
+**Legend**
+* Black Thick Line: Linear Least-Squares Fit to Residuals
+* Black Circles: Binned Linear Least-Squares Fit to Residuals
+  * Black Thin Dashes: binned mean ± data sigma
+  * Blue Thin Dotted: binned mean ± GMPE sigma
+
+GMPE Residuals use the following values, averaged among all ruptures, for all paremeters which are not varied. All other parameters set to GMPE defaults
+
+| Name | Average Value |
+|-----|-----|
+| Magnitude | 6.61 |
+| rRup | 127.84 |
+| rJB | 127.78 |
+| Vs30 | 863 |
+| Z10 | � |
+| Z25 | � |
+
+### Period-Dependent Residual Components
+*[(top)](#table-of-contents)*
+
+**Note: These are not yet corrected for covariance. Currently only useful for comparing relative phi and tau, not absolute values**
+
+![Residual Components](resources/period_residual_components.png)
 
 ### GMPE Magnitude Residuals
 *[(top)](#table-of-contents)*

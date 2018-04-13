@@ -35,17 +35,11 @@
 ### Points Of Interest
 
 * [ASK2014](gmpe_bbp_comparisons_ASK2014/)
-* [BSSA2014](gmpe_bbp_comparisons_BSSA2014/)
-* [CB2014](gmpe_bbp_comparisons_CB2014/)
-* [CY2014](gmpe_bbp_comparisons_CY2014/)
 * [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
 
 ### Gridded Sites
 
 * [ASK2014](gmpe_bbp_comparisons_ASK2014_GriddedSites/)
-* [BSSA2014](gmpe_bbp_comparisons_BSSA2014_GriddedSites/)
-* [CB2014](gmpe_bbp_comparisons_CB2014_GriddedSites/)
-* [CY2014](gmpe_bbp_comparisons_CY2014_GriddedSites/)
 * [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr_GriddedSites/)
 
 ## Full Catalog RotD100/RotD50 Ratios
