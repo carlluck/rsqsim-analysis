@@ -31,9 +31,6 @@
 *[(top)](#bruce-2579)*
 
 * [ASK2014](gmpe_bbp_comparisons_ASK2014/)
-* [BSSA2014](gmpe_bbp_comparisons_BSSA2014/)
-* [CB2014](gmpe_bbp_comparisons_CB2014/)
-* [CY2014](gmpe_bbp_comparisons_CY2014/)
 * [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
 
 ## Full Catalog RotD100/RotD50 Ratios
@@ -65,7 +62,7 @@
 
 | Scatter | 2-D Hist |
 |-----|-----|
-| ![MFD Scatter](resources/mag_area.png) | ![MFD Hist](resources/mag_area_hist2D.png) |
+| ![MA Scatter](resources/mag_area.png) | ![MA Hist](resources/mag_area_hist2D.png) |
 ### Rupture Velocity Plots
 *[(top)](#bruce-2579)*
 

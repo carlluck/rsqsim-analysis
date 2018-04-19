@@ -47,7 +47,7 @@ faults surface breaking), same as rundir2310 but less resolved |
 
 | Scatter | 2-D Hist |
 |-----|-----|
-| ![MFD Scatter](resources/mag_area.png) | ![MFD Hist](resources/mag_area_hist2D.png) |
+| ![MA Scatter](resources/mag_area.png) | ![MA Hist](resources/mag_area_hist2D.png) |
 ### Rupture Velocity Plots
 *[(top)](#bruce-2320)*
 

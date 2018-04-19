@@ -1,0 +1,195 @@
+
+X-Axis: Magnitude
+Y-Axis: Annual Rate
+Number of Data Sets: 3
+
+
+DATASET #1
+
+     Name: Bruce 2666 Incremental
+   Points: 30
+     Info: null
+
+Data[x,y]:
+6.05	  NaN
+6.15	  NaN
+6.25	  NaN
+6.35	  NaN
+6.45	  NaN
+6.55	  NaN
+6.65	  NaN
+6.75	  NaN
+6.85	  NaN
+6.95	  NaN
+7.05	  NaN
+7.15	  NaN
+7.25	  NaN
+7.35	  NaN
+7.45	  NaN
+7.55	  NaN
+7.65	  NaN
+7.75	  NaN
+7.85	  NaN
+7.95	  NaN
+8.05	  NaN
+8.15	  NaN
+8.25	  NaN
+8.35	  NaN
+8.45	  NaN
+8.55	  NaN
+8.65	  NaN
+8.75	  NaN
+8.85	  NaN
+8.95	  NaN
+
+
+
+DATASET #2
+
+     Name: Cumulative
+   Points: 30
+     Info: null
+
+Data[x,y]:
+6.0	  NaN
+6.1	  NaN
+6.2	  NaN
+6.3	  NaN
+6.4	  NaN
+6.5	  NaN
+6.6	  NaN
+6.7	  NaN
+6.8	  NaN
+6.9	  NaN
+7.0	  NaN
+7.1	  NaN
+7.2	  NaN
+7.3	  NaN
+7.4	  NaN
+7.5	  NaN
+7.6	  NaN
+7.7	  NaN
+7.8	  NaN
+7.9	  NaN
+8.0	  NaN
+8.1	  NaN
+8.2	  NaN
+8.3	  NaN
+8.4	  NaN
+8.5	  NaN
+8.6	  NaN
+8.7	  NaN
+8.8	  NaN
+8.9	  NaN
+
+
+
+DATASET #3
+
+     Name: G-R B=1
+   Points: 100
+     Info: minMag=6.0; maxMag=9.0; numMag=100; bValue=1.0; magLower=6.0; magUpper=9.0; totMoRate=NaN; totCumRate=NaN
+
+Data[x,y]:
+6.0	  NaN
+6.030303	  NaN
+6.060606	  NaN
+6.090909	  NaN
+6.121212	  NaN
+6.151515	  NaN
+6.181818	  NaN
+6.212121	  NaN
+6.242424	  NaN
+6.2727275	  NaN
+6.3030305	  NaN
+6.3333335	  NaN
+6.3636365	  NaN
+6.3939395	  NaN
+6.4242425	  NaN
+6.4545455	  NaN
+6.4848485	  NaN
+6.5151515	  NaN
+6.5454545	  NaN
+6.5757575	  NaN
+6.6060605	  NaN
+6.6363635	  NaN
+6.6666665	  NaN
+6.6969695	  NaN
+6.7272725	  NaN
+6.757576	  NaN
+6.787879	  NaN
+6.818182	  NaN
+6.848485	  NaN
+6.878788	  NaN
+6.909091	  NaN
+6.939394	  NaN
+6.969697	  NaN
+7.0	  NaN
+7.030303	  NaN
+7.060606	  NaN
+7.090909	  NaN
+7.121212	  NaN
+7.151515	  NaN
+7.181818	  NaN
+7.212121	  NaN
+7.242424	  NaN
+7.2727275	  NaN
+7.3030305	  NaN
+7.3333335	  NaN
+7.3636365	  NaN
+7.3939395	  NaN
+7.4242425	  NaN
+7.4545455	  NaN
+7.4848485	  NaN
+7.5151515	  NaN
+7.5454545	  NaN
+7.5757575	  NaN
+7.6060605	  NaN
+7.6363635	  NaN
+7.6666665	  NaN
+7.6969695	  NaN
+7.7272725	  NaN
+7.757576	  NaN
+7.787879	  NaN
+7.818182	  NaN
+7.848485	  NaN
+7.878788	  NaN
+7.909091	  NaN
+7.939394	  NaN
+7.969697	  NaN
+8.0	  NaN
+8.030303	  NaN
+8.060606	  NaN
+8.090909	  NaN
+8.121212	  NaN
+8.151515	  NaN
+8.181818	  NaN
+8.212121	  NaN
+8.242424	  NaN
+8.272727	  NaN
+8.30303	  NaN
+8.333333	  NaN
+8.363636	  NaN
+8.393939	  NaN
+8.424242	  NaN
+8.454545	  NaN
+8.484848	  NaN
+8.515152	  NaN
+8.545455	  NaN
+8.575758	  NaN
+8.606061	  NaN
+8.636364	  NaN
+8.666667	  NaN
+8.69697	  NaN
+8.727273	  NaN
+8.757576	  NaN
+8.787879	  NaN
+8.818182	  NaN
+8.848485	  NaN
+8.878788	  NaN
+8.909091	  NaN
+8.939394	  NaN
+8.969697	  NaN
+9.0	  NaN
+
+
