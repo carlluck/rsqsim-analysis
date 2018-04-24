@@ -260,6 +260,7 @@ Residuals shown here are first detrended according to the following magnitude & 
 | **1s** | **2s** | **5s** |
 |-----|-----|-----|
 | ![Detrend XYZ](resources/detrend_residuals_1s.png) | ![Detrend XYZ](resources/detrend_residuals_2s.png) | ![Detrend XYZ](resources/detrend_residuals_5s.png) |
+
 ![Residual Components](resources/period_residual_detrend_components.png)
 
 ### GMPE Magnitude Residuals
