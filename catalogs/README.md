@@ -2,6 +2,7 @@
 
 | Date | Name | Duration | Element Area | Description |
 |-----|-----|-----|-----|-----|
+| 2018/04/23 | [Bruce 2667](rundir2667#bruce-2667) | 10,693 yrs | 0.09 km | dx/4, LatCut=37, rateCut=2.0mm/yr, interpolated nearest, like r2666 but larger b=.015 |
 | 2018/04/17 | [Bruce 2666](rundir2666#bruce-2666) | 4,994 yrs | 0.09 km | dx/4, LatCut=37, rateCut=2.0mm/yr, interpolated nearest |
 | 2018/04/16 | [Bruce 2665](rundir2665#bruce-2665) | 34,557 yrs | 0.34 km | dx/2, LatCut=37, rateCut=0.2mm/yr, interpolated nearest |
 | 2018/03/28 | [Bruce 2637](rundir2637#bruce-2637) | 345,682 yrs | 1.35 km | sensitivity test, diff r2585  N=130 |

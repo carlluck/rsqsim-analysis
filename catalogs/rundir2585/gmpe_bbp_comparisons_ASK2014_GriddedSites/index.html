@@ -35,6 +35,8 @@ img {
 </li>
 <li><a href="#gmpe-residuals">GMPE Residuals</a>
 <ul>
+<li><a href="#period-dependent-residual-components">Period-Dependent Residual Components</a></li>
+<li><a href="#detrended-period-dependent-residual-components">Detrended Period-Dependent Residual Components</a></li>
 <li><a href="#gmpe-magnitude-residuals">GMPE Magnitude Residuals</a></li>
 <li><a href="#gmpe-rjb-residuals">GMPE rJB Residuals</a></li>
 <li><a href="#gmpe-rrup-residuals">GMPE rRup Residuals</a></li>
@@ -383,6 +385,23 @@ img {
 <tr><td>Z25</td><td>�</td></tr>
 </tbody>
 </table>
+<h3 id="period-dependent-residual-components">Period-Dependent Residual Components</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Note: These are not yet corrected for covariance. Currently only useful for comparing relative phi and tau, not absolute values</strong></p>
+<p><img src="resources/period_residual_components.png" alt="Residual Components" /></p>
+<h3 id="detrended-period-dependent-residual-components">Detrended Period-Dependent Residual Components</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Note: These are not yet corrected for covariance. Currently only useful for comparing relative phi and tau, not absolute values</strong></p>
+<p>Residuals shown here are first detrended according to the following magnitude &amp; log-distance dependent average residuals</p>
+<table>
+<thead>
+<tr><th><strong>1s</strong></th><th><strong>2s</strong></th><th><strong>5s</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/detrend_residuals_1s.png" alt="Detrend XYZ" /></td><td><img src="resources/detrend_residuals_2s.png" alt="Detrend XYZ" /></td><td><img src="resources/detrend_residuals_5s.png" alt="Detrend XYZ" /></td></tr>
+</tbody>
+</table>
+<p><img src="resources/period_residual_detrend_components.png" alt="Residual Components" /></p>
 <h3 id="gmpe-magnitude-residuals">GMPE Magnitude Residuals</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <table>

@@ -16,6 +16,8 @@ Ruptures are binned by their moment magnitude (**Mw**) and the Joyner-Boore dist
     * [All Sites, 8 < Mw < 8.5](#all-sites-8--mw--85)
     * [All Sites, All Ruptures, Z-Score Histograms](#all-sites-all-ruptures-z-score-histograms)
 * [GMPE Residuals](#gmpe-residuals)
+  * [Period-Dependent Residual Components](#period-dependent-residual-components)
+  * [Detrended Period-Dependent Residual Components](#detrended-period-dependent-residual-components)
   * [GMPE Magnitude Residuals](#gmpe-magnitude-residuals)
   * [GMPE rJB Residuals](#gmpe-rjb-residuals)
   * [GMPE rRup Residuals](#gmpe-rrup-residuals)
@@ -317,6 +319,25 @@ GMPE Residuals use the following values, averaged among all ruptures, for all pa
 | Vs30 | 863 |
 | Z10 | � |
 | Z25 | � |
+
+### Period-Dependent Residual Components
+*[(top)](#table-of-contents)*
+
+**Note: These are not yet corrected for covariance. Currently only useful for comparing relative phi and tau, not absolute values**
+
+![Residual Components](resources/period_residual_components.png)
+
+### Detrended Period-Dependent Residual Components
+*[(top)](#table-of-contents)*
+
+**Note: These are not yet corrected for covariance. Currently only useful for comparing relative phi and tau, not absolute values**
+
+Residuals shown here are first detrended according to the following magnitude & log-distance dependent average residuals
+
+| **1s** | **2s** | **5s** |
+|-----|-----|-----|
+| ![Detrend XYZ](resources/detrend_residuals_1s.png) | ![Detrend XYZ](resources/detrend_residuals_2s.png) | ![Detrend XYZ](resources/detrend_residuals_5s.png) |
+![Residual Components](resources/period_residual_detrend_components.png)
 
 ### GMPE Magnitude Residuals
 *[(top)](#table-of-contents)*
