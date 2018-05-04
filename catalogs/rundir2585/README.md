@@ -34,6 +34,8 @@
 *[(top)](#bruce-2585)*
 
 * [Event 1670183, M7.52](event_1670183/)
+* [Event 1670183, M7.52, Time Scale Factor: 2.0](event_1670183_timeScale2.0/)
+* [Event 1670183, M7.52, Time Scale Factor: 2.0, Velocities Scaled](event_1670183_timeScale2.0_velScale/)
 * [Event 2637969, M7.77](event_2637969/)
 * [Event 81854, M7.32](event_81854/)
 

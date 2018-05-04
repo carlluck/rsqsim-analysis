@@ -33,6 +33,7 @@ Ruptures are binned by their moment magnitude (**Mw**) and the Joyner-Boore dist
   * [GMPE Magnitude Residuals](#gmpe-magnitude-residuals)
   * [GMPE rJB Residuals](#gmpe-rjb-residuals)
   * [GMPE rRup Residuals](#gmpe-rrup-residuals)
+  * [GMPE Occurrence Time Residuals](#gmpe-occurrence-time-residuals)
 ## Site Scatters/Z-Score Histograms
 *[(top)](#table-of-contents)*
 
@@ -566,6 +567,7 @@ GMPE Residuals use the following values, averaged among all ruptures, for all pa
 | Vs30 | 863 |
 | Z10 | � |
 | Z25 | � |
+| Occurrence Time | 502606.22 |
 
 ### Period-Dependent Residual Components
 *[(top)](#table-of-contents)*
@@ -611,3 +613,11 @@ Residuals shown here are first detrended according to the following magnitude & 
 |-----|-----|-----|
 | ![Scatter](resources/gmpe_residuals_DIST_RUP_1s_scatter.png) | ![Scatter](resources/gmpe_residuals_DIST_RUP_2s_scatter.png) | ![Scatter](resources/gmpe_residuals_DIST_RUP_5s_scatter.png) |
 | ![2-D Hist](resources/gmpe_residuals_DIST_RUP_1s_hist2d.png) | ![2-D Hist](resources/gmpe_residuals_DIST_RUP_2s_hist2d.png) | ![2-D Hist](resources/gmpe_residuals_DIST_RUP_5s_hist2d.png) |
+### GMPE Occurrence Time Residuals
+*[(top)](#table-of-contents)*
+
+
+| **1 s** | **2 s** | **5 s** |
+|-----|-----|-----|
+| ![Scatter](resources/gmpe_residuals_OCCUR_TIME_1s_scatter.png) | ![Scatter](resources/gmpe_residuals_OCCUR_TIME_2s_scatter.png) | ![Scatter](resources/gmpe_residuals_OCCUR_TIME_5s_scatter.png) |
+| ![2-D Hist](resources/gmpe_residuals_OCCUR_TIME_1s_hist2d.png) | ![2-D Hist](resources/gmpe_residuals_OCCUR_TIME_2s_hist2d.png) | ![2-D Hist](resources/gmpe_residuals_OCCUR_TIME_5s_hist2d.png) |
