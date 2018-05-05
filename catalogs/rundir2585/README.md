@@ -45,10 +45,14 @@
 ### Points Of Interest
 
 * [ASK2014](gmpe_bbp_comparisons_ASK2014/)
+* [ASK2014, Time Scale Factor: 2.0](gmpe_bbp_comparisons_ASK2014_timeScale2.0/)
+* [ASK2014, Time Scale Factor: 2.0, Velocities Scaled](gmpe_bbp_comparisons_ASK2014_timeScale2.0_velScale/)
 * [BSSA2014](gmpe_bbp_comparisons_BSSA2014/)
 * [CB2014](gmpe_bbp_comparisons_CB2014/)
 * [CY2014](gmpe_bbp_comparisons_CY2014/)
 * [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
+* [NGAWest_2014_NoIdr, Time Scale Factor: 2.0](gmpe_bbp_comparisons_NGAWest_2014_NoIdr_timeScale2.0/)
+* [NGAWest_2014_NoIdr, Time Scale Factor: 2.0, Velocities Scaled](gmpe_bbp_comparisons_NGAWest_2014_NoIdr_timeScale2.0_velScale/)
 
 ### Gridded Sites
 
