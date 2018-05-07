@@ -1,5 +1,6 @@
 # Event 1670183, M7.52
 
+
 [Catalog Details](../#bruce-2585)
 
 
@@ -20,36 +21,36 @@
     * [USC RotD Ratio](#usc-rotd-ratio)
     * [USC Acceleration Seismograms](#usc-acceleration-seismograms)
     * [USC Velocity Seismograms](#usc-velocity-seismograms)
+  * [Site PAS](#site-pas)
+    * [PAS Fourier Amplitude Spectra](#pas-fourier-amplitude-spectra)
+    * [PAS RotD50 Spectra](#pas-rotd50-spectra)
+    * [PAS RotD Ratio](#pas-rotd-ratio)
+    * [PAS Acceleration Seismograms](#pas-acceleration-seismograms)
+    * [PAS Velocity Seismograms](#pas-velocity-seismograms)
   * [Site SBSM](#site-sbsm)
     * [SBSM Fourier Amplitude Spectra](#sbsm-fourier-amplitude-spectra)
     * [SBSM RotD50 Spectra](#sbsm-rotd50-spectra)
     * [SBSM RotD Ratio](#sbsm-rotd-ratio)
     * [SBSM Acceleration Seismograms](#sbsm-acceleration-seismograms)
     * [SBSM Velocity Seismograms](#sbsm-velocity-seismograms)
-  * [Site Los Angeles](#site-los-angeles)
-    * [Los Angeles Fourier Amplitude Spectra](#los-angeles-fourier-amplitude-spectra)
-    * [Los Angeles RotD50 Spectra](#los-angeles-rotd50-spectra)
-    * [Los Angeles RotD Ratio](#los-angeles-rotd-ratio)
-    * [Los Angeles Acceleration Seismograms](#los-angeles-acceleration-seismograms)
-    * [Los Angeles Velocity Seismograms](#los-angeles-velocity-seismograms)
-  * [Site Riverside](#site-riverside)
-    * [Riverside Fourier Amplitude Spectra](#riverside-fourier-amplitude-spectra)
-    * [Riverside RotD50 Spectra](#riverside-rotd50-spectra)
-    * [Riverside RotD Ratio](#riverside-rotd-ratio)
-    * [Riverside Acceleration Seismograms](#riverside-acceleration-seismograms)
-    * [Riverside Velocity Seismograms](#riverside-velocity-seismograms)
-  * [Site San Diego](#site-san-diego)
-    * [San Diego Fourier Amplitude Spectra](#san-diego-fourier-amplitude-spectra)
-    * [San Diego RotD50 Spectra](#san-diego-rotd50-spectra)
-    * [San Diego RotD Ratio](#san-diego-rotd-ratio)
-    * [San Diego Acceleration Seismograms](#san-diego-acceleration-seismograms)
-    * [San Diego Velocity Seismograms](#san-diego-velocity-seismograms)
-  * [Site Santa Barbara](#site-santa-barbara)
-    * [Santa Barbara Fourier Amplitude Spectra](#santa-barbara-fourier-amplitude-spectra)
-    * [Santa Barbara RotD50 Spectra](#santa-barbara-rotd50-spectra)
-    * [Santa Barbara RotD Ratio](#santa-barbara-rotd-ratio)
-    * [Santa Barbara Acceleration Seismograms](#santa-barbara-acceleration-seismograms)
-    * [Santa Barbara Velocity Seismograms](#santa-barbara-velocity-seismograms)
+  * [Site WNGC](#site-wngc)
+    * [WNGC Fourier Amplitude Spectra](#wngc-fourier-amplitude-spectra)
+    * [WNGC RotD50 Spectra](#wngc-rotd50-spectra)
+    * [WNGC RotD Ratio](#wngc-rotd-ratio)
+    * [WNGC Acceleration Seismograms](#wngc-acceleration-seismograms)
+    * [WNGC Velocity Seismograms](#wngc-velocity-seismograms)
+  * [Site STNI](#site-stni)
+    * [STNI Fourier Amplitude Spectra](#stni-fourier-amplitude-spectra)
+    * [STNI RotD50 Spectra](#stni-rotd50-spectra)
+    * [STNI RotD Ratio](#stni-rotd-ratio)
+    * [STNI Acceleration Seismograms](#stni-acceleration-seismograms)
+    * [STNI Velocity Seismograms](#stni-velocity-seismograms)
+  * [Site LAPD](#site-lapd)
+    * [LAPD Fourier Amplitude Spectra](#lapd-fourier-amplitude-spectra)
+    * [LAPD RotD50 Spectra](#lapd-rotd50-spectra)
+    * [LAPD RotD Ratio](#lapd-rotd-ratio)
+    * [LAPD Acceleration Seismograms](#lapd-acceleration-seismograms)
+    * [LAPD Velocity Seismograms](#lapd-velocity-seismograms)
 * [ShakeMaps](#shakemaps)
   * [Region RotD100/RotD50 Ratio](#region-rotd100rotd50-ratio)
 ## Fault List
@@ -57,6 +58,7 @@
 
 | Section Name | Area Ruptured | Patches Ruptured | Moment | Equiv. Mag | Max Slip |
 |-----|-----|-----|-----|-----|-----|
+| *(Total)* | 1847.07 km^2 | 1365 | 2.13e20 N-m | M7.52 | 5.90 m |
 | San Andreas (Mojave S) | 1722.96 km^2 | 1272 | 2.04e20 N-m | M7.51 | 5.90 m |
 | San Andreas (San Bernardino N) | 124.11 km^2 | 93 | 8.85e18 N-m | M6.60 | 4.72 m |
 
@@ -125,6 +127,41 @@ RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparison
 RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
 
 ![USC Velocity Seismograms](resources/seis_vel_USC.png)
+### Site PAS
+*[(top)](#table-of-contents)*
+
+*Location: 34.148426, -118.17119*
+
+| Distance | Actual RSQSim Surface | BBP Equivalent Planar Surface | GMPE Surface |
+|-----|-----|-----|-----|
+| Horizontal | 42.50 km | 41.58 km | 42.50 km |
+| 3-D | 42.50 km | 41.58 km | 42.50 km |
+
+*NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.*
+#### PAS Fourier Amplitude Spectra
+*[(top)](#table-of-contents)*
+
+![PAS FAS Plot](resources/fas_spectra_PAS.png)
+#### PAS RotD50 Spectra
+*[(top)](#table-of-contents)*
+
+![PAS RotD50 Plot](resources/rotd50_spectra_PAS.png)
+#### PAS RotD Ratio
+*[(top)](#table-of-contents)*
+
+![PAS RotD Ratio Plot](resources/rotd_ratio_PAS.png)
+#### PAS Acceleration Seismograms
+*[(top)](#table-of-contents)*
+
+RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
+
+![PAS Acceleration Seismograms](resources/seis_accel_PAS.png)
+#### PAS Velocity Seismograms
+*[(top)](#table-of-contents)*
+
+RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
+
+![PAS Velocity Seismograms](resources/seis_vel_PAS.png)
 ### Site SBSM
 *[(top)](#table-of-contents)*
 
@@ -160,146 +197,111 @@ RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparison
 RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
 
 ![SBSM Velocity Seismograms](resources/seis_vel_SBSM.png)
-### Site Los Angeles
+### Site WNGC
 *[(top)](#table-of-contents)*
 
-*Location: 34.05, -118.25*
+*Location: 34.041824, -118.0653*
 
 | Distance | Actual RSQSim Surface | BBP Equivalent Planar Surface | GMPE Surface |
 |-----|-----|-----|-----|
-| Horizontal | 55.53 km | 54.60 km | 55.53 km |
-| 3-D | 55.53 km | 54.60 km | 55.53 km |
+| Horizontal | 48.75 km | 47.91 km | 48.74 km |
+| 3-D | 48.75 km | 47.91 km | 48.74 km |
 
 *NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.*
-#### Los Angeles Fourier Amplitude Spectra
+#### WNGC Fourier Amplitude Spectra
 *[(top)](#table-of-contents)*
 
-![Los Angeles FAS Plot](resources/fas_spectra_LOS_ANGELE.png)
-#### Los Angeles RotD50 Spectra
+![WNGC FAS Plot](resources/fas_spectra_WNGC.png)
+#### WNGC RotD50 Spectra
 *[(top)](#table-of-contents)*
 
-![Los Angeles RotD50 Plot](resources/rotd50_spectra_LOS_ANGELE.png)
-#### Los Angeles RotD Ratio
+![WNGC RotD50 Plot](resources/rotd50_spectra_WNGC.png)
+#### WNGC RotD Ratio
 *[(top)](#table-of-contents)*
 
-![Los Angeles RotD Ratio Plot](resources/rotd_ratio_LOS_ANGELE.png)
-#### Los Angeles Acceleration Seismograms
-*[(top)](#table-of-contents)*
-
-RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
-
-![Los Angeles Acceleration Seismograms](resources/seis_accel_LOS_ANGELE.png)
-#### Los Angeles Velocity Seismograms
+![WNGC RotD Ratio Plot](resources/rotd_ratio_WNGC.png)
+#### WNGC Acceleration Seismograms
 *[(top)](#table-of-contents)*
 
 RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
 
-![Los Angeles Velocity Seismograms](resources/seis_vel_LOS_ANGELE.png)
-### Site Riverside
+![WNGC Acceleration Seismograms](resources/seis_accel_WNGC.png)
+#### WNGC Velocity Seismograms
 *[(top)](#table-of-contents)*
 
-*Location: 33.95, -117.4*
+RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
+
+![WNGC Velocity Seismograms](resources/seis_vel_WNGC.png)
+### Site STNI
+*[(top)](#table-of-contents)*
+
+*Location: 33.93088, -118.17881*
 
 | Distance | Actual RSQSim Surface | BBP Equivalent Planar Surface | GMPE Surface |
 |-----|-----|-----|-----|
-| Horizontal | 37.52 km | 38.61 km | 38.81 km |
-| 3-D | 37.52 km | 38.61 km | 38.81 km |
+| Horizontal | 64.46 km | 63.60 km | 64.46 km |
+| 3-D | 64.46 km | 63.60 km | 64.46 km |
 
 *NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.*
-#### Riverside Fourier Amplitude Spectra
+#### STNI Fourier Amplitude Spectra
 *[(top)](#table-of-contents)*
 
-![Riverside FAS Plot](resources/fas_spectra_RIVERSIDE.png)
-#### Riverside RotD50 Spectra
+![STNI FAS Plot](resources/fas_spectra_STNI.png)
+#### STNI RotD50 Spectra
 *[(top)](#table-of-contents)*
 
-![Riverside RotD50 Plot](resources/rotd50_spectra_RIVERSIDE.png)
-#### Riverside RotD Ratio
+![STNI RotD50 Plot](resources/rotd50_spectra_STNI.png)
+#### STNI RotD Ratio
 *[(top)](#table-of-contents)*
 
-![Riverside RotD Ratio Plot](resources/rotd_ratio_RIVERSIDE.png)
-#### Riverside Acceleration Seismograms
-*[(top)](#table-of-contents)*
-
-RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
-
-![Riverside Acceleration Seismograms](resources/seis_accel_RIVERSIDE.png)
-#### Riverside Velocity Seismograms
+![STNI RotD Ratio Plot](resources/rotd_ratio_STNI.png)
+#### STNI Acceleration Seismograms
 *[(top)](#table-of-contents)*
 
 RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
 
-![Riverside Velocity Seismograms](resources/seis_vel_RIVERSIDE.png)
-### Site San Diego
+![STNI Acceleration Seismograms](resources/seis_accel_STNI.png)
+#### STNI Velocity Seismograms
 *[(top)](#table-of-contents)*
 
-*Location: 32.7, -117.15*
+RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
+
+![STNI Velocity Seismograms](resources/seis_vel_STNI.png)
+### Site LAPD
+*[(top)](#table-of-contents)*
+
+*Location: 34.557, -118.125*
 
 | Distance | Actual RSQSim Surface | BBP Equivalent Planar Surface | GMPE Surface |
 |-----|-----|-----|-----|
-| Horizontal | 178.43 km | 179.48 km | 179.68 km |
-| 3-D | 178.43 km | 179.48 km | 179.68 km |
+| Horizontal | 0.47 km | 1.06 km | 0.36 km |
+| 3-D | 0.47 km | 1.06 km | 0.36 km |
 
 *NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.*
-#### San Diego Fourier Amplitude Spectra
+#### LAPD Fourier Amplitude Spectra
 *[(top)](#table-of-contents)*
 
-![San Diego FAS Plot](resources/fas_spectra_SAN_DIEGO.png)
-#### San Diego RotD50 Spectra
+![LAPD FAS Plot](resources/fas_spectra_LAPD.png)
+#### LAPD RotD50 Spectra
 *[(top)](#table-of-contents)*
 
-![San Diego RotD50 Plot](resources/rotd50_spectra_SAN_DIEGO.png)
-#### San Diego RotD Ratio
+![LAPD RotD50 Plot](resources/rotd50_spectra_LAPD.png)
+#### LAPD RotD Ratio
 *[(top)](#table-of-contents)*
 
-![San Diego RotD Ratio Plot](resources/rotd_ratio_SAN_DIEGO.png)
-#### San Diego Acceleration Seismograms
-*[(top)](#table-of-contents)*
-
-RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
-
-![San Diego Acceleration Seismograms](resources/seis_accel_SAN_DIEGO.png)
-#### San Diego Velocity Seismograms
+![LAPD RotD Ratio Plot](resources/rotd_ratio_LAPD.png)
+#### LAPD Acceleration Seismograms
 *[(top)](#table-of-contents)*
 
 RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
 
-![San Diego Velocity Seismograms](resources/seis_vel_SAN_DIEGO.png)
-### Site Santa Barbara
-*[(top)](#table-of-contents)*
-
-*Location: 34.45, -119.7*
-
-| Distance | Actual RSQSim Surface | BBP Equivalent Planar Surface | GMPE Surface |
-|-----|-----|-----|-----|
-| Horizontal | 112.50 km | 112.66 km | 112.50 km |
-| 3-D | 112.50 km | 112.66 km | 112.50 km |
-
-*NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.*
-#### Santa Barbara Fourier Amplitude Spectra
-*[(top)](#table-of-contents)*
-
-![Santa Barbara FAS Plot](resources/fas_spectra_SANTA_BARB.png)
-#### Santa Barbara RotD50 Spectra
-*[(top)](#table-of-contents)*
-
-![Santa Barbara RotD50 Plot](resources/rotd50_spectra_SANTA_BARB.png)
-#### Santa Barbara RotD Ratio
-*[(top)](#table-of-contents)*
-
-![Santa Barbara RotD Ratio Plot](resources/rotd_ratio_SANTA_BARB.png)
-#### Santa Barbara Acceleration Seismograms
+![LAPD Acceleration Seismograms](resources/seis_accel_LAPD.png)
+#### LAPD Velocity Seismograms
 *[(top)](#table-of-contents)*
 
 RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
 
-![Santa Barbara Acceleration Seismograms](resources/seis_accel_SANTA_BARB.png)
-#### Santa Barbara Velocity Seismograms
-*[(top)](#table-of-contents)*
-
-RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
-
-![Santa Barbara Velocity Seismograms](resources/seis_vel_SANTA_BARB.png)
+![LAPD Velocity Seismograms](resources/seis_vel_LAPD.png)
 
 ## ShakeMaps
 *[(top)](#table-of-contents)*
