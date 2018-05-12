@@ -30,7 +30,6 @@
 *[(top)](#bruce-2585-1myr)*
 
 * [ASK2014](gmpe_bbp_comparisons_ASK2014/)
-* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
 
 ## Source/Site Ground Motion Comparisons
 *[(top)](#bruce-2585-1myr)*
