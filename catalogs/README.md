@@ -2,6 +2,7 @@
 
 | Date | Name | Duration | Element Area | Description |
 |-----|-----|-----|-----|-----|
+| 2018/06/05 | [Bruce 2734](rundir2734#bruce-2734) | 25,525 yrs | 1.35 km | Finite receiver patch fracArea=0.8, all else same as r2585 |
 | 2018/04/23 | [Bruce 2667](rundir2667#bruce-2667) | 10,693 yrs | 0.09 km | dx/4, LatCut=37, rateCut=2.0mm/yr, interpolated nearest, like r2666 but larger b=.015 |
 | 2018/04/17 | [Bruce 2666](rundir2666#bruce-2666) | 4,994 yrs | 0.09 km | dx/4, LatCut=37, rateCut=2.0mm/yr, interpolated nearest |
 | 2018/04/16 | [Bruce 2665](rundir2665#bruce-2665) | 34,557 yrs | 0.34 km | dx/2, LatCut=37, rateCut=0.2mm/yr, interpolated nearest |
