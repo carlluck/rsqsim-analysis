@@ -14,6 +14,7 @@
 * [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
 * [Source/Site Ground Motion Comparisons](#sourcesite-ground-motion-comparisons)
 * [Extreme Event Examples](#extreme-event-examples)
+* [Occupancy Copulas](#occupancy-copulas)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
@@ -40,6 +41,11 @@
 *[(top)](#bruce-2585-1myr)*
 
 [Extreme Event Examples Here](extreme_events/)
+
+## Occupancy Copulas
+*[(top)](#bruce-2585-1myr)*
+
+* [6-D M>=7.0 Occupancy Copulas](occupancy_copula_m7.0_6D/)
 
 ## Plots
 ### Magnitude-Frequency Plot
