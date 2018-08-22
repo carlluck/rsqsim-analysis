@@ -2,6 +2,8 @@
 
 | Date | Name | Duration | Element Area | Description |
 |-----|-----|-----|-----|-----|
+| 2018/08/22 | [JG Test Calc Siffness 2](test25a589d_J2#jg-test-calc-siffness-2) | 334,212 yrs | 1.35 km | Test of reading in the stiffness files written by previous run test25a589d_J using my executable |
+| 2018/08/22 | [JG Test Rerun 2763 V3](test25a589d_flt2763V3#jg-test-rerun-2763-v3) | 57,621 yrs | 1.35 km | Test of reading in the stiffness files written by previous run test25a589d_J using Bruce's executable |
 | 2018/08/21 | [JG Test Calc Siffness](test25a589d_J#jg-test-calc-siffness) | 88,647 yrs | 1.35 km | Test of calculating and writing new stiffness matrices |
 | 2018/08/21 | [JG Test Rerun 2763](test25a589d_2763V2#jg-test-rerun-2763) | 55,815 yrs | 1.35 km | Rerun test of Bruce's rundir2763, reading new stiffness matrices |
 | 2018/08/14 | [Bruce 2768](rundir2768#bruce-2768) | 128,699 yrs | 1.35 km | FinitePatch fracArea=0.90, 48Hr, all else same as r2585 |
