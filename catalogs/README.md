@@ -2,6 +2,8 @@
 
 | Date | Name | Duration | Element Area | Description |
 |-----|-----|-----|-----|-----|
+| 2018/08/21 | [JG Test Calc Siffness](test25a589d_J#jg-test-calc-siffness) | 88,647 yrs | 1.35 km | Test of calculating and writing new stiffness matrices |
+| 2018/08/21 | [JG Test Rerun 2763](test25a589d_2763V2#jg-test-rerun-2763) | 55,815 yrs | 1.35 km | Rerun test of Bruce's rundir2763, reading new stiffness matrices |
 | 2018/08/14 | [Bruce 2768](rundir2768#bruce-2768) | 128,699 yrs | 1.35 km | FinitePatch fracArea=0.90, 48Hr, all else same as r2585 |
 | 2018/08/14 | [Bruce 2769](rundir2769#bruce-2769) | 111,560 yrs | 1.35 km | FinitePatch fracArea=0.95, 48Hr, all else same as r2585 |
 | 2018/06/27 | [Bruce 2742](rundir2742#bruce-2742) | 52,890 yrs | 1.35 km | FinitePatch fracArea=0.85,  all else same as r2585 |
