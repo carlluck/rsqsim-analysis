@@ -2,6 +2,7 @@
 
 | Date | Name | Duration | Element Area | Description |
 |-----|-----|-----|-----|-----|
+| 2018/08/23 | [JG Test Master Exec](defaultModel_JfM#jg-test-master-exec) | 139,726 yrs | 1.35 km | Calculating stiffness files using the executable from the master branch |
 | 2018/08/22 | [JG Test Calc Siffness 2](test25a589d_J2#jg-test-calc-siffness-2) | 334,212 yrs | 1.35 km | Test of reading in the stiffness files written by previous run test25a589d_J using my executable |
 | 2018/08/22 | [JG Test Rerun 2763 V3](test25a589d_flt2763V3#jg-test-rerun-2763-v3) | 57,621 yrs | 1.35 km | Test of reading in the stiffness files written by previous run test25a589d_J using Bruce's executable |
 | 2018/08/21 | [JG Test Calc Siffness](test25a589d_J#jg-test-calc-siffness) | 88,647 yrs | 1.35 km | Test of calculating and writing new stiffness matrices |
