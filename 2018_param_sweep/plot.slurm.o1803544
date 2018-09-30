@@ -1,0 +1,5103 @@
+Processing: defaultModel
+	default model setup
+	Catalog length: 217822.45 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/defaultModel/defaultModel.in
+Processing: ddot1_5
+	change ddotEQ: ddotEQ=1.5
+	Catalog length: 427577.75 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/ddot1_5/ddot1_5.in
+Processing: ddot2
+	change ddotEQ: ddotEQ=2
+	Catalog length: 420675.97 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/ddot2/ddot2.in
+Processing: ddot2_5
+	change ddotEQ: ddotEQ=2.5
+	Catalog length: 416427.8 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/ddot2_5/ddot2_5.in
+Processing: ddot3
+	change ddotEQ: ddotEQ=3
+	Catalog length: 410842.6 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/ddot3/ddot3.in
+Processing: ddot0_5
+	change ddotEQ: ddotEQ=0.5
+	Catalog length: 451532.56 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/ddot0_5/ddot0_5.in
+Processing: overS0_01
+	stress overshoot: overshoot=0.01
+IOException with catalog, skipping: No files ending in '.tList' found in /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/overS0_01
+Processing: overS0_05
+	stress overshoot: overshoot=0.05
+	Catalog length: 324424.9 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/overS0_05/overS0_05.in
+Processing: overS0_15
+	stress overshoot: overshoot=0.15
+	Catalog length: 464004.44 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/overS0_15/overS0_15.in
+Processing: overS0_2
+	stress overshoot: overshoot=0.2
+	Catalog length: 498708.56 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/overS0_2/overS0_2.in
+Processing: overS0_25
+	stress overshoot: overshoot=0.25
+	Catalog length: 519327.8 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/overS0_25/overS0_25.in
+Processing: overS0_3
+	stress overshoot: overshoot=0.3
+	Catalog length: 548173.06 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/overS0_3/overS0_3.in
+Processing: aRed0_001
+	a reduction factor: fA=0.001
+	Catalog length: 455886.78 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/aRed0_001/aRed0_001.in
+Processing: aRed0_005
+	a reduction factor: fA=0.005
+	Catalog length: 455555.94 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/aRed0_005/aRed0_005.in
+Processing: aRed0_01
+	a reduction factor: fA=0.01
+	Catalog length: 460051.62 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/aRed0_01/aRed0_01.in
+Processing: aRed0_05
+	a reduction factor: fA=0.05
+	Catalog length: 451944.56 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/aRed0_05/aRed0_05.in
+Processing: aRed0_15
+	a reduction factor: fA=0.15
+	Catalog length: 436694.22 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/aRed0_15/aRed0_15.in
+Processing: aRed0_2
+	a reduction factor: fA=0.2
+	Catalog length: 436877.5 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/aRed0_2/aRed0_2.in
+Processing: Dc2e5
+	change Dc: Dc=2.00E-05
+	Catalog length: 428879.3 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/Dc2e5/Dc2e5.in
+Processing: Dc5e5
+	change Dc: Dc=5.00E-05
+	Catalog length: 381346.38 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/Dc5e5/Dc5e5.in
+Processing: Dc1e4
+	change Dc: Dc=1.00E-04
+	Catalog length: 370997.2 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/Dc1e4/Dc1e4.in
+Processing: Dc2e4
+	change Dc: Dc=2.00E-04
+	Catalog length: 342059.38 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/Dc2e4/Dc2e4.in
+Processing: mu0_4
+	change mu0: mu0=0.4
+	Catalog length: 384802.88 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/mu0_4/mu0_4.in
+Processing: mu0_5
+	change mu0: mu0=0.5
+	Catalog length: 429329.1 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/mu0_5/mu0_5.in
+Processing: mu0_7
+	change mu0: mu0=0.7
+	Catalog length: 456339.06 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/mu0_7/mu0_7.in
+Processing: mu0_8
+	change mu0: mu0=0.8
+	Catalog length: 458737.25 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/mu0_8/mu0_8.in
+Loading fault model from: /home/rcf-12/kmilner/.opensha/ucerf3_sub_sects/FM3_1_GEOL_sub_sects.xml
+Found eList file in directory: /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/mu0_8/mu0_8.eList
+Detected prefix: mu0_8
+Scatter mag range: 6.000000517282866 8.031584285865256
+XYZ logMinX=1.0, logMaxX=4.0, spacing=0.06
+MinZ: -6.853250607139278
+MaxZ: -1.446576739639536
+Filtering Mag/Vel scatter from 326434 to ~100000 points
+Filter done (random mag-dependent sample): 86553
+Log stats
+SummaryStatistics:
+n: 104064186
+min: -25.522984629764522
+max: 2.566799107149343
+sum: -1.93876828652935E7
+mean: -0.1863050450929137
+geometric mean: NaN
+variance: 1.8798794804159054
+population variance: 1.8798794623512902
+second moment: 1.9562812602770466E8
+sum of squares: 1.992401491580257E8
+standard deviation: 1.371086970405563
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 104064186
+min: 8.232061638419683E-12
+max: 13.024068999891172
+sum: 1.037292089322713E8
+mean: 0.9967810533041513
+geometric mean: 0.8300203627215516
+variance: 0.12002206113493913
+population variance: 0.12002205998159265
+second moment: 1.2489997974027615E7
+sum of squares: 1.1588530811205564E8
+standard deviation: 0.3464420025558955
+sum of logs: -1.93876828652935E7
+
+COV: 0.347560782187324
+Cum prob at 4: 0.9999680485692151
+Log stats
+SummaryStatistics:
+n: 94740542
+min: -26.30979558128715
+max: 2.537733253320796
+sum: -1.3649521259182112E7
+mean: -0.14407265328062016
+geometric mean: NaN
+variance: 1.3519290282064131
+population variance: 1.3519290139366085
+second moment: 1.2808248752587985E8
+sum of squares: 1.300490102697029E8
+standard deviation: 1.1627248291003394
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 94740542
+min: 3.748011882172887E-12
+max: 12.650961919133737
+sum: 9.439682683406906E7
+mean: 0.9963720371595801
+geometric mean: 0.8658248407589157
+variance: 0.10976017345083591
+population variance: 0.10976017229230155
+second moment: 1.0398738212986032E7
+sum of squares: 1.0445309686712956E8
+standard deviation: 0.331300729626175
+sum of logs: -1.3649521259182112E7
+
+COV: 0.3325070528581218
+Cum prob at 4: 0.9999854340725023
+Log stats
+SummaryStatistics:
+n: 74359578
+min: -24.90794962616145
+max: 2.4893019973639547
+sum: -7799158.962020273
+mean: -0.10488438976898064
+geometric mean: NaN
+variance: 0.7307877862114959
+population variance: 0.7307877763837399
+second moment: 5.4341070659453265E7
+sum of squares: 5.5159080687957585E7
+standard deviation: 0.8548612672308272
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 74359578
+min: 1.5227020128714096E-11
+max: 12.052860255408255
+sum: 7.398861071380286E7
+mean: 0.9950111700985945
+geometric mean: 0.9004286153291537
+variance: 0.11975683009181007
+population variance: 0.11975682848130026
+second moment: 8905067.228487868
+sum of squares: 8.252456134892632E7
+standard deviation: 0.34605899799284234
+sum of logs: -7799158.962020273
+
+COV: 0.34779408351622
+Cum prob at 4: 0.9999683746494181
+Log stats
+SummaryStatistics:
+n: 28906787
+min: -22.377066701307623
+max: 2.768371141092182
+sum: -3607287.545921871
+mean: -0.12479033197042516
+geometric mean: NaN
+variance: 0.31670932429528503
+population variance: 0.3167093133390579
+second moment: 9155048.661608405
+sum of squares: 9605203.2719355
+standard deviation: 0.5627693348924451
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 28906787
+min: 1.9132133844282727E-10
+max: 15.932660805715619
+sum: 2.8669201961585656E7
+mean: 0.9917809946007913
+geometric mean: 0.8826819533704036
+variance: 0.2909341491789443
+population variance: 0.2909341391143823
+second moment: 8409971.190407818
+sum of squares: 3.68435408262798E7
+standard deviation: 0.5393831191082497
+sum of logs: -3607287.545921871
+
+COV: 0.5438530502647518
+Cum prob at 4: 0.994829285066981
+Log stats
+SummaryStatistics:
+n: 1606522
+min: -25.038625668779066
+max: 1.8470940683781052
+sum: -584948.4415520703
+mean: -0.36410857837745225
+geometric mean: NaN
+variance: 3.704186767048572
+population variance: 3.704184461330526
+second moment: 5950853.8291856395
+sum of squares: 6163838.574663353
+standard deviation: 1.9246263967452417
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1606522
+min: 1.3361740641369617E-11
+max: 6.341365148502589
+sum: 1603815.7932504069
+mean: 0.9983154872764722
+geometric mean: 0.6948157486804727
+variance: 0.19738092245215458
+population variance: 0.19738079958989532
+second moment: 317096.59691875783
+sum of squares: 1918210.7420592282
+standard deviation: 0.44427572795748654
+sum of logs: -584948.4415520703
+
+COV: 0.44502537887048665
+Cum prob at 4: 0.9990922974155769
+Log stats
+SummaryStatistics:
+n: 1333234
+min: -24.596789486397793
+max: 2.163888363970204
+sum: -294832.985650292
+mean: -0.22114121425818298
+geometric mean: NaN
+variance: 2.0944400301609165
+population variance: 2.0944384592138583
+second moment: 2792376.564731529
+sum of squares: 2857576.28918157
+standard deviation: 1.447218031314189
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1333234
+min: 2.0785001181131674E-11
+max: 8.704919833848333
+sum: 1330396.7470407132
+mean: 0.9978719017372131
+geometric mean: 0.8016034744572436
+variance: 0.14690808491132182
+population variance: 0.14690797472204906
+second moment: 195862.70677057633
+sum of squares: 1523428.2388051155
+standard deviation: 0.3832859049212765
+sum of logs: -294832.985650292
+
+COV: 0.3841033145176322
+Cum prob at 4: 0.9998496619773338
+Log stats
+SummaryStatistics:
+n: 976237
+min: -23.707098287085085
+max: 2.1499899369065
+sum: -133095.54580932145
+mean: -0.13633528109396056
+geometric mean: NaN
+variance: 1.0080842338063196
+population variance: 1.0080832011838787
+second moment: 984128.1200741463
+sum of squares: 1002273.7387244437
+standard deviation: 1.004033980404209
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 976237
+min: 5.0598545399940235E-11
+max: 8.584772007379836
+sum: 972822.9114540134
+mean: 0.9965028076727368
+geometric mean: 0.8725500339101728
+variance: 0.1376686481226744
+population variance: 0.13766850710297518
+second moment: 134397.09036868718
+sum of squares: 1103817.8530009773
+standard deviation: 0.37103725974984564
+sum of logs: -133095.54580932145
+
+COV: 0.37233940225053397
+Cum prob at 4: 0.9999052469586126
+Log stats
+SummaryStatistics:
+n: 371543
+min: -21.050191352833952
+max: 2.7392740571957606
+sum: -48135.82871096117
+mean: -0.12955654853129062
+geometric mean: NaN
+variance: 0.3641641336789704
+population variance: 0.3641631535390305
+second moment: 135302.270555352
+sum of squares: 141538.5823838403
+standard deviation: 0.60346013429138
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 371543
+min: 7.211374543095083E-10
+max: 15.475746510728616
+sum: 369136.59133158135
+mean: 0.9935232027829599
+geometric mean: 0.8784849099802183
+variance: 0.29330065078433887
+population variance: 0.2932998613719403
+second moment: 108973.51039371482
+sum of squares: 475719.27887784207
+standard deviation: 0.5415723873909553
+sum of logs: -48135.82871096117
+
+COV: 0.5451029083910227
+Cum prob at 4: 0.9946921291661872
+Log stats
+SummaryStatistics:
+n: 422330
+min: -24.184210340622997
+max: 2.077224174048691
+sum: -390387.5903100756
+mean: -0.924366230933328
+geometric mean: NaN
+variance: 7.991653372923804
+population variance: 7.991634450153996
+second moment: 3375106.9773335373
+sum of squares: 3735968.0827916525
+standard deviation: 2.8269512505389627
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 422330
+min: 3.140009050721859E-11
+max: 7.982280711299512
+sum: 421864.41707808827
+mean: 0.9988975850119106
+geometric mean: 0.3967828080752347
+variance: 0.6675408807201898
+population variance: 0.6675393001057871
+second moment: 281921.87261367706
+sum of squares: 703321.2200354103
+standard deviation: 0.8170317501298158
+sum of logs: -390387.5903100756
+
+COV: 0.8179334522268104
+Cum prob at 4: 0.9550781545036957
+Log stats
+SummaryStatistics:
+n: 251615
+min: -23.74928745811861
+max: 2.1261119219437306
+sum: -150749.16630197808
+mean: -0.5991263092501682
+geometric mean: NaN
+variance: 5.018423052561252
+population variance: 5.018403107712763
+second moment: 1262705.4979471469
+sum of squares: 1353023.289576185
+standard deviation: 2.2401837095562613
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 251615
+min: 4.8508238903235003E-11
+max: 8.382212674497236
+sum: 251137.2729505915
+mean: 0.9981013570359183
+geometric mean: 0.5492913372686135
+variance: 0.42406963545427495
+population variance: 0.42406795006335846
+second moment: 106701.85725519194
+sum of squares: 357362.3101894657
+standard deviation: 0.6512062925481256
+sum of logs: -150749.16630197808
+
+COV: 0.6524450527569925
+Cum prob at 4: 0.9833182208723605
+Log stats
+SummaryStatistics:
+n: 143801
+min: -23.35345824684151
+max: 1.887383162339313
+sum: -52106.4945512799
+mean: -0.36235140611873057
+geometric mean: NaN
+variance: 2.6095406720254686
+population variance: 2.609522525137255
+second moment: 375251.9486372624
+sum of squares: 394132.81020583404
+standard deviation: 1.6154072774459909
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 143801
+min: 7.206459496355125E-11
+max: 6.602069512218617
+sum: 143314.7014057732
+mean: 0.9966182530425468
+geometric mean: 0.6960377329429631
+variance: 0.30975376446091274
+population variance: 0.3097516104163341
+second moment: 44542.591329479255
+sum of squares: 187372.63867981517
+standard deviation: 0.5565552663131602
+sum of logs: -52106.4945512799
+
+COV: 0.5584437818734193
+Cum prob at 4: 0.9935856600927064
+Log stats
+SummaryStatistics:
+n: 45904
+min: -19.655913484134043
+max: 2.7297710966653765
+sum: -9019.270174595566
+mean: -0.19648113834514436
+geometric mean: NaN
+variance: 0.8035787276635048
+population variance: 0.8035612220272277
+second moment: 36886.67433593786
+sum of squares: 38658.79080688502
+standard deviation: 0.896425528230597
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 45904
+min: 2.907670813087767E-9
+max: 15.329377672604908
+sum: 45616.921593858446
+mean: 0.9937461134946491
+geometric mean: 0.8216168282021407
+variance: 0.32274186166110364
+population variance: 0.3227348308607015
+second moment: 14814.81967582964
+sum of squares: 60146.45821931667
+standard deviation: 0.5681037419882954
+sum of logs: -9019.270174595566
+
+COV: 0.5716789573047768
+Cum prob at 4: 0.9925731475143147
+Plotting scatter with 235454 values
+Plotting scatter with 232021 values
+Plotting scatter with 212959 values
+Plotting scatter with 146135 values
+Plotting scatter with 2547 values
+Plotting scatter with 2494 values
+Plotting scatter with 2265 values
+Plotting scatter with 1575 values
+Processing: sigma125
+	vary tau/sigma: sigma0=125, tau0=68.75
+	Catalog length: 553947.56 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/sigma125/sigma125.in
+Loading fault model from: /home/rcf-12/kmilner/.opensha/ucerf3_sub_sects/FM3_1_GEOL_sub_sects.xml
+Found eList file in directory: /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/sigma125/sigma125.eList
+Detected prefix: sigma125
+Scatter mag range: 6.000000140460426 8.099386763110791
+XYZ logMinX=1.0, logMaxX=4.0, spacing=0.06
+MinZ: -6.7923946334586285
+MaxZ: -1.509569206499452
+Filtering Mag/Vel scatter from 327603 to ~100000 points
+Filter done (random mag-dependent sample): 87856
+Log stats
+SummaryStatistics:
+n: 103872975
+min: -27.45525112363741
+max: 2.5883564584488004
+sum: -1.5015546561604695E7
+mean: -0.14455681626136596
+geometric mean: NaN
+variance: 1.4081686660820691
+population variance: 1.4081686525254278
+second moment: 1.4627066723955745E8
+sum of squares: 1.4844126684475142E8
+standard deviation: 1.1866628274628261
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 103872975
+min: 1.192163820244524E-12
+max: 13.307881563220548
+sum: 1.0384760717373E8
+mean: 0.9997557803084257
+geometric mean: 0.8654057418873904
+variance: 0.10470177622507293
+population variance: 0.10470177521709394
+second moment: 1.0875684879580818E7
+sum of squares: 1.1469793042294885E8
+standard deviation: 0.323576538434221
+sum of logs: -1.5015546561604695E7
+
+COV: 0.3236555815005114
+Cum prob at 4: 0.9999908216120492
+Log stats
+SummaryStatistics:
+n: 95717491
+min: -24.66621986800665
+max: 2.587805038528569
+sum: -9879414.498720845
+mean: -0.10321430697257437
+geometric mean: NaN
+variance: 0.8865937778793491
+population variance: 0.8865937686167393
+second moment: 8.486253106822883E7
+sum of squares: 8.588222798906308E7
+standard deviation: 0.9415910884664049
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 95717491
+min: 1.939084888694113E-11
+max: 13.300545355082058
+sum: 9.56930137515146E7
+mean: 0.9997442761190837
+geometric mean: 0.9019336620956598
+variance: 0.09486193411157177
+population variance: 0.09486193312051013
+second moment: 9079946.22970503
+sum of squares: 1.0474848899240562E8
+standard deviation: 0.30799664626676015
+sum of logs: -9879414.498720845
+
+COV: 0.30807542851095393
+Cum prob at 4: 0.9999966132411766
+Log stats
+SummaryStatistics:
+n: 79240430
+min: -23.659372220120893
+max: 2.58614895203359
+sum: -5566920.932764712
+mean: -0.07025354270246964
+geometric mean: NaN
+variance: 0.4114986099748526
+population variance: 0.41149860478181405
+second moment: 3.2607326387311E7
+sum of squares: 3.2998422304771204E7
+standard deviation: 0.6414815741506942
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 79240430
+min: 5.307196887874537E-11
+max: 13.278536730666588
+sum: 7.920289175251831E7
+mean: 0.9995262740589066
+geometric mean: 0.9321574482235346
+variance: 0.09731732654104472
+population variance: 0.09731732531291754
+second moment: 7711466.7042454695
+sum of squares: 8.687683799233957E7
+standard deviation: 0.31195725114355766
+sum of logs: -5566920.932764712
+
+COV: 0.31210510342739883
+Cum prob at 4: 0.999995569969928
+Log stats
+SummaryStatistics:
+n: 39828872
+min: -21.159444334380137
+max: 2.518522092645311
+sum: -3346774.6639133347
+mean: -0.08402885886180632
+geometric mean: NaN
+variance: 0.22815387547080634
+population variance: 0.22815386974245241
+second moment: 9087111.27427681
+sum of squares: 9368336.93012904
+standard deviation: 0.47765455663147016
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 39828872
+min: 6.465023166311983E-10
+max: 12.410241915809225
+sum: 3.974668680977581E7
+mean: 0.9979365423619396
+geometric mean: 0.9194047227384188
+variance: 0.19549188909629234
+population variance: 0.19549188418799643
+second moment: 7786221.232362534
+sum of squares: 4.745089243775744E7
+standard deviation: 0.4421446472550497
+sum of logs: -3346774.6639133347
+
+COV: 0.4430588804860992
+Cum prob at 4: 0.9991365575177978
+Log stats
+SummaryStatistics:
+n: 1605520
+min: -26.202488155142042
+max: 2.113266286285832
+sum: -531327.2088406421
+mean: -0.3309377702181086
+geometric mean: NaN
+variance: 3.303760422884406
+population variance: 3.303758365133383
+second moment: 5304250.130388949
+sum of squares: 5480086.37213899
+standard deviation: 1.8176249401029922
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1605520
+min: 4.172573370855834E-12
+max: 8.275226448661257
+sum: 1605102.6956879103
+mean: 0.9997400815237008
+geometric mean: 0.7182498641822341
+variance: 0.18627611648086662
+population variance: 0.18627600045857073
+second moment: 299069.8442562445
+sum of squares: 1903755.3440972362
+standard deviation: 0.4315971692224899
+sum of logs: -531327.2088406421
+
+COV: 0.431709378466345
+Cum prob at 4: 0.9993404166778164
+Log stats
+SummaryStatistics:
+n: 1340213
+min: -23.36716759627154
+max: 2.218341690477757
+sum: -231318.09534011144
+mean: -0.17259800892851987
+geometric mean: NaN
+variance: 1.517011278624508
+population variance: 1.5170101467064632
+second moment: 2033116.719747909
+sum of squares: 2073041.7624327466
+standard deviation: 1.2316701176144966
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1340213
+min: 7.108337754386292E-11
+max: 9.192074914473805
+sum: 1339903.7555943434
+mean: 0.999769257270577
+geometric mean: 0.8414758126273714
+variance: 0.12922736891207204
+population variance: 0.129227272489064
+second moment: 173192.0705443859
+sum of squares: 1512786.6530891652
+standard deviation: 0.3594820842713473
+sum of logs: -231318.09534011144
+
+COV: 0.35956505129268773
+Cum prob at 4: 0.9999423989637003
+Log stats
+SummaryStatistics:
+n: 1036203
+min: -22.937142937776628
+max: 2.1358390014335478
+sum: -101531.3798686944
+mean: -0.09798406284163695
+geometric mean: NaN
+variance: 0.6221559973129962
+population variance: 0.6221553968939689
+second moment: 644679.2887277213
+sum of squares: 654627.7458332339
+standard deviation: 0.7887686589317531
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1036203
+min: 1.0927615148072969E-10
+max: 8.4641449583935
+sum: 1035785.6871882812
+mean: 0.9995972673195371
+geometric mean: 0.9066633532762202
+variance: 0.1138929740561816
+population variance: 0.11389286414241562
+second moment: 118016.12750296349
+sum of squares: 1153384.669945093
+standard deviation: 0.33748033136196487
+sum of logs: -101531.3798686944
+
+COV: 0.337616300479625
+Cum prob at 4: 0.9999799859165062
+Log stats
+SummaryStatistics:
+n: 506524
+min: -21.115273116066998
+max: 2.306349275533889
+sum: -46128.410834506416
+mean: -0.0910685591097496
+geometric mean: NaN
+variance: 0.2766792171300289
+population variance: 0.2766786708988195
+second moment: 140144.38709835365
+sum of squares: 144345.235007076
+standard deviation: 0.5260030580995028
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 506524
+min: 6.756991954468008E-10
+max: 10.037712759724723
+sum: 505603.7016579119
+mean: 0.9981831100953322
+geometric mean: 0.9129551173635247
+variance: 0.20219344539605233
+population variance: 0.20219304621764145
+second moment: 102415.63054234462
+sum of squares: 607100.7059389779
+standard deviation: 0.4496592547652637
+sum of logs: -46128.410834506416
+
+COV: 0.45047772319281043
+Cum prob at 4: 0.9989699349730943
+Log stats
+SummaryStatistics:
+n: 420258
+min: -24.57027550343649
+max: 2.1004909384453794
+sum: -382257.3808652818
+mean: -0.9095778804098322
+geometric mean: NaN
+variance: 7.831388846874093
+population variance: 7.831370212157212
+second moment: 3291195.982620766
+sum of squares: 3638888.840879212
+standard deviation: 2.7984618716134215
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 420258
+min: 2.134346518494526E-11
+max: 8.170179983597707
+sum: 420084.68594857084
+mean: 0.9995876008275166
+geometric mean: 0.40269417326103696
+variance: 0.6734029599109962
+population variance: 0.6734013575549199
+second moment: 283002.30772331555
+sum of squares: 702913.7510949961
+standard deviation: 0.8206113330383612
+sum of logs: -382257.3808652818
+
+COV: 0.8209498920945113
+Cum prob at 4: 0.9544045784009891
+Log stats
+SummaryStatistics:
+n: 245282
+min: -23.048713865153005
+max: 1.9025295933913224
+sum: -126823.1664411029
+mean: -0.5170504417001813
+geometric mean: NaN
+variance: 4.153316636906894
+population variance: 4.153299704084114
+second moment: 1018729.6580171598
+sum of squares: 1084303.6322433576
+standard deviation: 2.0379687526816728
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 245282
+min: 9.773964412281151E-11
+max: 6.702828445717297
+sum: 245186.33424113074
+mean: 0.9996099764399182
+geometric mean: 0.5962767096643238
+variance: 0.38575819192786054
+population variance: 0.38575661921485294
+second moment: 94619.15507425756
+sum of squares: 339709.86086843297
+standard deviation: 0.6210943502623901
+sum of logs: -126823.1664411029
+
+COV: 0.6213366862087547
+Cum prob at 4: 0.9871851226784287
+Log stats
+SummaryStatistics:
+n: 148110
+min: -22.80998776229138
+max: 1.9833026690112132
+sum: -44361.48986291354
+mean: -0.2995171822490971
+geometric mean: NaN
+variance: 1.983439539115812
+population variance: 1.9834261474505692
+second moment: 293765.2466989038
+sum of squares: 307052.27514301986
+standard deviation: 1.4083463846354745
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 148110
+min: 1.2409325676625238E-10
+max: 7.2667029120494915
+sum: 148014.2418142755
+mean: 0.9993534657637883
+geometric mean: 0.7411759872299265
+variance: 0.2742465299709555
+population variance: 0.27424467833008065
+second moment: 40618.37930746825
+sum of squares: 188536.92484696003
+standard deviation: 0.5236855258367903
+sum of logs: -44361.48986291354
+
+COV: 0.5240243255038363
+Cum prob at 4: 0.9959360645413843
+Log stats
+SummaryStatistics:
+n: 60378
+min: -20.971760834444794
+max: 2.3642613218462323
+sum: -9682.017340282693
+mean: -0.16035670840840455
+geometric mean: NaN
+variance: 0.6949077122373439
+population variance: 0.6948962029506462
+second moment: 41956.44294175412
+sum of squares: 43509.01937319463
+standard deviation: 0.8336112476672468
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 60378
+min: 7.799737626453811E-10
+max: 10.636179201788252
+sum: 60274.794830074046
+mean: 0.9982906825346095
+geometric mean: 0.8518398763188376
+variance: 0.24335561272355466
+population variance: 0.24335158218904335
+second moment: 14693.081829410059
+sum of squares: 74864.84789995746
+standard deviation: 0.49331086823985
+sum of logs: -9682.017340282693
+
+COV: 0.4941555369297434
+Cum prob at 4: 0.9975140028442497
+Plotting scatter with 239322 values
+Plotting scatter with 235840 values
+Plotting scatter with 217058 values
+Plotting scatter with 150374 values
+Plotting scatter with 2563 values
+Plotting scatter with 2511 values
+Plotting scatter with 2276 values
+Plotting scatter with 1604 values
+Processing: sigma150
+	vary tau/sigma: sigma0=150, tau0=82.5
+	Catalog length: 712584.0 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/sigma150/sigma150.in
+Loading fault model from: /home/rcf-12/kmilner/.opensha/ucerf3_sub_sects/FM3_1_GEOL_sub_sects.xml
+Found eList file in directory: /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/sigma150/sigma150.eList
+Detected prefix: sigma150
+Scatter mag range: 6.00000008184183 8.153302520745774
+XYZ logMinX=1.0, logMaxX=4.0, spacing=0.06
+MinZ: -6.468876694392337
+MaxZ: -1.5347682552449402
+Filtering Mag/Vel scatter from 388208 to ~100000 points
+Filter done (random mag-dependent sample): 89194
+Log stats
+SummaryStatistics:
+n: 112219585
+min: -26.264772589121538
+max: 2.5059259367474067
+sum: -1.6964785706442926E7
+mean: -0.15117491039070752
+geometric mean: NaN
+variance: 1.4850723653673055
+population variance: 1.4850723521336764
+second moment: 1.6665420305141503E8
+sum of squares: 1.6921885301063263E8
+standard deviation: 1.2186354522035314
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 112219585
+min: 3.920614990414617E-12
+max: 12.254900977148704
+sum: 1.1219088337593377E8
+mean: 0.9997442369458617
+geometric mean: 0.8596973155145655
+variance: 0.10696660078408753
+population variance: 0.1069665998308974
+second moment: 1.2003747441884376E7
+sum of squares: 1.241659365352265E8
+standard deviation: 0.32705748850024446
+sum of logs: -1.6964785706442926E7
+
+COV: 0.3271411591222359
+Cum prob at 4: 0.9999887433235094
+Log stats
+SummaryStatistics:
+n: 103790419
+min: -25.351958673937272
+max: 2.4628865381029024
+sum: -1.1134576916555902E7
+mean: -0.1072794292944922
+geometric mean: NaN
+variance: 0.9378836572309159
+population variance: 0.9378836481945938
+second moment: 9.734333681936549E7
+sum of squares: 9.853784787648566E7
+standard deviation: 0.9684439360287801
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 103790419
+min: 9.767518500094114E-12
+max: 11.738646734273887
+sum: 1.0376186415188418E8
+mean: 0.9997248797310928
+geometric mean: 0.8982746336709249
+variance: 0.09623340060848953
+population variance: 0.0962333996812999
+second moment: 9988104.874716584
+sum of squares: 1.1372142203481603E8
+standard deviation: 0.3102150876545007
+sum of logs: -1.1134576916555902E7
+
+COV: 0.31030045759983754
+Cum prob at 4: 0.999996061020252
+Log stats
+SummaryStatistics:
+n: 88022539
+min: -24.418323194410764
+max: 2.4572871005113286
+sum: -6427957.522656775
+mean: -0.07302626799543849
+geometric mean: NaN
+variance: 0.4587944623715182
+population variance: 0.45879445715927974
+second moment: 4.038425299828653E7
+sum of squares: 4.085366274687079E7
+standard deviation: 0.6773436811335278
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 88022539
+min: 2.4846028516424E-11
+max: 11.673100596489146
+sum: 8.79832352149287E7
+mean: 0.9995534804434583
+geometric mean: 0.9295764115961025
+variance: 0.0947636975272958
+population variance: 0.09476369645071134
+second moment: 8341341.1666169
+sum of squares: 9.628529014645976E7
+standard deviation: 0.30783712824689585
+sum of logs: -6427957.522656775
+
+COV: 0.30797464494878446
+Cum prob at 4: 0.9999966464288961
+Log stats
+SummaryStatistics:
+n: 48081187
+min: -22.959762384870782
+max: 2.4608017617202615
+sum: -4027370.560185349
+mean: -0.08376187884432745
+geometric mean: NaN
+variance: 0.227852864734093
+population variance: 0.22785285999517368
+second moment: 1.0955435969912766E7
+sum of squares: 1.1292776094814103E7
+standard deviation: 0.47733936013500183
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 48081187
+min: 1.0683213075627895E-10
+max: 11.714199772876453
+sum: 4.799675938884564E7
+mean: 0.9982440614201119
+geometric mean: 0.9196502181971092
+variance: 0.19118719539770476
+population variance: 0.19118719142136376
+second moment: 9192507.102735387
+sum of squares: 5.7104987130025126E7
+standard deviation: 0.4372495802144409
+sum of logs: -4027370.560185349
+
+COV: 0.4380187141733709
+Cum prob at 4: 0.9992350010084217
+Log stats
+SummaryStatistics:
+n: 1767003
+min: -25.180936863826744
+max: 1.9448751347351285
+sum: -643018.5411353132
+mean: -0.3639034801498883
+geometric mean: NaN
+variance: 3.640390317396905
+population variance: 3.6403882571908293
+second moment: 6432576.971620967
+sum of squares: 6666573.656540955
+standard deviation: 1.9079806910440433
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1767003
+min: 1.1589323102921548E-11
+max: 6.992758647856733
+sum: 1766527.0085414469
+mean: 0.9997306221559968
+geometric mean: 0.6949582687737988
+variance: 0.2027669331073948
+population variance: 0.20276681835550522
+second moment: 358289.5763346328
+sum of squares: 2124340.721639088
+standard deviation: 0.4502964946647873
+sum of logs: -643018.5411353132
+
+COV: 0.4504178272479919
+Cum prob at 4: 0.9989594040755732
+Log stats
+SummaryStatistics:
+n: 1465849
+min: -24.94649356582911
+max: 2.15072603451715
+sum: -269600.2640395186
+mean: -0.18392089774559542
+geometric mean: NaN
+variance: 1.6496075844379643
+population variance: 1.6496064590781323
+second moment: 2418073.978433221
+sum of squares: 2467659.10102765
+standard deviation: 1.2843705012331779
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1465849
+min: 1.4651277750141172E-11
+max: 8.59109356389833
+sum: 1465506.8548877721
+mean: 0.9997665891149854
+geometric mean: 0.8320016144271034
+variance: 0.13292442699143112
+population variance: 0.13292433631058542
+second moment: 194847.00545653532
+sum of squares: 1660011.795092263
+standard deviation: 0.3645880236533163
+sum of logs: -269600.2640395186
+
+COV: 0.36467314233420955
+Cum prob at 4: 0.9999282658167656
+Log stats
+SummaryStatistics:
+n: 1159910
+min: -22.786032090172686
+max: 2.2216754888136725
+sum: -122597.57289859066
+mean: -0.10569576337697395
+geometric mean: NaN
+variance: 0.7076274819181115
+population variance: 0.7076268718470872
+second moment: 820783.4849241548
+sum of squares: 833741.5289798271
+standard deviation: 0.8412059687841685
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1159910
+min: 1.2710188713894325E-10
+max: 9.222770576671232
+sum: 1159502.9699211232
+mean: 0.9996490847747523
+geometric mean: 0.899698327623077
+variance: 0.11424189355713014
+population variance: 0.11424179506509753
+second moment: 132510.20051395727
+sum of squares: 1291606.2831891023
+standard deviation: 0.3379968839458881
+sum of logs: -122597.57289859066
+
+COV: 0.3381155338346034
+Cum prob at 4: 0.9999794403867803
+Log stats
+SummaryStatistics:
+n: 609328
+min: -22.624914991108394
+max: 2.374423965057337
+sum: -56447.97110934523
+mean: -0.09263971310910225
+geometric mean: NaN
+variance: 0.28546462318809557
+population variance: 0.28546415469719544
+second moment: 173941.3024533327
+sum of squares: 179170.62630248445
+standard deviation: 0.5342888948762603
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 609328
+min: 1.493221607915739E-10
+max: 10.744822010150171
+sum: 608420.6440430144
+mean: 0.998510890756742
+geometric mean: 0.9115218505159534
+variance: 0.19850865561279774
+population variance: 0.19850832982987685
+second moment: 120956.6835985792
+sum of squares: 728471.3228367629
+standard deviation: 0.4455431018574945
+sum of logs: -56447.97110934523
+
+COV: 0.44620755365004633
+Cum prob at 4: 0.9990651244525773
+Log stats
+SummaryStatistics:
+n: 488992
+min: -24.46336166748646
+max: 2.2948624722745325
+sum: -476794.80176507705
+mean: -0.975056446250775
+geometric mean: NaN
+variance: 8.41711418676434
+population variance: 8.417096973570287
+second moment: 4115893.0833000815
+sum of squares: 4580794.928299808
+standard deviation: 2.901226324636591
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 488992
+min: 2.3751826871842853E-11
+max: 9.923071221024502
+sum: 488788.86120271555
+mean: 0.9995845764403323
+geometric mean: 0.3771710630698532
+variance: 0.7362900103639697
+population variance: 0.7362885046337935
+second moment: 360039.1884578879
+sum of squares: 848624.9952519699
+standard deviation: 0.8580734294709106
+sum of logs: -476794.80176507705
+
+COV: 0.8584300415344905
+Cum prob at 4: 0.9468881996989637
+Log stats
+SummaryStatistics:
+n: 276709
+min: -24.486961236450668
+max: 2.121051730109726
+sum: -151482.5539828421
+mean: -0.5474435380953883
+geometric mean: NaN
+variance: 4.436742110360148
+population variance: 4.436726076396272
+second moment: 1227682.035873536
+sum of squares: 1310610.181185578
+standard deviation: 2.106357545707791
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 276709
+min: 2.319785643772352E-11
+max: 8.339904205134012
+sum: 276574.28098920657
+mean: 0.9995131383121204
+geometric mean: 0.5784266475262154
+variance: 0.40351576265051625
+population variance: 0.4035143043829404
+second moment: 111656.03965149906
+sum of squares: 388095.66721943655
+standard deviation: 0.6352289057107809
+sum of logs: -151482.5539828421
+
+COV: 0.6355383249723892
+Cum prob at 4: 0.9854473653773768
+Log stats
+SummaryStatistics:
+n: 170914
+min: -22.786032090172686
+max: 2.0378239530982265
+sum: -56717.84155568461
+mean: -0.3318501793632141
+geometric mean: NaN
+variance: 2.261264744026815
+population variance: 2.261251513602484
+second moment: 386479.541195855
+sum of squares: 405301.3670892104
+standard deviation: 1.5037502266090652
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 170914
+min: 1.2710188713894325E-10
+max: 7.673892267568793
+sum: 170786.2007189833
+mean: 0.9992522597269982
+geometric mean: 0.7175948253148806
+variance: 0.2941985189973794
+population variance: 0.29419679767250845
+second moment: 50282.351477399105
+sum of squares: 220940.84847603692
+standard deviation: 0.5424006996652746
+sum of logs: -56717.84155568461
+
+COV: 0.5428065780040986
+Cum prob at 4: 0.9946954295701197
+Log stats
+SummaryStatistics:
+n: 72548
+min: -21.839960261295325
+max: 2.2903791279616637
+sum: -12701.052770344675
+mean: -0.17507102567051622
+geometric mean: NaN
+variance: 0.7493327211168587
+population variance: 0.7493223923314873
+second moment: 54361.84091886474
+sum of squares: 56585.42725446448
+standard deviation: 0.8656400644129514
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 72548
+min: 3.2736012173537355E-10
+max: 9.87868225595945
+sum: 72430.53030751011
+mean: 0.9983808004012535
+geometric mean: 0.8393973998887685
+variance: 0.25765476242506186
+population variance: 0.2576512109176126
+second moment: 18692.080049650962
+sum of squares: 91005.3308715492
+standard deviation: 0.5075970472974226
+sum of logs: -12701.052770344675
+
+COV: 0.5084202812127568
+Cum prob at 4: 0.996831913783912
+Plotting scatter with 239292 values
+Plotting scatter with 236200 values
+Plotting scatter with 217425 values
+Plotting scatter with 158122 values
+Plotting scatter with 2564 values
+Plotting scatter with 2517 values
+Plotting scatter with 2285 values
+Plotting scatter with 1685 values
+Processing: sigma175
+	vary tau/sigma: sigma0=175, tau0=96.25
+	Catalog length: 838065.7 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/sigma175/sigma175.in
+Loading fault model from: /home/rcf-12/kmilner/.opensha/ucerf3_sub_sects/FM3_1_GEOL_sub_sects.xml
+Found eList file in directory: /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/sigma175/sigma175.eList
+Detected prefix: sigma175
+Scatter mag range: 6.0000003717920505 8.18350843890903
+XYZ logMinX=1.0, logMaxX=4.0, spacing=0.06
+MinZ: -6.83174518253573
+MaxZ: -1.4032622339817986
+Filtering Mag/Vel scatter from 429090 to ~100000 points
+Filter done (random mag-dependent sample): 89832
+Log stats
+SummaryStatistics:
+n: 113686302
+min: -26.920599074325548
+max: 2.433111290711814
+sum: -1.78984094589977E7
+mean: -0.15743681643381488
+geometric mean: NaN
+variance: 1.556956460538912
+population variance: 1.5569564468437134
+second moment: 1.7700462081672135E8
+sum of squares: 1.7982248942125437E8
+standard deviation: 1.2477806139457817
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 113686302
+min: 2.034849868749886E-12
+max: 11.394277899102153
+sum: 1.1364002745455316E8
+mean: 0.9995929628781663
+geometric mean: 0.8543307915694314
+variance: 0.10874128259748693
+population variance: 0.10874128164098398
+second moment: 1.2362394184503961E7
+sum of squares: 1.259561659293994E8
+standard deviation: 0.32975943140035724
+sum of logs: -1.78984094589977E7
+
+COV: 0.3298937103867441
+Cum prob at 4: 0.9999868578573425
+Log stats
+SummaryStatistics:
+n: 105356819
+min: -26.204536522895147
+max: 2.5820296335950257
+sum: -1.1731141937006038E7
+mean: -0.11134677421320043
+geometric mean: NaN
+variance: 0.9816221315273425
+population variance: 0.9816221222102225
+second moment: 1.0342058425609829E8
+sum of squares: 1.0472680906846003E8
+standard deviation: 0.9907684550526135
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 105356819
+min: 4.164035153805142E-12
+max: 13.223950715252865
+sum: 1.0531048763061512E8
+mean: 0.9995602432801292
+geometric mean: 0.8946284610516031
+variance: 0.0976451056359694
+population variance: 0.09764510470916554
+second moment: 1.0287577623079602E7
+sum of squares: 1.1555175425921203E8
+standard deviation: 0.3124821685088117
+sum of logs: -1.1731141937006038E7
+
+COV: 0.3126196450985074
+Cum prob at 4: 0.9999954145399834
+Log stats
+SummaryStatistics:
+n: 90678068
+min: -24.900908995254643
+max: 2.418257458820725
+sum: -6964473.156580409
+mean: -0.07680438401682331
+geometric mean: NaN
+variance: 0.5179570547646538
+population variance: 0.5179570490526105
+second moment: 4.696734451507195E7
+sum of squares: 4.7502246585844696E7
+standard deviation: 0.7196923334068898
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 90678068
+min: 1.5334606249911574E-11
+max: 11.226280005759834
+sum: 9.062528300085749E7
+mean: 0.9994178857107253
+geometric mean: 0.9260709901764995
+variance: 0.09323906337581166
+population variance: 0.09323906234756894
+second moment: 8454738.035809096
+sum of squares: 9.90272667645227E7
+standard deviation: 0.30535072191794743
+sum of logs: -6964473.156580409
+
+COV: 0.30552857446692633
+Cum prob at 4: 0.9999971775321127
+Log stats
+SummaryStatistics:
+n: 53270620
+min: -23.71064202463498
+max: 2.504982728059864
+sum: -4224019.308646802
+mean: -0.07929360140039018
+geometric mean: NaN
+variance: 0.22332321002637806
+population variance: 0.22332320583413834
+second moment: 1.1896565635172166E7
+sum of squares: 1.2231503338516442E7
+standard deviation: 0.4725708518586161
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 53270620
+min: 5.0419554769859826E-11
+max: 12.243347497609754
+sum: 5.319482554788526E7
+mean: 0.9985771809662578
+geometric mean: 0.9237686648520373
+variance: 0.17440164991698823
+population variance: 0.17440164664310762
+second moment: 9290483.845699262
+sum of squares: 6.24096227834091E7
+standard deviation: 0.4176142357690746
+sum of logs: -4224019.308646802
+
+COV: 0.4182092718811946
+Cum prob at 4: 0.99954706483642
+Log stats
+SummaryStatistics:
+n: 1825820
+min: -26.301559865919323
+max: 1.9569413781181373
+sum: -730947.0523809822
+mean: -0.40033905444188617
+geometric mean: NaN
+variance: 4.025219654441356
+population variance: 4.02521744983211
+second moment: 7349322.524252463
+sum of squares: 7641949.176049847
+standard deviation: 2.0062950068325835
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1825820
+min: 3.779006899106932E-12
+max: 7.077646081915959
+sum: 1825019.677164329
+mean: 0.9995616638903588
+geometric mean: 0.6700928095715263
+variance: 0.22032170535062953
+population variance: 0.2203215846806263
+second moment: 402267.5557415811
+sum of squares: 2226487.260880492
+standard deviation: 0.469384389760279
+sum of logs: -730947.0523809822
+
+COV: 0.46959022811399603
+Cum prob at 4: 0.998426846724857
+Log stats
+SummaryStatistics:
+n: 1499450
+min: -24.293618894116733
+max: 2.2215228789636865
+sum: -291305.79879467114
+mean: -0.19427510006647875
+geometric mean: NaN
+variance: 1.7597731337812728
+population variance: 1.759771960168859
+second moment: 2638690.065675196
+sum of squares: 2695283.5288859047
+standard deviation: 1.3265644099632978
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1499450
+min: 2.8145914808869908E-11
+max: 9.221363198429694
+sum: 1498786.110842278
+mean: 0.9995572448845989
+geometric mean: 0.823431347088739
+variance: 0.13675569425835202
+population variance: 0.13675560305444773
+second moment: 205058.18899999166
+sum of squares: 1703180.704624577
+standard deviation: 0.3698049408246894
+sum of logs: -291305.79879467114
+
+COV: 0.3699687463796876
+Cum prob at 4: 0.99991096542851
+Log stats
+SummaryStatistics:
+n: 1202190
+min: -23.802296706586535
+max: 2.1706113572852166
+sum: -136994.8836668043
+mean: -0.11395443620958412
+geometric mean: NaN
+variance: 0.8200522435435545
+population variance: 0.8200515614115758
+second moment: 985857.7866133823
+sum of squares: 1001468.9613453014
+standard deviation: 0.9055673600255005
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1202190
+min: 4.6003818749734726E-11
+max: 8.763640118566913
+sum: 1201494.388620284
+mean: 0.9994213798320374
+geometric mean: 0.892298611463108
+variance: 0.11460131508112646
+population variance: 0.11460121975400256
+second moment: 137772.44037606433
+sum of squares: 1338571.6201113865
+standard deviation: 0.3385281599529446
+sum of logs: -136994.8836668043
+
+COV: 0.33872415257900285
+Cum prob at 4: 0.999978837111663
+Log stats
+SummaryStatistics:
+n: 674638
+min: -22.989690960000797
+max: 2.131954768047757
+sum: -60064.172423305914
+mean: -0.08903170652009897
+geometric mean: NaN
+variance: 0.27994403746745017
+population variance: 0.27994362251300425
+second moment: 188860.60560492816
+sum of squares: 194208.2213764891
+standard deviation: 0.5290973799476333
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 674638
+min: 1.0368216935290502E-10
+max: 8.431332011790078
+sum: 673773.8491219939
+mean: 0.9987190895295182
+geometric mean: 0.9148165674647307
+variance: 0.1815286495858289
+population variance: 0.18152838051019193
+second moment: 122465.94357063486
+sum of squares: 795376.748714516
+standard deviation: 0.42606179080718903
+sum of logs: -60064.172423305914
+
+COV: 0.426608237765737
+Cum prob at 4: 0.9994281817396957
+Log stats
+SummaryStatistics:
+n: 532485
+min: -26.158459022278652
+max: 2.3367460014529726
+sum: -553539.9056567643
+mean: -1.0395408427594792
+geometric mean: NaN
+variance: 9.013506318837223
+population variance: 9.013489391587969
+second moment: 4799547.898679719
+sum of squares: 5374975.238707186
+standard deviation: 3.0022502092326055
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 532485
+min: 4.360392575892613E-12
+max: 10.347510935370247
+sum: 532282.3961285193
+mean: 0.9996195125281016
+geometric mean: 0.35361701049951927
+variance: 0.7953420682620251
+population variance: 0.7953405746198224
+second moment: 423506.9258764362
+sum of squares: 955586.7952217315
+standard deviation: 0.8918195267328616
+sum of logs: -553539.9056567643
+
+COV: 0.8921589820484727
+Cum prob at 4: 0.9399425230178979
+Log stats
+SummaryStatistics:
+n: 291005
+min: -24.092948198654582
+max: 1.9132091698702902
+sum: -166746.50861684262
+mean: -0.5730022117037326
+geometric mean: NaN
+variance: 4.650180702946228
+population variance: 4.650164723218379
+second moment: 1353221.1852801642
+sum of squares: 1448767.303511498
+standard deviation: 2.1564277643701
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 291005
+min: 3.440056254417433E-11
+max: 6.7747954191220305
+sum: 290873.021269929
+mean: 0.999546472637698
+geometric mean: 0.5638301576783163
+variance: 0.4199146515804701
+population variance: 0.4199132085995881
+second moment: 122196.84326852312
+sum of squares: 412937.94566434325
+standard deviation: 0.6480082187599707
+sum of logs: -166746.50861684262
+
+COV: 0.6483022415655624
+Cum prob at 4: 0.9837840081365925
+Log stats
+SummaryStatistics:
+n: 181114
+min: -23.546363332449335
+max: 2.1706113572852166
+sum: -64669.25968936028
+mean: -0.3570638365303669
+geometric mean: NaN
+variance: 2.5371611312968048
+population variance: 2.537147122655113
+second moment: 459512.8639725582
+sum of squares: 482603.91794280685
+standard deviation: 1.5928468637307243
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 181114
+min: 5.942159921840736E-11
+max: 8.763640118566913
+sum: 180986.8387748503
+mean: 0.9992978940051475
+geometric mean: 0.6997278281121038
+variance: 0.3054894266908956
+population variance: 0.30548773996636475
+second moment: 55328.106536268184
+sum of squares: 236187.87336662464
+standard deviation: 0.552710979347159
+sum of logs: -64669.25968936028
+
+COV: 0.5530993136910503
+Cum prob at 4: 0.9939236861064376
+Log stats
+SummaryStatistics:
+n: 81388
+min: -22.524327710311564
+max: 2.0032466490448098
+sum: -14874.143908751268
+mean: -0.1827559825619451
+geometric mean: NaN
+variance: 0.8116708522746586
+population variance: 0.8116608794180671
+second moment: 66059.45565407764
+sum of squares: 68777.79443889012
+standard deviation: 0.9009277730621132
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 81388
+min: 1.6512345489536724E-10
+max: 7.413084756058017
+sum: 81283.91219549414
+mean: 0.9987210915060412
+geometric mean: 0.8329713904843536
+variance: 0.24934119200040727
+population variance: 0.2493381283891624
+second moment: 20293.131593337148
+sum of squares: 101473.08910310247
+standard deviation: 0.4993407573996011
+sum of logs: -14874.143908751268
+
+COV: 0.49998018630667984
+Cum prob at 4: 0.9972421046954214
+Plotting scatter with 239307 values
+Plotting scatter with 236422 values
+Plotting scatter with 217177 values
+Plotting scatter with 163227 values
+Plotting scatter with 2564 values
+Plotting scatter with 2522 values
+Plotting scatter with 2280 values
+Plotting scatter with 1731 values
+Processing: sigma200
+	vary tau/sigma: sigma0=200, tau0=110
+	Catalog length: 927617.44 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/sigma200/sigma200.in
+Loading fault model from: /home/rcf-12/kmilner/.opensha/ucerf3_sub_sects/FM3_1_GEOL_sub_sects.xml
+Found eList file in directory: /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/sigma200/sigma200.eList
+Detected prefix: sigma200
+Scatter mag range: 6.0000006934751395 8.2452422475732
+XYZ logMinX=1.0, logMaxX=4.0, spacing=0.06
+MinZ: -6.699700796886899
+MaxZ: -1.533857257828813
+Filtering Mag/Vel scatter from 451088 to ~100000 points
+Filter done (random mag-dependent sample): 89275
+Log stats
+SummaryStatistics:
+n: 110565944
+min: -25.85954637600908
+max: 2.2270599958472386
+sum: -1.794783062510632E7
+mean: -0.1623269333736651
+geometric mean: NaN
+variance: 1.6184924881184415
+population variance: 1.6184924734801864
+second moment: 1.7895014818723178E8
+sum of squares: 1.8186356449308184E8
+standard deviation: 1.2721998617035146
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 110565944
+min: 5.8795177304711384E-12
+max: 9.272564587504991
+sum: 1.1052470019658765E8
+mean: 0.9996269755236052
+geometric mean: 0.8501632123728948
+variance: 0.11015097282884867
+population variance: 0.11015097183260182
+second moment: 1.217894618318903E7
+sum of squares: 1.226624179613002E8
+standard deviation: 0.33189000109802747
+sum of logs: -1.794783062510632E7
+
+COV: 0.3320138503907253
+Cum prob at 4: 0.9999852008368426
+Log stats
+SummaryStatistics:
+n: 102611919
+min: -25.698088276850036
+max: 2.6345938212985547
+sum: -1.170701497774696E7
+mean: -0.11409020600937933
+geometric mean: NaN
+variance: 1.019074430140302
+population variance: 1.0190744202089563
+second moment: 1.045691818614534E8
+sum of squares: 1.0590483761209443E8
+standard deviation: 1.0094921644769226
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 102611919
+min: 6.909745725654139E-12
+max: 13.937650136648795
+sum: 1.0257188182216826E8
+mean: 0.9996098194220263
+geometric mean: 0.8921774724828019
+variance: 0.09818213830434576
+population variance: 0.09818213734751599
+second moment: 1.0074657524750186E7
+sum of squares: 1.126065177907009E8
+standard deviation: 0.31334029154314924
+sum of logs: -1.170701497774696E7
+
+COV: 0.3134625985610289
+Cum prob at 4: 0.9999951502054867
+Log stats
+SummaryStatistics:
+n: 89259883
+min: -25.698088276850036
+max: 2.4602258177340173
+sum: -7017244.650369024
+mean: -0.07861588447727734
+geometric mean: NaN
+variance: 0.5401987984339456
+population variance: 0.5401987923819681
+second moment: 4.8218081004755765E7
+sum of squares: 4.876974789951464E7
+standard deviation: 0.7349821755892761
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 89259883
+min: 6.909745725654139E-12
+max: 11.707454992457905
+sum: 8.921653018670434E7
+mean: 0.9995143079748235
+geometric mean: 0.9243949307011713
+variance: 0.09345808970692158
+population variance: 0.09345808865988806
+second moment: 8342058.059185235
+sum of squares: 9.75152564887343E7
+standard deviation: 0.30570915868995746
+sum of logs: -7017244.650369024
+
+COV: 0.3058577113411946
+Cum prob at 4: 0.9999971071034086
+Log stats
+SummaryStatistics:
+n: 56051400
+min: -23.371040442191433
+max: 2.6161928778864563
+sum: -4297119.361774056
+mean: -0.07666390780215258
+geometric mean: NaN
+variance: 0.23986922085710913
+population variance: 0.2398692165776581
+second moment: 1.3445005406080946E7
+sum of squares: 1.3774439368642382E7
+standard deviation: 0.489764454464704
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 56051400
+min: 7.080861497514521E-11
+max: 13.68352942588309
+sum: 5.597436095126462E7
+mean: 0.9986255642381437
+geometric mean: 0.9262010902616589
+variance: 0.16218737004506187
+population variance: 0.1621873671515147
+second moment: 9090828.99115641
+sum of squares: 6.498825677899877E7
+standard deviation: 0.4027249309951668
+sum of logs: -4297119.361774056
+
+COV: 0.40327921236665676
+Cum prob at 4: 0.9997101784787922
+Log stats
+SummaryStatistics:
+n: 1809692
+min: -25.55566034078913
+max: 1.9376136113245102
+sum: -779518.0459727478
+mean: -0.43074625183332677
+geometric mean: NaN
+variance: 4.308640209904834
+population variance: 4.308637829035487
+second moment: 7797307.41010289
+sum of squares: 8133081.886641991
+standard deviation: 2.0757264294470104
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1809692
+min: 7.967420387783772E-12
+max: 6.942164484897719
+sum: 1808968.3441861565
+mean: 0.9996001221126225
+geometric mean: 0.6500238322053284
+variance: 0.23780293298836144
+population variance: 0.23780280158316486
+second moment: 430349.8276026408
+sum of squares: 2238594.805348875
+standard deviation: 0.4876504208840196
+sum of logs: -779518.0459727478
+
+COV: 0.487845499511731
+Cum prob at 4: 0.9977618447024028
+Log stats
+SummaryStatistics:
+n: 1469916
+min: -23.94684507315788
+max: 1.9937496353816992
+sum: -299877.7477307518
+mean: -0.20401012556550283
+geometric mean: NaN
+variance: 1.8807045542863663
+population variance: 1.8807032748224009
+second moment: 2764475.8349138442
+sum of squares: 2825653.9318827926
+standard deviation: 1.37138782052575
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1469916
+min: 3.981230529498776E-11
+max: 7.343015838223556
+sum: 1469403.8629058371
+mean: 0.9996515875096998
+geometric mean: 0.8154541142114359
+variance: 0.13893674018223928
+population variance: 0.13893664566204889
+second moment: 204225.19844497627
+sum of squares: 1673117.1026914685
+standard deviation: 0.37274218996813235
+sum of logs: -299877.7477307518
+
+COV: 0.3728721032661948
+Cum prob at 4: 0.9998999207050498
+Log stats
+SummaryStatistics:
+n: 1188871
+min: -24.024111843278366
+max: 2.233298471540646
+sum: -139625.65152455002
+mean: -0.11744390394294381
+geometric mean: NaN
+variance: 0.8505772211086057
+population variance: 0.8505765056590564
+second moment: 1011225.740859388
+sum of squares: 1027623.9224650819
+standard deviation: 0.922267434700264
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1188871
+min: 3.685197720348874E-11
+max: 9.330592069622591
+sum: 1188387.9535412197
+mean: 0.999593693126593
+geometric mean: 0.8891903904223125
+variance: 0.116178541339457
+population variance: 0.11617844361771819
+second moment: 138121.18244224024
+sum of squares: 1326026.2857896693
+standard deviation: 0.3408497342517037
+sum of logs: -139625.65152455002
+
+COV: 0.3409882801336732
+Cum prob at 4: 0.9999761593314185
+Log stats
+SummaryStatistics:
+n: 711872
+min: -22.66433081560468
+max: 2.3146380394641164
+sum: -62022.23820903403
+mean: -0.08712554814493384
+geometric mean: NaN
+variance: 0.3086642255916547
+population variance: 0.30866379199653426
+second moment: 219729.11093615682
+sum of squares: 225132.83243729325
+standard deviation: 0.5555755804493703
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 711872
+min: 1.435509896021993E-10
+max: 10.121258759398403
+sum: 710969.1624727569
+mean: 0.9987317417636346
+geometric mean: 0.9165620157484716
+variance: 0.16848263043431716
+population variance: 0.16848239375886084
+second moment: 119937.89860990779
+sum of squares: 830005.3685865762
+standard deviation: 0.41046635725028324
+sum of logs: -62022.23820903403
+
+COV: 0.41098759565351484
+Cum prob at 4: 0.9996324857190815
+Log stats
+SummaryStatistics:
+n: 552855
+min: -24.43332327634615
+max: 2.3807192735231997
+sum: -604739.6517150893
+mean: -1.0938485709907402
+geometric mean: NaN
+variance: 9.496643777186884
+population variance: 9.49662659972846
+second moment: 5250257.498792877
+sum of squares: 5911751.102643184
+standard deviation: 3.081662502154784
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 552855
+min: 2.4476117337787216E-11
+max: 10.812677340134293
+sum: 552603.0107038749
+mean: 0.9995442036409173
+geometric mean: 0.3349250274063581
+variance: 0.8499992579412429
+population variance: 0.8499977204689256
+second moment: 469925.4897498479
+sum of squares: 1022276.6260134202
+standard deviation: 0.9219540432913361
+sum of logs: -604739.6517150893
+
+COV: 0.9223744582110995
+Cum prob at 4: 0.9336393708934922
+Log stats
+SummaryStatistics:
+n: 292450
+min: -23.94684507315788
+max: 1.8887081278046265
+sum: -176827.83372072523
+mean: -0.6046429602350325
+geometric mean: NaN
+variance: 4.986411465526424
+population variance: 4.986394415051247
+second moment: 1458271.0466817373
+sum of squares: 1565188.7515145515
+standard deviation: 2.2330274215795973
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 292450
+min: 3.981230529498776E-11
+max: 6.610822823959227
+sum: 292311.04851875786
+mean: 0.9995248709822511
+geometric mean: 0.5462694317348855
+variance: 0.43433828362589744
+population variance: 0.43433679845481304
+second moment: 127021.79670811008
+sum of squares: 419193.95976550685
+standard deviation: 0.6590434611054854
+sum of logs: -176827.83372072523
+
+COV: 0.6593567406260051
+Cum prob at 4: 0.9822765509749734
+Log stats
+SummaryStatistics:
+n: 182385
+min: -23.96348722146193
+max: 2.2523227468475717
+sum: -67481.33404083992
+mean: -0.36999388129966804
+geometric mean: NaN
+variance: 2.6619765874923784
+population variance: 2.6619619921222135
+second moment: 485501.93793320993
+sum of squares: 510469.618630274
+standard deviation: 1.6315564922773524
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 182385
+min: 3.915522577870679E-11
+max: 9.509799058583416
+sum: 182269.72959602604
+mean: 0.9993679830908337
+geometric mean: 0.690738557046663
+variance: 0.3110972981819306
+population variance: 0.3110955924643651
+second moment: 56739.16963161323
+sum of squares: 238893.70167650087
+standard deviation: 0.5577609686791741
+sum of logs: -67481.33404083992
+
+COV: 0.55811370597859
+Cum prob at 4: 0.9935228852949165
+Log stats
+SummaryStatistics:
+n: 87159
+min: -22.104715027669254
+max: 2.3146380394641164
+sum: -16974.2310164126
+mean: -0.19475018089253923
+geometric mean: NaN
+variance: 0.9332302888177009
+population variance: 0.9332195816011333
+second moment: 81338.48551277317
+sum of squares: 84644.22007373218
+standard deviation: 0.9660384510037376
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 87159
+min: 2.5121423180384877E-10
+max: 10.121258759398403
+sum: 87018.54138476739
+mean: 0.9983884783529842
+geometric mean: 0.8230402435544075
+variance: 0.2516448273613726
+population variance: 0.25164194016868613
+second moment: 21932.859863162514
+sum of squares: 108811.1689847959
+standard deviation: 0.5016421307679136
+sum of logs: -16974.2310164126
+
+COV: 0.5024518427891513
+Cum prob at 4: 0.9971299423741696
+Plotting scatter with 239340 values
+Plotting scatter with 236461 values
+Plotting scatter with 217733 values
+Plotting scatter with 166645 values
+Plotting scatter with 2566 values
+Plotting scatter with 2525 values
+Plotting scatter with 2287 values
+Plotting scatter with 1774 values
+Processing: a0_0015b0_0085
+	hold b-a constant, but change a and b: a=0.0015, b=0.0085
+	Catalog length: 438694.72 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/a0_0015b0_0085/a0_0015b0_0085.in
+Loading fault model from: /home/rcf-12/kmilner/.opensha/ucerf3_sub_sects/FM3_1_GEOL_sub_sects.xml
+Found eList file in directory: /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/a0_0015b0_0085/a0_0015b0_0085.eList
+Detected prefix: a0_0015b0_0085
+Scatter mag range: 6.00000066130455 8.0048093222831
+XYZ logMinX=1.0, logMaxX=4.0, spacing=0.06
+MinZ: -6.782206078012598
+MaxZ: -1.4147947172380149
+Filtering Mag/Vel scatter from 289787 to ~100000 points
+Filter done (random mag-dependent sample): 87659
+Log stats
+SummaryStatistics:
+n: 101465979
+min: -25.043383025940546
+max: 2.6564924362127065
+sum: -1.5066991732279044E7
+mean: -0.1484930405322064
+geometric mean: NaN
+variance: 1.5295581910420915
+population variance: 1.5295581759674999
+second moment: 1.5519811776199666E8
+sum of squares: 1.574354611760098E8
+standard deviation: 1.23675308410454
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 101465979
+min: 1.3298325033791122E-11
+max: 14.246231793658845
+sum: 1.0144902793398266E8
+mean: 0.9998329384275324
+geometric mean: 0.8620060062527295
+variance: 0.10362858156031621
+population variance: 0.10362858053900265
+second moment: 1.051477537677025E7
+sum of squares: 1.119468550766452E8
+standard deviation: 0.3219139350203967
+sum of logs: -1.5066991732279044E7
+
+COV: 0.3219677234545609
+Cum prob at 4: 0.9999916963237321
+Log stats
+SummaryStatistics:
+n: 92917294
+min: -24.4035661499108
+max: 2.6564924362127065
+sum: -9290096.024973644
+mean: -0.09998242119463432
+geometric mean: NaN
+variance: 0.8514302744272839
+population variance: 0.8514302652639707
+second moment: 7.911259627803035E7
+sum of squares: 8.004144257166441E7
+standard deviation: 0.9227297949168456
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 92917294
+min: 2.5215401186173078E-11
+max: 14.246231793658845
+sum: 9.289932106213298E7
+mean: 0.9998065705839835
+geometric mean: 0.9048533241366238
+variance: 0.09397043678104788
+population variance: 0.09397043576971369
+second moment: 8731478.607722603
+sum of squares: 1.0161283020838346E8
+standard deviation: 0.30654597824967117
+sum of logs: -9290096.024973644
+
+COV: 0.30660528473084425
+Cum prob at 4: 0.9999969379801997
+Log stats
+SummaryStatistics:
+n: 74684398
+min: -22.694897768911286
+max: 2.6559529163722657
+sum: -5018748.67363627
+mean: -0.06719942595811026
+geometric mean: NaN
+variance: 0.35915086301327553
+population variance: 0.3591508582043613
+second moment: 2.6822965636176087E7
+sum of squares: 2.7160222666027866E7
+standard deviation: 0.5992919680867378
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 74684398
+min: 1.3922945771358182E-10
+max: 14.238547741990203
+sum: 7.464751298286156E7
+mean: 0.9995061215171984
+geometric mean: 0.9350087177330679
+variance: 0.10058941204532959
+population variance: 0.10058941069846981
+second moment: 7512459.583189977
+sum of squares: 8.212310576553646E7
+standard deviation: 0.3171583390758149
+sum of logs: -5018748.67363627
+
+COV: 0.3173150541533303
+Cum prob at 4: 0.9999937985639991
+Log stats
+SummaryStatistics:
+n: 34344319
+min: -21.575967977193937
+max: 2.556328936730799
+sum: -2954395.8932771855
+mean: -0.08602284101984713
+geometric mean: NaN
+variance: 0.2104081626403403
+population variance: 0.21040815651390748
+second moment: 7226324.847515566
+sum of squares: 7480470.375776516
+standard deviation: 0.4587026952616916
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 34344319
+min: 4.262615558524865E-10
+max: 12.888416171272974
+sum: 3.427118280436291E7
+mean: 0.9978705009218416
+geometric mean: 0.9175732726713215
+variance: 0.21897786604223934
+population variance: 0.21897785966628336
+second moment: 7520645.4663160695
+sum of squares: 4.171884781845741E7
+standard deviation: 0.4679507089878584
+sum of logs: -2954395.8932771855
+
+COV: 0.46894933616692885
+Cum prob at 4: 0.9984653794032983
+Log stats
+SummaryStatistics:
+n: 1537385
+min: -24.925599990284162
+max: 1.961387614579564
+sum: -498702.4523961904
+mean: -0.32438358146867324
+geometric mean: NaN
+variance: 3.4552852142587978
+population variance: 3.4552829667507146
+second moment: 5312100.203838048
+sum of squares: 5473871.091433481
+standard deviation: 1.8588397494832085
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1537385
+min: 1.4960615663015012E-11
+max: 7.10918503284541
+sum: 1536983.4674679341
+mean: 0.9997388210941661
+geometric mean: 0.7229728701904811
+variance: 0.17186843199952923
+population variance: 0.17186832020682147
+second moment: 264227.7774611642
+sum of squares: 1800809.8172686102
+standard deviation: 0.41457017741213514
+sum of logs: -498702.4523961904
+
+COV: 0.4146784826845155
+Cum prob at 4: 0.9995866371013723
+Log stats
+SummaryStatistics:
+n: 1287094
+min: -23.951581026167748
+max: 2.272180352963482
+sum: -208251.61683267413
+mean: -0.16179985054135484
+geometric mean: NaN
+variance: 1.3884564407152828
+population variance: 1.3884553619623397
+second moment: 1787072.5656495555
+sum of squares: 1820767.646128059
+standard deviation: 1.1783278154721133
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1287094
+min: 3.962420186398626E-11
+max: 9.70052834869398
+sum: 1286767.7720007256
+mean: 0.9997465391033509
+geometric mean: 0.8506114369223228
+variance: 0.1254700458892717
+population variance: 0.12546994840606854
+second moment: 161491.61777376037
+sum of squares: 1447933.2444611832
+standard deviation: 0.354217512115468
+sum of logs: -208251.61683267413
+
+COV: 0.3543073151652591
+Cum prob at 4: 0.9999544980561461
+Log stats
+SummaryStatistics:
+n: 968330
+min: -22.067756235616486
+max: 2.4471339987825274
+sum: -86198.7011433555
+mean: -0.08901789797212839
+geometric mean: NaN
+variance: 0.511565199408032
+population variance: 0.5115646711116874
+second moment: 495363.4179775802
+sum of squares: 503036.64516129997
+standard deviation: 0.7152378621186325
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 968330
+min: 2.606725130775836E-10
+max: 11.555182051108307
+sum: 967801.8073898703
+mean: 0.9994545324319999
+geometric mean: 0.914829199840399
+variance: 0.11383328645535529
+population variance: 0.11383316889906099
+second moment: 110228.07244002772
+sum of squares: 1077501.9753317353
+standard deviation: 0.3373918885441013
+sum of logs: -86198.7011433555
+
+COV: 0.33757602531764647
+Cum prob at 4: 0.999980064858363
+Log stats
+SummaryStatistics:
+n: 437231
+min: -20.912752257145083
+max: 2.4357570163476536
+sum: -40267.440116537844
+mean: -0.09209648930780287
+geometric mean: NaN
+variance: 0.2349109621193812
+population variance: 0.2349104248496951
+second moment: 102710.11996745704
+sum of squares: 106418.6098356039
+standard deviation: 0.4846761414794225
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 437231
+min: 8.273839525308638E-10
+max: 11.424463946633402
+sum: 436368.61664563674
+mean: 0.9980276253184907
+geometric mean: 0.9120171453963697
+variance: 0.2279689118124425
+population variance: 0.22796839042006223
+second moment: 99674.84731175423
+sum of squares: 535182.7815461052
+standard deviation: 0.4774609008206248
+sum of logs: -40267.440116537844
+
+COV: 0.4784044937315813
+Cum prob at 4: 0.9981453006124916
+Log stats
+SummaryStatistics:
+n: 378289
+min: -24.925599990284162
+max: 1.9810717163029192
+sum: -343264.2252401433
+mean: -0.9074126533950135
+geometric mean: NaN
+variance: 8.243484663206008
+population variance: 8.243462871706221
+second moment: 3118411.3262748746
+sum of squares: 3429893.6277155383
+standard deviation: 2.8711469246985617
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 378289
+min: 1.4960615663015012E-11
+max: 7.2505093118021495
+sum: 378160.3496724981
+mean: 0.9996599152301294
+geometric mean: 0.4035670422023915
+variance: 0.6167718830392553
+population variance: 0.616770252614149
+second moment: 233317.4020911538
+sum of squares: 611349.1451881554
+standard deviation: 0.7853482558962331
+sum of logs: -343264.2252401433
+
+COV: 0.7856154317395431
+Cum prob at 4: 0.9612206057784092
+Log stats
+SummaryStatistics:
+n: 227078
+min: -22.70260827595768
+max: 1.8568202784142502
+sum: -110698.48591081155
+mean: -0.48749102031376323
+geometric mean: NaN
+variance: 3.780422044265212
+population variance: 3.7804053961441073
+second moment: 858446.8965456116
+sum of squares: 912411.4143894867
+standard deviation: 1.9443307445661635
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 227078
+min: 1.3816005611127021E-10
+max: 6.403343516574562
+sum: 226993.01618829544
+mean: 0.9996257505715682
+geometric mean: 0.6141653912114793
+variance: 0.36936776128580495
+population variance: 0.3693661346739743
+second moment: 83874.92312949673
+sum of squares: 310782.9873112193
+standard deviation: 0.607756333809698
+sum of logs: -110698.48591081155
+
+COV: 0.6079838714260749
+Cum prob at 4: 0.9887188385948071
+Log stats
+SummaryStatistics:
+n: 133097
+min: -21.480114048481134
+max: 1.9118008843960808
+sum: -34964.21114753552
+mean: -0.2626972144190765
+geometric mean: NaN
+variance: 1.5862821546131567
+population variance: 1.5862702363719146
+second moment: 211127.8096503927
+sum of squares: 220312.81052320806
+standard deviation: 1.2594769369119694
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 133097
+min: 4.691427379479387E-10
+max: 6.765261288107377
+sum: 132991.69906399594
+mean: 0.9992088406500452
+geometric mean: 0.7689746965154622
+variance: 0.2550346998837065
+population variance: 0.2550327837270697
+second moment: 33944.0984157218
+sum of squares: 166830.57985353627
+standard deviation: 0.505009603753935
+sum of logs: -34964.21114753552
+
+COV: 0.5054094631762825
+Cum prob at 4: 0.996969651605095
+Log stats
+SummaryStatistics:
+n: 52423
+min: -20.407559926590285
+max: 2.2328536947790547
+sum: -7326.716863999562
+mean: -0.13976149522155484
+geometric mean: NaN
+variance: 0.4949307330202845
+population variance: 0.49492129192128176
+second moment: 25945.258886389354
+sum of squares: 26969.251790367027
+standard deviation: 0.7035131363523246
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 52423
+min: 1.371226932682095E-9
+max: 9.326442961879888
+sum: 52335.988674612694
+mean: 0.9983402070582121
+geometric mean: 0.8695656062206122
+variance: 0.24664560068690441
+population variance: 0.24664089577492518
+second moment: 12929.655679208903
+sum of squares: 65178.777449217916
+standard deviation: 0.4966342725657427
+sum of logs: -7326.716863999562
+
+COV: 0.4974599530846948
+Cum prob at 4: 0.9973652893940809
+Plotting scatter with 239179 values
+Plotting scatter with 235556 values
+Plotting scatter with 215916 values
+Plotting scatter with 139508 values
+Plotting scatter with 2554 values
+Plotting scatter with 2503 values
+Plotting scatter with 2268 values
+Plotting scatter with 1482 values
+Processing: a0_002b0_009
+	hold b-a constant, but change a and b: a=0.002, b=0.009
+	Catalog length: 434247.9 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/a0_002b0_009/a0_002b0_009.in
+Loading fault model from: /home/rcf-12/kmilner/.opensha/ucerf3_sub_sects/FM3_1_GEOL_sub_sects.xml
+Found eList file in directory: /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/a0_002b0_009/a0_002b0_009.eList
+Detected prefix: a0_002b0_009
+Scatter mag range: 6.000001864720477 8.018810267925916
+XYZ logMinX=1.0, logMaxX=4.0, spacing=0.06
+MinZ: -6.474925413137086
+MaxZ: -1.4341118208562977
+Filtering Mag/Vel scatter from 285963 to ~100000 points
+Filter done (random mag-dependent sample): 86647
+Log stats
+SummaryStatistics:
+n: 99797973
+min: -26.127883087631684
+max: 2.4162450497427583
+sum: -1.593590875543954E7
+mean: -0.15968168767761137
+geometric mean: NaN
+variance: 1.7526603554761762
+population variance: 1.7526603379140926
+second moment: 1.7491194908132148E8
+sum of squares: 1.7745662188587263E8
+standard deviation: 1.3238807935294536
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 99797973
+min: 4.4957748266506885E-12
+max: 11.203710854763315
+sum: 9.978551643612191E7
+mean: 0.9998751821964135
+geometric mean: 0.8524150800100807
+variance: 0.10430857951040699
+population variance: 0.10430857846520962
+second moment: 1.040978469733937E7
+sum of squares: 1.1018284612453316E8
+standard deviation: 0.3229683877880419
+sum of logs: -1.593590875543954E7
+
+COV: 0.32300870502514245
+Cum prob at 4: 0.9999911545765312
+Log stats
+SummaryStatistics:
+n: 91374722
+min: -25.282267313427464
+max: 2.4237637991300063
+sum: -9377885.367901236
+mean: -0.10263106866586362
+geometric mean: NaN
+variance: 0.9096538929561203
+population variance: 0.9096538830009174
+second moment: 8.311937067542936E7
+sum of squares: 8.40818330725996E7
+standard deviation: 0.9537577747814799
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 91374722
+min: 1.0472510772668662E-11
+max: 11.288266225872722
+sum: 9.136131348501904E7
+mean: 0.9998532579396868
+geometric mean: 0.9024598577914029
+variance: 0.09403053987401619
+population variance: 0.09403053884495106
+second moment: 8592014.346467605
+sum of squares: 9.993992128406645E7
+standard deviation: 0.3066439953333771
+sum of logs: -9377885.367901236
+
+COV: 0.30668899950904044
+Cum prob at 4: 0.9999969178533672
+Log stats
+SummaryStatistics:
+n: 73471914
+min: -24.407964756963747
+max: 2.604059881063119
+sum: -4926553.217931392
+mean: -0.06705355760771332
+geometric mean: NaN
+variance: 0.3633700437551457
+population variance: 0.36337003880944574
+second moment: 2.669749224158426E7
+sum of squares: 2.7027835161634184E7
+standard deviation: 0.6028018279294993
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 73471914
+min: 2.5104732117977744E-11
+max: 13.518510319336158
+sum: 7.344257078123517E7
+mean: 0.9996006199203721
+geometric mean: 0.9351451158605
+variance: 0.09993113451391045
+population variance: 0.09993113315378344
+second moment: 7342131.6209973255
+sum of squares: 8.075537090245292E7
+standard deviation: 0.31611886137007145
+sum of logs: -4926553.217931392
+
+COV: 0.31624516338860753
+Cum prob at 4: 0.9999941972375767
+Log stats
+SummaryStatistics:
+n: 33903232
+min: -18.502845607557983
+max: 2.508824475091228
+sum: -2922616.044734388
+mean: -0.0862046439920646
+geometric mean: NaN
+variance: 0.2074427968257174
+population variance: 0.2074427907070442
+second moment: 7032981.060068363
+sum of squares: 7284924.135721341
+standard deviation: 0.4554588859883155
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 33903232
+min: 9.211200869988868E-9
+max: 12.2904738072312
+sum: 3.384033598951252E7
+mean: 0.9981448373232091
+geometric mean: 0.9174064702864694
+variance: 0.22231205036479712
+population variance: 0.22231204380754468
+second moment: 7537096.797601351
+sum of squares: 4.1314653458866745E7
+standard deviation: 0.4714997882977225
+sum of logs: -2922616.044734388
+
+COV: 0.47237612285024144
+Cum prob at 4: 0.9983518099914703
+Log stats
+SummaryStatistics:
+n: 1511587
+min: -24.638585058436764
+max: 1.8725769049772054
+sum: -538817.4570507432
+mean: -0.35645811789245335
+geometric mean: NaN
+variance: 4.067394199078529
+population variance: 4.0673915082680105
+second moment: 6148216.127808318
+sum of squares: 6340281.984435631
+standard deviation: 2.01677817299735
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1511587
+min: 1.9934184209879077E-11
+max: 6.5050376836570045
+sum: 1511303.4542400017
+mean: 0.9998124184979003
+geometric mean: 0.7001517946883016
+variance: 0.1727641516811435
+population variance: 0.17276403738791946
+second moment: 261147.872983093
+sum of squares: 1772167.8346510415
+standard deviation: 0.41564907275385987
+sum of logs: -538817.4570507432
+
+COV: 0.41572705545938643
+Cum prob at 4: 0.999573621894635
+Log stats
+SummaryStatistics:
+n: 1264965
+min: -23.873867368703362
+max: 2.1143091311134063
+sum: -214009.76321260244
+mean: -0.1691823593637915
+geometric mean: NaN
+variance: 1.5497947525643099
+population variance: 1.5497935273962202
+second moment: 1960434.5693827597
+sum of squares: 1996641.246049921
+standard deviation: 1.2449075277161392
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1264965
+min: 4.2826357703139095E-11
+max: 8.28386072708405
+sum: 1264783.797362704
+mean: 0.9998567528450786
+geometric mean: 0.8443549133208992
+variance: 0.12559285316768795
+population variance: 0.12559275388205304
+second moment: 158870.43791441122
+sum of squares: 1423473.0585964837
+standard deviation: 0.35439081981294035
+sum of logs: -214009.76321260244
+
+COV: 0.3544415925626608
+Cum prob at 4: 0.9999541587421134
+Log stats
+SummaryStatistics:
+n: 952152
+min: -23.255285247025363
+max: 2.2439094601560106
+sum: -86243.6252126206
+mean: -0.09057758132379908
+geometric mean: NaN
+variance: 0.5460397818299103
+population variance: 0.5460392083502749
+second moment: 519912.3243091309
+sum of squares: 527724.0632855126
+standard deviation: 0.7389450465561768
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 952152
+min: 7.94983183735962E-11
+max: 9.430126018747401
+sum: 951821.2314465551
+mean: 0.9996526095062108
+geometric mean: 0.9134034681018366
+variance: 0.11323811947335354
+population variance: 0.11323800054473765
+second moment: 107819.78869467304
+sum of squares: 1059310.3664936111
+standard deviation: 0.336508721244121
+sum of logs: -86243.6252126206
+
+COV: 0.3366256617989955
+Cum prob at 4: 0.9999809937771953
+Log stats
+SummaryStatistics:
+n: 431336
+min: -18.46557421276075
+max: 2.466169299489312
+sum: -39948.77905755218
+mean: -0.09261638040310081
+geometric mean: NaN
+variance: 0.24044253673920093
+population variance: 0.24044197930245384
+second moment: 103711.28158440323
+sum of squares: 107411.19290223636
+standard deviation: 0.4903494027111698
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 431336
+min: 9.56099330808971E-9
+max: 11.7772452306655
+sum: 430708.59527210105
+mean: 0.9985454385261437
+geometric mean: 0.9115431190354331
+variance: 0.2333360870443187
+population variance: 0.23333554608301002
+second moment: 100646.02110526121
+sum of squares: 530728.1242482108
+standard deviation: 0.48304874189290536
+sum of logs: -39948.77905755218
+
+COV: 0.4837523894815311
+Cum prob at 4: 0.9979393153293741
+Log stats
+SummaryStatistics:
+n: 371471
+min: -24.638585058436764
+max: 2.0103044528968956
+sum: -366214.50607290276
+mean: -0.9858495173860157
+geometric mean: NaN
+variance: 9.50602031890027
+population variance: 9.50599472869183
+second moment: 3531201.367861883
+sum of squares: 3892233.761933501
+standard deviation: 3.08318347149505
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 371471
+min: 1.9934184209879077E-11
+max: 7.4655899218344315
+sum: 371349.75210174243
+mean: 0.9996736006356906
+geometric mean: 0.3731221185343772
+variance: 0.6245712057456857
+population variance: 0.6245695243998854
+second moment: 232009.46579834985
+sum of squares: 603238.0095770624
+standard deviation: 0.7902981752134353
+sum of logs: -366214.50607290276
+
+COV: 0.7905562122585673
+Cum prob at 4: 0.9602831443755723
+Log stats
+SummaryStatistics:
+n: 222499
+min: -22.957576636829206
+max: 1.9319769481983762
+sum: -111949.01109415345
+mean: -0.5031438842158965
+geometric mean: NaN
+variance: 4.101054169772276
+population variance: 4.101035737985303
+second moment: 912476.3506659918
+sum of squares: 968802.8109420424
+standard deviation: 2.0251059650725134
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 222499
+min: 1.0706589425784774E-10
+max: 6.903143918537227
+sum: 222431.33363954382
+mean: 0.9996958801592054
+geometric mean: 0.6046267918832661
+variance: 0.3698606440788106
+population variance: 0.36985898177631
+second moment: 82293.2535862472
+sum of squares: 304656.94144402177
+standard deviation: 0.6081616923802506
+sum of logs: -111949.01109415345
+
+COV: 0.6083467026826184
+Cum prob at 4: 0.9886750825536788
+Log stats
+SummaryStatistics:
+n: 130623
+min: -23.20399195263781
+max: 2.320397955752917
+sum: -34606.5756892054
+mean: -0.2649347793972362
+geometric mean: NaN
+variance: 1.6516968221683022
+population variance: 1.6516841774057245
+second moment: 215747.94230526796
+sum of squares: 224916.42780118267
+standard deviation: 1.2851835752795404
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 130623
+min: 8.368244039325915E-11
+max: 10.179724580064713
+sum: 130558.50305452818
+mean: 0.9995062359196089
+geometric mean: 0.7672559892421337
+variance: 0.2550419971392622
+population variance: 0.2550400446347481
+second moment: 33314.095750324705
+sum of squares: 163808.13370565124
+standard deviation: 0.5050168285703578
+sum of logs: -34606.5756892054
+
+COV: 0.5052663109257246
+Cum prob at 4: 0.9969713923864247
+Log stats
+SummaryStatistics:
+n: 51709
+min: -18.26022405157664
+max: 2.433047204906625
+sum: -7216.786657232816
+mean: -0.1395653881767757
+geometric mean: NaN
+variance: 0.5405338831020591
+population variance: 0.5405234297209629
+second moment: 27949.92602744127
+sum of squares: 28957.13965864683
+standard deviation: 0.7352100945322085
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 51709
+min: 1.1740469268564194E-8
+max: 11.39354771102604
+sum: 51649.39398696655
+mean: 0.9988472797185549
+geometric mean: 0.8697361508838493
+variance: 0.2390210003950395
+population variance: 0.23901637796953534
+second moment: 12359.297888426703
+sum of squares: 63949.1545714209
+standard deviation: 0.48889774022288085
+sum of logs: -7216.786657232816
+
+COV: 0.489461952943034
+Cum prob at 4: 0.9977061223945486
+Plotting scatter with 239111 values
+Plotting scatter with 235718 values
+Plotting scatter with 215375 values
+Plotting scatter with 138010 values
+Plotting scatter with 2559 values
+Plotting scatter with 2514 values
+Plotting scatter with 2256 values
+Plotting scatter with 1474 values
+Processing: a0_003b0_01
+	hold b-a constant, but change a and b: a=0.003, b=0.01
+	Catalog length: 423822.8 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/a0_003b0_01/a0_003b0_01.in
+Loading fault model from: /home/rcf-12/kmilner/.opensha/ucerf3_sub_sects/FM3_1_GEOL_sub_sects.xml
+Found eList file in directory: /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/a0_003b0_01/a0_003b0_01.eList
+Detected prefix: a0_003b0_01
+Scatter mag range: 6.000000273590236 8.009160467220198
+XYZ logMinX=1.0, logMaxX=5.0, spacing=0.08
+MinZ: -6.798662917729188
+MaxZ: -1.3400259693447132
+Filtering Mag/Vel scatter from 276393 to ~100000 points
+Filter done (random mag-dependent sample): 86721
+Log stats
+SummaryStatistics:
+n: 96015382
+min: -26.293872968463017
+max: 2.4779946268338393
+sum: -1.7387254230973635E7
+mean: -0.1810882159587183
+geometric mean: NaN
+variance: 2.1799318716443032
+population variance: 2.1799318489403174
+second moment: 2.0930698920997086E8
+sum of squares: 2.124556160585108E8
+standard deviation: 1.4764592346706709
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 96015382
+min: 3.808167671973982E-12
+max: 11.917341721599216
+sum: 9.59974428256544E7
+mean: 0.9998131635402745
+geometric mean: 0.8343617514273598
+variance: 0.10521479592005326
+population variance: 0.10521479482424137
+second moment: 1.0102238717101159E7
+sum of squares: 1.0608174572080442E8
+standard deviation: 0.32436830289048474
+sum of logs: -1.7387254230973635E7
+
+COV: 0.3244289180409641
+Cum prob at 4: 0.9999903831401646
+Log stats
+SummaryStatistics:
+n: 87982967
+min: -24.47897374493249
+max: 2.691942040234485
+sum: -9822796.54088734
+mean: -0.11164429747952556
+geometric mean: NaN
+variance: 1.0977268434650271
+population variance: 1.0977268309884436
+second moment: 9.658126354587081E7
+sum of squares: 9.767792276499951E7
+standard deviation: 1.0477246028728289
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 87982967
+min: 2.3383891105341E-11
+max: 14.760313226200948
+sum: 8.796565242238273E7
+mean: 0.9998032053466134
+geometric mean: 0.8943623278619449
+variance: 0.0942334871187114
+population variance: 0.09423348604766903
+second moment: 8290941.693227024
+sum of squares: 9.62392829457055E7
+standard deviation: 0.30697473368131034
+sum of logs: -9822796.54088734
+
+COV: 0.30703515655852276
+Cum prob at 4: 0.9999968452094528
+Log stats
+SummaryStatistics:
+n: 70782285
+min: -24.118238816521295
+max: 2.4763001898285983
+sum: -4972165.196437916
+mean: -0.07024589834078034
+geometric mean: NaN
+variance: 0.43695192411039124
+population variance: 0.4369519179372093
+second moment: 3.092845518672816E7
+sum of squares: 3.127772939768777E7
+standard deviation: 0.6610233915001732
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 70782285
+min: 3.3541460464425115E-11
+max: 11.8971656351631
+sum: 7.075051976998574E7
+mean: 0.9995512262714167
+geometric mean: 0.9321645739994316
+variance: 0.09931045494491708
+population variance: 0.09931045354187598
+second moment: 7029420.826080325
+sum of squares: 7.774818962185499E7
+standard deviation: 0.3151356135775788
+sum of logs: -4972165.196437916
+
+COV: 0.3152771016580268
+Cum prob at 4: 0.9999945496720966
+Log stats
+SummaryStatistics:
+n: 32760337
+min: -22.92827279031395
+max: 2.38707659328725
+sum: -2842881.3411565456
+mean: -0.08677814703677778
+geometric mean: NaN
+variance: 0.2345196044882659
+population variance: 0.23451959732962144
+second moment: 7682941.041622698
+sum of squares: 7929641.016668537
+standard deviation: 0.48427224212034486
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 32760337
+min: 1.1024975869472645E-10
+max: 10.881635951211925
+sum: 3.2694740834980972E7
+mean: 0.9979976956593432
+geometric mean: 0.916880485723757
+variance: 0.21277943260860924
+population variance: 0.21277942611357736
+second moment: 6970725.706147395
+sum of squares: 3.960000171977991E7
+standard deviation: 0.4612802105104979
+sum of logs: -2842881.3411565456
+
+COV: 0.4622056869637817
+Cum prob at 4: 0.9986661383535089
+Log stats
+SummaryStatistics:
+n: 1451005
+min: -25.594785005227536
+max: 2.07088964995745
+sum: -593423.3051965394
+mean: -0.4089739905765127
+geometric mean: NaN
+variance: 5.0965673205882025
+population variance: 5.096563808148672
+second moment: 7395139.568442764
+sum of squares: 7637834.265670261
+standard deviation: 2.2575578222026125
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1451005
+min: 7.661717004831951E-12
+max: 7.931876573487114
+sum: 1450626.9763748846
+mean: 0.9997394746226769
+geometric mean: 0.6643315109770863
+variance: 0.17300964914862957
+population variance: 0.1730095299142719
+second moment: 251037.69295325808
+sum of squares: 1701286.7441877455
+standard deviation: 0.4159442861112887
+sum of logs: -593423.3051965394
+
+COV: 0.41605267839231314
+Cum prob at 4: 0.9995698732868277
+Log stats
+SummaryStatistics:
+n: 1216023
+min: -23.985483162642833
+max: 2.1845646443882165
+sum: -222028.81106235294
+mean: -0.1825860292628955
+geometric mean: NaN
+variance: 1.8378906433294606
+population variance: 1.8378891319348216
+second moment: 2234915.4558827775
+sum of squares: 2275454.814876481
+standard deviation: 1.3556882544779463
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1216023
+min: 3.830337273539054E-11
+max: 8.886778802051365
+sum: 1215753.1603905521
+mean: 0.9997780966235738
+geometric mean: 0.8331129687506837
+variance: 0.12500625702375812
+population variance: 0.1250061542245043
+second moment: 152010.3586785444
+sum of squares: 1367493.739337999
+standard deviation: 0.3535622392504015
+sum of logs: -222028.81106235294
+
+COV: 0.3536407133187287
+Cum prob at 4: 0.9999558524587449
+Log stats
+SummaryStatistics:
+n: 915971
+min: -23.18392957914446
+max: 1.9829977636200817
+sum: -86018.3317319754
+mean: -0.09390944880566762
+geometric mean: NaN
+variance: 0.6403573676998987
+population variance: 0.6403566685976698
+second moment: 586548.1380920762
+sum of squares: 594626.0722122153
+standard deviation: 0.8002233236415311
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 915971
+min: 8.537826300035484E-11
+max: 7.264487592904396
+sum: 915601.0769891687
+mean: 0.9995961411324137
+geometric mean: 0.9103651931641218
+variance: 0.11173027388595716
+population variance: 0.11173015190581381
+second moment: 102341.57897132018
+sum of squares: 1017572.8823463919
+standard deviation: 0.3342607872394804
+sum of logs: -86018.3317319754
+
+COV: 0.334395835963118
+Cum prob at 4: 0.9999831479278174
+Log stats
+SummaryStatistics:
+n: 416588
+min: -22.034454914291857
+max: 2.2093889518619765
+sum: -38576.073183697335
+mean: -0.09260005853192547
+geometric mean: NaN
+variance: 0.26622041080564507
+population variance: 0.2662197717560066
+second moment: 110903.96227629126
+sum of squares: 114476.10891103512
+standard deviation: 0.5159655131940942
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 416588
+min: 2.694994101426647E-10
+max: 9.110147952977314
+sum: 415883.8265825495
+mean: 0.9983096646628259
+geometric mean: 0.911557997246214
+variance: 0.22109474583878577
+population variance: 0.2210942151111944
+second moment: 92105.19688474225
+sum of squares: 507286.04033907084
+standard deviation: 0.4702071307825795
+sum of logs: -38576.073183697335
+
+COV: 0.4710032842779195
+Cum prob at 4: 0.9983949668455558
+Log stats
+SummaryStatistics:
+n: 356169
+min: -24.670732735580174
+max: 1.9628522105335646
+sum: -401823.21037348395
+mean: -1.1281813138523535
+geometric mean: NaN
+variance: 11.744925987719036
+population variance: 11.744893012008102
+second moment: 4183166.7991939136
+sum of squares: 4636496.236609394
+standard deviation: 3.4270870995233014
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 356169
+min: 1.9303537713838477E-11
+max: 7.119604744952295
+sum: 356022.83081383276
+mean: 0.9995896072196928
+geometric mean: 0.32362128709046617
+variance: 0.6357521175212664
+population variance: 0.6357503325480723
+second moment: 226434.5601933144
+sum of squares: 582311.2818077538
+standard deviation: 0.7973406533729899
+sum of logs: -401823.21037348395
+
+COV: 0.797668010565608
+Cum prob at 4: 0.9589341004555482
+Log stats
+SummaryStatistics:
+n: 213263
+min: -23.156564969189546
+max: 1.9264431203430565
+sum: -113971.0096664486
+mean: -0.5344152978549654
+geometric mean: NaN
+variance: 4.659106673603414
+population variance: 4.659084826838277
+second moment: 993610.4074260114
+sum of squares: 1054518.2585037376
+standard deviation: 2.158496391843965
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 213263
+min: 8.774686601145451E-11
+max: 6.865048612082348
+sum: 213168.81248572588
+mean: 0.9995583504204576
+geometric mean: 0.5860118323678356
+variance: 0.36894596331073587
+population variance: 0.368944233306172
+second moment: 78682.15402757416
+sum of squares: 291756.8205968935
+standard deviation: 0.6074092222799518
+sum of logs: -113971.0096664486
+
+COV: 0.6076776028377424
+Cum prob at 4: 0.9887560982802703
+Log stats
+SummaryStatistics:
+n: 125019
+min: -22.58430845659534
+max: 2.176901068920894
+sum: -34500.30141501251
+mean: -0.27596046532936985
+geometric mean: NaN
+variance: 1.9149675786379257
+population variance: 1.9149522612255434
+second moment: 239405.4167461562
+sum of squares: 248926.13597864745
+standard deviation: 1.3838235359459405
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 125019
+min: 1.5551040760778918E-10
+max: 8.81893459866947
+sum: 124942.80861907157
+mean: 0.9993905615872125
+geometric mean: 0.7588429307735453
+variance: 0.2511002417264034
+population variance: 0.25109823322976105
+second moment: 31392.0500201515
+sum of squares: 156258.7136922499
+standard deviation: 0.5010990338509977
+sum of logs: -34500.30141501251
+
+COV: 0.5014046090801199
+Cum prob at 4: 0.9971629001192747
+Log stats
+SummaryStatistics:
+n: 49780
+min: -21.947443537302227
+max: 2.1928938744217565
+sum: -7069.015098497234
+mean: -0.14200512451782601
+geometric mean: NaN
+variance: 0.6241597778510843
+population variance: 0.6241472394867241
+second moment: 31070.049581649128
+sum of squares: 32073.88595092909
+standard deviation: 0.7900378331770475
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 49780
+min: 2.939993565192706E-10
+max: 8.961107949513005
+sum: 49692.385286848956
+mean: 0.9982399615678732
+geometric mean: 0.8676168103567136
+variance: 0.22663355638101945
+population variance: 0.22662900367799854
+second moment: 11281.591803090767
+sum of squares: 60886.51658205069
+standard deviation: 0.47606045454439866
+sum of logs: -7069.015098497234
+
+COV: 0.4768998165498005
+Cum prob at 4: 0.9981962176856938
+Plotting scatter with 238926 values
+Plotting scatter with 235374 values
+Plotting scatter with 215482 values
+Plotting scatter with 136411 values
+Plotting scatter with 2559 values
+Plotting scatter with 2509 values
+Plotting scatter with 2262 values
+Plotting scatter with 1448 values
+Processing: a0_002b0_008
+	change b-a: a=0.002
+	Catalog length: 362154.56 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/a0_002b0_008/a0_002b0_008.in
+Loading fault model from: /home/rcf-12/kmilner/.opensha/ucerf3_sub_sects/FM3_1_GEOL_sub_sects.xml
+Found eList file in directory: /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/a0_002b0_008/a0_002b0_008.eList
+Detected prefix: a0_002b0_008
+Scatter mag range: 6.000001338747613 8.032377260246497
+XYZ logMinX=1.0, logMaxX=4.0, spacing=0.06
+MinZ: -6.337128867385529
+MaxZ: -1.47040634721654
+Filtering Mag/Vel scatter from 257866 to ~100000 points
+Filter done (random mag-dependent sample): 83633
+Log stats
+SummaryStatistics:
+n: 95808274
+min: -26.220309592694118
+max: 2.3833555138484863
+sum: -1.5085798548708593E7
+mean: -0.1574582018741958
+geometric mean: NaN
+variance: 1.7428376535765513
+population variance: 1.7428376353856627
+second moment: 1.6697826570854166E8
+sum of squares: 1.6935364842158604E8
+standard deviation: 1.3201657674612501
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 95808274
+min: 4.098870808574385E-12
+max: 10.84121976197413
+sum: 9.576981305500093E7
+mean: 0.9995985634291027
+geometric mean: 0.854312521524478
+variance: 0.10299418060753333
+population variance: 0.10299417953253036
+second moment: 9867694.57305786
+sum of squares: 1.0559906212248604E8
+standard deviation: 0.3209270643113998
+sum of logs: -1.5085798548708593E7
+
+COV: 0.32105594791019504
+Cum prob at 4: 0.9999921692175446
+Log stats
+SummaryStatistics:
+n: 87324202
+min: -25.818376649516047
+max: 2.43331215613294
+sum: -8681403.676926756
+mean: -0.0994157802541273
+geometric mean: NaN
+variance: 0.8730119468610008
+population variance: 0.8730119368636354
+second moment: 7.623507072309135E7
+sum of squares: 7.709813924347596E7
+standard deviation: 0.9343510832984574
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 87324202
+min: 6.126627689875122E-12
+max: 11.396566845408167
+sum: 8.728233743331902E7
+mean: 0.9995205846065779
+geometric mean: 0.9053661963684249
+variance: 0.09256101004380747
+population variance: 0.09256100898383775
+second moment: 8082816.245828462
+sum of squares: 9.532330918289907E7
+standard deviation: 0.3042384098758858
+sum of logs: -8681403.676926756
+
+COV: 0.3043843364122784
+Cum prob at 4: 0.9999973931065256
+Log stats
+SummaryStatistics:
+n: 68902723
+min: -23.717735676345796
+max: 2.4225159981817685
+sum: -4518958.657068418
+mean: -0.06558461640293678
+geometric mean: NaN
+variance: 0.3337521047907544
+population variance: 0.3337520999469385
+second moment: 2.2996428493312217E7
+sum of squares: 2.3292802663357306E7
+standard deviation: 0.5777128220757736
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 68902723
+min: 5.0063161568002045E-11
+max: 11.274189500873984
+sum: 6.884066105520378E7
+mean: 0.9990992816809177
+geometric mean: 0.9365197984702566
+variance: 0.10240880883075634
+population variance: 0.10240880734447533
+second moment: 7056245.685216749
+sum of squares: 7.583490069583498E7
+standard deviation: 0.3200137635020662
+sum of logs: -4518958.657068418
+
+COV: 0.320302265620354
+Cum prob at 4: 0.999992574776053
+Log stats
+SummaryStatistics:
+n: 30004695
+min: -20.126788027955122
+max: 2.4730150320423814
+sum: -2626724.0671927137
+mean: -0.08754376830683931
+geometric mean: NaN
+variance: 0.2008785969937321
+population variance: 0.2008785902988266
+second moment: 6027300.833946251
+sum of squares: 6257254.157086769
+standard deviation: 0.44819482035576014
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 30004695
+min: 1.8157122391244396E-9
+max: 11.858145697262016
+sum: 2.9957879439524557E7
+mean: 0.9984397255052607
+geometric mean: 0.916178771179885
+variance: 0.23396540958643622
+population variance: 0.23396540178880956
+second moment: 7020060.521225685
+sum of squares: 3.6931197445619754E7
+standard deviation: 0.4836997101368123
+sum of logs: -2626724.0671927137
+
+COV: 0.4844555938437204
+Cum prob at 4: 0.9979134661112712
+Log stats
+SummaryStatistics:
+n: 1432945
+min: -25.59542200862826
+max: 2.0786484419144258
+sum: -486799.2226571028
+mean: -0.33971940490185676
+geometric mean: NaN
+variance: 3.936154785108593
+population variance: 3.936152038209874
+second moment: 5640289.382392648
+sum of squares: 5805664.524620584
+standard deviation: 1.9839744920508915
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1432945
+min: 7.656838019174694E-12
+max: 7.993657717240648
+sum: 1432397.8345252129
+mean: 0.9996181531916584
+geometric mean: 0.7119700700489191
+variance: 0.16402448863493668
+population variance: 0.16402437416823443
+second moment: 235037.9068425007
+sum of squares: 1666888.7848263094
+standard deviation: 0.40499936868461495
+sum of logs: -486799.2226571028
+
+COV: 0.40515407547522175
+Cum prob at 4: 0.99968986218354
+Log stats
+SummaryStatistics:
+n: 1199473
+min: -24.483375582783708
+max: 2.215825778242524
+sum: -192435.1169051878
+mean: -0.1604330542706571
+geometric mean: NaN
+variance: 1.4512061269847065
+population variance: 1.451204917114933
+second moment: 1740681.1155466
+sum of squares: 1771554.0691006586
+standard deviation: 1.204660170747214
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1199473
+min: 2.3281185221525468E-11
+max: 9.168977528410911
+sum: 1198947.8448070546
+mean: 0.9995621783958819
+geometric mean: 0.851774844351472
+variance: 0.12214102968602017
+population variance: 0.12214092785710891
+second moment: 146504.74515955
+sum of squares: 1344927.6646978974
+standard deviation: 0.34948680903006935
+sum of logs: -192435.1169051878
+
+COV: 0.34963988892710307
+Cum prob at 4: 0.999963482066337
+Log stats
+SummaryStatistics:
+n: 887710
+min: -22.406801642698735
+max: 2.3635419957222172
+sum: -76098.3314504582
+mean: -0.08572431475420711
+geometric mean: NaN
+variance: 0.4838362999315842
+population variance: 0.4838357548928892
+second moment: 429505.8379759667
+sum of squares: 436029.3152935229
+standard deviation: 0.6955834241351531
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 887710
+min: 1.8571615750745422E-10
+max: 10.628531071308512
+sum: 886937.6459733046
+mean: 0.9991299478132266
+geometric mean: 0.9178472332841877
+variance: 0.11382079743465624
+population variance: 0.11382066921620942
+second moment: 101039.74626992126
+sum of squares: 987205.7102047758
+standard deviation: 0.33737337985480753
+sum of logs: -76098.3314504582
+
+COV: 0.3376671679126515
+Cum prob at 4: 0.9999800521731776
+Log stats
+SummaryStatistics:
+n: 381647
+min: -18.195078554263265
+max: 2.45452753810364
+sum: -35717.3641735773
+mean: -0.09358743596459133
+geometric mean: NaN
+variance: 0.23003910019397691
+population variance: 0.23003849744038474
+second moment: 87793.50243263051
+sum of squares: 91136.19896504786
+standard deviation: 0.47962391536909094
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 381647
+min: 1.253077079130977E-8
+max: 11.640932352454312
+sum: 381125.36902832246
+mean: 0.9986332108684578
+geometric mean: 0.9106583896503746
+variance: 0.24547582464471315
+population variance: 0.24547518144347055
+second moment: 93684.8665723562
+sum of squares: 474289.3175885466
+standard deviation: 0.4954551691573246
+sum of logs: -35717.3641735773
+
+COV: 0.49613327873048985
+Cum prob at 4: 0.9974206581703895
+Log stats
+SummaryStatistics:
+n: 338412
+min: -25.202161511510365
+max: 2.0647951680975853
+sum: -322886.8814379792
+mean: -0.9541236168870616
+geometric mean: NaN
+variance: 9.323860155137405
+population variance: 9.323832603336182
+second moment: 3155296.8389602043
+sum of squares: 3463370.838123278
+standard deviation: 3.05349965697352
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 338412
+min: 1.1345935844381043E-11
+max: 7.883682902492331
+sum: 338269.11529166484
+mean: 0.9995777788366486
+geometric mean: 0.3851495352382794
+variance: 0.588041142378256
+population variance: 0.5880394047296431
+second moment: 198999.591033368
+sum of squares: 537125.8819456394
+standard deviation: 0.7668384069530269
+sum of logs: -322886.8814379792
+
+COV: 0.7671623191198851
+Cum prob at 4: 0.9646650082462991
+Log stats
+SummaryStatistics:
+n: 205497
+min: -24.115123158536715
+max: 1.9856686261364536
+sum: -99004.2292408195
+mean: -0.48177943834128495
+geometric mean: NaN
+variance: 3.9056258964010353
+population variance: 3.9056068906447643
+second moment: 802590.4992068271
+sum of squares: 850288.7011638926
+standard deviation: 1.9762656441888158
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 205497
+min: 3.364612715166604E-11
+max: 7.283915974235284
+sum: 205380.34076549942
+mean: 0.9994323068730847
+geometric mean: 0.617683283991104
+variance: 0.35732438005172773
+population variance: 0.3573226412215742
+second moment: 73428.73080310984
+sum of squares: 278692.4785607448
+standard deviation: 0.5977661583359565
+sum of logs: -99004.2292408195
+
+COV: 0.5981056988303514
+Cum prob at 4: 0.9897959119632365
+Log stats
+SummaryStatistics:
+n: 118874
+min: -22.183658091384522
+max: 1.9907910351314082
+sum: -29457.852923992283
+mean: -0.24780736682530718
+geometric mean: NaN
+variance: 1.4898188697973234
+population variance: 1.4898063370410453
+second moment: 177099.23850941722
+sum of squares: 184399.11147483738
+standard deviation: 1.2205813654965094
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 118874
+min: 2.321451968843178E-10
+max: 7.321322895922718
+sum: 118736.26326602316
+mean: 0.9988413216180483
+geometric mean: 0.780510280970855
+variance: 0.24481201938629868
+population variance: 0.24480995996187124
+second moment: 29101.539180507483
+sum of squares: 147700.22530513126
+standard deviation: 0.4947848212973986
+sum of logs: -29457.852923992283
+
+COV: 0.49535878281035084
+Cum prob at 4: 0.9974520371491339
+Log stats
+SummaryStatistics:
+n: 46025
+min: -18.075058090194755
+max: 2.2153402534485642
+sum: -5971.712726318724
+mean: -0.1297493259384841
+geometric mean: NaN
+variance: 0.4813946508654611
+population variance: 0.48138419144882094
+second moment: 22155.707411431984
+sum of squares: 22930.533112370165
+standard deviation: 0.693826095549498
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 46025
+min: 1.4128693742662917E-8
+max: 9.164526843032093
+sum: 45951.00217405844
+mean: 0.9983922254005152
+geometric mean: 0.8783155742595885
+variance: 0.24224351508130376
+population variance: 0.24223825177842315
+second moment: 11149.015538101925
+sum of squares: 57026.13885804452
+standard deviation: 0.49218240021490384
+sum of logs: -5971.712726318724
+
+COV: 0.4929749928866482
+Cum prob at 4: 0.9975638897901642
+Plotting scatter with 238967 values
+Plotting scatter with 235296 values
+Plotting scatter with 215353 values
+Plotting scatter with 127282 values
+Plotting scatter with 2553 values
+Plotting scatter with 2499 values
+Plotting scatter with 2259 values
+Plotting scatter with 1369 values
+Processing: a0_003b0_008
+	change b-a: a=0.003
+	Catalog length: 291185.94 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/a0_003b0_008/a0_003b0_008.in
+Loading fault model from: /home/rcf-12/kmilner/.opensha/ucerf3_sub_sects/FM3_1_GEOL_sub_sects.xml
+Found eList file in directory: /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/a0_003b0_008/a0_003b0_008.eList
+Detected prefix: a0_003b0_008
+Scatter mag range: 6.00000216672251 7.895519949843956
+XYZ logMinX=1.0, logMaxX=4.0, spacing=0.06
+MinZ: -6.606004134588558
+MaxZ: -1.4764234224241355
+Filtering Mag/Vel scatter from 224641 to ~100000 points
+Filter done (random mag-dependent sample): 85334
+Log stats
+SummaryStatistics:
+n: 89213142
+min: -25.36285791651485
+max: 2.386143623221277
+sum: -1.6498100931774527E7
+mean: -0.18492904253702264
+geometric mean: NaN
+variance: 2.3290921579062998
+population variance: 2.3290921317992477
+second moment: 2.07785627085289E8
+sum of squares: 2.1083660509386888E8
+standard deviation: 1.5261363497100446
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 89213142
+min: 9.66163800334713E-12
+max: 10.871488444996459
+sum: 8.917568737256502E7
+mean: 0.9995801669316156
+geometric mean: 0.8311632589959618
+variance: 0.10332531963910783
+population variance: 0.10332531848092287
+second moment: 9217976.309833797
+sum of squares: 9.835622478018358E7
+standard deviation: 0.32144256040404456
+sum of logs: -1.6498100931774527E7
+
+COV: 0.3215775693016881
+Cum prob at 4: 0.9999919189453954
+Log stats
+SummaryStatistics:
+n: 80888585
+min: -25.36285791651485
+max: 2.494847592822032
+sum: -8830842.58763049
+mean: -0.10917291466588762
+geometric mean: NaN
+variance: 1.11760807376794
+population variance: 1.1176080599513045
+second moment: 9.04017345540562E7
+sum of squares: 9.13658233785972E7
+standard deviation: 1.057169841495651
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 80888585
+min: 9.66163800334713E-12
+max: 12.11988622016614
+sum: 8.084964587759489E7
+mean: 0.9995186079448718
+geometric mean: 0.8965753730630267
+variance: 0.0914332878107377
+population variance: 0.09143328668037688
+second moment: 7395909.181475033
+sum of squares: 8.820663468187366E7
+standard deviation: 0.3023793772907433
+sum of logs: -8830842.58763049
+
+COV: 0.30252501042724056
+Cum prob at 4: 0.9999977192228834
+Log stats
+SummaryStatistics:
+n: 62422676
+min: -25.36285791651485
+max: 2.4031593980919386
+sum: -4344499.697786214
+mean: -0.06959810082118215
+geometric mean: NaN
+variance: 0.41974050982812205
+population variance: 0.4197405031039549
+second moment: 2.620132542933517E7
+sum of squares: 2.6503694357349806E7
+standard deviation: 0.6478738378944793
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 62422676
+min: 9.66163800334713E-12
+max: 11.058058056600796
+sum: 6.2371633422478914E7
+mean: 0.9991823071200664
+geometric mean: 0.9327686235279394
+variance: 0.1059828333900903
+population variance: 0.10598283169226445
+second moment: 6615731.964288755
+sum of squares: 6.893636454594125E7
+standard deviation: 0.3255500474429244
+sum of logs: -4344499.697786214
+
+COV: 0.32581646524672175
+Cum prob at 4: 0.9999896564495763
+Log stats
+SummaryStatistics:
+n: 25060599
+min: -18.76600934206313
+max: 3.1402549085545557
+sum: -2642058.260534119
+mean: -0.10542678012333151
+geometric mean: NaN
+variance: 0.24803779033268056
+population variance: 0.24803778043516014
+second moment: 6215975.352335594
+sum of squares: 6494519.047651861
+standard deviation: 0.4980339248813082
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 25060599
+min: 7.079876718291142E-9
+max: 23.109756982717393
+sum: 2.497143874132152E7
+mean: 0.9964422135843627
+geometric mean: 0.8999403639568656
+variance: 0.3179667092852689
+population variance: 0.3179666965973555
+second moment: 7968435.878780991
+sum of squares: 3.285103157460521E7
+standard deviation: 0.5638853689228591
+sum of logs: -2642058.260534119
+
+COV: 0.5658987156861539
+Cum prob at 4: 0.9929757305757962
+Log stats
+SummaryStatistics:
+n: 1313352
+min: -24.669710735954908
+max: 2.1506060813490895
+sum: -504057.107626614
+mean: -0.38379437319666737
+geometric mean: NaN
+variance: 4.9785917334658505
+population variance: 4.978587942713841
+second moment: 6538638.431739109
+sum of squares: 6732092.713416399
+standard deviation: 2.2312758084705373
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1313352
+min: 1.932327600669426E-11
+max: 8.590063096813365
+sum: 1312851.5483245375
+mean: 0.9996189508407178
+geometric mean: 0.6812715004584715
+variance: 0.15708485058706056
+population variance: 0.15708473098100628
+second moment: 206307.54560336657
+sum of squares: 1518658.832949082
+standard deviation: 0.3963393124420798
+sum of logs: -504057.107626614
+
+COV: 0.39649039477367176
+Cum prob at 4: 0.9997650693281782
+Log stats
+SummaryStatistics:
+n: 1099162
+min: -24.669710735954908
+max: 2.0231491452909287
+sum: -188033.07191635665
+mean: -0.1710694801279107
+geometric mean: NaN
+variance: 1.7894358118943028
+population variance: 1.7894341838942338
+second moment: 1966878.0564375538
+sum of squares: 1999044.7762970615
+standard deviation: 1.3376979524146333
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1099162
+min: 1.932327600669426E-11
+max: 7.562101632618342
+sum: 1098713.7885353921
+mean: 0.9995922243812977
+geometric mean: 0.8427630161551961
+variance: 0.11719500031237133
+population variance: 0.11719489369023528
+second moment: 128816.17373834639
+sum of squares: 1227081.9335788123
+standard deviation: 0.34233755317284625
+sum of logs: -188033.07191635665
+
+COV: 0.34247720702783346
+Cum prob at 4: 0.9999742853800975
+Log stats
+SummaryStatistics:
+n: 798661
+min: -25.07517584406307
+max: 2.0989324447946136
+sum: -70937.30725755726
+mean: -0.0888202970441293
+geometric mean: NaN
+variance: 0.5942206331339206
+population variance: 0.5942198891128239
+second moment: 474580.250858737
+sum of squares: 480880.9235608254
+standard deviation: 0.770857076982446
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 798661
+min: 1.2882184004462842E-11
+max: 8.157456727100186
+sum: 798121.1101601641
+mean: 0.9993240062556868
+geometric mean: 0.9150099888007018
+variance: 0.11507502866891221
+population variance: 0.1150748845839642
+second moment: 91905.82239671343
+sum of squares: 889487.4076792353
+standard deviation: 0.33922710485589475
+sum of logs: -70937.30725755726
+
+COV: 0.3394565753773158
+Cum prob at 4: 0.9999780426668884
+Log stats
+SummaryStatistics:
+n: 317517
+min: -18.757513114234044
+max: 2.9874903294143973
+sum: -35101.05744759582
+mean: -0.11054859250873157
+geometric mean: NaN
+variance: 0.27410591424542374
+population variance: 0.27410505096593246
+second moment: 87033.01346754997
+sum of squares: 90913.38596394836
+standard deviation: 0.5235512527398094
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 317517
+min: 7.140285222713421E-9
+max: 19.835838551238076
+sum: 316489.9914929034
+mean: 0.996765500722508
+geometric mean: 0.8953428221785059
+variance: 0.32966593822253504
+population variance: 0.32966489996021137
+second moment: 104674.21004066644
+sum of squares: 420140.5148847514
+standard deviation: 0.5741654275751328
+sum of logs: -35101.05744759582
+
+COV: 0.5760285916386025
+Cum prob at 4: 0.9920731416267493
+Log stats
+SummaryStatistics:
+n: 295740
+min: -24.482975614092783
+max: 2.11579769695067
+sum: -322419.3617057011
+mean: -1.0902122191983044
+geometric mean: NaN
+variance: 11.86226031743516
+population variance: 11.862220206999245
+second moment: 3508133.0040179566
+sum of squares: 3859638.531855618
+standard deviation: 3.4441632245634293
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 295740
+min: 2.3290498829153194E-11
+max: 8.296200981524972
+sum: 295603.7149992446
+mean: 0.999539172919594
+geometric mean: 0.33614514968254194
+variance: 0.5584223864266945
+population variance: 0.558420498206006
+second moment: 165147.2781394442
+sum of squares: 460614.7709417343
+standard deviation: 0.7472766465149935
+sum of logs: -322419.3617057011
+
+COV: 0.7476211705962891
+Cum prob at 4: 0.9681940568188194
+Log stats
+SummaryStatistics:
+n: 181790
+min: -23.73917813652351
+max: 1.8996565738964595
+sum: -92383.0625327861
+mean: -0.5081856127002824
+geometric mean: NaN
+variance: 4.646576679011726
+population variance: 4.646551118878171
+second moment: 844696.5279008627
+sum of squares: 891644.271137227
+standard deviation: 2.155591955591718
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 181790
+min: 4.900111139603013E-11
+max: 6.683598725829316
+sum: 181673.68683591048
+mean: 0.9993601784251723
+geometric mean: 0.6015860993781598
+variance: 0.3414173253505647
+population variance: 0.3414154472641719
+second moment: 62065.914158153806
+sum of squares: 243623.36224964788
+standard deviation: 0.5843092720046164
+sum of logs: -92383.0625327861
+
+COV: 0.5846833650360093
+Cum prob at 4: 0.9911566341711655
+Log stats
+SummaryStatistics:
+n: 103393
+min: -24.515560056127647
+max: 2.2562504789714963
+sum: -25746.76880560369
+mean: -0.24901849066768286
+geometric mean: NaN
+variance: 1.7025891342788715
+population variance: 1.7025726671182873
+second moment: 176034.09577136108
+sum of squares: 182445.51727890517
+standard deviation: 1.304832990952816
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 103393
+min: 2.2543822007809974E-11
+max: 9.547224452184537
+sum: 103292.7811404775
+mean: 0.9990306997618584
+geometric mean: 0.7795655585637509
+variance: 0.23605740782392584
+population variance: 0.23605512471570939
+second moment: 24406.44750973134
+sum of squares: 127599.10693285074
+standard deviation: 0.48585739453457516
+sum of logs: -25746.76880560369
+
+COV: 0.48632879314959016
+Cum prob at 4: 0.9978313172139808
+Log stats
+SummaryStatistics:
+n: 37864
+min: -18.59445851323105
+max: 2.7374018230613184
+sum: -5579.679805807859
+mean: -0.14736107663764583
+geometric mean: NaN
+variance: 0.5931781362748209
+population variance: 0.5931624702560095
+second moment: 22459.503773773544
+sum of squares: 23281.731397251035
+standard deviation: 0.7701805867943056
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 37864
+min: 8.404836581953137E-9
+max: 15.446799396198813
+sum: 37758.641194895536
+mean: 0.9972174412342989
+geometric mean: 0.8629823183994342
+variance: 0.305685058498831
+population variance: 0.3056769852614948
+second moment: 11574.153369941238
+sum of squares: 49227.72892679964
+standard deviation: 0.552887925803079
+sum of logs: -5579.679805807859
+
+COV: 0.5544306617007679
+Cum prob at 4: 0.9938846697161006
+Plotting scatter with 238572 values
+Plotting scatter with 234623 values
+Plotting scatter with 213060 values
+Plotting scatter with 113791 values
+Plotting scatter with 2547 values
+Plotting scatter with 2496 values
+Plotting scatter with 2236 values
+Plotting scatter with 1221 values
+Processing: a0_001b0_009
+	change b-a: b=0.009
+	Catalog length: 496501.1 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/a0_001b0_009/a0_001b0_009.in
+Loading fault model from: /home/rcf-12/kmilner/.opensha/ucerf3_sub_sects/FM3_1_GEOL_sub_sects.xml
+Found eList file in directory: /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/a0_001b0_009/a0_001b0_009.eList
+Detected prefix: a0_001b0_009
+Scatter mag range: 6.000002953244028 8.039169828145676
+XYZ logMinX=1.0, logMaxX=4.0, spacing=0.06
+MinZ: -6.724304432306718
+MaxZ: -1.4924346580262189
+Filtering Mag/Vel scatter from 307050 to ~100000 points
+Filter done (random mag-dependent sample): 87908
+Log stats
+SummaryStatistics:
+n: 101947088
+min: -26.047956377319878
+max: 2.30253682626924
+sum: -1.4230548499930236E7
+mean: -0.1395875917510041
+geometric mean: NaN
+variance: 1.3230067329505117
+population variance: 1.3230067199731255
+second moment: 1.348766825056916E8
+sum of squares: 1.3686309050002888E8
+standard deviation: 1.1502202975736917
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 101947088
+min: 4.869857805449965E-12
+max: 9.999517344400141
+sum: 1.0191776882248473E8
+mean: 0.9997124078989681
+geometric mean: 0.8697168398471994
+variance: 0.10443995281770832
+population variance: 0.10443995179325578
+second moment: 1.0647348956182806E7
+sum of squares: 1.1253580703371099E8
+standard deviation: 0.3231717079475063
+sum of logs: -1.4230548499930236E7
+
+COV: 0.32326467631495714
+Cum prob at 4: 0.9999910384951005
+Log stats
+SummaryStatistics:
+n: 93742421
+min: -25.350949593949487
+max: 2.506263673981474
+sum: -9401718.745485568
+mean: -0.10029310791416961
+geometric mean: NaN
+variance: 0.8325343194693037
+population variance: 0.8325343105882196
+second moment: 7.804378184010564E7
+sum of squares: 7.898670943276946E7
+standard deviation: 0.9124331863042376
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 93742421
+min: 9.777379682066812E-12
+max: 12.259040612523643
+sum: 9.371274322779301E7
+mean: 0.9996834115039008
+geometric mean: 0.9045722418922366
+variance: 0.09506580738827573
+population variance: 0.09506580637415847
+second moment: 8911698.843830846
+sum of squares: 1.0259477369544002E8
+standard deviation: 0.308327435348001
+sum of logs: -9401718.745485568
+
+COV: 0.30842507917997786
+Cum prob at 4: 0.9999965342151771
+Log stats
+SummaryStatistics:
+n: 76650227
+min: -25.350949593949487
+max: 2.5611987485595744
+sum: -5363387.790136454
+mean: -0.0699722362220771
+geometric mean: NaN
+variance: 0.38754474901040653
+population variance: 0.38754474395439087
+second moment: 2.9705392596760936E7
+sum of squares: 3.008068083414865E7
+standard deviation: 0.6225309221319103
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 76650227
+min: 9.777379682066812E-12
+max: 12.951333406004498
+sum: 7.66018746209174E7
+mean: 0.9993691815288183
+geometric mean: 0.9324197070400593
+variance: 0.10003185976857519
+population variance: 0.10003185846353196
+second moment: 7667464.658461596
+sum of squares: 8.422101740218899E7
+standard deviation: 0.3162781367223716
+sum of logs: -5363387.790136454
+
+COV: 0.3164777767496638
+Cum prob at 4: 0.9999941304660438
+Log stats
+SummaryStatistics:
+n: 37035979
+min: -21.76584081600763
+max: 2.451244146520954
+sum: -3159025.1078970525
+mean: -0.08529611456754695
+geometric mean: NaN
+variance: 0.2218451493097309
+population variance: 0.22184514331974073
+second moment: 8216252.069241908
+sum of squares: 8485704.636761
+standard deviation: 0.47100440476680355
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 37035979
+min: 3.525457143421807E-10
+max: 11.602773293002597
+sum: 3.6973173741783224E7
+mean: 0.9983042095847814
+geometric mean: 0.9182403397991451
+variance: 0.2075272337294405
+population variance: 0.20752722812604513
+second moment: 7685974.062804417
+sum of squares: 4.459644905075137E7
+standard deviation: 0.4555515708780297
+sum of logs: -3159025.1078970525
+
+COV: 0.45632540312286624
+Cum prob at 4: 0.9988236542341189
+Log stats
+SummaryStatistics:
+n: 1565040
+min: -25.622803816281422
+max: 2.3455840043689147
+sum: -485618.6608617518
+mean: -0.31029153303542306
+geometric mean: NaN
+variance: 3.0253294138945614
+population variance: 3.0253274808261326
+second moment: 4734758.520592131
+sum of squares: 4885441.879341188
+standard deviation: 1.7393474103509516
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1565040
+min: 7.450024341094409E-12
+max: 10.439367583942037
+sum: 1564514.1508429942
+mean: 0.9996640027366568
+geometric mean: 0.7332331633721763
+variance: 0.18019271067036416
+population variance: 0.1801925955341947
+second moment: 282008.61971483607
+sum of squares: 1845997.0980845327
+standard deviation: 0.4244911196601928
+sum of logs: -485618.6608617518
+
+COV: 0.4246337954533882
+Cum prob at 4: 0.9994535938872608
+Log stats
+SummaryStatistics:
+n: 1309441
+min: -24.772485360500028
+max: 2.404060579142602
+sum: -218045.09135458298
+mean: -0.16651769064399413
+geometric mean: NaN
+variance: 1.4167150174056544
+population variance: 1.4167139354821334
+second moment: 1855103.3123916602
+sum of squares: 1891411.6774603338
+standard deviation: 1.1902583826235607
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1309441
+min: 1.743597770028348E-11
+max: 11.068027860603035
+sum: 1308986.6398593376
+mean: 0.9996530121320911
+geometric mean: 0.8466078397650528
+variance: 0.12920032538482717
+population variance: 0.12920022671652107
+second moment: 169180.07407190808
+sum of squares: 1477712.5114477156
+standard deviation: 0.3594444677343458
+sum of logs: -218045.09135458298
+
+COV: 0.35956923389618106
+Cum prob at 4: 0.9999424645244355
+Log stats
+SummaryStatistics:
+n: 1001188
+min: -22.76983124905703
+max: 2.2891121713716287
+sum: -96715.51090563346
+mean: -0.09660074921556715
+geometric mean: NaN
+variance: 0.5848757787343488
+population variance: 0.5848751945525781
+second moment: 585570.0262837065
+sum of squares: 594912.8170979613
+standard deviation: 0.76477171674582
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1001188
+min: 1.2917781510247315E-10
+max: 9.866174319553753
+sum: 1000561.7791756022
+mean: 0.9993745222431712
+geometric mean: 0.9079184209230201
+variance: 0.11591348493494177
+population variance: 0.11591336915899865
+second moment: 116051.07424155955
+sum of squares: 1115987.0242798927
+standard deviation: 0.34046069513960314
+sum of logs: -96715.51090563346
+
+COV: 0.3406737790107091
+Cum prob at 4: 0.9999766050604795
+Log stats
+SummaryStatistics:
+n: 472063
+min: -21.744100829371224
+max: 2.4365209974853443
+sum: -43796.580405898836
+mean: -0.0927769818983867
+geometric mean: NaN
+variance: 0.26265783531148107
+population variance: 0.26265727890728224
+second moment: 123990.78305280839
+sum of squares: 128054.09760033395
+standard deviation: 0.5125015466430136
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 472063
+min: 3.6029397180025056E-10
+max: 11.433195356488387
+sum: 471313.8362210615
+mean: 0.9984130004279997
+geometric mean: 0.9113967356025113
+variance: 0.217734672659818
+population variance: 0.21773421141910934
+second moment: 102784.265045139
+sum of squares: 573350.1264098651
+standard deviation: 0.4666204803261618
+sum of logs: -43796.580405898836
+
+COV: 0.4673621839119993
+Cum prob at 4: 0.9985091015761494
+Log stats
+SummaryStatistics:
+n: 399390
+min: -25.15413850129778
+max: 1.9977538235488665
+sum: -345066.9419674317
+mean: -0.8639849319397909
+geometric mean: NaN
+variance: 7.300821857294182
+population variance: 7.300803577362644
+second moment: 2915867.9407628663
+sum of squares: 3214000.579133231
+standard deviation: 2.7020033044565626
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 399390
+min: 1.1904096857766582E-11
+max: 7.372477601211018
+sum: 399229.80563488795
+mean: 0.9995989024134305
+geometric mean: 0.4214791656015158
+variance: 0.6446410392448569
+population variance: 0.6446394251808112
+second moment: 257462.54002296418
+sum of squares: 656532.215546314
+standard deviation: 0.8028954099039656
+sum of logs: -345066.9419674317
+
+COV: 0.8032175785362067
+Cum prob at 4: 0.9578645799378347
+Log stats
+SummaryStatistics:
+n: 237074
+min: -23.644020108682234
+max: 2.0570515056655907
+sum: -118277.35218914809
+mean: -0.49890478158359525
+geometric mean: NaN
+variance: 3.9431494048034024
+population variance: 3.943132772235492
+second moment: 934814.258844957
+sum of squares: 993823.3954052079
+standard deviation: 1.9857364892662375
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 237074
+min: 5.3893021982694393E-11
+max: 7.822870084225551
+sum: 236962.00334784438
+mean: 0.9995275877905456
+geometric mean: 0.607195307161894
+variance: 0.37963104223476074
+population variance: 0.379629440916007
+second moment: 90000.27007572143
+sum of squares: 326850.32968001644
+standard deviation: 0.6161420633545163
+sum of logs: -118277.35218914809
+
+COV: 0.6164332739594487
+Cum prob at 4: 0.9877648144819807
+Log stats
+SummaryStatistics:
+n: 141854
+min: -22.668048554747088
+max: 2.0625957620347757
+sum: -41317.27565972779
+mean: -0.29126620088067795
+geometric mean: NaN
+variance: 1.8979173496844475
+population variance: 1.8979039703130538
+second moment: 269225.26980478794
+sum of squares: 281259.5957169334
+standard deviation: 1.3776492114048653
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 141854
+min: 1.4301829529202383E-10
+max: 7.866362536760128
+sum: 141735.57218645894
+mean: 0.9991651429389491
+geometric mean: 0.7473167151694992
+variance: 0.271738364738239
+population variance: 0.2717364491182019
+second moment: 38546.90225321341
+sum of squares: 180164.1454964326
+standard deviation: 0.5212853007118453
+sum of logs: -41317.27565972779
+
+COV: 0.521720863058267
+Cum prob at 4: 0.9960785373165746
+Log stats
+SummaryStatistics:
+n: 56920
+min: -21.712352131056644
+max: 2.4250595539663373
+sum: -8924.80760077568
+mean: -0.15679563599395158
+geometric mean: NaN
+variance: 0.6786093816862855
+population variance: 0.6785974595256796
+second moment: 38625.767396201685
+sum of squares: 40025.138280089006
+standard deviation: 0.8237775073927944
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 56920
+min: 3.7191635798735543E-10
+max: 11.30290253191302
+sum: 56843.45353508307
+mean: 0.9986551921131878
+geometric mean: 0.8548787474125541
+variance: 0.2458486892522001
+population variance: 0.24584437005527018
+second moment: 13993.461543545978
+sum of squares: 70760.47155400114
+standard deviation: 0.49583131128661095
+sum of logs: -8924.80760077568
+
+COV: 0.49649900706710925
+Cum prob at 4: 0.9974038071017972
+Plotting scatter with 239313 values
+Plotting scatter with 236072 values
+Plotting scatter with 217037 values
+Plotting scatter with 149688 values
+Plotting scatter with 2560 values
+Plotting scatter with 2512 values
+Plotting scatter with 2276 values
+Plotting scatter with 1595 values
+Processing: a0_002b0_01
+	change b-a: a=0.002, b=0.01
+	Catalog length: 514619.53 years
+Loading params from /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/a0_002b0_01/a0_002b0_01.in
+Loading fault model from: /home/rcf-12/kmilner/.opensha/ucerf3_sub_sects/FM3_1_GEOL_sub_sects.xml
+Found eList file in directory: /home/scec-00/gilchrij/RSQSim/CISM/paramSweep/paramSweep/a0_002b0_01/a0_002b0_01.eList
+Detected prefix: a0_002b0_01
+Scatter mag range: 6.000001526575834 8.056083489524319
+XYZ logMinX=1.0, logMaxX=4.0, spacing=0.06
+MinZ: -6.855185912886109
+MaxZ: -1.5192490066169382
+Filtering Mag/Vel scatter from 317706 to ~100000 points
+Filter done (random mag-dependent sample): 88083
+Log stats
+SummaryStatistics:
+n: 104576328
+min: -25.87257341496415
+max: 2.5408164637788615
+sum: -1.6564032517170792E7
+mean: -0.15839179701498285
+geometric mean: NaN
+variance: 1.6967862961788713
+population variance: 1.696786279953533
+second moment: 1.774436785583205E8
+sum of squares: 1.8006728543428463E8
+standard deviation: 1.3026074988955312
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 104576328
+min: 5.80342175273706E-12
+max: 12.690027690277264
+sum: 1.0455088631440702E8
+mean: 0.9997567165908754
+geometric mean: 0.853515311698984
+variance: 0.10520286480521125
+population variance: 0.10520286379922006
+second moment: 1.1001729191206563E7
+sum of squares: 1.1552718000992714E8
+standard deviation: 0.32434991106089617
+sum of logs: -1.6564032517170792E7
+
+COV: 0.3244288392149187
+Cum prob at 4: 0.9999903906916547
+Log stats
+SummaryStatistics:
+n: 96142097
+min: -25.524568959873644
+max: 2.5402987314349126
+sum: -1.0217453170712397E7
+mean: -0.10627449878398101
+geometric mean: NaN
+variance: 0.9555557132300795
+population variance: 0.9555557032910856
+second moment: 9.186912911471477E7
+sum of squares: 9.29549838294168E7
+standard deviation: 0.977525300557525
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 96142097
+min: 8.219029661508455E-12
+max: 12.683459352963455
+sum: 9.611686419945328E7
+mean: 0.9997375468049678
+geometric mean: 0.8991777909863128
+variance: 0.09532595030564206
+population variance: 0.09532594931413102
+second moment: 9164836.665576268
+sum of squares: 1.052564746871248E8
+standard deviation: 0.30874900859054116
+sum of logs: -1.0217453170712397E7
+
+COV: 0.30883006202704216
+Cum prob at 4: 0.9999964339589233
+Log stats
+SummaryStatistics:
+n: 78457926
+min: -24.84576278076641
+max: 2.539262461912127
+sum: -5622865.020218277
+mean: -0.07166726558924977
+geometric mean: NaN
+variance: 0.44410265515680836
+population variance: 0.44410264949641587
+second moment: 3.484337281059373E7
+sum of squares: 3.524634817141436E7
+standard deviation: 0.6664102753985779
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 78457926
+min: 1.6204003399951103E-11
+max: 12.67032267833584
+sum: 7.842071078165147E7
+mean: 0.9995256665556436
+geometric mean: 0.9308405669768421
+variance: 0.0990033013008692
+population variance: 0.09900330003900433
+second moment: 7767593.588215998
+sum of squares: 8.615110680425291E7
+standard deviation: 0.31464790051876906
+sum of logs: -5622865.020218277
+
+COV: 0.3147972193681058
+Cum prob at 4: 0.9999947175495513
+Log stats
+SummaryStatistics:
+n: 37938914
+min: -20.42219739465172
+max: 2.71766118323773
+sum: -3214035.269177082
+mean: -0.08471605879850123
+geometric mean: NaN
+variance: 0.20269373640918628
+population variance: 0.20269373106655214
+second moment: 7689980.03127305
+sum of squares: 7962260.432096918
+standard deviation: 0.45021521121479924
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 37938914
+min: 1.3513018245707938E-9
+max: 15.144859739147423
+sum: 3.785086025967537E7
+mean: 0.9976790653443055
+geometric mean: 0.9187731249129697
+variance: 0.2051683526870925
+population variance: 0.20516834727923206
+second moment: 7783864.282948919
+sum of squares: 4.554687516935075E7
+standard deviation: 0.4529551331943292
+sum of logs: -3214035.269177082
+
+COV: 0.4540088580870557
+Cum prob at 4: 0.9988880204082393
+Log stats
+SummaryStatistics:
+n: 1601954
+min: -25.179426234404204
+max: 2.214762415745804
+sum: -577093.8384414614
+mean: -0.3602437014055567
+geometric mean: NaN
+variance: 3.9804382746200924
+population variance: 3.980435789880659
+second moment: 6376475.035342481
+sum of squares: 6584369.455760874
+standard deviation: 1.9951035749103585
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1601954
+min: 1.160684350547412E-11
+max: 9.159232763600883
+sum: 1601536.5861529375
+mean: 0.9997394345611804
+geometric mean: 0.6975063220856799
+variance: 0.1805267450628799
+population variance: 0.18052663237128885
+second moment: 289195.36083371565
+sum of squares: 1890314.6419033676
+standard deviation: 0.4248843902320723
+sum of logs: -577093.8384414614
+
+COV: 0.4249951292744279
+Cum prob at 4: 0.999447867415624
+Log stats
+SummaryStatistics:
+n: 1340368
+min: -24.345913963531995
+max: 2.462807075574576
+sum: -234508.50529225744
+mean: -0.17495829898375187
+geometric mean: NaN
+variance: 1.595662307121538
+population variance: 1.5956611166557053
+second moment: 2138773.0996095743
+sum of squares: 2179802.308792778
+standard deviation: 1.263195276717554
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1340368
+min: 2.6711846399902474E-11
+max: 11.737713988784902
+sum: 1340040.8805356387
+mean: 0.999755948019927
+geometric mean: 0.839492027709975
+variance: 0.12861631757606698
+population variance: 0.12861622162009254
+second moment: 172393.06774048018
+sum of squares: 1512106.9086458432
+standard deviation: 0.35863117206409567
+sum of logs: -234508.50529225744
+
+COV: 0.35871871807753175
+Cum prob at 4: 0.9999445128470066
+Log stats
+SummaryStatistics:
+n: 1021921
+min: -23.502028034065315
+max: 2.262880005362023
+sum: -99381.07123950812
+mean: -0.09724926999200906
+geometric mean: NaN
+variance: 0.6413371875490892
+population variance: 0.641336559969083
+second moment: 655395.2987001652
+sum of squares: 665060.0353292648
+standard deviation: 0.8008353061329709
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 1021921
+min: 6.211534636647923E-11
+max: 9.61072829626575
+sum: 1021493.1630114227
+mean: 0.9995813404474749
+geometric mean: 0.9073298078482659
+variance: 0.11378140954270764
+population variance: 0.1137812982019978
+second moment: 116275.4980398838
+sum of squares: 1137341.0031807735
+standard deviation: 0.33731500047093615
+sum of logs: -99381.07123950812
+
+COV: 0.3374562797660198
+Cum prob at 4: 0.9999801580105836
+Log stats
+SummaryStatistics:
+n: 482802
+min: -20.1000556969479
+max: 2.5563633616108334
+sum: -43995.85610357393
+mean: -0.0911260850277634
+geometric mean: NaN
+variance: 0.23736742651336193
+population variance: 0.23736693486787058
+second moment: 114601.23088807765
+sum of squares: 118610.40101224872
+standard deviation: 0.4872036807264103
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 482802
+min: 1.8649050494907227E-9
+max: 12.888859861090447
+sum: 481776.0516084185
+mean: 0.9978750121342006
+geometric mean: 0.9129026002928536
+variance: 0.21407854888234198
+population variance: 0.21407810547376271
+second moment: 103357.33747894359
+sum of squares: 584109.6208236617
+standard deviation: 0.4626862315677245
+sum of logs: -43995.85610357393
+
+COV: 0.46367152793831007
+Cum prob at 4: 0.9986251089643943
+Log stats
+SummaryStatistics:
+n: 408561
+min: -24.850922167432167
+max: 2.085004935953719
+sum: -407520.8288756844
+mean: -0.9974540616350536
+geometric mean: NaN
+variance: 9.372827977990845
+population variance: 9.372805036917228
+second moment: 3829362.5986879393
+sum of squares: 4235845.904650827
+standard deviation: 3.061507468223921
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 408561
+min: 1.612061597982517E-11
+max: 8.044631189526932
+sum: 408427.93415272166
+mean: 0.9996743060466312
+geometric mean: 0.3688172328277207
+variance: 0.6586028826488265
+population variance: 0.6586012706425834
+second moment: 269078.79373500455
+sum of squares: 677373.7053792246
+standard deviation: 0.8115435186413766
+sum of logs: -407520.8288756844
+
+COV: 0.8118079195720782
+Cum prob at 4: 0.9561877918827477
+Log stats
+SummaryStatistics:
+n: 241688
+min: -22.901298184244098
+max: 2.235814207747271
+sum: -126266.63085313249
+mean: -0.5224364918950656
+geometric mean: NaN
+variance: 4.267947321765298
+population variance: 4.267929662852478
+second moment: 1031507.3843554897
+sum of squares: 1097473.6800217822
+standard deviation: 2.065901091960914
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 241688
+min: 1.1326417608631094E-10
+max: 9.354094929022905
+sum: 241605.07448376124
+mean: 0.9996568902211234
+geometric mean: 0.5930737667247432
+variance: 0.38027301424682036
+population variance: 0.38027144084220676
+second moment: 91907.04399427127
+sum of squares: 333429.2214143592
+standard deviation: 0.6166628043321734
+sum of logs: -126266.63085313249
+
+COV: 0.6168744599917357
+Cum prob at 4: 0.9877069292272522
+Log stats
+SummaryStatistics:
+n: 143332
+min: -22.65122294566884
+max: 1.8704173020297301
+sum: -40774.598896893614
+mean: -0.28447659208615306
+geometric mean: NaN
+variance: 1.8647899231859402
+population variance: 1.8647769129026595
+second moment: 267282.204480164
+sum of squares: 278881.6234180372
+standard deviation: 1.3655731116223475
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 143332
+min: 1.4544502355970913E-10
+max: 6.491004543561376
+sum: 143260.06823868456
+mean: 0.9994981458340443
+geometric mean: 0.7524079675587375
+variance: 0.26379227141792777
+population variance: 0.2637904309896116
+second moment: 37809.61005460301
+sum of squares: 180997.7826312297
+standard deviation: 0.5136071177640822
+sum of logs: -40774.598896893614
+
+COV: 0.513865003056605
+Cum prob at 4: 0.9965200424114097
+Log stats
+SummaryStatistics:
+n: 57500
+min: -19.87443851584005
+max: 2.1560699178384493
+sum: -8427.495951212233
+mean: -0.14656514697760492
+geometric mean: NaN
+variance: 0.5511765445171805
+population variance: 0.5511669588381455
+second moment: 31692.100133193362
+sum of squares: 32927.27731593608
+standard deviation: 0.742412651102593
+sum of logs: NaN
+
+
+Linear stats
+SummaryStatistics:
+n: 57500
+min: 2.3369048055283698E-9
+max: 8.637126252618325
+sum: 57393.45409108522
+mean: 0.9981470276710509
+geometric mean: 0.8636694650466636
+variance: 0.23972699175717474
+population variance: 0.2397228225921007
+second moment: 13784.06229904579
+sum of squares: 71071.16790783756
+standard deviation: 0.4896192314004575
+sum of logs: -8427.495951212233
+
+COV: 0.4905281665195884
+Cum prob at 4: 0.9976719225909154
+Plotting scatter with 239393 values
+Plotting scatter with 235761 values
+Plotting scatter with 216426 values
+Plotting scatter with 145913 values
+Plotting scatter with 2563 values
+Plotting scatter with 2509 values
+Plotting scatter with 2266 values
+Plotting scatter with 1558 values
