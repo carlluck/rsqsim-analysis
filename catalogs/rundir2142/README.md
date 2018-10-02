@@ -16,6 +16,7 @@
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
+  * [Slip-Area Plots](#slip-area-plots)
   * [Rupture Velocity Plots](#rupture-velocity-plots)
   * [Global Interevent-Time Distributions](#global-interevent-time-distributions)
   * [Normalized Fault Interevent-Time Distributions](#normalized-fault-interevent-time-distributions)
@@ -52,6 +53,12 @@
 | Scatter | 2-D Hist |
 |-----|-----|
 | ![MA Scatter](resources/mag_area.png) | ![MA Hist](resources/mag_area_hist2D.png) |
+### Slip-Area Plots
+*[(top)](#bruce-2142)*
+
+| Scatter | 2-D Hist |
+|-----|-----|
+| ![Slip Area Scatter](resources/slip_area.png) | ![Slip Area Hist](resources/slip_area_hist2D.png) |
 ### Rupture Velocity Plots
 *[(top)](#bruce-2142)*
 
