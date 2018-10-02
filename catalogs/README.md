@@ -1,4 +1,4 @@
-# RSQSim Catalog Analysis
+# RSQSim Catalogs Analysis
 
 | Date | Name | Duration | Element Area | Description |
 |-----|-----|-----|-----|-----|
