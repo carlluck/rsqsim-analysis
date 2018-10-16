@@ -64,63 +64,63 @@ Baseline catalog: [defaultModel](defaultModel#defaultmodel)
 
 **a reduction factor**
 
-| <p align="center">**aRed0_001**</p> | <p align="center">**aRed0_005**</p> | <p align="center">**aRed0_01**</p> | <p align="center">**aRed0_05**</p> |
+| <p align="center">**a reduction factor: fA=0.001**</p> | <p align="center">**a reduction factor: fA=0.005**</p> | <p align="center">**a reduction factor: fA=0.01**</p> | <p align="center">**a reduction factor: fA=0.05**</p> |
 |-----|-----|-----|-----|
 | ![plot](aRed0_001/resources/mfd.png) | ![plot](aRed0_005/resources/mfd.png) | ![plot](aRed0_01/resources/mfd.png) | ![plot](aRed0_05/resources/mfd.png) |
-| <p align="center">**defaultModel**</p> | <p align="center">**aRed0_15**</p> | <p align="center">**aRed0_2**</p> |  |
+| <p align="center">**default model setup**</p> | <p align="center">**a reduction factor: fA=0.15**</p> | <p align="center">**a reduction factor: fA=0.2**</p> |  |
 | ![plot](defaultModel/resources/mfd.png) | ![plot](aRed0_15/resources/mfd.png) | ![plot](aRed0_2/resources/mfd.png) |  |
 
 **change Dc**
 
-| <p align="center">**defaultModel**</p> | <p align="center">**Dc2e5**</p> | <p align="center">**Dc5e5**</p> |
+| <p align="center">**default model setup**</p> | <p align="center">**change Dc: Dc=2.00E-05**</p> | <p align="center">**change Dc: Dc=5.00E-05**</p> |
 |-----|-----|-----|
 | ![plot](defaultModel/resources/mfd.png) | ![plot](Dc2e5/resources/mfd.png) | ![plot](Dc5e5/resources/mfd.png) |
-| <p align="center">**Dc1e4**</p> | <p align="center">**Dc2e4**</p> |  |
+| <p align="center">**change Dc: Dc=1.00E-04**</p> | <p align="center">**change Dc: Dc=2.00E-04**</p> |  |
 | ![plot](Dc1e4/resources/mfd.png) | ![plot](Dc2e4/resources/mfd.png) |  |
 
 **change b-a**
 
-| <p align="center">**defaultModel**</p> | <p align="center">**a0_001b0_009**</p> | <p align="center">**a0_002b0_008**</p> |
+| <p align="center">**default model setup**</p> | <p align="center">**change b-a: b=0.009**</p> | <p align="center">**change b-a: a=0.002**</p> |
 |-----|-----|-----|
 | ![plot](defaultModel/resources/mfd.png) | ![plot](a0_001b0_009/resources/mfd.png) | ![plot](a0_002b0_008/resources/mfd.png) |
-| <p align="center">**a0_002b0_01**</p> | <p align="center">**a0_003b0_008**</p> |  |
+| <p align="center">**change b-a: a=0.002, b=0.01**</p> | <p align="center">**change b-a: a=0.003**</p> |  |
 | ![plot](a0_002b0_01/resources/mfd.png) | ![plot](a0_003b0_008/resources/mfd.png) |  |
 
 **stress overshoot**
 
-| <p align="center">**overS0_01**</p> | <p align="center">**overS0_05**</p> | <p align="center">**defaultModel**</p> | <p align="center">**overS0_15**</p> |
+| <p align="center">**stress overshoot: overshoot=0.01**</p> | <p align="center">**stress overshoot: overshoot=0.05**</p> | <p align="center">**default model setup**</p> | <p align="center">**stress overshoot: overshoot=0.15**</p> |
 |-----|-----|-----|-----|
 | ![plot](overS0_01/resources/mfd.png) | ![plot](overS0_05/resources/mfd.png) | ![plot](defaultModel/resources/mfd.png) | ![plot](overS0_15/resources/mfd.png) |
-| <p align="center">**overS0_2**</p> | <p align="center">**overS0_25**</p> | <p align="center">**overS0_3**</p> |  |
+| <p align="center">**stress overshoot: overshoot=0.2**</p> | <p align="center">**stress overshoot: overshoot=0.25**</p> | <p align="center">**stress overshoot: overshoot=0.3**</p> |  |
 | ![plot](overS0_2/resources/mfd.png) | ![plot](overS0_25/resources/mfd.png) | ![plot](overS0_3/resources/mfd.png) |  |
 
 **vary tau/sigma**
 
-| <p align="center">**defaultModel**</p> | <p align="center">**sigma125**</p> | <p align="center">**sigma150**</p> |
+| <p align="center">**default model setup**</p> | <p align="center">**vary tau/sigma: sigma0=125, tau0=68.75**</p> | <p align="center">**vary tau/sigma: sigma0=150, tau0=82.5**</p> |
 |-----|-----|-----|
 | ![plot](defaultModel/resources/mfd.png) | ![plot](sigma125/resources/mfd.png) | ![plot](sigma150/resources/mfd.png) |
-| <p align="center">**sigma175**</p> | <p align="center">**sigma200**</p> |  |
+| <p align="center">**vary tau/sigma: sigma0=175, tau0=96.25**</p> | <p align="center">**vary tau/sigma: sigma0=200, tau0=110**</p> |  |
 | ![plot](sigma175/resources/mfd.png) | ![plot](sigma200/resources/mfd.png) |  |
 
 **change ddotEQ**
 
-| <p align="center">**ddot0_5**</p> | <p align="center">**defaultModel**</p> | <p align="center">**ddot1_5**</p> |
+| <p align="center">**change ddotEQ: ddotEQ=0.5**</p> | <p align="center">**default model setup**</p> | <p align="center">**change ddotEQ: ddotEQ=1.5**</p> |
 |-----|-----|-----|
 | ![plot](ddot0_5/resources/mfd.png) | ![plot](defaultModel/resources/mfd.png) | ![plot](ddot1_5/resources/mfd.png) |
-| <p align="center">**ddot2**</p> | <p align="center">**ddot2_5**</p> | <p align="center">**ddot3**</p> |
+| <p align="center">**change ddotEQ: ddotEQ=2**</p> | <p align="center">**change ddotEQ: ddotEQ=2.5**</p> | <p align="center">**change ddotEQ: ddotEQ=3**</p> |
 | ![plot](ddot2/resources/mfd.png) | ![plot](ddot2_5/resources/mfd.png) | ![plot](ddot3/resources/mfd.png) |
 
 **change mu0**
 
-| <p align="center">**mu0_4**</p> | <p align="center">**mu0_5**</p> | <p align="center">**defaultModel**</p> |
+| <p align="center">**change mu0: mu0=0.4**</p> | <p align="center">**change mu0: mu0=0.5**</p> | <p align="center">**default model setup**</p> |
 |-----|-----|-----|
 | ![plot](mu0_4/resources/mfd.png) | ![plot](mu0_5/resources/mfd.png) | ![plot](defaultModel/resources/mfd.png) |
-| <p align="center">**mu0_7**</p> | <p align="center">**mu0_8**</p> |  |
+| <p align="center">**change mu0: mu0=0.7**</p> | <p align="center">**change mu0: mu0=0.8**</p> |  |
 | ![plot](mu0_7/resources/mfd.png) | ![plot](mu0_8/resources/mfd.png) |  |
 
 **hold b-a constant, but change a and b**
 
-| <p align="center">**defaultModel**</p> | <p align="center">**a0_0015b0_0085**</p> | <p align="center">**a0_002b0_009**</p> | <p align="center">**a0_003b0_01**</p> |
+| <p align="center">**default model setup**</p> | <p align="center">**hold b-a constant, but change a and b: a=0.0015, b=0.0085**</p> | <p align="center">**hold b-a constant, but change a and b: a=0.002, b=0.009**</p> | <p align="center">**hold b-a constant, but change a and b: a=0.003, b=0.01**</p> |
 |-----|-----|-----|-----|
 | ![plot](defaultModel/resources/mfd.png) | ![plot](a0_0015b0_0085/resources/mfd.png) | ![plot](a0_002b0_009/resources/mfd.png) | ![plot](a0_003b0_01/resources/mfd.png) |
 
@@ -133,63 +133,63 @@ Baseline catalog: [defaultModel](defaultModel#defaultmodel)
 
 **a reduction factor**
 
-| <p align="center">**aRed0_001**</p> | <p align="center">**aRed0_005**</p> | <p align="center">**aRed0_01**</p> | <p align="center">**aRed0_05**</p> |
+| <p align="center">**a reduction factor: fA=0.001**</p> | <p align="center">**a reduction factor: fA=0.005**</p> | <p align="center">**a reduction factor: fA=0.01**</p> | <p align="center">**a reduction factor: fA=0.05**</p> |
 |-----|-----|-----|-----|
 | ![plot](aRed0_001/resources/mag_area_hist2D.png) | ![plot](aRed0_005/resources/mag_area_hist2D.png) | ![plot](aRed0_01/resources/mag_area_hist2D.png) | ![plot](aRed0_05/resources/mag_area_hist2D.png) |
-| <p align="center">**defaultModel**</p> | <p align="center">**aRed0_15**</p> | <p align="center">**aRed0_2**</p> |  |
+| <p align="center">**default model setup**</p> | <p align="center">**a reduction factor: fA=0.15**</p> | <p align="center">**a reduction factor: fA=0.2**</p> |  |
 | ![plot](defaultModel/resources/mag_area_hist2D.png) | ![plot](aRed0_15/resources/mag_area_hist2D.png) | ![plot](aRed0_2/resources/mag_area_hist2D.png) |  |
 
 **change Dc**
 
-| <p align="center">**defaultModel**</p> | <p align="center">**Dc2e5**</p> | <p align="center">**Dc5e5**</p> |
+| <p align="center">**default model setup**</p> | <p align="center">**change Dc: Dc=2.00E-05**</p> | <p align="center">**change Dc: Dc=5.00E-05**</p> |
 |-----|-----|-----|
 | ![plot](defaultModel/resources/mag_area_hist2D.png) | ![plot](Dc2e5/resources/mag_area_hist2D.png) | ![plot](Dc5e5/resources/mag_area_hist2D.png) |
-| <p align="center">**Dc1e4**</p> | <p align="center">**Dc2e4**</p> |  |
+| <p align="center">**change Dc: Dc=1.00E-04**</p> | <p align="center">**change Dc: Dc=2.00E-04**</p> |  |
 | ![plot](Dc1e4/resources/mag_area_hist2D.png) | ![plot](Dc2e4/resources/mag_area_hist2D.png) |  |
 
 **change b-a**
 
-| <p align="center">**defaultModel**</p> | <p align="center">**a0_001b0_009**</p> | <p align="center">**a0_002b0_008**</p> |
+| <p align="center">**default model setup**</p> | <p align="center">**change b-a: b=0.009**</p> | <p align="center">**change b-a: a=0.002**</p> |
 |-----|-----|-----|
 | ![plot](defaultModel/resources/mag_area_hist2D.png) | ![plot](a0_001b0_009/resources/mag_area_hist2D.png) | ![plot](a0_002b0_008/resources/mag_area_hist2D.png) |
-| <p align="center">**a0_002b0_01**</p> | <p align="center">**a0_003b0_008**</p> |  |
+| <p align="center">**change b-a: a=0.002, b=0.01**</p> | <p align="center">**change b-a: a=0.003**</p> |  |
 | ![plot](a0_002b0_01/resources/mag_area_hist2D.png) | ![plot](a0_003b0_008/resources/mag_area_hist2D.png) |  |
 
 **stress overshoot**
 
-| <p align="center">**overS0_01**</p> | <p align="center">**overS0_05**</p> | <p align="center">**defaultModel**</p> | <p align="center">**overS0_15**</p> |
+| <p align="center">**stress overshoot: overshoot=0.01**</p> | <p align="center">**stress overshoot: overshoot=0.05**</p> | <p align="center">**default model setup**</p> | <p align="center">**stress overshoot: overshoot=0.15**</p> |
 |-----|-----|-----|-----|
 | ![plot](overS0_01/resources/mag_area_hist2D.png) | ![plot](overS0_05/resources/mag_area_hist2D.png) | ![plot](defaultModel/resources/mag_area_hist2D.png) | ![plot](overS0_15/resources/mag_area_hist2D.png) |
-| <p align="center">**overS0_2**</p> | <p align="center">**overS0_25**</p> | <p align="center">**overS0_3**</p> |  |
+| <p align="center">**stress overshoot: overshoot=0.2**</p> | <p align="center">**stress overshoot: overshoot=0.25**</p> | <p align="center">**stress overshoot: overshoot=0.3**</p> |  |
 | ![plot](overS0_2/resources/mag_area_hist2D.png) | ![plot](overS0_25/resources/mag_area_hist2D.png) | ![plot](overS0_3/resources/mag_area_hist2D.png) |  |
 
 **vary tau/sigma**
 
-| <p align="center">**defaultModel**</p> | <p align="center">**sigma125**</p> | <p align="center">**sigma150**</p> |
+| <p align="center">**default model setup**</p> | <p align="center">**vary tau/sigma: sigma0=125, tau0=68.75**</p> | <p align="center">**vary tau/sigma: sigma0=150, tau0=82.5**</p> |
 |-----|-----|-----|
 | ![plot](defaultModel/resources/mag_area_hist2D.png) | ![plot](sigma125/resources/mag_area_hist2D.png) | ![plot](sigma150/resources/mag_area_hist2D.png) |
-| <p align="center">**sigma175**</p> | <p align="center">**sigma200**</p> |  |
+| <p align="center">**vary tau/sigma: sigma0=175, tau0=96.25**</p> | <p align="center">**vary tau/sigma: sigma0=200, tau0=110**</p> |  |
 | ![plot](sigma175/resources/mag_area_hist2D.png) | ![plot](sigma200/resources/mag_area_hist2D.png) |  |
 
 **change ddotEQ**
 
-| <p align="center">**ddot0_5**</p> | <p align="center">**defaultModel**</p> | <p align="center">**ddot1_5**</p> |
+| <p align="center">**change ddotEQ: ddotEQ=0.5**</p> | <p align="center">**default model setup**</p> | <p align="center">**change ddotEQ: ddotEQ=1.5**</p> |
 |-----|-----|-----|
 | ![plot](ddot0_5/resources/mag_area_hist2D.png) | ![plot](defaultModel/resources/mag_area_hist2D.png) | ![plot](ddot1_5/resources/mag_area_hist2D.png) |
-| <p align="center">**ddot2**</p> | <p align="center">**ddot2_5**</p> | <p align="center">**ddot3**</p> |
+| <p align="center">**change ddotEQ: ddotEQ=2**</p> | <p align="center">**change ddotEQ: ddotEQ=2.5**</p> | <p align="center">**change ddotEQ: ddotEQ=3**</p> |
 | ![plot](ddot2/resources/mag_area_hist2D.png) | ![plot](ddot2_5/resources/mag_area_hist2D.png) | ![plot](ddot3/resources/mag_area_hist2D.png) |
 
 **change mu0**
 
-| <p align="center">**mu0_4**</p> | <p align="center">**mu0_5**</p> | <p align="center">**defaultModel**</p> |
+| <p align="center">**change mu0: mu0=0.4**</p> | <p align="center">**change mu0: mu0=0.5**</p> | <p align="center">**default model setup**</p> |
 |-----|-----|-----|
 | ![plot](mu0_4/resources/mag_area_hist2D.png) | ![plot](mu0_5/resources/mag_area_hist2D.png) | ![plot](defaultModel/resources/mag_area_hist2D.png) |
-| <p align="center">**mu0_7**</p> | <p align="center">**mu0_8**</p> |  |
+| <p align="center">**change mu0: mu0=0.7**</p> | <p align="center">**change mu0: mu0=0.8**</p> |  |
 | ![plot](mu0_7/resources/mag_area_hist2D.png) | ![plot](mu0_8/resources/mag_area_hist2D.png) |  |
 
 **hold b-a constant, but change a and b**
 
-| <p align="center">**defaultModel**</p> | <p align="center">**a0_0015b0_0085**</p> | <p align="center">**a0_002b0_009**</p> | <p align="center">**a0_003b0_01**</p> |
+| <p align="center">**default model setup**</p> | <p align="center">**hold b-a constant, but change a and b: a=0.0015, b=0.0085**</p> | <p align="center">**hold b-a constant, but change a and b: a=0.002, b=0.009**</p> | <p align="center">**hold b-a constant, but change a and b: a=0.003, b=0.01**</p> |
 |-----|-----|-----|-----|
 | ![plot](defaultModel/resources/mag_area_hist2D.png) | ![plot](a0_0015b0_0085/resources/mag_area_hist2D.png) | ![plot](a0_002b0_009/resources/mag_area_hist2D.png) | ![plot](a0_003b0_01/resources/mag_area_hist2D.png) |
 
@@ -202,63 +202,63 @@ Baseline catalog: [defaultModel](defaultModel#defaultmodel)
 
 **a reduction factor**
 
-| <p align="center">**aRed0_001**</p> | <p align="center">**aRed0_005**</p> | <p align="center">**aRed0_01**</p> | <p align="center">**aRed0_05**</p> |
+| <p align="center">**a reduction factor: fA=0.001**</p> | <p align="center">**a reduction factor: fA=0.005**</p> | <p align="center">**a reduction factor: fA=0.01**</p> | <p align="center">**a reduction factor: fA=0.05**</p> |
 |-----|-----|-----|-----|
 | ![plot](aRed0_001/resources/rupture_velocity_scatter.png) | ![plot](aRed0_005/resources/rupture_velocity_scatter.png) | ![plot](aRed0_01/resources/rupture_velocity_scatter.png) | ![plot](aRed0_05/resources/rupture_velocity_scatter.png) |
-| <p align="center">**defaultModel**</p> | <p align="center">**aRed0_15**</p> | <p align="center">**aRed0_2**</p> |  |
+| <p align="center">**default model setup**</p> | <p align="center">**a reduction factor: fA=0.15**</p> | <p align="center">**a reduction factor: fA=0.2**</p> |  |
 | ![plot](defaultModel/resources/rupture_velocity_scatter.png) | ![plot](aRed0_15/resources/rupture_velocity_scatter.png) | ![plot](aRed0_2/resources/rupture_velocity_scatter.png) |  |
 
 **change Dc**
 
-| <p align="center">**defaultModel**</p> | <p align="center">**Dc2e5**</p> | <p align="center">**Dc5e5**</p> |
+| <p align="center">**default model setup**</p> | <p align="center">**change Dc: Dc=2.00E-05**</p> | <p align="center">**change Dc: Dc=5.00E-05**</p> |
 |-----|-----|-----|
 | ![plot](defaultModel/resources/rupture_velocity_scatter.png) | ![plot](Dc2e5/resources/rupture_velocity_scatter.png) | ![plot](Dc5e5/resources/rupture_velocity_scatter.png) |
-| <p align="center">**Dc1e4**</p> | <p align="center">**Dc2e4**</p> |  |
+| <p align="center">**change Dc: Dc=1.00E-04**</p> | <p align="center">**change Dc: Dc=2.00E-04**</p> |  |
 | ![plot](Dc1e4/resources/rupture_velocity_scatter.png) | ![plot](Dc2e4/resources/rupture_velocity_scatter.png) |  |
 
 **change b-a**
 
-| <p align="center">**defaultModel**</p> | <p align="center">**a0_001b0_009**</p> | <p align="center">**a0_002b0_008**</p> |
+| <p align="center">**default model setup**</p> | <p align="center">**change b-a: b=0.009**</p> | <p align="center">**change b-a: a=0.002**</p> |
 |-----|-----|-----|
 | ![plot](defaultModel/resources/rupture_velocity_scatter.png) | ![plot](a0_001b0_009/resources/rupture_velocity_scatter.png) | ![plot](a0_002b0_008/resources/rupture_velocity_scatter.png) |
-| <p align="center">**a0_002b0_01**</p> | <p align="center">**a0_003b0_008**</p> |  |
+| <p align="center">**change b-a: a=0.002, b=0.01**</p> | <p align="center">**change b-a: a=0.003**</p> |  |
 | ![plot](a0_002b0_01/resources/rupture_velocity_scatter.png) | ![plot](a0_003b0_008/resources/rupture_velocity_scatter.png) |  |
 
 **stress overshoot**
 
-| <p align="center">**overS0_01**</p> | <p align="center">**overS0_05**</p> | <p align="center">**defaultModel**</p> | <p align="center">**overS0_15**</p> |
+| <p align="center">**stress overshoot: overshoot=0.01**</p> | <p align="center">**stress overshoot: overshoot=0.05**</p> | <p align="center">**default model setup**</p> | <p align="center">**stress overshoot: overshoot=0.15**</p> |
 |-----|-----|-----|-----|
 | ![plot](overS0_01/resources/rupture_velocity_scatter.png) | ![plot](overS0_05/resources/rupture_velocity_scatter.png) | ![plot](defaultModel/resources/rupture_velocity_scatter.png) | ![plot](overS0_15/resources/rupture_velocity_scatter.png) |
-| <p align="center">**overS0_2**</p> | <p align="center">**overS0_25**</p> | <p align="center">**overS0_3**</p> |  |
+| <p align="center">**stress overshoot: overshoot=0.2**</p> | <p align="center">**stress overshoot: overshoot=0.25**</p> | <p align="center">**stress overshoot: overshoot=0.3**</p> |  |
 | ![plot](overS0_2/resources/rupture_velocity_scatter.png) | ![plot](overS0_25/resources/rupture_velocity_scatter.png) | ![plot](overS0_3/resources/rupture_velocity_scatter.png) |  |
 
 **vary tau/sigma**
 
-| <p align="center">**defaultModel**</p> | <p align="center">**sigma125**</p> | <p align="center">**sigma150**</p> |
+| <p align="center">**default model setup**</p> | <p align="center">**vary tau/sigma: sigma0=125, tau0=68.75**</p> | <p align="center">**vary tau/sigma: sigma0=150, tau0=82.5**</p> |
 |-----|-----|-----|
 | ![plot](defaultModel/resources/rupture_velocity_scatter.png) | ![plot](sigma125/resources/rupture_velocity_scatter.png) | ![plot](sigma150/resources/rupture_velocity_scatter.png) |
-| <p align="center">**sigma175**</p> | <p align="center">**sigma200**</p> |  |
+| <p align="center">**vary tau/sigma: sigma0=175, tau0=96.25**</p> | <p align="center">**vary tau/sigma: sigma0=200, tau0=110**</p> |  |
 | ![plot](sigma175/resources/rupture_velocity_scatter.png) | ![plot](sigma200/resources/rupture_velocity_scatter.png) |  |
 
 **change ddotEQ**
 
-| <p align="center">**ddot0_5**</p> | <p align="center">**defaultModel**</p> | <p align="center">**ddot1_5**</p> |
+| <p align="center">**change ddotEQ: ddotEQ=0.5**</p> | <p align="center">**default model setup**</p> | <p align="center">**change ddotEQ: ddotEQ=1.5**</p> |
 |-----|-----|-----|
 | ![plot](ddot0_5/resources/rupture_velocity_scatter.png) | ![plot](defaultModel/resources/rupture_velocity_scatter.png) | ![plot](ddot1_5/resources/rupture_velocity_scatter.png) |
-| <p align="center">**ddot2**</p> | <p align="center">**ddot2_5**</p> | <p align="center">**ddot3**</p> |
+| <p align="center">**change ddotEQ: ddotEQ=2**</p> | <p align="center">**change ddotEQ: ddotEQ=2.5**</p> | <p align="center">**change ddotEQ: ddotEQ=3**</p> |
 | ![plot](ddot2/resources/rupture_velocity_scatter.png) | ![plot](ddot2_5/resources/rupture_velocity_scatter.png) | ![plot](ddot3/resources/rupture_velocity_scatter.png) |
 
 **change mu0**
 
-| <p align="center">**mu0_4**</p> | <p align="center">**mu0_5**</p> | <p align="center">**defaultModel**</p> |
+| <p align="center">**change mu0: mu0=0.4**</p> | <p align="center">**change mu0: mu0=0.5**</p> | <p align="center">**default model setup**</p> |
 |-----|-----|-----|
 | ![plot](mu0_4/resources/rupture_velocity_scatter.png) | ![plot](mu0_5/resources/rupture_velocity_scatter.png) | ![plot](defaultModel/resources/rupture_velocity_scatter.png) |
-| <p align="center">**mu0_7**</p> | <p align="center">**mu0_8**</p> |  |
+| <p align="center">**change mu0: mu0=0.7**</p> | <p align="center">**change mu0: mu0=0.8**</p> |  |
 | ![plot](mu0_7/resources/rupture_velocity_scatter.png) | ![plot](mu0_8/resources/rupture_velocity_scatter.png) |  |
 
 **hold b-a constant, but change a and b**
 
-| <p align="center">**defaultModel**</p> | <p align="center">**a0_0015b0_0085**</p> | <p align="center">**a0_002b0_009**</p> | <p align="center">**a0_003b0_01**</p> |
+| <p align="center">**default model setup**</p> | <p align="center">**hold b-a constant, but change a and b: a=0.0015, b=0.0085**</p> | <p align="center">**hold b-a constant, but change a and b: a=0.002, b=0.009**</p> | <p align="center">**hold b-a constant, but change a and b: a=0.003, b=0.01**</p> |
 |-----|-----|-----|-----|
 | ![plot](defaultModel/resources/rupture_velocity_scatter.png) | ![plot](a0_0015b0_0085/resources/rupture_velocity_scatter.png) | ![plot](a0_002b0_009/resources/rupture_velocity_scatter.png) | ![plot](a0_003b0_01/resources/rupture_velocity_scatter.png) |
 
@@ -271,63 +271,63 @@ Baseline catalog: [defaultModel](defaultModel#defaultmodel)
 
 **a reduction factor**
 
-| <p align="center">**aRed0_001**</p> | <p align="center">**aRed0_005**</p> | <p align="center">**aRed0_01**</p> | <p align="center">**aRed0_05**</p> |
+| <p align="center">**a reduction factor: fA=0.001**</p> | <p align="center">**a reduction factor: fA=0.005**</p> | <p align="center">**a reduction factor: fA=0.01**</p> | <p align="center">**a reduction factor: fA=0.05**</p> |
 |-----|-----|-----|-----|
 | ![plot](aRed0_001/resources/rupture_velocity_vs_dist.png) | ![plot](aRed0_005/resources/rupture_velocity_vs_dist.png) | ![plot](aRed0_01/resources/rupture_velocity_vs_dist.png) | ![plot](aRed0_05/resources/rupture_velocity_vs_dist.png) |
-| <p align="center">**defaultModel**</p> | <p align="center">**aRed0_15**</p> | <p align="center">**aRed0_2**</p> |  |
+| <p align="center">**default model setup**</p> | <p align="center">**a reduction factor: fA=0.15**</p> | <p align="center">**a reduction factor: fA=0.2**</p> |  |
 | ![plot](defaultModel/resources/rupture_velocity_vs_dist.png) | ![plot](aRed0_15/resources/rupture_velocity_vs_dist.png) | ![plot](aRed0_2/resources/rupture_velocity_vs_dist.png) |  |
 
 **change Dc**
 
-| <p align="center">**defaultModel**</p> | <p align="center">**Dc2e5**</p> | <p align="center">**Dc5e5**</p> |
+| <p align="center">**default model setup**</p> | <p align="center">**change Dc: Dc=2.00E-05**</p> | <p align="center">**change Dc: Dc=5.00E-05**</p> |
 |-----|-----|-----|
 | ![plot](defaultModel/resources/rupture_velocity_vs_dist.png) | ![plot](Dc2e5/resources/rupture_velocity_vs_dist.png) | ![plot](Dc5e5/resources/rupture_velocity_vs_dist.png) |
-| <p align="center">**Dc1e4**</p> | <p align="center">**Dc2e4**</p> |  |
+| <p align="center">**change Dc: Dc=1.00E-04**</p> | <p align="center">**change Dc: Dc=2.00E-04**</p> |  |
 | ![plot](Dc1e4/resources/rupture_velocity_vs_dist.png) | ![plot](Dc2e4/resources/rupture_velocity_vs_dist.png) |  |
 
 **change b-a**
 
-| <p align="center">**defaultModel**</p> | <p align="center">**a0_001b0_009**</p> | <p align="center">**a0_002b0_008**</p> |
+| <p align="center">**default model setup**</p> | <p align="center">**change b-a: b=0.009**</p> | <p align="center">**change b-a: a=0.002**</p> |
 |-----|-----|-----|
 | ![plot](defaultModel/resources/rupture_velocity_vs_dist.png) | ![plot](a0_001b0_009/resources/rupture_velocity_vs_dist.png) | ![plot](a0_002b0_008/resources/rupture_velocity_vs_dist.png) |
-| <p align="center">**a0_002b0_01**</p> | <p align="center">**a0_003b0_008**</p> |  |
+| <p align="center">**change b-a: a=0.002, b=0.01**</p> | <p align="center">**change b-a: a=0.003**</p> |  |
 | ![plot](a0_002b0_01/resources/rupture_velocity_vs_dist.png) | ![plot](a0_003b0_008/resources/rupture_velocity_vs_dist.png) |  |
 
 **stress overshoot**
 
-| <p align="center">**overS0_01**</p> | <p align="center">**overS0_05**</p> | <p align="center">**defaultModel**</p> | <p align="center">**overS0_15**</p> |
+| <p align="center">**stress overshoot: overshoot=0.01**</p> | <p align="center">**stress overshoot: overshoot=0.05**</p> | <p align="center">**default model setup**</p> | <p align="center">**stress overshoot: overshoot=0.15**</p> |
 |-----|-----|-----|-----|
 | ![plot](overS0_01/resources/rupture_velocity_vs_dist.png) | ![plot](overS0_05/resources/rupture_velocity_vs_dist.png) | ![plot](defaultModel/resources/rupture_velocity_vs_dist.png) | ![plot](overS0_15/resources/rupture_velocity_vs_dist.png) |
-| <p align="center">**overS0_2**</p> | <p align="center">**overS0_25**</p> | <p align="center">**overS0_3**</p> |  |
+| <p align="center">**stress overshoot: overshoot=0.2**</p> | <p align="center">**stress overshoot: overshoot=0.25**</p> | <p align="center">**stress overshoot: overshoot=0.3**</p> |  |
 | ![plot](overS0_2/resources/rupture_velocity_vs_dist.png) | ![plot](overS0_25/resources/rupture_velocity_vs_dist.png) | ![plot](overS0_3/resources/rupture_velocity_vs_dist.png) |  |
 
 **vary tau/sigma**
 
-| <p align="center">**defaultModel**</p> | <p align="center">**sigma125**</p> | <p align="center">**sigma150**</p> |
+| <p align="center">**default model setup**</p> | <p align="center">**vary tau/sigma: sigma0=125, tau0=68.75**</p> | <p align="center">**vary tau/sigma: sigma0=150, tau0=82.5**</p> |
 |-----|-----|-----|
 | ![plot](defaultModel/resources/rupture_velocity_vs_dist.png) | ![plot](sigma125/resources/rupture_velocity_vs_dist.png) | ![plot](sigma150/resources/rupture_velocity_vs_dist.png) |
-| <p align="center">**sigma175**</p> | <p align="center">**sigma200**</p> |  |
+| <p align="center">**vary tau/sigma: sigma0=175, tau0=96.25**</p> | <p align="center">**vary tau/sigma: sigma0=200, tau0=110**</p> |  |
 | ![plot](sigma175/resources/rupture_velocity_vs_dist.png) | ![plot](sigma200/resources/rupture_velocity_vs_dist.png) |  |
 
 **change ddotEQ**
 
-| <p align="center">**ddot0_5**</p> | <p align="center">**defaultModel**</p> | <p align="center">**ddot1_5**</p> |
+| <p align="center">**change ddotEQ: ddotEQ=0.5**</p> | <p align="center">**default model setup**</p> | <p align="center">**change ddotEQ: ddotEQ=1.5**</p> |
 |-----|-----|-----|
 | ![plot](ddot0_5/resources/rupture_velocity_vs_dist.png) | ![plot](defaultModel/resources/rupture_velocity_vs_dist.png) | ![plot](ddot1_5/resources/rupture_velocity_vs_dist.png) |
-| <p align="center">**ddot2**</p> | <p align="center">**ddot2_5**</p> | <p align="center">**ddot3**</p> |
+| <p align="center">**change ddotEQ: ddotEQ=2**</p> | <p align="center">**change ddotEQ: ddotEQ=2.5**</p> | <p align="center">**change ddotEQ: ddotEQ=3**</p> |
 | ![plot](ddot2/resources/rupture_velocity_vs_dist.png) | ![plot](ddot2_5/resources/rupture_velocity_vs_dist.png) | ![plot](ddot3/resources/rupture_velocity_vs_dist.png) |
 
 **change mu0**
 
-| <p align="center">**mu0_4**</p> | <p align="center">**mu0_5**</p> | <p align="center">**defaultModel**</p> |
+| <p align="center">**change mu0: mu0=0.4**</p> | <p align="center">**change mu0: mu0=0.5**</p> | <p align="center">**default model setup**</p> |
 |-----|-----|-----|
 | ![plot](mu0_4/resources/rupture_velocity_vs_dist.png) | ![plot](mu0_5/resources/rupture_velocity_vs_dist.png) | ![plot](defaultModel/resources/rupture_velocity_vs_dist.png) |
-| <p align="center">**mu0_7**</p> | <p align="center">**mu0_8**</p> |  |
+| <p align="center">**change mu0: mu0=0.7**</p> | <p align="center">**change mu0: mu0=0.8**</p> |  |
 | ![plot](mu0_7/resources/rupture_velocity_vs_dist.png) | ![plot](mu0_8/resources/rupture_velocity_vs_dist.png) |  |
 
 **hold b-a constant, but change a and b**
 
-| <p align="center">**defaultModel**</p> | <p align="center">**a0_0015b0_0085**</p> | <p align="center">**a0_002b0_009**</p> | <p align="center">**a0_003b0_01**</p> |
+| <p align="center">**default model setup**</p> | <p align="center">**hold b-a constant, but change a and b: a=0.0015, b=0.0085**</p> | <p align="center">**hold b-a constant, but change a and b: a=0.002, b=0.009**</p> | <p align="center">**hold b-a constant, but change a and b: a=0.003, b=0.01**</p> |
 |-----|-----|-----|-----|
 | ![plot](defaultModel/resources/rupture_velocity_vs_dist.png) | ![plot](a0_0015b0_0085/resources/rupture_velocity_vs_dist.png) | ![plot](a0_002b0_009/resources/rupture_velocity_vs_dist.png) | ![plot](a0_003b0_01/resources/rupture_velocity_vs_dist.png) |
 
@@ -336,63 +336,63 @@ Baseline catalog: [defaultModel](defaultModel#defaultmodel)
 
 **a reduction factor**
 
-| <p align="center">**aRed0_001**</p> | <p align="center">**aRed0_005**</p> | <p align="center">**aRed0_01**</p> | <p align="center">**aRed0_05**</p> |
+| <p align="center">**a reduction factor: fA=0.001**</p> | <p align="center">**a reduction factor: fA=0.005**</p> | <p align="center">**a reduction factor: fA=0.01**</p> | <p align="center">**a reduction factor: fA=0.05**</p> |
 |-----|-----|-----|-----|
 | ![plot](aRed0_001/resources/interevent_elements_m7_hist2D.png) | ![plot](aRed0_005/resources/interevent_elements_m7_hist2D.png) | ![plot](aRed0_01/resources/interevent_elements_m7_hist2D.png) | ![plot](aRed0_05/resources/interevent_elements_m7_hist2D.png) |
-| <p align="center">**defaultModel**</p> | <p align="center">**aRed0_15**</p> | <p align="center">**aRed0_2**</p> |  |
+| <p align="center">**default model setup**</p> | <p align="center">**a reduction factor: fA=0.15**</p> | <p align="center">**a reduction factor: fA=0.2**</p> |  |
 | ![plot](defaultModel/resources/interevent_elements_m7_hist2D.png) | ![plot](aRed0_15/resources/interevent_elements_m7_hist2D.png) | ![plot](aRed0_2/resources/interevent_elements_m7_hist2D.png) |  |
 
 **change Dc**
 
-| <p align="center">**defaultModel**</p> | <p align="center">**Dc2e5**</p> | <p align="center">**Dc5e5**</p> |
+| <p align="center">**default model setup**</p> | <p align="center">**change Dc: Dc=2.00E-05**</p> | <p align="center">**change Dc: Dc=5.00E-05**</p> |
 |-----|-----|-----|
 | ![plot](defaultModel/resources/interevent_elements_m7_hist2D.png) | ![plot](Dc2e5/resources/interevent_elements_m7_hist2D.png) | ![plot](Dc5e5/resources/interevent_elements_m7_hist2D.png) |
-| <p align="center">**Dc1e4**</p> | <p align="center">**Dc2e4**</p> |  |
+| <p align="center">**change Dc: Dc=1.00E-04**</p> | <p align="center">**change Dc: Dc=2.00E-04**</p> |  |
 | ![plot](Dc1e4/resources/interevent_elements_m7_hist2D.png) | ![plot](Dc2e4/resources/interevent_elements_m7_hist2D.png) |  |
 
 **change b-a**
 
-| <p align="center">**defaultModel**</p> | <p align="center">**a0_001b0_009**</p> | <p align="center">**a0_002b0_008**</p> |
+| <p align="center">**default model setup**</p> | <p align="center">**change b-a: b=0.009**</p> | <p align="center">**change b-a: a=0.002**</p> |
 |-----|-----|-----|
 | ![plot](defaultModel/resources/interevent_elements_m7_hist2D.png) | ![plot](a0_001b0_009/resources/interevent_elements_m7_hist2D.png) | ![plot](a0_002b0_008/resources/interevent_elements_m7_hist2D.png) |
-| <p align="center">**a0_002b0_01**</p> | <p align="center">**a0_003b0_008**</p> |  |
+| <p align="center">**change b-a: a=0.002, b=0.01**</p> | <p align="center">**change b-a: a=0.003**</p> |  |
 | ![plot](a0_002b0_01/resources/interevent_elements_m7_hist2D.png) | ![plot](a0_003b0_008/resources/interevent_elements_m7_hist2D.png) |  |
 
 **stress overshoot**
 
-| <p align="center">**overS0_01**</p> | <p align="center">**overS0_05**</p> | <p align="center">**defaultModel**</p> | <p align="center">**overS0_15**</p> |
+| <p align="center">**stress overshoot: overshoot=0.01**</p> | <p align="center">**stress overshoot: overshoot=0.05**</p> | <p align="center">**default model setup**</p> | <p align="center">**stress overshoot: overshoot=0.15**</p> |
 |-----|-----|-----|-----|
 | ![plot](overS0_01/resources/interevent_elements_m7_hist2D.png) | ![plot](overS0_05/resources/interevent_elements_m7_hist2D.png) | ![plot](defaultModel/resources/interevent_elements_m7_hist2D.png) | ![plot](overS0_15/resources/interevent_elements_m7_hist2D.png) |
-| <p align="center">**overS0_2**</p> | <p align="center">**overS0_25**</p> | <p align="center">**overS0_3**</p> |  |
+| <p align="center">**stress overshoot: overshoot=0.2**</p> | <p align="center">**stress overshoot: overshoot=0.25**</p> | <p align="center">**stress overshoot: overshoot=0.3**</p> |  |
 | ![plot](overS0_2/resources/interevent_elements_m7_hist2D.png) | ![plot](overS0_25/resources/interevent_elements_m7_hist2D.png) | ![plot](overS0_3/resources/interevent_elements_m7_hist2D.png) |  |
 
 **vary tau/sigma**
 
-| <p align="center">**defaultModel**</p> | <p align="center">**sigma125**</p> | <p align="center">**sigma150**</p> |
+| <p align="center">**default model setup**</p> | <p align="center">**vary tau/sigma: sigma0=125, tau0=68.75**</p> | <p align="center">**vary tau/sigma: sigma0=150, tau0=82.5**</p> |
 |-----|-----|-----|
 | ![plot](defaultModel/resources/interevent_elements_m7_hist2D.png) | ![plot](sigma125/resources/interevent_elements_m7_hist2D.png) | ![plot](sigma150/resources/interevent_elements_m7_hist2D.png) |
-| <p align="center">**sigma175**</p> | <p align="center">**sigma200**</p> |  |
+| <p align="center">**vary tau/sigma: sigma0=175, tau0=96.25**</p> | <p align="center">**vary tau/sigma: sigma0=200, tau0=110**</p> |  |
 | ![plot](sigma175/resources/interevent_elements_m7_hist2D.png) | ![plot](sigma200/resources/interevent_elements_m7_hist2D.png) |  |
 
 **change ddotEQ**
 
-| <p align="center">**ddot0_5**</p> | <p align="center">**defaultModel**</p> | <p align="center">**ddot1_5**</p> |
+| <p align="center">**change ddotEQ: ddotEQ=0.5**</p> | <p align="center">**default model setup**</p> | <p align="center">**change ddotEQ: ddotEQ=1.5**</p> |
 |-----|-----|-----|
 | ![plot](ddot0_5/resources/interevent_elements_m7_hist2D.png) | ![plot](defaultModel/resources/interevent_elements_m7_hist2D.png) | ![plot](ddot1_5/resources/interevent_elements_m7_hist2D.png) |
-| <p align="center">**ddot2**</p> | <p align="center">**ddot2_5**</p> | <p align="center">**ddot3**</p> |
+| <p align="center">**change ddotEQ: ddotEQ=2**</p> | <p align="center">**change ddotEQ: ddotEQ=2.5**</p> | <p align="center">**change ddotEQ: ddotEQ=3**</p> |
 | ![plot](ddot2/resources/interevent_elements_m7_hist2D.png) | ![plot](ddot2_5/resources/interevent_elements_m7_hist2D.png) | ![plot](ddot3/resources/interevent_elements_m7_hist2D.png) |
 
 **change mu0**
 
-| <p align="center">**mu0_4**</p> | <p align="center">**mu0_5**</p> | <p align="center">**defaultModel**</p> |
+| <p align="center">**change mu0: mu0=0.4**</p> | <p align="center">**change mu0: mu0=0.5**</p> | <p align="center">**default model setup**</p> |
 |-----|-----|-----|
 | ![plot](mu0_4/resources/interevent_elements_m7_hist2D.png) | ![plot](mu0_5/resources/interevent_elements_m7_hist2D.png) | ![plot](defaultModel/resources/interevent_elements_m7_hist2D.png) |
-| <p align="center">**mu0_7**</p> | <p align="center">**mu0_8**</p> |  |
+| <p align="center">**change mu0: mu0=0.7**</p> | <p align="center">**change mu0: mu0=0.8**</p> |  |
 | ![plot](mu0_7/resources/interevent_elements_m7_hist2D.png) | ![plot](mu0_8/resources/interevent_elements_m7_hist2D.png) |  |
 
 **hold b-a constant, but change a and b**
 
-| <p align="center">**defaultModel**</p> | <p align="center">**a0_0015b0_0085**</p> | <p align="center">**a0_002b0_009**</p> | <p align="center">**a0_003b0_01**</p> |
+| <p align="center">**default model setup**</p> | <p align="center">**hold b-a constant, but change a and b: a=0.0015, b=0.0085**</p> | <p align="center">**hold b-a constant, but change a and b: a=0.002, b=0.009**</p> | <p align="center">**hold b-a constant, but change a and b: a=0.003, b=0.01**</p> |
 |-----|-----|-----|-----|
 | ![plot](defaultModel/resources/interevent_elements_m7_hist2D.png) | ![plot](a0_0015b0_0085/resources/interevent_elements_m7_hist2D.png) | ![plot](a0_002b0_009/resources/interevent_elements_m7_hist2D.png) | ![plot](a0_003b0_01/resources/interevent_elements_m7_hist2D.png) |
 
@@ -402,63 +402,63 @@ Baseline catalog: [defaultModel](defaultModel#defaultmodel)
 
 **a reduction factor**
 
-| <p align="center">**aRed0_001**</p> | <p align="center">**aRed0_005**</p> | <p align="center">**aRed0_01**</p> | <p align="center">**aRed0_05**</p> |
+| <p align="center">**a reduction factor: fA=0.001**</p> | <p align="center">**a reduction factor: fA=0.005**</p> | <p align="center">**a reduction factor: fA=0.01**</p> | <p align="center">**a reduction factor: fA=0.05**</p> |
 |-----|-----|-----|-----|
 | ![plot](aRed0_001/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](aRed0_005/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](aRed0_01/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](aRed0_05/resources/interevent_sub_sects_m7_hist2D.png) |
-| <p align="center">**defaultModel**</p> | <p align="center">**aRed0_15**</p> | <p align="center">**aRed0_2**</p> |  |
+| <p align="center">**default model setup**</p> | <p align="center">**a reduction factor: fA=0.15**</p> | <p align="center">**a reduction factor: fA=0.2**</p> |  |
 | ![plot](defaultModel/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](aRed0_15/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](aRed0_2/resources/interevent_sub_sects_m7_hist2D.png) |  |
 
 **change Dc**
 
-| <p align="center">**defaultModel**</p> | <p align="center">**Dc2e5**</p> | <p align="center">**Dc5e5**</p> |
+| <p align="center">**default model setup**</p> | <p align="center">**change Dc: Dc=2.00E-05**</p> | <p align="center">**change Dc: Dc=5.00E-05**</p> |
 |-----|-----|-----|
 | ![plot](defaultModel/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](Dc2e5/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](Dc5e5/resources/interevent_sub_sects_m7_hist2D.png) |
-| <p align="center">**Dc1e4**</p> | <p align="center">**Dc2e4**</p> |  |
+| <p align="center">**change Dc: Dc=1.00E-04**</p> | <p align="center">**change Dc: Dc=2.00E-04**</p> |  |
 | ![plot](Dc1e4/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](Dc2e4/resources/interevent_sub_sects_m7_hist2D.png) |  |
 
 **change b-a**
 
-| <p align="center">**defaultModel**</p> | <p align="center">**a0_001b0_009**</p> | <p align="center">**a0_002b0_008**</p> |
+| <p align="center">**default model setup**</p> | <p align="center">**change b-a: b=0.009**</p> | <p align="center">**change b-a: a=0.002**</p> |
 |-----|-----|-----|
 | ![plot](defaultModel/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](a0_001b0_009/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](a0_002b0_008/resources/interevent_sub_sects_m7_hist2D.png) |
-| <p align="center">**a0_002b0_01**</p> | <p align="center">**a0_003b0_008**</p> |  |
+| <p align="center">**change b-a: a=0.002, b=0.01**</p> | <p align="center">**change b-a: a=0.003**</p> |  |
 | ![plot](a0_002b0_01/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](a0_003b0_008/resources/interevent_sub_sects_m7_hist2D.png) |  |
 
 **stress overshoot**
 
-| <p align="center">**overS0_01**</p> | <p align="center">**overS0_05**</p> | <p align="center">**defaultModel**</p> | <p align="center">**overS0_15**</p> |
+| <p align="center">**stress overshoot: overshoot=0.01**</p> | <p align="center">**stress overshoot: overshoot=0.05**</p> | <p align="center">**default model setup**</p> | <p align="center">**stress overshoot: overshoot=0.15**</p> |
 |-----|-----|-----|-----|
 | ![plot](overS0_01/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](overS0_05/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](defaultModel/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](overS0_15/resources/interevent_sub_sects_m7_hist2D.png) |
-| <p align="center">**overS0_2**</p> | <p align="center">**overS0_25**</p> | <p align="center">**overS0_3**</p> |  |
+| <p align="center">**stress overshoot: overshoot=0.2**</p> | <p align="center">**stress overshoot: overshoot=0.25**</p> | <p align="center">**stress overshoot: overshoot=0.3**</p> |  |
 | ![plot](overS0_2/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](overS0_25/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](overS0_3/resources/interevent_sub_sects_m7_hist2D.png) |  |
 
 **vary tau/sigma**
 
-| <p align="center">**defaultModel**</p> | <p align="center">**sigma125**</p> | <p align="center">**sigma150**</p> |
+| <p align="center">**default model setup**</p> | <p align="center">**vary tau/sigma: sigma0=125, tau0=68.75**</p> | <p align="center">**vary tau/sigma: sigma0=150, tau0=82.5**</p> |
 |-----|-----|-----|
 | ![plot](defaultModel/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](sigma125/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](sigma150/resources/interevent_sub_sects_m7_hist2D.png) |
-| <p align="center">**sigma175**</p> | <p align="center">**sigma200**</p> |  |
+| <p align="center">**vary tau/sigma: sigma0=175, tau0=96.25**</p> | <p align="center">**vary tau/sigma: sigma0=200, tau0=110**</p> |  |
 | ![plot](sigma175/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](sigma200/resources/interevent_sub_sects_m7_hist2D.png) |  |
 
 **change ddotEQ**
 
-| <p align="center">**ddot0_5**</p> | <p align="center">**defaultModel**</p> | <p align="center">**ddot1_5**</p> |
+| <p align="center">**change ddotEQ: ddotEQ=0.5**</p> | <p align="center">**default model setup**</p> | <p align="center">**change ddotEQ: ddotEQ=1.5**</p> |
 |-----|-----|-----|
 | ![plot](ddot0_5/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](defaultModel/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](ddot1_5/resources/interevent_sub_sects_m7_hist2D.png) |
-| <p align="center">**ddot2**</p> | <p align="center">**ddot2_5**</p> | <p align="center">**ddot3**</p> |
+| <p align="center">**change ddotEQ: ddotEQ=2**</p> | <p align="center">**change ddotEQ: ddotEQ=2.5**</p> | <p align="center">**change ddotEQ: ddotEQ=3**</p> |
 | ![plot](ddot2/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](ddot2_5/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](ddot3/resources/interevent_sub_sects_m7_hist2D.png) |
 
 **change mu0**
 
-| <p align="center">**mu0_4**</p> | <p align="center">**mu0_5**</p> | <p align="center">**defaultModel**</p> |
+| <p align="center">**change mu0: mu0=0.4**</p> | <p align="center">**change mu0: mu0=0.5**</p> | <p align="center">**default model setup**</p> |
 |-----|-----|-----|
 | ![plot](mu0_4/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](mu0_5/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](defaultModel/resources/interevent_sub_sects_m7_hist2D.png) |
-| <p align="center">**mu0_7**</p> | <p align="center">**mu0_8**</p> |  |
+| <p align="center">**change mu0: mu0=0.7**</p> | <p align="center">**change mu0: mu0=0.8**</p> |  |
 | ![plot](mu0_7/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](mu0_8/resources/interevent_sub_sects_m7_hist2D.png) |  |
 
 **hold b-a constant, but change a and b**
 
-| <p align="center">**defaultModel**</p> | <p align="center">**a0_0015b0_0085**</p> | <p align="center">**a0_002b0_009**</p> | <p align="center">**a0_003b0_01**</p> |
+| <p align="center">**default model setup**</p> | <p align="center">**hold b-a constant, but change a and b: a=0.0015, b=0.0085**</p> | <p align="center">**hold b-a constant, but change a and b: a=0.002, b=0.009**</p> | <p align="center">**hold b-a constant, but change a and b: a=0.003, b=0.01**</p> |
 |-----|-----|-----|-----|
 | ![plot](defaultModel/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](a0_0015b0_0085/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](a0_002b0_009/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](a0_003b0_01/resources/interevent_sub_sects_m7_hist2D.png) |
 
