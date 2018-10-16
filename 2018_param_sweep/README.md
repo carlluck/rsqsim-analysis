@@ -41,17 +41,424 @@
 | 2018/09/27 | [a0_002b0_009](a0_002b0_009#a0002b0009) | 434,248 yrs | 1.35 km | hold b-a constant, but change a and b: a=0.002, b=0.009 |
 ## Multi-Catalog Plots
 
+* [Multi-Catalog Plots](#multi-catalog-plots)
+  * [MFDs](#mfds)
+    * [MFD Variations Table](#mfd-variations-table)
+  * [Magnitude-Area Plots](#magnitude-area-plots)
+    * [M-A Variations Table](#m-a-variations-table)
+  * [Rupture Velocity vs Magnitude](#rupture-velocity-vs-magnitude)
+    * [Rupture Velocity vs Magnitude Variations Table](#rupture-velocity-vs-magnitude-variations-table)
+  * [Rupture Velocity vs Distance](#rupture-velocity-vs-distance)
+    * [Rupture Velocity vs Distance Variations Table](#rupture-velocity-vs-distance-variations-table)
+  * [M7 Element Interevent Time Comparisons](#m7-element-interevent-time-comparisons)
+  * [M7 Subsection Interevent Time Comparisons](#m7-subsection-interevent-time-comparisons)
+
 Baseline catalog: [defaultModel](defaultModel#defaultmodel)
 
 ### MFDs
+*[(top)](#multi-catalog-plots)*
 
 ![MFDs](resources/mfds.png)
+
+#### MFD Variations Table
+
+**a reduction factor**
+
+| <p align="center">**aRed0_001**</p> | <p align="center">**aRed0_005**</p> | <p align="center">**aRed0_01**</p> | <p align="center">**aRed0_05**</p> |
+|-----|-----|-----|-----|
+| ![plot](aRed0_001/resources/mfd.png) | ![plot](aRed0_005/resources/mfd.png) | ![plot](aRed0_01/resources/mfd.png) | ![plot](aRed0_05/resources/mfd.png) |
+| <p align="center">**defaultModel**</p> | <p align="center">**aRed0_15**</p> | <p align="center">**aRed0_2**</p> |  |
+| ![plot](defaultModel/resources/mfd.png) | ![plot](aRed0_15/resources/mfd.png) | ![plot](aRed0_2/resources/mfd.png) |  |
+
+**change Dc**
+
+| <p align="center">**defaultModel**</p> | <p align="center">**Dc2e5**</p> | <p align="center">**Dc5e5**</p> |
+|-----|-----|-----|
+| ![plot](defaultModel/resources/mfd.png) | ![plot](Dc2e5/resources/mfd.png) | ![plot](Dc5e5/resources/mfd.png) |
+| <p align="center">**Dc1e4**</p> | <p align="center">**Dc2e4**</p> |  |
+| ![plot](Dc1e4/resources/mfd.png) | ![plot](Dc2e4/resources/mfd.png) |  |
+
+**change b-a**
+
+| <p align="center">**defaultModel**</p> | <p align="center">**a0_001b0_009**</p> | <p align="center">**a0_002b0_008**</p> |
+|-----|-----|-----|
+| ![plot](defaultModel/resources/mfd.png) | ![plot](a0_001b0_009/resources/mfd.png) | ![plot](a0_002b0_008/resources/mfd.png) |
+| <p align="center">**a0_002b0_01**</p> | <p align="center">**a0_003b0_008**</p> |  |
+| ![plot](a0_002b0_01/resources/mfd.png) | ![plot](a0_003b0_008/resources/mfd.png) |  |
+
+**stress overshoot**
+
+| <p align="center">**overS0_01**</p> | <p align="center">**overS0_05**</p> | <p align="center">**defaultModel**</p> | <p align="center">**overS0_15**</p> |
+|-----|-----|-----|-----|
+| ![plot](overS0_01/resources/mfd.png) | ![plot](overS0_05/resources/mfd.png) | ![plot](defaultModel/resources/mfd.png) | ![plot](overS0_15/resources/mfd.png) |
+| <p align="center">**overS0_2**</p> | <p align="center">**overS0_25**</p> | <p align="center">**overS0_3**</p> |  |
+| ![plot](overS0_2/resources/mfd.png) | ![plot](overS0_25/resources/mfd.png) | ![plot](overS0_3/resources/mfd.png) |  |
+
+**vary tau/sigma**
+
+| <p align="center">**defaultModel**</p> | <p align="center">**sigma125**</p> | <p align="center">**sigma150**</p> |
+|-----|-----|-----|
+| ![plot](defaultModel/resources/mfd.png) | ![plot](sigma125/resources/mfd.png) | ![plot](sigma150/resources/mfd.png) |
+| <p align="center">**sigma175**</p> | <p align="center">**sigma200**</p> |  |
+| ![plot](sigma175/resources/mfd.png) | ![plot](sigma200/resources/mfd.png) |  |
+
+**change ddotEQ**
+
+| <p align="center">**ddot0_5**</p> | <p align="center">**defaultModel**</p> | <p align="center">**ddot1_5**</p> |
+|-----|-----|-----|
+| ![plot](ddot0_5/resources/mfd.png) | ![plot](defaultModel/resources/mfd.png) | ![plot](ddot1_5/resources/mfd.png) |
+| <p align="center">**ddot2**</p> | <p align="center">**ddot2_5**</p> | <p align="center">**ddot3**</p> |
+| ![plot](ddot2/resources/mfd.png) | ![plot](ddot2_5/resources/mfd.png) | ![plot](ddot3/resources/mfd.png) |
+
+**change mu0**
+
+| <p align="center">**mu0_4**</p> | <p align="center">**mu0_5**</p> | <p align="center">**defaultModel**</p> |
+|-----|-----|-----|
+| ![plot](mu0_4/resources/mfd.png) | ![plot](mu0_5/resources/mfd.png) | ![plot](defaultModel/resources/mfd.png) |
+| <p align="center">**mu0_7**</p> | <p align="center">**mu0_8**</p> |  |
+| ![plot](mu0_7/resources/mfd.png) | ![plot](mu0_8/resources/mfd.png) |  |
+
+**hold b-a constant, but change a and b**
+
+| <p align="center">**defaultModel**</p> | <p align="center">**a0_0015b0_0085**</p> | <p align="center">**a0_002b0_009**</p> | <p align="center">**a0_003b0_01**</p> |
+|-----|-----|-----|-----|
+| ![plot](defaultModel/resources/mfd.png) | ![plot](a0_0015b0_0085/resources/mfd.png) | ![plot](a0_002b0_009/resources/mfd.png) | ![plot](a0_003b0_01/resources/mfd.png) |
+
 ### Magnitude-Area Plots
+*[(top)](#multi-catalog-plots)*
 
 ![Mag Areas](resources/mag_areas.png)
+
+#### M-A Variations Table
+
+**a reduction factor**
+
+| <p align="center">**aRed0_001**</p> | <p align="center">**aRed0_005**</p> | <p align="center">**aRed0_01**</p> | <p align="center">**aRed0_05**</p> |
+|-----|-----|-----|-----|
+| ![plot](aRed0_001/resources/mag_area_hist2D.png) | ![plot](aRed0_005/resources/mag_area_hist2D.png) | ![plot](aRed0_01/resources/mag_area_hist2D.png) | ![plot](aRed0_05/resources/mag_area_hist2D.png) |
+| <p align="center">**defaultModel**</p> | <p align="center">**aRed0_15**</p> | <p align="center">**aRed0_2**</p> |  |
+| ![plot](defaultModel/resources/mag_area_hist2D.png) | ![plot](aRed0_15/resources/mag_area_hist2D.png) | ![plot](aRed0_2/resources/mag_area_hist2D.png) |  |
+
+**change Dc**
+
+| <p align="center">**defaultModel**</p> | <p align="center">**Dc2e5**</p> | <p align="center">**Dc5e5**</p> |
+|-----|-----|-----|
+| ![plot](defaultModel/resources/mag_area_hist2D.png) | ![plot](Dc2e5/resources/mag_area_hist2D.png) | ![plot](Dc5e5/resources/mag_area_hist2D.png) |
+| <p align="center">**Dc1e4**</p> | <p align="center">**Dc2e4**</p> |  |
+| ![plot](Dc1e4/resources/mag_area_hist2D.png) | ![plot](Dc2e4/resources/mag_area_hist2D.png) |  |
+
+**change b-a**
+
+| <p align="center">**defaultModel**</p> | <p align="center">**a0_001b0_009**</p> | <p align="center">**a0_002b0_008**</p> |
+|-----|-----|-----|
+| ![plot](defaultModel/resources/mag_area_hist2D.png) | ![plot](a0_001b0_009/resources/mag_area_hist2D.png) | ![plot](a0_002b0_008/resources/mag_area_hist2D.png) |
+| <p align="center">**a0_002b0_01**</p> | <p align="center">**a0_003b0_008**</p> |  |
+| ![plot](a0_002b0_01/resources/mag_area_hist2D.png) | ![plot](a0_003b0_008/resources/mag_area_hist2D.png) |  |
+
+**stress overshoot**
+
+| <p align="center">**overS0_01**</p> | <p align="center">**overS0_05**</p> | <p align="center">**defaultModel**</p> | <p align="center">**overS0_15**</p> |
+|-----|-----|-----|-----|
+| ![plot](overS0_01/resources/mag_area_hist2D.png) | ![plot](overS0_05/resources/mag_area_hist2D.png) | ![plot](defaultModel/resources/mag_area_hist2D.png) | ![plot](overS0_15/resources/mag_area_hist2D.png) |
+| <p align="center">**overS0_2**</p> | <p align="center">**overS0_25**</p> | <p align="center">**overS0_3**</p> |  |
+| ![plot](overS0_2/resources/mag_area_hist2D.png) | ![plot](overS0_25/resources/mag_area_hist2D.png) | ![plot](overS0_3/resources/mag_area_hist2D.png) |  |
+
+**vary tau/sigma**
+
+| <p align="center">**defaultModel**</p> | <p align="center">**sigma125**</p> | <p align="center">**sigma150**</p> |
+|-----|-----|-----|
+| ![plot](defaultModel/resources/mag_area_hist2D.png) | ![plot](sigma125/resources/mag_area_hist2D.png) | ![plot](sigma150/resources/mag_area_hist2D.png) |
+| <p align="center">**sigma175**</p> | <p align="center">**sigma200**</p> |  |
+| ![plot](sigma175/resources/mag_area_hist2D.png) | ![plot](sigma200/resources/mag_area_hist2D.png) |  |
+
+**change ddotEQ**
+
+| <p align="center">**ddot0_5**</p> | <p align="center">**defaultModel**</p> | <p align="center">**ddot1_5**</p> |
+|-----|-----|-----|
+| ![plot](ddot0_5/resources/mag_area_hist2D.png) | ![plot](defaultModel/resources/mag_area_hist2D.png) | ![plot](ddot1_5/resources/mag_area_hist2D.png) |
+| <p align="center">**ddot2**</p> | <p align="center">**ddot2_5**</p> | <p align="center">**ddot3**</p> |
+| ![plot](ddot2/resources/mag_area_hist2D.png) | ![plot](ddot2_5/resources/mag_area_hist2D.png) | ![plot](ddot3/resources/mag_area_hist2D.png) |
+
+**change mu0**
+
+| <p align="center">**mu0_4**</p> | <p align="center">**mu0_5**</p> | <p align="center">**defaultModel**</p> |
+|-----|-----|-----|
+| ![plot](mu0_4/resources/mag_area_hist2D.png) | ![plot](mu0_5/resources/mag_area_hist2D.png) | ![plot](defaultModel/resources/mag_area_hist2D.png) |
+| <p align="center">**mu0_7**</p> | <p align="center">**mu0_8**</p> |  |
+| ![plot](mu0_7/resources/mag_area_hist2D.png) | ![plot](mu0_8/resources/mag_area_hist2D.png) |  |
+
+**hold b-a constant, but change a and b**
+
+| <p align="center">**defaultModel**</p> | <p align="center">**a0_0015b0_0085**</p> | <p align="center">**a0_002b0_009**</p> | <p align="center">**a0_003b0_01**</p> |
+|-----|-----|-----|-----|
+| ![plot](defaultModel/resources/mag_area_hist2D.png) | ![plot](a0_0015b0_0085/resources/mag_area_hist2D.png) | ![plot](a0_002b0_009/resources/mag_area_hist2D.png) | ![plot](a0_003b0_01/resources/mag_area_hist2D.png) |
+
 ### Rupture Velocity vs Magnitude
+*[(top)](#multi-catalog-plots)*
 
 ![Velocities](resources/mag_velocities.png)
+
+#### Rupture Velocity vs Magnitude Variations Table
+
+**a reduction factor**
+
+| <p align="center">**aRed0_001**</p> | <p align="center">**aRed0_005**</p> | <p align="center">**aRed0_01**</p> | <p align="center">**aRed0_05**</p> |
+|-----|-----|-----|-----|
+| ![plot](aRed0_001/resources/rupture_velocity_scatter.png) | ![plot](aRed0_005/resources/rupture_velocity_scatter.png) | ![plot](aRed0_01/resources/rupture_velocity_scatter.png) | ![plot](aRed0_05/resources/rupture_velocity_scatter.png) |
+| <p align="center">**defaultModel**</p> | <p align="center">**aRed0_15**</p> | <p align="center">**aRed0_2**</p> |  |
+| ![plot](defaultModel/resources/rupture_velocity_scatter.png) | ![plot](aRed0_15/resources/rupture_velocity_scatter.png) | ![plot](aRed0_2/resources/rupture_velocity_scatter.png) |  |
+
+**change Dc**
+
+| <p align="center">**defaultModel**</p> | <p align="center">**Dc2e5**</p> | <p align="center">**Dc5e5**</p> |
+|-----|-----|-----|
+| ![plot](defaultModel/resources/rupture_velocity_scatter.png) | ![plot](Dc2e5/resources/rupture_velocity_scatter.png) | ![plot](Dc5e5/resources/rupture_velocity_scatter.png) |
+| <p align="center">**Dc1e4**</p> | <p align="center">**Dc2e4**</p> |  |
+| ![plot](Dc1e4/resources/rupture_velocity_scatter.png) | ![plot](Dc2e4/resources/rupture_velocity_scatter.png) |  |
+
+**change b-a**
+
+| <p align="center">**defaultModel**</p> | <p align="center">**a0_001b0_009**</p> | <p align="center">**a0_002b0_008**</p> |
+|-----|-----|-----|
+| ![plot](defaultModel/resources/rupture_velocity_scatter.png) | ![plot](a0_001b0_009/resources/rupture_velocity_scatter.png) | ![plot](a0_002b0_008/resources/rupture_velocity_scatter.png) |
+| <p align="center">**a0_002b0_01**</p> | <p align="center">**a0_003b0_008**</p> |  |
+| ![plot](a0_002b0_01/resources/rupture_velocity_scatter.png) | ![plot](a0_003b0_008/resources/rupture_velocity_scatter.png) |  |
+
+**stress overshoot**
+
+| <p align="center">**overS0_01**</p> | <p align="center">**overS0_05**</p> | <p align="center">**defaultModel**</p> | <p align="center">**overS0_15**</p> |
+|-----|-----|-----|-----|
+| ![plot](overS0_01/resources/rupture_velocity_scatter.png) | ![plot](overS0_05/resources/rupture_velocity_scatter.png) | ![plot](defaultModel/resources/rupture_velocity_scatter.png) | ![plot](overS0_15/resources/rupture_velocity_scatter.png) |
+| <p align="center">**overS0_2**</p> | <p align="center">**overS0_25**</p> | <p align="center">**overS0_3**</p> |  |
+| ![plot](overS0_2/resources/rupture_velocity_scatter.png) | ![plot](overS0_25/resources/rupture_velocity_scatter.png) | ![plot](overS0_3/resources/rupture_velocity_scatter.png) |  |
+
+**vary tau/sigma**
+
+| <p align="center">**defaultModel**</p> | <p align="center">**sigma125**</p> | <p align="center">**sigma150**</p> |
+|-----|-----|-----|
+| ![plot](defaultModel/resources/rupture_velocity_scatter.png) | ![plot](sigma125/resources/rupture_velocity_scatter.png) | ![plot](sigma150/resources/rupture_velocity_scatter.png) |
+| <p align="center">**sigma175**</p> | <p align="center">**sigma200**</p> |  |
+| ![plot](sigma175/resources/rupture_velocity_scatter.png) | ![plot](sigma200/resources/rupture_velocity_scatter.png) |  |
+
+**change ddotEQ**
+
+| <p align="center">**ddot0_5**</p> | <p align="center">**defaultModel**</p> | <p align="center">**ddot1_5**</p> |
+|-----|-----|-----|
+| ![plot](ddot0_5/resources/rupture_velocity_scatter.png) | ![plot](defaultModel/resources/rupture_velocity_scatter.png) | ![plot](ddot1_5/resources/rupture_velocity_scatter.png) |
+| <p align="center">**ddot2**</p> | <p align="center">**ddot2_5**</p> | <p align="center">**ddot3**</p> |
+| ![plot](ddot2/resources/rupture_velocity_scatter.png) | ![plot](ddot2_5/resources/rupture_velocity_scatter.png) | ![plot](ddot3/resources/rupture_velocity_scatter.png) |
+
+**change mu0**
+
+| <p align="center">**mu0_4**</p> | <p align="center">**mu0_5**</p> | <p align="center">**defaultModel**</p> |
+|-----|-----|-----|
+| ![plot](mu0_4/resources/rupture_velocity_scatter.png) | ![plot](mu0_5/resources/rupture_velocity_scatter.png) | ![plot](defaultModel/resources/rupture_velocity_scatter.png) |
+| <p align="center">**mu0_7**</p> | <p align="center">**mu0_8**</p> |  |
+| ![plot](mu0_7/resources/rupture_velocity_scatter.png) | ![plot](mu0_8/resources/rupture_velocity_scatter.png) |  |
+
+**hold b-a constant, but change a and b**
+
+| <p align="center">**defaultModel**</p> | <p align="center">**a0_0015b0_0085**</p> | <p align="center">**a0_002b0_009**</p> | <p align="center">**a0_003b0_01**</p> |
+|-----|-----|-----|-----|
+| ![plot](defaultModel/resources/rupture_velocity_scatter.png) | ![plot](a0_0015b0_0085/resources/rupture_velocity_scatter.png) | ![plot](a0_002b0_009/resources/rupture_velocity_scatter.png) | ![plot](a0_003b0_01/resources/rupture_velocity_scatter.png) |
+
 ### Rupture Velocity vs Distance
+*[(top)](#multi-catalog-plots)*
 
 ![Velocities](resources/dist_velocities.png)
+
+#### Rupture Velocity vs Distance Variations Table
+
+**a reduction factor**
+
+| <p align="center">**aRed0_001**</p> | <p align="center">**aRed0_005**</p> | <p align="center">**aRed0_01**</p> | <p align="center">**aRed0_05**</p> |
+|-----|-----|-----|-----|
+| ![plot](aRed0_001/resources/rupture_velocity_vs_dist.png) | ![plot](aRed0_005/resources/rupture_velocity_vs_dist.png) | ![plot](aRed0_01/resources/rupture_velocity_vs_dist.png) | ![plot](aRed0_05/resources/rupture_velocity_vs_dist.png) |
+| <p align="center">**defaultModel**</p> | <p align="center">**aRed0_15**</p> | <p align="center">**aRed0_2**</p> |  |
+| ![plot](defaultModel/resources/rupture_velocity_vs_dist.png) | ![plot](aRed0_15/resources/rupture_velocity_vs_dist.png) | ![plot](aRed0_2/resources/rupture_velocity_vs_dist.png) |  |
+
+**change Dc**
+
+| <p align="center">**defaultModel**</p> | <p align="center">**Dc2e5**</p> | <p align="center">**Dc5e5**</p> |
+|-----|-----|-----|
+| ![plot](defaultModel/resources/rupture_velocity_vs_dist.png) | ![plot](Dc2e5/resources/rupture_velocity_vs_dist.png) | ![plot](Dc5e5/resources/rupture_velocity_vs_dist.png) |
+| <p align="center">**Dc1e4**</p> | <p align="center">**Dc2e4**</p> |  |
+| ![plot](Dc1e4/resources/rupture_velocity_vs_dist.png) | ![plot](Dc2e4/resources/rupture_velocity_vs_dist.png) |  |
+
+**change b-a**
+
+| <p align="center">**defaultModel**</p> | <p align="center">**a0_001b0_009**</p> | <p align="center">**a0_002b0_008**</p> |
+|-----|-----|-----|
+| ![plot](defaultModel/resources/rupture_velocity_vs_dist.png) | ![plot](a0_001b0_009/resources/rupture_velocity_vs_dist.png) | ![plot](a0_002b0_008/resources/rupture_velocity_vs_dist.png) |
+| <p align="center">**a0_002b0_01**</p> | <p align="center">**a0_003b0_008**</p> |  |
+| ![plot](a0_002b0_01/resources/rupture_velocity_vs_dist.png) | ![plot](a0_003b0_008/resources/rupture_velocity_vs_dist.png) |  |
+
+**stress overshoot**
+
+| <p align="center">**overS0_01**</p> | <p align="center">**overS0_05**</p> | <p align="center">**defaultModel**</p> | <p align="center">**overS0_15**</p> |
+|-----|-----|-----|-----|
+| ![plot](overS0_01/resources/rupture_velocity_vs_dist.png) | ![plot](overS0_05/resources/rupture_velocity_vs_dist.png) | ![plot](defaultModel/resources/rupture_velocity_vs_dist.png) | ![plot](overS0_15/resources/rupture_velocity_vs_dist.png) |
+| <p align="center">**overS0_2**</p> | <p align="center">**overS0_25**</p> | <p align="center">**overS0_3**</p> |  |
+| ![plot](overS0_2/resources/rupture_velocity_vs_dist.png) | ![plot](overS0_25/resources/rupture_velocity_vs_dist.png) | ![plot](overS0_3/resources/rupture_velocity_vs_dist.png) |  |
+
+**vary tau/sigma**
+
+| <p align="center">**defaultModel**</p> | <p align="center">**sigma125**</p> | <p align="center">**sigma150**</p> |
+|-----|-----|-----|
+| ![plot](defaultModel/resources/rupture_velocity_vs_dist.png) | ![plot](sigma125/resources/rupture_velocity_vs_dist.png) | ![plot](sigma150/resources/rupture_velocity_vs_dist.png) |
+| <p align="center">**sigma175**</p> | <p align="center">**sigma200**</p> |  |
+| ![plot](sigma175/resources/rupture_velocity_vs_dist.png) | ![plot](sigma200/resources/rupture_velocity_vs_dist.png) |  |
+
+**change ddotEQ**
+
+| <p align="center">**ddot0_5**</p> | <p align="center">**defaultModel**</p> | <p align="center">**ddot1_5**</p> |
+|-----|-----|-----|
+| ![plot](ddot0_5/resources/rupture_velocity_vs_dist.png) | ![plot](defaultModel/resources/rupture_velocity_vs_dist.png) | ![plot](ddot1_5/resources/rupture_velocity_vs_dist.png) |
+| <p align="center">**ddot2**</p> | <p align="center">**ddot2_5**</p> | <p align="center">**ddot3**</p> |
+| ![plot](ddot2/resources/rupture_velocity_vs_dist.png) | ![plot](ddot2_5/resources/rupture_velocity_vs_dist.png) | ![plot](ddot3/resources/rupture_velocity_vs_dist.png) |
+
+**change mu0**
+
+| <p align="center">**mu0_4**</p> | <p align="center">**mu0_5**</p> | <p align="center">**defaultModel**</p> |
+|-----|-----|-----|
+| ![plot](mu0_4/resources/rupture_velocity_vs_dist.png) | ![plot](mu0_5/resources/rupture_velocity_vs_dist.png) | ![plot](defaultModel/resources/rupture_velocity_vs_dist.png) |
+| <p align="center">**mu0_7**</p> | <p align="center">**mu0_8**</p> |  |
+| ![plot](mu0_7/resources/rupture_velocity_vs_dist.png) | ![plot](mu0_8/resources/rupture_velocity_vs_dist.png) |  |
+
+**hold b-a constant, but change a and b**
+
+| <p align="center">**defaultModel**</p> | <p align="center">**a0_0015b0_0085**</p> | <p align="center">**a0_002b0_009**</p> | <p align="center">**a0_003b0_01**</p> |
+|-----|-----|-----|-----|
+| ![plot](defaultModel/resources/rupture_velocity_vs_dist.png) | ![plot](a0_0015b0_0085/resources/rupture_velocity_vs_dist.png) | ![plot](a0_002b0_009/resources/rupture_velocity_vs_dist.png) | ![plot](a0_003b0_01/resources/rupture_velocity_vs_dist.png) |
+
+### M7 Element Interevent Time Comparisons
+*[(top)](#multi-catalog-plots)*
+
+**a reduction factor**
+
+| <p align="center">**aRed0_001**</p> | <p align="center">**aRed0_005**</p> | <p align="center">**aRed0_01**</p> | <p align="center">**aRed0_05**</p> |
+|-----|-----|-----|-----|
+| ![plot](aRed0_001/resources/interevent_elements_m7_hist2D.png) | ![plot](aRed0_005/resources/interevent_elements_m7_hist2D.png) | ![plot](aRed0_01/resources/interevent_elements_m7_hist2D.png) | ![plot](aRed0_05/resources/interevent_elements_m7_hist2D.png) |
+| <p align="center">**defaultModel**</p> | <p align="center">**aRed0_15**</p> | <p align="center">**aRed0_2**</p> |  |
+| ![plot](defaultModel/resources/interevent_elements_m7_hist2D.png) | ![plot](aRed0_15/resources/interevent_elements_m7_hist2D.png) | ![plot](aRed0_2/resources/interevent_elements_m7_hist2D.png) |  |
+
+**change Dc**
+
+| <p align="center">**defaultModel**</p> | <p align="center">**Dc2e5**</p> | <p align="center">**Dc5e5**</p> |
+|-----|-----|-----|
+| ![plot](defaultModel/resources/interevent_elements_m7_hist2D.png) | ![plot](Dc2e5/resources/interevent_elements_m7_hist2D.png) | ![plot](Dc5e5/resources/interevent_elements_m7_hist2D.png) |
+| <p align="center">**Dc1e4**</p> | <p align="center">**Dc2e4**</p> |  |
+| ![plot](Dc1e4/resources/interevent_elements_m7_hist2D.png) | ![plot](Dc2e4/resources/interevent_elements_m7_hist2D.png) |  |
+
+**change b-a**
+
+| <p align="center">**defaultModel**</p> | <p align="center">**a0_001b0_009**</p> | <p align="center">**a0_002b0_008**</p> |
+|-----|-----|-----|
+| ![plot](defaultModel/resources/interevent_elements_m7_hist2D.png) | ![plot](a0_001b0_009/resources/interevent_elements_m7_hist2D.png) | ![plot](a0_002b0_008/resources/interevent_elements_m7_hist2D.png) |
+| <p align="center">**a0_002b0_01**</p> | <p align="center">**a0_003b0_008**</p> |  |
+| ![plot](a0_002b0_01/resources/interevent_elements_m7_hist2D.png) | ![plot](a0_003b0_008/resources/interevent_elements_m7_hist2D.png) |  |
+
+**stress overshoot**
+
+| <p align="center">**overS0_01**</p> | <p align="center">**overS0_05**</p> | <p align="center">**defaultModel**</p> | <p align="center">**overS0_15**</p> |
+|-----|-----|-----|-----|
+| ![plot](overS0_01/resources/interevent_elements_m7_hist2D.png) | ![plot](overS0_05/resources/interevent_elements_m7_hist2D.png) | ![plot](defaultModel/resources/interevent_elements_m7_hist2D.png) | ![plot](overS0_15/resources/interevent_elements_m7_hist2D.png) |
+| <p align="center">**overS0_2**</p> | <p align="center">**overS0_25**</p> | <p align="center">**overS0_3**</p> |  |
+| ![plot](overS0_2/resources/interevent_elements_m7_hist2D.png) | ![plot](overS0_25/resources/interevent_elements_m7_hist2D.png) | ![plot](overS0_3/resources/interevent_elements_m7_hist2D.png) |  |
+
+**vary tau/sigma**
+
+| <p align="center">**defaultModel**</p> | <p align="center">**sigma125**</p> | <p align="center">**sigma150**</p> |
+|-----|-----|-----|
+| ![plot](defaultModel/resources/interevent_elements_m7_hist2D.png) | ![plot](sigma125/resources/interevent_elements_m7_hist2D.png) | ![plot](sigma150/resources/interevent_elements_m7_hist2D.png) |
+| <p align="center">**sigma175**</p> | <p align="center">**sigma200**</p> |  |
+| ![plot](sigma175/resources/interevent_elements_m7_hist2D.png) | ![plot](sigma200/resources/interevent_elements_m7_hist2D.png) |  |
+
+**change ddotEQ**
+
+| <p align="center">**ddot0_5**</p> | <p align="center">**defaultModel**</p> | <p align="center">**ddot1_5**</p> |
+|-----|-----|-----|
+| ![plot](ddot0_5/resources/interevent_elements_m7_hist2D.png) | ![plot](defaultModel/resources/interevent_elements_m7_hist2D.png) | ![plot](ddot1_5/resources/interevent_elements_m7_hist2D.png) |
+| <p align="center">**ddot2**</p> | <p align="center">**ddot2_5**</p> | <p align="center">**ddot3**</p> |
+| ![plot](ddot2/resources/interevent_elements_m7_hist2D.png) | ![plot](ddot2_5/resources/interevent_elements_m7_hist2D.png) | ![plot](ddot3/resources/interevent_elements_m7_hist2D.png) |
+
+**change mu0**
+
+| <p align="center">**mu0_4**</p> | <p align="center">**mu0_5**</p> | <p align="center">**defaultModel**</p> |
+|-----|-----|-----|
+| ![plot](mu0_4/resources/interevent_elements_m7_hist2D.png) | ![plot](mu0_5/resources/interevent_elements_m7_hist2D.png) | ![plot](defaultModel/resources/interevent_elements_m7_hist2D.png) |
+| <p align="center">**mu0_7**</p> | <p align="center">**mu0_8**</p> |  |
+| ![plot](mu0_7/resources/interevent_elements_m7_hist2D.png) | ![plot](mu0_8/resources/interevent_elements_m7_hist2D.png) |  |
+
+**hold b-a constant, but change a and b**
+
+| <p align="center">**defaultModel**</p> | <p align="center">**a0_0015b0_0085**</p> | <p align="center">**a0_002b0_009**</p> | <p align="center">**a0_003b0_01**</p> |
+|-----|-----|-----|-----|
+| ![plot](defaultModel/resources/interevent_elements_m7_hist2D.png) | ![plot](a0_0015b0_0085/resources/interevent_elements_m7_hist2D.png) | ![plot](a0_002b0_009/resources/interevent_elements_m7_hist2D.png) | ![plot](a0_003b0_01/resources/interevent_elements_m7_hist2D.png) |
+
+
+### M7 Subsection Interevent Time Comparisons
+*[(top)](#multi-catalog-plots)*
+
+**a reduction factor**
+
+| <p align="center">**aRed0_001**</p> | <p align="center">**aRed0_005**</p> | <p align="center">**aRed0_01**</p> | <p align="center">**aRed0_05**</p> |
+|-----|-----|-----|-----|
+| ![plot](aRed0_001/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](aRed0_005/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](aRed0_01/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](aRed0_05/resources/interevent_sub_sects_m7_hist2D.png) |
+| <p align="center">**defaultModel**</p> | <p align="center">**aRed0_15**</p> | <p align="center">**aRed0_2**</p> |  |
+| ![plot](defaultModel/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](aRed0_15/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](aRed0_2/resources/interevent_sub_sects_m7_hist2D.png) |  |
+
+**change Dc**
+
+| <p align="center">**defaultModel**</p> | <p align="center">**Dc2e5**</p> | <p align="center">**Dc5e5**</p> |
+|-----|-----|-----|
+| ![plot](defaultModel/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](Dc2e5/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](Dc5e5/resources/interevent_sub_sects_m7_hist2D.png) |
+| <p align="center">**Dc1e4**</p> | <p align="center">**Dc2e4**</p> |  |
+| ![plot](Dc1e4/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](Dc2e4/resources/interevent_sub_sects_m7_hist2D.png) |  |
+
+**change b-a**
+
+| <p align="center">**defaultModel**</p> | <p align="center">**a0_001b0_009**</p> | <p align="center">**a0_002b0_008**</p> |
+|-----|-----|-----|
+| ![plot](defaultModel/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](a0_001b0_009/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](a0_002b0_008/resources/interevent_sub_sects_m7_hist2D.png) |
+| <p align="center">**a0_002b0_01**</p> | <p align="center">**a0_003b0_008**</p> |  |
+| ![plot](a0_002b0_01/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](a0_003b0_008/resources/interevent_sub_sects_m7_hist2D.png) |  |
+
+**stress overshoot**
+
+| <p align="center">**overS0_01**</p> | <p align="center">**overS0_05**</p> | <p align="center">**defaultModel**</p> | <p align="center">**overS0_15**</p> |
+|-----|-----|-----|-----|
+| ![plot](overS0_01/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](overS0_05/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](defaultModel/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](overS0_15/resources/interevent_sub_sects_m7_hist2D.png) |
+| <p align="center">**overS0_2**</p> | <p align="center">**overS0_25**</p> | <p align="center">**overS0_3**</p> |  |
+| ![plot](overS0_2/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](overS0_25/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](overS0_3/resources/interevent_sub_sects_m7_hist2D.png) |  |
+
+**vary tau/sigma**
+
+| <p align="center">**defaultModel**</p> | <p align="center">**sigma125**</p> | <p align="center">**sigma150**</p> |
+|-----|-----|-----|
+| ![plot](defaultModel/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](sigma125/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](sigma150/resources/interevent_sub_sects_m7_hist2D.png) |
+| <p align="center">**sigma175**</p> | <p align="center">**sigma200**</p> |  |
+| ![plot](sigma175/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](sigma200/resources/interevent_sub_sects_m7_hist2D.png) |  |
+
+**change ddotEQ**
+
+| <p align="center">**ddot0_5**</p> | <p align="center">**defaultModel**</p> | <p align="center">**ddot1_5**</p> |
+|-----|-----|-----|
+| ![plot](ddot0_5/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](defaultModel/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](ddot1_5/resources/interevent_sub_sects_m7_hist2D.png) |
+| <p align="center">**ddot2**</p> | <p align="center">**ddot2_5**</p> | <p align="center">**ddot3**</p> |
+| ![plot](ddot2/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](ddot2_5/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](ddot3/resources/interevent_sub_sects_m7_hist2D.png) |
+
+**change mu0**
+
+| <p align="center">**mu0_4**</p> | <p align="center">**mu0_5**</p> | <p align="center">**defaultModel**</p> |
+|-----|-----|-----|
+| ![plot](mu0_4/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](mu0_5/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](defaultModel/resources/interevent_sub_sects_m7_hist2D.png) |
+| <p align="center">**mu0_7**</p> | <p align="center">**mu0_8**</p> |  |
+| ![plot](mu0_7/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](mu0_8/resources/interevent_sub_sects_m7_hist2D.png) |  |
+
+**hold b-a constant, but change a and b**
+
+| <p align="center">**defaultModel**</p> | <p align="center">**a0_0015b0_0085**</p> | <p align="center">**a0_002b0_009**</p> | <p align="center">**a0_003b0_01**</p> |
+|-----|-----|-----|-----|
+| ![plot](defaultModel/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](a0_0015b0_0085/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](a0_002b0_009/resources/interevent_sub_sects_m7_hist2D.png) | ![plot](a0_003b0_01/resources/interevent_sub_sects_m7_hist2D.png) |
+
