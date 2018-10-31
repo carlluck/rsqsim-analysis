@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	max-width:1000px;
+	margin: auto;
+}
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+</style>
+</head>
+<body>
+<h1 id="bruce-2740-bbp-part-b-validation">Bruce 2740 BBP Part B Validation</h1>
+<p><a href="../#bruce-2740">Catalog Details</a></p>
+<h2 id="table-of-contents">Table Of Contents</h2>
+<ul>
+<li><a href="#background-information">Background Information</a></li>
+<li><a href="#rsqsim-bbp-part-b-methodology">RSQSim BBP Part B Methodology</a></li>
+<li><a href="#results-summary-table">Results Summary Table</a></li>
+<li><a href="#m66-vertical-strike-slip-with-surface-rupture">M6.6, Vertical Strike-Slip with Surface Rupture</a>
+<ul>
+<li><a href="#m66-ss-rsqsim-rupture-match-criteria">M6.6 SS RSQSim Rupture Match Criteria</a></li>
+<li><a href="#m66-ss-20-km-results">M6.6 SS 20 km Results</a></li>
+<li><a href="#m66-ss-50-km-results">M6.6 SS 50 km Results</a></li>
+</ul>
+</li>
+<li><a href="#m66-reverse-dip45-ztor3">M6.6, Reverse, Dip=45, Ztor=3</a>
+<ul>
+<li><a href="#m66-reverse-rsqsim-rupture-match-criteria">M6.6 Reverse RSQSim Rupture Match Criteria</a></li>
+<li><a href="#m66-reverse-20-km-results">M6.6 Reverse 20 km Results</a></li>
+<li><a href="#m66-reverse-50-km-results">M6.6 Reverse 50 km Results</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="background-information">Background Information</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>This page reproduces the SCEC BroadBand Platform &quot;Part B&quot; validation exercise as defined in:</p>
+<p><em>Goulet, C. A., Abrahamson, N. A., Somerville, P. G., &amp; Wooddell, K. E. (2014). The SCEC broadband platform validation exercise: Methodology for code validation in the context of seismic‐hazard analyses. Seismological Research Letters, 86(1), 17-26.</em></p>
+<p>The goal of this exercise was to validate BBP simulation methods (both rupture generation and ground motion simulation) against the NGA-West GMPEs (the original study used NGA-West1, we use NGA-West2) for scenario ruptures where the NGA relations are well constrained:</p>
+<ul>
+<li>M 5.5, 45°-dipping reverse, Ztor = 6 km</li>
+<li>M 6.2, vertical strike slip, Ztor = 4 km</li>
+<li>M 6.6, vertical strike slip with a surface rupture</li>
+<li>M 6.6, 45°-dipping reverse, Ztor = 3 km</li>
+</ul>
+<p>50 rupture realizations were generated for each scenario, and 40 sites were distributed at random azimuths on the footwall side of the faults at rupture distances of 20 and 50 km. Resultant ground motions were compared against an evaluation criterion which was established so as to be wide enough to limit a pass fail grade for each scenario considered. This criterion only applies at periods up to 3s, becase data above this period is &quot;fairly sparse and cannot provide a reliable constraint.&quot;</p>
+<h2 id="rsqsim-bbp-part-b-methodology">RSQSim BBP Part B Methodology</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>We reproduce the Part B experiment using RSQSim as the rupture generator, coupled with the Graves &amp; Pitarka ground motion simulation method. While the original BBP Part B validation exercise was prescriptive (the magnitude and fault surface for each scenario was an input to the rupture generators), we can't prescribe RSQSim ruptures. Instead we search catalogs for ruptures which are very similar to the BBP Part B scenarios, and distribute sites around those ruptures. This algorithm can be a little tricky for non-rectangular dipping ruptures. The specific matching criteria for each scenario along with example plots of ruptures and sites can be found under each scenario.</p>
+<p><em>NOTE: We only currently only consider the larger M6.6 scenarios, and spectral periods 1s or larger</em></p>
+<h2 id="results-summary-table">Results Summary Table</h2>
+<table>
+<thead>
+<tr><th>Scenario</th><th>20 km</th><th>50 km</th></tr>
+</thead>
+<tbody>
+<tr><td>M6.6 SS</td><td><strong><a href="#m66-ss-20-km-results">FAIL</a></strong></td><td><strong><a href="#m66-ss-50-km-results">FAIL</a></strong></td></tr>
+<tr><td>M6.6 Reverse</td><td><strong><a href="#m66-reverse-20-km-results">PASS</a></strong></td><td><strong><a href="#m66-reverse-50-km-results">PASS</a></strong></td></tr>
+</tbody>
+</table>
+<h2 id="m66-vertical-strike-slip-with-surface-rupture">M6.6, Vertical Strike-Slip with Surface Rupture</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<h3 id="m66-ss-rsqsim-rupture-match-criteria">M6.6 SS RSQSim Rupture Match Criteria</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>1693 events in the catalog match the following criteria:</p>
+<ul>
+<li>M=[6.55,6.65]</li>
+<li>Ztor=[0,1]</li>
+<li>Rake=[-180,-170] or [-10,10] or [170,180]</li>
+<li>Dip=90</li>
+<li>Linear rupture (max 0.5km deviation from ideal)</li>
+</ul>
+<p>Example matches (20 km sites in Blue, 50 km sites in Geen):</p>
+<table>
+<thead>
+<tr><th><img src="resources/m6p6_vert_ss_surface_match_0_event_87938.png" alt="Event 87938" /></th><th><img src="resources/m6p6_vert_ss_surface_match_1_event_92056.png" alt="Event 92056" /></th><th><img src="resources/m6p6_vert_ss_surface_match_2_event_93332.png" alt="Event 93332" /></th><th><img src="resources/m6p6_vert_ss_surface_match_3_event_95872.png" alt="Event 95872" /></th><th><img src="resources/m6p6_vert_ss_surface_match_4_event_96116.png" alt="Event 96116" /></th></tr>
+</thead>
+<tbody></tbody>
+</table>
+<h3 id="m66-ss-20-km-results">M6.6 SS 20 km Results</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Result: <strong>FAIL</strong></p>
+<p><img src="resources/m6p6_vert_ss_surface_20km.png" alt="Acceptance Plot" /></p>
+<h3 id="m66-ss-50-km-results">M6.6 SS 50 km Results</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Result: <strong>FAIL</strong></p>
+<p><img src="resources/m6p6_vert_ss_surface_50km.png" alt="Acceptance Plot" /></p>
+<h2 id="m66-reverse-dip45-ztor3">M6.6, Reverse, Dip=45, Ztor=3</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<h3 id="m66-reverse-rsqsim-rupture-match-criteria">M6.6 Reverse RSQSim Rupture Match Criteria</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>49 events in the catalog match the following criteria:</p>
+<ul>
+<li>M=[6.55,6.65]</li>
+<li>Ztor=[2,4]</li>
+<li>Rake=[80,100]</li>
+<li>Dip=[40,50]</li>
+</ul>
+<p>Example matches (20 km sites in Blue, 50 km sites in Geen):</p>
+<table>
+<thead>
+<tr><th><img src="resources/m6p6_reverse_match_0_event_165223.png" alt="Event 165223" /></th><th><img src="resources/m6p6_reverse_match_1_event_212169.png" alt="Event 212169" /></th><th><img src="resources/m6p6_reverse_match_2_event_337250.png" alt="Event 337250" /></th><th><img src="resources/m6p6_reverse_match_3_event_347099.png" alt="Event 347099" /></th><th><img src="resources/m6p6_reverse_match_4_event_772547.png" alt="Event 772547" /></th></tr>
+</thead>
+<tbody></tbody>
+</table>
+<h3 id="m66-reverse-20-km-results">M6.6 Reverse 20 km Results</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Result: <strong>PASS</strong></p>
+<p><img src="resources/m6p6_reverse_20km.png" alt="Acceptance Plot" /></p>
+<h3 id="m66-reverse-50-km-results">M6.6 Reverse 50 km Results</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Result: <strong>PASS</strong></p>
+<p><img src="resources/m6p6_reverse_50km.png" alt="Acceptance Plot" /></p>
+</body>
+</html>
