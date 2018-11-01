@@ -11,7 +11,7 @@
 | **Frictional Params** | a=0.01, b=0.015, (b-a)=0.005, ddotEQ=1 |
 
 * [Metadata](#metadata)
-* [Extreme Event Examples](#extreme-event-examples)
+* [Extreme Event Examples](extreme_events/)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)

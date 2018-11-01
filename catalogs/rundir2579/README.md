@@ -12,9 +12,9 @@
 
 * [Metadata](#metadata)
 * [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
-* [Full Catalog RotD100/RotD50 Ratios](#full-catalog-rotd100rotd50-ratios)
+* [Full Catalog RotD100/RotD50 Ratios](catalog_rotd_ratio_comparisons/)
 * [Hazard Comparisons](#hazard-comparisons)
-* [Extreme Event Examples](#extreme-event-examples)
+* [Extreme Event Examples](extreme_events/)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)

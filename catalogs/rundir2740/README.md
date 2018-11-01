@@ -13,7 +13,7 @@
 * [Metadata](#metadata)
 * [Single Event Comparisons](#single-event-comparisons)
 * [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
-* [BBP Part B Validation Exercise](#bbp-part-b-validation-exercise)
+* [BBP Part B Validation Exercise](bbp_part_b/)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)

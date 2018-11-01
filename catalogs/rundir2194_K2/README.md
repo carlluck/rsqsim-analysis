@@ -13,7 +13,7 @@
 * [Metadata](#metadata)
 * [Single Event Comparisons](#single-event-comparisons)
 * [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
-* [Full Catalog RotD100/RotD50 Ratios](#full-catalog-rotd100rotd50-ratios)
+* [Full Catalog RotD100/RotD50 Ratios](catalog_rotd_ratio_comparisons/)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)

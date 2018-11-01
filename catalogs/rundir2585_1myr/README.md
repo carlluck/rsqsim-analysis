@@ -12,8 +12,8 @@
 
 * [Metadata](#metadata)
 * [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
-* [Source/Site Ground Motion Comparisons](#sourcesite-ground-motion-comparisons)
-* [Extreme Event Examples](#extreme-event-examples)
+* [Source/Site Ground Motion Comparisons](source_site_comparisons/)
+* [Extreme Event Examples](extreme_events/)
 * [Occupancy Copulas](#occupancy-copulas)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
@@ -36,7 +36,7 @@
 ## Source/Site Ground Motion Comparisons
 *[(top)](#bruce-2585-1myr)*
 
-[Source/Site Ground Motion Comparisons here](source_site_comparisons/)
+[Source/Site Ground Motion Comparisons Here](source_site_comparisons/)
 
 ## Extreme Event Examples
 *[(top)](#bruce-2585-1myr)*
