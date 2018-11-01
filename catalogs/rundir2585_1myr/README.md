@@ -12,6 +12,7 @@
 
 * [Metadata](#metadata)
 * [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
+* [BBP Part B Validation Exercise](bbp_part_b/)
 * [Source/Site Ground Motion Comparisons](source_site_comparisons/)
 * [Extreme Event Examples](extreme_events/)
 * [Occupancy Copulas](#occupancy-copulas)
@@ -32,6 +33,11 @@
 *[(top)](#bruce-2585-1myr)*
 
 * [ASK2014](gmpe_bbp_comparisons_ASK2014/)
+
+## BBP Part B Validation Exercise
+*[(top)](#bruce-2585-1myr)*
+
+[BBP Part B Validation Exercise Results Here](bbp_part_b/)
 
 ## Source/Site Ground Motion Comparisons
 *[(top)](#bruce-2585-1myr)*
