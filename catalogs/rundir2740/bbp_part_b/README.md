@@ -9,11 +9,15 @@
 * [M6.6, Vertical Strike-Slip with Surface Rupture](#m66-vertical-strike-slip-with-surface-rupture)
   * [M6.6 SS RSQSim Rupture Match Criteria](#m66-ss-rsqsim-rupture-match-criteria)
   * [M6.6 SS 20 km Results](#m66-ss-20-km-results)
+    * [M6.6 SS 20 km Comparisons](#m66-ss-20-km-comparisons)
   * [M6.6 SS 50 km Results](#m66-ss-50-km-results)
+    * [M6.6 SS 50 km Comparisons](#m66-ss-50-km-comparisons)
 * [M6.6, Reverse, Dip=45, Ztor=3](#m66-reverse-dip45-ztor3)
   * [M6.6 Reverse RSQSim Rupture Match Criteria](#m66-reverse-rsqsim-rupture-match-criteria)
   * [M6.6 Reverse 20 km Results](#m66-reverse-20-km-results)
+    * [M6.6 Reverse 20 km Comparisons](#m66-reverse-20-km-comparisons)
   * [M6.6 Reverse 50 km Results](#m66-reverse-50-km-results)
+    * [M6.6 Reverse 50 km Comparisons](#m66-reverse-50-km-comparisons)
 ## Background Information
 *[(top)](#table-of-contents)*
 
@@ -29,7 +33,7 @@ The goal of this exercise was to validate BBP simulation methods (both rupture g
 * M 6.6, vertical strike slip with a surface rupture
 * M 6.6, 45°-dipping reverse, Ztor = 3 km
 
-50 rupture realizations were generated for each scenario, and 40 sites were distributed at random azimuths on the footwall side of the faults at rupture distances of 20 and 50 km. Resultant ground motions were compared against an evaluation criterion which "was established so as to be wide enough to limit a pass/fail grade for each scenario considered." This criterion only applies at periods up to 3s, becase data above this period "are fairly sparse and cannot provide a reliable constraint."
+50 rupture realizations were generated for each scenario with randomly distributed hypocenters, and 40 sites were distributed at random azimuths on the footwall side of the faults at rupture distances of 20 and 50 km. Resultant ground motions were compared against an evaluation criterion which "was established so as to be wide enough to limit a pass/fail grade for each scenario considered." This criterion only applies at periods up to 3s, becase data above this period "are fairly sparse and cannot provide a reliable constraint."
 
 A method is said to pass the test if the median RotD50 value is within the evaluation criteria at every spectral period. "Departure from that range is a definite sign that the model is not consistent with our current dataset and is a sign of potential issues with the simulations."
 
@@ -79,6 +83,13 @@ Result: **FAIL**
 | **NGA-W2 Median** | 0.0670 | 0.0596 | 0.0535 | 0.0485 | 0.0406 | 0.0347 | 0.0283 | 0.0252 | 0.0227 | 0.0207 | 0.0189 | 0.0174 |
 | **Upper Bound** | 0.0967 | 0.0859 | 0.0772 | 0.0699 | 0.0586 | 0.0500 | 0.0408 | 0.0364 | 0.0328 | 0.0298 | 0.0273 | 0.0252 |
 
+#### M6.6 SS 20 km Comparisons
+*[(top)](#table-of-contents)*
+
+| ExSIM | G&P | SDSU | UCSB |
+|-----|-----|-----|-----|
+| ![ExSIM](http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S17.png) | ![G&P](http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S18.png) | ![SDSU](http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S19.png) | ![UCSB](http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S16.png) |
+
 ### M6.6 SS 50 km Results
 *[(top)](#table-of-contents)*
 
@@ -92,6 +103,13 @@ Result: **FAIL**
 | **Sim Median** | *0.0432* | *0.0393* | *0.0347* | *0.0311* | *0.0265* | *0.0218* | **0.0168** | **0.0150** | *0.0139* | *0.0129* | *0.0119* | *0.0108* |
 | **NGA-W2 Median** | 0.0270 | 0.0241 | 0.0218 | 0.0198 | 0.0167 | 0.0143 | 0.0117 | 0.0104 | 0.0094 | 0.0086 | 0.0078 | 0.0072 |
 | **Upper Bound** | 0.0390 | 0.0348 | 0.0314 | 0.0286 | 0.0242 | 0.0207 | 0.0169 | 0.0151 | 0.0136 | 0.0123 | 0.0113 | 0.0104 |
+
+#### M6.6 SS 50 km Comparisons
+*[(top)](#table-of-contents)*
+
+| ExSIM | G&P | SDSU | UCSB |
+|-----|-----|-----|-----|
+| ![ExSIM](http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S21.png) | ![G&P](http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S22.png) | ![SDSU](http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S23.png) | ![UCSB](http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S20.png) |
 
 ## M6.6, Reverse, Dip=45, Ztor=3
 *[(top)](#table-of-contents)*
@@ -124,6 +142,13 @@ Result: **PASS**
 | **NGA-W2 Median** | 0.0735 | 0.0651 | 0.0583 | 0.0527 | 0.0439 | 0.0372 | 0.0299 | 0.0265 | 0.0238 | 0.0215 | 0.0196 | 0.0179 |
 | **Upper Bound** | 0.1060 | 0.0939 | 0.0841 | 0.0760 | 0.0633 | 0.0536 | 0.0432 | 0.0383 | 0.0343 | 0.0310 | 0.0282 | 0.0259 |
 
+#### M6.6 Reverse 20 km Comparisons
+*[(top)](#table-of-contents)*
+
+| ExSIM | G&P | SDSU | UCSB |
+|-----|-----|-----|-----|
+| ![ExSIM](http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S25.png) | ![G&P](http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S26.png) | ![SDSU](http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S27.png) | ![UCSB](http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S24.png) |
+
 ### M6.6 Reverse 50 km Results
 *[(top)](#table-of-contents)*
 
@@ -137,4 +162,11 @@ Result: **PASS**
 | **Sim Median** | **0.0370** | **0.0328** | **0.0299** | **0.0262** | **0.0211** | **0.0175** | **0.0133** | **0.0119** | **0.0113** | **0.0109** | **0.0102** | **0.0093** |
 | **NGA-W2 Median** | 0.0294 | 0.0262 | 0.0235 | 0.0214 | 0.0180 | 0.0152 | 0.0123 | 0.0109 | 0.0098 | 0.0088 | 0.0080 | 0.0074 |
 | **Upper Bound** | 0.0424 | 0.0377 | 0.0340 | 0.0308 | 0.0259 | 0.0220 | 0.0177 | 0.0157 | 0.0141 | 0.0127 | 0.0116 | 0.0106 |
+
+#### M6.6 Reverse 50 km Comparisons
+*[(top)](#table-of-contents)*
+
+| ExSIM | G&P | SDSU | UCSB |
+|-----|-----|-----|-----|
+| ![ExSIM](http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S29.png) | ![G&P](http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S30.png) | ![SDSU](http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S31.png) | ![UCSB](http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S28.png) |
 
