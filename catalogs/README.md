@@ -2,7 +2,7 @@
 
 | Date | Name | Duration | Element Area | Description |
 |-----|-----|-----|-----|-----|
-| 2019/07/07 | [Bruce 2922](rundir2922#bruce-2922) | 132,710 yrs | 1.35 km | New const dip fault smoothing.  smoothF=1e6.  V=1.  fracArea=0.99.  b=.01 |
+| 2019/01/13 | [Bruce 3014](rundir3014#bruce-3014) | 171,939 yrs | 1.35 km | New const dip fault smoothing.  smoothF=1e6.  V=1.  fracArea=0.99.  b=.013 |
 | 2018/10/18 | [Bruce 2829](rundir2829#bruce-2829) | 25,074 yrs | 1.35 km | fracArea=0.95 ; NEW variableSpeed  s2ddf=.9 ddfmin=.1;  b=.01 a=.001 |
 | 2018/08/23 | [JG Test Master Exec](defaultModel_JfM#jg-test-master-exec) | 139,726 yrs | 1.35 km | Calculating stiffness files using the executable from the master branch |
 | 2018/08/22 | [JG Test Calc Siffness 2](test25a589d_J2#jg-test-calc-siffness-2) | 334,212 yrs | 1.35 km | Test of reading in the stiffness files written by previous run test25a589d_J using my executable |
