@@ -54,7 +54,7 @@ This is done separately for each site, rupture, distance, and any rupture rotati
 
 ![Path Variability](resources/path_std_dev.png)
 
-| Site | 3s Std. Dev. | 3s Range | 5s Std. Dev. | 5s Range | 7.5s Std. Dev. | 7.5s Range | 10s Std. Dev. | 10s Range |
+| Site | 3s Std. Dev. | 3s Residual Range | 5s Std. Dev. | 5s Residual Range | 7.5s Std. Dev. | 7.5s Residual Range | 10s Std. Dev. | 10s Residual Range |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|
 | LAPD | 0 | [-0.06 0.06] | 0 | [-0.03 0.05] | 0 | [-0.02 0.03] | 0 | [-0.02 0.02] |
 | PAS | 0 | [-0.08 0.04] | 0 | [-0.04 0.03] | 0 | [-0.02 0.04] | 0 | [-0.01 0.03] |
@@ -84,7 +84,7 @@ This is done separately for each site, rupture, distance, and path. This calcula
 
 ![Source Orientation Variability](resources/source_orientation_std_dev.png)
 
-| Site | 3s Std. Dev. | 3s Range | 5s Std. Dev. | 5s Range | 7.5s Std. Dev. | 7.5s Range | 10s Std. Dev. | 10s Range |
+| Site | 3s Std. Dev. | 3s Residual Range | 5s Std. Dev. | 5s Residual Range | 7.5s Std. Dev. | 7.5s Residual Range | 10s Std. Dev. | 10s Residual Range |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|
 | LAPD | 0.44 | [-1.39 1.17] | 0.47 | [-1.42 1.33] | 0.53 | [-1.78 1.36] | 0.55 | [-1.68 1.28] |
 | PAS | 0.44 | [-1.39 1.17] | 0.47 | [-1.42 1.33] | 0.53 | [-1.78 1.35] | 0.55 | [-1.68 1.28] |
@@ -112,7 +112,7 @@ This is done separately for each site, distance, source azimuth, and path. This 
 
 ![Source Variability](resources/source_std_dev.png)
 
-| Site | 3s Std. Dev. | 3s Range | 5s Std. Dev. | 5s Range | 7.5s Std. Dev. | 7.5s Range | 10s Std. Dev. | 10s Range |
+| Site | 3s Std. Dev. | 3s Residual Range | 5s Std. Dev. | 5s Residual Range | 7.5s Std. Dev. | 7.5s Residual Range | 10s Std. Dev. | 10s Residual Range |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|
 | LAPD | 0.34 | [-1.06 1.31] | 0.4 | [-1.23 1.12] | 0.46 | [-1.45 1.11] | 0.47 | [-1.52 1.05] |
 | PAS | 0.34 | [-1.06 1.32] | 0.4 | [-1.23 1.12] | 0.46 | [-1.45 1.11] | 0.47 | [-1.52 1.05] |
