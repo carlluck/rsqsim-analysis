@@ -15,6 +15,9 @@
 * [Within-event Variability](#within-event-variability)
   * [Within-event Variability Methodology](#within-event-variability-methodology)
   * [Within-event Variability Results](#within-event-variability-results)
+* [Site-to-site Variability](#site-to-site-variability)
+  * [Site-to-site Variability Methodology](#site-to-site-variability-methodology)
+  * [Site-to-site Variability Results](#site-to-site-variability-results)
 ## Rupture Rotation Parameters
 
 | Events | 100 |
@@ -174,4 +177,31 @@ Standard deviation is computed and tabulated separately for each site, then a to
 | s279 | 0.33 | [-1.11 1.44] | 0.37 | [-1.39 1] | 0.43 | [-1.51 1.05] | 0.42 | [-1.77 0.97] |
 | s480 | 0.33 | [-1.11 1.44] | 0.37 | [-1.39 1] | 0.43 | [-1.51 1.05] | 0.42 | [-1.77 0.97] |
 | **ALL SITES** | **0.33** | **[-1.11 1.45]** | **0.37** | **[-1.39 1]** | **0.43** | **[-1.51 1.05]** | **0.42** | **[-1.78 0.97]** |
+
+## Site-to-site Variability
+*[(top)](#table-of-contents)*
+
+### Site-to-site Variability Methodology
+*[(top)](#table-of-contents)*
+
+Site-to-site variability, denoted &phi;<sub>S2S</sub> in Al Atik 2010, is computed from ground motion residuals where the following quantities are held constant:
+
+* Joyner-Boore Distance *[2 unique]*
+* Rupture *[100 unique]*
+* Rupture Strike (Aki & Richards 1980 convention) *[36 unique]*
+* Path (from site to rupture centroid) *[4 unique]*
+
+and the following quantities vary:
+
+* Site *[10 unique]*
+
+
+### Site-to-site Variability Results
+*[(top)](#table-of-contents)*
+
+![Site-to-site Variability](resources/site_to_site_std_dev.png)
+
+| 3s Std. Dev. | 3s Residual Range | 5s Std. Dev. | 5s Residual Range | 7.5s Std. Dev. | 7.5s Residual Range | 10s Std. Dev. | 10s Residual Range |
+|-----|-----|-----|-----|-----|-----|-----|-----|
+| 0.01 | [-0.21 0.13] | 0.01 | [-0.08 0.11] | 0 | [-0.07 0.05] | 0 | [-0.06 0.05] |
 
