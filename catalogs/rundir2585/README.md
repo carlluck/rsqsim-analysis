@@ -18,6 +18,7 @@
 * [Hazard Comparisons](#hazard-comparisons)
 * [Multi-Fault Rupture Comparisons](multi_fault/)
 * [Extreme Event Examples](extreme_events/)
+* [Rotated Rupture Variability Comparisons](#rotated-rupture-variability-comparisons)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
@@ -95,6 +96,12 @@
 *[(top)](#bruce-2585)*
 
 [Extreme Event Examples Here](extreme_events/)
+
+## Rotated Rupture Variability Comparisons
+*[(top)](#bruce-2585)*
+
+* [M6.6, Reverse, Dip=45, Ztor=3](rotated_ruptures_m6p6_reverse/)
+* [M6.6, Vertical Strike-Slip with Surface Rupture](rotated_ruptures_m6p6_vert_ss_surface/)
 
 ## Plots
 ### Magnitude-Frequency Plot

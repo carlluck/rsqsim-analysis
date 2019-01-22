@@ -22,19 +22,22 @@ img {
 <li><a href="#path-variability">Path Variability</a>
 <ul>
 <li><a href="#path-variability-methodology">Path Variability Methodology</a></li>
-<li><a href="#path-variability-results">Path Variability Results</a></li>
+<li><a href="#200-km-path-residuals">20.0 km Path Residuals</a></li>
+<li><a href="#500-km-path-residuals">50.0 km Path Residuals</a></li>
 </ul>
 </li>
-<li><a href="#source-orientation-directivity-variability">Source Orientation (Directivity) Variability</a>
+<li><a href="#source-strike-variability">Source-strike Variability</a>
 <ul>
-<li><a href="#source-orientation-methodology">Source Orientation Methodology</a></li>
-<li><a href="#source-orientation-results">Source Orientation Results</a></li>
+<li><a href="#source-strike-variability-methodology">Source-strike Variability Methodology</a></li>
+<li><a href="#200-km-source-strike-residuals">20.0 km Source-strike Residuals</a></li>
+<li><a href="#500-km-source-strike-residuals">50.0 km Source-strike Residuals</a></li>
 </ul>
 </li>
-<li><a href="#source-variability">Source Variability</a>
+<li><a href="#within-event-variability">Within-event Variability</a>
 <ul>
-<li><a href="#source-methodology">Source Methodology</a></li>
-<li><a href="#source-results">Source Results</a></li>
+<li><a href="#within-event-variability-methodology">Within-event Variability Methodology</a></li>
+<li><a href="#200-km-within-event-residuals">20.0 km Within-event Residuals</a></li>
+<li><a href="#500-km-within-event-residuals">50.0 km Within-event Residuals</a></li>
 </ul>
 </li>
 </ul>
@@ -47,8 +50,8 @@ img {
 <tr><td>Sites</td><td>10</td></tr>
 <tr><td>Source Rotation Azimuths</td><td>36</td></tr>
 <tr><td>Site-To-Source Path Azimuths</td><td>4</td></tr>
-<tr><td>Source-Site Distance[s]</td><td>50.0 km</td></tr>
-<tr><td>Total # Simulations</td><td>144000</td></tr>
+<tr><td>Source-Site Distance[s]</td><td>20.0,50.0 km</td></tr>
+<tr><td>Total # Simulations</td><td>288000</td></tr>
 </tbody>
 </table>
 <h2 id="sites">Sites</h2>
@@ -73,10 +76,21 @@ img {
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <h3 id="path-variability-methodology">Path Variability Methodology</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p>Path variability is computed by spinning each rupture around each site, holding distance and relative rupture orientation constant. Here is an exmample with 5 rotations:</p>
-<p><img src="resources/example_path.png" alt="Example" /></p>
-<p>This is done separately for each site, rupture, distance, and any rupture rotations (about its centroid). This calculation uses 4 rotations for each such site/rupture pair, where residuals are computed (relative to the mean intensity) for each path. A total path standard devaiation is then computed from these path residuals for all ruptures (including centroid rotations) for a given site and distance. The &quot;<strong>ALL SITES</strong>&quot; standard deviation is computed from all residuals across all sites for a given distance.</p>
-<h3 id="path-variability-results">Path Variability Results</h3>
+<p>Path variability, denoted φ<sub>P2P</sub> in Al Atik 2010, is computed from ground motion residuals where the following quantities are held constant:</p>
+<ul>
+<li>Site <em>[10 unique]</em></li>
+<li>Joyner-Boore Distance <em>[2 unique]</em></li>
+<li>Rupture <em>[100 unique]</em></li>
+<li>Rupture Strike (Aki &amp; Richards 1980 convention) <em>[36 unique]</em></li>
+</ul>
+<p>and the following quantities vary:</p>
+<ul>
+<li>Path (from site to rupture centroid) <em>[4 unique]</em></li>
+</ul>
+<p>Here is an exmample with 5 rotations:
+<img src="resources/example_path.png" alt="Example" /></p>
+<p>Standard deviation is computed and tabulated separately for each site and distance, then a total standard deviation is computed from all site and distances and reported in the &quot;<strong>ALL SITES</strong>&quot; row.</p>
+<h3 id="200-km-path-residuals">20.0 km Path Residuals</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <p><img src="resources/path_std_dev.png" alt="Path Variability" /></p>
 <table>
@@ -84,29 +98,82 @@ img {
 <tr><th>Site</th><th>3s Std. Dev.</th><th>3s Residual Range</th><th>5s Std. Dev.</th><th>5s Residual Range</th><th>7.5s Std. Dev.</th><th>7.5s Residual Range</th><th>10s Std. Dev.</th><th>10s Residual Range</th></tr>
 </thead>
 <tbody>
-<tr><td>LAPD</td><td>0</td><td>[-0.06 0.07]</td><td>0</td><td>[-0.04 0.04]</td><td>0</td><td>[-0.03 0.04]</td><td>0</td><td>[-0.02 0.02]</td></tr>
-<tr><td>PAS</td><td>0</td><td>[-0.08 0.05]</td><td>0</td><td>[-0.07 0.03]</td><td>0</td><td>[-0.03 0.04]</td><td>0</td><td>[-0.02 0.02]</td></tr>
-<tr><td>SBSM</td><td>0</td><td>[-0.09 0.08]</td><td>0</td><td>[-0.04 0.04]</td><td>0</td><td>[-0.04 0.03]</td><td>0</td><td>[-0.02 0.02]</td></tr>
-<tr><td>SMCA</td><td>0</td><td>[-0.07 0.08]</td><td>0</td><td>[-0.03 0.06]</td><td>0</td><td>[-0.02 0.03]</td><td>0</td><td>[-0.02 0.02]</td></tr>
-<tr><td>STNI</td><td>0</td><td>[-0.06 0.05]</td><td>0</td><td>[-0.07 0.02]</td><td>0</td><td>[-0.05 0.02]</td><td>0</td><td>[-0.03 0.01]</td></tr>
-<tr><td>USC</td><td>0</td><td>[-0.09 0.07]</td><td>0</td><td>[-0.07 0.05]</td><td>0</td><td>[-0.04 0.03]</td><td>0</td><td>[-0.01 0.03]</td></tr>
-<tr><td>WNGC</td><td>0</td><td>[-0.06 0.07]</td><td>0</td><td>[-0.05 0.05]</td><td>0</td><td>[-0.04 0.04]</td><td>0</td><td>[-0.04 0.04]</td></tr>
-<tr><td>s119</td><td>0</td><td>[-0.1 0.11]</td><td>0</td><td>[-0.05 0.04]</td><td>0</td><td>[-0.02 0.04]</td><td>0</td><td>[-0.03 0.03]</td></tr>
-<tr><td>s279</td><td>0</td><td>[-0.08 0.09]</td><td>0</td><td>[-0.07 0.06]</td><td>0</td><td>[-0.03 0.02]</td><td>0</td><td>[-0.02 0.03]</td></tr>
-<tr><td>s480</td><td>0</td><td>[-0.13 0.11]</td><td>0</td><td>[-0.04 0.03]</td><td>0</td><td>[-0.03 0.03]</td><td>0</td><td>[-0.02 0.02]</td></tr>
-<tr><td><strong>ALL SITES</strong></td><td><strong>0</strong></td><td><strong>[-0.13 0.11]</strong></td><td><strong>0</strong></td><td><strong>[-0.07 0.06]</strong></td><td><strong>0</strong></td><td><strong>[-0.05 0.04]</strong></td><td><strong>0</strong></td><td><strong>[-0.04 0.04]</strong></td></tr>
+<tr><td>LAPD</td><td>0</td><td>[-0.04 0.05]</td><td>0</td><td>[-0.04 0.06]</td><td>0</td><td>[-0.01 0.03]</td><td>0</td><td>[-0.01 0.01]</td></tr>
+<tr><td>PAS</td><td>0</td><td>[-0.03 0.05]</td><td>0</td><td>[-0.01 0.04]</td><td>0</td><td>[-0.01 0.01]</td><td>0</td><td>[-0.01 0.02]</td></tr>
+<tr><td>SBSM</td><td>0</td><td>[-0.04 0.05]</td><td>0</td><td>[-0.02 0.03]</td><td>0</td><td>[-0.01 0.02]</td><td>0</td><td>[-0.02 0.02]</td></tr>
+<tr><td>SMCA</td><td>0</td><td>[-0.04 0.05]</td><td>0</td><td>[-0.02 0.03]</td><td>0</td><td>[-0.02 0.01]</td><td>0</td><td>[-0.02 0.02]</td></tr>
+<tr><td>STNI</td><td>0</td><td>[-0.03 0.04]</td><td>0</td><td>[-0.02 0.03]</td><td>0</td><td>[-0.01 0.01]</td><td>0</td><td>[-0.02 0.02]</td></tr>
+<tr><td>USC</td><td>0</td><td>[-0.05 0.05]</td><td>0</td><td>[-0.03 0.04]</td><td>0</td><td>[-0.01 0.01]</td><td>0</td><td>[-0.02 0.03]</td></tr>
+<tr><td>WNGC</td><td>0</td><td>[-0.04 0.05]</td><td>0</td><td>[-0.02 0.03]</td><td>0</td><td>[-0.01 0.02]</td><td>0</td><td>[-0.02 0.01]</td></tr>
+<tr><td>s119</td><td>0</td><td>[-0.05 0.04]</td><td>0</td><td>[-0.04 0.03]</td><td>0</td><td>[-0.01 0.02]</td><td>0</td><td>[-0.02 0.01]</td></tr>
+<tr><td>s279</td><td>0</td><td>[-0.05 0.04]</td><td>0</td><td>[-0.02 0.03]</td><td>0</td><td>[-0.01 0.03]</td><td>0</td><td>[-0.02 0.02]</td></tr>
+<tr><td>s480</td><td>0</td><td>[-0.03 0.05]</td><td>0</td><td>[-0.02 0.03]</td><td>0</td><td>[-0.03 0.02]</td><td>0</td><td>[-0.02 0.01]</td></tr>
+<tr><td><strong>ALL SITES</strong></td><td><strong>0</strong></td><td><strong>[-0.05 0.05]</strong></td><td><strong>0</strong></td><td><strong>[-0.04 0.06]</strong></td><td><strong>0</strong></td><td><strong>[-0.03 0.03]</strong></td><td><strong>0</strong></td><td><strong>[-0.02 0.03]</strong></td></tr>
 </tbody>
 </table>
-<h2 id="source-orientation-directivity-variability">Source Orientation (Directivity) Variability</h2>
+<h3 id="500-km-path-residuals">50.0 km Path Residuals</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<h3 id="source-orientation-methodology">Source Orientation Methodology</h3>
+<p><img src="resources/path_std_dev.png" alt="Path Variability" /></p>
+<table>
+<thead>
+<tr><th>Site</th><th>3s Std. Dev.</th><th>3s Residual Range</th><th>5s Std. Dev.</th><th>5s Residual Range</th><th>7.5s Std. Dev.</th><th>7.5s Residual Range</th><th>10s Std. Dev.</th><th>10s Residual Range</th></tr>
+</thead>
+<tbody>
+<tr><td>LAPD</td><td>0</td><td>[-0.06 0.09]</td><td>0</td><td>[-0.05 0.02]</td><td>0</td><td>[-0.03 0.03]</td><td>0</td><td>[-0.02 0.02]</td></tr>
+<tr><td>PAS</td><td>0</td><td>[-0.04 0.09]</td><td>0</td><td>[-0.07 0.03]</td><td>0</td><td>[-0.03 0.02]</td><td>0</td><td>[-0.01 0.02]</td></tr>
+<tr><td>SBSM</td><td>0</td><td>[-0.11 0.11]</td><td>0</td><td>[-0.04 0.04]</td><td>0</td><td>[-0.02 0.03]</td><td>0</td><td>[-0.02 0.02]</td></tr>
+<tr><td>SMCA</td><td>0</td><td>[-0.17 0.07]</td><td>0</td><td>[-0.07 0.04]</td><td>0</td><td>[-0.02 0.02]</td><td>0</td><td>[-0.02 0.01]</td></tr>
+<tr><td>STNI</td><td>0</td><td>[-0.17 0.08]</td><td>0</td><td>[-0.07 0.06]</td><td>0</td><td>[-0.05 0.03]</td><td>0</td><td>[-0.03 0.01]</td></tr>
+<tr><td>USC</td><td>0</td><td>[-0.17 0.11]</td><td>0</td><td>[-0.07 0.05]</td><td>0</td><td>[-0.04 0.02]</td><td>0</td><td>[-0.02 0.02]</td></tr>
+<tr><td>WNGC</td><td>0</td><td>[-0.06 0.07]</td><td>0</td><td>[-0.05 0.05]</td><td>0</td><td>[-0.04 0.04]</td><td>0</td><td>[-0.04 0.04]</td></tr>
+<tr><td>s119</td><td>0</td><td>[-0.1 0.09]</td><td>0</td><td>[-0.03 0.05]</td><td>0</td><td>[-0.02 0.02]</td><td>0</td><td>[-0.03 0.03]</td></tr>
+<tr><td>s279</td><td>0</td><td>[-0.08 0.09]</td><td>0</td><td>[-0.07 0.06]</td><td>0</td><td>[-0.02 0.03]</td><td>0</td><td>[-0.02 0.02]</td></tr>
+<tr><td>s480</td><td>0</td><td>[-0.13 0.11]</td><td>0</td><td>[-0.04 0.04]</td><td>0</td><td>[-0.02 0.04]</td><td>0</td><td>[-0.02 0.02]</td></tr>
+<tr><td><strong>ALL SITES</strong></td><td><strong>0</strong></td><td><strong>[-0.17 0.11]</strong></td><td><strong>0</strong></td><td><strong>[-0.07 0.06]</strong></td><td><strong>0</strong></td><td><strong>[-0.05 0.04]</strong></td><td><strong>0</strong></td><td><strong>[-0.04 0.04]</strong></td></tr>
+</tbody>
+</table>
+<h2 id="source-strike-variability">Source-strike Variability</h2>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p>Source orientation variability is computed by spinning each rupture around its centroid, holding distance and path constant. Here is an exmample with 5 rotations:</p>
-<p><img src="resources/example_source_orientation.png" alt="Example" /></p>
-<p>This is done separately for each site, rupture, distance, and path. This calculation uses 36 centroid rotations for each rupture (for each site/distance/path), where residuals are computed (relative to the mean intensity) for each rupture orientation. A total rupture orientation standard devaiation is then computed from these residuals for all ruptures (including multiple paths) for a given site and distance. The &quot;<strong>ALL SITES</strong>&quot; standard deviation is computed from all residuals across all sites for a given distance.</p>
-<h3 id="source-orientation-results">Source Orientation Results</h3>
+<h3 id="source-strike-variability-methodology">Source-strike Variability Methodology</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/source_orientation_std_dev.png" alt="Source Orientation Variability" /></p>
+<p>Source-strike variability, denoted φ<sub>s</sub>, is computed from ground motion residuals where the following quantities are held constant:</p>
+<ul>
+<li>Site <em>[10 unique]</em></li>
+<li>Joyner-Boore Distance <em>[2 unique]</em></li>
+<li>Rupture <em>[100 unique]</em></li>
+<li>Path (from site to rupture centroid) <em>[4 unique]</em></li>
+</ul>
+<p>and the following quantities vary:</p>
+<ul>
+<li>Rupture Strike (Aki &amp; Richards 1980 convention) <em>[36 unique]</em></li>
+</ul>
+<p>Here is an exmample with 5 rotations:
+<img src="resources/example_source_strike.png" alt="Example" /></p>
+<p>Standard deviation is computed and tabulated separately for each site and distance, then a total standard deviation is computed from all site and distances and reported in the &quot;<strong>ALL SITES</strong>&quot; row.</p>
+<h3 id="200-km-source-strike-residuals">20.0 km Source-strike Residuals</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/source_strike_std_dev.png" alt="Source-strike Variability" /></p>
+<table>
+<thead>
+<tr><th>Site</th><th>3s Std. Dev.</th><th>3s Residual Range</th><th>5s Std. Dev.</th><th>5s Residual Range</th><th>7.5s Std. Dev.</th><th>7.5s Residual Range</th><th>10s Std. Dev.</th><th>10s Residual Range</th></tr>
+</thead>
+<tbody>
+<tr><td>LAPD</td><td>0.37</td><td>[-1.22 1.14]</td><td>0.4</td><td>[-1.55 1.07]</td><td>0.31</td><td>[-1.1 1.09]</td><td>0.23</td><td>[-0.96 0.86]</td></tr>
+<tr><td>PAS</td><td>0.37</td><td>[-1.22 1.14]</td><td>0.4</td><td>[-1.54 1.07]</td><td>0.31</td><td>[-1.09 1.09]</td><td>0.23</td><td>[-0.95 0.86]</td></tr>
+<tr><td>SBSM</td><td>0.37</td><td>[-1.2 1.14]</td><td>0.4</td><td>[-1.53 1.07]</td><td>0.31</td><td>[-1.13 1.09]</td><td>0.23</td><td>[-0.95 0.86]</td></tr>
+<tr><td>SMCA</td><td>0.37</td><td>[-1.22 1.14]</td><td>0.4</td><td>[-1.55 1.07]</td><td>0.31</td><td>[-1.08 1.09]</td><td>0.23</td><td>[-0.96 0.86]</td></tr>
+<tr><td>STNI</td><td>0.37</td><td>[-1.22 1.14]</td><td>0.4</td><td>[-1.54 1.07]</td><td>0.31</td><td>[-1.08 1.08]</td><td>0.23</td><td>[-0.95 0.86]</td></tr>
+<tr><td>USC</td><td>0.37</td><td>[-1.22 1.14]</td><td>0.4</td><td>[-1.54 1.07]</td><td>0.31</td><td>[-1.08 1.09]</td><td>0.23</td><td>[-0.95 0.86]</td></tr>
+<tr><td>WNGC</td><td>0.37</td><td>[-1.22 1.14]</td><td>0.4</td><td>[-1.54 1.07]</td><td>0.31</td><td>[-1.09 1.09]</td><td>0.23</td><td>[-0.95 0.86]</td></tr>
+<tr><td>s119</td><td>0.37</td><td>[-1.22 1.14]</td><td>0.4</td><td>[-1.55 1.08]</td><td>0.31</td><td>[-1.08 1.09]</td><td>0.23</td><td>[-0.96 0.86]</td></tr>
+<tr><td>s279</td><td>0.37</td><td>[-1.22 1.14]</td><td>0.4</td><td>[-1.55 1.07]</td><td>0.31</td><td>[-1.08 1.09]</td><td>0.23</td><td>[-0.96 0.86]</td></tr>
+<tr><td>s480</td><td>0.37</td><td>[-1.22 1.14]</td><td>0.4</td><td>[-1.54 1.07]</td><td>0.31</td><td>[-1.1 1.09]</td><td>0.23</td><td>[-0.95 0.86]</td></tr>
+<tr><td><strong>ALL SITES</strong></td><td><strong>0.37</strong></td><td><strong>[-1.22 1.14]</strong></td><td><strong>0.4</strong></td><td><strong>[-1.55 1.08]</strong></td><td><strong>0.31</strong></td><td><strong>[-1.13 1.09]</strong></td><td><strong>0.23</strong></td><td><strong>[-0.96 0.86]</strong></td></tr>
+</tbody>
+</table>
+<h3 id="500-km-source-strike-residuals">50.0 km Source-strike Residuals</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/source_strike_std_dev.png" alt="Source-strike Variability" /></p>
 <table>
 <thead>
 <tr><th>Site</th><th>3s Std. Dev.</th><th>3s Residual Range</th><th>5s Std. Dev.</th><th>5s Residual Range</th><th>7.5s Std. Dev.</th><th>7.5s Residual Range</th><th>10s Std. Dev.</th><th>10s Residual Range</th></tr>
@@ -114,42 +181,73 @@ img {
 <tbody>
 <tr><td>LAPD</td><td>0.45</td><td>[-1.34 1.42]</td><td>0.48</td><td>[-1.6 1.34]</td><td>0.51</td><td>[-1.85 1.35]</td><td>0.53</td><td>[-1.55 1.28]</td></tr>
 <tr><td>PAS</td><td>0.45</td><td>[-1.34 1.43]</td><td>0.48</td><td>[-1.6 1.34]</td><td>0.51</td><td>[-1.85 1.34]</td><td>0.53</td><td>[-1.55 1.28]</td></tr>
-<tr><td>SBSM</td><td>0.45</td><td>[-1.34 1.42]</td><td>0.48</td><td>[-1.59 1.34]</td><td>0.51</td><td>[-1.85 1.34]</td><td>0.53</td><td>[-1.54 1.28]</td></tr>
-<tr><td>SMCA</td><td>0.45</td><td>[-1.34 1.43]</td><td>0.48</td><td>[-1.61 1.34]</td><td>0.51</td><td>[-1.85 1.34]</td><td>0.53</td><td>[-1.55 1.27]</td></tr>
+<tr><td>SBSM</td><td>0.45</td><td>[-1.34 1.42]</td><td>0.48</td><td>[-1.61 1.34]</td><td>0.51</td><td>[-1.85 1.34]</td><td>0.53</td><td>[-1.55 1.28]</td></tr>
+<tr><td>SMCA</td><td>0.45</td><td>[-1.34 1.43]</td><td>0.48</td><td>[-1.6 1.34]</td><td>0.51</td><td>[-1.84 1.34]</td><td>0.53</td><td>[-1.54 1.27]</td></tr>
 <tr><td>STNI</td><td>0.45</td><td>[-1.34 1.43]</td><td>0.48</td><td>[-1.6 1.33]</td><td>0.51</td><td>[-1.85 1.34]</td><td>0.53</td><td>[-1.55 1.27]</td></tr>
-<tr><td>USC</td><td>0.45</td><td>[-1.34 1.43]</td><td>0.48</td><td>[-1.6 1.34]</td><td>0.51</td><td>[-1.85 1.34]</td><td>0.53</td><td>[-1.55 1.27]</td></tr>
+<tr><td>USC</td><td>0.45</td><td>[-1.34 1.43]</td><td>0.48</td><td>[-1.6 1.33]</td><td>0.51</td><td>[-1.85 1.34]</td><td>0.53</td><td>[-1.54 1.27]</td></tr>
 <tr><td>WNGC</td><td>0.45</td><td>[-1.34 1.43]</td><td>0.48</td><td>[-1.6 1.34]</td><td>0.51</td><td>[-1.85 1.34]</td><td>0.53</td><td>[-1.55 1.28]</td></tr>
-<tr><td>s119</td><td>0.45</td><td>[-1.34 1.43]</td><td>0.48</td><td>[-1.61 1.34]</td><td>0.51</td><td>[-1.85 1.34]</td><td>0.53</td><td>[-1.55 1.28]</td></tr>
-<tr><td>s279</td><td>0.45</td><td>[-1.34 1.43]</td><td>0.48</td><td>[-1.61 1.34]</td><td>0.51</td><td>[-1.85 1.34]</td><td>0.53</td><td>[-1.55 1.28]</td></tr>
+<tr><td>s119</td><td>0.45</td><td>[-1.34 1.43]</td><td>0.48</td><td>[-1.59 1.34]</td><td>0.51</td><td>[-1.84 1.34]</td><td>0.53</td><td>[-1.54 1.28]</td></tr>
+<tr><td>s279</td><td>0.45</td><td>[-1.34 1.43]</td><td>0.48</td><td>[-1.6 1.34]</td><td>0.51</td><td>[-1.84 1.34]</td><td>0.53</td><td>[-1.54 1.28]</td></tr>
 <tr><td>s480</td><td>0.45</td><td>[-1.34 1.43]</td><td>0.48</td><td>[-1.6 1.34]</td><td>0.51</td><td>[-1.85 1.34]</td><td>0.53</td><td>[-1.55 1.28]</td></tr>
 <tr><td><strong>ALL SITES</strong></td><td><strong>0.45</strong></td><td><strong>[-1.34 1.43]</strong></td><td><strong>0.48</strong></td><td><strong>[-1.61 1.34]</strong></td><td><strong>0.51</strong></td><td><strong>[-1.85 1.35]</strong></td><td><strong>0.53</strong></td><td><strong>[-1.55 1.28]</strong></td></tr>
 </tbody>
 </table>
-<h2 id="source-variability">Source Variability</h2>
+<h2 id="within-event-variability">Within-event Variability</h2>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<h3 id="source-methodology">Source Methodology</h3>
+<h3 id="within-event-variability-methodology">Within-event Variability Methodology</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p>Source variability is computed by comparing ground motions for all ruptures, after they rotated/translated to the same orientation. Thus we are sampling the same path and same source-to-site azimuth. No effort is made to match hypocenters, so directivity may still influence.</p>
-<p>This is done separately for each site, distance, source azimuth, and path. This calculation uses 100 ruptures (for each site/distance/sourceAz/path), where residuals are computed (relative to the mean intensity) for each path/orientation. A total standard devaiation is then computed from these residuals for all paths/azimuths/ruptures for a given site and distance. The &quot;<strong>ALL SITES</strong>&quot; standard deviation is computed from all residuals across all sites for a given distance.</p>
-<h3 id="source-results">Source Results</h3>
+<p>Within-event variability, denoted φ in Al Atik 2010, is computed from ground motion residuals where the following quantities are held constant:</p>
+<ul>
+<li>Site <em>[10 unique]</em></li>
+<li>Joyner-Boore Distance <em>[2 unique]</em></li>
+<li>Rupture Strike (Aki &amp; Richards 1980 convention) <em>[36 unique]</em></li>
+<li>Path (from site to rupture centroid) <em>[4 unique]</em></li>
+</ul>
+<p>and the following quantities vary:</p>
+<ul>
+<li>Rupture <em>[100 unique]</em></li>
+</ul>
+<p>Standard deviation is computed and tabulated separately for each site and distance, then a total standard deviation is computed from all site and distances and reported in the &quot;<strong>ALL SITES</strong>&quot; row.</p>
+<h3 id="200-km-within-event-residuals">20.0 km Within-event Residuals</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/source_std_dev.png" alt="Source Variability" /></p>
+<p><img src="resources/within_event_std_dev.png" alt="Within-event Variability" /></p>
 <table>
 <thead>
 <tr><th>Site</th><th>3s Std. Dev.</th><th>3s Residual Range</th><th>5s Std. Dev.</th><th>5s Residual Range</th><th>7.5s Std. Dev.</th><th>7.5s Residual Range</th><th>10s Std. Dev.</th><th>10s Residual Range</th></tr>
 </thead>
 <tbody>
-<tr><td>LAPD</td><td>0.33</td><td>[-1 1.45]</td><td>0.4</td><td>[-1.39 1]</td><td>0.44</td><td>[-1.51 1.07]</td><td>0.43</td><td>[-1.59 1]</td></tr>
-<tr><td>PAS</td><td>0.33</td><td>[-1 1.45]</td><td>0.4</td><td>[-1.39 1]</td><td>0.44</td><td>[-1.51 1.07]</td><td>0.43</td><td>[-1.59 1]</td></tr>
-<tr><td>SBSM</td><td>0.33</td><td>[-1 1.45]</td><td>0.4</td><td>[-1.38 1]</td><td>0.44</td><td>[-1.51 1.07]</td><td>0.43</td><td>[-1.59 1]</td></tr>
-<tr><td>SMCA</td><td>0.33</td><td>[-1 1.45]</td><td>0.4</td><td>[-1.39 1]</td><td>0.44</td><td>[-1.51 1.07]</td><td>0.43</td><td>[-1.59 1]</td></tr>
-<tr><td>STNI</td><td>0.33</td><td>[-1 1.45]</td><td>0.4</td><td>[-1.39 1]</td><td>0.44</td><td>[-1.51 1.07]</td><td>0.43</td><td>[-1.59 1]</td></tr>
-<tr><td>USC</td><td>0.33</td><td>[-1 1.45]</td><td>0.4</td><td>[-1.39 1]</td><td>0.44</td><td>[-1.51 1.07]</td><td>0.43</td><td>[-1.59 1]</td></tr>
-<tr><td>WNGC</td><td>0.33</td><td>[-1 1.45]</td><td>0.4</td><td>[-1.39 1]</td><td>0.44</td><td>[-1.51 1.07]</td><td>0.43</td><td>[-1.59 1]</td></tr>
-<tr><td>s119</td><td>0.33</td><td>[-1 1.45]</td><td>0.4</td><td>[-1.39 1]</td><td>0.44</td><td>[-1.51 1.07]</td><td>0.43</td><td>[-1.59 1]</td></tr>
-<tr><td>s279</td><td>0.33</td><td>[-1 1.45]</td><td>0.4</td><td>[-1.39 1]</td><td>0.44</td><td>[-1.51 1.07]</td><td>0.43</td><td>[-1.59 1]</td></tr>
-<tr><td>s480</td><td>0.33</td><td>[-1 1.45]</td><td>0.4</td><td>[-1.39 1]</td><td>0.44</td><td>[-1.51 1.07]</td><td>0.43</td><td>[-1.59 1]</td></tr>
-<tr><td><strong>ALL SITES</strong></td><td><strong>0.33</strong></td><td><strong>[-1 1.45]</strong></td><td><strong>0.4</strong></td><td><strong>[-1.39 1]</strong></td><td><strong>0.44</strong></td><td><strong>[-1.51 1.07]</strong></td><td><strong>0.43</strong></td><td><strong>[-1.59 1]</strong></td></tr>
+<tr><td>LAPD</td><td>0.33</td><td>[-1.11 1.32]</td><td>0.35</td><td>[-1.2 0.96]</td><td>0.42</td><td>[-1.34 0.94]</td><td>0.42</td><td>[-1.77 0.91]</td></tr>
+<tr><td>PAS</td><td>0.33</td><td>[-1.11 1.31]</td><td>0.35</td><td>[-1.21 0.95]</td><td>0.42</td><td>[-1.34 0.94]</td><td>0.42</td><td>[-1.77 0.91]</td></tr>
+<tr><td>SBSM</td><td>0.33</td><td>[-1.11 1.31]</td><td>0.35</td><td>[-1.21 0.95]</td><td>0.42</td><td>[-1.34 0.94]</td><td>0.42</td><td>[-1.77 0.91]</td></tr>
+<tr><td>SMCA</td><td>0.33</td><td>[-1.11 1.31]</td><td>0.35</td><td>[-1.2 0.96]</td><td>0.42</td><td>[-1.34 0.94]</td><td>0.42</td><td>[-1.77 0.91]</td></tr>
+<tr><td>STNI</td><td>0.33</td><td>[-1.11 1.31]</td><td>0.35</td><td>[-1.21 0.95]</td><td>0.42</td><td>[-1.34 0.94]</td><td>0.42</td><td>[-1.77 0.91]</td></tr>
+<tr><td>USC</td><td>0.33</td><td>[-1.11 1.31]</td><td>0.35</td><td>[-1.2 0.95]</td><td>0.42</td><td>[-1.34 0.94]</td><td>0.42</td><td>[-1.77 0.91]</td></tr>
+<tr><td>WNGC</td><td>0.33</td><td>[-1.11 1.31]</td><td>0.35</td><td>[-1.21 0.95]</td><td>0.42</td><td>[-1.34 0.94]</td><td>0.42</td><td>[-1.78 0.91]</td></tr>
+<tr><td>s119</td><td>0.33</td><td>[-1.11 1.32]</td><td>0.35</td><td>[-1.2 0.96]</td><td>0.42</td><td>[-1.34 0.94]</td><td>0.42</td><td>[-1.77 0.91]</td></tr>
+<tr><td>s279</td><td>0.33</td><td>[-1.11 1.31]</td><td>0.35</td><td>[-1.2 0.97]</td><td>0.42</td><td>[-1.34 0.94]</td><td>0.42</td><td>[-1.77 0.91]</td></tr>
+<tr><td>s480</td><td>0.33</td><td>[-1.11 1.31]</td><td>0.35</td><td>[-1.21 0.95]</td><td>0.42</td><td>[-1.34 0.94]</td><td>0.42</td><td>[-1.77 0.91]</td></tr>
+<tr><td><strong>ALL SITES</strong></td><td><strong>0.33</strong></td><td><strong>[-1.11 1.32]</strong></td><td><strong>0.35</strong></td><td><strong>[-1.21 0.97]</strong></td><td><strong>0.42</strong></td><td><strong>[-1.34 0.94]</strong></td><td><strong>0.42</strong></td><td><strong>[-1.78 0.91]</strong></td></tr>
+</tbody>
+</table>
+<h3 id="500-km-within-event-residuals">50.0 km Within-event Residuals</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/within_event_std_dev.png" alt="Within-event Variability" /></p>
+<table>
+<thead>
+<tr><th>Site</th><th>3s Std. Dev.</th><th>3s Residual Range</th><th>5s Std. Dev.</th><th>5s Residual Range</th><th>7.5s Std. Dev.</th><th>7.5s Residual Range</th><th>10s Std. Dev.</th><th>10s Residual Range</th></tr>
+</thead>
+<tbody>
+<tr><td>LAPD</td><td>0.33</td><td>[-0.99 1.44]</td><td>0.4</td><td>[-1.39 1]</td><td>0.44</td><td>[-1.51 1.05]</td><td>0.43</td><td>[-1.59 0.97]</td></tr>
+<tr><td>PAS</td><td>0.33</td><td>[-0.99 1.44]</td><td>0.4</td><td>[-1.39 1]</td><td>0.44</td><td>[-1.51 1.05]</td><td>0.43</td><td>[-1.59 0.97]</td></tr>
+<tr><td>SBSM</td><td>0.33</td><td>[-0.99 1.45]</td><td>0.4</td><td>[-1.39 1]</td><td>0.44</td><td>[-1.51 1.05]</td><td>0.43</td><td>[-1.59 0.97]</td></tr>
+<tr><td>SMCA</td><td>0.33</td><td>[-0.98 1.45]</td><td>0.4</td><td>[-1.39 1]</td><td>0.44</td><td>[-1.51 1.05]</td><td>0.43</td><td>[-1.59 0.97]</td></tr>
+<tr><td>STNI</td><td>0.33</td><td>[-0.98 1.45]</td><td>0.4</td><td>[-1.39 1]</td><td>0.44</td><td>[-1.51 1.05]</td><td>0.43</td><td>[-1.59 0.97]</td></tr>
+<tr><td>USC</td><td>0.33</td><td>[-0.99 1.45]</td><td>0.4</td><td>[-1.39 1]</td><td>0.44</td><td>[-1.51 1.05]</td><td>0.43</td><td>[-1.59 0.97]</td></tr>
+<tr><td>WNGC</td><td>0.33</td><td>[-0.99 1.44]</td><td>0.4</td><td>[-1.39 1]</td><td>0.44</td><td>[-1.51 1.05]</td><td>0.43</td><td>[-1.59 0.97]</td></tr>
+<tr><td>s119</td><td>0.33</td><td>[-0.99 1.44]</td><td>0.4</td><td>[-1.39 1]</td><td>0.44</td><td>[-1.51 1.05]</td><td>0.43</td><td>[-1.59 0.97]</td></tr>
+<tr><td>s279</td><td>0.33</td><td>[-0.99 1.44]</td><td>0.4</td><td>[-1.39 1]</td><td>0.44</td><td>[-1.51 1.05]</td><td>0.43</td><td>[-1.59 0.97]</td></tr>
+<tr><td>s480</td><td>0.33</td><td>[-0.99 1.44]</td><td>0.4</td><td>[-1.39 1]</td><td>0.44</td><td>[-1.51 1.05]</td><td>0.43</td><td>[-1.59 0.97]</td></tr>
+<tr><td><strong>ALL SITES</strong></td><td><strong>0.33</strong></td><td><strong>[-0.99 1.45]</strong></td><td><strong>0.4</strong></td><td><strong>[-1.39 1]</strong></td><td><strong>0.44</strong></td><td><strong>[-1.51 1.05]</strong></td><td><strong>0.43</strong></td><td><strong>[-1.59 0.97]</strong></td></tr>
 </tbody>
 </table>
 </body>
