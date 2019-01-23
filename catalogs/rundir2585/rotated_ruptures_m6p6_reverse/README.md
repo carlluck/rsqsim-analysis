@@ -96,7 +96,7 @@ We condisder 75 events in the catalog match the following criteria:
 ### Path-to-path Variability Methodology
 *[(top)](#table-of-contents)*
 
-Path-to-path variability, denoted &phi;<sub>P2P</sub> in Al Atik 2010, is computed from ground motion residuals where the following quantities are held constant:
+Path-to-path variability, denoted &phi;<sub>P2P</sub> in Al Atik (2010), is computed from ground motion residuals where the following quantities are held constant:
 
 * Site *[10 unique]*
 * Joyner-Boore Distance *[2 unique]*
@@ -107,10 +107,11 @@ and the following quantities vary:
 
 * Path *[4 unique]*
 
-Here is an exmample with 5 rotations, which would be repeated for each combination of Site, Joyner-Boore Distance, Rupture, Rupture Strike
+Here is an exmample with 5 rotations, which would be repeated for each combination of [Site, Joyner-Boore Distance, Rupture, Rupture Strike]:
+
 ![Example](resources/example_path.png)
 
-Standard deviation is computed and tabulated separately for each site and distance, then a total standard deviation is computed from all site and distances and reported in the "**ALL SITES**" row.
+Standard deviation is computed and tabulated separately for each site and distance, then a total standard deviation is computed from all sitess and reported in the "**ALL SITES**" row. Results are reported separately for each distance
 
 ### 20.0 km Path-to-path Results
 *[(top)](#table-of-contents)*
@@ -170,7 +171,7 @@ Standard deviation is computed and tabulated separately for each site and distan
 ### Source-strike Variability Methodology
 *[(top)](#table-of-contents)*
 
-Source-strike variability, denoted &phi;<sub>s</sub>, is computed from ground motion residuals where the following quantities are held constant:
+Source-strike variability, denoted &phi;<sub>s</sub> in Aki & Richards (1980), is computed from ground motion residuals where the following quantities are held constant:
 
 * Site *[10 unique]*
 * Joyner-Boore Distance *[2 unique]*
@@ -181,10 +182,11 @@ and the following quantities vary:
 
 * Rupture Strike *[36 unique]*
 
-Here is an exmample with 5 rotations, which would be repeated for each combination of Site, Joyner-Boore Distance, Rupture, Path
+Here is an exmample with 5 rotations, which would be repeated for each combination of [Site, Joyner-Boore Distance, Rupture, Path]:
+
 ![Example](resources/example_source_strike.png)
 
-Standard deviation is computed and tabulated separately for each site and distance, then a total standard deviation is computed from all site and distances and reported in the "**ALL SITES**" row.
+Standard deviation is computed and tabulated separately for each site and distance, then a total standard deviation is computed from all sitess and reported in the "**ALL SITES**" row. Results are reported separately for each distance
 
 ### 20.0 km Source-strike Results
 *[(top)](#table-of-contents)*
@@ -244,7 +246,7 @@ Standard deviation is computed and tabulated separately for each site and distan
 ### Within-event Variability Methodology
 *[(top)](#table-of-contents)*
 
-Within-event variability, denoted &phi; in Al Atik 2010, is computed from ground motion residuals where the following quantities are held constant:
+Within-event variability, denoted &phi; in Al Atik (2010), is computed from ground motion residuals where the following quantities are held constant:
 
 * Site *[10 unique]*
 * Joyner-Boore Distance *[2 unique]*
@@ -255,10 +257,11 @@ and the following quantities vary:
 * Rupture Strike *[36 unique]*
 * Path *[4 unique]*
 
-Here is an exmample with 5 rotations, which would be repeated for each combination of Site, Joyner-Boore Distance, Rupture
+Here is an exmample with 5 rotations, which would be repeated for each combination of [Site, Joyner-Boore Distance, Rupture]:
+
 ![Example](resources/example_within_event.png)
 
-Standard deviation is computed and tabulated separately for each site and distance, then a total standard deviation is computed from all site and distances and reported in the "**ALL SITES**" row.
+Standard deviation is computed and tabulated separately for each site and distance, then a total standard deviation is computed from all sitess and reported in the "**ALL SITES**" row. Results are reported separately for each distance
 
 ### 20.0 km Within-event Results
 *[(top)](#table-of-contents)*
@@ -318,7 +321,7 @@ Standard deviation is computed and tabulated separately for each site and distan
 ### Between-events, single-path Variability Methodology
 *[(top)](#table-of-contents)*
 
-Between-events, single-path variability, denoted &tau;<sub>0</sub> in Al Atik 2010, is computed from ground motion residuals where the following quantities are held constant:
+Between-events, single-path variability, denoted &tau;<sub>0</sub> in Al Atik (2010), is computed from ground motion residuals where the following quantities are held constant:
 
 * Site *[10 unique]*
 * Joyner-Boore Distance *[2 unique]*
@@ -329,7 +332,7 @@ and the following quantities vary:
 
 * Rupture *[75 unique]*
 
-Standard deviation is computed and tabulated separately for each site and distance, then a total standard deviation is computed from all site and distances and reported in the "**ALL SITES**" row.
+Standard deviation is computed and tabulated separately for each site and distance, then a total standard deviation is computed from all sitess and reported in the "**ALL SITES**" row. Results are reported separately for each distance
 
 ### 20.0 km Between-events, single-path Results
 *[(top)](#table-of-contents)*
@@ -389,7 +392,7 @@ Standard deviation is computed and tabulated separately for each site and distan
 ### Between-events Variability Methodology
 *[(top)](#table-of-contents)*
 
-Between-events variability, denoted &tau; in Al Atik 2010, is computed from ground motion residuals where the following quantities are held constant:
+Between-events variability, denoted &tau; in Al Atik (2010), is computed from ground motion residuals where the following quantities are held constant:
 
 * Site *[10 unique]*
 * Joyner-Boore Distance *[2 unique]*
@@ -400,7 +403,7 @@ and the following quantities vary:
 * Rupture Strike *[36 unique]*
 * Path *[4 unique]*
 
-Standard deviation is computed and tabulated separately for each site and distance, then a total standard deviation is computed from all site and distances and reported in the "**ALL SITES**" row.
+Standard deviation is computed and tabulated separately for each site and distance, then a total standard deviation is computed from all sitess and reported in the "**ALL SITES**" row. Results are reported separately for each distance
 
 ### 20.0 km Between-events Results
 *[(top)](#table-of-contents)*
@@ -460,7 +463,7 @@ Standard deviation is computed and tabulated separately for each site and distan
 ### Site-to-site Variability Methodology
 *[(top)](#table-of-contents)*
 
-Site-to-site variability, denoted &phi;<sub>S2S</sub> in Al Atik 2010, is computed from ground motion residuals where the following quantities are held constant:
+Site-to-site variability, denoted &phi;<sub>S2S</sub> in Al Atik (2010), is computed from ground motion residuals where the following quantities are held constant:
 
 * Joyner-Boore Distance *[2 unique]*
 * Rupture *[75 unique]*
@@ -471,7 +474,7 @@ and the following quantities vary:
 
 * Site *[10 unique]*
 
-Standard deviation is computed and tabulated separately for each distance, then a total standard deviation is computed from all distances and reported in the "**ALL SITES**" row.
+Standard deviation is computed and tabulated separately for each distance. Results are reported separately for each distance
 
 ### 20.0 km Site-to-site Results
 *[(top)](#table-of-contents)*
