@@ -14,11 +14,16 @@ img {
 </head>
 <body>
 <h1 id="bruce-2585-rotated-rupture-variability-m66-reverse">Bruce 2585 Rotated Rupture Variability, M6.6 Reverse</h1>
-<p><a href="../#bruce-2585">Catalog Details</a></p>
+<p>This exercise uses translations and rotations to estimate ground motion variability from different sources. We begin by selecting a subset of similar ruptures which match a set of criteria (in this case, M6.6, Reverse, Dip=45, Ztor=3). Each rupture is then reoriented such that its strike (following the Aki &amp; Richards 1980 convention) is 0 degrees (due North, dipping to the right for normal or reverse ruptures). For each site, ruptures are translated such that their centroid is directly North of the site, and their Joyner-Boore distance  (rJB) is as specified (we consider 2 distance[s] here).</p>
+<p>We then  perform various rotations. We rotate the rupture in place around its centroid, holding the site-to-source centroid path and rJB constant (henceforth 'Rupture Strike'). We also rotate ruptures around the site, holding rJB and source orientation relative to the site constant but sampling different various paths (henceforth 'Path'). We do this for each unique combination of Rupture Strike, Path, Joyner-Boore Distance, Site, and Rupture.</p>
+<p><em>NOTE: This page uses the SCEC BBP to simulate a 1-dimensional velocity structure. Thus we expect no path variability, and plots of path variabilitiy are included only as verification of the method.</em></p>
+<p><a href="../#bruce-2585">RSQSim Catalog Details</a></p>
 <h2 id="table-of-contents">Table Of Contents</h2>
 <ul>
 <li><a href="#rupture-rotation-parameters">Rupture Rotation Parameters</a></li>
+<li><a href="#m66-reverse-rsqsim-rupture-match-criteria">M6.6 Reverse RSQSim Rupture Match Criteria</a></li>
 <li><a href="#sites">Sites</a></li>
+<li><a href="#result-summary-table">Result Summary Table</a></li>
 <li><a href="#path-to-path-variability">Path-to-path Variability</a>
 <ul>
 <li><a href="#path-to-path-variability-methodology">Path-to-path Variability Methodology</a></li>
@@ -65,16 +70,26 @@ img {
 <h2 id="rupture-rotation-parameters">Rupture Rotation Parameters</h2>
 <table>
 <thead>
-<tr><th>Events</th><th>75</th></tr>
+<tr><th>Quantity</th><th>Variations</th><th>Description</th></tr>
 </thead>
 <tbody>
-<tr><td>Sites</td><td>10</td></tr>
-<tr><td>Source Rotation Azimuths</td><td>36</td></tr>
-<tr><td>Site-To-Source Path Azimuths</td><td>4</td></tr>
-<tr><td>Source-Site Distance[s]</td><td>20.0,50.0 km</td></tr>
-<tr><td>Total # Simulations</td><td>216000</td></tr>
+<tr><td>Rupture</td><td>75</td><td>Unique (but similar in faulting style and magnitude) ruptures which match the given scenario.</td></tr>
+<tr><td>Site</td><td>10</td><td>Unique site locations. If 3-d, each will have unique velocity profiles.</td></tr>
+<tr><td>Rupture Strike</td><td>36</td><td>Rupture strike conforming to the Aki &amp; Richards (1980) convention, where dipping faults dip to the right of the rupture. If also rotated about a site, this azimuth is relative to the path.</td></tr>
+<tr><td>Path</td><td>4</td><td>Path from the site to the centroid of the rupture, in azimuthal degrees (0 is North)</td></tr>
+<tr><td>Joyner-Boore Distance</td><td>20.0,50.0 km</td><td>Shortest horizontal distance between the site and the surface projection of the rupture.</td></tr>
+<tr><td><strong>Total # Simulations</strong></td><td>216000</td><td>Total number of combinations of the above.</td></tr>
 </tbody>
 </table>
+<h2 id="m66-reverse-rsqsim-rupture-match-criteria">M6.6 Reverse RSQSim Rupture Match Criteria</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>We condisder 75 events in the catalog match the following criteria:</p>
+<ul>
+<li>M=[6.55,6.65]</li>
+<li>Ztor=[2,4]</li>
+<li>Rake=[80,100]</li>
+<li>Dip=[40,50]</li>
+</ul>
 <h2 id="sites">Sites</h2>
 <table>
 <thead>
@@ -93,6 +108,26 @@ img {
 <tr><td>s480</td><td><em>34.15755, -117.87389</em></td><td>863</td><td>N/A</td><td>N/A</td></tr>
 </tbody>
 </table>
+<h2 id="result-summary-table">Result Summary Table</h2>
+<table>
+<thead>
+<tr><th>Type</th><th>Notation</th><th>Distance</th><th>3s Calc. Std. Dev.</th><th>5s Calc. Std. Dev.</th><th>7.5s Calc. Std. Dev.</th><th>10s Calc. Std. Dev.</th></tr>
+</thead>
+<tbody>
+<tr><td>Path-to-path</td><td>φ<sub>P2P</sub></td><td>20 km</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Path-to-path</td><td>φ<sub>P2P</sub></td><td>50 km</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>20 km</td><td>0.35</td><td>0.38</td><td>0.39</td><td>0.34</td></tr>
+<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>50 km</td><td>0.35</td><td>0.41</td><td>0.36</td><td>0.34</td></tr>
+<tr><td>Within-event</td><td>φ</td><td>20 km</td><td>0.35</td><td>0.38</td><td>0.39</td><td>0.34</td></tr>
+<tr><td>Within-event</td><td>φ</td><td>50 km</td><td>0.35</td><td>0.41</td><td>0.36</td><td>0.34</td></tr>
+<tr><td>Between-events, single-path</td><td>τ<sub>0</sub></td><td>20 km</td><td>0.41</td><td>0.41</td><td>0.41</td><td>0.37</td></tr>
+<tr><td>Between-events, single-path</td><td>τ<sub>0</sub></td><td>50 km</td><td>0.45</td><td>0.47</td><td>0.39</td><td>0.39</td></tr>
+<tr><td>Between-events</td><td>τ</td><td>20 km</td><td>0.46</td><td>0.48</td><td>0.49</td><td>0.45</td></tr>
+<tr><td>Between-events</td><td>τ</td><td>50 km</td><td>0.5</td><td>0.53</td><td>0.46</td><td>0.45</td></tr>
+<tr><td>Site-to-site</td><td>φ<sub>S2S</sub></td><td>20 km</td><td>0.01</td><td>0.01</td><td>0</td><td>0</td></tr>
+<tr><td>Site-to-site</td><td>φ<sub>S2S</sub></td><td>50 km</td><td>0.01</td><td>0.01</td><td>0</td><td>0</td></tr>
+</tbody>
+</table>
 <h2 id="path-to-path-variability">Path-to-path Variability</h2>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <h3 id="path-to-path-variability-methodology">Path-to-path Variability Methodology</h3>
@@ -102,13 +137,13 @@ img {
 <li>Site <em>[10 unique]</em></li>
 <li>Joyner-Boore Distance <em>[2 unique]</em></li>
 <li>Rupture <em>[75 unique]</em></li>
-<li>Rupture Strike (Aki &amp; Richards 1980 convention) <em>[36 unique]</em></li>
+<li>Rupture Strike <em>[36 unique]</em></li>
 </ul>
 <p>and the following quantities vary:</p>
 <ul>
-<li>Path (from site to rupture centroid) <em>[4 unique]</em></li>
+<li>Path <em>[4 unique]</em></li>
 </ul>
-<p>Here is an exmample with 5 rotations:
+<p>Here is an exmample with 5 rotations, which would be repeated for each combination of Site, Joyner-Boore Distance, Rupture, Rupture Strike
 <img src="resources/example_path.png" alt="Example" /></p>
 <p>Standard deviation is computed and tabulated separately for each site and distance, then a total standard deviation is computed from all site and distances and reported in the &quot;<strong>ALL SITES</strong>&quot; row.</p>
 <h3 id="200-km-path-to-path-results">20.0 km Path-to-path Results</h3>
@@ -116,20 +151,30 @@ img {
 <p><img src="resources/path_20km_std_dev.png" alt="Path-to-path Variability" /></p>
 <table>
 <thead>
-<tr><th>Site</th><th>3s Std. Dev.</th><th>3s Residual Range</th><th>5s Std. Dev.</th><th>5s Residual Range</th><th>7.5s Std. Dev.</th><th>7.5s Residual Range</th><th>10s Std. Dev.</th><th>10s Residual Range</th></tr>
+<tr><th>Site</th><th>3s φ<sub>P2P</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>P2P</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>P2P</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>P2P</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td>LAPD</td><td>0</td><td>[-0.03 0.03]</td><td>0</td><td>[-0.02 0.02]</td><td>0</td><td>[-0.01 0.01]</td><td>0</td><td>[-0.01 0.01]</td></tr>
-<tr><td>PAS</td><td>0</td><td>[-0.03 0.04]</td><td>0</td><td>[-0.01 0.01]</td><td>0</td><td>[-0.01 0.02]</td><td>0</td><td>[-0.01 0.02]</td></tr>
-<tr><td>SBSM</td><td>0</td><td>[-0.05 0.03]</td><td>0</td><td>[-0.01 0.01]</td><td>0</td><td>[-0.01 0.01]</td><td>0</td><td>[-0.01 0.01]</td></tr>
-<tr><td>SMCA</td><td>0</td><td>[-0.03 0.03]</td><td>0</td><td>[-0.03 0.02]</td><td>0</td><td>[-0.01 0.01]</td><td>0</td><td>[-0.01 0.01]</td></tr>
-<tr><td>STNI</td><td>0</td><td>[-0.03 0.04]</td><td>0</td><td>[-0.01 0.02]</td><td>0</td><td>[-0.02 0.02]</td><td>0</td><td>[-0.01 0.01]</td></tr>
-<tr><td>USC</td><td>0</td><td>[-0.04 0.03]</td><td>0</td><td>[-0.02 0.02]</td><td>0</td><td>[-0.01 0.02]</td><td>0</td><td>[-0.01 0.02]</td></tr>
-<tr><td>WNGC</td><td>0</td><td>[-0.02 0.02]</td><td>0</td><td>[-0.02 0.02]</td><td>0</td><td>[-0.01 0.01]</td><td>0</td><td>[-0.01 0.01]</td></tr>
-<tr><td>s119</td><td>0</td><td>[-0.06 0.03]</td><td>0</td><td>[-0.01 0.01]</td><td>0</td><td>[-0.01 0.02]</td><td>0</td><td>[-0.01 0.01]</td></tr>
-<tr><td>s279</td><td>0</td><td>[-0.03 0.04]</td><td>0</td><td>[-0.02 0.01]</td><td>0</td><td>[-0.01 0.01]</td><td>0</td><td>[-0.02 0.01]</td></tr>
-<tr><td>s480</td><td>0</td><td>[-0.03 0.03]</td><td>0</td><td>[-0.01 0.01]</td><td>0</td><td>[-0.01 0.01]</td><td>0</td><td>[-0.01 0.02]</td></tr>
-<tr><td><strong>ALL SITES</strong></td><td><strong>0</strong></td><td><strong>[-0.06 0.04]</strong></td><td><strong>0</strong></td><td><strong>[-0.03 0.02]</strong></td><td><strong>0</strong></td><td><strong>[-0.02 0.02]</strong></td><td><strong>0</strong></td><td><strong>[-0.02 0.02]</strong></td></tr>
+<tr><td>LAPD</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.02]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td></tr>
+<tr><td>PAS</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.03]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td></tr>
+<tr><td>SBSM</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.03]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td></tr>
+<tr><td>SMCA</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.02]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.02]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td></tr>
+<tr><td>STNI</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.03]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td></tr>
+<tr><td>USC</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.03]</td><td></td><td>0</td><td>�</td><td>0</td><td>[0 0.02]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td></tr>
+<tr><td>WNGC</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.02]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td></tr>
+<tr><td>s119</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.04]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.02]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td></tr>
+<tr><td>s279</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.03]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td></tr>
+<tr><td>s480</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.02]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td></tr>
+<tr><td><strong>ALL SITES</strong></td><td></td><td><strong>0</strong></td><td><strong>0</strong></td><td><strong>0</strong></td><td><strong>[0 0.04]</strong></td><td></td><td><strong>0</strong></td><td><strong>�</strong></td><td><strong>0</strong></td><td><strong>[0 0.02]</strong></td><td></td><td><strong>0</strong></td><td><strong>0</strong></td><td><strong>0</strong></td><td><strong>[0 0.02]</strong></td><td></td><td><strong>0</strong></td><td><strong>0</strong></td><td><strong>0</strong></td><td><strong>[0 0.01]</strong></td></tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr><th>3s</th><th>5s</th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/path_20km_3s_hist.png" alt="3s" /></td><td><img src="resources/path_20km_5s_hist.png" alt="5s" /></td></tr>
+<tr><td>7.5s</td><td>10s</td></tr>
+<tr><td><img src="resources/path_20km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/path_20km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
 <h3 id="500-km-path-to-path-results">50.0 km Path-to-path Results</h3>
@@ -137,20 +182,30 @@ img {
 <p><img src="resources/path_50km_std_dev.png" alt="Path-to-path Variability" /></p>
 <table>
 <thead>
-<tr><th>Site</th><th>3s Std. Dev.</th><th>3s Residual Range</th><th>5s Std. Dev.</th><th>5s Residual Range</th><th>7.5s Std. Dev.</th><th>7.5s Residual Range</th><th>10s Std. Dev.</th><th>10s Residual Range</th></tr>
+<tr><th>Site</th><th>3s φ<sub>P2P</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>P2P</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>P2P</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>P2P</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td>LAPD</td><td>0</td><td>[-0.04 0.05]</td><td>0</td><td>[-0.03 0.03]</td><td>0</td><td>[-0.02 0.02]</td><td>0</td><td>[-0.02 0.01]</td></tr>
-<tr><td>PAS</td><td>0</td><td>[-0.1 0.05]</td><td>0</td><td>[-0.04 0.04]</td><td>0</td><td>[-0.03 0.02]</td><td>0</td><td>[-0.01 0.03]</td></tr>
-<tr><td>SBSM</td><td>0</td><td>[-0.1 0.06]</td><td>0</td><td>[-0.04 0.03]</td><td>0</td><td>[-0.02 0.02]</td><td>0</td><td>[-0.02 0.01]</td></tr>
-<tr><td>SMCA</td><td>0</td><td>[-0.09 0.07]</td><td>0</td><td>[-0.04 0.03]</td><td>0</td><td>[-0.03 0.02]</td><td>0</td><td>[-0.01 0.01]</td></tr>
-<tr><td>STNI</td><td>0</td><td>[-0.08 0.05]</td><td>0</td><td>[-0.03 0.05]</td><td>0</td><td>[-0.02 0.02]</td><td>0</td><td>[-0.02 0.02]</td></tr>
-<tr><td>USC</td><td>0</td><td>[-0.07 0.06]</td><td>0</td><td>[-0.04 0.03]</td><td>0</td><td>[-0.03 0.02]</td><td>0</td><td>[-0.02 0.02]</td></tr>
-<tr><td>WNGC</td><td>0</td><td>[-0.04 0.05]</td><td>0</td><td>[-0.04 0.04]</td><td>0</td><td>[-0.01 0.03]</td><td>0</td><td>[-0.01 0.02]</td></tr>
-<tr><td>s119</td><td>0</td><td>[-0.07 0.09]</td><td>0</td><td>[-0.04 0.03]</td><td>0</td><td>[-0.03 0.03]</td><td>0</td><td>[-0.03 0.02]</td></tr>
-<tr><td>s279</td><td>0</td><td>[-0.07 0.1]</td><td>0</td><td>[-0.03 0.05]</td><td>0</td><td>[-0.02 0.03]</td><td>0</td><td>[-0.02 0.02]</td></tr>
-<tr><td>s480</td><td>0</td><td>[-0.08 0.07]</td><td>0</td><td>[-0.04 0.03]</td><td>0</td><td>[-0.01 0.02]</td><td>0</td><td>[-0.02 0.02]</td></tr>
-<tr><td><strong>ALL SITES</strong></td><td><strong>0</strong></td><td><strong>[-0.1 0.1]</strong></td><td><strong>0</strong></td><td><strong>[-0.04 0.05]</strong></td><td><strong>0</strong></td><td><strong>[-0.03 0.03]</strong></td><td><strong>0</strong></td><td><strong>[-0.03 0.03]</strong></td></tr>
+<tr><td>LAPD</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.05]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.02]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td></tr>
+<tr><td>PAS</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.07]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.03]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.02]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.02]</td></tr>
+<tr><td>SBSM</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.07]</td><td></td><td>0</td><td>�</td><td>0</td><td>[0 0.03]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td></tr>
+<tr><td>SMCA</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.06]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.03]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.02]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td></tr>
+<tr><td>STNI</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.05]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.03]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.02]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.02]</td></tr>
+<tr><td>USC</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.05]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.03]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.02]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.02]</td></tr>
+<tr><td>WNGC</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.04]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.03]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.02]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.01]</td></tr>
+<tr><td>s119</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.06]</td><td></td><td>0</td><td>�</td><td>0</td><td>[0 0.03]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.02]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.02]</td></tr>
+<tr><td>s279</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.07]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.03]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.02]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.02]</td></tr>
+<tr><td>s480</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.06]</td><td></td><td>0</td><td>�</td><td>0</td><td>[0 0.03]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.02]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.02]</td></tr>
+<tr><td><strong>ALL SITES</strong></td><td></td><td><strong>0</strong></td><td><strong>0</strong></td><td><strong>0</strong></td><td><strong>[0 0.07]</strong></td><td></td><td><strong>0</strong></td><td><strong>�</strong></td><td><strong>0</strong></td><td><strong>[0 0.03]</strong></td><td></td><td><strong>0</strong></td><td><strong>0</strong></td><td><strong>0</strong></td><td><strong>[0 0.02]</strong></td><td></td><td><strong>0</strong></td><td><strong>0</strong></td><td><strong>0</strong></td><td><strong>[0 0.02]</strong></td></tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr><th>3s</th><th>5s</th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/path_50km_3s_hist.png" alt="3s" /></td><td><img src="resources/path_50km_5s_hist.png" alt="5s" /></td></tr>
+<tr><td>7.5s</td><td>10s</td></tr>
+<tr><td><img src="resources/path_50km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/path_50km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
 <h2 id="source-strike-variability">Source-strike Variability</h2>
@@ -162,13 +217,13 @@ img {
 <li>Site <em>[10 unique]</em></li>
 <li>Joyner-Boore Distance <em>[2 unique]</em></li>
 <li>Rupture <em>[75 unique]</em></li>
-<li>Path (from site to rupture centroid) <em>[4 unique]</em></li>
+<li>Path <em>[4 unique]</em></li>
 </ul>
 <p>and the following quantities vary:</p>
 <ul>
-<li>Rupture Strike (Aki &amp; Richards 1980 convention) <em>[36 unique]</em></li>
+<li>Rupture Strike <em>[36 unique]</em></li>
 </ul>
-<p>Here is an exmample with 5 rotations:
+<p>Here is an exmample with 5 rotations, which would be repeated for each combination of Site, Joyner-Boore Distance, Rupture, Path
 <img src="resources/example_source_strike.png" alt="Example" /></p>
 <p>Standard deviation is computed and tabulated separately for each site and distance, then a total standard deviation is computed from all site and distances and reported in the &quot;<strong>ALL SITES</strong>&quot; row.</p>
 <h3 id="200-km-source-strike-results">20.0 km Source-strike Results</h3>
@@ -176,20 +231,30 @@ img {
 <p><img src="resources/source_strike_20km_std_dev.png" alt="Source-strike Variability" /></p>
 <table>
 <thead>
-<tr><th>Site</th><th>3s Std. Dev.</th><th>3s Residual Range</th><th>5s Std. Dev.</th><th>5s Residual Range</th><th>7.5s Std. Dev.</th><th>7.5s Residual Range</th><th>10s Std. Dev.</th><th>10s Residual Range</th></tr>
+<tr><th>Site</th><th>3s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td>LAPD</td><td>0.35</td><td>[-1.31 1.18]</td><td>0.38</td><td>[-1.36 1.3]</td><td>0.39</td><td>[-1.27 1.06]</td><td>0.34</td><td>[-1.04 0.8]</td></tr>
-<tr><td>PAS</td><td>0.35</td><td>[-1.32 1.18]</td><td>0.38</td><td>[-1.34 1.29]</td><td>0.39</td><td>[-1.28 1.06]</td><td>0.34</td><td>[-1.04 0.8]</td></tr>
-<tr><td>SBSM</td><td>0.35</td><td>[-1.32 1.17]</td><td>0.38</td><td>[-1.35 1.3]</td><td>0.39</td><td>[-1.27 1.05]</td><td>0.34</td><td>[-1.03 0.8]</td></tr>
-<tr><td>SMCA</td><td>0.35</td><td>[-1.3 1.18]</td><td>0.38</td><td>[-1.35 1.29]</td><td>0.39</td><td>[-1.29 1.06]</td><td>0.34</td><td>[-1.04 0.81]</td></tr>
-<tr><td>STNI</td><td>0.35</td><td>[-1.32 1.18]</td><td>0.38</td><td>[-1.36 1.29]</td><td>0.39</td><td>[-1.28 1.06]</td><td>0.34</td><td>[-1.04 0.81]</td></tr>
-<tr><td>USC</td><td>0.35</td><td>[-1.32 1.18]</td><td>0.38</td><td>[-1.35 1.29]</td><td>0.39</td><td>[-1.29 1.06]</td><td>0.34</td><td>[-1.04 0.81]</td></tr>
-<tr><td>WNGC</td><td>0.35</td><td>[-1.32 1.18]</td><td>0.38</td><td>[-1.35 1.29]</td><td>0.39</td><td>[-1.28 1.06]</td><td>0.34</td><td>[-1.04 0.8]</td></tr>
-<tr><td>s119</td><td>0.35</td><td>[-1.29 1.2]</td><td>0.38</td><td>[-1.36 1.29]</td><td>0.39</td><td>[-1.29 1.06]</td><td>0.34</td><td>[-1.05 0.8]</td></tr>
-<tr><td>s279</td><td>0.35</td><td>[-1.32 1.18]</td><td>0.38</td><td>[-1.36 1.29]</td><td>0.39</td><td>[-1.29 1.06]</td><td>0.34</td><td>[-1.04 0.8]</td></tr>
-<tr><td>s480</td><td>0.35</td><td>[-1.32 1.17]</td><td>0.38</td><td>[-1.35 1.3]</td><td>0.39</td><td>[-1.27 1.06]</td><td>0.34</td><td>[-1.04 0.8]</td></tr>
-<tr><td><strong>ALL SITES</strong></td><td><strong>0.35</strong></td><td><strong>[-1.32 1.2]</strong></td><td><strong>0.38</strong></td><td><strong>[-1.36 1.3]</strong></td><td><strong>0.39</strong></td><td><strong>[-1.29 1.06]</strong></td><td><strong>0.34</strong></td><td><strong>[-1.05 0.81]</strong></td></tr>
+<tr><td>LAPD</td><td></td><td>0.35</td><td>0.35</td><td>0.35</td><td>[0.16 0.58]</td><td></td><td>0.38</td><td>0.37</td><td>0.36</td><td>[0.18 0.68]</td><td></td><td>0.39</td><td>0.38</td><td>0.36</td><td>[0.2 0.62]</td><td></td><td>0.34</td><td>0.34</td><td>0.33</td><td>[0.2 0.54]</td></tr>
+<tr><td>PAS</td><td></td><td>0.35</td><td>0.35</td><td>0.35</td><td>[0.16 0.58]</td><td></td><td>0.38</td><td>0.37</td><td>0.36</td><td>[0.18 0.68]</td><td></td><td>0.39</td><td>0.38</td><td>0.36</td><td>[0.2 0.62]</td><td></td><td>0.34</td><td>0.34</td><td>0.33</td><td>[0.2 0.54]</td></tr>
+<tr><td>SBSM</td><td></td><td>0.35</td><td>0.35</td><td>0.36</td><td>[0.16 0.58]</td><td></td><td>0.38</td><td>0.37</td><td>0.36</td><td>[0.18 0.68]</td><td></td><td>0.39</td><td>0.38</td><td>0.36</td><td>[0.21 0.62]</td><td></td><td>0.34</td><td>0.34</td><td>0.33</td><td>[0.2 0.54]</td></tr>
+<tr><td>SMCA</td><td></td><td>0.35</td><td>0.35</td><td>0.36</td><td>[0.16 0.58]</td><td></td><td>0.38</td><td>0.37</td><td>0.36</td><td>[0.18 0.68]</td><td></td><td>0.39</td><td>0.38</td><td>0.36</td><td>[0.2 0.62]</td><td></td><td>0.34</td><td>0.34</td><td>0.33</td><td>[0.2 0.54]</td></tr>
+<tr><td>STNI</td><td></td><td>0.35</td><td>0.35</td><td>0.36</td><td>[0.16 0.58]</td><td></td><td>0.38</td><td>0.37</td><td>0.36</td><td>[0.18 0.68]</td><td></td><td>0.39</td><td>0.38</td><td>0.36</td><td>[0.2 0.62]</td><td></td><td>0.34</td><td>0.34</td><td>0.33</td><td>[0.2 0.54]</td></tr>
+<tr><td>USC</td><td></td><td>0.35</td><td>0.35</td><td>0.35</td><td>[0.16 0.58]</td><td></td><td>0.38</td><td>0.37</td><td>0.36</td><td>[0.18 0.68]</td><td></td><td>0.39</td><td>0.38</td><td>0.36</td><td>[0.2 0.62]</td><td></td><td>0.34</td><td>0.34</td><td>0.33</td><td>[0.2 0.54]</td></tr>
+<tr><td>WNGC</td><td></td><td>0.35</td><td>0.35</td><td>0.36</td><td>[0.16 0.58]</td><td></td><td>0.38</td><td>0.37</td><td>0.36</td><td>[0.18 0.68]</td><td></td><td>0.39</td><td>0.38</td><td>0.36</td><td>[0.2 0.62]</td><td></td><td>0.34</td><td>0.34</td><td>0.33</td><td>[0.2 0.54]</td></tr>
+<tr><td>s119</td><td></td><td>0.35</td><td>0.35</td><td>0.35</td><td>[0.17 0.58]</td><td></td><td>0.38</td><td>0.37</td><td>0.36</td><td>[0.18 0.68]</td><td></td><td>0.39</td><td>0.38</td><td>0.36</td><td>[0.2 0.62]</td><td></td><td>0.34</td><td>0.34</td><td>0.33</td><td>[0.2 0.54]</td></tr>
+<tr><td>s279</td><td></td><td>0.35</td><td>0.35</td><td>0.35</td><td>[0.16 0.58]</td><td></td><td>0.38</td><td>0.37</td><td>0.37</td><td>[0.18 0.68]</td><td></td><td>0.39</td><td>0.38</td><td>0.36</td><td>[0.2 0.62]</td><td></td><td>0.34</td><td>0.34</td><td>0.33</td><td>[0.2 0.54]</td></tr>
+<tr><td>s480</td><td></td><td>0.35</td><td>0.35</td><td>0.36</td><td>[0.16 0.58]</td><td></td><td>0.38</td><td>0.37</td><td>0.36</td><td>[0.18 0.68]</td><td></td><td>0.39</td><td>0.38</td><td>0.36</td><td>[0.2 0.62]</td><td></td><td>0.34</td><td>0.34</td><td>0.33</td><td>[0.2 0.54]</td></tr>
+<tr><td><strong>ALL SITES</strong></td><td></td><td><strong>0.35</strong></td><td><strong>0.35</strong></td><td><strong>0.36</strong></td><td><strong>[0.16 0.58]</strong></td><td></td><td><strong>0.38</strong></td><td><strong>0.37</strong></td><td><strong>0.36</strong></td><td><strong>[0.18 0.68]</strong></td><td></td><td><strong>0.39</strong></td><td><strong>0.38</strong></td><td><strong>0.36</strong></td><td><strong>[0.2 0.62]</strong></td><td></td><td><strong>0.34</strong></td><td><strong>0.34</strong></td><td><strong>0.33</strong></td><td><strong>[0.2 0.54]</strong></td></tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr><th>3s</th><th>5s</th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/source_strike_20km_3s_hist.png" alt="3s" /></td><td><img src="resources/source_strike_20km_5s_hist.png" alt="5s" /></td></tr>
+<tr><td>7.5s</td><td>10s</td></tr>
+<tr><td><img src="resources/source_strike_20km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/source_strike_20km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
 <h3 id="500-km-source-strike-results">50.0 km Source-strike Results</h3>
@@ -197,20 +262,30 @@ img {
 <p><img src="resources/source_strike_50km_std_dev.png" alt="Source-strike Variability" /></p>
 <table>
 <thead>
-<tr><th>Site</th><th>3s Std. Dev.</th><th>3s Residual Range</th><th>5s Std. Dev.</th><th>5s Residual Range</th><th>7.5s Std. Dev.</th><th>7.5s Residual Range</th><th>10s Std. Dev.</th><th>10s Residual Range</th></tr>
+<tr><th>Site</th><th>3s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td>LAPD</td><td>0.35</td><td>[-1.23 1.18]</td><td>0.41</td><td>[-1.44 1.26]</td><td>0.36</td><td>[-1.04 1.21]</td><td>0.34</td><td>[-1.22 0.97]</td></tr>
-<tr><td>PAS</td><td>0.35</td><td>[-1.22 1.19]</td><td>0.41</td><td>[-1.44 1.26]</td><td>0.36</td><td>[-1.04 1.21]</td><td>0.34</td><td>[-1.22 0.97]</td></tr>
-<tr><td>SBSM</td><td>0.35</td><td>[-1.19 1.19]</td><td>0.41</td><td>[-1.44 1.26]</td><td>0.36</td><td>[-1.04 1.21]</td><td>0.34</td><td>[-1.22 0.97]</td></tr>
-<tr><td>SMCA</td><td>0.35</td><td>[-1.22 1.19]</td><td>0.41</td><td>[-1.44 1.26]</td><td>0.36</td><td>[-1.04 1.21]</td><td>0.34</td><td>[-1.22 0.97]</td></tr>
-<tr><td>STNI</td><td>0.35</td><td>[-1.22 1.19]</td><td>0.41</td><td>[-1.44 1.26]</td><td>0.36</td><td>[-1.04 1.21]</td><td>0.34</td><td>[-1.22 0.97]</td></tr>
-<tr><td>USC</td><td>0.35</td><td>[-1.22 1.19]</td><td>0.41</td><td>[-1.44 1.26]</td><td>0.36</td><td>[-1.04 1.21]</td><td>0.34</td><td>[-1.22 0.97]</td></tr>
-<tr><td>WNGC</td><td>0.35</td><td>[-1.22 1.19]</td><td>0.41</td><td>[-1.44 1.26]</td><td>0.36</td><td>[-1.04 1.21]</td><td>0.34</td><td>[-1.22 0.97]</td></tr>
-<tr><td>s119</td><td>0.35</td><td>[-1.23 1.17]</td><td>0.41</td><td>[-1.43 1.26]</td><td>0.36</td><td>[-1.04 1.21]</td><td>0.34</td><td>[-1.23 0.98]</td></tr>
-<tr><td>s279</td><td>0.35</td><td>[-1.22 1.18]</td><td>0.41</td><td>[-1.44 1.26]</td><td>0.36</td><td>[-1.04 1.21]</td><td>0.34</td><td>[-1.22 0.97]</td></tr>
-<tr><td>s480</td><td>0.36</td><td>[-1.23 1.19]</td><td>0.41</td><td>[-1.44 1.26]</td><td>0.36</td><td>[-1.04 1.21]</td><td>0.34</td><td>[-1.22 0.97]</td></tr>
-<tr><td><strong>ALL SITES</strong></td><td><strong>0.35</strong></td><td><strong>[-1.23 1.19]</strong></td><td><strong>0.41</strong></td><td><strong>[-1.44 1.26]</strong></td><td><strong>0.36</strong></td><td><strong>[-1.04 1.21]</strong></td><td><strong>0.34</strong></td><td><strong>[-1.23 0.98]</strong></td></tr>
+<tr><td>LAPD</td><td></td><td>0.35</td><td>0.35</td><td>0.34</td><td>[0.16 0.53]</td><td></td><td>0.41</td><td>0.4</td><td>0.38</td><td>[0.15 0.7]</td><td></td><td>0.36</td><td>0.36</td><td>0.34</td><td>[0.15 0.64]</td><td></td><td>0.34</td><td>0.34</td><td>0.32</td><td>[0.2 0.55]</td></tr>
+<tr><td>PAS</td><td></td><td>0.35</td><td>0.35</td><td>0.35</td><td>[0.16 0.53]</td><td></td><td>0.41</td><td>0.4</td><td>0.38</td><td>[0.15 0.7]</td><td></td><td>0.36</td><td>0.36</td><td>0.34</td><td>[0.15 0.64]</td><td></td><td>0.34</td><td>0.34</td><td>0.32</td><td>[0.2 0.55]</td></tr>
+<tr><td>SBSM</td><td></td><td>0.35</td><td>0.35</td><td>0.35</td><td>[0.16 0.53]</td><td></td><td>0.41</td><td>0.4</td><td>0.38</td><td>[0.15 0.7]</td><td></td><td>0.36</td><td>0.36</td><td>0.34</td><td>[0.15 0.64]</td><td></td><td>0.34</td><td>0.34</td><td>0.32</td><td>[0.2 0.55]</td></tr>
+<tr><td>SMCA</td><td></td><td>0.35</td><td>0.35</td><td>0.35</td><td>[0.16 0.53]</td><td></td><td>0.41</td><td>0.4</td><td>0.38</td><td>[0.15 0.7]</td><td></td><td>0.36</td><td>0.36</td><td>0.34</td><td>[0.15 0.64]</td><td></td><td>0.34</td><td>0.34</td><td>0.32</td><td>[0.2 0.55]</td></tr>
+<tr><td>STNI</td><td></td><td>0.35</td><td>0.35</td><td>0.35</td><td>[0.16 0.53]</td><td></td><td>0.41</td><td>0.4</td><td>0.38</td><td>[0.15 0.7]</td><td></td><td>0.36</td><td>0.36</td><td>0.34</td><td>[0.15 0.64]</td><td></td><td>0.34</td><td>0.34</td><td>0.32</td><td>[0.2 0.55]</td></tr>
+<tr><td>USC</td><td></td><td>0.35</td><td>0.35</td><td>0.35</td><td>[0.16 0.53]</td><td></td><td>0.41</td><td>0.4</td><td>0.38</td><td>[0.15 0.69]</td><td></td><td>0.36</td><td>0.36</td><td>0.34</td><td>[0.15 0.64]</td><td></td><td>0.34</td><td>0.34</td><td>0.32</td><td>[0.2 0.55]</td></tr>
+<tr><td>WNGC</td><td></td><td>0.35</td><td>0.35</td><td>0.34</td><td>[0.16 0.53]</td><td></td><td>0.41</td><td>0.4</td><td>0.38</td><td>[0.15 0.7]</td><td></td><td>0.36</td><td>0.36</td><td>0.34</td><td>[0.15 0.64]</td><td></td><td>0.34</td><td>0.34</td><td>0.32</td><td>[0.2 0.55]</td></tr>
+<tr><td>s119</td><td></td><td>0.35</td><td>0.35</td><td>0.34</td><td>[0.16 0.53]</td><td></td><td>0.41</td><td>0.4</td><td>0.38</td><td>[0.15 0.7]</td><td></td><td>0.36</td><td>0.36</td><td>0.34</td><td>[0.15 0.64]</td><td></td><td>0.34</td><td>0.34</td><td>0.32</td><td>[0.2 0.55]</td></tr>
+<tr><td>s279</td><td></td><td>0.35</td><td>0.35</td><td>0.35</td><td>[0.16 0.53]</td><td></td><td>0.41</td><td>0.4</td><td>0.38</td><td>[0.15 0.69]</td><td></td><td>0.36</td><td>0.36</td><td>0.34</td><td>[0.15 0.64]</td><td></td><td>0.34</td><td>0.34</td><td>0.32</td><td>[0.2 0.55]</td></tr>
+<tr><td>s480</td><td></td><td>0.36</td><td>0.35</td><td>0.35</td><td>[0.16 0.53]</td><td></td><td>0.41</td><td>0.4</td><td>0.38</td><td>[0.15 0.7]</td><td></td><td>0.36</td><td>0.36</td><td>0.34</td><td>[0.15 0.64]</td><td></td><td>0.34</td><td>0.34</td><td>0.32</td><td>[0.2 0.55]</td></tr>
+<tr><td><strong>ALL SITES</strong></td><td></td><td><strong>0.35</strong></td><td><strong>0.35</strong></td><td><strong>0.35</strong></td><td><strong>[0.16 0.53]</strong></td><td></td><td><strong>0.41</strong></td><td><strong>0.4</strong></td><td><strong>0.38</strong></td><td><strong>[0.15 0.7]</strong></td><td></td><td><strong>0.36</strong></td><td><strong>0.36</strong></td><td><strong>0.34</strong></td><td><strong>[0.15 0.64]</strong></td><td></td><td><strong>0.34</strong></td><td><strong>0.34</strong></td><td><strong>0.32</strong></td><td><strong>[0.2 0.55]</strong></td></tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr><th>3s</th><th>5s</th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/source_strike_50km_3s_hist.png" alt="3s" /></td><td><img src="resources/source_strike_50km_5s_hist.png" alt="5s" /></td></tr>
+<tr><td>7.5s</td><td>10s</td></tr>
+<tr><td><img src="resources/source_strike_50km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/source_strike_50km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
 <h2 id="within-event-variability">Within-event Variability</h2>
@@ -225,10 +300,10 @@ img {
 </ul>
 <p>and the following quantities vary:</p>
 <ul>
-<li>Rupture Strike (Aki &amp; Richards 1980 convention) <em>[36 unique]</em></li>
-<li>Path (from site to rupture centroid) <em>[4 unique]</em></li>
+<li>Rupture Strike <em>[36 unique]</em></li>
+<li>Path <em>[4 unique]</em></li>
 </ul>
-<p>Here is an exmample with 5 rotations:
+<p>Here is an exmample with 5 rotations, which would be repeated for each combination of Site, Joyner-Boore Distance, Rupture
 <img src="resources/example_within_event.png" alt="Example" /></p>
 <p>Standard deviation is computed and tabulated separately for each site and distance, then a total standard deviation is computed from all site and distances and reported in the &quot;<strong>ALL SITES</strong>&quot; row.</p>
 <h3 id="200-km-within-event-results">20.0 km Within-event Results</h3>
@@ -236,20 +311,30 @@ img {
 <p><img src="resources/within_event_20km_std_dev.png" alt="Within-event Variability" /></p>
 <table>
 <thead>
-<tr><th>Site</th><th>3s Std. Dev.</th><th>3s Residual Range</th><th>5s Std. Dev.</th><th>5s Residual Range</th><th>7.5s Std. Dev.</th><th>7.5s Residual Range</th><th>10s Std. Dev.</th><th>10s Residual Range</th></tr>
+<tr><th>Site</th><th>3s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td>LAPD</td><td>0.35</td><td>[-1.31 1.18]</td><td>0.38</td><td>[-1.36 1.3]</td><td>0.39</td><td>[-1.27 1.06]</td><td>0.34</td><td>[-1.04 0.8]</td></tr>
-<tr><td>PAS</td><td>0.35</td><td>[-1.32 1.18]</td><td>0.38</td><td>[-1.34 1.29]</td><td>0.39</td><td>[-1.28 1.06]</td><td>0.34</td><td>[-1.04 0.8]</td></tr>
-<tr><td>SBSM</td><td>0.35</td><td>[-1.32 1.17]</td><td>0.38</td><td>[-1.35 1.3]</td><td>0.39</td><td>[-1.27 1.05]</td><td>0.34</td><td>[-1.03 0.8]</td></tr>
-<tr><td>SMCA</td><td>0.35</td><td>[-1.3 1.18]</td><td>0.38</td><td>[-1.35 1.29]</td><td>0.39</td><td>[-1.29 1.06]</td><td>0.34</td><td>[-1.04 0.81]</td></tr>
-<tr><td>STNI</td><td>0.35</td><td>[-1.32 1.18]</td><td>0.38</td><td>[-1.35 1.29]</td><td>0.39</td><td>[-1.28 1.06]</td><td>0.34</td><td>[-1.04 0.81]</td></tr>
-<tr><td>USC</td><td>0.35</td><td>[-1.32 1.18]</td><td>0.38</td><td>[-1.35 1.29]</td><td>0.39</td><td>[-1.29 1.06]</td><td>0.34</td><td>[-1.04 0.81]</td></tr>
-<tr><td>WNGC</td><td>0.35</td><td>[-1.32 1.18]</td><td>0.38</td><td>[-1.35 1.29]</td><td>0.39</td><td>[-1.28 1.06]</td><td>0.34</td><td>[-1.04 0.8]</td></tr>
-<tr><td>s119</td><td>0.35</td><td>[-1.29 1.2]</td><td>0.38</td><td>[-1.36 1.29]</td><td>0.39</td><td>[-1.29 1.06]</td><td>0.34</td><td>[-1.05 0.8]</td></tr>
-<tr><td>s279</td><td>0.35</td><td>[-1.31 1.18]</td><td>0.38</td><td>[-1.36 1.29]</td><td>0.39</td><td>[-1.29 1.06]</td><td>0.34</td><td>[-1.04 0.8]</td></tr>
-<tr><td>s480</td><td>0.35</td><td>[-1.32 1.17]</td><td>0.38</td><td>[-1.35 1.3]</td><td>0.39</td><td>[-1.27 1.06]</td><td>0.34</td><td>[-1.04 0.8]</td></tr>
-<tr><td><strong>ALL SITES</strong></td><td><strong>0.35</strong></td><td><strong>[-1.32 1.2]</strong></td><td><strong>0.38</strong></td><td><strong>[-1.36 1.3]</strong></td><td><strong>0.39</strong></td><td><strong>[-1.29 1.06]</strong></td><td><strong>0.34</strong></td><td><strong>[-1.05 0.81]</strong></td></tr>
+<tr><td>LAPD</td><td></td><td>0.35</td><td>0.35</td><td>0.35</td><td>[0.16 0.57]</td><td></td><td>0.38</td><td>0.36</td><td>0.36</td><td>[0.17 0.67]</td><td></td><td>0.39</td><td>0.37</td><td>0.35</td><td>[0.2 0.61]</td><td></td><td>0.34</td><td>0.34</td><td>0.33</td><td>[0.2 0.53]</td></tr>
+<tr><td>PAS</td><td></td><td>0.35</td><td>0.35</td><td>0.35</td><td>[0.16 0.58]</td><td></td><td>0.38</td><td>0.36</td><td>0.36</td><td>[0.18 0.67]</td><td></td><td>0.39</td><td>0.37</td><td>0.36</td><td>[0.2 0.61]</td><td></td><td>0.34</td><td>0.34</td><td>0.33</td><td>[0.2 0.53]</td></tr>
+<tr><td>SBSM</td><td></td><td>0.35</td><td>0.35</td><td>0.35</td><td>[0.16 0.57]</td><td></td><td>0.38</td><td>0.36</td><td>0.36</td><td>[0.18 0.67]</td><td></td><td>0.39</td><td>0.37</td><td>0.35</td><td>[0.2 0.61]</td><td></td><td>0.34</td><td>0.34</td><td>0.33</td><td>[0.2 0.53]</td></tr>
+<tr><td>SMCA</td><td></td><td>0.35</td><td>0.35</td><td>0.35</td><td>[0.16 0.58]</td><td></td><td>0.38</td><td>0.37</td><td>0.36</td><td>[0.18 0.67]</td><td></td><td>0.39</td><td>0.37</td><td>0.36</td><td>[0.2 0.61]</td><td></td><td>0.34</td><td>0.34</td><td>0.33</td><td>[0.2 0.53]</td></tr>
+<tr><td>STNI</td><td></td><td>0.35</td><td>0.35</td><td>0.35</td><td>[0.16 0.58]</td><td></td><td>0.38</td><td>0.36</td><td>0.36</td><td>[0.18 0.67]</td><td></td><td>0.39</td><td>0.37</td><td>0.36</td><td>[0.2 0.61]</td><td></td><td>0.34</td><td>0.34</td><td>0.33</td><td>[0.2 0.53]</td></tr>
+<tr><td>USC</td><td></td><td>0.35</td><td>0.35</td><td>0.35</td><td>[0.16 0.58]</td><td></td><td>0.38</td><td>0.37</td><td>0.36</td><td>[0.18 0.67]</td><td></td><td>0.39</td><td>0.37</td><td>0.36</td><td>[0.2 0.61]</td><td></td><td>0.34</td><td>0.34</td><td>0.33</td><td>[0.2 0.53]</td></tr>
+<tr><td>WNGC</td><td></td><td>0.35</td><td>0.35</td><td>0.35</td><td>[0.16 0.57]</td><td></td><td>0.38</td><td>0.36</td><td>0.36</td><td>[0.18 0.67]</td><td></td><td>0.39</td><td>0.37</td><td>0.36</td><td>[0.2 0.61]</td><td></td><td>0.34</td><td>0.34</td><td>0.33</td><td>[0.2 0.53]</td></tr>
+<tr><td>s119</td><td></td><td>0.35</td><td>0.35</td><td>0.35</td><td>[0.16 0.58]</td><td></td><td>0.38</td><td>0.36</td><td>0.36</td><td>[0.17 0.67]</td><td></td><td>0.39</td><td>0.37</td><td>0.36</td><td>[0.2 0.61]</td><td></td><td>0.34</td><td>0.34</td><td>0.33</td><td>[0.2 0.53]</td></tr>
+<tr><td>s279</td><td></td><td>0.35</td><td>0.35</td><td>0.35</td><td>[0.16 0.57]</td><td></td><td>0.38</td><td>0.36</td><td>0.36</td><td>[0.17 0.67]</td><td></td><td>0.39</td><td>0.37</td><td>0.36</td><td>[0.2 0.61]</td><td></td><td>0.34</td><td>0.34</td><td>0.33</td><td>[0.2 0.53]</td></tr>
+<tr><td>s480</td><td></td><td>0.35</td><td>0.35</td><td>0.35</td><td>[0.16 0.57]</td><td></td><td>0.38</td><td>0.36</td><td>0.36</td><td>[0.18 0.67]</td><td></td><td>0.39</td><td>0.37</td><td>0.35</td><td>[0.2 0.61]</td><td></td><td>0.34</td><td>0.34</td><td>0.33</td><td>[0.2 0.53]</td></tr>
+<tr><td><strong>ALL SITES</strong></td><td></td><td><strong>0.35</strong></td><td><strong>0.35</strong></td><td><strong>0.35</strong></td><td><strong>[0.16 0.58]</strong></td><td></td><td><strong>0.38</strong></td><td><strong>0.36</strong></td><td><strong>0.36</strong></td><td><strong>[0.17 0.67]</strong></td><td></td><td><strong>0.39</strong></td><td><strong>0.37</strong></td><td><strong>0.36</strong></td><td><strong>[0.2 0.61]</strong></td><td></td><td><strong>0.34</strong></td><td><strong>0.34</strong></td><td><strong>0.33</strong></td><td><strong>[0.2 0.53]</strong></td></tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr><th>3s</th><th>5s</th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/within_event_20km_3s_hist.png" alt="3s" /></td><td><img src="resources/within_event_20km_5s_hist.png" alt="5s" /></td></tr>
+<tr><td>7.5s</td><td>10s</td></tr>
+<tr><td><img src="resources/within_event_20km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_20km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
 <h3 id="500-km-within-event-results">50.0 km Within-event Results</h3>
@@ -257,20 +342,30 @@ img {
 <p><img src="resources/within_event_50km_std_dev.png" alt="Within-event Variability" /></p>
 <table>
 <thead>
-<tr><th>Site</th><th>3s Std. Dev.</th><th>3s Residual Range</th><th>5s Std. Dev.</th><th>5s Residual Range</th><th>7.5s Std. Dev.</th><th>7.5s Residual Range</th><th>10s Std. Dev.</th><th>10s Residual Range</th></tr>
+<tr><th>Site</th><th>3s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td>LAPD</td><td>0.35</td><td>[-1.23 1.18]</td><td>0.41</td><td>[-1.44 1.26]</td><td>0.36</td><td>[-1.04 1.21]</td><td>0.34</td><td>[-1.22 0.97]</td></tr>
-<tr><td>PAS</td><td>0.35</td><td>[-1.22 1.19]</td><td>0.41</td><td>[-1.44 1.26]</td><td>0.36</td><td>[-1.04 1.21]</td><td>0.34</td><td>[-1.22 0.97]</td></tr>
-<tr><td>SBSM</td><td>0.35</td><td>[-1.19 1.19]</td><td>0.41</td><td>[-1.44 1.26]</td><td>0.36</td><td>[-1.04 1.21]</td><td>0.34</td><td>[-1.22 0.97]</td></tr>
-<tr><td>SMCA</td><td>0.35</td><td>[-1.22 1.19]</td><td>0.41</td><td>[-1.44 1.26]</td><td>0.36</td><td>[-1.04 1.21]</td><td>0.34</td><td>[-1.22 0.97]</td></tr>
-<tr><td>STNI</td><td>0.35</td><td>[-1.22 1.19]</td><td>0.41</td><td>[-1.44 1.26]</td><td>0.36</td><td>[-1.04 1.21]</td><td>0.34</td><td>[-1.22 0.97]</td></tr>
-<tr><td>USC</td><td>0.35</td><td>[-1.22 1.19]</td><td>0.41</td><td>[-1.44 1.26]</td><td>0.36</td><td>[-1.04 1.21]</td><td>0.34</td><td>[-1.22 0.97]</td></tr>
-<tr><td>WNGC</td><td>0.35</td><td>[-1.22 1.19]</td><td>0.41</td><td>[-1.44 1.26]</td><td>0.36</td><td>[-1.04 1.21]</td><td>0.34</td><td>[-1.22 0.97]</td></tr>
-<tr><td>s119</td><td>0.35</td><td>[-1.23 1.17]</td><td>0.41</td><td>[-1.43 1.26]</td><td>0.36</td><td>[-1.04 1.21]</td><td>0.34</td><td>[-1.23 0.98]</td></tr>
-<tr><td>s279</td><td>0.35</td><td>[-1.22 1.18]</td><td>0.41</td><td>[-1.44 1.26]</td><td>0.36</td><td>[-1.04 1.21]</td><td>0.34</td><td>[-1.22 0.97]</td></tr>
-<tr><td>s480</td><td>0.36</td><td>[-1.23 1.19]</td><td>0.41</td><td>[-1.44 1.26]</td><td>0.36</td><td>[-1.04 1.21]</td><td>0.34</td><td>[-1.22 0.97]</td></tr>
-<tr><td><strong>ALL SITES</strong></td><td><strong>0.35</strong></td><td><strong>[-1.23 1.19]</strong></td><td><strong>0.41</strong></td><td><strong>[-1.44 1.26]</strong></td><td><strong>0.36</strong></td><td><strong>[-1.04 1.21]</strong></td><td><strong>0.34</strong></td><td><strong>[-1.23 0.98]</strong></td></tr>
+<tr><td>LAPD</td><td></td><td>0.35</td><td>0.35</td><td>0.34</td><td>[0.15 0.53]</td><td></td><td>0.41</td><td>0.39</td><td>0.38</td><td>[0.15 0.69]</td><td></td><td>0.36</td><td>0.35</td><td>0.34</td><td>[0.15 0.63]</td><td></td><td>0.34</td><td>0.33</td><td>0.32</td><td>[0.2 0.54]</td></tr>
+<tr><td>PAS</td><td></td><td>0.35</td><td>0.35</td><td>0.34</td><td>[0.16 0.53]</td><td></td><td>0.41</td><td>0.39</td><td>0.38</td><td>[0.15 0.69]</td><td></td><td>0.36</td><td>0.35</td><td>0.34</td><td>[0.15 0.63]</td><td></td><td>0.34</td><td>0.33</td><td>0.32</td><td>[0.2 0.54]</td></tr>
+<tr><td>SBSM</td><td></td><td>0.35</td><td>0.35</td><td>0.34</td><td>[0.16 0.52]</td><td></td><td>0.41</td><td>0.39</td><td>0.38</td><td>[0.15 0.69]</td><td></td><td>0.36</td><td>0.35</td><td>0.34</td><td>[0.15 0.63]</td><td></td><td>0.34</td><td>0.33</td><td>0.32</td><td>[0.2 0.54]</td></tr>
+<tr><td>SMCA</td><td></td><td>0.35</td><td>0.35</td><td>0.34</td><td>[0.16 0.52]</td><td></td><td>0.41</td><td>0.39</td><td>0.38</td><td>[0.15 0.69]</td><td></td><td>0.36</td><td>0.35</td><td>0.34</td><td>[0.15 0.63]</td><td></td><td>0.34</td><td>0.33</td><td>0.32</td><td>[0.2 0.54]</td></tr>
+<tr><td>STNI</td><td></td><td>0.35</td><td>0.35</td><td>0.34</td><td>[0.16 0.53]</td><td></td><td>0.41</td><td>0.39</td><td>0.38</td><td>[0.15 0.69]</td><td></td><td>0.36</td><td>0.35</td><td>0.34</td><td>[0.15 0.63]</td><td></td><td>0.34</td><td>0.33</td><td>0.32</td><td>[0.2 0.54]</td></tr>
+<tr><td>USC</td><td></td><td>0.35</td><td>0.35</td><td>0.34</td><td>[0.16 0.52]</td><td></td><td>0.41</td><td>0.39</td><td>0.38</td><td>[0.15 0.69]</td><td></td><td>0.36</td><td>0.35</td><td>0.34</td><td>[0.15 0.63]</td><td></td><td>0.34</td><td>0.33</td><td>0.32</td><td>[0.2 0.54]</td></tr>
+<tr><td>WNGC</td><td></td><td>0.35</td><td>0.35</td><td>0.34</td><td>[0.16 0.53]</td><td></td><td>0.41</td><td>0.39</td><td>0.38</td><td>[0.15 0.69]</td><td></td><td>0.36</td><td>0.35</td><td>0.34</td><td>[0.15 0.63]</td><td></td><td>0.34</td><td>0.33</td><td>0.32</td><td>[0.2 0.54]</td></tr>
+<tr><td>s119</td><td></td><td>0.35</td><td>0.35</td><td>0.34</td><td>[0.16 0.52]</td><td></td><td>0.41</td><td>0.39</td><td>0.38</td><td>[0.15 0.69]</td><td></td><td>0.36</td><td>0.35</td><td>0.34</td><td>[0.15 0.63]</td><td></td><td>0.34</td><td>0.33</td><td>0.32</td><td>[0.2 0.54]</td></tr>
+<tr><td>s279</td><td></td><td>0.35</td><td>0.35</td><td>0.34</td><td>[0.16 0.53]</td><td></td><td>0.41</td><td>0.39</td><td>0.38</td><td>[0.15 0.69]</td><td></td><td>0.36</td><td>0.35</td><td>0.34</td><td>[0.15 0.63]</td><td></td><td>0.34</td><td>0.33</td><td>0.32</td><td>[0.2 0.54]</td></tr>
+<tr><td>s480</td><td></td><td>0.36</td><td>0.35</td><td>0.34</td><td>[0.15 0.53]</td><td></td><td>0.41</td><td>0.39</td><td>0.38</td><td>[0.15 0.69]</td><td></td><td>0.36</td><td>0.35</td><td>0.34</td><td>[0.15 0.63]</td><td></td><td>0.34</td><td>0.33</td><td>0.32</td><td>[0.2 0.54]</td></tr>
+<tr><td><strong>ALL SITES</strong></td><td></td><td><strong>0.35</strong></td><td><strong>0.35</strong></td><td><strong>0.34</strong></td><td><strong>[0.15 0.53]</strong></td><td></td><td><strong>0.41</strong></td><td><strong>0.39</strong></td><td><strong>0.38</strong></td><td><strong>[0.15 0.69]</strong></td><td></td><td><strong>0.36</strong></td><td><strong>0.35</strong></td><td><strong>0.34</strong></td><td><strong>[0.15 0.63]</strong></td><td></td><td><strong>0.34</strong></td><td><strong>0.33</strong></td><td><strong>0.32</strong></td><td><strong>[0.2 0.54]</strong></td></tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr><th>3s</th><th>5s</th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/within_event_50km_3s_hist.png" alt="3s" /></td><td><img src="resources/within_event_50km_5s_hist.png" alt="5s" /></td></tr>
+<tr><td>7.5s</td><td>10s</td></tr>
+<tr><td><img src="resources/within_event_50km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_50km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
 <h2 id="between-events-single-path-variability">Between-events, single-path Variability</h2>
@@ -281,8 +376,8 @@ img {
 <ul>
 <li>Site <em>[10 unique]</em></li>
 <li>Joyner-Boore Distance <em>[2 unique]</em></li>
-<li>Rupture Strike (Aki &amp; Richards 1980 convention) <em>[36 unique]</em></li>
-<li>Path (from site to rupture centroid) <em>[4 unique]</em></li>
+<li>Rupture Strike <em>[36 unique]</em></li>
+<li>Path <em>[4 unique]</em></li>
 </ul>
 <p>and the following quantities vary:</p>
 <ul>
@@ -294,20 +389,30 @@ img {
 <p><img src="resources/between_events_single_path_20km_std_dev.png" alt="Between-events, single-path Variability" /></p>
 <table>
 <thead>
-<tr><th>Site</th><th>3s Std. Dev.</th><th>3s Residual Range</th><th>5s Std. Dev.</th><th>5s Residual Range</th><th>7.5s Std. Dev.</th><th>7.5s Residual Range</th><th>10s Std. Dev.</th><th>10s Residual Range</th></tr>
+<tr><th>Site</th><th>3s τ<sub>0</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s τ<sub>0</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s τ<sub>0</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s τ<sub>0</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td>LAPD</td><td>0.41</td><td>[-1.38 1.26]</td><td>0.41</td><td>[-1.28 1.43]</td><td>0.41</td><td>[-1.43 1.15]</td><td>0.37</td><td>[-1.22 1.12]</td></tr>
-<tr><td>PAS</td><td>0.41</td><td>[-1.35 1.26]</td><td>0.41</td><td>[-1.26 1.43]</td><td>0.41</td><td>[-1.45 1.15]</td><td>0.37</td><td>[-1.22 1.12]</td></tr>
-<tr><td>SBSM</td><td>0.41</td><td>[-1.37 1.26]</td><td>0.41</td><td>[-1.28 1.43]</td><td>0.41</td><td>[-1.45 1.15]</td><td>0.37</td><td>[-1.22 1.12]</td></tr>
-<tr><td>SMCA</td><td>0.41</td><td>[-1.36 1.26]</td><td>0.41</td><td>[-1.28 1.43]</td><td>0.41</td><td>[-1.43 1.15]</td><td>0.37</td><td>[-1.22 1.12]</td></tr>
-<tr><td>STNI</td><td>0.41</td><td>[-1.35 1.26]</td><td>0.41</td><td>[-1.28 1.43]</td><td>0.41</td><td>[-1.44 1.14]</td><td>0.37</td><td>[-1.22 1.12]</td></tr>
-<tr><td>USC</td><td>0.41</td><td>[-1.36 1.26]</td><td>0.41</td><td>[-1.28 1.43]</td><td>0.41</td><td>[-1.45 1.15]</td><td>0.37</td><td>[-1.22 1.12]</td></tr>
-<tr><td>WNGC</td><td>0.41</td><td>[-1.37 1.26]</td><td>0.41</td><td>[-1.28 1.43]</td><td>0.41</td><td>[-1.44 1.14]</td><td>0.37</td><td>[-1.22 1.12]</td></tr>
-<tr><td>s119</td><td>0.41</td><td>[-1.36 1.26]</td><td>0.41</td><td>[-1.28 1.43]</td><td>0.41</td><td>[-1.41 1.15]</td><td>0.37</td><td>[-1.2 1.13]</td></tr>
-<tr><td>s279</td><td>0.41</td><td>[-1.36 1.26]</td><td>0.41</td><td>[-1.28 1.43]</td><td>0.41</td><td>[-1.42 1.15]</td><td>0.37</td><td>[-1.22 1.12]</td></tr>
-<tr><td>s480</td><td>0.41</td><td>[-1.37 1.26]</td><td>0.41</td><td>[-1.27 1.43]</td><td>0.41</td><td>[-1.44 1.15]</td><td>0.37</td><td>[-1.21 1.12]</td></tr>
-<tr><td><strong>ALL SITES</strong></td><td><strong>0.41</strong></td><td><strong>[-1.38 1.26]</strong></td><td><strong>0.41</strong></td><td><strong>[-1.28 1.43]</strong></td><td><strong>0.41</strong></td><td><strong>[-1.45 1.15]</strong></td><td><strong>0.37</strong></td><td><strong>[-1.22 1.13]</strong></td></tr>
+<tr><td>LAPD</td><td></td><td>0.41</td><td>0.41</td><td>0.42</td><td>[0.34 0.48]</td><td></td><td>0.41</td><td>0.42</td><td>0.41</td><td>[0.33 0.48]</td><td></td><td>0.41</td><td>0.41</td><td>0.41</td><td>[0.36 0.45]</td><td></td><td>0.37</td><td>0.37</td><td>0.37</td><td>[0.34 0.41]</td></tr>
+<tr><td>PAS</td><td></td><td>0.41</td><td>0.41</td><td>0.42</td><td>[0.34 0.48]</td><td></td><td>0.41</td><td>0.42</td><td>0.41</td><td>[0.33 0.48]</td><td></td><td>0.41</td><td>0.41</td><td>0.41</td><td>[0.36 0.45]</td><td></td><td>0.37</td><td>0.37</td><td>0.37</td><td>[0.34 0.41]</td></tr>
+<tr><td>SBSM</td><td></td><td>0.41</td><td>0.41</td><td>0.42</td><td>[0.34 0.49]</td><td></td><td>0.41</td><td>0.42</td><td>0.41</td><td>[0.33 0.48]</td><td></td><td>0.41</td><td>0.41</td><td>0.41</td><td>[0.36 0.45]</td><td></td><td>0.37</td><td>0.37</td><td>0.37</td><td>[0.34 0.41]</td></tr>
+<tr><td>SMCA</td><td></td><td>0.41</td><td>0.41</td><td>0.42</td><td>[0.34 0.48]</td><td></td><td>0.41</td><td>0.42</td><td>0.41</td><td>[0.33 0.48]</td><td></td><td>0.41</td><td>0.41</td><td>0.41</td><td>[0.36 0.45]</td><td></td><td>0.37</td><td>0.37</td><td>0.37</td><td>[0.34 0.41]</td></tr>
+<tr><td>STNI</td><td></td><td>0.41</td><td>0.41</td><td>0.42</td><td>[0.34 0.48]</td><td></td><td>0.41</td><td>0.42</td><td>0.41</td><td>[0.33 0.48]</td><td></td><td>0.41</td><td>0.41</td><td>0.41</td><td>[0.36 0.45]</td><td></td><td>0.37</td><td>0.37</td><td>0.37</td><td>[0.34 0.41]</td></tr>
+<tr><td>USC</td><td></td><td>0.41</td><td>0.41</td><td>0.42</td><td>[0.34 0.48]</td><td></td><td>0.41</td><td>0.42</td><td>0.41</td><td>[0.33 0.48]</td><td></td><td>0.41</td><td>0.41</td><td>0.41</td><td>[0.36 0.45]</td><td></td><td>0.37</td><td>0.37</td><td>0.37</td><td>[0.34 0.41]</td></tr>
+<tr><td>WNGC</td><td></td><td>0.41</td><td>0.41</td><td>0.42</td><td>[0.34 0.48]</td><td></td><td>0.41</td><td>0.42</td><td>0.41</td><td>[0.33 0.48]</td><td></td><td>0.41</td><td>0.41</td><td>0.41</td><td>[0.36 0.45]</td><td></td><td>0.37</td><td>0.37</td><td>0.37</td><td>[0.34 0.41]</td></tr>
+<tr><td>s119</td><td></td><td>0.41</td><td>0.41</td><td>0.42</td><td>[0.34 0.48]</td><td></td><td>0.41</td><td>0.42</td><td>0.41</td><td>[0.33 0.48]</td><td></td><td>0.41</td><td>0.41</td><td>0.41</td><td>[0.36 0.45]</td><td></td><td>0.37</td><td>0.37</td><td>0.37</td><td>[0.34 0.41]</td></tr>
+<tr><td>s279</td><td></td><td>0.41</td><td>0.41</td><td>0.42</td><td>[0.34 0.48]</td><td></td><td>0.41</td><td>0.42</td><td>0.41</td><td>[0.33 0.48]</td><td></td><td>0.41</td><td>0.41</td><td>0.41</td><td>[0.36 0.45]</td><td></td><td>0.37</td><td>0.37</td><td>0.37</td><td>[0.34 0.41]</td></tr>
+<tr><td>s480</td><td></td><td>0.41</td><td>0.41</td><td>0.42</td><td>[0.34 0.48]</td><td></td><td>0.41</td><td>0.42</td><td>0.41</td><td>[0.33 0.48]</td><td></td><td>0.41</td><td>0.41</td><td>0.41</td><td>[0.36 0.45]</td><td></td><td>0.37</td><td>0.37</td><td>0.37</td><td>[0.34 0.41]</td></tr>
+<tr><td><strong>ALL SITES</strong></td><td></td><td><strong>0.41</strong></td><td><strong>0.41</strong></td><td><strong>0.42</strong></td><td><strong>[0.34 0.49]</strong></td><td></td><td><strong>0.41</strong></td><td><strong>0.42</strong></td><td><strong>0.41</strong></td><td><strong>[0.33 0.48]</strong></td><td></td><td><strong>0.41</strong></td><td><strong>0.41</strong></td><td><strong>0.41</strong></td><td><strong>[0.36 0.45]</strong></td><td></td><td><strong>0.37</strong></td><td><strong>0.37</strong></td><td><strong>0.37</strong></td><td><strong>[0.34 0.41]</strong></td></tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr><th>3s</th><th>5s</th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/between_events_single_path_20km_3s_hist.png" alt="3s" /></td><td><img src="resources/between_events_single_path_20km_5s_hist.png" alt="5s" /></td></tr>
+<tr><td>7.5s</td><td>10s</td></tr>
+<tr><td><img src="resources/between_events_single_path_20km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/between_events_single_path_20km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
 <h3 id="500-km-between-events-single-path-results">50.0 km Between-events, single-path Results</h3>
@@ -315,20 +420,30 @@ img {
 <p><img src="resources/between_events_single_path_50km_std_dev.png" alt="Between-events, single-path Variability" /></p>
 <table>
 <thead>
-<tr><th>Site</th><th>3s Std. Dev.</th><th>3s Residual Range</th><th>5s Std. Dev.</th><th>5s Residual Range</th><th>7.5s Std. Dev.</th><th>7.5s Residual Range</th><th>10s Std. Dev.</th><th>10s Residual Range</th></tr>
+<tr><th>Site</th><th>3s τ<sub>0</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s τ<sub>0</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s τ<sub>0</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s τ<sub>0</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td>LAPD</td><td>0.45</td><td>[-1.44 1.49]</td><td>0.47</td><td>[-1.48 1.62]</td><td>0.39</td><td>[-1.41 1.06]</td><td>0.39</td><td>[-1.24 0.97]</td></tr>
-<tr><td>PAS</td><td>0.45</td><td>[-1.44 1.49]</td><td>0.47</td><td>[-1.49 1.62]</td><td>0.39</td><td>[-1.41 1.06]</td><td>0.39</td><td>[-1.24 0.97]</td></tr>
-<tr><td>SBSM</td><td>0.45</td><td>[-1.46 1.49]</td><td>0.47</td><td>[-1.48 1.62]</td><td>0.39</td><td>[-1.4 1.06]</td><td>0.39</td><td>[-1.24 0.97]</td></tr>
-<tr><td>SMCA</td><td>0.45</td><td>[-1.44 1.49]</td><td>0.47</td><td>[-1.46 1.62]</td><td>0.39</td><td>[-1.41 1.06]</td><td>0.39</td><td>[-1.25 0.97]</td></tr>
-<tr><td>STNI</td><td>0.45</td><td>[-1.44 1.49]</td><td>0.47</td><td>[-1.48 1.62]</td><td>0.39</td><td>[-1.41 1.06]</td><td>0.39</td><td>[-1.25 0.97]</td></tr>
-<tr><td>USC</td><td>0.45</td><td>[-1.44 1.49]</td><td>0.47</td><td>[-1.46 1.62]</td><td>0.39</td><td>[-1.41 1.06]</td><td>0.39</td><td>[-1.25 0.97]</td></tr>
-<tr><td>WNGC</td><td>0.45</td><td>[-1.44 1.49]</td><td>0.47</td><td>[-1.49 1.62]</td><td>0.39</td><td>[-1.41 1.06]</td><td>0.39</td><td>[-1.24 0.97]</td></tr>
-<tr><td>s119</td><td>0.45</td><td>[-1.44 1.49]</td><td>0.47</td><td>[-1.47 1.62]</td><td>0.39</td><td>[-1.41 1.06]</td><td>0.39</td><td>[-1.25 0.97]</td></tr>
-<tr><td>s279</td><td>0.45</td><td>[-1.44 1.49]</td><td>0.47</td><td>[-1.47 1.62]</td><td>0.39</td><td>[-1.41 1.06]</td><td>0.39</td><td>[-1.24 0.97]</td></tr>
-<tr><td>s480</td><td>0.45</td><td>[-1.47 1.48]</td><td>0.47</td><td>[-1.49 1.62]</td><td>0.39</td><td>[-1.41 1.06]</td><td>0.39</td><td>[-1.24 0.97]</td></tr>
-<tr><td><strong>ALL SITES</strong></td><td><strong>0.45</strong></td><td><strong>[-1.47 1.49]</strong></td><td><strong>0.47</strong></td><td><strong>[-1.49 1.62]</strong></td><td><strong>0.39</strong></td><td><strong>[-1.41 1.06]</strong></td><td><strong>0.39</strong></td><td><strong>[-1.25 0.97]</strong></td></tr>
+<tr><td>LAPD</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.37 0.53]</td><td></td><td>0.47</td><td>0.47</td><td>0.47</td><td>[0.4 0.52]</td><td></td><td>0.39</td><td>0.39</td><td>0.4</td><td>[0.31 0.45]</td><td></td><td>0.39</td><td>0.39</td><td>0.39</td><td>[0.34 0.44]</td></tr>
+<tr><td>PAS</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.37 0.53]</td><td></td><td>0.47</td><td>0.47</td><td>0.47</td><td>[0.4 0.52]</td><td></td><td>0.39</td><td>0.39</td><td>0.4</td><td>[0.31 0.45]</td><td></td><td>0.39</td><td>0.39</td><td>0.39</td><td>[0.34 0.44]</td></tr>
+<tr><td>SBSM</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.37 0.53]</td><td></td><td>0.47</td><td>0.47</td><td>0.47</td><td>[0.4 0.52]</td><td></td><td>0.39</td><td>0.39</td><td>0.4</td><td>[0.31 0.45]</td><td></td><td>0.39</td><td>0.39</td><td>0.39</td><td>[0.34 0.44]</td></tr>
+<tr><td>SMCA</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.37 0.53]</td><td></td><td>0.47</td><td>0.47</td><td>0.47</td><td>[0.4 0.52]</td><td></td><td>0.39</td><td>0.39</td><td>0.4</td><td>[0.31 0.45]</td><td></td><td>0.39</td><td>0.39</td><td>0.39</td><td>[0.34 0.44]</td></tr>
+<tr><td>STNI</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.37 0.53]</td><td></td><td>0.47</td><td>0.47</td><td>0.47</td><td>[0.4 0.52]</td><td></td><td>0.39</td><td>0.39</td><td>0.4</td><td>[0.31 0.45]</td><td></td><td>0.39</td><td>0.39</td><td>0.39</td><td>[0.34 0.44]</td></tr>
+<tr><td>USC</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.37 0.53]</td><td></td><td>0.47</td><td>0.47</td><td>0.47</td><td>[0.4 0.52]</td><td></td><td>0.39</td><td>0.39</td><td>0.4</td><td>[0.31 0.45]</td><td></td><td>0.39</td><td>0.39</td><td>0.39</td><td>[0.34 0.44]</td></tr>
+<tr><td>WNGC</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.37 0.53]</td><td></td><td>0.47</td><td>0.47</td><td>0.47</td><td>[0.4 0.52]</td><td></td><td>0.39</td><td>0.39</td><td>0.4</td><td>[0.31 0.45]</td><td></td><td>0.39</td><td>0.39</td><td>0.39</td><td>[0.34 0.44]</td></tr>
+<tr><td>s119</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.37 0.53]</td><td></td><td>0.47</td><td>0.47</td><td>0.47</td><td>[0.4 0.52]</td><td></td><td>0.39</td><td>0.39</td><td>0.4</td><td>[0.31 0.45]</td><td></td><td>0.39</td><td>0.39</td><td>0.39</td><td>[0.34 0.44]</td></tr>
+<tr><td>s279</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.37 0.53]</td><td></td><td>0.47</td><td>0.47</td><td>0.47</td><td>[0.4 0.52]</td><td></td><td>0.39</td><td>0.39</td><td>0.4</td><td>[0.31 0.45]</td><td></td><td>0.39</td><td>0.39</td><td>0.39</td><td>[0.34 0.44]</td></tr>
+<tr><td>s480</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.37 0.53]</td><td></td><td>0.47</td><td>0.47</td><td>0.47</td><td>[0.4 0.52]</td><td></td><td>0.39</td><td>0.39</td><td>0.4</td><td>[0.31 0.45]</td><td></td><td>0.39</td><td>0.39</td><td>0.39</td><td>[0.34 0.44]</td></tr>
+<tr><td><strong>ALL SITES</strong></td><td></td><td><strong>0.45</strong></td><td><strong>0.45</strong></td><td><strong>0.45</strong></td><td><strong>[0.37 0.53]</strong></td><td></td><td><strong>0.47</strong></td><td><strong>0.47</strong></td><td><strong>0.47</strong></td><td><strong>[0.4 0.52]</strong></td><td></td><td><strong>0.39</strong></td><td><strong>0.39</strong></td><td><strong>0.4</strong></td><td><strong>[0.31 0.45]</strong></td><td></td><td><strong>0.39</strong></td><td><strong>0.39</strong></td><td><strong>0.39</strong></td><td><strong>[0.34 0.44]</strong></td></tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr><th>3s</th><th>5s</th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/between_events_single_path_50km_3s_hist.png" alt="3s" /></td><td><img src="resources/between_events_single_path_50km_5s_hist.png" alt="5s" /></td></tr>
+<tr><td>7.5s</td><td>10s</td></tr>
+<tr><td><img src="resources/between_events_single_path_50km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/between_events_single_path_50km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
 <h2 id="between-events-variability">Between-events Variability</h2>
@@ -343,8 +458,8 @@ img {
 <p>and the following quantities vary:</p>
 <ul>
 <li>Rupture <em>[75 unique]</em></li>
-<li>Rupture Strike (Aki &amp; Richards 1980 convention) <em>[36 unique]</em></li>
-<li>Path (from site to rupture centroid) <em>[4 unique]</em></li>
+<li>Rupture Strike <em>[36 unique]</em></li>
+<li>Path <em>[4 unique]</em></li>
 </ul>
 <p>Standard deviation is computed and tabulated separately for each site and distance, then a total standard deviation is computed from all site and distances and reported in the &quot;<strong>ALL SITES</strong>&quot; row.</p>
 <h3 id="200-km-between-events-results">20.0 km Between-events Results</h3>
@@ -352,20 +467,30 @@ img {
 <p><img src="resources/between_events_20km_std_dev.png" alt="Between-events Variability" /></p>
 <table>
 <thead>
-<tr><th>Site</th><th>3s Std. Dev.</th><th>3s Residual Range</th><th>5s Std. Dev.</th><th>5s Residual Range</th><th>7.5s Std. Dev.</th><th>7.5s Residual Range</th><th>10s Std. Dev.</th><th>10s Residual Range</th></tr>
+<tr><th>Site</th><th>3s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td>LAPD</td><td>0.46</td><td>[-1.52 1.43]</td><td>0.48</td><td>[-1.62 1.33]</td><td>0.49</td><td>[-1.67 1.27]</td><td>0.45</td><td>[-1.54 1.22]</td></tr>
-<tr><td>PAS</td><td>0.46</td><td>[-1.52 1.43]</td><td>0.48</td><td>[-1.59 1.33]</td><td>0.49</td><td>[-1.67 1.27]</td><td>0.45</td><td>[-1.54 1.22]</td></tr>
-<tr><td>SBSM</td><td>0.46</td><td>[-1.53 1.43]</td><td>0.48</td><td>[-1.61 1.33]</td><td>0.49</td><td>[-1.68 1.27]</td><td>0.45</td><td>[-1.57 1.22]</td></tr>
-<tr><td>SMCA</td><td>0.46</td><td>[-1.5 1.43]</td><td>0.48</td><td>[-1.61 1.33]</td><td>0.49</td><td>[-1.68 1.27]</td><td>0.45</td><td>[-1.53 1.22]</td></tr>
-<tr><td>STNI</td><td>0.46</td><td>[-1.52 1.43]</td><td>0.48</td><td>[-1.61 1.33]</td><td>0.49</td><td>[-1.67 1.27]</td><td>0.45</td><td>[-1.54 1.22]</td></tr>
-<tr><td>USC</td><td>0.46</td><td>[-1.52 1.43]</td><td>0.48</td><td>[-1.61 1.33]</td><td>0.49</td><td>[-1.68 1.27]</td><td>0.45</td><td>[-1.54 1.22]</td></tr>
-<tr><td>WNGC</td><td>0.46</td><td>[-1.52 1.43]</td><td>0.48</td><td>[-1.61 1.33]</td><td>0.49</td><td>[-1.67 1.27]</td><td>0.45</td><td>[-1.54 1.22]</td></tr>
-<tr><td>s119</td><td>0.46</td><td>[-1.49 1.43]</td><td>0.48</td><td>[-1.62 1.33]</td><td>0.49</td><td>[-1.68 1.27]</td><td>0.45</td><td>[-1.53 1.22]</td></tr>
-<tr><td>s279</td><td>0.46</td><td>[-1.52 1.43]</td><td>0.48</td><td>[-1.62 1.33]</td><td>0.49</td><td>[-1.68 1.27]</td><td>0.45</td><td>[-1.53 1.22]</td></tr>
-<tr><td>s480</td><td>0.46</td><td>[-1.52 1.43]</td><td>0.48</td><td>[-1.61 1.33]</td><td>0.49</td><td>[-1.68 1.27]</td><td>0.45</td><td>[-1.54 1.22]</td></tr>
-<tr><td><strong>ALL SITES</strong></td><td><strong>0.46</strong></td><td><strong>[-1.53 1.43]</strong></td><td><strong>0.48</strong></td><td><strong>[-1.62 1.33]</strong></td><td><strong>0.49</strong></td><td><strong>[-1.68 1.27]</strong></td><td><strong>0.45</strong></td><td><strong>[-1.57 1.22]</strong></td></tr>
+<tr><td>LAPD</td><td></td><td>0.46</td><td>0.46</td><td>0.46</td><td>[0.46 0.46]</td><td></td><td>0.48</td><td>0.48</td><td>0.48</td><td>[0.48 0.48]</td><td></td><td>0.49</td><td>0.49</td><td>0.49</td><td>[0.49 0.49]</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.45 0.45]</td></tr>
+<tr><td>PAS</td><td></td><td>0.46</td><td>0.46</td><td>0.46</td><td>[0.46 0.46]</td><td></td><td>0.48</td><td>0.48</td><td>0.48</td><td>[0.48 0.48]</td><td></td><td>0.49</td><td>0.49</td><td>0.49</td><td>[0.49 0.49]</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.45 0.45]</td></tr>
+<tr><td>SBSM</td><td></td><td>0.46</td><td>0.46</td><td>0.46</td><td>[0.46 0.46]</td><td></td><td>0.48</td><td>0.48</td><td>0.48</td><td>[0.48 0.48]</td><td></td><td>0.49</td><td>0.49</td><td>0.49</td><td>[0.49 0.49]</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.45 0.45]</td></tr>
+<tr><td>SMCA</td><td></td><td>0.46</td><td>0.46</td><td>0.46</td><td>[0.46 0.46]</td><td></td><td>0.48</td><td>0.48</td><td>0.48</td><td>[0.48 0.48]</td><td></td><td>0.49</td><td>0.49</td><td>0.49</td><td>[0.49 0.49]</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.45 0.45]</td></tr>
+<tr><td>STNI</td><td></td><td>0.46</td><td>0.46</td><td>0.46</td><td>[0.46 0.46]</td><td></td><td>0.48</td><td>0.48</td><td>0.48</td><td>[0.48 0.48]</td><td></td><td>0.49</td><td>0.49</td><td>0.49</td><td>[0.49 0.49]</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.45 0.45]</td></tr>
+<tr><td>USC</td><td></td><td>0.46</td><td>0.46</td><td>0.46</td><td>[0.46 0.46]</td><td></td><td>0.48</td><td>0.48</td><td>0.48</td><td>[0.48 0.48]</td><td></td><td>0.49</td><td>0.49</td><td>0.49</td><td>[0.49 0.49]</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.45 0.45]</td></tr>
+<tr><td>WNGC</td><td></td><td>0.46</td><td>0.46</td><td>0.46</td><td>[0.46 0.46]</td><td></td><td>0.48</td><td>0.48</td><td>0.48</td><td>[0.48 0.48]</td><td></td><td>0.49</td><td>0.49</td><td>0.49</td><td>[0.49 0.49]</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.45 0.45]</td></tr>
+<tr><td>s119</td><td></td><td>0.46</td><td>0.46</td><td>0.46</td><td>[0.46 0.46]</td><td></td><td>0.48</td><td>0.48</td><td>0.48</td><td>[0.48 0.48]</td><td></td><td>0.49</td><td>0.49</td><td>0.49</td><td>[0.49 0.49]</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.45 0.45]</td></tr>
+<tr><td>s279</td><td></td><td>0.46</td><td>0.46</td><td>0.46</td><td>[0.46 0.46]</td><td></td><td>0.48</td><td>0.48</td><td>0.48</td><td>[0.48 0.48]</td><td></td><td>0.49</td><td>0.49</td><td>0.49</td><td>[0.49 0.49]</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.45 0.45]</td></tr>
+<tr><td>s480</td><td></td><td>0.46</td><td>0.46</td><td>0.46</td><td>[0.46 0.46]</td><td></td><td>0.48</td><td>0.48</td><td>0.48</td><td>[0.48 0.48]</td><td></td><td>0.49</td><td>0.49</td><td>0.49</td><td>[0.49 0.49]</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.45 0.45]</td></tr>
+<tr><td><strong>ALL SITES</strong></td><td></td><td><strong>0.46</strong></td><td><strong>0.46</strong></td><td><strong>0.46</strong></td><td><strong>[0.46 0.46]</strong></td><td></td><td><strong>0.48</strong></td><td><strong>0.48</strong></td><td><strong>0.48</strong></td><td><strong>[0.48 0.48]</strong></td><td></td><td><strong>0.49</strong></td><td><strong>0.49</strong></td><td><strong>0.49</strong></td><td><strong>[0.49 0.49]</strong></td><td></td><td><strong>0.45</strong></td><td><strong>0.45</strong></td><td><strong>0.45</strong></td><td><strong>[0.45 0.45]</strong></td></tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr><th>3s</th><th>5s</th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/between_events_20km_3s_hist.png" alt="3s" /></td><td><img src="resources/between_events_20km_5s_hist.png" alt="5s" /></td></tr>
+<tr><td>7.5s</td><td>10s</td></tr>
+<tr><td><img src="resources/between_events_20km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/between_events_20km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
 <h3 id="500-km-between-events-results">50.0 km Between-events Results</h3>
@@ -373,20 +498,30 @@ img {
 <p><img src="resources/between_events_50km_std_dev.png" alt="Between-events Variability" /></p>
 <table>
 <thead>
-<tr><th>Site</th><th>3s Std. Dev.</th><th>3s Residual Range</th><th>5s Std. Dev.</th><th>5s Residual Range</th><th>7.5s Std. Dev.</th><th>7.5s Residual Range</th><th>10s Std. Dev.</th><th>10s Residual Range</th></tr>
+<tr><th>Site</th><th>3s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td>LAPD</td><td>0.5</td><td>[-1.5 1.45]</td><td>0.53</td><td>[-1.74 1.49]</td><td>0.46</td><td>[-1.65 1.18]</td><td>0.45</td><td>[-1.43 1.27]</td></tr>
-<tr><td>PAS</td><td>0.5</td><td>[-1.52 1.45]</td><td>0.53</td><td>[-1.77 1.5]</td><td>0.46</td><td>[-1.65 1.18]</td><td>0.45</td><td>[-1.43 1.27]</td></tr>
-<tr><td>SBSM</td><td>0.5</td><td>[-1.49 1.45]</td><td>0.53</td><td>[-1.77 1.5]</td><td>0.46</td><td>[-1.64 1.18]</td><td>0.45</td><td>[-1.42 1.27]</td></tr>
-<tr><td>SMCA</td><td>0.5</td><td>[-1.5 1.45]</td><td>0.53</td><td>[-1.74 1.5]</td><td>0.46</td><td>[-1.65 1.19]</td><td>0.45</td><td>[-1.43 1.27]</td></tr>
-<tr><td>STNI</td><td>0.5</td><td>[-1.52 1.45]</td><td>0.53</td><td>[-1.77 1.5]</td><td>0.46</td><td>[-1.65 1.18]</td><td>0.45</td><td>[-1.42 1.27]</td></tr>
-<tr><td>USC</td><td>0.5</td><td>[-1.52 1.45]</td><td>0.53</td><td>[-1.75 1.5]</td><td>0.46</td><td>[-1.65 1.18]</td><td>0.45</td><td>[-1.43 1.27]</td></tr>
-<tr><td>WNGC</td><td>0.5</td><td>[-1.52 1.45]</td><td>0.53</td><td>[-1.77 1.5]</td><td>0.46</td><td>[-1.65 1.18]</td><td>0.45</td><td>[-1.43 1.27]</td></tr>
-<tr><td>s119</td><td>0.5</td><td>[-1.5 1.45]</td><td>0.53</td><td>[-1.74 1.5]</td><td>0.46</td><td>[-1.65 1.19]</td><td>0.45</td><td>[-1.43 1.27]</td></tr>
-<tr><td>s279</td><td>0.5</td><td>[-1.5 1.45]</td><td>0.53</td><td>[-1.74 1.5]</td><td>0.46</td><td>[-1.65 1.18]</td><td>0.45</td><td>[-1.43 1.27]</td></tr>
-<tr><td>s480</td><td>0.5</td><td>[-1.52 1.45]</td><td>0.53</td><td>[-1.77 1.5]</td><td>0.46</td><td>[-1.65 1.18]</td><td>0.45</td><td>[-1.43 1.27]</td></tr>
-<tr><td><strong>ALL SITES</strong></td><td><strong>0.5</strong></td><td><strong>[-1.52 1.45]</strong></td><td><strong>0.53</strong></td><td><strong>[-1.77 1.5]</strong></td><td><strong>0.46</strong></td><td><strong>[-1.65 1.19]</strong></td><td><strong>0.45</strong></td><td><strong>[-1.43 1.27]</strong></td></tr>
+<tr><td>LAPD</td><td></td><td>0.5</td><td>0.5</td><td>0.5</td><td>[0.5 0.5]</td><td></td><td>0.53</td><td>0.53</td><td>0.53</td><td>[0.53 0.53]</td><td></td><td>0.46</td><td>0.46</td><td>0.46</td><td>[0.46 0.46]</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.45 0.45]</td></tr>
+<tr><td>PAS</td><td></td><td>0.5</td><td>0.5</td><td>0.5</td><td>[0.5 0.5]</td><td></td><td>0.53</td><td>0.53</td><td>0.53</td><td>[0.53 0.53]</td><td></td><td>0.46</td><td>0.46</td><td>0.46</td><td>[0.46 0.46]</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.45 0.45]</td></tr>
+<tr><td>SBSM</td><td></td><td>0.5</td><td>0.5</td><td>0.5</td><td>[0.5 0.5]</td><td></td><td>0.53</td><td>0.53</td><td>0.53</td><td>[0.53 0.53]</td><td></td><td>0.46</td><td>0.46</td><td>0.46</td><td>[0.46 0.46]</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.45 0.45]</td></tr>
+<tr><td>SMCA</td><td></td><td>0.5</td><td>0.5</td><td>0.5</td><td>[0.5 0.5]</td><td></td><td>0.53</td><td>0.53</td><td>0.53</td><td>[0.53 0.53]</td><td></td><td>0.46</td><td>0.46</td><td>0.46</td><td>[0.46 0.46]</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.45 0.45]</td></tr>
+<tr><td>STNI</td><td></td><td>0.5</td><td>0.5</td><td>0.5</td><td>[0.5 0.5]</td><td></td><td>0.53</td><td>0.53</td><td>0.53</td><td>[0.53 0.53]</td><td></td><td>0.46</td><td>0.46</td><td>0.46</td><td>[0.46 0.46]</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.45 0.45]</td></tr>
+<tr><td>USC</td><td></td><td>0.5</td><td>0.5</td><td>0.5</td><td>[0.5 0.5]</td><td></td><td>0.53</td><td>0.53</td><td>0.53</td><td>[0.53 0.53]</td><td></td><td>0.46</td><td>0.46</td><td>0.46</td><td>[0.46 0.46]</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.45 0.45]</td></tr>
+<tr><td>WNGC</td><td></td><td>0.5</td><td>0.5</td><td>0.5</td><td>[0.5 0.5]</td><td></td><td>0.53</td><td>0.53</td><td>0.53</td><td>[0.53 0.53]</td><td></td><td>0.46</td><td>0.46</td><td>0.46</td><td>[0.46 0.46]</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.45 0.45]</td></tr>
+<tr><td>s119</td><td></td><td>0.5</td><td>0.5</td><td>0.5</td><td>[0.5 0.5]</td><td></td><td>0.53</td><td>0.53</td><td>0.53</td><td>[0.53 0.53]</td><td></td><td>0.46</td><td>0.46</td><td>0.46</td><td>[0.46 0.46]</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.45 0.45]</td></tr>
+<tr><td>s279</td><td></td><td>0.5</td><td>0.5</td><td>0.5</td><td>[0.5 0.5]</td><td></td><td>0.53</td><td>0.53</td><td>0.53</td><td>[0.53 0.53]</td><td></td><td>0.46</td><td>0.46</td><td>0.46</td><td>[0.46 0.46]</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.45 0.45]</td></tr>
+<tr><td>s480</td><td></td><td>0.5</td><td>0.5</td><td>0.5</td><td>[0.5 0.5]</td><td></td><td>0.53</td><td>0.53</td><td>0.53</td><td>[0.53 0.53]</td><td></td><td>0.46</td><td>0.46</td><td>0.46</td><td>[0.46 0.46]</td><td></td><td>0.45</td><td>0.45</td><td>0.45</td><td>[0.45 0.45]</td></tr>
+<tr><td><strong>ALL SITES</strong></td><td></td><td><strong>0.5</strong></td><td><strong>0.5</strong></td><td><strong>0.5</strong></td><td><strong>[0.5 0.5]</strong></td><td></td><td><strong>0.53</strong></td><td><strong>0.53</strong></td><td><strong>0.53</strong></td><td><strong>[0.53 0.53]</strong></td><td></td><td><strong>0.46</strong></td><td><strong>0.46</strong></td><td><strong>0.46</strong></td><td><strong>[0.46 0.46]</strong></td><td></td><td><strong>0.45</strong></td><td><strong>0.45</strong></td><td><strong>0.45</strong></td><td><strong>[0.45 0.45]</strong></td></tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr><th>3s</th><th>5s</th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/between_events_50km_3s_hist.png" alt="3s" /></td><td><img src="resources/between_events_50km_5s_hist.png" alt="5s" /></td></tr>
+<tr><td>7.5s</td><td>10s</td></tr>
+<tr><td><img src="resources/between_events_50km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/between_events_50km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
 <h2 id="site-to-site-variability">Site-to-site Variability</h2>
@@ -397,8 +532,8 @@ img {
 <ul>
 <li>Joyner-Boore Distance <em>[2 unique]</em></li>
 <li>Rupture <em>[75 unique]</em></li>
-<li>Rupture Strike (Aki &amp; Richards 1980 convention) <em>[36 unique]</em></li>
-<li>Path (from site to rupture centroid) <em>[4 unique]</em></li>
+<li>Rupture Strike <em>[36 unique]</em></li>
+<li>Path <em>[4 unique]</em></li>
 </ul>
 <p>and the following quantities vary:</p>
 <ul>
@@ -410,10 +545,20 @@ img {
 <p><img src="resources/site_to_site_20km_std_dev.png" alt="Site-to-site Variability" /></p>
 <table>
 <thead>
-<tr><th>3s Std. Dev.</th><th>3s Residual Range</th><th>5s Std. Dev.</th><th>5s Residual Range</th><th>7.5s Std. Dev.</th><th>7.5s Residual Range</th><th>10s Std. Dev.</th><th>10s Residual Range</th></tr>
+<tr><th>3s φ<sub>S2S</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>S2S</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>S2S</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>S2S</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td>0.01</td><td>[-0.11 0.11]</td><td>0.01</td><td>[-0.06 0.07]</td><td>0</td><td>[-0.06 0.07]</td><td>0</td><td>[-0.04 0.06]</td></tr>
+<tr><td></td><td>0.01</td><td>0.01</td><td>0.01</td><td>[0 0.06]</td><td></td><td>0.01</td><td>0.01</td><td>0</td><td>[0 0.03]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.04]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.02]</td></tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr><th>3s</th><th>5s</th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/site_to_site_20km_3s_hist.png" alt="3s" /></td><td><img src="resources/site_to_site_20km_5s_hist.png" alt="5s" /></td></tr>
+<tr><td>7.5s</td><td>10s</td></tr>
+<tr><td><img src="resources/site_to_site_20km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/site_to_site_20km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
 <h3 id="500-km-site-to-site-results">50.0 km Site-to-site Results</h3>
@@ -421,10 +566,20 @@ img {
 <p><img src="resources/site_to_site_50km_std_dev.png" alt="Site-to-site Variability" /></p>
 <table>
 <thead>
-<tr><th>3s Std. Dev.</th><th>3s Residual Range</th><th>5s Std. Dev.</th><th>5s Residual Range</th><th>7.5s Std. Dev.</th><th>7.5s Residual Range</th><th>10s Std. Dev.</th><th>10s Residual Range</th></tr>
+<tr><th>3s φ<sub>S2S</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>S2S</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>S2S</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>S2S</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td>0.01</td><td>[-0.27 0.19]</td><td>0.01</td><td>[-0.09 0.1]</td><td>0</td><td>[-0.04 0.05]</td><td>0</td><td>[-0.04 0.04]</td></tr>
+<tr><td></td><td>0.01</td><td>0.01</td><td>0</td><td>[0 0.12]</td><td></td><td>0.01</td><td>0.01</td><td>0</td><td>[0 0.05]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.02]</td><td></td><td>0</td><td>0</td><td>0</td><td>[0 0.02]</td></tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr><th>3s</th><th>5s</th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/site_to_site_50km_3s_hist.png" alt="3s" /></td><td><img src="resources/site_to_site_50km_5s_hist.png" alt="5s" /></td></tr>
+<tr><td>7.5s</td><td>10s</td></tr>
+<tr><td><img src="resources/site_to_site_50km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/site_to_site_50km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
 </body>

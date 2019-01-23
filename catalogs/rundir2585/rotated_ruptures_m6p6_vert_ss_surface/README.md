@@ -1,10 +1,18 @@
 # Bruce 2585 Rotated Rupture Variability, M6.6 SS
 
-[Catalog Details](../#bruce-2585)
+This exercise uses translations and rotations to estimate ground motion variability from different sources. We begin by selecting a subset of similar ruptures which match a set of criteria (in this case, M6.6, Vertical Strike-Slip with Surface Rupture). Each rupture is then reoriented such that its strike (following the Aki & Richards 1980 convention) is 0 degrees (due North, dipping to the right for normal or reverse ruptures). For each site, ruptures are translated such that their centroid is directly North of the site, and their Joyner-Boore distance  (rJB) is as specified (we consider 2 distance[s] here).
+
+We then  perform various rotations. We rotate the rupture in place around its centroid, holding the site-to-source centroid path and rJB constant (henceforth 'Rupture Strike'). We also rotate ruptures around the site, holding rJB and source orientation relative to the site constant but sampling different various paths (henceforth 'Path'). We do this for each unique combination of Rupture Strike, Path, Joyner-Boore Distance, Site, and Rupture.
+
+*NOTE: This page uses the SCEC BBP to simulate a 1-dimensional velocity structure. Thus we expect no path variability, and plots of path variabilitiy are included only as verification of the method.*
+
+[RSQSim Catalog Details](../#bruce-2585)
 
 ## Table Of Contents
 * [Rupture Rotation Parameters](#rupture-rotation-parameters)
+* [M6.6 SS RSQSim Rupture Match Criteria](#m66-ss-rsqsim-rupture-match-criteria)
 * [Sites](#sites)
+* [Result Summary Table](#result-summary-table)
 * [Path-to-path Variability](#path-to-path-variability)
   * [Path-to-path Variability Methodology](#path-to-path-variability-methodology)
   * [20.0 km Path-to-path Results](#200-km-path-to-path-results)
@@ -31,13 +39,25 @@
   * [50.0 km Site-to-site Results](#500-km-site-to-site-results)
 ## Rupture Rotation Parameters
 
-| Events | 100 |
-|-----|-----|
-| Sites | 10 |
-| Source Rotation Azimuths | 36 |
-| Site-To-Source Path Azimuths | 4 |
-| Source-Site Distance[s] | 20.0,50.0 km |
-| Total # Simulations | 288000 |
+| Quantity | Variations | Description |
+|-----|-----|-----|
+| Rupture | 100 | Unique (but similar in faulting style and magnitude) ruptures which match the given scenario. |
+| Site | 10 | Unique site locations. If 3-d, each will have unique velocity profiles. |
+| Rupture Strike | 36 | Rupture strike conforming to the Aki & Richards (1980) convention, where dipping faults dip to the right of the rupture. If also rotated about a site, this azimuth is relative to the path. |
+| Path | 4 | Path from the site to the centroid of the rupture, in azimuthal degrees (0 is North) |
+| Joyner-Boore Distance | 20.0,50.0 km | Shortest horizontal distance between the site and the surface projection of the rupture. |
+| **Total # Simulations** | 288000 | Total number of combinations of the above. |
+
+## M6.6 SS RSQSim Rupture Match Criteria
+*[(top)](#table-of-contents)*
+
+We condisder 100 events in the catalog match the following criteria:
+
+* M=[6.55,6.65]
+* Ztor=[0,1]
+* Rake=[-180,-170] or [-10,10] or [170,180]
+* Dip=90
+* Linear rupture (max 0.5km deviation from ideal)
 
 ## Sites
 
@@ -53,6 +73,24 @@
 | s119 | *34.55314, -118.72826* | 863 | N/A | N/A |
 | s279 | *34.37809, -118.34757* | 863 | N/A | N/A |
 | s480 | *34.15755, -117.87389* | 863 | N/A | N/A |
+
+## Result Summary Table
+
+| Type | Notation | Distance | 3s Calc. Std. Dev. | 5s Calc. Std. Dev. | 7.5s Calc. Std. Dev. | 10s Calc. Std. Dev. |
+|-----|-----|-----|-----|-----|-----|-----|
+| Path-to-path | &phi;<sub>P2P</sub> | 20 km | 0 | 0 | 0 | 0 |
+| Path-to-path | &phi;<sub>P2P</sub> | 50 km | 0 | 0 | 0 | 0 |
+| Source-strike | &phi;<sub>s</sub> | 20 km | 0.37 | 0.4 | 0.31 | 0.23 |
+| Source-strike | &phi;<sub>s</sub> | 50 km | 0.45 | 0.48 | 0.51 | 0.53 |
+| Within-event | &phi; | 20 km | 0.37 | 0.4 | 0.31 | 0.23 |
+| Within-event | &phi; | 50 km | 0.45 | 0.48 | 0.51 | 0.53 |
+| Between-events, single-path | &tau;<sub>0</sub> | 20 km | 0.33 | 0.35 | 0.42 | 0.42 |
+| Between-events, single-path | &tau;<sub>0</sub> | 50 km | 0.33 | 0.4 | 0.44 | 0.43 |
+| Between-events | &tau; | 20 km | 0.44 | 0.46 | 0.48 | 0.45 |
+| Between-events | &tau; | 50 km | 0.5 | 0.55 | 0.62 | 0.64 |
+| Site-to-site | &phi;<sub>S2S</sub> | 20 km | 0.01 | 0 | 0 | 0 |
+| Site-to-site | &phi;<sub>S2S</sub> | 50 km | 0.01 | 0.01 | 0 | 0 |
+
 ## Path-to-path Variability
 *[(top)](#table-of-contents)*
 
@@ -64,13 +102,13 @@ Path-to-path variability, denoted &phi;<sub>P2P</sub> in Al Atik 2010, is comput
 * Site *[10 unique]*
 * Joyner-Boore Distance *[2 unique]*
 * Rupture *[100 unique]*
-* Rupture Strike (Aki & Richards 1980 convention) *[36 unique]*
+* Rupture Strike *[36 unique]*
 
 and the following quantities vary:
 
-* Path (from site to rupture centroid) *[4 unique]*
+* Path *[4 unique]*
 
-Here is an exmample with 5 rotations:
+Here is an exmample with 5 rotations, which would be repeated for each combination of Site, Joyner-Boore Distance, Rupture, Rupture Strike
 ![Example](resources/example_path.png)
 
 Standard deviation is computed and tabulated separately for each site and distance, then a total standard deviation is computed from all site and distances and reported in the "**ALL SITES**" row.
@@ -80,38 +118,52 @@ Standard deviation is computed and tabulated separately for each site and distan
 
 ![Path-to-path Variability](resources/path_20km_std_dev.png)
 
-| Site | 3s Std. Dev. | 3s Residual Range | 5s Std. Dev. | 5s Residual Range | 7.5s Std. Dev. | 7.5s Residual Range | 10s Std. Dev. | 10s Residual Range |
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| LAPD | 0 | [-0.04 0.05] | 0 | [-0.04 0.06] | 0 | [-0.01 0.03] | 0 | [-0.01 0.01] |
-| PAS | 0 | [-0.03 0.05] | 0 | [-0.01 0.04] | 0 | [-0.01 0.01] | 0 | [-0.01 0.02] |
-| SBSM | 0 | [-0.04 0.05] | 0 | [-0.02 0.03] | 0 | [-0.01 0.02] | 0 | [-0.02 0.02] |
-| SMCA | 0 | [-0.04 0.05] | 0 | [-0.02 0.03] | 0 | [-0.02 0.01] | 0 | [-0.02 0.02] |
-| STNI | 0 | [-0.03 0.04] | 0 | [-0.02 0.03] | 0 | [-0.01 0.01] | 0 | [-0.02 0.02] |
-| USC | 0 | [-0.05 0.05] | 0 | [-0.03 0.04] | 0 | [-0.01 0.01] | 0 | [-0.02 0.03] |
-| WNGC | 0 | [-0.04 0.05] | 0 | [-0.02 0.03] | 0 | [-0.01 0.02] | 0 | [-0.02 0.01] |
-| s119 | 0 | [-0.05 0.04] | 0 | [-0.04 0.03] | 0 | [-0.01 0.02] | 0 | [-0.02 0.01] |
-| s279 | 0 | [-0.05 0.04] | 0 | [-0.02 0.03] | 0 | [-0.01 0.03] | 0 | [-0.02 0.02] |
-| s480 | 0 | [-0.03 0.05] | 0 | [-0.02 0.03] | 0 | [-0.03 0.02] | 0 | [-0.02 0.01] |
-| **ALL SITES** | **0** | **[-0.05 0.05]** | **0** | **[-0.04 0.06]** | **0** | **[-0.03 0.03]** | **0** | **[-0.02 0.03]** |
+| Site | 3s &phi;<sub>P2P</sub> | Total | Mean | Median | Range | 5s &phi;<sub>P2P</sub> | Total | Mean | Median | Range | 7.5s &phi;<sub>P2P</sub> | Total | Mean | Median | Range | 10s &phi;<sub>P2P</sub> | Total | Mean | Median | Range |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| LAPD |  | 0 | 0 | 0 | [0 0.04] |  | 0 | 0 | 0 | [0 0.04] |  | 0 | 0 | 0 | [0 0.02] |  | 0 | 0 | 0 | [0 0.01] |
+| PAS |  | 0 | 0 | 0 | [0 0.04] |  | 0 | � | 0 | [0 0.02] |  | 0 | 0 | 0 | [0 0.01] |  | 0 | 0 | 0 | [0 0.01] |
+| SBSM |  | 0 | 0 | 0 | [0 0.04] |  | 0 | 0 | 0 | [0 0.03] |  | 0 | 0 | 0 | [0 0.02] |  | 0 | 0 | 0 | [0 0.01] |
+| SMCA |  | 0 | � | 0 | [0 0.04] |  | 0 | 0 | 0 | [0 0.03] |  | 0 | 0 | 0 | [0 0.01] |  | 0 | 0 | 0 | [0 0.02] |
+| STNI |  | 0 | � | 0 | [0 0.04] |  | 0 | 0 | 0 | [0 0.03] |  | 0 | 0 | 0 | [0 0.01] |  | 0 | 0 | 0 | [0 0.01] |
+| USC |  | 0 | 0 | 0 | [0 0.04] |  | 0 | 0 | 0 | [0 0.03] |  | 0 | 0 | 0 | [0 0.01] |  | 0 | 0 | 0 | [0 0.02] |
+| WNGC |  | 0 | 0 | 0 | [0 0.04] |  | 0 | 0 | 0 | [0 0.03] |  | 0 | 0 | 0 | [0 0.02] |  | 0 | 0 | 0 | [0 0.01] |
+| s119 |  | 0 | 0 | 0 | [0 0.04] |  | 0 | 0 | 0 | [0 0.03] |  | 0 | 0 | 0 | [0 0.01] |  | 0 | 0 | 0 | [0 0.01] |
+| s279 |  | 0 | � | 0 | [0 0.04] |  | 0 | 0 | 0 | [0 0.03] |  | 0 | 0 | 0 | [0 0.02] |  | 0 | 0 | 0 | [0 0.01] |
+| s480 |  | 0 | 0 | 0 | [0 0.03] |  | 0 | 0 | 0 | [0 0.03] |  | 0 | 0 | 0 | [0 0.02] |  | 0 | 0 | 0 | [0 0.01] |
+| **ALL SITES** |  | **0** | **�** | **0** | **[0 0.04]** |  | **0** | **�** | **0** | **[0 0.04]** |  | **0** | **0** | **0** | **[0 0.02]** |  | **0** | **0** | **0** | **[0 0.02]** |
+
+| 3s | 5s |
+|-----|-----|
+| ![3s](resources/path_20km_3s_hist.png) | ![5s](resources/path_20km_5s_hist.png) |
+| 7.5s | 10s |
+| ![7.5s](resources/path_20km_7.5s_hist.png) | ![10s](resources/path_20km_10s_hist.png) |
+
 
 ### 50.0 km Path-to-path Results
 *[(top)](#table-of-contents)*
 
 ![Path-to-path Variability](resources/path_50km_std_dev.png)
 
-| Site | 3s Std. Dev. | 3s Residual Range | 5s Std. Dev. | 5s Residual Range | 7.5s Std. Dev. | 7.5s Residual Range | 10s Std. Dev. | 10s Residual Range |
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| LAPD | 0 | [-0.06 0.09] | 0 | [-0.05 0.02] | 0 | [-0.03 0.03] | 0 | [-0.02 0.02] |
-| PAS | 0 | [-0.04 0.09] | 0 | [-0.07 0.03] | 0 | [-0.03 0.02] | 0 | [-0.01 0.02] |
-| SBSM | 0 | [-0.11 0.11] | 0 | [-0.04 0.04] | 0 | [-0.02 0.03] | 0 | [-0.02 0.02] |
-| SMCA | 0 | [-0.17 0.07] | 0 | [-0.07 0.04] | 0 | [-0.02 0.02] | 0 | [-0.02 0.01] |
-| STNI | 0 | [-0.17 0.08] | 0 | [-0.07 0.06] | 0 | [-0.05 0.03] | 0 | [-0.03 0.01] |
-| USC | 0 | [-0.17 0.11] | 0 | [-0.07 0.05] | 0 | [-0.04 0.02] | 0 | [-0.02 0.02] |
-| WNGC | 0 | [-0.06 0.07] | 0 | [-0.05 0.05] | 0 | [-0.04 0.04] | 0 | [-0.04 0.04] |
-| s119 | 0 | [-0.1 0.09] | 0 | [-0.03 0.05] | 0 | [-0.02 0.02] | 0 | [-0.03 0.03] |
-| s279 | 0 | [-0.08 0.09] | 0 | [-0.07 0.06] | 0 | [-0.02 0.03] | 0 | [-0.02 0.02] |
-| s480 | 0 | [-0.13 0.11] | 0 | [-0.04 0.04] | 0 | [-0.02 0.04] | 0 | [-0.02 0.02] |
-| **ALL SITES** | **0** | **[-0.17 0.11]** | **0** | **[-0.07 0.06]** | **0** | **[-0.05 0.04]** | **0** | **[-0.04 0.04]** |
+| Site | 3s &phi;<sub>P2P</sub> | Total | Mean | Median | Range | 5s &phi;<sub>P2P</sub> | Total | Mean | Median | Range | 7.5s &phi;<sub>P2P</sub> | Total | Mean | Median | Range | 10s &phi;<sub>P2P</sub> | Total | Mean | Median | Range |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| LAPD |  | 0 | 0 | 0 | [0 0.06] |  | 0 | 0 | 0 | [0 0.03] |  | 0 | 0 | 0 | [0 0.02] |  | 0 | 0 | 0 | [0 0.01] |
+| PAS |  | 0 | 0 | 0 | [0 0.06] |  | 0 | 0 | 0 | [0 0.05] |  | 0 | 0 | 0 | [0 0.02] |  | 0 | 0 | 0 | [0 0.01] |
+| SBSM |  | 0 | 0 | 0 | [0 0.13] |  | 0 | � | 0 | [0 0.05] |  | 0 | 0 | 0 | [0 0.02] |  | 0 | 0 | 0 | [0 0.01] |
+| SMCA |  | 0 | 0 | 0 | [0 0.11] |  | 0 | � | 0 | [0 0.04] |  | 0 | 0 | 0 | [0 0.02] |  | 0 | 0 | 0 | [0 0.02] |
+| STNI |  | 0 | 0 | 0 | [0 0.11] |  | 0 | 0 | 0 | [0 0.06] |  | 0 | 0 | 0 | [0 0.03] |  | 0 | 0 | 0 | [0 0.02] |
+| USC |  | 0 | 0 | 0 | [0 0.11] |  | 0 | 0 | 0 | [0 0.05] |  | 0 | 0 | 0 | [0 0.03] |  | 0 | 0 | 0 | [0 0.01] |
+| WNGC |  | 0 | 0 | 0 | [0 0.05] |  | 0 | � | 0 | [0 0.06] |  | 0 | 0 | 0 | [0 0.04] |  | 0 | 0 | 0 | [0 0.05] |
+| s119 |  | 0 | 0 | 0 | [0 0.08] |  | 0 | � | 0 | [0 0.04] |  | 0 | 0 | 0 | [0 0.02] |  | 0 | 0 | 0 | [0 0.03] |
+| s279 |  | 0 | 0 | 0 | [0 0.06] |  | 0 | 0 | 0 | [0 0.04] |  | 0 | 0 | 0 | [0 0.02] |  | 0 | 0 | 0 | [0 0.02] |
+| s480 |  | 0 | 0 | 0 | [0 0.09] |  | 0 | 0 | 0 | [0 0.05] |  | 0 | 0 | 0 | [0 0.03] |  | 0 | 0 | 0 | [0 0.02] |
+| **ALL SITES** |  | **0** | **0** | **0** | **[0 0.13]** |  | **0** | **�** | **0** | **[0 0.06]** |  | **0** | **0** | **0** | **[0 0.04]** |  | **0** | **0** | **0** | **[0 0.05]** |
+
+| 3s | 5s |
+|-----|-----|
+| ![3s](resources/path_50km_3s_hist.png) | ![5s](resources/path_50km_5s_hist.png) |
+| 7.5s | 10s |
+| ![7.5s](resources/path_50km_7.5s_hist.png) | ![10s](resources/path_50km_10s_hist.png) |
+
 
 ## Source-strike Variability
 *[(top)](#table-of-contents)*
@@ -124,13 +176,13 @@ Source-strike variability, denoted &phi;<sub>s</sub>, is computed from ground mo
 * Site *[10 unique]*
 * Joyner-Boore Distance *[2 unique]*
 * Rupture *[100 unique]*
-* Path (from site to rupture centroid) *[4 unique]*
+* Path *[4 unique]*
 
 and the following quantities vary:
 
-* Rupture Strike (Aki & Richards 1980 convention) *[36 unique]*
+* Rupture Strike *[36 unique]*
 
-Here is an exmample with 5 rotations:
+Here is an exmample with 5 rotations, which would be repeated for each combination of Site, Joyner-Boore Distance, Rupture, Path
 ![Example](resources/example_source_strike.png)
 
 Standard deviation is computed and tabulated separately for each site and distance, then a total standard deviation is computed from all site and distances and reported in the "**ALL SITES**" row.
@@ -140,38 +192,52 @@ Standard deviation is computed and tabulated separately for each site and distan
 
 ![Source-strike Variability](resources/source_strike_20km_std_dev.png)
 
-| Site | 3s Std. Dev. | 3s Residual Range | 5s Std. Dev. | 5s Residual Range | 7.5s Std. Dev. | 7.5s Residual Range | 10s Std. Dev. | 10s Residual Range |
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| LAPD | 0.37 | [-1.22 1.14] | 0.4 | [-1.55 1.07] | 0.31 | [-1.1 1.09] | 0.23 | [-0.96 0.86] |
-| PAS | 0.37 | [-1.22 1.14] | 0.4 | [-1.54 1.07] | 0.31 | [-1.09 1.09] | 0.23 | [-0.95 0.86] |
-| SBSM | 0.37 | [-1.2 1.14] | 0.4 | [-1.53 1.07] | 0.31 | [-1.13 1.09] | 0.23 | [-0.95 0.86] |
-| SMCA | 0.37 | [-1.22 1.14] | 0.4 | [-1.55 1.07] | 0.31 | [-1.08 1.09] | 0.23 | [-0.96 0.86] |
-| STNI | 0.37 | [-1.22 1.14] | 0.4 | [-1.54 1.07] | 0.31 | [-1.08 1.08] | 0.23 | [-0.95 0.86] |
-| USC | 0.37 | [-1.22 1.14] | 0.4 | [-1.54 1.07] | 0.31 | [-1.08 1.09] | 0.23 | [-0.95 0.86] |
-| WNGC | 0.37 | [-1.22 1.14] | 0.4 | [-1.54 1.07] | 0.31 | [-1.09 1.09] | 0.23 | [-0.95 0.86] |
-| s119 | 0.37 | [-1.22 1.14] | 0.4 | [-1.55 1.08] | 0.31 | [-1.08 1.09] | 0.23 | [-0.96 0.86] |
-| s279 | 0.37 | [-1.22 1.14] | 0.4 | [-1.55 1.07] | 0.31 | [-1.08 1.09] | 0.23 | [-0.96 0.86] |
-| s480 | 0.37 | [-1.22 1.14] | 0.4 | [-1.54 1.07] | 0.31 | [-1.1 1.09] | 0.23 | [-0.95 0.86] |
-| **ALL SITES** | **0.37** | **[-1.22 1.14]** | **0.4** | **[-1.55 1.08]** | **0.31** | **[-1.13 1.09]** | **0.23** | **[-0.96 0.86]** |
+| Site | 3s &phi;<sub>s</sub> | Total | Mean | Median | Range | 5s &phi;<sub>s</sub> | Total | Mean | Median | Range | 7.5s &phi;<sub>s</sub> | Total | Mean | Median | Range | 10s &phi;<sub>s</sub> | Total | Mean | Median | Range |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| LAPD |  | 0.37 | 0.37 | 0.36 | [0.17 0.6] |  | 0.4 | 0.39 | 0.39 | [0.16 0.6] |  | 0.31 | 0.31 | 0.3 | [0.09 0.52] |  | 0.23 | 0.22 | 0.2 | [0.1 0.41] |
+| PAS |  | 0.37 | 0.37 | 0.36 | [0.17 0.6] |  | 0.4 | 0.39 | 0.39 | [0.16 0.6] |  | 0.31 | 0.31 | 0.3 | [0.09 0.52] |  | 0.23 | 0.22 | 0.2 | [0.1 0.41] |
+| SBSM |  | 0.37 | 0.37 | 0.36 | [0.17 0.6] |  | 0.4 | 0.39 | 0.39 | [0.16 0.6] |  | 0.31 | 0.31 | 0.3 | [0.09 0.52] |  | 0.23 | 0.22 | 0.21 | [0.1 0.41] |
+| SMCA |  | 0.37 | 0.37 | 0.36 | [0.17 0.6] |  | 0.4 | 0.39 | 0.39 | [0.16 0.6] |  | 0.31 | 0.31 | 0.3 | [0.09 0.52] |  | 0.23 | 0.22 | 0.2 | [0.1 0.41] |
+| STNI |  | 0.37 | 0.37 | 0.36 | [0.17 0.61] |  | 0.4 | 0.39 | 0.39 | [0.16 0.6] |  | 0.31 | 0.31 | 0.3 | [0.09 0.52] |  | 0.23 | 0.22 | 0.2 | [0.1 0.41] |
+| USC |  | 0.37 | 0.37 | 0.36 | [0.16 0.6] |  | 0.4 | 0.39 | 0.39 | [0.16 0.6] |  | 0.31 | 0.31 | 0.3 | [0.09 0.52] |  | 0.23 | 0.22 | 0.2 | [0.1 0.41] |
+| WNGC |  | 0.37 | 0.37 | 0.36 | [0.17 0.6] |  | 0.4 | 0.39 | 0.39 | [0.16 0.6] |  | 0.31 | 0.31 | 0.3 | [0.09 0.52] |  | 0.23 | 0.22 | 0.2 | [0.1 0.41] |
+| s119 |  | 0.37 | 0.37 | 0.36 | [0.17 0.61] |  | 0.4 | 0.39 | 0.39 | [0.16 0.6] |  | 0.31 | 0.31 | 0.3 | [0.09 0.52] |  | 0.23 | 0.22 | 0.2 | [0.1 0.41] |
+| s279 |  | 0.37 | 0.37 | 0.36 | [0.17 0.6] |  | 0.4 | 0.39 | 0.39 | [0.16 0.6] |  | 0.31 | 0.31 | 0.3 | [0.08 0.52] |  | 0.23 | 0.22 | 0.2 | [0.1 0.41] |
+| s480 |  | 0.37 | 0.37 | 0.36 | [0.17 0.6] |  | 0.4 | 0.39 | 0.39 | [0.16 0.6] |  | 0.31 | 0.31 | 0.3 | [0.09 0.52] |  | 0.23 | 0.22 | 0.2 | [0.1 0.41] |
+| **ALL SITES** |  | **0.37** | **0.37** | **0.36** | **[0.16 0.61]** |  | **0.4** | **0.39** | **0.39** | **[0.16 0.6]** |  | **0.31** | **0.31** | **0.3** | **[0.08 0.52]** |  | **0.23** | **0.22** | **0.2** | **[0.1 0.41]** |
+
+| 3s | 5s |
+|-----|-----|
+| ![3s](resources/source_strike_20km_3s_hist.png) | ![5s](resources/source_strike_20km_5s_hist.png) |
+| 7.5s | 10s |
+| ![7.5s](resources/source_strike_20km_7.5s_hist.png) | ![10s](resources/source_strike_20km_10s_hist.png) |
+
 
 ### 50.0 km Source-strike Results
 *[(top)](#table-of-contents)*
 
 ![Source-strike Variability](resources/source_strike_50km_std_dev.png)
 
-| Site | 3s Std. Dev. | 3s Residual Range | 5s Std. Dev. | 5s Residual Range | 7.5s Std. Dev. | 7.5s Residual Range | 10s Std. Dev. | 10s Residual Range |
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| LAPD | 0.45 | [-1.34 1.42] | 0.48 | [-1.6 1.34] | 0.51 | [-1.85 1.35] | 0.53 | [-1.55 1.28] |
-| PAS | 0.45 | [-1.34 1.43] | 0.48 | [-1.6 1.34] | 0.51 | [-1.85 1.34] | 0.53 | [-1.55 1.28] |
-| SBSM | 0.45 | [-1.34 1.42] | 0.48 | [-1.61 1.34] | 0.51 | [-1.85 1.34] | 0.53 | [-1.55 1.28] |
-| SMCA | 0.45 | [-1.34 1.43] | 0.48 | [-1.6 1.34] | 0.51 | [-1.84 1.34] | 0.53 | [-1.54 1.27] |
-| STNI | 0.45 | [-1.34 1.43] | 0.48 | [-1.6 1.33] | 0.51 | [-1.85 1.34] | 0.53 | [-1.55 1.27] |
-| USC | 0.45 | [-1.34 1.43] | 0.48 | [-1.6 1.33] | 0.51 | [-1.85 1.34] | 0.53 | [-1.54 1.27] |
-| WNGC | 0.45 | [-1.34 1.43] | 0.48 | [-1.6 1.34] | 0.51 | [-1.85 1.34] | 0.53 | [-1.55 1.28] |
-| s119 | 0.45 | [-1.34 1.43] | 0.48 | [-1.59 1.34] | 0.51 | [-1.84 1.34] | 0.53 | [-1.54 1.28] |
-| s279 | 0.45 | [-1.34 1.43] | 0.48 | [-1.6 1.34] | 0.51 | [-1.84 1.34] | 0.53 | [-1.54 1.28] |
-| s480 | 0.45 | [-1.34 1.43] | 0.48 | [-1.6 1.34] | 0.51 | [-1.85 1.34] | 0.53 | [-1.55 1.28] |
-| **ALL SITES** | **0.45** | **[-1.34 1.43]** | **0.48** | **[-1.61 1.34]** | **0.51** | **[-1.85 1.35]** | **0.53** | **[-1.55 1.28]** |
+| Site | 3s &phi;<sub>s</sub> | Total | Mean | Median | Range | 5s &phi;<sub>s</sub> | Total | Mean | Median | Range | 7.5s &phi;<sub>s</sub> | Total | Mean | Median | Range | 10s &phi;<sub>s</sub> | Total | Mean | Median | Range |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| LAPD |  | 0.45 | 0.45 | 0.44 | [0.25 0.68] |  | 0.48 | 0.47 | 0.47 | [0.29 0.74] |  | 0.51 | 0.51 | 0.51 | [0.31 0.71] |  | 0.53 | 0.53 | 0.56 | [0.2 0.67] |
+| PAS |  | 0.45 | 0.45 | 0.45 | [0.25 0.68] |  | 0.48 | 0.47 | 0.47 | [0.29 0.74] |  | 0.51 | 0.51 | 0.51 | [0.31 0.71] |  | 0.53 | 0.53 | 0.56 | [0.19 0.67] |
+| SBSM |  | 0.45 | 0.45 | 0.44 | [0.25 0.68] |  | 0.48 | 0.47 | 0.47 | [0.29 0.74] |  | 0.51 | 0.51 | 0.51 | [0.31 0.71] |  | 0.53 | 0.53 | 0.56 | [0.19 0.67] |
+| SMCA |  | 0.45 | 0.45 | 0.45 | [0.25 0.68] |  | 0.48 | 0.47 | 0.47 | [0.29 0.74] |  | 0.51 | 0.51 | 0.51 | [0.31 0.71] |  | 0.53 | 0.53 | 0.56 | [0.19 0.67] |
+| STNI |  | 0.45 | 0.45 | 0.45 | [0.25 0.68] |  | 0.48 | 0.47 | 0.47 | [0.29 0.74] |  | 0.51 | 0.51 | 0.51 | [0.31 0.71] |  | 0.53 | 0.53 | 0.56 | [0.19 0.67] |
+| USC |  | 0.45 | 0.45 | 0.45 | [0.25 0.68] |  | 0.48 | 0.47 | 0.47 | [0.29 0.74] |  | 0.51 | 0.51 | 0.51 | [0.31 0.71] |  | 0.53 | 0.53 | 0.56 | [0.19 0.67] |
+| WNGC |  | 0.45 | 0.45 | 0.45 | [0.25 0.68] |  | 0.48 | 0.47 | 0.47 | [0.29 0.74] |  | 0.51 | 0.51 | 0.51 | [0.31 0.71] |  | 0.53 | 0.53 | 0.56 | [0.19 0.67] |
+| s119 |  | 0.45 | 0.45 | 0.44 | [0.25 0.68] |  | 0.48 | 0.47 | 0.47 | [0.29 0.74] |  | 0.51 | 0.51 | 0.51 | [0.31 0.7] |  | 0.53 | 0.53 | 0.56 | [0.19 0.67] |
+| s279 |  | 0.45 | 0.45 | 0.44 | [0.25 0.68] |  | 0.48 | 0.47 | 0.47 | [0.29 0.74] |  | 0.51 | 0.51 | 0.51 | [0.31 0.71] |  | 0.53 | 0.53 | 0.56 | [0.2 0.67] |
+| s480 |  | 0.45 | 0.45 | 0.45 | [0.25 0.68] |  | 0.48 | 0.47 | 0.47 | [0.29 0.74] |  | 0.51 | 0.51 | 0.51 | [0.31 0.71] |  | 0.53 | 0.53 | 0.56 | [0.19 0.67] |
+| **ALL SITES** |  | **0.45** | **0.45** | **0.45** | **[0.25 0.68]** |  | **0.48** | **0.47** | **0.47** | **[0.29 0.74]** |  | **0.51** | **0.51** | **0.51** | **[0.31 0.71]** |  | **0.53** | **0.53** | **0.56** | **[0.19 0.67]** |
+
+| 3s | 5s |
+|-----|-----|
+| ![3s](resources/source_strike_50km_3s_hist.png) | ![5s](resources/source_strike_50km_5s_hist.png) |
+| 7.5s | 10s |
+| ![7.5s](resources/source_strike_50km_7.5s_hist.png) | ![10s](resources/source_strike_50km_10s_hist.png) |
+
 
 ## Within-event Variability
 *[(top)](#table-of-contents)*
@@ -187,10 +253,10 @@ Within-event variability, denoted &phi; in Al Atik 2010, is computed from ground
 
 and the following quantities vary:
 
-* Rupture Strike (Aki & Richards 1980 convention) *[36 unique]*
-* Path (from site to rupture centroid) *[4 unique]*
+* Rupture Strike *[36 unique]*
+* Path *[4 unique]*
 
-Here is an exmample with 5 rotations:
+Here is an exmample with 5 rotations, which would be repeated for each combination of Site, Joyner-Boore Distance, Rupture
 ![Example](resources/example_within_event.png)
 
 Standard deviation is computed and tabulated separately for each site and distance, then a total standard deviation is computed from all site and distances and reported in the "**ALL SITES**" row.
@@ -200,38 +266,52 @@ Standard deviation is computed and tabulated separately for each site and distan
 
 ![Within-event Variability](resources/within_event_20km_std_dev.png)
 
-| Site | 3s Std. Dev. | 3s Residual Range | 5s Std. Dev. | 5s Residual Range | 7.5s Std. Dev. | 7.5s Residual Range | 10s Std. Dev. | 10s Residual Range |
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| LAPD | 0.37 | [-1.22 1.13] | 0.4 | [-1.55 1.07] | 0.31 | [-1.1 1.09] | 0.23 | [-0.96 0.86] |
-| PAS | 0.37 | [-1.22 1.14] | 0.4 | [-1.54 1.07] | 0.31 | [-1.09 1.09] | 0.23 | [-0.95 0.86] |
-| SBSM | 0.37 | [-1.2 1.14] | 0.4 | [-1.53 1.07] | 0.31 | [-1.13 1.09] | 0.23 | [-0.95 0.86] |
-| SMCA | 0.37 | [-1.22 1.14] | 0.4 | [-1.55 1.07] | 0.31 | [-1.08 1.08] | 0.23 | [-0.96 0.86] |
-| STNI | 0.37 | [-1.22 1.14] | 0.4 | [-1.54 1.07] | 0.31 | [-1.08 1.08] | 0.23 | [-0.95 0.86] |
-| USC | 0.37 | [-1.22 1.14] | 0.4 | [-1.54 1.07] | 0.31 | [-1.08 1.09] | 0.23 | [-0.95 0.86] |
-| WNGC | 0.37 | [-1.22 1.14] | 0.4 | [-1.54 1.07] | 0.31 | [-1.09 1.09] | 0.23 | [-0.95 0.86] |
-| s119 | 0.37 | [-1.22 1.14] | 0.4 | [-1.55 1.08] | 0.31 | [-1.08 1.09] | 0.23 | [-0.96 0.86] |
-| s279 | 0.37 | [-1.22 1.14] | 0.4 | [-1.55 1.07] | 0.31 | [-1.08 1.09] | 0.23 | [-0.96 0.86] |
-| s480 | 0.37 | [-1.22 1.14] | 0.4 | [-1.54 1.07] | 0.31 | [-1.1 1.09] | 0.23 | [-0.95 0.86] |
-| **ALL SITES** | **0.37** | **[-1.22 1.14]** | **0.4** | **[-1.55 1.08]** | **0.31** | **[-1.13 1.09]** | **0.23** | **[-0.96 0.86]** |
+| Site | 3s &phi; | Total | Mean | Median | Range | 5s &phi; | Total | Mean | Median | Range | 7.5s &phi; | Total | Mean | Median | Range | 10s &phi; | Total | Mean | Median | Range |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| LAPD |  | 0.37 | 0.37 | 0.36 | [0.17 0.6] |  | 0.4 | 0.39 | 0.39 | [0.16 0.59] |  | 0.31 | 0.31 | 0.3 | [0.08 0.51] |  | 0.23 | 0.22 | 0.2 | [0.1 0.41] |
+| PAS |  | 0.37 | 0.37 | 0.36 | [0.17 0.6] |  | 0.4 | 0.39 | 0.39 | [0.16 0.59] |  | 0.31 | 0.31 | 0.3 | [0.08 0.51] |  | 0.23 | 0.22 | 0.2 | [0.1 0.41] |
+| SBSM |  | 0.37 | 0.37 | 0.36 | [0.17 0.6] |  | 0.4 | 0.39 | 0.38 | [0.16 0.59] |  | 0.31 | 0.31 | 0.3 | [0.08 0.51] |  | 0.23 | 0.22 | 0.2 | [0.1 0.41] |
+| SMCA |  | 0.37 | 0.37 | 0.36 | [0.16 0.6] |  | 0.4 | 0.39 | 0.39 | [0.16 0.6] |  | 0.31 | 0.31 | 0.3 | [0.09 0.51] |  | 0.23 | 0.22 | 0.2 | [0.1 0.41] |
+| STNI |  | 0.37 | 0.37 | 0.36 | [0.16 0.6] |  | 0.4 | 0.39 | 0.39 | [0.16 0.59] |  | 0.31 | 0.31 | 0.3 | [0.08 0.51] |  | 0.23 | 0.22 | 0.2 | [0.1 0.41] |
+| USC |  | 0.37 | 0.37 | 0.36 | [0.16 0.6] |  | 0.4 | 0.39 | 0.39 | [0.16 0.6] |  | 0.31 | 0.31 | 0.3 | [0.08 0.51] |  | 0.23 | 0.22 | 0.2 | [0.1 0.41] |
+| WNGC |  | 0.37 | 0.37 | 0.36 | [0.17 0.6] |  | 0.4 | 0.39 | 0.39 | [0.16 0.59] |  | 0.31 | 0.31 | 0.3 | [0.08 0.51] |  | 0.23 | 0.22 | 0.2 | [0.1 0.41] |
+| s119 |  | 0.37 | 0.37 | 0.36 | [0.17 0.6] |  | 0.4 | 0.39 | 0.39 | [0.16 0.59] |  | 0.31 | 0.31 | 0.3 | [0.08 0.51] |  | 0.23 | 0.22 | 0.2 | [0.1 0.41] |
+| s279 |  | 0.37 | 0.37 | 0.36 | [0.17 0.6] |  | 0.4 | 0.39 | 0.38 | [0.16 0.59] |  | 0.31 | 0.31 | 0.3 | [0.08 0.51] |  | 0.23 | 0.22 | 0.2 | [0.1 0.41] |
+| s480 |  | 0.37 | 0.37 | 0.36 | [0.17 0.6] |  | 0.4 | 0.39 | 0.39 | [0.16 0.59] |  | 0.31 | 0.31 | 0.3 | [0.08 0.51] |  | 0.23 | 0.22 | 0.2 | [0.1 0.41] |
+| **ALL SITES** |  | **0.37** | **0.37** | **0.36** | **[0.16 0.6]** |  | **0.4** | **0.39** | **0.39** | **[0.16 0.6]** |  | **0.31** | **0.31** | **0.3** | **[0.08 0.51]** |  | **0.23** | **0.22** | **0.2** | **[0.1 0.41]** |
+
+| 3s | 5s |
+|-----|-----|
+| ![3s](resources/within_event_20km_3s_hist.png) | ![5s](resources/within_event_20km_5s_hist.png) |
+| 7.5s | 10s |
+| ![7.5s](resources/within_event_20km_7.5s_hist.png) | ![10s](resources/within_event_20km_10s_hist.png) |
+
 
 ### 50.0 km Within-event Results
 *[(top)](#table-of-contents)*
 
 ![Within-event Variability](resources/within_event_50km_std_dev.png)
 
-| Site | 3s Std. Dev. | 3s Residual Range | 5s Std. Dev. | 5s Residual Range | 7.5s Std. Dev. | 7.5s Residual Range | 10s Std. Dev. | 10s Residual Range |
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| LAPD | 0.45 | [-1.34 1.42] | 0.48 | [-1.6 1.34] | 0.51 | [-1.85 1.35] | 0.53 | [-1.55 1.28] |
-| PAS | 0.45 | [-1.34 1.43] | 0.48 | [-1.6 1.34] | 0.51 | [-1.85 1.34] | 0.53 | [-1.55 1.28] |
-| SBSM | 0.45 | [-1.34 1.42] | 0.48 | [-1.61 1.34] | 0.51 | [-1.85 1.34] | 0.53 | [-1.55 1.28] |
-| SMCA | 0.45 | [-1.34 1.43] | 0.48 | [-1.6 1.33] | 0.51 | [-1.84 1.34] | 0.53 | [-1.54 1.27] |
-| STNI | 0.45 | [-1.34 1.43] | 0.48 | [-1.6 1.33] | 0.51 | [-1.85 1.34] | 0.53 | [-1.55 1.27] |
-| USC | 0.45 | [-1.34 1.43] | 0.48 | [-1.6 1.33] | 0.51 | [-1.85 1.34] | 0.53 | [-1.54 1.27] |
-| WNGC | 0.45 | [-1.34 1.43] | 0.48 | [-1.6 1.34] | 0.51 | [-1.85 1.34] | 0.53 | [-1.55 1.28] |
-| s119 | 0.45 | [-1.34 1.43] | 0.48 | [-1.59 1.34] | 0.51 | [-1.84 1.34] | 0.53 | [-1.54 1.28] |
-| s279 | 0.45 | [-1.34 1.43] | 0.48 | [-1.6 1.34] | 0.51 | [-1.84 1.34] | 0.53 | [-1.54 1.28] |
-| s480 | 0.45 | [-1.34 1.43] | 0.48 | [-1.6 1.34] | 0.51 | [-1.85 1.34] | 0.53 | [-1.55 1.28] |
-| **ALL SITES** | **0.45** | **[-1.34 1.43]** | **0.48** | **[-1.61 1.34]** | **0.51** | **[-1.85 1.35]** | **0.53** | **[-1.55 1.28]** |
+| Site | 3s &phi; | Total | Mean | Median | Range | 5s &phi; | Total | Mean | Median | Range | 7.5s &phi; | Total | Mean | Median | Range | 10s &phi; | Total | Mean | Median | Range |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| LAPD |  | 0.45 | 0.44 | 0.44 | [0.24 0.68] |  | 0.48 | 0.47 | 0.46 | [0.28 0.73] |  | 0.51 | 0.5 | 0.5 | [0.3 0.7] |  | 0.53 | 0.52 | 0.55 | [0.19 0.66] |
+| PAS |  | 0.45 | 0.44 | 0.44 | [0.24 0.68] |  | 0.48 | 0.47 | 0.47 | [0.28 0.73] |  | 0.51 | 0.5 | 0.5 | [0.3 0.7] |  | 0.53 | 0.52 | 0.55 | [0.19 0.66] |
+| SBSM |  | 0.45 | 0.44 | 0.44 | [0.24 0.67] |  | 0.48 | 0.47 | 0.47 | [0.28 0.73] |  | 0.51 | 0.5 | 0.5 | [0.3 0.7] |  | 0.53 | 0.52 | 0.55 | [0.19 0.66] |
+| SMCA |  | 0.45 | 0.44 | 0.44 | [0.24 0.68] |  | 0.48 | 0.47 | 0.47 | [0.28 0.73] |  | 0.51 | 0.5 | 0.5 | [0.3 0.7] |  | 0.53 | 0.52 | 0.55 | [0.19 0.66] |
+| STNI |  | 0.45 | 0.44 | 0.44 | [0.24 0.68] |  | 0.48 | 0.47 | 0.47 | [0.28 0.73] |  | 0.51 | 0.5 | 0.5 | [0.3 0.7] |  | 0.53 | 0.52 | 0.55 | [0.19 0.66] |
+| USC |  | 0.45 | 0.44 | 0.44 | [0.24 0.68] |  | 0.48 | 0.47 | 0.47 | [0.28 0.73] |  | 0.51 | 0.5 | 0.5 | [0.3 0.7] |  | 0.53 | 0.52 | 0.55 | [0.19 0.66] |
+| WNGC |  | 0.45 | 0.44 | 0.44 | [0.24 0.68] |  | 0.48 | 0.47 | 0.47 | [0.28 0.73] |  | 0.51 | 0.5 | 0.5 | [0.3 0.7] |  | 0.53 | 0.52 | 0.55 | [0.19 0.66] |
+| s119 |  | 0.45 | 0.44 | 0.44 | [0.24 0.68] |  | 0.48 | 0.47 | 0.46 | [0.28 0.73] |  | 0.51 | 0.5 | 0.5 | [0.3 0.7] |  | 0.53 | 0.52 | 0.55 | [0.19 0.66] |
+| s279 |  | 0.45 | 0.44 | 0.44 | [0.24 0.68] |  | 0.48 | 0.47 | 0.47 | [0.28 0.73] |  | 0.51 | 0.5 | 0.5 | [0.3 0.7] |  | 0.53 | 0.52 | 0.55 | [0.19 0.66] |
+| s480 |  | 0.45 | 0.44 | 0.44 | [0.24 0.68] |  | 0.48 | 0.47 | 0.47 | [0.28 0.73] |  | 0.51 | 0.5 | 0.5 | [0.3 0.7] |  | 0.53 | 0.52 | 0.55 | [0.19 0.66] |
+| **ALL SITES** |  | **0.45** | **0.44** | **0.44** | **[0.24 0.68]** |  | **0.48** | **0.47** | **0.47** | **[0.28 0.73]** |  | **0.51** | **0.5** | **0.5** | **[0.3 0.7]** |  | **0.53** | **0.52** | **0.55** | **[0.19 0.66]** |
+
+| 3s | 5s |
+|-----|-----|
+| ![3s](resources/within_event_50km_3s_hist.png) | ![5s](resources/within_event_50km_5s_hist.png) |
+| 7.5s | 10s |
+| ![7.5s](resources/within_event_50km_7.5s_hist.png) | ![10s](resources/within_event_50km_10s_hist.png) |
+
 
 ## Between-events, single-path Variability
 *[(top)](#table-of-contents)*
@@ -243,8 +323,8 @@ Between-events, single-path variability, denoted &tau;<sub>0</sub> in Al Atik 20
 
 * Site *[10 unique]*
 * Joyner-Boore Distance *[2 unique]*
-* Rupture Strike (Aki & Richards 1980 convention) *[36 unique]*
-* Path (from site to rupture centroid) *[4 unique]*
+* Rupture Strike *[36 unique]*
+* Path *[4 unique]*
 
 and the following quantities vary:
 
@@ -257,38 +337,52 @@ Standard deviation is computed and tabulated separately for each site and distan
 
 ![Between-events, single-path Variability](resources/between_events_single_path_20km_std_dev.png)
 
-| Site | 3s Std. Dev. | 3s Residual Range | 5s Std. Dev. | 5s Residual Range | 7.5s Std. Dev. | 7.5s Residual Range | 10s Std. Dev. | 10s Residual Range |
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| LAPD | 0.33 | [-1.11 1.32] | 0.35 | [-1.2 0.96] | 0.42 | [-1.34 0.94] | 0.42 | [-1.77 0.91] |
-| PAS | 0.33 | [-1.11 1.31] | 0.35 | [-1.21 0.95] | 0.42 | [-1.34 0.94] | 0.42 | [-1.77 0.91] |
-| SBSM | 0.33 | [-1.11 1.31] | 0.35 | [-1.21 0.95] | 0.42 | [-1.34 0.94] | 0.42 | [-1.77 0.91] |
-| SMCA | 0.33 | [-1.11 1.31] | 0.35 | [-1.2 0.96] | 0.42 | [-1.34 0.94] | 0.42 | [-1.77 0.91] |
-| STNI | 0.33 | [-1.11 1.31] | 0.35 | [-1.21 0.95] | 0.42 | [-1.34 0.94] | 0.42 | [-1.77 0.91] |
-| USC | 0.33 | [-1.11 1.31] | 0.35 | [-1.2 0.95] | 0.42 | [-1.34 0.94] | 0.42 | [-1.77 0.91] |
-| WNGC | 0.33 | [-1.11 1.31] | 0.35 | [-1.21 0.95] | 0.42 | [-1.34 0.94] | 0.42 | [-1.78 0.91] |
-| s119 | 0.33 | [-1.11 1.32] | 0.35 | [-1.2 0.96] | 0.42 | [-1.34 0.94] | 0.42 | [-1.77 0.91] |
-| s279 | 0.33 | [-1.11 1.31] | 0.35 | [-1.2 0.97] | 0.42 | [-1.34 0.94] | 0.42 | [-1.77 0.91] |
-| s480 | 0.33 | [-1.11 1.31] | 0.35 | [-1.21 0.95] | 0.42 | [-1.34 0.94] | 0.42 | [-1.77 0.91] |
-| **ALL SITES** | **0.33** | **[-1.11 1.32]** | **0.35** | **[-1.21 0.97]** | **0.42** | **[-1.34 0.94]** | **0.42** | **[-1.78 0.91]** |
+| Site | 3s &tau;<sub>0</sub> | Total | Mean | Median | Range | 5s &tau;<sub>0</sub> | Total | Mean | Median | Range | 7.5s &tau;<sub>0</sub> | Total | Mean | Median | Range | 10s &tau;<sub>0</sub> | Total | Mean | Median | Range |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| LAPD |  | 0.33 | 0.33 | 0.33 | [0.28 0.37] |  | 0.35 | 0.35 | 0.35 | [0.3 0.41] |  | 0.42 | 0.42 | 0.41 | [0.4 0.48] |  | 0.42 | 0.42 | 0.42 | [0.39 0.47] |
+| PAS |  | 0.33 | 0.33 | 0.33 | [0.28 0.37] |  | 0.35 | 0.35 | 0.35 | [0.3 0.41] |  | 0.42 | 0.42 | 0.42 | [0.4 0.48] |  | 0.42 | 0.42 | 0.42 | [0.39 0.47] |
+| SBSM |  | 0.33 | 0.33 | 0.33 | [0.28 0.37] |  | 0.35 | 0.35 | 0.35 | [0.3 0.41] |  | 0.42 | 0.42 | 0.41 | [0.4 0.48] |  | 0.42 | 0.42 | 0.41 | [0.39 0.47] |
+| SMCA |  | 0.33 | 0.33 | 0.33 | [0.28 0.37] |  | 0.35 | 0.35 | 0.35 | [0.3 0.41] |  | 0.42 | 0.42 | 0.42 | [0.4 0.48] |  | 0.42 | 0.42 | 0.42 | [0.39 0.47] |
+| STNI |  | 0.33 | 0.33 | 0.33 | [0.28 0.37] |  | 0.35 | 0.35 | 0.35 | [0.3 0.41] |  | 0.42 | 0.42 | 0.42 | [0.4 0.48] |  | 0.42 | 0.42 | 0.42 | [0.39 0.47] |
+| USC |  | 0.33 | 0.33 | 0.33 | [0.28 0.37] |  | 0.35 | 0.35 | 0.35 | [0.3 0.41] |  | 0.42 | 0.42 | 0.42 | [0.4 0.48] |  | 0.42 | 0.42 | 0.42 | [0.39 0.47] |
+| WNGC |  | 0.33 | 0.33 | 0.33 | [0.28 0.37] |  | 0.35 | 0.35 | 0.35 | [0.3 0.41] |  | 0.42 | 0.42 | 0.42 | [0.4 0.48] |  | 0.42 | 0.42 | 0.42 | [0.39 0.47] |
+| s119 |  | 0.33 | 0.33 | 0.33 | [0.28 0.37] |  | 0.35 | 0.35 | 0.35 | [0.3 0.41] |  | 0.42 | 0.42 | 0.42 | [0.4 0.48] |  | 0.42 | 0.42 | 0.42 | [0.39 0.47] |
+| s279 |  | 0.33 | 0.33 | 0.33 | [0.28 0.37] |  | 0.35 | 0.35 | 0.35 | [0.3 0.41] |  | 0.42 | 0.42 | 0.42 | [0.4 0.48] |  | 0.42 | 0.42 | 0.42 | [0.39 0.47] |
+| s480 |  | 0.33 | 0.33 | 0.33 | [0.28 0.37] |  | 0.35 | 0.35 | 0.35 | [0.3 0.41] |  | 0.42 | 0.42 | 0.42 | [0.4 0.48] |  | 0.42 | 0.42 | 0.42 | [0.39 0.47] |
+| **ALL SITES** |  | **0.33** | **0.33** | **0.33** | **[0.28 0.37]** |  | **0.35** | **0.35** | **0.35** | **[0.3 0.41]** |  | **0.42** | **0.42** | **0.42** | **[0.4 0.48]** |  | **0.42** | **0.42** | **0.42** | **[0.39 0.47]** |
+
+| 3s | 5s |
+|-----|-----|
+| ![3s](resources/between_events_single_path_20km_3s_hist.png) | ![5s](resources/between_events_single_path_20km_5s_hist.png) |
+| 7.5s | 10s |
+| ![7.5s](resources/between_events_single_path_20km_7.5s_hist.png) | ![10s](resources/between_events_single_path_20km_10s_hist.png) |
+
 
 ### 50.0 km Between-events, single-path Results
 *[(top)](#table-of-contents)*
 
 ![Between-events, single-path Variability](resources/between_events_single_path_50km_std_dev.png)
 
-| Site | 3s Std. Dev. | 3s Residual Range | 5s Std. Dev. | 5s Residual Range | 7.5s Std. Dev. | 7.5s Residual Range | 10s Std. Dev. | 10s Residual Range |
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| LAPD | 0.33 | [-0.99 1.44] | 0.4 | [-1.39 1] | 0.44 | [-1.51 1.05] | 0.43 | [-1.59 0.97] |
-| PAS | 0.33 | [-0.99 1.44] | 0.4 | [-1.39 1] | 0.44 | [-1.51 1.05] | 0.43 | [-1.59 0.97] |
-| SBSM | 0.33 | [-0.99 1.45] | 0.4 | [-1.39 1] | 0.44 | [-1.51 1.05] | 0.43 | [-1.59 0.97] |
-| SMCA | 0.33 | [-0.98 1.45] | 0.4 | [-1.39 1] | 0.44 | [-1.51 1.05] | 0.43 | [-1.59 0.97] |
-| STNI | 0.33 | [-0.98 1.45] | 0.4 | [-1.39 1] | 0.44 | [-1.51 1.05] | 0.43 | [-1.59 0.97] |
-| USC | 0.33 | [-0.99 1.45] | 0.4 | [-1.39 1] | 0.44 | [-1.51 1.05] | 0.43 | [-1.59 0.97] |
-| WNGC | 0.33 | [-0.99 1.44] | 0.4 | [-1.39 1] | 0.44 | [-1.51 1.05] | 0.43 | [-1.59 0.97] |
-| s119 | 0.33 | [-0.99 1.44] | 0.4 | [-1.39 1] | 0.44 | [-1.51 1.05] | 0.43 | [-1.59 0.97] |
-| s279 | 0.33 | [-0.99 1.44] | 0.4 | [-1.39 1] | 0.44 | [-1.51 1.05] | 0.43 | [-1.59 0.97] |
-| s480 | 0.33 | [-0.99 1.44] | 0.4 | [-1.39 1] | 0.44 | [-1.51 1.05] | 0.43 | [-1.59 0.97] |
-| **ALL SITES** | **0.33** | **[-0.99 1.45]** | **0.4** | **[-1.39 1]** | **0.44** | **[-1.51 1.05]** | **0.43** | **[-1.59 0.97]** |
+| Site | 3s &tau;<sub>0</sub> | Total | Mean | Median | Range | 5s &tau;<sub>0</sub> | Total | Mean | Median | Range | 7.5s &tau;<sub>0</sub> | Total | Mean | Median | Range | 10s &tau;<sub>0</sub> | Total | Mean | Median | Range |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| LAPD |  | 0.33 | 0.33 | 0.33 | [0.29 0.37] |  | 0.4 | 0.4 | 0.41 | [0.33 0.47] |  | 0.44 | 0.44 | 0.45 | [0.35 0.5] |  | 0.43 | 0.42 | 0.44 | [0.29 0.5] |
+| PAS |  | 0.33 | 0.33 | 0.33 | [0.29 0.37] |  | 0.4 | 0.4 | 0.41 | [0.33 0.47] |  | 0.44 | 0.44 | 0.45 | [0.35 0.5] |  | 0.43 | 0.42 | 0.44 | [0.29 0.5] |
+| SBSM |  | 0.33 | 0.33 | 0.33 | [0.29 0.37] |  | 0.4 | 0.4 | 0.41 | [0.33 0.47] |  | 0.44 | 0.44 | 0.45 | [0.35 0.5] |  | 0.43 | 0.42 | 0.44 | [0.29 0.5] |
+| SMCA |  | 0.33 | 0.33 | 0.33 | [0.29 0.37] |  | 0.4 | 0.4 | 0.41 | [0.33 0.47] |  | 0.44 | 0.44 | 0.45 | [0.35 0.49] |  | 0.43 | 0.42 | 0.44 | [0.29 0.5] |
+| STNI |  | 0.33 | 0.33 | 0.33 | [0.29 0.37] |  | 0.4 | 0.4 | 0.41 | [0.33 0.47] |  | 0.44 | 0.44 | 0.45 | [0.35 0.5] |  | 0.43 | 0.42 | 0.44 | [0.29 0.5] |
+| USC |  | 0.33 | 0.33 | 0.33 | [0.29 0.37] |  | 0.4 | 0.4 | 0.41 | [0.33 0.47] |  | 0.44 | 0.44 | 0.45 | [0.35 0.49] |  | 0.43 | 0.42 | 0.44 | [0.29 0.5] |
+| WNGC |  | 0.33 | 0.33 | 0.33 | [0.29 0.37] |  | 0.4 | 0.4 | 0.41 | [0.33 0.47] |  | 0.44 | 0.44 | 0.45 | [0.35 0.5] |  | 0.43 | 0.42 | 0.44 | [0.29 0.5] |
+| s119 |  | 0.33 | 0.33 | 0.33 | [0.29 0.37] |  | 0.4 | 0.4 | 0.41 | [0.33 0.47] |  | 0.44 | 0.44 | 0.45 | [0.35 0.49] |  | 0.43 | 0.42 | 0.44 | [0.29 0.5] |
+| s279 |  | 0.33 | 0.33 | 0.33 | [0.29 0.37] |  | 0.4 | 0.4 | 0.41 | [0.33 0.47] |  | 0.44 | 0.44 | 0.45 | [0.35 0.49] |  | 0.43 | 0.42 | 0.44 | [0.29 0.5] |
+| s480 |  | 0.33 | 0.33 | 0.33 | [0.29 0.37] |  | 0.4 | 0.4 | 0.41 | [0.33 0.47] |  | 0.44 | 0.44 | 0.45 | [0.35 0.5] |  | 0.43 | 0.42 | 0.44 | [0.29 0.5] |
+| **ALL SITES** |  | **0.33** | **0.33** | **0.33** | **[0.29 0.37]** |  | **0.4** | **0.4** | **0.41** | **[0.33 0.47]** |  | **0.44** | **0.44** | **0.45** | **[0.35 0.5]** |  | **0.43** | **0.42** | **0.44** | **[0.29 0.5]** |
+
+| 3s | 5s |
+|-----|-----|
+| ![3s](resources/between_events_single_path_50km_3s_hist.png) | ![5s](resources/between_events_single_path_50km_5s_hist.png) |
+| 7.5s | 10s |
+| ![7.5s](resources/between_events_single_path_50km_7.5s_hist.png) | ![10s](resources/between_events_single_path_50km_10s_hist.png) |
+
 
 ## Between-events Variability
 *[(top)](#table-of-contents)*
@@ -304,8 +398,8 @@ Between-events variability, denoted &tau; in Al Atik 2010, is computed from grou
 and the following quantities vary:
 
 * Rupture *[100 unique]*
-* Rupture Strike (Aki & Richards 1980 convention) *[36 unique]*
-* Path (from site to rupture centroid) *[4 unique]*
+* Rupture Strike *[36 unique]*
+* Path *[4 unique]*
 
 Standard deviation is computed and tabulated separately for each site and distance, then a total standard deviation is computed from all site and distances and reported in the "**ALL SITES**" row.
 
@@ -314,38 +408,52 @@ Standard deviation is computed and tabulated separately for each site and distan
 
 ![Between-events Variability](resources/between_events_20km_std_dev.png)
 
-| Site | 3s Std. Dev. | 3s Residual Range | 5s Std. Dev. | 5s Residual Range | 7.5s Std. Dev. | 7.5s Residual Range | 10s Std. Dev. | 10s Residual Range |
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| LAPD | 0.44 | [-1.16 1.7] | 0.46 | [-1.61 1.26] | 0.48 | [-1.51 1.26] | 0.45 | [-1.94 1.13] |
-| PAS | 0.44 | [-1.13 1.7] | 0.46 | [-1.61 1.26] | 0.48 | [-1.52 1.26] | 0.45 | [-1.94 1.13] |
-| SBSM | 0.44 | [-1.13 1.7] | 0.46 | [-1.62 1.26] | 0.48 | [-1.52 1.26] | 0.45 | [-1.95 1.13] |
-| SMCA | 0.44 | [-1.16 1.7] | 0.46 | [-1.6 1.26] | 0.49 | [-1.5 1.25] | 0.45 | [-1.94 1.12] |
-| STNI | 0.44 | [-1.13 1.7] | 0.46 | [-1.61 1.26] | 0.49 | [-1.52 1.25] | 0.45 | [-1.94 1.12] |
-| USC | 0.44 | [-1.13 1.7] | 0.46 | [-1.61 1.26] | 0.49 | [-1.52 1.26] | 0.45 | [-1.94 1.13] |
-| WNGC | 0.44 | [-1.13 1.7] | 0.46 | [-1.61 1.26] | 0.49 | [-1.52 1.26] | 0.45 | [-1.95 1.13] |
-| s119 | 0.44 | [-1.16 1.7] | 0.46 | [-1.65 1.26] | 0.48 | [-1.51 1.26] | 0.45 | [-1.94 1.13] |
-| s279 | 0.44 | [-1.16 1.7] | 0.46 | [-1.61 1.26] | 0.48 | [-1.52 1.26] | 0.45 | [-1.94 1.13] |
-| s480 | 0.44 | [-1.13 1.7] | 0.46 | [-1.63 1.26] | 0.48 | [-1.52 1.26] | 0.45 | [-1.95 1.13] |
-| **ALL SITES** | **0.44** | **[-1.16 1.7]** | **0.46** | **[-1.65 1.26]** | **0.48** | **[-1.52 1.26]** | **0.45** | **[-1.95 1.13]** |
+| Site | 3s &tau; | Total | Mean | Median | Range | 5s &tau; | Total | Mean | Median | Range | 7.5s &tau; | Total | Mean | Median | Range | 10s &tau; | Total | Mean | Median | Range |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| LAPD |  | 0.44 | 0.44 | 0.44 | [0.44 0.44] |  | 0.46 | 0.46 | 0.46 | [0.46 0.46] |  | 0.48 | 0.48 | 0.48 | [0.48 0.48] |  | 0.45 | 0.45 | 0.45 | [0.45 0.45] |
+| PAS |  | 0.44 | 0.44 | 0.44 | [0.44 0.44] |  | 0.46 | 0.46 | 0.46 | [0.46 0.46] |  | 0.48 | 0.48 | 0.48 | [0.48 0.48] |  | 0.45 | 0.45 | 0.45 | [0.45 0.45] |
+| SBSM |  | 0.44 | 0.44 | 0.44 | [0.44 0.44] |  | 0.46 | 0.46 | 0.46 | [0.46 0.46] |  | 0.48 | 0.48 | 0.48 | [0.48 0.48] |  | 0.45 | 0.45 | 0.45 | [0.45 0.45] |
+| SMCA |  | 0.44 | 0.44 | 0.44 | [0.44 0.44] |  | 0.46 | 0.46 | 0.46 | [0.46 0.46] |  | 0.49 | 0.49 | 0.49 | [0.49 0.49] |  | 0.45 | 0.45 | 0.45 | [0.45 0.45] |
+| STNI |  | 0.44 | 0.44 | 0.44 | [0.44 0.44] |  | 0.46 | 0.46 | 0.46 | [0.46 0.46] |  | 0.49 | 0.49 | 0.49 | [0.49 0.49] |  | 0.45 | 0.45 | 0.45 | [0.45 0.45] |
+| USC |  | 0.44 | 0.44 | 0.44 | [0.44 0.44] |  | 0.46 | 0.46 | 0.46 | [0.46 0.46] |  | 0.49 | 0.49 | 0.49 | [0.49 0.49] |  | 0.45 | 0.45 | 0.45 | [0.45 0.45] |
+| WNGC |  | 0.44 | 0.44 | 0.44 | [0.44 0.44] |  | 0.46 | 0.46 | 0.46 | [0.46 0.46] |  | 0.49 | 0.49 | 0.49 | [0.49 0.49] |  | 0.45 | 0.45 | 0.45 | [0.45 0.45] |
+| s119 |  | 0.44 | 0.44 | 0.44 | [0.44 0.44] |  | 0.46 | 0.46 | 0.46 | [0.46 0.46] |  | 0.48 | 0.48 | 0.48 | [0.48 0.48] |  | 0.45 | 0.45 | 0.45 | [0.45 0.45] |
+| s279 |  | 0.44 | 0.44 | 0.44 | [0.44 0.44] |  | 0.46 | 0.46 | 0.46 | [0.46 0.46] |  | 0.48 | 0.48 | 0.48 | [0.48 0.48] |  | 0.45 | 0.45 | 0.45 | [0.45 0.45] |
+| s480 |  | 0.44 | 0.44 | 0.44 | [0.44 0.44] |  | 0.46 | 0.46 | 0.46 | [0.46 0.46] |  | 0.48 | 0.48 | 0.48 | [0.48 0.48] |  | 0.45 | 0.45 | 0.45 | [0.45 0.45] |
+| **ALL SITES** |  | **0.44** | **0.44** | **0.44** | **[0.44 0.44]** |  | **0.46** | **0.46** | **0.46** | **[0.46 0.46]** |  | **0.48** | **0.48** | **0.48** | **[0.48 0.49]** |  | **0.45** | **0.45** | **0.45** | **[0.45 0.45]** |
+
+| 3s | 5s |
+|-----|-----|
+| ![3s](resources/between_events_20km_3s_hist.png) | ![5s](resources/between_events_20km_5s_hist.png) |
+| 7.5s | 10s |
+| ![7.5s](resources/between_events_20km_7.5s_hist.png) | ![10s](resources/between_events_20km_10s_hist.png) |
+
 
 ### 50.0 km Between-events Results
 *[(top)](#table-of-contents)*
 
 ![Between-events Variability](resources/between_events_50km_std_dev.png)
 
-| Site | 3s Std. Dev. | 3s Residual Range | 5s Std. Dev. | 5s Residual Range | 7.5s Std. Dev. | 7.5s Residual Range | 10s Std. Dev. | 10s Residual Range |
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| LAPD | 0.5 | [-1.5 1.76] | 0.55 | [-1.85 1.32] | 0.62 | [-1.88 1.5] | 0.64 | [-1.77 1.47] |
-| PAS | 0.5 | [-1.5 1.76] | 0.55 | [-1.85 1.32] | 0.62 | [-1.88 1.5] | 0.64 | [-1.77 1.47] |
-| SBSM | 0.5 | [-1.5 1.76] | 0.55 | [-1.86 1.32] | 0.62 | [-1.88 1.5] | 0.64 | [-1.78 1.47] |
-| SMCA | 0.5 | [-1.5 1.76] | 0.55 | [-1.85 1.32] | 0.62 | [-1.88 1.49] | 0.64 | [-1.77 1.47] |
-| STNI | 0.5 | [-1.5 1.76] | 0.55 | [-1.85 1.32] | 0.62 | [-1.88 1.49] | 0.64 | [-1.77 1.47] |
-| USC | 0.5 | [-1.5 1.76] | 0.55 | [-1.85 1.32] | 0.62 | [-1.88 1.49] | 0.64 | [-1.77 1.47] |
-| WNGC | 0.5 | [-1.5 1.76] | 0.55 | [-1.85 1.32] | 0.62 | [-1.88 1.49] | 0.64 | [-1.77 1.47] |
-| s119 | 0.5 | [-1.49 1.76] | 0.55 | [-1.85 1.32] | 0.62 | [-1.88 1.5] | 0.64 | [-1.77 1.47] |
-| s279 | 0.5 | [-1.5 1.76] | 0.55 | [-1.85 1.32] | 0.62 | [-1.88 1.5] | 0.64 | [-1.77 1.47] |
-| s480 | 0.5 | [-1.5 1.76] | 0.55 | [-1.85 1.32] | 0.62 | [-1.88 1.5] | 0.64 | [-1.77 1.47] |
-| **ALL SITES** | **0.5** | **[-1.5 1.76]** | **0.55** | **[-1.86 1.32]** | **0.62** | **[-1.88 1.5]** | **0.64** | **[-1.78 1.47]** |
+| Site | 3s &tau; | Total | Mean | Median | Range | 5s &tau; | Total | Mean | Median | Range | 7.5s &tau; | Total | Mean | Median | Range | 10s &tau; | Total | Mean | Median | Range |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| LAPD |  | 0.5 | 0.5 | 0.5 | [0.5 0.5] |  | 0.55 | 0.55 | 0.55 | [0.55 0.55] |  | 0.62 | 0.62 | 0.62 | [0.62 0.62] |  | 0.64 | 0.64 | 0.64 | [0.64 0.64] |
+| PAS |  | 0.5 | 0.5 | 0.5 | [0.5 0.5] |  | 0.55 | 0.55 | 0.55 | [0.55 0.55] |  | 0.62 | 0.62 | 0.62 | [0.62 0.62] |  | 0.64 | 0.64 | 0.64 | [0.64 0.64] |
+| SBSM |  | 0.5 | 0.5 | 0.5 | [0.5 0.5] |  | 0.55 | 0.55 | 0.55 | [0.55 0.55] |  | 0.62 | 0.62 | 0.62 | [0.62 0.62] |  | 0.64 | 0.64 | 0.64 | [0.64 0.64] |
+| SMCA |  | 0.5 | 0.5 | 0.5 | [0.5 0.5] |  | 0.55 | 0.55 | 0.55 | [0.55 0.55] |  | 0.62 | 0.62 | 0.62 | [0.62 0.62] |  | 0.64 | 0.64 | 0.64 | [0.64 0.64] |
+| STNI |  | 0.5 | 0.5 | 0.5 | [0.5 0.5] |  | 0.55 | 0.55 | 0.55 | [0.55 0.55] |  | 0.62 | 0.62 | 0.62 | [0.62 0.62] |  | 0.64 | 0.64 | 0.64 | [0.64 0.64] |
+| USC |  | 0.5 | 0.5 | 0.5 | [0.5 0.5] |  | 0.55 | 0.55 | 0.55 | [0.55 0.55] |  | 0.62 | 0.62 | 0.62 | [0.62 0.62] |  | 0.64 | 0.64 | 0.64 | [0.64 0.64] |
+| WNGC |  | 0.5 | 0.5 | 0.5 | [0.5 0.5] |  | 0.55 | 0.55 | 0.55 | [0.55 0.55] |  | 0.62 | 0.62 | 0.62 | [0.62 0.62] |  | 0.64 | 0.64 | 0.64 | [0.64 0.64] |
+| s119 |  | 0.5 | 0.5 | 0.5 | [0.5 0.5] |  | 0.55 | 0.55 | 0.55 | [0.55 0.55] |  | 0.62 | 0.62 | 0.62 | [0.62 0.62] |  | 0.64 | 0.64 | 0.64 | [0.64 0.64] |
+| s279 |  | 0.5 | 0.5 | 0.5 | [0.5 0.5] |  | 0.55 | 0.55 | 0.55 | [0.55 0.55] |  | 0.62 | 0.62 | 0.62 | [0.62 0.62] |  | 0.64 | 0.64 | 0.64 | [0.64 0.64] |
+| s480 |  | 0.5 | 0.5 | 0.5 | [0.5 0.5] |  | 0.55 | 0.55 | 0.55 | [0.55 0.55] |  | 0.62 | 0.62 | 0.62 | [0.62 0.62] |  | 0.64 | 0.64 | 0.64 | [0.64 0.64] |
+| **ALL SITES** |  | **0.5** | **0.5** | **0.5** | **[0.5 0.5]** |  | **0.55** | **0.55** | **0.55** | **[0.55 0.55]** |  | **0.62** | **0.62** | **0.62** | **[0.62 0.62]** |  | **0.64** | **0.64** | **0.64** | **[0.64 0.64]** |
+
+| 3s | 5s |
+|-----|-----|
+| ![3s](resources/between_events_50km_3s_hist.png) | ![5s](resources/between_events_50km_5s_hist.png) |
+| 7.5s | 10s |
+| ![7.5s](resources/between_events_50km_7.5s_hist.png) | ![10s](resources/between_events_50km_10s_hist.png) |
+
 
 ## Site-to-site Variability
 *[(top)](#table-of-contents)*
@@ -357,8 +465,8 @@ Site-to-site variability, denoted &phi;<sub>S2S</sub> in Al Atik 2010, is comput
 
 * Joyner-Boore Distance *[2 unique]*
 * Rupture *[100 unique]*
-* Rupture Strike (Aki & Richards 1980 convention) *[36 unique]*
-* Path (from site to rupture centroid) *[4 unique]*
+* Rupture Strike *[36 unique]*
+* Path *[4 unique]*
 
 and the following quantities vary:
 
@@ -371,16 +479,30 @@ Standard deviation is computed and tabulated separately for each distance, then 
 
 ![Site-to-site Variability](resources/site_to_site_20km_std_dev.png)
 
-| 3s Std. Dev. | 3s Residual Range | 5s Std. Dev. | 5s Residual Range | 7.5s Std. Dev. | 7.5s Residual Range | 10s Std. Dev. | 10s Residual Range |
-|-----|-----|-----|-----|-----|-----|-----|-----|
-| 0.01 | [-0.1 0.13] | 0 | [-0.08 0.06] | 0 | [-0.05 0.04] | 0 | [-0.04 0.03] |
+| 3s &phi;<sub>S2S</sub> | Total | Mean | Median | Range | 5s &phi;<sub>S2S</sub> | Total | Mean | Median | Range | 7.5s &phi;<sub>S2S</sub> | Total | Mean | Median | Range | 10s &phi;<sub>S2S</sub> | Total | Mean | Median | Range |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|  | 0.01 | 0.01 | 0 | [0 0.06] |  | 0 | 0 | 0 | [0 0.04] |  | 0 | 0 | 0 | [0 0.03] |  | 0 | 0 | 0 | [0 0.02] |
+
+| 3s | 5s |
+|-----|-----|
+| ![3s](resources/site_to_site_20km_3s_hist.png) | ![5s](resources/site_to_site_20km_5s_hist.png) |
+| 7.5s | 10s |
+| ![7.5s](resources/site_to_site_20km_7.5s_hist.png) | ![10s](resources/site_to_site_20km_10s_hist.png) |
+
 
 ### 50.0 km Site-to-site Results
 *[(top)](#table-of-contents)*
 
 ![Site-to-site Variability](resources/site_to_site_50km_std_dev.png)
 
-| 3s Std. Dev. | 3s Residual Range | 5s Std. Dev. | 5s Residual Range | 7.5s Std. Dev. | 7.5s Residual Range | 10s Std. Dev. | 10s Residual Range |
-|-----|-----|-----|-----|-----|-----|-----|-----|
-| 0.01 | [-0.21 0.13] | 0.01 | [-0.08 0.11] | 0 | [-0.07 0.05] | 0 | [-0.06 0.05] |
+| 3s &phi;<sub>S2S</sub> | Total | Mean | Median | Range | 5s &phi;<sub>S2S</sub> | Total | Mean | Median | Range | 7.5s &phi;<sub>S2S</sub> | Total | Mean | Median | Range | 10s &phi;<sub>S2S</sub> | Total | Mean | Median | Range |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|  | 0.01 | 0.01 | 0 | [0 0.1] |  | 0.01 | 0 | 0 | [0 0.06] |  | 0 | 0 | 0 | [0 0.04] |  | 0 | 0 | 0 | [0 0.04] |
+
+| 3s | 5s |
+|-----|-----|
+| ![3s](resources/site_to_site_50km_3s_hist.png) | ![5s](resources/site_to_site_50km_5s_hist.png) |
+| 7.5s | 10s |
+| ![7.5s](resources/site_to_site_50km_7.5s_hist.png) | ![10s](resources/site_to_site_50km_10s_hist.png) |
+
 
