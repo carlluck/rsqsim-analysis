@@ -14,7 +14,7 @@ img {
 </head>
 <body>
 <h1 id="bruce-2585-rotated-rupture-variability-m66-ss">Bruce 2585 Rotated Rupture Variability, M6.6 SS</h1>
-<p>This exercise uses translations and rotations to estimate ground motion variability from different sources. We begin by selecting a subset of similar ruptures which match a set of criteria (in this case, M6.6, Vertical Strike-Slip with Surface Rupture). Each rupture is then reoriented such that its strike (following the Aki &amp; Richards 1980 convention) is 0 degrees (due North, dipping to the right for normal or reverse ruptures). For each site, ruptures are translated such that their centroid is directly North of the site, and their Joyner-Boore distance  (rJB) is as specified (we consider 2 distance[s] here).</p>
+<p>This exercise uses translations and rotations to estimate ground motion variability from different sources. We begin by selecting a subset of similar ruptures which match a set of criteria (in this case, M6.6, Vertical Strike-Slip with Surface Rupture). Each rupture is then reoriented such that its strike (following the Aki &amp; Richards 1980 convention) is 0 degrees (due North, dipping to the right for normal or reverse ruptures). For each site, ruptures are translated such that their scalar seismic moment centroid is directly North of the site, and their Joyner-Boore distance (rJB) is as specified (we consider 2 distance[s] here).</p>
 <p>We then  perform various rotations. We rotate the rupture in place around its centroid, holding the site-to-source centroid path and rJB constant (henceforth 'Rupture Strike'). We also rotate ruptures around the site, holding rJB and source orientation relative to the site constant but sampling different various paths (henceforth 'Path'). We do this for each unique combination of Rupture Strike, Path, Joyner-Boore Distance, Site, and Rupture.</p>
 <p><em>NOTE: This page uses the SCEC BBP to simulate a 1-dimensional velocity structure. Thus we expect no path variability, and plots of path variabilitiy are included only as verification of the method.</em></p>
 <p><a href="../#bruce-2585">RSQSim Catalog Details</a></p>
@@ -75,7 +75,7 @@ img {
 <tbody>
 <tr><td>Rupture</td><td>100</td><td>Unique (but similar in faulting style and magnitude) ruptures which match the given scenario.</td></tr>
 <tr><td>Site</td><td>10</td><td>Unique site locations. If 3-d, each will have unique velocity profiles.</td></tr>
-<tr><td>Rupture Strike</td><td>36</td><td>Rupture strike conforming to the Aki &amp; Richards (1980) convention, where dipping faults dip to the right of the rupture. If also rotated about a site, this azimuth is relative to the path.</td></tr>
+<tr><td>Rupture Strike</td><td>36</td><td>Rupture strike conforming to the Aki &amp; Richards (1980) convention, where dipping faults dip to the right of the rupture. If path rotation is also performed, this azimuth is relative to the path.</td></tr>
 <tr><td>Path</td><td>4</td><td>Path from the site to the centroid of the rupture, in azimuthal degrees (0 is North)</td></tr>
 <tr><td>Joyner-Boore Distance</td><td>20.0, 50.0 km</td><td>Shortest horizontal distance between the site and the surface projection of the rupture.</td></tr>
 <tr><td><strong>Total # Simulations</strong></td><td><strong>288000</strong></td><td>Total number of combinations of the above.</td></tr>
