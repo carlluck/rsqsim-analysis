@@ -51,7 +51,7 @@ We then  perform various rotations. We rotate the rupture in place around its ce
 ## M6.6 Reverse RSQSim Rupture Match Criteria
 *[(top)](#table-of-contents)*
 
-We condisder 75 events in the catalog match the following criteria:
+We condisder 75 events in the catalog which match the following criteria:
 
 * M=[6.55,6.65]
 * Ztor=[1,5]
