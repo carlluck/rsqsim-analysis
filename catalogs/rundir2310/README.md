@@ -13,6 +13,7 @@
 * [Metadata](#metadata)
 * [Single Event Comparisons](#single-event-comparisons)
 * [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
+* [BBP Part B Analysis](bbp_part_b/)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
@@ -36,6 +37,11 @@
 
 * [BSSA2014](gmpe_bbp_comparisons_BSSA2014/)
 * [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
+
+## BBP Part B Analysis
+*[(top)](#bruce-2310)*
+
+[BBP Part B Analysis Here](bbp_part_b/)
 
 ## Plots
 ### Magnitude-Frequency Plot
