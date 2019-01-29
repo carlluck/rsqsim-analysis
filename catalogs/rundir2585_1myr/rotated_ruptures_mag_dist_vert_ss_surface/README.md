@@ -13,9 +13,10 @@ We then  perform various rotations. We rotate the rupture in place around its ce
 * [SS RSQSim Rupture Match Criteria](#ss-rsqsim-rupture-match-criteria)
 * [Sites](#sites)
 * [Result Summary Table](#result-summary-table)
-* [M6.5 Result Summary Table](#m65-result-summary-table)
-* [M7 Result Summary Table](#m7-result-summary-table)
-* [M7.5 Result Summary Table](#m75-result-summary-table)
+  * [Mag-Dist Plots](#mag-dist-plots)
+  * [M6.5 Result Summary Table](#m65-result-summary-table)
+  * [M7 Result Summary Table](#m7-result-summary-table)
+  * [M7.5 Result Summary Table](#m75-result-summary-table)
 * [Source-strike Variability](#source-strike-variability)
   * [Source-strike Variability Methodology](#source-strike-variability-methodology)
   * [Source-strike Variability Mag-Distance Plots](#source-strike-variability-mag-distance-plots)
@@ -105,7 +106,18 @@ We condisder 100 events in the catalog which match the following criteria:
 
 ## Result Summary Table
 
-## M6.5 Result Summary Table
+### Mag-Dist Plots
+*[(top)](#table-of-contents)*
+
+| Type | Notation | 3s Std. Dev. | 5s Std. Dev. | 7.5s Std. Dev. | 10s Std. Dev. |
+|-----|-----|-----|-----|-----|-----|
+| Source-strike | &phi;<sub>s</sub> | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_3s.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_5s.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_7.5s.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_10s.png) |
+| Within-event | &phi; | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_3s.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_5s.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_7.5s.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_10s.png) |
+| Between-events, single-path | &tau;<sub>0</sub> | ![Mag-Dist Plot](resources/between_events_single_path_mag_dist_std_dev_3s.png) | ![Mag-Dist Plot](resources/between_events_single_path_mag_dist_std_dev_5s.png) | ![Mag-Dist Plot](resources/between_events_single_path_mag_dist_std_dev_7.5s.png) | ![Mag-Dist Plot](resources/between_events_single_path_mag_dist_std_dev_10s.png) |
+| Between-events | &tau; | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_3s.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_5s.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_7.5s.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_10s.png) |
+
+### M6.5 Result Summary Table
+*[(top)](#table-of-contents)*
 
 | Type | Notation | Distance | 3s Std. Dev. | 5s Std. Dev. | 7.5s Std. Dev. | 10s Std. Dev. |
 |-----|-----|-----|-----|-----|-----|-----|
@@ -150,7 +162,8 @@ We condisder 100 events in the catalog which match the following criteria:
 | Between-events | &tau; | 180 km | 0.43 | 0.59 | 0.67 | 0.68 |
 | Between-events | &tau; | 200 km | 0.43 | 0.59 | 0.67 | 0.7 |
 
-## M7 Result Summary Table
+### M7 Result Summary Table
+*[(top)](#table-of-contents)*
 
 | Type | Notation | Distance | 3s Std. Dev. | 5s Std. Dev. | 7.5s Std. Dev. | 10s Std. Dev. |
 |-----|-----|-----|-----|-----|-----|-----|
@@ -195,7 +208,8 @@ We condisder 100 events in the catalog which match the following criteria:
 | Between-events | &tau; | 180 km | 0.42 | 0.58 | 0.64 | 0.65 |
 | Between-events | &tau; | 200 km | 0.43 | 0.59 | 0.65 | 0.67 |
 
-## M7.5 Result Summary Table
+### M7.5 Result Summary Table
+*[(top)](#table-of-contents)*
 
 | Type | Notation | Distance | 3s Std. Dev. | 5s Std. Dev. | 7.5s Std. Dev. | 10s Std. Dev. |
 |-----|-----|-----|-----|-----|-----|-----|
