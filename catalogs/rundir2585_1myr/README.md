@@ -15,6 +15,8 @@
 * [Source/Site Ground Motion Comparisons](source_site_comparisons/)
 * [Extreme Event Examples](extreme_events/)
 * [Occupancy Copulas](#occupancy-copulas)
+* [BBP Part B Analysis](bbp_part_b/)
+* [Rotated Rupture Variability Comparisons](#rotated-rupture-variability-comparisons)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
@@ -47,6 +49,17 @@
 *[(top)](#bruce-2585-1myr)*
 
 * [6-D M>=7.0 Occupancy Copulas](occupancy_copula_m7.0_6D/)
+
+## BBP Part B Analysis
+*[(top)](#bruce-2585-1myr)*
+
+[BBP Part B Analysis Here](bbp_part_b/)
+
+## Rotated Rupture Variability Comparisons
+*[(top)](#bruce-2585-1myr)*
+
+* [Reverse, Dip=45, Mag-Dist Bins](rotated_ruptures_mag_dist_reverse/)
+* [Vertical Strike-Slip with Surface Rupture, Mag-Dist Bins](rotated_ruptures_mag_dist_vert_ss_surface/)
 
 ## Plots
 ### Magnitude-Frequency Plot

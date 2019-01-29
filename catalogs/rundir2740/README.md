@@ -14,6 +14,7 @@
 * [Single Event Comparisons](#single-event-comparisons)
 * [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
 * [Source/Site Ground Motion Comparisons](source_site_comparisons/)
+* [BBP Part B Analysis](bbp_part_b/)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
@@ -42,6 +43,11 @@
 *[(top)](#bruce-2740)*
 
 [Source/Site Ground Motion Comparisons here](source_site_comparisons/)
+
+## BBP Part B Analysis
+*[(top)](#bruce-2740)*
+
+[BBP Part B Analysis Here](bbp_part_b/)
 
 ## Plots
 ### Magnitude-Frequency Plot
