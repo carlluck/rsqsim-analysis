@@ -76,7 +76,7 @@ We then  perform various rotations. We rotate the rupture in place around its ce
 
 We condisder 100 events in the catalog which match the following criteria:
 
-* Ztor=[0,5]
+* Ztor=[1,5]
 * Rake=[75,105]
 * Dip=[35,55]
 
