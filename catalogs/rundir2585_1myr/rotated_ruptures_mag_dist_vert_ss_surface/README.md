@@ -47,21 +47,6 @@ We then  perform various rotations. We rotate the rupture in place around its ce
   * [40.0 km M7.5 Within-event Results](#400-km-m75-within-event-results)
   * [80.0 km M7.5 Within-event Results](#800-km-m75-within-event-results)
   * [160.0 km M7.5 Within-event Results](#1600-km-m75-within-event-results)
-* [Between-events, single-path Variability](#between-events-single-path-variability)
-  * [Between-events, single-path Variability Methodology](#between-events-single-path-variability-methodology)
-  * [Between-events, single-path Variability Mag-Distance Plots](#between-events-single-path-variability-mag-distance-plots)
-  * [20.0 km M6.5 Between-events, single-path Results](#200-km-m65-between-events-single-path-results)
-  * [40.0 km M6.5 Between-events, single-path Results](#400-km-m65-between-events-single-path-results)
-  * [80.0 km M6.5 Between-events, single-path Results](#800-km-m65-between-events-single-path-results)
-  * [160.0 km M6.5 Between-events, single-path Results](#1600-km-m65-between-events-single-path-results)
-  * [20.0 km M7 Between-events, single-path Results](#200-km-m7-between-events-single-path-results)
-  * [40.0 km M7 Between-events, single-path Results](#400-km-m7-between-events-single-path-results)
-  * [80.0 km M7 Between-events, single-path Results](#800-km-m7-between-events-single-path-results)
-  * [160.0 km M7 Between-events, single-path Results](#1600-km-m7-between-events-single-path-results)
-  * [20.0 km M7.5 Between-events, single-path Results](#200-km-m75-between-events-single-path-results)
-  * [40.0 km M7.5 Between-events, single-path Results](#400-km-m75-between-events-single-path-results)
-  * [80.0 km M7.5 Between-events, single-path Results](#800-km-m75-between-events-single-path-results)
-  * [160.0 km M7.5 Between-events, single-path Results](#1600-km-m75-between-events-single-path-results)
 * [Between-events Variability](#between-events-variability)
   * [Between-events Variability Methodology](#between-events-variability-methodology)
   * [Between-events Variability Mag-Distance Plots](#between-events-variability-mag-distance-plots)
@@ -113,7 +98,6 @@ We condisder 100 events in the catalog which match the following criteria:
 |-----|-----|-----|-----|-----|-----|
 | Source-strike | &phi;<sub>s</sub> | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_3s.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_5s.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_7.5s.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_10s.png) |
 | Within-event | &phi; | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_3s.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_5s.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_7.5s.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_10s.png) |
-| Between-events, single-path | &tau;<sub>0</sub> | ![Mag-Dist Plot](resources/between_events_single_path_mag_dist_std_dev_3s.png) | ![Mag-Dist Plot](resources/between_events_single_path_mag_dist_std_dev_5s.png) | ![Mag-Dist Plot](resources/between_events_single_path_mag_dist_std_dev_7.5s.png) | ![Mag-Dist Plot](resources/between_events_single_path_mag_dist_std_dev_10s.png) |
 | Between-events | &tau; | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_3s.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_5s.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_7.5s.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_10s.png) |
 
 ### M6.5 Result Summary Table
@@ -141,16 +125,6 @@ We condisder 100 events in the catalog which match the following criteria:
 | Within-event | &phi; | 160 km | 0.37 | 0.49 | 0.56 | 0.52 |
 | Within-event | &phi; | 180 km | 0.38 | 0.49 | 0.55 | 0.52 |
 | Within-event | &phi; | 200 km | 0.38 | 0.5 | 0.55 | 0.55 |
-| Between-events, single-path | &tau;<sub>0</sub> | 20 km | 0.36 | 0.38 | 0.43 | 0.44 |
-| Between-events, single-path | &tau;<sub>0</sub> | 40 km | 0.37 | 0.41 | 0.43 | 0.46 |
-| Between-events, single-path | &tau;<sub>0</sub> | 60 km | 0.37 | 0.41 | 0.46 | 0.46 |
-| Between-events, single-path | &tau;<sub>0</sub> | 80 km | 0.37 | 0.43 | 0.46 | 0.49 |
-| Between-events, single-path | &tau;<sub>0</sub> | 100 km | 0.35 | 0.43 | 0.46 | 0.49 |
-| Between-events, single-path | &tau;<sub>0</sub> | 120 km | 0.32 | 0.43 | 0.47 | 0.49 |
-| Between-events, single-path | &tau;<sub>0</sub> | 140 km | 0.31 | 0.43 | 0.46 | 0.49 |
-| Between-events, single-path | &tau;<sub>0</sub> | 160 km | 0.3 | 0.42 | 0.47 | 0.5 |
-| Between-events, single-path | &tau;<sub>0</sub> | 180 km | 0.31 | 0.43 | 0.48 | 0.5 |
-| Between-events, single-path | &tau;<sub>0</sub> | 200 km | 0.31 | 0.44 | 0.48 | 0.51 |
 | Between-events | &tau; | 20 km | 0.46 | 0.49 | 0.49 | 0.46 |
 | Between-events | &tau; | 40 km | 0.51 | 0.53 | 0.61 | 0.59 |
 | Between-events | &tau; | 60 km | 0.52 | 0.57 | 0.61 | 0.66 |
@@ -187,16 +161,6 @@ We condisder 100 events in the catalog which match the following criteria:
 | Within-event | &phi; | 160 km | 0.39 | 0.53 | 0.6 | 0.58 |
 | Within-event | &phi; | 180 km | 0.4 | 0.53 | 0.6 | 0.58 |
 | Within-event | &phi; | 200 km | 0.4 | 0.53 | 0.61 | 0.6 |
-| Between-events, single-path | &tau;<sub>0</sub> | 20 km | 0.32 | 0.36 | 0.36 | 0.36 |
-| Between-events, single-path | &tau;<sub>0</sub> | 40 km | 0.32 | 0.38 | 0.4 | 0.41 |
-| Between-events, single-path | &tau;<sub>0</sub> | 60 km | 0.32 | 0.39 | 0.41 | 0.43 |
-| Between-events, single-path | &tau;<sub>0</sub> | 80 km | 0.32 | 0.4 | 0.41 | 0.43 |
-| Between-events, single-path | &tau;<sub>0</sub> | 100 km | 0.29 | 0.4 | 0.42 | 0.44 |
-| Between-events, single-path | &tau;<sub>0</sub> | 120 km | 0.28 | 0.39 | 0.42 | 0.44 |
-| Between-events, single-path | &tau;<sub>0</sub> | 140 km | 0.28 | 0.4 | 0.42 | 0.45 |
-| Between-events, single-path | &tau;<sub>0</sub> | 160 km | 0.27 | 0.39 | 0.43 | 0.45 |
-| Between-events, single-path | &tau;<sub>0</sub> | 180 km | 0.27 | 0.4 | 0.44 | 0.45 |
-| Between-events, single-path | &tau;<sub>0</sub> | 200 km | 0.27 | 0.41 | 0.44 | 0.46 |
 | Between-events | &tau; | 20 km | 0.47 | 0.48 | 0.43 | 0.39 |
 | Between-events | &tau; | 40 km | 0.5 | 0.52 | 0.56 | 0.55 |
 | Between-events | &tau; | 60 km | 0.52 | 0.56 | 0.57 | 0.61 |
@@ -233,16 +197,6 @@ We condisder 100 events in the catalog which match the following criteria:
 | Within-event | &phi; | 160 km | 0.47 | 0.62 | 0.61 | 0.59 |
 | Within-event | &phi; | 180 km | 0.46 | 0.64 | 0.63 | 0.6 |
 | Within-event | &phi; | 200 km | 0.44 | 0.63 | 0.64 | 0.61 |
-| Between-events, single-path | &tau;<sub>0</sub> | 20 km | 0.29 | 0.36 | 0.38 | 0.39 |
-| Between-events, single-path | &tau;<sub>0</sub> | 40 km | 0.28 | 0.34 | 0.41 | 0.44 |
-| Between-events, single-path | &tau;<sub>0</sub> | 60 km | 0.27 | 0.34 | 0.4 | 0.45 |
-| Between-events, single-path | &tau;<sub>0</sub> | 80 km | 0.26 | 0.34 | 0.4 | 0.45 |
-| Between-events, single-path | &tau;<sub>0</sub> | 100 km | 0.24 | 0.33 | 0.4 | 0.46 |
-| Between-events, single-path | &tau;<sub>0</sub> | 120 km | 0.23 | 0.32 | 0.4 | 0.46 |
-| Between-events, single-path | &tau;<sub>0</sub> | 140 km | 0.22 | 0.32 | 0.4 | 0.46 |
-| Between-events, single-path | &tau;<sub>0</sub> | 160 km | 0.23 | 0.31 | 0.4 | 0.46 |
-| Between-events, single-path | &tau;<sub>0</sub> | 180 km | 0.22 | 0.32 | 0.41 | 0.47 |
-| Between-events, single-path | &tau;<sub>0</sub> | 200 km | 0.22 | 0.33 | 0.41 | 0.47 |
 | Between-events | &tau; | 20 km | 0.47 | 0.52 | 0.43 | 0.4 |
 | Between-events | &tau; | 40 km | 0.54 | 0.58 | 0.55 | 0.52 |
 | Between-events | &tau; | 60 km | 0.55 | 0.63 | 0.57 | 0.58 |
@@ -696,224 +650,6 @@ Standard deviation is computed and tabulated separately for each site and distan
 | ![3s](resources/within_event_m7.5_160km_3s_hist.png) | ![5s](resources/within_event_m7.5_160km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/within_event_m7.5_160km_7.5s_hist.png) | ![10s](resources/within_event_m7.5_160km_10s_hist.png) |
-
-
-## Between-events, single-path Variability
-*[(top)](#table-of-contents)*
-
-### Between-events, single-path Variability Methodology
-*[(top)](#table-of-contents)*
-
-Between-events, single-path variability, denoted &tau;<sub>0</sub> in Al Atik (2010), is computed from ground motion residuals where the following quantities are held constant:
-
-* Site *[1 unique]*
-* Joyner-Boore Distance *[10 unique]*
-* Rupture Strike *[36 unique]*
-* Path *[1 unique]*
-
-and the following quantities vary:
-
-* Rupture *[100 unique]*
-
-Standard deviation is computed and tabulated separately for each site and distance, then a total standard deviation is computed from all sitess and reported in the "**ALL SITES**" row. Results are reported separately for each distance
-
-### Between-events, single-path Variability Mag-Distance Plots
-*[(top)](#table-of-contents)*
-
-| 3s | 5s | 7.5s | 10s |
-|-----|-----|-----|-----|
-| ![Mag-Dist Plot](resources/between_events_single_path_mag_dist_std_dev_3s.png) | ![Mag-Dist Plot](resources/between_events_single_path_mag_dist_std_dev_5s.png) | ![Mag-Dist Plot](resources/between_events_single_path_mag_dist_std_dev_7.5s.png) | ![Mag-Dist Plot](resources/between_events_single_path_mag_dist_std_dev_10s.png) |
-
-### 20.0 km M6.5 Between-events, single-path Results
-*[(top)](#table-of-contents)*
-
-![Between-events, single-path Variability](resources/between_events_single_path_m6.5_20km_std_dev.png)
-
-| 3s &tau;<sub>0</sub> | Total | Mean | Median | Range | 5s &tau;<sub>0</sub> | Total | Mean | Median | Range | 7.5s &tau;<sub>0</sub> | Total | Mean | Median | Range | 10s &tau;<sub>0</sub> | Total | Mean | Median | Range |
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|  | 0.36 | 0.36 | 0.36 | [0.3 0.42] |  | 0.38 | 0.38 | 0.4 | [0.32 0.43] |  | 0.43 | 0.44 | 0.44 | [0.41 0.47] |  | 0.44 | 0.44 | 0.45 | [0.41 0.47] |
-
-| 3s | 5s |
-|-----|-----|
-| ![3s](resources/between_events_single_path_m6.5_20km_3s_hist.png) | ![5s](resources/between_events_single_path_m6.5_20km_5s_hist.png) |
-| 7.5s | 10s |
-| ![7.5s](resources/between_events_single_path_m6.5_20km_7.5s_hist.png) | ![10s](resources/between_events_single_path_m6.5_20km_10s_hist.png) |
-
-
-### 40.0 km M6.5 Between-events, single-path Results
-*[(top)](#table-of-contents)*
-
-![Between-events, single-path Variability](resources/between_events_single_path_m6.5_40km_std_dev.png)
-
-| 3s &tau;<sub>0</sub> | Total | Mean | Median | Range | 5s &tau;<sub>0</sub> | Total | Mean | Median | Range | 7.5s &tau;<sub>0</sub> | Total | Mean | Median | Range | 10s &tau;<sub>0</sub> | Total | Mean | Median | Range |
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|  | 0.37 | 0.38 | 0.38 | [0.32 0.41] |  | 0.41 | 0.41 | 0.42 | [0.32 0.48] |  | 0.43 | 0.43 | 0.45 | [0.3 0.5] |  | 0.46 | 0.46 | 0.48 | [0.34 0.51] |
-
-| 3s | 5s |
-|-----|-----|
-| ![3s](resources/between_events_single_path_m6.5_40km_3s_hist.png) | ![5s](resources/between_events_single_path_m6.5_40km_5s_hist.png) |
-| 7.5s | 10s |
-| ![7.5s](resources/between_events_single_path_m6.5_40km_7.5s_hist.png) | ![10s](resources/between_events_single_path_m6.5_40km_10s_hist.png) |
-
-
-### 80.0 km M6.5 Between-events, single-path Results
-*[(top)](#table-of-contents)*
-
-![Between-events, single-path Variability](resources/between_events_single_path_m6.5_80km_std_dev.png)
-
-| 3s &tau;<sub>0</sub> | Total | Mean | Median | Range | 5s &tau;<sub>0</sub> | Total | Mean | Median | Range | 7.5s &tau;<sub>0</sub> | Total | Mean | Median | Range | 10s &tau;<sub>0</sub> | Total | Mean | Median | Range |
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|  | 0.37 | 0.38 | 0.38 | [0.33 0.4] |  | 0.43 | 0.43 | 0.45 | [0.36 0.49] |  | 0.46 | 0.46 | 0.47 | [0.39 0.51] |  | 0.49 | 0.49 | 0.51 | [0.39 0.55] |
-
-| 3s | 5s |
-|-----|-----|
-| ![3s](resources/between_events_single_path_m6.5_80km_3s_hist.png) | ![5s](resources/between_events_single_path_m6.5_80km_5s_hist.png) |
-| 7.5s | 10s |
-| ![7.5s](resources/between_events_single_path_m6.5_80km_7.5s_hist.png) | ![10s](resources/between_events_single_path_m6.5_80km_10s_hist.png) |
-
-
-### 160.0 km M6.5 Between-events, single-path Results
-*[(top)](#table-of-contents)*
-
-![Between-events, single-path Variability](resources/between_events_single_path_m6.5_160km_std_dev.png)
-
-| 3s &tau;<sub>0</sub> | Total | Mean | Median | Range | 5s &tau;<sub>0</sub> | Total | Mean | Median | Range | 7.5s &tau;<sub>0</sub> | Total | Mean | Median | Range | 10s &tau;<sub>0</sub> | Total | Mean | Median | Range |
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|  | 0.3 | 0.3 | 0.3 | [0.25 0.36] |  | 0.42 | 0.42 | 0.43 | [0.35 0.47] |  | 0.47 | 0.47 | 0.49 | [0.35 0.54] |  | 0.5 | 0.5 | 0.52 | [0.37 0.57] |
-
-| 3s | 5s |
-|-----|-----|
-| ![3s](resources/between_events_single_path_m6.5_160km_3s_hist.png) | ![5s](resources/between_events_single_path_m6.5_160km_5s_hist.png) |
-| 7.5s | 10s |
-| ![7.5s](resources/between_events_single_path_m6.5_160km_7.5s_hist.png) | ![10s](resources/between_events_single_path_m6.5_160km_10s_hist.png) |
-
-
-### 20.0 km M7 Between-events, single-path Results
-*[(top)](#table-of-contents)*
-
-![Between-events, single-path Variability](resources/between_events_single_path_m7_20km_std_dev.png)
-
-| 3s &tau;<sub>0</sub> | Total | Mean | Median | Range | 5s &tau;<sub>0</sub> | Total | Mean | Median | Range | 7.5s &tau;<sub>0</sub> | Total | Mean | Median | Range | 10s &tau;<sub>0</sub> | Total | Mean | Median | Range |
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|  | 0.32 | 0.32 | 0.33 | [0.26 0.38] |  | 0.36 | 0.36 | 0.36 | [0.29 0.44] |  | 0.36 | 0.36 | 0.36 | [0.29 0.46] |  | 0.36 | 0.36 | 0.34 | [0.28 0.47] |
-
-| 3s | 5s |
-|-----|-----|
-| ![3s](resources/between_events_single_path_m7_20km_3s_hist.png) | ![5s](resources/between_events_single_path_m7_20km_5s_hist.png) |
-| 7.5s | 10s |
-| ![7.5s](resources/between_events_single_path_m7_20km_7.5s_hist.png) | ![10s](resources/between_events_single_path_m7_20km_10s_hist.png) |
-
-
-### 40.0 km M7 Between-events, single-path Results
-*[(top)](#table-of-contents)*
-
-![Between-events, single-path Variability](resources/between_events_single_path_m7_40km_std_dev.png)
-
-| 3s &tau;<sub>0</sub> | Total | Mean | Median | Range | 5s &tau;<sub>0</sub> | Total | Mean | Median | Range | 7.5s &tau;<sub>0</sub> | Total | Mean | Median | Range | 10s &tau;<sub>0</sub> | Total | Mean | Median | Range |
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|  | 0.32 | 0.32 | 0.32 | [0.24 0.39] |  | 0.38 | 0.38 | 0.39 | [0.3 0.45] |  | 0.4 | 0.4 | 0.38 | [0.31 0.49] |  | 0.41 | 0.4 | 0.38 | [0.33 0.5] |
-
-| 3s | 5s |
-|-----|-----|
-| ![3s](resources/between_events_single_path_m7_40km_3s_hist.png) | ![5s](resources/between_events_single_path_m7_40km_5s_hist.png) |
-| 7.5s | 10s |
-| ![7.5s](resources/between_events_single_path_m7_40km_7.5s_hist.png) | ![10s](resources/between_events_single_path_m7_40km_10s_hist.png) |
-
-
-### 80.0 km M7 Between-events, single-path Results
-*[(top)](#table-of-contents)*
-
-![Between-events, single-path Variability](resources/between_events_single_path_m7_80km_std_dev.png)
-
-| 3s &tau;<sub>0</sub> | Total | Mean | Median | Range | 5s &tau;<sub>0</sub> | Total | Mean | Median | Range | 7.5s &tau;<sub>0</sub> | Total | Mean | Median | Range | 10s &tau;<sub>0</sub> | Total | Mean | Median | Range |
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|  | 0.32 | 0.31 | 0.31 | [0.25 0.39] |  | 0.4 | 0.4 | 0.41 | [0.3 0.47] |  | 0.41 | 0.4 | 0.39 | [0.32 0.5] |  | 0.43 | 0.43 | 0.4 | [0.35 0.52] |
-
-| 3s | 5s |
-|-----|-----|
-| ![3s](resources/between_events_single_path_m7_80km_3s_hist.png) | ![5s](resources/between_events_single_path_m7_80km_5s_hist.png) |
-| 7.5s | 10s |
-| ![7.5s](resources/between_events_single_path_m7_80km_7.5s_hist.png) | ![10s](resources/between_events_single_path_m7_80km_10s_hist.png) |
-
-
-### 160.0 km M7 Between-events, single-path Results
-*[(top)](#table-of-contents)*
-
-![Between-events, single-path Variability](resources/between_events_single_path_m7_160km_std_dev.png)
-
-| 3s &tau;<sub>0</sub> | Total | Mean | Median | Range | 5s &tau;<sub>0</sub> | Total | Mean | Median | Range | 7.5s &tau;<sub>0</sub> | Total | Mean | Median | Range | 10s &tau;<sub>0</sub> | Total | Mean | Median | Range |
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|  | 0.27 | 0.27 | 0.27 | [0.22 0.33] |  | 0.39 | 0.39 | 0.4 | [0.3 0.47] |  | 0.43 | 0.43 | 0.41 | [0.32 0.53] |  | 0.45 | 0.45 | 0.42 | [0.33 0.54] |
-
-| 3s | 5s |
-|-----|-----|
-| ![3s](resources/between_events_single_path_m7_160km_3s_hist.png) | ![5s](resources/between_events_single_path_m7_160km_5s_hist.png) |
-| 7.5s | 10s |
-| ![7.5s](resources/between_events_single_path_m7_160km_7.5s_hist.png) | ![10s](resources/between_events_single_path_m7_160km_10s_hist.png) |
-
-
-### 20.0 km M7.5 Between-events, single-path Results
-*[(top)](#table-of-contents)*
-
-![Between-events, single-path Variability](resources/between_events_single_path_m7.5_20km_std_dev.png)
-
-| 3s &tau;<sub>0</sub> | Total | Mean | Median | Range | 5s &tau;<sub>0</sub> | Total | Mean | Median | Range | 7.5s &tau;<sub>0</sub> | Total | Mean | Median | Range | 10s &tau;<sub>0</sub> | Total | Mean | Median | Range |
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|  | 0.29 | 0.29 | 0.29 | [0.23 0.39] |  | 0.36 | 0.36 | 0.35 | [0.28 0.46] |  | 0.38 | 0.38 | 0.35 | [0.31 0.55] |  | 0.39 | 0.38 | 0.33 | [0.29 0.59] |
-
-| 3s | 5s |
-|-----|-----|
-| ![3s](resources/between_events_single_path_m7.5_20km_3s_hist.png) | ![5s](resources/between_events_single_path_m7.5_20km_5s_hist.png) |
-| 7.5s | 10s |
-| ![7.5s](resources/between_events_single_path_m7.5_20km_7.5s_hist.png) | ![10s](resources/between_events_single_path_m7.5_20km_10s_hist.png) |
-
-
-### 40.0 km M7.5 Between-events, single-path Results
-*[(top)](#table-of-contents)*
-
-![Between-events, single-path Variability](resources/between_events_single_path_m7.5_40km_std_dev.png)
-
-| 3s &tau;<sub>0</sub> | Total | Mean | Median | Range | 5s &tau;<sub>0</sub> | Total | Mean | Median | Range | 7.5s &tau;<sub>0</sub> | Total | Mean | Median | Range | 10s &tau;<sub>0</sub> | Total | Mean | Median | Range |
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|  | 0.28 | 0.28 | 0.28 | [0.21 0.42] |  | 0.34 | 0.34 | 0.35 | [0.25 0.42] |  | 0.41 | 0.41 | 0.39 | [0.33 0.57] |  | 0.44 | 0.44 | 0.4 | [0.35 0.61] |
-
-| 3s | 5s |
-|-----|-----|
-| ![3s](resources/between_events_single_path_m7.5_40km_3s_hist.png) | ![5s](resources/between_events_single_path_m7.5_40km_5s_hist.png) |
-| 7.5s | 10s |
-| ![7.5s](resources/between_events_single_path_m7.5_40km_7.5s_hist.png) | ![10s](resources/between_events_single_path_m7.5_40km_10s_hist.png) |
-
-
-### 80.0 km M7.5 Between-events, single-path Results
-*[(top)](#table-of-contents)*
-
-![Between-events, single-path Variability](resources/between_events_single_path_m7.5_80km_std_dev.png)
-
-| 3s &tau;<sub>0</sub> | Total | Mean | Median | Range | 5s &tau;<sub>0</sub> | Total | Mean | Median | Range | 7.5s &tau;<sub>0</sub> | Total | Mean | Median | Range | 10s &tau;<sub>0</sub> | Total | Mean | Median | Range |
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|  | 0.26 | 0.26 | 0.26 | [0.18 0.35] |  | 0.34 | 0.34 | 0.35 | [0.24 0.4] |  | 0.4 | 0.39 | 0.37 | [0.31 0.55] |  | 0.45 | 0.45 | 0.41 | [0.37 0.62] |
-
-| 3s | 5s |
-|-----|-----|
-| ![3s](resources/between_events_single_path_m7.5_80km_3s_hist.png) | ![5s](resources/between_events_single_path_m7.5_80km_5s_hist.png) |
-| 7.5s | 10s |
-| ![7.5s](resources/between_events_single_path_m7.5_80km_7.5s_hist.png) | ![10s](resources/between_events_single_path_m7.5_80km_10s_hist.png) |
-
-
-### 160.0 km M7.5 Between-events, single-path Results
-*[(top)](#table-of-contents)*
-
-![Between-events, single-path Variability](resources/between_events_single_path_m7.5_160km_std_dev.png)
-
-| 3s &tau;<sub>0</sub> | Total | Mean | Median | Range | 5s &tau;<sub>0</sub> | Total | Mean | Median | Range | 7.5s &tau;<sub>0</sub> | Total | Mean | Median | Range | 10s &tau;<sub>0</sub> | Total | Mean | Median | Range |
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|  | 0.23 | 0.23 | 0.22 | [0.17 0.27] |  | 0.31 | 0.31 | 0.31 | [0.24 0.4] |  | 0.4 | 0.4 | 0.38 | [0.31 0.55] |  | 0.46 | 0.46 | 0.42 | [0.35 0.6] |
-
-| 3s | 5s |
-|-----|-----|
-| ![3s](resources/between_events_single_path_m7.5_160km_3s_hist.png) | ![5s](resources/between_events_single_path_m7.5_160km_5s_hist.png) |
-| 7.5s | 10s |
-| ![7.5s](resources/between_events_single_path_m7.5_160km_7.5s_hist.png) | ![10s](resources/between_events_single_path_m7.5_160km_10s_hist.png) |
 
 
 ## Between-events Variability

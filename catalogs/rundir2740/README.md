@@ -15,6 +15,7 @@
 * [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
 * [Source/Site Ground Motion Comparisons](source_site_comparisons/)
 * [BBP Part B Analysis](bbp_part_b/)
+* [Rotated Rupture Variability Comparisons](#rotated-rupture-variability-comparisons)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
@@ -48,6 +49,11 @@
 *[(top)](#bruce-2740)*
 
 [BBP Part B Analysis Here](bbp_part_b/)
+
+## Rotated Rupture Variability Comparisons
+*[(top)](#bruce-2740)*
+
+* [Vertical Strike-Slip with Surface Rupture, Mag-Dist Bins](rotated_ruptures_mag_dist_vert_ss_surface/)
 
 ## Plots
 ### Magnitude-Frequency Plot
