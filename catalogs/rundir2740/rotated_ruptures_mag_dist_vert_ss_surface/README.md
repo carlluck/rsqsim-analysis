@@ -96,9 +96,9 @@ We condisder 100 events in the catalog which match the following criteria:
 
 | Type | Notation | 3s Std. Dev. | 5s Std. Dev. | 7.5s Std. Dev. | 10s Std. Dev. |
 |-----|-----|-----|-----|-----|-----|
-| Source-strike | &phi;<sub>s</sub> | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_3s.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_5s.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_7.5s.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_10s.png) |
-| Within-event | &phi; | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_3s.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_5s.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_7.5s.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_10s.png) |
-| Between-events | &tau; | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_3s.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_5s.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_7.5s.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_10s.png) |
+| Source-strike | &phi;<sub>s</sub> | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_3s_sim.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_5s_sim.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_7.5s_sim.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_10s_sim.png) |
+| Within-event | &phi; | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_3s_sim.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_5s_sim.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_7.5s_sim.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_10s_sim.png) |
+| Between-events | &tau; | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_3s_sim.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_5s_sim.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_7.5s_sim.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_10s_sim.png) |
 
 ### M6.5 Result Summary Table
 *[(top)](#table-of-contents)*
@@ -216,9 +216,10 @@ Standard deviation is computed and tabulated separately for each site and distan
 ### Source-strike Variability Mag-Distance Plots
 *[(top)](#table-of-contents)*
 
-| 3s | 5s | 7.5s | 10s |
-|-----|-----|-----|-----|
-| ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_3s.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_5s.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_7.5s.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_10s.png) |
+| Plot Type | 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|-----|
+| **Simulated** | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_3s_sim.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_5s_sim.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_7.5s_sim.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_10s_sim.png) |
+| **Sim Median SA** | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_3s_sim_median.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_5s_sim_median.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_7.5s_sim_median.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_10s_sim_median.png) |
 
 ### 20.0 km M6.5 Source-strike Results
 *[(top)](#table-of-contents)*
@@ -234,6 +235,12 @@ Standard deviation is computed and tabulated separately for each site and distan
 | ![3s](resources/source_strike_m6.5_20km_3s_hist.png) | ![5s](resources/source_strike_m6.5_20km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/source_strike_m6.5_20km_7.5s_hist.png) | ![10s](resources/source_strike_m6.5_20km_10s_hist.png) |
+
+| 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_std_dev.png) |
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_residual.png) |
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_median.png) |
 
 
 ### 40.0 km M6.5 Source-strike Results
@@ -251,6 +258,12 @@ Standard deviation is computed and tabulated separately for each site and distan
 | 7.5s | 10s |
 | ![7.5s](resources/source_strike_m6.5_40km_7.5s_hist.png) | ![10s](resources/source_strike_m6.5_40km_10s_hist.png) |
 
+| 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_std_dev.png) |
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_residual.png) |
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_median.png) |
+
 
 ### 80.0 km M6.5 Source-strike Results
 *[(top)](#table-of-contents)*
@@ -266,6 +279,12 @@ Standard deviation is computed and tabulated separately for each site and distan
 | ![3s](resources/source_strike_m6.5_80km_3s_hist.png) | ![5s](resources/source_strike_m6.5_80km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/source_strike_m6.5_80km_7.5s_hist.png) | ![10s](resources/source_strike_m6.5_80km_10s_hist.png) |
+
+| 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_std_dev.png) |
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_residual.png) |
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_median.png) |
 
 
 ### 160.0 km M6.5 Source-strike Results
@@ -283,6 +302,12 @@ Standard deviation is computed and tabulated separately for each site and distan
 | 7.5s | 10s |
 | ![7.5s](resources/source_strike_m6.5_160km_7.5s_hist.png) | ![10s](resources/source_strike_m6.5_160km_10s_hist.png) |
 
+| 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_std_dev.png) |
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_residual.png) |
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_median.png) |
+
 
 ### 20.0 km M7 Source-strike Results
 *[(top)](#table-of-contents)*
@@ -298,6 +323,12 @@ Standard deviation is computed and tabulated separately for each site and distan
 | ![3s](resources/source_strike_m7_20km_3s_hist.png) | ![5s](resources/source_strike_m7_20km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/source_strike_m7_20km_7.5s_hist.png) | ![10s](resources/source_strike_m7_20km_10s_hist.png) |
+
+| 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_std_dev.png) |
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_residual.png) |
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_median.png) |
 
 
 ### 40.0 km M7 Source-strike Results
@@ -315,6 +346,12 @@ Standard deviation is computed and tabulated separately for each site and distan
 | 7.5s | 10s |
 | ![7.5s](resources/source_strike_m7_40km_7.5s_hist.png) | ![10s](resources/source_strike_m7_40km_10s_hist.png) |
 
+| 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_std_dev.png) |
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_residual.png) |
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_median.png) |
+
 
 ### 80.0 km M7 Source-strike Results
 *[(top)](#table-of-contents)*
@@ -330,6 +367,12 @@ Standard deviation is computed and tabulated separately for each site and distan
 | ![3s](resources/source_strike_m7_80km_3s_hist.png) | ![5s](resources/source_strike_m7_80km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/source_strike_m7_80km_7.5s_hist.png) | ![10s](resources/source_strike_m7_80km_10s_hist.png) |
+
+| 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_std_dev.png) |
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_residual.png) |
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_median.png) |
 
 
 ### 160.0 km M7 Source-strike Results
@@ -347,6 +390,12 @@ Standard deviation is computed and tabulated separately for each site and distan
 | 7.5s | 10s |
 | ![7.5s](resources/source_strike_m7_160km_7.5s_hist.png) | ![10s](resources/source_strike_m7_160km_10s_hist.png) |
 
+| 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_std_dev.png) |
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_residual.png) |
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_median.png) |
+
 
 ### 20.0 km M7.5 Source-strike Results
 *[(top)](#table-of-contents)*
@@ -362,6 +411,12 @@ Standard deviation is computed and tabulated separately for each site and distan
 | ![3s](resources/source_strike_m7.5_20km_3s_hist.png) | ![5s](resources/source_strike_m7.5_20km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/source_strike_m7.5_20km_7.5s_hist.png) | ![10s](resources/source_strike_m7.5_20km_10s_hist.png) |
+
+| 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_std_dev.png) |
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_residual.png) |
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_median.png) |
 
 
 ### 40.0 km M7.5 Source-strike Results
@@ -379,6 +434,12 @@ Standard deviation is computed and tabulated separately for each site and distan
 | 7.5s | 10s |
 | ![7.5s](resources/source_strike_m7.5_40km_7.5s_hist.png) | ![10s](resources/source_strike_m7.5_40km_10s_hist.png) |
 
+| 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_std_dev.png) |
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_residual.png) |
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_median.png) |
+
 
 ### 80.0 km M7.5 Source-strike Results
 *[(top)](#table-of-contents)*
@@ -395,6 +456,12 @@ Standard deviation is computed and tabulated separately for each site and distan
 | 7.5s | 10s |
 | ![7.5s](resources/source_strike_m7.5_80km_7.5s_hist.png) | ![10s](resources/source_strike_m7.5_80km_10s_hist.png) |
 
+| 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_std_dev.png) |
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_residual.png) |
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_median.png) |
+
 
 ### 160.0 km M7.5 Source-strike Results
 *[(top)](#table-of-contents)*
@@ -410,6 +477,12 @@ Standard deviation is computed and tabulated separately for each site and distan
 | ![3s](resources/source_strike_m7.5_160km_3s_hist.png) | ![5s](resources/source_strike_m7.5_160km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/source_strike_m7.5_160km_7.5s_hist.png) | ![10s](resources/source_strike_m7.5_160km_10s_hist.png) |
+
+| 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_std_dev.png) |
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_residual.png) |
+| ![Scatter](resources/source_strike_scatter__v_prop_3s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_median.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_median.png) |
 
 
 ## Within-event Variability
@@ -438,9 +511,10 @@ Standard deviation is computed and tabulated separately for each site and distan
 ### Within-event Variability Mag-Distance Plots
 *[(top)](#table-of-contents)*
 
-| 3s | 5s | 7.5s | 10s |
-|-----|-----|-----|-----|
-| ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_3s.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_5s.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_7.5s.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_10s.png) |
+| Plot Type | 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|-----|
+| **Simulated** | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_3s_sim.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_5s_sim.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_7.5s_sim.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_10s_sim.png) |
+| **Sim Median SA** | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_3s_sim_median.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_5s_sim_median.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_7.5s_sim_median.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_10s_sim_median.png) |
 
 ### 20.0 km M6.5 Within-event Results
 *[(top)](#table-of-contents)*
@@ -456,6 +530,12 @@ Standard deviation is computed and tabulated separately for each site and distan
 | ![3s](resources/within_event_m6.5_20km_3s_hist.png) | ![5s](resources/within_event_m6.5_20km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/within_event_m6.5_20km_7.5s_hist.png) | ![10s](resources/within_event_m6.5_20km_10s_hist.png) |
+
+| 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|
+| ![Scatter](resources/within_event_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_std_dev.png) |
+| ![Scatter](resources/within_event_scatter__v_prop_3s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_residual.png) |
+| ![Scatter](resources/within_event_scatter__v_prop_3s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_median.png) |
 
 
 ### 40.0 km M6.5 Within-event Results
@@ -473,6 +553,12 @@ Standard deviation is computed and tabulated separately for each site and distan
 | 7.5s | 10s |
 | ![7.5s](resources/within_event_m6.5_40km_7.5s_hist.png) | ![10s](resources/within_event_m6.5_40km_10s_hist.png) |
 
+| 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|
+| ![Scatter](resources/within_event_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_std_dev.png) |
+| ![Scatter](resources/within_event_scatter__v_prop_3s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_residual.png) |
+| ![Scatter](resources/within_event_scatter__v_prop_3s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_median.png) |
+
 
 ### 80.0 km M6.5 Within-event Results
 *[(top)](#table-of-contents)*
@@ -488,6 +574,12 @@ Standard deviation is computed and tabulated separately for each site and distan
 | ![3s](resources/within_event_m6.5_80km_3s_hist.png) | ![5s](resources/within_event_m6.5_80km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/within_event_m6.5_80km_7.5s_hist.png) | ![10s](resources/within_event_m6.5_80km_10s_hist.png) |
+
+| 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|
+| ![Scatter](resources/within_event_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_std_dev.png) |
+| ![Scatter](resources/within_event_scatter__v_prop_3s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_residual.png) |
+| ![Scatter](resources/within_event_scatter__v_prop_3s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_median.png) |
 
 
 ### 160.0 km M6.5 Within-event Results
@@ -505,6 +597,12 @@ Standard deviation is computed and tabulated separately for each site and distan
 | 7.5s | 10s |
 | ![7.5s](resources/within_event_m6.5_160km_7.5s_hist.png) | ![10s](resources/within_event_m6.5_160km_10s_hist.png) |
 
+| 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|
+| ![Scatter](resources/within_event_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_std_dev.png) |
+| ![Scatter](resources/within_event_scatter__v_prop_3s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_residual.png) |
+| ![Scatter](resources/within_event_scatter__v_prop_3s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_median.png) |
+
 
 ### 20.0 km M7 Within-event Results
 *[(top)](#table-of-contents)*
@@ -520,6 +618,12 @@ Standard deviation is computed and tabulated separately for each site and distan
 | ![3s](resources/within_event_m7_20km_3s_hist.png) | ![5s](resources/within_event_m7_20km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/within_event_m7_20km_7.5s_hist.png) | ![10s](resources/within_event_m7_20km_10s_hist.png) |
+
+| 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|
+| ![Scatter](resources/within_event_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_std_dev.png) |
+| ![Scatter](resources/within_event_scatter__v_prop_3s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_residual.png) |
+| ![Scatter](resources/within_event_scatter__v_prop_3s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_median.png) |
 
 
 ### 40.0 km M7 Within-event Results
@@ -537,6 +641,12 @@ Standard deviation is computed and tabulated separately for each site and distan
 | 7.5s | 10s |
 | ![7.5s](resources/within_event_m7_40km_7.5s_hist.png) | ![10s](resources/within_event_m7_40km_10s_hist.png) |
 
+| 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|
+| ![Scatter](resources/within_event_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_std_dev.png) |
+| ![Scatter](resources/within_event_scatter__v_prop_3s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_residual.png) |
+| ![Scatter](resources/within_event_scatter__v_prop_3s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_median.png) |
+
 
 ### 80.0 km M7 Within-event Results
 *[(top)](#table-of-contents)*
@@ -552,6 +662,12 @@ Standard deviation is computed and tabulated separately for each site and distan
 | ![3s](resources/within_event_m7_80km_3s_hist.png) | ![5s](resources/within_event_m7_80km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/within_event_m7_80km_7.5s_hist.png) | ![10s](resources/within_event_m7_80km_10s_hist.png) |
+
+| 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|
+| ![Scatter](resources/within_event_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_std_dev.png) |
+| ![Scatter](resources/within_event_scatter__v_prop_3s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_residual.png) |
+| ![Scatter](resources/within_event_scatter__v_prop_3s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_median.png) |
 
 
 ### 160.0 km M7 Within-event Results
@@ -569,6 +685,12 @@ Standard deviation is computed and tabulated separately for each site and distan
 | 7.5s | 10s |
 | ![7.5s](resources/within_event_m7_160km_7.5s_hist.png) | ![10s](resources/within_event_m7_160km_10s_hist.png) |
 
+| 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|
+| ![Scatter](resources/within_event_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_std_dev.png) |
+| ![Scatter](resources/within_event_scatter__v_prop_3s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_residual.png) |
+| ![Scatter](resources/within_event_scatter__v_prop_3s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_median.png) |
+
 
 ### 20.0 km M7.5 Within-event Results
 *[(top)](#table-of-contents)*
@@ -584,6 +706,12 @@ Standard deviation is computed and tabulated separately for each site and distan
 | ![3s](resources/within_event_m7.5_20km_3s_hist.png) | ![5s](resources/within_event_m7.5_20km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/within_event_m7.5_20km_7.5s_hist.png) | ![10s](resources/within_event_m7.5_20km_10s_hist.png) |
+
+| 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|
+| ![Scatter](resources/within_event_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_std_dev.png) |
+| ![Scatter](resources/within_event_scatter__v_prop_3s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_residual.png) |
+| ![Scatter](resources/within_event_scatter__v_prop_3s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_median.png) |
 
 
 ### 40.0 km M7.5 Within-event Results
@@ -601,6 +729,12 @@ Standard deviation is computed and tabulated separately for each site and distan
 | 7.5s | 10s |
 | ![7.5s](resources/within_event_m7.5_40km_7.5s_hist.png) | ![10s](resources/within_event_m7.5_40km_10s_hist.png) |
 
+| 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|
+| ![Scatter](resources/within_event_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_std_dev.png) |
+| ![Scatter](resources/within_event_scatter__v_prop_3s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_residual.png) |
+| ![Scatter](resources/within_event_scatter__v_prop_3s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_median.png) |
+
 
 ### 80.0 km M7.5 Within-event Results
 *[(top)](#table-of-contents)*
@@ -617,6 +751,12 @@ Standard deviation is computed and tabulated separately for each site and distan
 | 7.5s | 10s |
 | ![7.5s](resources/within_event_m7.5_80km_7.5s_hist.png) | ![10s](resources/within_event_m7.5_80km_10s_hist.png) |
 
+| 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|
+| ![Scatter](resources/within_event_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_std_dev.png) |
+| ![Scatter](resources/within_event_scatter__v_prop_3s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_residual.png) |
+| ![Scatter](resources/within_event_scatter__v_prop_3s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_median.png) |
+
 
 ### 160.0 km M7.5 Within-event Results
 *[(top)](#table-of-contents)*
@@ -632,6 +772,12 @@ Standard deviation is computed and tabulated separately for each site and distan
 | ![3s](resources/within_event_m7.5_160km_3s_hist.png) | ![5s](resources/within_event_m7.5_160km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/within_event_m7.5_160km_7.5s_hist.png) | ![10s](resources/within_event_m7.5_160km_10s_hist.png) |
+
+| 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|
+| ![Scatter](resources/within_event_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_std_dev.png) |
+| ![Scatter](resources/within_event_scatter__v_prop_3s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_residual.png) |
+| ![Scatter](resources/within_event_scatter__v_prop_3s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_5s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_7.5s_median.png) | ![Scatter](resources/within_event_scatter__v_prop_10s_median.png) |
 
 
 ## Between-events Variability
@@ -656,9 +802,10 @@ Standard deviation is computed and tabulated separately for each site and distan
 ### Between-events Variability Mag-Distance Plots
 *[(top)](#table-of-contents)*
 
-| 3s | 5s | 7.5s | 10s |
-|-----|-----|-----|-----|
-| ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_3s.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_5s.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_7.5s.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_10s.png) |
+| Plot Type | 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|-----|
+| **Simulated** | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_3s_sim.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_5s_sim.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_7.5s_sim.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_10s_sim.png) |
+| **Sim Median SA** | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_3s_sim_median.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_5s_sim_median.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_7.5s_sim_median.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_10s_sim_median.png) |
 
 ### 20.0 km M6.5 Between-events Results
 *[(top)](#table-of-contents)*
