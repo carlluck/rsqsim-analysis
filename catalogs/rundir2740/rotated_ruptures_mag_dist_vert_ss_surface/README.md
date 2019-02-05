@@ -219,6 +219,8 @@ Standard deviation is computed and tabulated separately for each site and distan
 | Plot Type | 3s | 5s | 7.5s | 10s |
 |-----|-----|-----|-----|-----|
 | **Simulated** | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_3s_sim.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_5s_sim.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_7.5s_sim.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_10s_sim.png) |
+| **GMPE** | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_3s_gmpe.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_5s_gmpe.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_7.5s_gmpe.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_10s_gmpe.png) |
+| **Simulated - GMPE** | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_3s_sim_gmpe_diff.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_5s_sim_gmpe_diff.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_7.5s_sim_gmpe_diff.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_10s_sim_gmpe_diff.png) |
 | **Sim Median SA** | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_3s_sim_median.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_5s_sim_median.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_7.5s_sim_median.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_10s_sim_median.png) |
 
 ### 20.0 km M6.5 Source-strike Results
@@ -514,6 +516,8 @@ Standard deviation is computed and tabulated separately for each site and distan
 | Plot Type | 3s | 5s | 7.5s | 10s |
 |-----|-----|-----|-----|-----|
 | **Simulated** | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_3s_sim.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_5s_sim.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_7.5s_sim.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_10s_sim.png) |
+| **GMPE** | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_3s_gmpe.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_5s_gmpe.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_7.5s_gmpe.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_10s_gmpe.png) |
+| **Simulated - GMPE** | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_3s_sim_gmpe_diff.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_5s_sim_gmpe_diff.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_7.5s_sim_gmpe_diff.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_10s_sim_gmpe_diff.png) |
 | **Sim Median SA** | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_3s_sim_median.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_5s_sim_median.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_7.5s_sim_median.png) | ![Mag-Dist Plot](resources/within_event_mag_dist_std_dev_10s_sim_median.png) |
 
 ### 20.0 km M6.5 Within-event Results
@@ -805,6 +809,8 @@ Standard deviation is computed and tabulated separately for each site and distan
 | Plot Type | 3s | 5s | 7.5s | 10s |
 |-----|-----|-----|-----|-----|
 | **Simulated** | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_3s_sim.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_5s_sim.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_7.5s_sim.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_10s_sim.png) |
+| **GMPE** | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_3s_gmpe.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_5s_gmpe.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_7.5s_gmpe.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_10s_gmpe.png) |
+| **Simulated - GMPE** | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_3s_sim_gmpe_diff.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_5s_sim_gmpe_diff.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_7.5s_sim_gmpe_diff.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_10s_sim_gmpe_diff.png) |
 | **Sim Median SA** | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_3s_sim_median.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_5s_sim_median.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_7.5s_sim_median.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_10s_sim_median.png) |
 
 ### 20.0 km M6.5 Between-events Results
