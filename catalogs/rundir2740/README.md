@@ -53,6 +53,7 @@
 ## Rotated Rupture Variability Comparisons
 *[(top)](#bruce-2740)*
 
+* [Normal, Dip=45, Mag-Dist Bins](rotated_ruptures_mag_dist_normal/)
 * [Reverse, Dip=45, Mag-Dist Bins](rotated_ruptures_mag_dist_reverse/)
 * [Vertical Strike-Slip with Surface Rupture, Mag-Dist Bins](rotated_ruptures_mag_dist_vert_ss_surface/)
 
