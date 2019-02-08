@@ -2,6 +2,12 @@
 <html>
 <head>
 <style>
+table {
+	border-collapse: collapse
+}
+table, th, td {
+	border: 1px solid black
+}
 body {
 	max-width:1000px;
 	margin: auto;
@@ -14,8 +20,8 @@ img {
 </head>
 <body>
 <h1 id="bruce-2740-rotated-rupture-variability-ss">Bruce 2740 Rotated Rupture Variability, SS</h1>
-<p>This exercise uses translations and rotations to estimate ground motion variability from different sources. We begin by selecting a subset of similar ruptures which match a set of criteria (in this case, Vertical Strike-Slip with Surface Rupture). Each rupture is then reoriented such that its strike (following the Aki &amp; Richards 1980 convention) is 0 degrees (due North, dipping to the right for normal or reverse ruptures). For each site, ruptures are translated such that their scalar seismic moment centroid is directly North of the site, and their Joyner-Boore distance (rJB) is as specified (we consider 8 distance[s] here).</p>
-<p>We then  perform various rotations. We rotate the rupture in place around its centroid, holding the site-to-source centroid path and rJB constant (henceforth 'Rupture Strike'). We also rotate ruptures around the site, holding rJB and source orientation relative to the site constant but sampling different various paths (henceforth 'Path'). We do this for each unique combination of Rupture Strike, Path, Joyner-Boore Distance, Site, and Rupture.</p>
+<p>This exercise uses translations and rotations to estimate ground motion variability from different sources. We begin by selecting a subset of similar ruptures which match a set of criteria (in this case, Vertical Strike-Slip with Surface Rupture). Each rupture is then reoriented such that its strike (following the Aki &amp; Richards 1980 convention) is 0 degrees (due North, dipping to the right for normal or reverse ruptures). For each site, ruptures are translated such that their scalar seismic moment centroid is directly North of the site, and their 3-dimensional distance (Rrup) is as specified (we consider 8 distance[s] here).</p>
+<p>We then  perform various rotations. We rotate the rupture in place around its centroid, holding the site-to-source centroid path and Rrup constant (henceforth 'Rupture Strike'). We also rotate ruptures around the site, holding Rrup and source orientation relative to the site constant but sampling different various paths (henceforth 'Path'). We do this for each unique combination of Rupture Strike, Path, Distance, Site, and Rupture.</p>
 <p><em>NOTE: This page uses the SCEC BBP to simulate a 1-dimensional velocity structure. Thus we expect no path variability, and plots of path variabilitiy are included only as verification of the method.</em></p>
 <p><a href="../#bruce-2740">RSQSim Catalog Details</a></p>
 <h2 id="table-of-contents">Table Of Contents</h2>
@@ -36,35 +42,29 @@ img {
 <li><a href="#source-strike-variability-methodology">Source-strike Variability Methodology</a></li>
 <li><a href="#source-strike-variability-mag-distance-plots">Source-strike Variability Mag-Distance Plots</a></li>
 <li><a href="#200-km-m65-source-strike-results">20.0 km M6.5 Source-strike Results</a></li>
-<li><a href="#400-km-m65-source-strike-results">40.0 km M6.5 Source-strike Results</a></li>
-<li><a href="#800-km-m65-source-strike-results">80.0 km M6.5 Source-strike Results</a></li>
-<li><a href="#1600-km-m65-source-strike-results">160.0 km M6.5 Source-strike Results</a></li>
+<li><a href="#600-km-m65-source-strike-results">60.0 km M6.5 Source-strike Results</a></li>
+<li><a href="#1200-km-m65-source-strike-results">120.0 km M6.5 Source-strike Results</a></li>
 <li><a href="#200-km-m7-source-strike-results">20.0 km M7 Source-strike Results</a></li>
-<li><a href="#400-km-m7-source-strike-results">40.0 km M7 Source-strike Results</a></li>
-<li><a href="#800-km-m7-source-strike-results">80.0 km M7 Source-strike Results</a></li>
-<li><a href="#1600-km-m7-source-strike-results">160.0 km M7 Source-strike Results</a></li>
+<li><a href="#600-km-m7-source-strike-results">60.0 km M7 Source-strike Results</a></li>
+<li><a href="#1200-km-m7-source-strike-results">120.0 km M7 Source-strike Results</a></li>
 <li><a href="#200-km-m75-source-strike-results">20.0 km M7.5 Source-strike Results</a></li>
-<li><a href="#400-km-m75-source-strike-results">40.0 km M7.5 Source-strike Results</a></li>
-<li><a href="#800-km-m75-source-strike-results">80.0 km M7.5 Source-strike Results</a></li>
-<li><a href="#1600-km-m75-source-strike-results">160.0 km M7.5 Source-strike Results</a></li>
+<li><a href="#600-km-m75-source-strike-results">60.0 km M7.5 Source-strike Results</a></li>
+<li><a href="#1200-km-m75-source-strike-results">120.0 km M7.5 Source-strike Results</a></li>
 </ul>
 </li>
-<li><a href="#within-event-variability">Within-event Variability</a>
+<li><a href="#within-event-single-site-variability">Within-event, single-site Variability</a>
 <ul>
-<li><a href="#within-event-variability-methodology">Within-event Variability Methodology</a></li>
-<li><a href="#within-event-variability-mag-distance-plots">Within-event Variability Mag-Distance Plots</a></li>
-<li><a href="#200-km-m65-within-event-results">20.0 km M6.5 Within-event Results</a></li>
-<li><a href="#400-km-m65-within-event-results">40.0 km M6.5 Within-event Results</a></li>
-<li><a href="#800-km-m65-within-event-results">80.0 km M6.5 Within-event Results</a></li>
-<li><a href="#1600-km-m65-within-event-results">160.0 km M6.5 Within-event Results</a></li>
-<li><a href="#200-km-m7-within-event-results">20.0 km M7 Within-event Results</a></li>
-<li><a href="#400-km-m7-within-event-results">40.0 km M7 Within-event Results</a></li>
-<li><a href="#800-km-m7-within-event-results">80.0 km M7 Within-event Results</a></li>
-<li><a href="#1600-km-m7-within-event-results">160.0 km M7 Within-event Results</a></li>
-<li><a href="#200-km-m75-within-event-results">20.0 km M7.5 Within-event Results</a></li>
-<li><a href="#400-km-m75-within-event-results">40.0 km M7.5 Within-event Results</a></li>
-<li><a href="#800-km-m75-within-event-results">80.0 km M7.5 Within-event Results</a></li>
-<li><a href="#1600-km-m75-within-event-results">160.0 km M7.5 Within-event Results</a></li>
+<li><a href="#within-event-single-site-variability-methodology">Within-event, single-site Variability Methodology</a></li>
+<li><a href="#within-event-single-site-variability-mag-distance-plots">Within-event, single-site Variability Mag-Distance Plots</a></li>
+<li><a href="#200-km-m65-within-event-single-site-results">20.0 km M6.5 Within-event, single-site Results</a></li>
+<li><a href="#600-km-m65-within-event-single-site-results">60.0 km M6.5 Within-event, single-site Results</a></li>
+<li><a href="#1200-km-m65-within-event-single-site-results">120.0 km M6.5 Within-event, single-site Results</a></li>
+<li><a href="#200-km-m7-within-event-single-site-results">20.0 km M7 Within-event, single-site Results</a></li>
+<li><a href="#600-km-m7-within-event-single-site-results">60.0 km M7 Within-event, single-site Results</a></li>
+<li><a href="#1200-km-m7-within-event-single-site-results">120.0 km M7 Within-event, single-site Results</a></li>
+<li><a href="#200-km-m75-within-event-single-site-results">20.0 km M7.5 Within-event, single-site Results</a></li>
+<li><a href="#600-km-m75-within-event-single-site-results">60.0 km M7.5 Within-event, single-site Results</a></li>
+<li><a href="#1200-km-m75-within-event-single-site-results">120.0 km M7.5 Within-event, single-site Results</a></li>
 </ul>
 </li>
 <li><a href="#between-events-variability">Between-events Variability</a>
@@ -72,17 +72,14 @@ img {
 <li><a href="#between-events-variability-methodology">Between-events Variability Methodology</a></li>
 <li><a href="#between-events-variability-mag-distance-plots">Between-events Variability Mag-Distance Plots</a></li>
 <li><a href="#200-km-m65-between-events-results">20.0 km M6.5 Between-events Results</a></li>
-<li><a href="#400-km-m65-between-events-results">40.0 km M6.5 Between-events Results</a></li>
-<li><a href="#800-km-m65-between-events-results">80.0 km M6.5 Between-events Results</a></li>
-<li><a href="#1600-km-m65-between-events-results">160.0 km M6.5 Between-events Results</a></li>
+<li><a href="#600-km-m65-between-events-results">60.0 km M6.5 Between-events Results</a></li>
+<li><a href="#1200-km-m65-between-events-results">120.0 km M6.5 Between-events Results</a></li>
 <li><a href="#200-km-m7-between-events-results">20.0 km M7 Between-events Results</a></li>
-<li><a href="#400-km-m7-between-events-results">40.0 km M7 Between-events Results</a></li>
-<li><a href="#800-km-m7-between-events-results">80.0 km M7 Between-events Results</a></li>
-<li><a href="#1600-km-m7-between-events-results">160.0 km M7 Between-events Results</a></li>
+<li><a href="#600-km-m7-between-events-results">60.0 km M7 Between-events Results</a></li>
+<li><a href="#1200-km-m7-between-events-results">120.0 km M7 Between-events Results</a></li>
 <li><a href="#200-km-m75-between-events-results">20.0 km M7.5 Between-events Results</a></li>
-<li><a href="#400-km-m75-between-events-results">40.0 km M7.5 Between-events Results</a></li>
-<li><a href="#800-km-m75-between-events-results">80.0 km M7.5 Between-events Results</a></li>
-<li><a href="#1600-km-m75-between-events-results">160.0 km M7.5 Between-events Results</a></li>
+<li><a href="#600-km-m75-between-events-results">60.0 km M7.5 Between-events Results</a></li>
+<li><a href="#1200-km-m75-between-events-results">120.0 km M7.5 Between-events Results</a></li>
 </ul>
 </li>
 </ul>
@@ -96,7 +93,7 @@ img {
 <tr><td>Site</td><td>1</td><td>Unique site locations. If 3-d, each will have unique velocity profiles.</td></tr>
 <tr><td>Rupture Strike</td><td>36</td><td>Rupture strike conforming to the Aki &amp; Richards (1980) convention, where dipping faults dip to the right of the rupture. If path rotation is also performed, this azimuth is relative to the path.</td></tr>
 <tr><td>Path</td><td>1</td><td>Path from the site to the centroid of the rupture, in azimuthal degrees (0 is North)</td></tr>
-<tr><td>Joyner-Boore Distance</td><td>20.0, 40.0, 60.0, 80.0, 100.0, 120.0, 140.0, 160.0 km</td><td>Shortest horizontal distance between the site and the surface projection of the rupture.</td></tr>
+<tr><td>Distance</td><td>20.0, 40.0, 60.0, 80.0, 100.0, 120.0, 140.0, 160.0 km</td><td>3-dimensional distance between the site and the rupture surface.</td></tr>
 <tr><td><strong>Total # Simulations</strong></td><td><strong>28800</strong></td><td>Total number of combinations of the above.</td></tr>
 </tbody>
 </table>
@@ -127,7 +124,7 @@ img {
 </thead>
 <tbody>
 <tr><td>Source-strike</td><td>φ<sub>s</sub></td><td><img src="resources/source_strike_mag_dist_std_dev_3s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/source_strike_mag_dist_std_dev_5s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/source_strike_mag_dist_std_dev_7.5s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/source_strike_mag_dist_std_dev_10s_sim.png" alt="Mag-Dist Plot" /></td></tr>
-<tr><td>Within-event</td><td>φ</td><td><img src="resources/within_event_mag_dist_std_dev_3s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_mag_dist_std_dev_5s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_mag_dist_std_dev_7.5s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_mag_dist_std_dev_10s_sim.png" alt="Mag-Dist Plot" /></td></tr>
+<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td><img src="resources/within_event_ss_mag_dist_std_dev_3s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_ss_mag_dist_std_dev_5s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_ss_mag_dist_std_dev_7.5s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_ss_mag_dist_std_dev_10s_sim.png" alt="Mag-Dist Plot" /></td></tr>
 <tr><td>Between-events</td><td>τ</td><td><img src="resources/between_events_mag_dist_std_dev_3s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/between_events_mag_dist_std_dev_5s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/between_events_mag_dist_std_dev_7.5s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/between_events_mag_dist_std_dev_10s_sim.png" alt="Mag-Dist Plot" /></td></tr>
 </tbody>
 </table>
@@ -138,30 +135,30 @@ img {
 <tr><th>Type</th><th>Notation</th><th>Distance</th><th>3s Std. Dev.</th><th>5s Std. Dev.</th><th>7.5s Std. Dev.</th><th>10s Std. Dev.</th></tr>
 </thead>
 <tbody>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>20 km</td><td>0.43</td><td>0.48</td><td>0.4</td><td>0.3</td></tr>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>40 km</td><td>0.48</td><td>0.57</td><td>0.61</td><td>0.51</td></tr>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>60 km</td><td>0.51</td><td>0.61</td><td>0.6</td><td>0.63</td></tr>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>80 km</td><td>0.52</td><td>0.62</td><td>0.61</td><td>0.57</td></tr>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>100 km</td><td>0.5</td><td>0.65</td><td>0.67</td><td>0.57</td></tr>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>120 km</td><td>0.46</td><td>0.62</td><td>0.66</td><td>0.61</td></tr>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>140 km</td><td>0.42</td><td>0.63</td><td>0.66</td><td>0.64</td></tr>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>160 km</td><td>0.4</td><td>0.62</td><td>0.69</td><td>0.63</td></tr>
-<tr><td>Within-event</td><td>φ</td><td>20 km</td><td>0.43</td><td>0.48</td><td>0.4</td><td>0.3</td></tr>
-<tr><td>Within-event</td><td>φ</td><td>40 km</td><td>0.48</td><td>0.57</td><td>0.61</td><td>0.51</td></tr>
-<tr><td>Within-event</td><td>φ</td><td>60 km</td><td>0.51</td><td>0.61</td><td>0.6</td><td>0.63</td></tr>
-<tr><td>Within-event</td><td>φ</td><td>80 km</td><td>0.52</td><td>0.62</td><td>0.61</td><td>0.57</td></tr>
-<tr><td>Within-event</td><td>φ</td><td>100 km</td><td>0.5</td><td>0.65</td><td>0.67</td><td>0.57</td></tr>
-<tr><td>Within-event</td><td>φ</td><td>120 km</td><td>0.46</td><td>0.62</td><td>0.66</td><td>0.61</td></tr>
-<tr><td>Within-event</td><td>φ</td><td>140 km</td><td>0.42</td><td>0.63</td><td>0.66</td><td>0.64</td></tr>
-<tr><td>Within-event</td><td>φ</td><td>160 km</td><td>0.4</td><td>0.62</td><td>0.69</td><td>0.63</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>20 km</td><td>0.47</td><td>0.54</td><td>0.49</td><td>0.4</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>40 km</td><td>0.52</td><td>0.63</td><td>0.66</td><td>0.57</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>60 km</td><td>0.54</td><td>0.67</td><td>0.67</td><td>0.68</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>80 km</td><td>0.55</td><td>0.68</td><td>0.67</td><td>0.64</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>100 km</td><td>0.53</td><td>0.71</td><td>0.73</td><td>0.63</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>120 km</td><td>0.49</td><td>0.68</td><td>0.72</td><td>0.68</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>140 km</td><td>0.46</td><td>0.69</td><td>0.72</td><td>0.69</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>160 km</td><td>0.44</td><td>0.68</td><td>0.76</td><td>0.69</td></tr>
+<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>20 km</td><td>0.44</td><td>0.49</td><td>0.4</td><td>0.31</td></tr>
+<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>40 km</td><td>0.49</td><td>0.57</td><td>0.61</td><td>0.51</td></tr>
+<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>60 km</td><td>0.52</td><td>0.62</td><td>0.6</td><td>0.63</td></tr>
+<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>80 km</td><td>0.53</td><td>0.62</td><td>0.61</td><td>0.57</td></tr>
+<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>100 km</td><td>0.51</td><td>0.66</td><td>0.67</td><td>0.57</td></tr>
+<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>120 km</td><td>0.47</td><td>0.63</td><td>0.66</td><td>0.61</td></tr>
+<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>140 km</td><td>0.43</td><td>0.64</td><td>0.66</td><td>0.64</td></tr>
+<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>160 km</td><td>0.41</td><td>0.63</td><td>0.7</td><td>0.63</td></tr>
+<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>20 km</td><td>0.44</td><td>0.49</td><td>0.4</td><td>0.31</td></tr>
+<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>40 km</td><td>0.49</td><td>0.57</td><td>0.61</td><td>0.51</td></tr>
+<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>60 km</td><td>0.52</td><td>0.62</td><td>0.6</td><td>0.63</td></tr>
+<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>80 km</td><td>0.53</td><td>0.62</td><td>0.61</td><td>0.57</td></tr>
+<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>100 km</td><td>0.51</td><td>0.66</td><td>0.67</td><td>0.57</td></tr>
+<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>120 km</td><td>0.47</td><td>0.63</td><td>0.66</td><td>0.61</td></tr>
+<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>140 km</td><td>0.43</td><td>0.64</td><td>0.66</td><td>0.64</td></tr>
+<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>160 km</td><td>0.41</td><td>0.63</td><td>0.7</td><td>0.63</td></tr>
+<tr><td>Between-events</td><td>τ</td><td>20 km</td><td>0.19</td><td>0.28</td><td>0.31</td><td>0.26</td></tr>
+<tr><td>Between-events</td><td>τ</td><td>40 km</td><td>0.21</td><td>0.29</td><td>0.3</td><td>0.29</td></tr>
+<tr><td>Between-events</td><td>τ</td><td>60 km</td><td>0.2</td><td>0.3</td><td>0.32</td><td>0.29</td></tr>
+<tr><td>Between-events</td><td>τ</td><td>80 km</td><td>0.21</td><td>0.32</td><td>0.33</td><td>0.3</td></tr>
+<tr><td>Between-events</td><td>τ</td><td>100 km</td><td>0.19</td><td>0.32</td><td>0.35</td><td>0.31</td></tr>
+<tr><td>Between-events</td><td>τ</td><td>120 km</td><td>0.18</td><td>0.3</td><td>0.35</td><td>0.33</td></tr>
+<tr><td>Between-events</td><td>τ</td><td>140 km</td><td>0.18</td><td>0.3</td><td>0.36</td><td>0.32</td></tr>
+<tr><td>Between-events</td><td>τ</td><td>160 km</td><td>0.17</td><td>0.29</td><td>0.38</td><td>0.34</td></tr>
 </tbody>
 </table>
 <h3 id="m7-result-summary-table">M7 Result Summary Table</h3>
@@ -171,30 +168,30 @@ img {
 <tr><th>Type</th><th>Notation</th><th>Distance</th><th>3s Std. Dev.</th><th>5s Std. Dev.</th><th>7.5s Std. Dev.</th><th>10s Std. Dev.</th></tr>
 </thead>
 <tbody>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>20 km</td><td>0.51</td><td>0.51</td><td>0.44</td><td>0.39</td></tr>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>40 km</td><td>0.57</td><td>0.57</td><td>0.59</td><td>0.56</td></tr>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>60 km</td><td>0.59</td><td>0.61</td><td>0.59</td><td>0.62</td></tr>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>80 km</td><td>0.58</td><td>0.63</td><td>0.62</td><td>0.61</td></tr>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>100 km</td><td>0.56</td><td>0.63</td><td>0.66</td><td>0.62</td></tr>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>120 km</td><td>0.51</td><td>0.62</td><td>0.65</td><td>0.65</td></tr>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>140 km</td><td>0.48</td><td>0.63</td><td>0.66</td><td>0.66</td></tr>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>160 km</td><td>0.47</td><td>0.63</td><td>0.68</td><td>0.66</td></tr>
-<tr><td>Within-event</td><td>φ</td><td>20 km</td><td>0.51</td><td>0.51</td><td>0.44</td><td>0.39</td></tr>
-<tr><td>Within-event</td><td>φ</td><td>40 km</td><td>0.57</td><td>0.57</td><td>0.59</td><td>0.56</td></tr>
-<tr><td>Within-event</td><td>φ</td><td>60 km</td><td>0.59</td><td>0.61</td><td>0.59</td><td>0.62</td></tr>
-<tr><td>Within-event</td><td>φ</td><td>80 km</td><td>0.58</td><td>0.63</td><td>0.62</td><td>0.61</td></tr>
-<tr><td>Within-event</td><td>φ</td><td>100 km</td><td>0.56</td><td>0.63</td><td>0.66</td><td>0.62</td></tr>
-<tr><td>Within-event</td><td>φ</td><td>120 km</td><td>0.51</td><td>0.62</td><td>0.65</td><td>0.65</td></tr>
-<tr><td>Within-event</td><td>φ</td><td>140 km</td><td>0.48</td><td>0.63</td><td>0.66</td><td>0.66</td></tr>
-<tr><td>Within-event</td><td>φ</td><td>160 km</td><td>0.47</td><td>0.63</td><td>0.68</td><td>0.66</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>20 km</td><td>0.54</td><td>0.55</td><td>0.52</td><td>0.49</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>40 km</td><td>0.59</td><td>0.61</td><td>0.64</td><td>0.63</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>60 km</td><td>0.61</td><td>0.65</td><td>0.65</td><td>0.69</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>80 km</td><td>0.61</td><td>0.67</td><td>0.67</td><td>0.68</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>100 km</td><td>0.58</td><td>0.67</td><td>0.71</td><td>0.7</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>120 km</td><td>0.53</td><td>0.66</td><td>0.7</td><td>0.73</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>140 km</td><td>0.51</td><td>0.67</td><td>0.71</td><td>0.74</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>160 km</td><td>0.49</td><td>0.66</td><td>0.73</td><td>0.74</td></tr>
+<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>20 km</td><td>0.52</td><td>0.52</td><td>0.45</td><td>0.4</td></tr>
+<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>40 km</td><td>0.58</td><td>0.58</td><td>0.6</td><td>0.56</td></tr>
+<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>60 km</td><td>0.6</td><td>0.62</td><td>0.6</td><td>0.63</td></tr>
+<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>80 km</td><td>0.59</td><td>0.64</td><td>0.63</td><td>0.61</td></tr>
+<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>100 km</td><td>0.56</td><td>0.64</td><td>0.67</td><td>0.63</td></tr>
+<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>120 km</td><td>0.52</td><td>0.63</td><td>0.66</td><td>0.66</td></tr>
+<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>140 km</td><td>0.49</td><td>0.64</td><td>0.67</td><td>0.67</td></tr>
+<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>160 km</td><td>0.47</td><td>0.63</td><td>0.7</td><td>0.67</td></tr>
+<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>20 km</td><td>0.52</td><td>0.52</td><td>0.45</td><td>0.4</td></tr>
+<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>40 km</td><td>0.58</td><td>0.58</td><td>0.6</td><td>0.56</td></tr>
+<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>60 km</td><td>0.6</td><td>0.62</td><td>0.6</td><td>0.63</td></tr>
+<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>80 km</td><td>0.59</td><td>0.64</td><td>0.63</td><td>0.61</td></tr>
+<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>100 km</td><td>0.56</td><td>0.64</td><td>0.67</td><td>0.63</td></tr>
+<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>120 km</td><td>0.52</td><td>0.63</td><td>0.66</td><td>0.66</td></tr>
+<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>140 km</td><td>0.49</td><td>0.64</td><td>0.67</td><td>0.67</td></tr>
+<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>160 km</td><td>0.47</td><td>0.63</td><td>0.7</td><td>0.67</td></tr>
+<tr><td>Between-events</td><td>τ</td><td>20 km</td><td>0.2</td><td>0.25</td><td>0.29</td><td>0.3</td></tr>
+<tr><td>Between-events</td><td>τ</td><td>40 km</td><td>0.19</td><td>0.25</td><td>0.28</td><td>0.3</td></tr>
+<tr><td>Between-events</td><td>τ</td><td>60 km</td><td>0.19</td><td>0.26</td><td>0.29</td><td>0.31</td></tr>
+<tr><td>Between-events</td><td>τ</td><td>80 km</td><td>0.19</td><td>0.26</td><td>0.3</td><td>0.32</td></tr>
+<tr><td>Between-events</td><td>τ</td><td>100 km</td><td>0.18</td><td>0.26</td><td>0.31</td><td>0.34</td></tr>
+<tr><td>Between-events</td><td>τ</td><td>120 km</td><td>0.17</td><td>0.26</td><td>0.32</td><td>0.36</td></tr>
+<tr><td>Between-events</td><td>τ</td><td>140 km</td><td>0.17</td><td>0.25</td><td>0.3</td><td>0.36</td></tr>
+<tr><td>Between-events</td><td>τ</td><td>160 km</td><td>0.17</td><td>0.24</td><td>0.31</td><td>0.36</td></tr>
 </tbody>
 </table>
 <h3 id="m75-result-summary-table">M7.5 Result Summary Table</h3>
@@ -204,50 +201,53 @@ img {
 <tr><th>Type</th><th>Notation</th><th>Distance</th><th>3s Std. Dev.</th><th>5s Std. Dev.</th><th>7.5s Std. Dev.</th><th>10s Std. Dev.</th></tr>
 </thead>
 <tbody>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>20 km</td><td>0.53</td><td>0.46</td><td>0.39</td><td>0.37</td></tr>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>40 km</td><td>0.67</td><td>0.58</td><td>0.54</td><td>0.49</td></tr>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>60 km</td><td>0.72</td><td>0.65</td><td>0.58</td><td>0.56</td></tr>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>80 km</td><td>0.69</td><td>0.67</td><td>0.61</td><td>0.58</td></tr>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>100 km</td><td>0.67</td><td>0.68</td><td>0.64</td><td>0.6</td></tr>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>120 km</td><td>0.65</td><td>0.68</td><td>0.65</td><td>0.62</td></tr>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>140 km</td><td>0.65</td><td>0.7</td><td>0.67</td><td>0.64</td></tr>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>160 km</td><td>0.65</td><td>0.7</td><td>0.69</td><td>0.65</td></tr>
-<tr><td>Within-event</td><td>φ</td><td>20 km</td><td>0.53</td><td>0.46</td><td>0.39</td><td>0.37</td></tr>
-<tr><td>Within-event</td><td>φ</td><td>40 km</td><td>0.67</td><td>0.58</td><td>0.54</td><td>0.49</td></tr>
-<tr><td>Within-event</td><td>φ</td><td>60 km</td><td>0.72</td><td>0.65</td><td>0.58</td><td>0.56</td></tr>
-<tr><td>Within-event</td><td>φ</td><td>80 km</td><td>0.69</td><td>0.67</td><td>0.61</td><td>0.58</td></tr>
-<tr><td>Within-event</td><td>φ</td><td>100 km</td><td>0.67</td><td>0.68</td><td>0.64</td><td>0.6</td></tr>
-<tr><td>Within-event</td><td>φ</td><td>120 km</td><td>0.65</td><td>0.68</td><td>0.65</td><td>0.62</td></tr>
-<tr><td>Within-event</td><td>φ</td><td>140 km</td><td>0.65</td><td>0.7</td><td>0.67</td><td>0.64</td></tr>
-<tr><td>Within-event</td><td>φ</td><td>160 km</td><td>0.65</td><td>0.7</td><td>0.69</td><td>0.65</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>20 km</td><td>0.54</td><td>0.48</td><td>0.44</td><td>0.42</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>40 km</td><td>0.68</td><td>0.6</td><td>0.58</td><td>0.54</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>60 km</td><td>0.72</td><td>0.68</td><td>0.62</td><td>0.61</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>80 km</td><td>0.7</td><td>0.69</td><td>0.66</td><td>0.63</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>100 km</td><td>0.67</td><td>0.7</td><td>0.69</td><td>0.65</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>120 km</td><td>0.66</td><td>0.7</td><td>0.7</td><td>0.68</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>140 km</td><td>0.65</td><td>0.73</td><td>0.71</td><td>0.7</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>160 km</td><td>0.65</td><td>0.73</td><td>0.73</td><td>0.7</td></tr>
+<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>20 km</td><td>0.53</td><td>0.47</td><td>0.4</td><td>0.37</td></tr>
+<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>40 km</td><td>0.68</td><td>0.59</td><td>0.55</td><td>0.5</td></tr>
+<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>60 km</td><td>0.73</td><td>0.67</td><td>0.58</td><td>0.56</td></tr>
+<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>80 km</td><td>0.7</td><td>0.68</td><td>0.62</td><td>0.58</td></tr>
+<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>100 km</td><td>0.68</td><td>0.7</td><td>0.65</td><td>0.6</td></tr>
+<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>120 km</td><td>0.66</td><td>0.69</td><td>0.66</td><td>0.63</td></tr>
+<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>140 km</td><td>0.66</td><td>0.72</td><td>0.68</td><td>0.65</td></tr>
+<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>160 km</td><td>0.66</td><td>0.72</td><td>0.69</td><td>0.66</td></tr>
+<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>20 km</td><td>0.53</td><td>0.47</td><td>0.4</td><td>0.37</td></tr>
+<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>40 km</td><td>0.68</td><td>0.59</td><td>0.55</td><td>0.5</td></tr>
+<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>60 km</td><td>0.73</td><td>0.67</td><td>0.58</td><td>0.56</td></tr>
+<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>80 km</td><td>0.7</td><td>0.68</td><td>0.62</td><td>0.58</td></tr>
+<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>100 km</td><td>0.68</td><td>0.7</td><td>0.65</td><td>0.6</td></tr>
+<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>120 km</td><td>0.66</td><td>0.69</td><td>0.66</td><td>0.63</td></tr>
+<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>140 km</td><td>0.66</td><td>0.72</td><td>0.68</td><td>0.65</td></tr>
+<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>160 km</td><td>0.66</td><td>0.72</td><td>0.69</td><td>0.66</td></tr>
+<tr><td>Between-events</td><td>τ</td><td>20 km</td><td>0.12</td><td>0.17</td><td>0.22</td><td>0.21</td></tr>
+<tr><td>Between-events</td><td>τ</td><td>40 km</td><td>0.14</td><td>0.17</td><td>0.22</td><td>0.22</td></tr>
+<tr><td>Between-events</td><td>τ</td><td>60 km</td><td>0.18</td><td>0.21</td><td>0.23</td><td>0.24</td></tr>
+<tr><td>Between-events</td><td>τ</td><td>80 km</td><td>0.17</td><td>0.23</td><td>0.25</td><td>0.26</td></tr>
+<tr><td>Between-events</td><td>τ</td><td>100 km</td><td>0.15</td><td>0.26</td><td>0.27</td><td>0.26</td></tr>
+<tr><td>Between-events</td><td>τ</td><td>120 km</td><td>0.14</td><td>0.25</td><td>0.28</td><td>0.27</td></tr>
+<tr><td>Between-events</td><td>τ</td><td>140 km</td><td>0.13</td><td>0.27</td><td>0.29</td><td>0.28</td></tr>
+<tr><td>Between-events</td><td>τ</td><td>160 km</td><td>0.13</td><td>0.27</td><td>0.3</td><td>0.28</td></tr>
 </tbody>
 </table>
 <h2 id="source-strike-variability">Source-strike Variability</h2>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <h3 id="source-strike-variability-methodology">Source-strike Variability Methodology</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p>Source-strike variability, denoted φ<sub>s</sub> in Aki &amp; Richards (1980), is computed from ground motion residuals where the following quantities are held constant:</p>
+<p>Source-strike variability, denoted φ<sub>s</sub> in Aki &amp; Richards (1980), is computed separately for each:</p>
 <ul>
 <li>Site <em>[1 unique]</em></li>
-<li>Joyner-Boore Distance <em>[8 unique]</em></li>
+<li>Distance <em>[8 unique]</em></li>
+</ul>
+<p>Then, for each unique combination of:</p>
+<ul>
 <li>Rupture <em>[100 unique]</em></li>
 <li>Path <em>[1 unique]</em></li>
 </ul>
-<p>and the following quantities vary:</p>
+<p>we compute residuals, δW<sub>es</sub>, of the natural-log ground motions (relative to the median), computed across all 36 combinations of:</p>
 <ul>
 <li>Rupture Strike <em>[36 unique]</em></li>
 </ul>
-<p>Here is an exmample with 5 rotations, which would be repeated for each combination of [Site, Joyner-Boore Distance, Rupture, Path]. The site is shown with a blue square, and initially oriented rupture in bold with its hypocenter as a red star and centroid a green circle. Rotations of that rupture are in gray:</p>
+<p>We take φ<sub>s</sub> to be the standard deviation of all residuals, δW<sub>es</sub>, across each combination of Rupture,Path.</p>
+<p>Here is an exmample with 5 rotations, which would be repeated for each combination of [Rupture, Path]. The site is shown with a blue square, and initially oriented rupture in bold with its hypocenter as a red star and centroid a green circle. Rotations of that rupture are in gray:</p>
 <p><img src="resources/example_source_strike.png" alt="Example" /></p>
-<p>Standard deviation is computed and tabulated separately for each site and distance, then a total standard deviation is computed from all sitess and reported in the &quot;<strong>ALL SITES</strong>&quot; row. Results are reported separately for each distance</p>
 <h3 id="source-strike-variability-mag-distance-plots">Source-strike Variability Mag-Distance Plots</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <table>
@@ -269,7 +269,7 @@ img {
 <tr><th>3s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.43</td><td>0.43</td><td>0.42</td><td>[0.26 0.68]</td><td></td><td>0.48</td><td>0.47</td><td>0.47</td><td>[0.23 0.81]</td><td></td><td>0.4</td><td>0.39</td><td>0.41</td><td>[0.17 0.62]</td><td></td><td>0.3</td><td>0.3</td><td>0.31</td><td>[0.12 0.49]</td></tr>
+<tr><td></td><td>0.44</td><td>0.43</td><td>0.42</td><td>[0.26 0.68]</td><td></td><td>0.49</td><td>0.47</td><td>0.47</td><td>[0.23 0.81]</td><td></td><td>0.4</td><td>0.39</td><td>0.41</td><td>[0.17 0.62]</td><td></td><td>0.31</td><td>0.3</td><td>0.31</td><td>[0.12 0.49]</td></tr>
 </tbody>
 </table>
 <table>
@@ -289,18 +289,17 @@ img {
 <tbody>
 <tr><td><img src="resources/source_strike_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
 <tr><td><img src="resources/source_strike_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/source_strike_scatter__v_prop_3s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_median.png" alt="Scatter" /></td></tr>
 </tbody>
 </table>
-<h3 id="400-km-m65-source-strike-results">40.0 km M6.5 Source-strike Results</h3>
+<h3 id="600-km-m65-source-strike-results">60.0 km M6.5 Source-strike Results</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/source_strike_m6.5_40km_std_dev.png" alt="Source-strike Variability" /></p>
+<p><img src="resources/source_strike_m6.5_60km_std_dev.png" alt="Source-strike Variability" /></p>
 <table>
 <thead>
 <tr><th>3s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.48</td><td>0.48</td><td>0.49</td><td>[0.25 0.74]</td><td></td><td>0.57</td><td>0.56</td><td>0.54</td><td>[0.26 0.85]</td><td></td><td>0.61</td><td>0.61</td><td>0.62</td><td>[0.36 0.83]</td><td></td><td>0.51</td><td>0.51</td><td>0.52</td><td>[0.27 0.67]</td></tr>
+<tr><td></td><td>0.52</td><td>0.51</td><td>0.5</td><td>[0.3 0.76]</td><td></td><td>0.62</td><td>0.6</td><td>0.58</td><td>[0.32 1]</td><td></td><td>0.6</td><td>0.59</td><td>0.6</td><td>[0.34 0.85]</td><td></td><td>0.63</td><td>0.63</td><td>0.64</td><td>[0.3 0.77]</td></tr>
 </tbody>
 </table>
 <table>
@@ -308,9 +307,9 @@ img {
 <tr><th>3s</th><th>5s</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/source_strike_m6.5_40km_3s_hist.png" alt="3s" /></td><td><img src="resources/source_strike_m6.5_40km_5s_hist.png" alt="5s" /></td></tr>
+<tr><td><img src="resources/source_strike_m6.5_60km_3s_hist.png" alt="3s" /></td><td><img src="resources/source_strike_m6.5_60km_5s_hist.png" alt="5s" /></td></tr>
 <tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/source_strike_m6.5_40km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/source_strike_m6.5_40km_10s_hist.png" alt="10s" /></td></tr>
+<tr><td><img src="resources/source_strike_m6.5_60km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/source_strike_m6.5_60km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
 <table>
@@ -320,18 +319,17 @@ img {
 <tbody>
 <tr><td><img src="resources/source_strike_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
 <tr><td><img src="resources/source_strike_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/source_strike_scatter__v_prop_3s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_median.png" alt="Scatter" /></td></tr>
 </tbody>
 </table>
-<h3 id="800-km-m65-source-strike-results">80.0 km M6.5 Source-strike Results</h3>
+<h3 id="1200-km-m65-source-strike-results">120.0 km M6.5 Source-strike Results</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/source_strike_m6.5_80km_std_dev.png" alt="Source-strike Variability" /></p>
+<p><img src="resources/source_strike_m6.5_120km_std_dev.png" alt="Source-strike Variability" /></p>
 <table>
 <thead>
 <tr><th>3s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.52</td><td>0.52</td><td>0.51</td><td>[0.32 0.79]</td><td></td><td>0.62</td><td>0.61</td><td>0.58</td><td>[0.3 1]</td><td></td><td>0.61</td><td>0.6</td><td>0.6</td><td>[0.33 0.87]</td><td></td><td>0.57</td><td>0.57</td><td>0.58</td><td>[0.36 0.75]</td></tr>
+<tr><td></td><td>0.47</td><td>0.45</td><td>0.43</td><td>[0.2 0.82]</td><td></td><td>0.63</td><td>0.61</td><td>0.59</td><td>[0.28 0.99]</td><td></td><td>0.66</td><td>0.65</td><td>0.65</td><td>[0.35 0.93]</td><td></td><td>0.61</td><td>0.61</td><td>0.62</td><td>[0.36 0.76]</td></tr>
 </tbody>
 </table>
 <table>
@@ -339,9 +337,9 @@ img {
 <tr><th>3s</th><th>5s</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/source_strike_m6.5_80km_3s_hist.png" alt="3s" /></td><td><img src="resources/source_strike_m6.5_80km_5s_hist.png" alt="5s" /></td></tr>
+<tr><td><img src="resources/source_strike_m6.5_120km_3s_hist.png" alt="3s" /></td><td><img src="resources/source_strike_m6.5_120km_5s_hist.png" alt="5s" /></td></tr>
 <tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/source_strike_m6.5_80km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/source_strike_m6.5_80km_10s_hist.png" alt="10s" /></td></tr>
+<tr><td><img src="resources/source_strike_m6.5_120km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/source_strike_m6.5_120km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
 <table>
@@ -351,38 +349,6 @@ img {
 <tbody>
 <tr><td><img src="resources/source_strike_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
 <tr><td><img src="resources/source_strike_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/source_strike_scatter__v_prop_3s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_median.png" alt="Scatter" /></td></tr>
-</tbody>
-</table>
-<h3 id="1600-km-m65-source-strike-results">160.0 km M6.5 Source-strike Results</h3>
-<p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/source_strike_m6.5_160km_std_dev.png" alt="Source-strike Variability" /></p>
-<table>
-<thead>
-<tr><th>3s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
-</thead>
-<tbody>
-<tr><td></td><td>0.4</td><td>0.4</td><td>0.39</td><td>[0.19 0.64]</td><td></td><td>0.62</td><td>0.62</td><td>0.59</td><td>[0.34 0.98]</td><td></td><td>0.69</td><td>0.69</td><td>0.69</td><td>[0.39 0.98]</td><td></td><td>0.63</td><td>0.63</td><td>0.64</td><td>[0.36 0.78]</td></tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr><th>3s</th><th>5s</th></tr>
-</thead>
-<tbody>
-<tr><td><img src="resources/source_strike_m6.5_160km_3s_hist.png" alt="3s" /></td><td><img src="resources/source_strike_m6.5_160km_5s_hist.png" alt="5s" /></td></tr>
-<tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/source_strike_m6.5_160km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/source_strike_m6.5_160km_10s_hist.png" alt="10s" /></td></tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
-</thead>
-<tbody>
-<tr><td><img src="resources/source_strike_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/source_strike_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/source_strike_scatter__v_prop_3s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_median.png" alt="Scatter" /></td></tr>
 </tbody>
 </table>
 <h3 id="200-km-m7-source-strike-results">20.0 km M7 Source-strike Results</h3>
@@ -393,7 +359,7 @@ img {
 <tr><th>3s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.51</td><td>0.51</td><td>0.5</td><td>[0.25 0.75]</td><td></td><td>0.51</td><td>0.51</td><td>0.51</td><td>[0.29 0.79]</td><td></td><td>0.44</td><td>0.43</td><td>0.42</td><td>[0.24 0.78]</td><td></td><td>0.39</td><td>0.38</td><td>0.36</td><td>[0.18 0.76]</td></tr>
+<tr><td></td><td>0.52</td><td>0.51</td><td>0.5</td><td>[0.25 0.75]</td><td></td><td>0.52</td><td>0.51</td><td>0.51</td><td>[0.29 0.79]</td><td></td><td>0.45</td><td>0.43</td><td>0.42</td><td>[0.24 0.78]</td><td></td><td>0.4</td><td>0.38</td><td>0.36</td><td>[0.18 0.76]</td></tr>
 </tbody>
 </table>
 <table>
@@ -413,18 +379,17 @@ img {
 <tbody>
 <tr><td><img src="resources/source_strike_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
 <tr><td><img src="resources/source_strike_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/source_strike_scatter__v_prop_3s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_median.png" alt="Scatter" /></td></tr>
 </tbody>
 </table>
-<h3 id="400-km-m7-source-strike-results">40.0 km M7 Source-strike Results</h3>
+<h3 id="600-km-m7-source-strike-results">60.0 km M7 Source-strike Results</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/source_strike_m7_40km_std_dev.png" alt="Source-strike Variability" /></p>
+<p><img src="resources/source_strike_m7_60km_std_dev.png" alt="Source-strike Variability" /></p>
 <table>
 <thead>
 <tr><th>3s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.57</td><td>0.57</td><td>0.56</td><td>[0.33 0.85]</td><td></td><td>0.57</td><td>0.57</td><td>0.56</td><td>[0.29 0.81]</td><td></td><td>0.59</td><td>0.59</td><td>0.6</td><td>[0.37 0.89]</td><td></td><td>0.56</td><td>0.56</td><td>0.55</td><td>[0.3 0.88]</td></tr>
+<tr><td></td><td>0.6</td><td>0.59</td><td>0.59</td><td>[0.4 0.83]</td><td></td><td>0.62</td><td>0.61</td><td>0.62</td><td>[0.4 0.85]</td><td></td><td>0.6</td><td>0.59</td><td>0.6</td><td>[0.41 0.91]</td><td></td><td>0.63</td><td>0.62</td><td>0.62</td><td>[0.38 0.95]</td></tr>
 </tbody>
 </table>
 <table>
@@ -432,9 +397,9 @@ img {
 <tr><th>3s</th><th>5s</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/source_strike_m7_40km_3s_hist.png" alt="3s" /></td><td><img src="resources/source_strike_m7_40km_5s_hist.png" alt="5s" /></td></tr>
+<tr><td><img src="resources/source_strike_m7_60km_3s_hist.png" alt="3s" /></td><td><img src="resources/source_strike_m7_60km_5s_hist.png" alt="5s" /></td></tr>
 <tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/source_strike_m7_40km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/source_strike_m7_40km_10s_hist.png" alt="10s" /></td></tr>
+<tr><td><img src="resources/source_strike_m7_60km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/source_strike_m7_60km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
 <table>
@@ -444,18 +409,17 @@ img {
 <tbody>
 <tr><td><img src="resources/source_strike_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
 <tr><td><img src="resources/source_strike_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/source_strike_scatter__v_prop_3s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_median.png" alt="Scatter" /></td></tr>
 </tbody>
 </table>
-<h3 id="800-km-m7-source-strike-results">80.0 km M7 Source-strike Results</h3>
+<h3 id="1200-km-m7-source-strike-results">120.0 km M7 Source-strike Results</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/source_strike_m7_80km_std_dev.png" alt="Source-strike Variability" /></p>
+<p><img src="resources/source_strike_m7_120km_std_dev.png" alt="Source-strike Variability" /></p>
 <table>
 <thead>
 <tr><th>3s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.58</td><td>0.59</td><td>0.58</td><td>[0.38 0.81]</td><td></td><td>0.63</td><td>0.63</td><td>0.63</td><td>[0.33 0.88]</td><td></td><td>0.62</td><td>0.62</td><td>0.61</td><td>[0.39 0.9]</td><td></td><td>0.61</td><td>0.61</td><td>0.59</td><td>[0.42 0.91]</td></tr>
+<tr><td></td><td>0.52</td><td>0.51</td><td>0.5</td><td>[0.27 0.8]</td><td></td><td>0.63</td><td>0.62</td><td>0.63</td><td>[0.31 0.88]</td><td></td><td>0.66</td><td>0.65</td><td>0.64</td><td>[0.43 0.91]</td><td></td><td>0.66</td><td>0.65</td><td>0.64</td><td>[0.44 0.94]</td></tr>
 </tbody>
 </table>
 <table>
@@ -463,9 +427,9 @@ img {
 <tr><th>3s</th><th>5s</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/source_strike_m7_80km_3s_hist.png" alt="3s" /></td><td><img src="resources/source_strike_m7_80km_5s_hist.png" alt="5s" /></td></tr>
+<tr><td><img src="resources/source_strike_m7_120km_3s_hist.png" alt="3s" /></td><td><img src="resources/source_strike_m7_120km_5s_hist.png" alt="5s" /></td></tr>
 <tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/source_strike_m7_80km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/source_strike_m7_80km_10s_hist.png" alt="10s" /></td></tr>
+<tr><td><img src="resources/source_strike_m7_120km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/source_strike_m7_120km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
 <table>
@@ -475,38 +439,6 @@ img {
 <tbody>
 <tr><td><img src="resources/source_strike_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
 <tr><td><img src="resources/source_strike_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/source_strike_scatter__v_prop_3s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_median.png" alt="Scatter" /></td></tr>
-</tbody>
-</table>
-<h3 id="1600-km-m7-source-strike-results">160.0 km M7 Source-strike Results</h3>
-<p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/source_strike_m7_160km_std_dev.png" alt="Source-strike Variability" /></p>
-<table>
-<thead>
-<tr><th>3s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
-</thead>
-<tbody>
-<tr><td></td><td>0.47</td><td>0.46</td><td>0.47</td><td>[0.19 0.7]</td><td></td><td>0.63</td><td>0.63</td><td>0.64</td><td>[0.32 0.89]</td><td></td><td>0.68</td><td>0.68</td><td>0.7</td><td>[0.45 0.9]</td><td></td><td>0.66</td><td>0.67</td><td>0.65</td><td>[0.46 0.92]</td></tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr><th>3s</th><th>5s</th></tr>
-</thead>
-<tbody>
-<tr><td><img src="resources/source_strike_m7_160km_3s_hist.png" alt="3s" /></td><td><img src="resources/source_strike_m7_160km_5s_hist.png" alt="5s" /></td></tr>
-<tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/source_strike_m7_160km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/source_strike_m7_160km_10s_hist.png" alt="10s" /></td></tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
-</thead>
-<tbody>
-<tr><td><img src="resources/source_strike_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/source_strike_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/source_strike_scatter__v_prop_3s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_median.png" alt="Scatter" /></td></tr>
 </tbody>
 </table>
 <h3 id="200-km-m75-source-strike-results">20.0 km M7.5 Source-strike Results</h3>
@@ -517,7 +449,7 @@ img {
 <tr><th>3s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.53</td><td>0.53</td><td>0.54</td><td>[0.31 0.74]</td><td></td><td>0.46</td><td>0.46</td><td>0.46</td><td>[0.24 0.68]</td><td></td><td>0.39</td><td>0.38</td><td>0.35</td><td>[0.22 0.65]</td><td></td><td>0.37</td><td>0.35</td><td>0.34</td><td>[0.13 0.71]</td></tr>
+<tr><td></td><td>0.53</td><td>0.53</td><td>0.54</td><td>[0.31 0.74]</td><td></td><td>0.47</td><td>0.46</td><td>0.46</td><td>[0.24 0.68]</td><td></td><td>0.4</td><td>0.38</td><td>0.35</td><td>[0.22 0.65]</td><td></td><td>0.37</td><td>0.35</td><td>0.34</td><td>[0.13 0.71]</td></tr>
 </tbody>
 </table>
 <table>
@@ -537,18 +469,17 @@ img {
 <tbody>
 <tr><td><img src="resources/source_strike_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
 <tr><td><img src="resources/source_strike_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/source_strike_scatter__v_prop_3s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_median.png" alt="Scatter" /></td></tr>
 </tbody>
 </table>
-<h3 id="400-km-m75-source-strike-results">40.0 km M7.5 Source-strike Results</h3>
+<h3 id="600-km-m75-source-strike-results">60.0 km M7.5 Source-strike Results</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/source_strike_m7.5_40km_std_dev.png" alt="Source-strike Variability" /></p>
+<p><img src="resources/source_strike_m7.5_60km_std_dev.png" alt="Source-strike Variability" /></p>
 <table>
 <thead>
 <tr><th>3s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.67</td><td>0.68</td><td>0.68</td><td>[0.46 0.86]</td><td></td><td>0.58</td><td>0.58</td><td>0.59</td><td>[0.32 0.78]</td><td></td><td>0.54</td><td>0.53</td><td>0.52</td><td>[0.33 0.86]</td><td></td><td>0.49</td><td>0.49</td><td>0.47</td><td>[0.31 0.81]</td></tr>
+<tr><td></td><td>0.73</td><td>0.72</td><td>0.73</td><td>[0.52 0.87]</td><td></td><td>0.67</td><td>0.65</td><td>0.66</td><td>[0.37 0.83]</td><td></td><td>0.58</td><td>0.57</td><td>0.57</td><td>[0.32 0.88]</td><td></td><td>0.56</td><td>0.56</td><td>0.53</td><td>[0.39 0.87]</td></tr>
 </tbody>
 </table>
 <table>
@@ -556,9 +487,9 @@ img {
 <tr><th>3s</th><th>5s</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/source_strike_m7.5_40km_3s_hist.png" alt="3s" /></td><td><img src="resources/source_strike_m7.5_40km_5s_hist.png" alt="5s" /></td></tr>
+<tr><td><img src="resources/source_strike_m7.5_60km_3s_hist.png" alt="3s" /></td><td><img src="resources/source_strike_m7.5_60km_5s_hist.png" alt="5s" /></td></tr>
 <tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/source_strike_m7.5_40km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/source_strike_m7.5_40km_10s_hist.png" alt="10s" /></td></tr>
+<tr><td><img src="resources/source_strike_m7.5_60km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/source_strike_m7.5_60km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
 <table>
@@ -568,18 +499,17 @@ img {
 <tbody>
 <tr><td><img src="resources/source_strike_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
 <tr><td><img src="resources/source_strike_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/source_strike_scatter__v_prop_3s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_median.png" alt="Scatter" /></td></tr>
 </tbody>
 </table>
-<h3 id="800-km-m75-source-strike-results">80.0 km M7.5 Source-strike Results</h3>
+<h3 id="1200-km-m75-source-strike-results">120.0 km M7.5 Source-strike Results</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/source_strike_m7.5_80km_std_dev.png" alt="Source-strike Variability" /></p>
+<p><img src="resources/source_strike_m7.5_120km_std_dev.png" alt="Source-strike Variability" /></p>
 <table>
 <thead>
 <tr><th>3s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.69</td><td>0.7</td><td>0.69</td><td>[0.53 0.87]</td><td></td><td>0.67</td><td>0.68</td><td>0.68</td><td>[0.44 0.87]</td><td></td><td>0.61</td><td>0.61</td><td>0.6</td><td>[0.43 0.89]</td><td></td><td>0.58</td><td>0.57</td><td>0.55</td><td>[0.37 0.89]</td></tr>
+<tr><td></td><td>0.66</td><td>0.66</td><td>0.66</td><td>[0.51 0.81]</td><td></td><td>0.69</td><td>0.68</td><td>0.69</td><td>[0.46 0.88]</td><td></td><td>0.66</td><td>0.65</td><td>0.65</td><td>[0.44 0.97]</td><td></td><td>0.63</td><td>0.62</td><td>0.61</td><td>[0.44 0.98]</td></tr>
 </tbody>
 </table>
 <table>
@@ -587,9 +517,9 @@ img {
 <tr><th>3s</th><th>5s</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/source_strike_m7.5_80km_3s_hist.png" alt="3s" /></td><td><img src="resources/source_strike_m7.5_80km_5s_hist.png" alt="5s" /></td></tr>
+<tr><td><img src="resources/source_strike_m7.5_120km_3s_hist.png" alt="3s" /></td><td><img src="resources/source_strike_m7.5_120km_5s_hist.png" alt="5s" /></td></tr>
 <tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/source_strike_m7.5_80km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/source_strike_m7.5_80km_10s_hist.png" alt="10s" /></td></tr>
+<tr><td><img src="resources/source_strike_m7.5_120km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/source_strike_m7.5_120km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
 <table>
@@ -599,80 +529,51 @@ img {
 <tbody>
 <tr><td><img src="resources/source_strike_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
 <tr><td><img src="resources/source_strike_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/source_strike_scatter__v_prop_3s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_median.png" alt="Scatter" /></td></tr>
 </tbody>
 </table>
-<h3 id="1600-km-m75-source-strike-results">160.0 km M7.5 Source-strike Results</h3>
+<h2 id="within-event-single-site-variability">Within-event, single-site Variability</h2>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/source_strike_m7.5_160km_std_dev.png" alt="Source-strike Variability" /></p>
-<table>
-<thead>
-<tr><th>3s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
-</thead>
-<tbody>
-<tr><td></td><td>0.65</td><td>0.65</td><td>0.66</td><td>[0.48 0.84]</td><td></td><td>0.7</td><td>0.71</td><td>0.72</td><td>[0.48 0.9]</td><td></td><td>0.69</td><td>0.68</td><td>0.67</td><td>[0.49 1.01]</td><td></td><td>0.65</td><td>0.65</td><td>0.63</td><td>[0.45 0.98]</td></tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr><th>3s</th><th>5s</th></tr>
-</thead>
-<tbody>
-<tr><td><img src="resources/source_strike_m7.5_160km_3s_hist.png" alt="3s" /></td><td><img src="resources/source_strike_m7.5_160km_5s_hist.png" alt="5s" /></td></tr>
-<tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/source_strike_m7.5_160km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/source_strike_m7.5_160km_10s_hist.png" alt="10s" /></td></tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
-</thead>
-<tbody>
-<tr><td><img src="resources/source_strike_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/source_strike_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/source_strike_scatter__v_prop_3s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_median.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_median.png" alt="Scatter" /></td></tr>
-</tbody>
-</table>
-<h2 id="within-event-variability">Within-event Variability</h2>
+<h3 id="within-event-single-site-variability-methodology">Within-event, single-site Variability Methodology</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<h3 id="within-event-variability-methodology">Within-event Variability Methodology</h3>
-<p><em><a href="#table-of-contents">(top)</a></em></p>
-<p>Within-event variability, denoted φ in Al Atik (2010), is computed from ground motion residuals where the following quantities are held constant:</p>
+<p>Within-event, single-site variability, denoted φ<sub>SS</sub> in Al Atik (2010), is computed separately for each:</p>
 <ul>
 <li>Site <em>[1 unique]</em></li>
-<li>Joyner-Boore Distance <em>[8 unique]</em></li>
+<li>Distance <em>[8 unique]</em></li>
+</ul>
+<p>Then, for each unique combination of:</p>
+<ul>
 <li>Rupture <em>[100 unique]</em></li>
 </ul>
-<p>and the following quantities vary:</p>
+<p>we compute residuals, δW<sub>es</sub>, of the natural-log ground motions (relative to the median), computed across all 36 combinations of:</p>
 <ul>
 <li>Rupture Strike <em>[36 unique]</em></li>
 <li>Path <em>[1 unique]</em></li>
 </ul>
-<p>Here is an exmample with 5 rotations, which would be repeated for each combination of [Site, Joyner-Boore Distance, Rupture]. The site is shown with a blue square, and initially oriented rupture in bold with its hypocenter as a red star and centroid a green circle. Rotations of that rupture are in gray:</p>
-<p><img src="resources/example_within_event.png" alt="Example" /></p>
-<p>Standard deviation is computed and tabulated separately for each site and distance, then a total standard deviation is computed from all sitess and reported in the &quot;<strong>ALL SITES</strong>&quot; row. Results are reported separately for each distance</p>
-<h3 id="within-event-variability-mag-distance-plots">Within-event Variability Mag-Distance Plots</h3>
+<p>We take φ<sub>SS</sub> to be the standard deviation of all residuals, δW<sub>es</sub>, across each combination of Rupture.</p>
+<p>Here is an exmample with 5 rotations, which would be repeated for each combination of [Rupture]. The site is shown with a blue square, and initially oriented rupture in bold with its hypocenter as a red star and centroid a green circle. Rotations of that rupture are in gray:</p>
+<p><img src="resources/example_within_event_ss.png" alt="Example" /></p>
+<h3 id="within-event-single-site-variability-mag-distance-plots">Within-event, single-site Variability Mag-Distance Plots</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <table>
 <thead>
 <tr><th>Plot Type</th><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>Simulated</strong></td><td><img src="resources/within_event_mag_dist_std_dev_3s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_mag_dist_std_dev_5s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_mag_dist_std_dev_7.5s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_mag_dist_std_dev_10s_sim.png" alt="Mag-Dist Plot" /></td></tr>
-<tr><td><strong>GMPE</strong></td><td><img src="resources/within_event_mag_dist_std_dev_3s_gmpe.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_mag_dist_std_dev_5s_gmpe.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_mag_dist_std_dev_7.5s_gmpe.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_mag_dist_std_dev_10s_gmpe.png" alt="Mag-Dist Plot" /></td></tr>
-<tr><td><strong>Simulated - GMPE</strong></td><td><img src="resources/within_event_mag_dist_std_dev_3s_sim_gmpe_diff.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_mag_dist_std_dev_5s_sim_gmpe_diff.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_mag_dist_std_dev_7.5s_sim_gmpe_diff.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_mag_dist_std_dev_10s_sim_gmpe_diff.png" alt="Mag-Dist Plot" /></td></tr>
-<tr><td><strong>Sim Median SA</strong></td><td><img src="resources/within_event_mag_dist_std_dev_3s_sim_median.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_mag_dist_std_dev_5s_sim_median.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_mag_dist_std_dev_7.5s_sim_median.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_mag_dist_std_dev_10s_sim_median.png" alt="Mag-Dist Plot" /></td></tr>
+<tr><td><strong>Simulated</strong></td><td><img src="resources/within_event_ss_mag_dist_std_dev_3s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_ss_mag_dist_std_dev_5s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_ss_mag_dist_std_dev_7.5s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_ss_mag_dist_std_dev_10s_sim.png" alt="Mag-Dist Plot" /></td></tr>
+<tr><td><strong>GMPE</strong></td><td><img src="resources/within_event_ss_mag_dist_std_dev_3s_gmpe.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_ss_mag_dist_std_dev_5s_gmpe.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_ss_mag_dist_std_dev_7.5s_gmpe.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_ss_mag_dist_std_dev_10s_gmpe.png" alt="Mag-Dist Plot" /></td></tr>
+<tr><td><strong>Simulated - GMPE</strong></td><td><img src="resources/within_event_ss_mag_dist_std_dev_3s_sim_gmpe_diff.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_ss_mag_dist_std_dev_5s_sim_gmpe_diff.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_ss_mag_dist_std_dev_7.5s_sim_gmpe_diff.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_ss_mag_dist_std_dev_10s_sim_gmpe_diff.png" alt="Mag-Dist Plot" /></td></tr>
+<tr><td><strong>Sim Median SA</strong></td><td><img src="resources/within_event_ss_mag_dist_std_dev_3s_sim_median.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_ss_mag_dist_std_dev_5s_sim_median.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_ss_mag_dist_std_dev_7.5s_sim_median.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_ss_mag_dist_std_dev_10s_sim_median.png" alt="Mag-Dist Plot" /></td></tr>
 </tbody>
 </table>
-<h3 id="200-km-m65-within-event-results">20.0 km M6.5 Within-event Results</h3>
+<h3 id="200-km-m65-within-event-single-site-results">20.0 km M6.5 Within-event, single-site Results</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/within_event_m6.5_20km_std_dev.png" alt="Within-event Variability" /></p>
+<p><img src="resources/within_event_ss_m6.5_20km_std_dev.png" alt="Within-event, single-site Variability" /></p>
 <table>
 <thead>
-<tr><th>3s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
+<tr><th>3s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.43</td><td>0.43</td><td>0.42</td><td>[0.26 0.68]</td><td></td><td>0.48</td><td>0.47</td><td>0.47</td><td>[0.23 0.81]</td><td></td><td>0.4</td><td>0.39</td><td>0.41</td><td>[0.17 0.62]</td><td></td><td>0.3</td><td>0.3</td><td>0.31</td><td>[0.12 0.49]</td></tr>
+<tr><td></td><td>0.44</td><td>0.43</td><td>0.42</td><td>[0.26 0.68]</td><td></td><td>0.49</td><td>0.47</td><td>0.47</td><td>[0.23 0.81]</td><td></td><td>0.4</td><td>0.39</td><td>0.41</td><td>[0.17 0.62]</td><td></td><td>0.31</td><td>0.3</td><td>0.31</td><td>[0.12 0.49]</td></tr>
 </tbody>
 </table>
 <table>
@@ -680,9 +581,9 @@ img {
 <tr><th>3s</th><th>5s</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/within_event_m6.5_20km_3s_hist.png" alt="3s" /></td><td><img src="resources/within_event_m6.5_20km_5s_hist.png" alt="5s" /></td></tr>
+<tr><td><img src="resources/within_event_ss_m6.5_20km_3s_hist.png" alt="3s" /></td><td><img src="resources/within_event_ss_m6.5_20km_5s_hist.png" alt="5s" /></td></tr>
 <tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/within_event_m6.5_20km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_m6.5_20km_10s_hist.png" alt="10s" /></td></tr>
+<tr><td><img src="resources/within_event_ss_m6.5_20km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_ss_m6.5_20km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
 <table>
@@ -690,20 +591,19 @@ img {
 <tr><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_median.png" alt="Scatter" /></td></tr>
+<tr><td><img src="resources/within_event_ss_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
+<tr><td><img src="resources/within_event_ss_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
 </tbody>
 </table>
-<h3 id="400-km-m65-within-event-results">40.0 km M6.5 Within-event Results</h3>
+<h3 id="600-km-m65-within-event-single-site-results">60.0 km M6.5 Within-event, single-site Results</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/within_event_m6.5_40km_std_dev.png" alt="Within-event Variability" /></p>
+<p><img src="resources/within_event_ss_m6.5_60km_std_dev.png" alt="Within-event, single-site Variability" /></p>
 <table>
 <thead>
-<tr><th>3s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
+<tr><th>3s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.48</td><td>0.48</td><td>0.49</td><td>[0.25 0.74]</td><td></td><td>0.57</td><td>0.56</td><td>0.54</td><td>[0.26 0.85]</td><td></td><td>0.61</td><td>0.61</td><td>0.62</td><td>[0.36 0.83]</td><td></td><td>0.51</td><td>0.51</td><td>0.52</td><td>[0.27 0.67]</td></tr>
+<tr><td></td><td>0.52</td><td>0.51</td><td>0.5</td><td>[0.3 0.76]</td><td></td><td>0.62</td><td>0.6</td><td>0.58</td><td>[0.32 1]</td><td></td><td>0.6</td><td>0.59</td><td>0.6</td><td>[0.34 0.85]</td><td></td><td>0.63</td><td>0.63</td><td>0.64</td><td>[0.3 0.77]</td></tr>
 </tbody>
 </table>
 <table>
@@ -711,9 +611,9 @@ img {
 <tr><th>3s</th><th>5s</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/within_event_m6.5_40km_3s_hist.png" alt="3s" /></td><td><img src="resources/within_event_m6.5_40km_5s_hist.png" alt="5s" /></td></tr>
+<tr><td><img src="resources/within_event_ss_m6.5_60km_3s_hist.png" alt="3s" /></td><td><img src="resources/within_event_ss_m6.5_60km_5s_hist.png" alt="5s" /></td></tr>
 <tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/within_event_m6.5_40km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_m6.5_40km_10s_hist.png" alt="10s" /></td></tr>
+<tr><td><img src="resources/within_event_ss_m6.5_60km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_ss_m6.5_60km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
 <table>
@@ -721,20 +621,19 @@ img {
 <tr><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_median.png" alt="Scatter" /></td></tr>
+<tr><td><img src="resources/within_event_ss_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
+<tr><td><img src="resources/within_event_ss_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
 </tbody>
 </table>
-<h3 id="800-km-m65-within-event-results">80.0 km M6.5 Within-event Results</h3>
+<h3 id="1200-km-m65-within-event-single-site-results">120.0 km M6.5 Within-event, single-site Results</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/within_event_m6.5_80km_std_dev.png" alt="Within-event Variability" /></p>
+<p><img src="resources/within_event_ss_m6.5_120km_std_dev.png" alt="Within-event, single-site Variability" /></p>
 <table>
 <thead>
-<tr><th>3s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
+<tr><th>3s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.52</td><td>0.52</td><td>0.51</td><td>[0.32 0.79]</td><td></td><td>0.62</td><td>0.61</td><td>0.58</td><td>[0.3 1]</td><td></td><td>0.61</td><td>0.6</td><td>0.6</td><td>[0.33 0.87]</td><td></td><td>0.57</td><td>0.57</td><td>0.58</td><td>[0.36 0.75]</td></tr>
+<tr><td></td><td>0.47</td><td>0.45</td><td>0.43</td><td>[0.2 0.82]</td><td></td><td>0.63</td><td>0.61</td><td>0.59</td><td>[0.28 0.99]</td><td></td><td>0.66</td><td>0.65</td><td>0.65</td><td>[0.35 0.93]</td><td></td><td>0.61</td><td>0.61</td><td>0.62</td><td>[0.36 0.76]</td></tr>
 </tbody>
 </table>
 <table>
@@ -742,9 +641,9 @@ img {
 <tr><th>3s</th><th>5s</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/within_event_m6.5_80km_3s_hist.png" alt="3s" /></td><td><img src="resources/within_event_m6.5_80km_5s_hist.png" alt="5s" /></td></tr>
+<tr><td><img src="resources/within_event_ss_m6.5_120km_3s_hist.png" alt="3s" /></td><td><img src="resources/within_event_ss_m6.5_120km_5s_hist.png" alt="5s" /></td></tr>
 <tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/within_event_m6.5_80km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_m6.5_80km_10s_hist.png" alt="10s" /></td></tr>
+<tr><td><img src="resources/within_event_ss_m6.5_120km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_ss_m6.5_120km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
 <table>
@@ -752,20 +651,19 @@ img {
 <tr><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_median.png" alt="Scatter" /></td></tr>
+<tr><td><img src="resources/within_event_ss_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
+<tr><td><img src="resources/within_event_ss_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
 </tbody>
 </table>
-<h3 id="1600-km-m65-within-event-results">160.0 km M6.5 Within-event Results</h3>
+<h3 id="200-km-m7-within-event-single-site-results">20.0 km M7 Within-event, single-site Results</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/within_event_m6.5_160km_std_dev.png" alt="Within-event Variability" /></p>
+<p><img src="resources/within_event_ss_m7_20km_std_dev.png" alt="Within-event, single-site Variability" /></p>
 <table>
 <thead>
-<tr><th>3s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
+<tr><th>3s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.4</td><td>0.4</td><td>0.39</td><td>[0.19 0.64]</td><td></td><td>0.62</td><td>0.62</td><td>0.59</td><td>[0.34 0.98]</td><td></td><td>0.69</td><td>0.69</td><td>0.69</td><td>[0.39 0.98]</td><td></td><td>0.63</td><td>0.63</td><td>0.64</td><td>[0.36 0.78]</td></tr>
+<tr><td></td><td>0.52</td><td>0.51</td><td>0.5</td><td>[0.25 0.75]</td><td></td><td>0.52</td><td>0.51</td><td>0.51</td><td>[0.29 0.79]</td><td></td><td>0.45</td><td>0.43</td><td>0.42</td><td>[0.24 0.78]</td><td></td><td>0.4</td><td>0.38</td><td>0.36</td><td>[0.18 0.76]</td></tr>
 </tbody>
 </table>
 <table>
@@ -773,9 +671,9 @@ img {
 <tr><th>3s</th><th>5s</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/within_event_m6.5_160km_3s_hist.png" alt="3s" /></td><td><img src="resources/within_event_m6.5_160km_5s_hist.png" alt="5s" /></td></tr>
+<tr><td><img src="resources/within_event_ss_m7_20km_3s_hist.png" alt="3s" /></td><td><img src="resources/within_event_ss_m7_20km_5s_hist.png" alt="5s" /></td></tr>
 <tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/within_event_m6.5_160km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_m6.5_160km_10s_hist.png" alt="10s" /></td></tr>
+<tr><td><img src="resources/within_event_ss_m7_20km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_ss_m7_20km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
 <table>
@@ -783,20 +681,19 @@ img {
 <tr><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_median.png" alt="Scatter" /></td></tr>
+<tr><td><img src="resources/within_event_ss_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
+<tr><td><img src="resources/within_event_ss_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
 </tbody>
 </table>
-<h3 id="200-km-m7-within-event-results">20.0 km M7 Within-event Results</h3>
+<h3 id="600-km-m7-within-event-single-site-results">60.0 km M7 Within-event, single-site Results</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/within_event_m7_20km_std_dev.png" alt="Within-event Variability" /></p>
+<p><img src="resources/within_event_ss_m7_60km_std_dev.png" alt="Within-event, single-site Variability" /></p>
 <table>
 <thead>
-<tr><th>3s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
+<tr><th>3s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.51</td><td>0.51</td><td>0.5</td><td>[0.25 0.75]</td><td></td><td>0.51</td><td>0.51</td><td>0.51</td><td>[0.29 0.79]</td><td></td><td>0.44</td><td>0.43</td><td>0.42</td><td>[0.24 0.78]</td><td></td><td>0.39</td><td>0.38</td><td>0.36</td><td>[0.18 0.76]</td></tr>
+<tr><td></td><td>0.6</td><td>0.59</td><td>0.59</td><td>[0.4 0.83]</td><td></td><td>0.62</td><td>0.61</td><td>0.62</td><td>[0.4 0.85]</td><td></td><td>0.6</td><td>0.59</td><td>0.6</td><td>[0.41 0.91]</td><td></td><td>0.63</td><td>0.62</td><td>0.62</td><td>[0.38 0.95]</td></tr>
 </tbody>
 </table>
 <table>
@@ -804,9 +701,9 @@ img {
 <tr><th>3s</th><th>5s</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/within_event_m7_20km_3s_hist.png" alt="3s" /></td><td><img src="resources/within_event_m7_20km_5s_hist.png" alt="5s" /></td></tr>
+<tr><td><img src="resources/within_event_ss_m7_60km_3s_hist.png" alt="3s" /></td><td><img src="resources/within_event_ss_m7_60km_5s_hist.png" alt="5s" /></td></tr>
 <tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/within_event_m7_20km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_m7_20km_10s_hist.png" alt="10s" /></td></tr>
+<tr><td><img src="resources/within_event_ss_m7_60km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_ss_m7_60km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
 <table>
@@ -814,20 +711,19 @@ img {
 <tr><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_median.png" alt="Scatter" /></td></tr>
+<tr><td><img src="resources/within_event_ss_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
+<tr><td><img src="resources/within_event_ss_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
 </tbody>
 </table>
-<h3 id="400-km-m7-within-event-results">40.0 km M7 Within-event Results</h3>
+<h3 id="1200-km-m7-within-event-single-site-results">120.0 km M7 Within-event, single-site Results</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/within_event_m7_40km_std_dev.png" alt="Within-event Variability" /></p>
+<p><img src="resources/within_event_ss_m7_120km_std_dev.png" alt="Within-event, single-site Variability" /></p>
 <table>
 <thead>
-<tr><th>3s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
+<tr><th>3s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.57</td><td>0.57</td><td>0.56</td><td>[0.33 0.85]</td><td></td><td>0.57</td><td>0.57</td><td>0.56</td><td>[0.29 0.81]</td><td></td><td>0.59</td><td>0.59</td><td>0.6</td><td>[0.37 0.89]</td><td></td><td>0.56</td><td>0.56</td><td>0.55</td><td>[0.3 0.88]</td></tr>
+<tr><td></td><td>0.52</td><td>0.51</td><td>0.5</td><td>[0.27 0.8]</td><td></td><td>0.63</td><td>0.62</td><td>0.63</td><td>[0.31 0.88]</td><td></td><td>0.66</td><td>0.65</td><td>0.64</td><td>[0.43 0.91]</td><td></td><td>0.66</td><td>0.65</td><td>0.64</td><td>[0.44 0.94]</td></tr>
 </tbody>
 </table>
 <table>
@@ -835,9 +731,9 @@ img {
 <tr><th>3s</th><th>5s</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/within_event_m7_40km_3s_hist.png" alt="3s" /></td><td><img src="resources/within_event_m7_40km_5s_hist.png" alt="5s" /></td></tr>
+<tr><td><img src="resources/within_event_ss_m7_120km_3s_hist.png" alt="3s" /></td><td><img src="resources/within_event_ss_m7_120km_5s_hist.png" alt="5s" /></td></tr>
 <tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/within_event_m7_40km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_m7_40km_10s_hist.png" alt="10s" /></td></tr>
+<tr><td><img src="resources/within_event_ss_m7_120km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_ss_m7_120km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
 <table>
@@ -845,20 +741,19 @@ img {
 <tr><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_median.png" alt="Scatter" /></td></tr>
+<tr><td><img src="resources/within_event_ss_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
+<tr><td><img src="resources/within_event_ss_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
 </tbody>
 </table>
-<h3 id="800-km-m7-within-event-results">80.0 km M7 Within-event Results</h3>
+<h3 id="200-km-m75-within-event-single-site-results">20.0 km M7.5 Within-event, single-site Results</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/within_event_m7_80km_std_dev.png" alt="Within-event Variability" /></p>
+<p><img src="resources/within_event_ss_m7.5_20km_std_dev.png" alt="Within-event, single-site Variability" /></p>
 <table>
 <thead>
-<tr><th>3s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
+<tr><th>3s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.58</td><td>0.59</td><td>0.58</td><td>[0.38 0.81]</td><td></td><td>0.63</td><td>0.63</td><td>0.63</td><td>[0.33 0.88]</td><td></td><td>0.62</td><td>0.62</td><td>0.61</td><td>[0.39 0.9]</td><td></td><td>0.61</td><td>0.61</td><td>0.59</td><td>[0.42 0.91]</td></tr>
+<tr><td></td><td>0.53</td><td>0.53</td><td>0.54</td><td>[0.31 0.74]</td><td></td><td>0.47</td><td>0.46</td><td>0.46</td><td>[0.24 0.68]</td><td></td><td>0.4</td><td>0.38</td><td>0.35</td><td>[0.22 0.65]</td><td></td><td>0.37</td><td>0.35</td><td>0.34</td><td>[0.13 0.71]</td></tr>
 </tbody>
 </table>
 <table>
@@ -866,9 +761,9 @@ img {
 <tr><th>3s</th><th>5s</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/within_event_m7_80km_3s_hist.png" alt="3s" /></td><td><img src="resources/within_event_m7_80km_5s_hist.png" alt="5s" /></td></tr>
+<tr><td><img src="resources/within_event_ss_m7.5_20km_3s_hist.png" alt="3s" /></td><td><img src="resources/within_event_ss_m7.5_20km_5s_hist.png" alt="5s" /></td></tr>
 <tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/within_event_m7_80km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_m7_80km_10s_hist.png" alt="10s" /></td></tr>
+<tr><td><img src="resources/within_event_ss_m7.5_20km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_ss_m7.5_20km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
 <table>
@@ -876,20 +771,19 @@ img {
 <tr><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_median.png" alt="Scatter" /></td></tr>
+<tr><td><img src="resources/within_event_ss_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
+<tr><td><img src="resources/within_event_ss_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
 </tbody>
 </table>
-<h3 id="1600-km-m7-within-event-results">160.0 km M7 Within-event Results</h3>
+<h3 id="600-km-m75-within-event-single-site-results">60.0 km M7.5 Within-event, single-site Results</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/within_event_m7_160km_std_dev.png" alt="Within-event Variability" /></p>
+<p><img src="resources/within_event_ss_m7.5_60km_std_dev.png" alt="Within-event, single-site Variability" /></p>
 <table>
 <thead>
-<tr><th>3s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
+<tr><th>3s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.47</td><td>0.46</td><td>0.47</td><td>[0.19 0.7]</td><td></td><td>0.63</td><td>0.63</td><td>0.64</td><td>[0.32 0.89]</td><td></td><td>0.68</td><td>0.68</td><td>0.7</td><td>[0.45 0.9]</td><td></td><td>0.66</td><td>0.67</td><td>0.65</td><td>[0.46 0.92]</td></tr>
+<tr><td></td><td>0.73</td><td>0.72</td><td>0.73</td><td>[0.52 0.87]</td><td></td><td>0.67</td><td>0.65</td><td>0.66</td><td>[0.37 0.83]</td><td></td><td>0.58</td><td>0.57</td><td>0.57</td><td>[0.32 0.88]</td><td></td><td>0.56</td><td>0.56</td><td>0.53</td><td>[0.39 0.87]</td></tr>
 </tbody>
 </table>
 <table>
@@ -897,9 +791,9 @@ img {
 <tr><th>3s</th><th>5s</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/within_event_m7_160km_3s_hist.png" alt="3s" /></td><td><img src="resources/within_event_m7_160km_5s_hist.png" alt="5s" /></td></tr>
+<tr><td><img src="resources/within_event_ss_m7.5_60km_3s_hist.png" alt="3s" /></td><td><img src="resources/within_event_ss_m7.5_60km_5s_hist.png" alt="5s" /></td></tr>
 <tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/within_event_m7_160km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_m7_160km_10s_hist.png" alt="10s" /></td></tr>
+<tr><td><img src="resources/within_event_ss_m7.5_60km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_ss_m7.5_60km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
 <table>
@@ -907,20 +801,19 @@ img {
 <tr><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_median.png" alt="Scatter" /></td></tr>
+<tr><td><img src="resources/within_event_ss_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
+<tr><td><img src="resources/within_event_ss_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
 </tbody>
 </table>
-<h3 id="200-km-m75-within-event-results">20.0 km M7.5 Within-event Results</h3>
+<h3 id="1200-km-m75-within-event-single-site-results">120.0 km M7.5 Within-event, single-site Results</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/within_event_m7.5_20km_std_dev.png" alt="Within-event Variability" /></p>
+<p><img src="resources/within_event_ss_m7.5_120km_std_dev.png" alt="Within-event, single-site Variability" /></p>
 <table>
 <thead>
-<tr><th>3s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
+<tr><th>3s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.53</td><td>0.53</td><td>0.54</td><td>[0.31 0.74]</td><td></td><td>0.46</td><td>0.46</td><td>0.46</td><td>[0.24 0.68]</td><td></td><td>0.39</td><td>0.38</td><td>0.35</td><td>[0.22 0.65]</td><td></td><td>0.37</td><td>0.35</td><td>0.34</td><td>[0.13 0.71]</td></tr>
+<tr><td></td><td>0.66</td><td>0.66</td><td>0.66</td><td>[0.51 0.81]</td><td></td><td>0.69</td><td>0.68</td><td>0.69</td><td>[0.46 0.88]</td><td></td><td>0.66</td><td>0.65</td><td>0.65</td><td>[0.44 0.97]</td><td></td><td>0.63</td><td>0.62</td><td>0.61</td><td>[0.44 0.98]</td></tr>
 </tbody>
 </table>
 <table>
@@ -928,9 +821,9 @@ img {
 <tr><th>3s</th><th>5s</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/within_event_m7.5_20km_3s_hist.png" alt="3s" /></td><td><img src="resources/within_event_m7.5_20km_5s_hist.png" alt="5s" /></td></tr>
+<tr><td><img src="resources/within_event_ss_m7.5_120km_3s_hist.png" alt="3s" /></td><td><img src="resources/within_event_ss_m7.5_120km_5s_hist.png" alt="5s" /></td></tr>
 <tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/within_event_m7.5_20km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_m7.5_20km_10s_hist.png" alt="10s" /></td></tr>
+<tr><td><img src="resources/within_event_ss_m7.5_120km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_ss_m7.5_120km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
 <table>
@@ -938,120 +831,31 @@ img {
 <tr><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_median.png" alt="Scatter" /></td></tr>
-</tbody>
-</table>
-<h3 id="400-km-m75-within-event-results">40.0 km M7.5 Within-event Results</h3>
-<p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/within_event_m7.5_40km_std_dev.png" alt="Within-event Variability" /></p>
-<table>
-<thead>
-<tr><th>3s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
-</thead>
-<tbody>
-<tr><td></td><td>0.67</td><td>0.68</td><td>0.68</td><td>[0.46 0.86]</td><td></td><td>0.58</td><td>0.58</td><td>0.59</td><td>[0.32 0.78]</td><td></td><td>0.54</td><td>0.53</td><td>0.52</td><td>[0.33 0.86]</td><td></td><td>0.49</td><td>0.49</td><td>0.47</td><td>[0.31 0.81]</td></tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr><th>3s</th><th>5s</th></tr>
-</thead>
-<tbody>
-<tr><td><img src="resources/within_event_m7.5_40km_3s_hist.png" alt="3s" /></td><td><img src="resources/within_event_m7.5_40km_5s_hist.png" alt="5s" /></td></tr>
-<tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/within_event_m7.5_40km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_m7.5_40km_10s_hist.png" alt="10s" /></td></tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
-</thead>
-<tbody>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_median.png" alt="Scatter" /></td></tr>
-</tbody>
-</table>
-<h3 id="800-km-m75-within-event-results">80.0 km M7.5 Within-event Results</h3>
-<p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/within_event_m7.5_80km_std_dev.png" alt="Within-event Variability" /></p>
-<table>
-<thead>
-<tr><th>3s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
-</thead>
-<tbody>
-<tr><td></td><td>0.69</td><td>0.7</td><td>0.69</td><td>[0.53 0.87]</td><td></td><td>0.67</td><td>0.68</td><td>0.68</td><td>[0.44 0.87]</td><td></td><td>0.61</td><td>0.61</td><td>0.6</td><td>[0.43 0.89]</td><td></td><td>0.58</td><td>0.57</td><td>0.55</td><td>[0.37 0.89]</td></tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr><th>3s</th><th>5s</th></tr>
-</thead>
-<tbody>
-<tr><td><img src="resources/within_event_m7.5_80km_3s_hist.png" alt="3s" /></td><td><img src="resources/within_event_m7.5_80km_5s_hist.png" alt="5s" /></td></tr>
-<tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/within_event_m7.5_80km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_m7.5_80km_10s_hist.png" alt="10s" /></td></tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
-</thead>
-<tbody>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_median.png" alt="Scatter" /></td></tr>
-</tbody>
-</table>
-<h3 id="1600-km-m75-within-event-results">160.0 km M7.5 Within-event Results</h3>
-<p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/within_event_m7.5_160km_std_dev.png" alt="Within-event Variability" /></p>
-<table>
-<thead>
-<tr><th>3s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
-</thead>
-<tbody>
-<tr><td></td><td>0.65</td><td>0.65</td><td>0.66</td><td>[0.48 0.84]</td><td></td><td>0.7</td><td>0.71</td><td>0.72</td><td>[0.48 0.9]</td><td></td><td>0.69</td><td>0.68</td><td>0.67</td><td>[0.49 1.01]</td><td></td><td>0.65</td><td>0.65</td><td>0.63</td><td>[0.45 0.98]</td></tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr><th>3s</th><th>5s</th></tr>
-</thead>
-<tbody>
-<tr><td><img src="resources/within_event_m7.5_160km_3s_hist.png" alt="3s" /></td><td><img src="resources/within_event_m7.5_160km_5s_hist.png" alt="5s" /></td></tr>
-<tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/within_event_m7.5_160km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_m7.5_160km_10s_hist.png" alt="10s" /></td></tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
-</thead>
-<tbody>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/within_event_scatter__v_prop_3s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_5s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_7.5s_median.png" alt="Scatter" /></td><td><img src="resources/within_event_scatter__v_prop_10s_median.png" alt="Scatter" /></td></tr>
+<tr><td><img src="resources/within_event_ss_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
+<tr><td><img src="resources/within_event_ss_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
 </tbody>
 </table>
 <h2 id="between-events-variability">Between-events Variability</h2>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <h3 id="between-events-variability-methodology">Between-events Variability Methodology</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p>Between-events variability, denoted τ in Al Atik (2010), is computed from ground motion residuals where the following quantities are held constant:</p>
+<p>Between-events variability, denoted τ in Al Atik (2010), is computed separately for each:</p>
 <ul>
 <li>Site <em>[1 unique]</em></li>
-<li>Joyner-Boore Distance <em>[8 unique]</em></li>
+<li>Distance <em>[8 unique]</em></li>
 </ul>
-<p>and the following quantities vary:</p>
+<p>We first compute the median natural-log ground motion, δB<sub>e</sub>, for each combination of:</p>
 <ul>
 <li>Rupture <em>[100 unique]</em></li>
+</ul>
+<p>That median, δB<sub>e</sub>, is computed across all 36 combinations of:</p>
+<ul>
 <li>Rupture Strike <em>[36 unique]</em></li>
 <li>Path <em>[1 unique]</em></li>
 </ul>
-<p>Standard deviation is computed and tabulated separately for each site and distance, then a total standard deviation is computed from all sitess and reported in the &quot;<strong>ALL SITES</strong>&quot; row. Results are reported separately for each distance</p>
+<p>We take τ to be the standard deviation of all δB<sub>e</sub>.</p>
+<p>Here is an exmample with 5 rotations, which would be repeated for each combination of [Rupture]. The site is shown with a blue square, and initially oriented rupture in bold with its hypocenter as a red star and centroid a green circle. Rotations of that rupture are in gray:</p>
+<p><img src="resources/example_between_events.png" alt="Example" /></p>
 <h3 id="between-events-variability-mag-distance-plots">Between-events Variability Mag-Distance Plots</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <table>
@@ -1070,83 +874,32 @@ img {
 <p><img src="resources/between_events_m6.5_20km_std_dev.png" alt="Between-events Variability" /></p>
 <table>
 <thead>
-<tr><th>3s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
+<tr><th>3s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>7.5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>10s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.47</td><td>0.47</td><td>0.47</td><td>[0.47 0.47]</td><td></td><td>0.54</td><td>0.54</td><td>0.54</td><td>[0.54 0.54]</td><td></td><td>0.49</td><td>0.49</td><td>0.49</td><td>[0.49 0.49]</td><td></td><td>0.4</td><td>0.4</td><td>0.4</td><td>[0.4 0.4]</td></tr>
+<tr><td>0.19</td><td>-3.88</td><td>[-4.32 -3.32]</td><td>0.28</td><td>-4.55</td><td>[-5.27 -3.76]</td><td>0.31</td><td>-4.99</td><td>[-5.82 -4.35]</td><td>0.26</td><td>-5.52</td><td>[-6.38 -5.03]</td></tr>
 </tbody>
 </table>
-<table>
-<thead>
-<tr><th>3s</th><th>5s</th></tr>
-</thead>
-<tbody>
-<tr><td><img src="resources/between_events_m6.5_20km_3s_hist.png" alt="3s" /></td><td><img src="resources/between_events_m6.5_20km_5s_hist.png" alt="5s" /></td></tr>
-<tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/between_events_m6.5_20km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/between_events_m6.5_20km_10s_hist.png" alt="10s" /></td></tr>
-</tbody>
-</table>
-<h3 id="400-km-m65-between-events-results">40.0 km M6.5 Between-events Results</h3>
+<h3 id="600-km-m65-between-events-results">60.0 km M6.5 Between-events Results</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/between_events_m6.5_40km_std_dev.png" alt="Between-events Variability" /></p>
+<p><img src="resources/between_events_m6.5_60km_std_dev.png" alt="Between-events Variability" /></p>
 <table>
 <thead>
-<tr><th>3s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
+<tr><th>3s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>7.5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>10s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.52</td><td>0.52</td><td>0.52</td><td>[0.52 0.52]</td><td></td><td>0.63</td><td>0.63</td><td>0.63</td><td>[0.63 0.63]</td><td></td><td>0.66</td><td>0.66</td><td>0.66</td><td>[0.66 0.66]</td><td></td><td>0.57</td><td>0.57</td><td>0.57</td><td>[0.57 0.57]</td></tr>
+<tr><td>0.2</td><td>-4.86</td><td>[-5.29 -4.35]</td><td>0.3</td><td>-5.43</td><td>[-6.22 -4.68]</td><td>0.32</td><td>-5.82</td><td>[-6.62 -5.05]</td><td>0.29</td><td>-6.24</td><td>[-7.2 -5.6]</td></tr>
 </tbody>
 </table>
-<table>
-<thead>
-<tr><th>3s</th><th>5s</th></tr>
-</thead>
-<tbody>
-<tr><td><img src="resources/between_events_m6.5_40km_3s_hist.png" alt="3s" /></td><td><img src="resources/between_events_m6.5_40km_5s_hist.png" alt="5s" /></td></tr>
-<tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/between_events_m6.5_40km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/between_events_m6.5_40km_10s_hist.png" alt="10s" /></td></tr>
-</tbody>
-</table>
-<h3 id="800-km-m65-between-events-results">80.0 km M6.5 Between-events Results</h3>
+<h3 id="1200-km-m65-between-events-results">120.0 km M6.5 Between-events Results</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/between_events_m6.5_80km_std_dev.png" alt="Between-events Variability" /></p>
+<p><img src="resources/between_events_m6.5_120km_std_dev.png" alt="Between-events Variability" /></p>
 <table>
 <thead>
-<tr><th>3s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
+<tr><th>3s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>7.5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>10s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.55</td><td>0.55</td><td>0.55</td><td>[0.55 0.55]</td><td></td><td>0.68</td><td>0.68</td><td>0.68</td><td>[0.68 0.68]</td><td></td><td>0.67</td><td>0.67</td><td>0.67</td><td>[0.67 0.67]</td><td></td><td>0.64</td><td>0.64</td><td>0.64</td><td>[0.64 0.64]</td></tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr><th>3s</th><th>5s</th></tr>
-</thead>
-<tbody>
-<tr><td><img src="resources/between_events_m6.5_80km_3s_hist.png" alt="3s" /></td><td><img src="resources/between_events_m6.5_80km_5s_hist.png" alt="5s" /></td></tr>
-<tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/between_events_m6.5_80km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/between_events_m6.5_80km_10s_hist.png" alt="10s" /></td></tr>
-</tbody>
-</table>
-<h3 id="1600-km-m65-between-events-results">160.0 km M6.5 Between-events Results</h3>
-<p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/between_events_m6.5_160km_std_dev.png" alt="Between-events Variability" /></p>
-<table>
-<thead>
-<tr><th>3s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
-</thead>
-<tbody>
-<tr><td></td><td>0.44</td><td>0.44</td><td>0.44</td><td>[0.44 0.44]</td><td></td><td>0.68</td><td>0.68</td><td>0.68</td><td>[0.68 0.68]</td><td></td><td>0.76</td><td>0.76</td><td>0.76</td><td>[0.76 0.76]</td><td></td><td>0.69</td><td>0.69</td><td>0.69</td><td>[0.69 0.69]</td></tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr><th>3s</th><th>5s</th></tr>
-</thead>
-<tbody>
-<tr><td><img src="resources/between_events_m6.5_160km_3s_hist.png" alt="3s" /></td><td><img src="resources/between_events_m6.5_160km_5s_hist.png" alt="5s" /></td></tr>
-<tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/between_events_m6.5_160km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/between_events_m6.5_160km_10s_hist.png" alt="10s" /></td></tr>
+<tr><td>0.18</td><td>-5.54</td><td>[-5.99 -5.1]</td><td>0.3</td><td>-6.02</td><td>[-6.84 -5.33]</td><td>0.35</td><td>-6.34</td><td>[-7.26 -5.55]</td><td>0.33</td><td>-6.69</td><td>[-7.66 -6.04]</td></tr>
 </tbody>
 </table>
 <h3 id="200-km-m7-between-events-results">20.0 km M7 Between-events Results</h3>
@@ -1154,83 +907,32 @@ img {
 <p><img src="resources/between_events_m7_20km_std_dev.png" alt="Between-events Variability" /></p>
 <table>
 <thead>
-<tr><th>3s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
+<tr><th>3s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>7.5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>10s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.54</td><td>0.54</td><td>0.54</td><td>[0.54 0.54]</td><td></td><td>0.55</td><td>0.55</td><td>0.55</td><td>[0.55 0.55]</td><td></td><td>0.52</td><td>0.52</td><td>0.52</td><td>[0.52 0.52]</td><td></td><td>0.49</td><td>0.49</td><td>0.49</td><td>[0.49 0.49]</td></tr>
+<tr><td>0.2</td><td>-3.06</td><td>[-3.59 -2.67]</td><td>0.25</td><td>-3.71</td><td>[-4.28 -2.96]</td><td>0.29</td><td>-4.24</td><td>[-4.94 -3.69]</td><td>0.3</td><td>-4.76</td><td>[-5.44 -4.17]</td></tr>
 </tbody>
 </table>
-<table>
-<thead>
-<tr><th>3s</th><th>5s</th></tr>
-</thead>
-<tbody>
-<tr><td><img src="resources/between_events_m7_20km_3s_hist.png" alt="3s" /></td><td><img src="resources/between_events_m7_20km_5s_hist.png" alt="5s" /></td></tr>
-<tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/between_events_m7_20km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/between_events_m7_20km_10s_hist.png" alt="10s" /></td></tr>
-</tbody>
-</table>
-<h3 id="400-km-m7-between-events-results">40.0 km M7 Between-events Results</h3>
+<h3 id="600-km-m7-between-events-results">60.0 km M7 Between-events Results</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/between_events_m7_40km_std_dev.png" alt="Between-events Variability" /></p>
+<p><img src="resources/between_events_m7_60km_std_dev.png" alt="Between-events Variability" /></p>
 <table>
 <thead>
-<tr><th>3s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
+<tr><th>3s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>7.5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>10s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.59</td><td>0.59</td><td>0.59</td><td>[0.59 0.59]</td><td></td><td>0.61</td><td>0.61</td><td>0.61</td><td>[0.61 0.61]</td><td></td><td>0.64</td><td>0.64</td><td>0.64</td><td>[0.64 0.64]</td><td></td><td>0.63</td><td>0.63</td><td>0.63</td><td>[0.63 0.63]</td></tr>
+<tr><td>0.19</td><td>-4.08</td><td>[-4.51 -3.66]</td><td>0.26</td><td>-4.61</td><td>[-5.36 -4.15]</td><td>0.29</td><td>-5.06</td><td>[-6.01 -4.48]</td><td>0.31</td><td>-5.53</td><td>[-6.21 -4.85]</td></tr>
 </tbody>
 </table>
-<table>
-<thead>
-<tr><th>3s</th><th>5s</th></tr>
-</thead>
-<tbody>
-<tr><td><img src="resources/between_events_m7_40km_3s_hist.png" alt="3s" /></td><td><img src="resources/between_events_m7_40km_5s_hist.png" alt="5s" /></td></tr>
-<tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/between_events_m7_40km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/between_events_m7_40km_10s_hist.png" alt="10s" /></td></tr>
-</tbody>
-</table>
-<h3 id="800-km-m7-between-events-results">80.0 km M7 Between-events Results</h3>
+<h3 id="1200-km-m7-between-events-results">120.0 km M7 Between-events Results</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/between_events_m7_80km_std_dev.png" alt="Between-events Variability" /></p>
+<p><img src="resources/between_events_m7_120km_std_dev.png" alt="Between-events Variability" /></p>
 <table>
 <thead>
-<tr><th>3s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
+<tr><th>3s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>7.5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>10s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.61</td><td>0.61</td><td>0.61</td><td>[0.61 0.61]</td><td></td><td>0.67</td><td>0.67</td><td>0.67</td><td>[0.67 0.67]</td><td></td><td>0.67</td><td>0.67</td><td>0.67</td><td>[0.67 0.67]</td><td></td><td>0.68</td><td>0.68</td><td>0.68</td><td>[0.68 0.68]</td></tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr><th>3s</th><th>5s</th></tr>
-</thead>
-<tbody>
-<tr><td><img src="resources/between_events_m7_80km_3s_hist.png" alt="3s" /></td><td><img src="resources/between_events_m7_80km_5s_hist.png" alt="5s" /></td></tr>
-<tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/between_events_m7_80km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/between_events_m7_80km_10s_hist.png" alt="10s" /></td></tr>
-</tbody>
-</table>
-<h3 id="1600-km-m7-between-events-results">160.0 km M7 Between-events Results</h3>
-<p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/between_events_m7_160km_std_dev.png" alt="Between-events Variability" /></p>
-<table>
-<thead>
-<tr><th>3s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
-</thead>
-<tbody>
-<tr><td></td><td>0.49</td><td>0.49</td><td>0.49</td><td>[0.49 0.49]</td><td></td><td>0.66</td><td>0.66</td><td>0.66</td><td>[0.66 0.66]</td><td></td><td>0.73</td><td>0.73</td><td>0.73</td><td>[0.73 0.73]</td><td></td><td>0.74</td><td>0.74</td><td>0.74</td><td>[0.74 0.74]</td></tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr><th>3s</th><th>5s</th></tr>
-</thead>
-<tbody>
-<tr><td><img src="resources/between_events_m7_160km_3s_hist.png" alt="3s" /></td><td><img src="resources/between_events_m7_160km_5s_hist.png" alt="5s" /></td></tr>
-<tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/between_events_m7_160km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/between_events_m7_160km_10s_hist.png" alt="10s" /></td></tr>
+<tr><td>0.17</td><td>-4.76</td><td>[-5.21 -4.35]</td><td>0.26</td><td>-5.21</td><td>[-5.78 -4.67]</td><td>0.32</td><td>-5.57</td><td>[-6.47 -4.93]</td><td>0.36</td><td>-5.99</td><td>[-6.99 -5.3]</td></tr>
 </tbody>
 </table>
 <h3 id="200-km-m75-between-events-results">20.0 km M7.5 Between-events Results</h3>
@@ -1238,83 +940,32 @@ img {
 <p><img src="resources/between_events_m7.5_20km_std_dev.png" alt="Between-events Variability" /></p>
 <table>
 <thead>
-<tr><th>3s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
+<tr><th>3s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>7.5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>10s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.54</td><td>0.54</td><td>0.54</td><td>[0.54 0.54]</td><td></td><td>0.48</td><td>0.48</td><td>0.48</td><td>[0.48 0.48]</td><td></td><td>0.44</td><td>0.44</td><td>0.44</td><td>[0.44 0.44]</td><td></td><td>0.42</td><td>0.42</td><td>0.42</td><td>[0.42 0.42]</td></tr>
+<tr><td>0.12</td><td>-2.21</td><td>[-2.5 -1.91]</td><td>0.17</td><td>-3.05</td><td>[-3.51 -2.6]</td><td>0.22</td><td>-3.76</td><td>[-4.23 -3.26]</td><td>0.21</td><td>-4.29</td><td>[-4.75 -3.73]</td></tr>
 </tbody>
 </table>
-<table>
-<thead>
-<tr><th>3s</th><th>5s</th></tr>
-</thead>
-<tbody>
-<tr><td><img src="resources/between_events_m7.5_20km_3s_hist.png" alt="3s" /></td><td><img src="resources/between_events_m7.5_20km_5s_hist.png" alt="5s" /></td></tr>
-<tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/between_events_m7.5_20km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/between_events_m7.5_20km_10s_hist.png" alt="10s" /></td></tr>
-</tbody>
-</table>
-<h3 id="400-km-m75-between-events-results">40.0 km M7.5 Between-events Results</h3>
+<h3 id="600-km-m75-between-events-results">60.0 km M7.5 Between-events Results</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/between_events_m7.5_40km_std_dev.png" alt="Between-events Variability" /></p>
+<p><img src="resources/between_events_m7.5_60km_std_dev.png" alt="Between-events Variability" /></p>
 <table>
 <thead>
-<tr><th>3s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
+<tr><th>3s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>7.5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>10s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.68</td><td>0.68</td><td>0.68</td><td>[0.68 0.68]</td><td></td><td>0.6</td><td>0.6</td><td>0.6</td><td>[0.6 0.6]</td><td></td><td>0.58</td><td>0.58</td><td>0.58</td><td>[0.58 0.58]</td><td></td><td>0.54</td><td>0.54</td><td>0.54</td><td>[0.54 0.54]</td></tr>
+<tr><td>0.18</td><td>-3.27</td><td>[-3.73 -2.82]</td><td>0.21</td><td>-3.83</td><td>[-4.38 -3.37]</td><td>0.23</td><td>-4.4</td><td>[-4.81 -3.69]</td><td>0.24</td><td>-4.87</td><td>[-5.35 -4.3]</td></tr>
 </tbody>
 </table>
-<table>
-<thead>
-<tr><th>3s</th><th>5s</th></tr>
-</thead>
-<tbody>
-<tr><td><img src="resources/between_events_m7.5_40km_3s_hist.png" alt="3s" /></td><td><img src="resources/between_events_m7.5_40km_5s_hist.png" alt="5s" /></td></tr>
-<tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/between_events_m7.5_40km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/between_events_m7.5_40km_10s_hist.png" alt="10s" /></td></tr>
-</tbody>
-</table>
-<h3 id="800-km-m75-between-events-results">80.0 km M7.5 Between-events Results</h3>
+<h3 id="1200-km-m75-between-events-results">120.0 km M7.5 Between-events Results</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/between_events_m7.5_80km_std_dev.png" alt="Between-events Variability" /></p>
+<p><img src="resources/between_events_m7.5_120km_std_dev.png" alt="Between-events Variability" /></p>
 <table>
 <thead>
-<tr><th>3s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
+<tr><th>3s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>7.5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>10s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.7</td><td>0.7</td><td>0.7</td><td>[0.7 0.7]</td><td></td><td>0.69</td><td>0.69</td><td>0.69</td><td>[0.69 0.69]</td><td></td><td>0.66</td><td>0.66</td><td>0.66</td><td>[0.66 0.66]</td><td></td><td>0.63</td><td>0.63</td><td>0.63</td><td>[0.63 0.63]</td></tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr><th>3s</th><th>5s</th></tr>
-</thead>
-<tbody>
-<tr><td><img src="resources/between_events_m7.5_80km_3s_hist.png" alt="3s" /></td><td><img src="resources/between_events_m7.5_80km_5s_hist.png" alt="5s" /></td></tr>
-<tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/between_events_m7.5_80km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/between_events_m7.5_80km_10s_hist.png" alt="10s" /></td></tr>
-</tbody>
-</table>
-<h3 id="1600-km-m75-between-events-results">160.0 km M7.5 Between-events Results</h3>
-<p><em><a href="#table-of-contents">(top)</a></em></p>
-<p><img src="resources/between_events_m7.5_160km_std_dev.png" alt="Between-events Variability" /></p>
-<table>
-<thead>
-<tr><th>3s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s τ</th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
-</thead>
-<tbody>
-<tr><td></td><td>0.65</td><td>0.65</td><td>0.65</td><td>[0.65 0.65]</td><td></td><td>0.73</td><td>0.73</td><td>0.73</td><td>[0.73 0.73]</td><td></td><td>0.73</td><td>0.73</td><td>0.73</td><td>[0.73 0.73]</td><td></td><td>0.7</td><td>0.7</td><td>0.7</td><td>[0.7 0.7]</td></tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr><th>3s</th><th>5s</th></tr>
-</thead>
-<tbody>
-<tr><td><img src="resources/between_events_m7.5_160km_3s_hist.png" alt="3s" /></td><td><img src="resources/between_events_m7.5_160km_5s_hist.png" alt="5s" /></td></tr>
-<tr><td>7.5s</td><td>10s</td></tr>
-<tr><td><img src="resources/between_events_m7.5_160km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/between_events_m7.5_160km_10s_hist.png" alt="10s" /></td></tr>
+<tr><td>0.14</td><td>-4.17</td><td>[-4.39 -3.75]</td><td>0.25</td><td>-4.54</td><td>[-5.07 -4]</td><td>0.28</td><td>-4.93</td><td>[-5.57 -4.27]</td><td>0.27</td><td>-5.35</td><td>[-5.85 -4.72]</td></tr>
 </tbody>
 </table>
 </body>
