@@ -53,6 +53,9 @@
 ## Rotated Rupture Variability Comparisons
 *[(top)](#bruce-2740)*
 
+* [M6.6, Reverse, Dip=45, Ztor=3](rotated_ruptures_m6p6_reverse/)
+* [M6.6, Vertical Strike-Slip with Surface Rupture](rotated_ruptures_m6p6_vert_ss_surface/)
+* [M7.2, Vertical Strike-Slip with Surface Rupture](rotated_ruptures_m7p2_vert_ss_surface/)
 * [Normal, Dip=45, Mag-Dist Bins](rotated_ruptures_mag_dist_normal/)
 * [Reverse, Dip=45, Mag-Dist Bins](rotated_ruptures_mag_dist_reverse/)
 * [Vertical Strike-Slip with Surface Rupture, Mag-Dist Bins](rotated_ruptures_mag_dist_vert_ss_surface/)

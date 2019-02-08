@@ -101,7 +101,6 @@
 *[(top)](#bruce-2585)*
 
 * [M6.6, Reverse, Dip=45, Ztor=3](rotated_ruptures_m6p6_reverse/)
-* [M6.6, Vertical Strike-Slip with Surface Rupture](rotated_ruptures_m6p6_vert_ss_surface/)
 
 ## Plots
 ### Magnitude-Frequency Plot
