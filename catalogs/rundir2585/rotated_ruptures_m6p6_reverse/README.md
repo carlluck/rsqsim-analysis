@@ -13,7 +13,7 @@ We then  perform various rotations. We rotate the rupture in place around its ce
 * [M6.6 Reverse RSQSim Rupture Match Criteria](#m66-reverse-rsqsim-rupture-match-criteria)
 * [Sites](#sites)
 * [Result Summary Table](#result-summary-table)
-  * [M6.6 Result Summary Table](#m66-result-summary-table)
+  * [Dist-Dependent Plot Table](#dist-dependent-plot-table)
 * [Path-to-path Variability](#path-to-path-variability)
   * [Path-to-path Variability Methodology](#path-to-path-variability-methodology)
   * [20.0 km M6.6 Path-to-path Results](#200-km-m66-path-to-path-results)
@@ -68,9 +68,6 @@ We condisder 75 events in the catalog which match the following criteria:
 
 ## Result Summary Table
 
-### M6.6 Result Summary Table
-*[(top)](#table-of-contents)*
-
 | Type | Notation | Distance | 3s Std. Dev. | 5s Std. Dev. | 7.5s Std. Dev. | 10s Std. Dev. |
 |-----|-----|-----|-----|-----|-----|-----|
 | Path-to-path | &phi;<sub>P2P</sub> | 20 km | 0 | 0 | 0 | 0 |
@@ -81,6 +78,16 @@ We condisder 75 events in the catalog which match the following criteria:
 | Within-event, single-site | &phi;<sub>SS</sub> | 50 km | 0.36 | 0.42 | 0.37 | 0.35 |
 | Between-events | &tau; | 20 km | 0.32 | 0.31 | 0.31 | 0.29 |
 | Between-events | &tau; | 50 km | 0.37 | 0.35 | 0.3 | 0.31 |
+
+### Dist-Dependent Plot Table
+*[(top)](#table-of-contents)*
+
+| **&phi;<sub>P2P</sub>** | ![&phi;<sub>P2P</sub>](resources/path_m6.6_dist_periods.png) |
+|-----|-----|
+| **&phi;<sub>s</sub>** | ![&phi;<sub>s</sub>](resources/source_strike_m6.6_dist_periods.png) |
+| **&phi;<sub>SS</sub>** | ![&phi;<sub>SS</sub>](resources/within_event_ss_m6.6_dist_periods.png) |
+| **&tau;** | ![&tau;](resources/between_events_m6.6_dist_periods.png) |
+
 
 ## Path-to-path Variability
 *[(top)](#table-of-contents)*

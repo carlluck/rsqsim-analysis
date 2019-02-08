@@ -13,7 +13,7 @@ We then  perform various rotations. We rotate the rupture in place around its ce
 * [M6.6 SS RSQSim Rupture Match Criteria](#m66-ss-rsqsim-rupture-match-criteria)
 * [Sites](#sites)
 * [Result Summary Table](#result-summary-table)
-  * [M6.6 Result Summary Table](#m66-result-summary-table)
+  * [Dist-Dependent Plot Table](#dist-dependent-plot-table)
 * [Source-strike Variability](#source-strike-variability)
   * [Source-strike Variability Methodology](#source-strike-variability-methodology)
   * [20.0 km M6.6 Source-strike Results](#200-km-m66-source-strike-results)
@@ -59,9 +59,6 @@ We condisder 100 events in the catalog which match the following criteria:
 
 ## Result Summary Table
 
-### M6.6 Result Summary Table
-*[(top)](#table-of-contents)*
-
 | Type | Notation | Distance | 3s Std. Dev. | 5s Std. Dev. | 7.5s Std. Dev. | 10s Std. Dev. |
 |-----|-----|-----|-----|-----|-----|-----|
 | Source-strike | &phi;<sub>s</sub> | 20 km | 0.52 | 0.52 | 0.43 | 0.34 |
@@ -73,6 +70,15 @@ We condisder 100 events in the catalog which match the following criteria:
 | Between-events | &tau; | 20 km | 0.21 | 0.25 | 0.33 | 0.29 |
 | Between-events | &tau; | 50 km | 0.21 | 0.26 | 0.34 | 0.32 |
 | Between-events | &tau; | 100 km | 0.19 | 0.27 | 0.36 | 0.35 |
+
+### Dist-Dependent Plot Table
+*[(top)](#table-of-contents)*
+
+| **&phi;<sub>s</sub>** | ![&phi;<sub>s</sub>](resources/source_strike_m6.6_dist_periods.png) |
+|-----|-----|
+| **&phi;<sub>SS</sub>** | ![&phi;<sub>SS</sub>](resources/within_event_ss_m6.6_dist_periods.png) |
+| **&tau;** | ![&tau;](resources/between_events_m6.6_dist_periods.png) |
+
 
 ## Source-strike Variability
 *[(top)](#table-of-contents)*
