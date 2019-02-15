@@ -56,6 +56,9 @@ We then  perform various rotations. We rotate the rupture in place around its ce
   * [20.0 km M7.5 Between-events Results](#200-km-m75-between-events-results)
   * [60.0 km M7.5 Between-events Results](#600-km-m75-between-events-results)
   * [120.0 km M7.5 Between-events Results](#1200-km-m75-between-events-results)
+* [Azumth Dependence](#azumth-dependence)
+  * [Rupture Strike Dependence](#rupture-strike-dependence)
+* [CSV Files](#csv-files)
 ## Rupture Rotation Parameters
 
 | Quantity | Variations | Description |
@@ -789,4 +792,22 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 | 0.14 | -4.17 | [-4.39 -3.75] | 0.25 | -4.54 | [-5.07 -4] | 0.28 | -4.93 | [-5.57 -4.27] | 0.27 | -5.35 | [-5.85 -4.72] |
 
+
+## Azumth Dependence
+*[(top)](#table-of-contents)*
+
+### Rupture Strike Dependence
+*[(top)](#table-of-contents)*
+
+| Mag | Type | 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|-----|-----|
+| **M6.5** | **&tau;** | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_3s_between_events.png) | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_5s_between_events.png) | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_7.5s_between_events.png) | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_10s_between_events.png) |
+| **M7** | **&tau;** | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_3s_between_events.png) | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_5s_between_events.png) | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_7.5s_between_events.png) | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_10s_between_events.png) |
+| **M7.5** | **&tau;** | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_3s_between_events.png) | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_5s_between_events.png) | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_7.5s_between_events.png) | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_10s_between_events.png) |
+| **M6.5** | **Median SA** | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_3s_median_sa.png) | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_5s_median_sa.png) | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_7.5s_median_sa.png) | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_10s_median_sa.png) |
+| **M7** | **Median SA** | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_3s_median_sa.png) | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_5s_median_sa.png) | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_7.5s_median_sa.png) | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_10s_median_sa.png) |
+| **M7.5** | **Median SA** | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_3s_median_sa.png) | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_5s_median_sa.png) | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_7.5s_median_sa.png) | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_10s_median_sa.png) |
+
+## CSV Files
+*[(top)](#table-of-contents)*
 

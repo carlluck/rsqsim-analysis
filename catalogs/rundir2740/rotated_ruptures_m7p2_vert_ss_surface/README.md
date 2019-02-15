@@ -29,6 +29,9 @@ We then  perform various rotations. We rotate the rupture in place around its ce
   * [20.0 km M7.2 Between-events Results](#200-km-m72-between-events-results)
   * [50.0 km M7.2 Between-events Results](#500-km-m72-between-events-results)
   * [100.0 km M7.2 Between-events Results](#1000-km-m72-between-events-results)
+* [Azumth Dependence](#azumth-dependence)
+  * [Rupture Strike Dependence](#rupture-strike-dependence)
+* [CSV Files](#csv-files)
 ## Rupture Rotation Parameters
 
 | Quantity | Variations | Description |
@@ -316,4 +319,24 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 | 0.15 | -4.27 | [-4.68 -3.92] | 0.24 | -4.68 | [-5.48 -4.13] | 0.31 | -5.05 | [-5.77 -4.47] | 0.38 | -5.43 | [-6.34 -4.78] |
 
+
+## Azumth Dependence
+*[(top)](#table-of-contents)*
+
+### Rupture Strike Dependence
+*[(top)](#table-of-contents)*
+
+| Type | 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|-----|
+| **&tau;** | ![Rupture Strike](resources/m7.2_dist_SOURCE_AZIMUTH_3s_between_events.png) | ![Rupture Strike](resources/m7.2_dist_SOURCE_AZIMUTH_5s_between_events.png) | ![Rupture Strike](resources/m7.2_dist_SOURCE_AZIMUTH_7.5s_between_events.png) | ![Rupture Strike](resources/m7.2_dist_SOURCE_AZIMUTH_10s_between_events.png) |
+| **Median SA** | ![Rupture Strike](resources/m7.2_dist_SOURCE_AZIMUTH_3s_median_sa.png) | ![Rupture Strike](resources/m7.2_dist_SOURCE_AZIMUTH_5s_median_sa.png) | ![Rupture Strike](resources/m7.2_dist_SOURCE_AZIMUTH_7.5s_median_sa.png) | ![Rupture Strike](resources/m7.2_dist_SOURCE_AZIMUTH_10s_median_sa.png) |
+
+## CSV Files
+*[(top)](#table-of-contents)*
+
+| Magnitude | Distance | Site | CSV File |
+|-----|-----|-----|-----|
+| M7.2 | 20.0 km | USC | [sa_USC_m7.2_20.0km.csv.gz](resources/sa_USC_m7.2_20.0km.csv.gz) |
+| M7.2 | 50.0 km | USC | [sa_USC_m7.2_50.0km.csv.gz](resources/sa_USC_m7.2_50.0km.csv.gz) |
+| M7.2 | 100.0 km | USC | [sa_USC_m7.2_100.0km.csv.gz](resources/sa_USC_m7.2_100.0km.csv.gz) |
 
