@@ -15,8 +15,11 @@ We then  perform various rotations. We rotate the rupture in place around its ce
 * [Result Summary Table](#result-summary-table)
   * [Mag-Dist Plots](#mag-dist-plots)
   * [M6.5 Result Summary Table](#m65-result-summary-table)
+    * [M6.5 Dist-Dependent Plot Table](#m65-dist-dependent-plot-table)
   * [M7 Result Summary Table](#m7-result-summary-table)
+    * [M7 Dist-Dependent Plot Table](#m7-dist-dependent-plot-table)
   * [M7.5 Result Summary Table](#m75-result-summary-table)
+    * [M7.5 Dist-Dependent Plot Table](#m75-dist-dependent-plot-table)
 * [Source-strike Variability](#source-strike-variability)
   * [Source-strike Variability Methodology](#source-strike-variability-methodology)
   * [Source-strike Variability Mag-Distance Plots](#source-strike-variability-mag-distance-plots)
@@ -53,6 +56,9 @@ We then  perform various rotations. We rotate the rupture in place around its ce
   * [20.0 km M7.5 Between-events Results](#200-km-m75-between-events-results)
   * [60.0 km M7.5 Between-events Results](#600-km-m75-between-events-results)
   * [120.0 km M7.5 Between-events Results](#1200-km-m75-between-events-results)
+* [Azumth Dependence](#azumth-dependence)
+  * [Rupture Strike Dependence](#rupture-strike-dependence)
+* [CSV Files](#csv-files)
 ## Rupture Rotation Parameters
 
 | Quantity | Variations | Description |
@@ -87,9 +93,9 @@ We condisder 100 events in the catalog which match the following criteria:
 
 | Type | Notation | 3s Std. Dev. | 5s Std. Dev. | 7.5s Std. Dev. | 10s Std. Dev. |
 |-----|-----|-----|-----|-----|-----|
-| Source-strike | &phi;<sub>s</sub> | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_3s_sim.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_5s_sim.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_7.5s_sim.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_10s_sim.png) |
-| Within-event, single-site | &phi;<sub>SS</sub> | ![Mag-Dist Plot](resources/within_event_ss_mag_dist_std_dev_3s_sim.png) | ![Mag-Dist Plot](resources/within_event_ss_mag_dist_std_dev_5s_sim.png) | ![Mag-Dist Plot](resources/within_event_ss_mag_dist_std_dev_7.5s_sim.png) | ![Mag-Dist Plot](resources/within_event_ss_mag_dist_std_dev_10s_sim.png) |
-| Between-events | &tau; | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_3s_sim.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_5s_sim.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_7.5s_sim.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_10s_sim.png) |
+| [Source-strike](#source-strike-variability) | &phi;<sub>s</sub> | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_3s_sim.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_5s_sim.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_7.5s_sim.png) | ![Mag-Dist Plot](resources/source_strike_mag_dist_std_dev_10s_sim.png) |
+| [Within-event, single-site](#within-event-single-site-variability) | &phi;<sub>SS</sub> | ![Mag-Dist Plot](resources/within_event_ss_mag_dist_std_dev_3s_sim.png) | ![Mag-Dist Plot](resources/within_event_ss_mag_dist_std_dev_5s_sim.png) | ![Mag-Dist Plot](resources/within_event_ss_mag_dist_std_dev_7.5s_sim.png) | ![Mag-Dist Plot](resources/within_event_ss_mag_dist_std_dev_10s_sim.png) |
+| [Between-events](#between-events-variability) | &tau; | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_3s_sim.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_5s_sim.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_7.5s_sim.png) | ![Mag-Dist Plot](resources/between_events_mag_dist_std_dev_10s_sim.png) |
 
 ### M6.5 Result Summary Table
 *[(top)](#table-of-contents)*
@@ -127,6 +133,15 @@ We condisder 100 events in the catalog which match the following criteria:
 | Between-events | &tau; | 180 km | 0.21 | 0.35 | 0.44 | 0.5 |
 | Between-events | &tau; | 200 km | 0.21 | 0.35 | 0.44 | 0.51 |
 
+#### M6.5 Dist-Dependent Plot Table
+*[(top)](#table-of-contents)*
+
+| **&phi;<sub>s</sub>** | ![&phi;<sub>s</sub>](resources/source_strike_m6.5_dist_periods.png) |
+|-----|-----|
+| **&phi;<sub>SS</sub>** | ![&phi;<sub>SS</sub>](resources/within_event_ss_m6.5_dist_periods.png) |
+| **&tau;** | ![&tau;](resources/between_events_m6.5_dist_periods.png) |
+
+
 ### M7 Result Summary Table
 *[(top)](#table-of-contents)*
 
@@ -162,6 +177,15 @@ We condisder 100 events in the catalog which match the following criteria:
 | Between-events | &tau; | 160 km | 0.16 | 0.26 | 0.27 | 0.31 |
 | Between-events | &tau; | 180 km | 0.16 | 0.26 | 0.27 | 0.31 |
 | Between-events | &tau; | 200 km | 0.16 | 0.28 | 0.27 | 0.32 |
+
+#### M7 Dist-Dependent Plot Table
+*[(top)](#table-of-contents)*
+
+| **&phi;<sub>s</sub>** | ![&phi;<sub>s</sub>](resources/source_strike_m7_dist_periods.png) |
+|-----|-----|
+| **&phi;<sub>SS</sub>** | ![&phi;<sub>SS</sub>](resources/within_event_ss_m7_dist_periods.png) |
+| **&tau;** | ![&tau;](resources/between_events_m7_dist_periods.png) |
+
 
 ### M7.5 Result Summary Table
 *[(top)](#table-of-contents)*
@@ -199,6 +223,15 @@ We condisder 100 events in the catalog which match the following criteria:
 | Between-events | &tau; | 180 km | 0.13 | 0.19 | 0.27 | 0.3 |
 | Between-events | &tau; | 200 km | 0.11 | 0.2 | 0.27 | 0.3 |
 
+#### M7.5 Dist-Dependent Plot Table
+*[(top)](#table-of-contents)*
+
+| **&phi;<sub>s</sub>** | ![&phi;<sub>s</sub>](resources/source_strike_m7.5_dist_periods.png) |
+|-----|-----|
+| **&phi;<sub>SS</sub>** | ![&phi;<sub>SS</sub>](resources/within_event_ss_m7.5_dist_periods.png) |
+| **&tau;** | ![&tau;](resources/between_events_m7.5_dist_periods.png) |
+
+
 ## Source-strike Variability
 *[(top)](#table-of-contents)*
 
@@ -219,7 +252,7 @@ we compute residuals, &delta;W<sub>es</sub>, of the natural-log ground motions (
 
 * Rupture Strike *[36 unique]*
 
-We take &phi;<sub>s</sub> to be the standard deviation of all residuals, &delta;W<sub>es</sub>, across each combination of Rupture,Path.
+We take &phi;<sub>s</sub> to be the standard deviation of all residuals, &delta;W<sub>es</sub>, across each combination of Rupture, Path.
 
 Here is an exmample with 5 rotations, which would be repeated for each combination of [Rupture, Path]. The site is shown with a blue square, and initially oriented rupture in bold with its hypocenter as a red star and centroid a green circle. Rotations of that rupture are in gray:
 
@@ -777,4 +810,34 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 | 0.11 | -4.17 | [-4.43 -3.91] | 0.18 | -4.84 | [-5.34 -4.35] | 0.27 | -5.18 | [-5.88 -4.63] | 0.28 | -5.52 | [-6.2 -4.92] |
 
+
+## Azumth Dependence
+*[(top)](#table-of-contents)*
+
+### Rupture Strike Dependence
+*[(top)](#table-of-contents)*
+
+| Mag | Type | 3s | 5s | 7.5s | 10s |
+|-----|-----|-----|-----|-----|-----|
+| **M6.5** | **&tau;** | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_3s_between_events.png) | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_5s_between_events.png) | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_7.5s_between_events.png) | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_10s_between_events.png) |
+| **M7** | **&tau;** | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_3s_between_events.png) | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_5s_between_events.png) | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_7.5s_between_events.png) | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_10s_between_events.png) |
+| **M7.5** | **&tau;** | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_3s_between_events.png) | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_5s_between_events.png) | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_7.5s_between_events.png) | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_10s_between_events.png) |
+| **M6.5** | **Median SA** | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_3s_median_sa.png) | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_5s_median_sa.png) | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_7.5s_median_sa.png) | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_10s_median_sa.png) |
+| **M7** | **Median SA** | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_3s_median_sa.png) | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_5s_median_sa.png) | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_7.5s_median_sa.png) | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_10s_median_sa.png) |
+| **M7.5** | **Median SA** | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_3s_median_sa.png) | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_5s_median_sa.png) | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_7.5s_median_sa.png) | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_10s_median_sa.png) |
+
+## CSV Files
+*[(top)](#table-of-contents)*
+
+| Magnitude | Distance | Site | CSV File |
+|-----|-----|-----|-----|
+| M6.5 | 20.0 km | USC | [sa_USC_m6.5_20.0km.csv.gz](resources/sa_USC_m6.5_20.0km.csv.gz) |
+| M6.5 | 60.0 km | USC | [sa_USC_m6.5_60.0km.csv.gz](resources/sa_USC_m6.5_60.0km.csv.gz) |
+| M6.5 | 120.0 km | USC | [sa_USC_m6.5_120.0km.csv.gz](resources/sa_USC_m6.5_120.0km.csv.gz) |
+| M7 | 20.0 km | USC | [sa_USC_m7.0_20.0km.csv.gz](resources/sa_USC_m7.0_20.0km.csv.gz) |
+| M7 | 60.0 km | USC | [sa_USC_m7.0_60.0km.csv.gz](resources/sa_USC_m7.0_60.0km.csv.gz) |
+| M7 | 120.0 km | USC | [sa_USC_m7.0_120.0km.csv.gz](resources/sa_USC_m7.0_120.0km.csv.gz) |
+| M7.5 | 20.0 km | USC | [sa_USC_m7.5_20.0km.csv.gz](resources/sa_USC_m7.5_20.0km.csv.gz) |
+| M7.5 | 60.0 km | USC | [sa_USC_m7.5_60.0km.csv.gz](resources/sa_USC_m7.5_60.0km.csv.gz) |
+| M7.5 | 120.0 km | USC | [sa_USC_m7.5_120.0km.csv.gz](resources/sa_USC_m7.5_120.0km.csv.gz) |
 

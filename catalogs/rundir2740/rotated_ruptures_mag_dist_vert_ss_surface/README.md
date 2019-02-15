@@ -811,3 +811,15 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 ## CSV Files
 *[(top)](#table-of-contents)*
 
+| Magnitude | Distance | Site | CSV File |
+|-----|-----|-----|-----|
+| M6.5 | 20.0 km | USC | [sa_USC_m6.5_20.0km.csv.gz](resources/sa_USC_m6.5_20.0km.csv.gz) |
+| M6.5 | 60.0 km | USC | [sa_USC_m6.5_60.0km.csv.gz](resources/sa_USC_m6.5_60.0km.csv.gz) |
+| M6.5 | 120.0 km | USC | [sa_USC_m6.5_120.0km.csv.gz](resources/sa_USC_m6.5_120.0km.csv.gz) |
+| M7 | 20.0 km | USC | [sa_USC_m7.0_20.0km.csv.gz](resources/sa_USC_m7.0_20.0km.csv.gz) |
+| M7 | 60.0 km | USC | [sa_USC_m7.0_60.0km.csv.gz](resources/sa_USC_m7.0_60.0km.csv.gz) |
+| M7 | 120.0 km | USC | [sa_USC_m7.0_120.0km.csv.gz](resources/sa_USC_m7.0_120.0km.csv.gz) |
+| M7.5 | 20.0 km | USC | [sa_USC_m7.5_20.0km.csv.gz](resources/sa_USC_m7.5_20.0km.csv.gz) |
+| M7.5 | 60.0 km | USC | [sa_USC_m7.5_60.0km.csv.gz](resources/sa_USC_m7.5_60.0km.csv.gz) |
+| M7.5 | 120.0 km | USC | [sa_USC_m7.5_120.0km.csv.gz](resources/sa_USC_m7.5_120.0km.csv.gz) |
+

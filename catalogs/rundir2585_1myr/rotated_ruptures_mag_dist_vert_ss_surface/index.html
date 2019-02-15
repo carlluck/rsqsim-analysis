@@ -32,9 +32,21 @@ img {
 <li><a href="#result-summary-table">Result Summary Table</a>
 <ul>
 <li><a href="#mag-dist-plots">Mag-Dist Plots</a></li>
-<li><a href="#m65-result-summary-table">M6.5 Result Summary Table</a></li>
-<li><a href="#m7-result-summary-table">M7 Result Summary Table</a></li>
-<li><a href="#m75-result-summary-table">M7.5 Result Summary Table</a></li>
+<li><a href="#m65-result-summary-table">M6.5 Result Summary Table</a>
+<ul>
+<li><a href="#m65-dist-dependent-plot-table">M6.5 Dist-Dependent Plot Table</a></li>
+</ul>
+</li>
+<li><a href="#m7-result-summary-table">M7 Result Summary Table</a>
+<ul>
+<li><a href="#m7-dist-dependent-plot-table">M7 Dist-Dependent Plot Table</a></li>
+</ul>
+</li>
+<li><a href="#m75-result-summary-table">M7.5 Result Summary Table</a>
+<ul>
+<li><a href="#m75-dist-dependent-plot-table">M7.5 Dist-Dependent Plot Table</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><a href="#source-strike-variability">Source-strike Variability</a>
@@ -82,6 +94,12 @@ img {
 <li><a href="#1200-km-m75-between-events-results">120.0 km M7.5 Between-events Results</a></li>
 </ul>
 </li>
+<li><a href="#azumth-dependence">Azumth Dependence</a>
+<ul>
+<li><a href="#rupture-strike-dependence">Rupture Strike Dependence</a></li>
+</ul>
+</li>
+<li><a href="#csv-files">CSV Files</a></li>
 </ul>
 <h2 id="rupture-rotation-parameters">Rupture Rotation Parameters</h2>
 <table>
@@ -123,9 +141,9 @@ img {
 <tr><th>Type</th><th>Notation</th><th>3s Std. Dev.</th><th>5s Std. Dev.</th><th>7.5s Std. Dev.</th><th>10s Std. Dev.</th></tr>
 </thead>
 <tbody>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td><img src="resources/source_strike_mag_dist_std_dev_3s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/source_strike_mag_dist_std_dev_5s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/source_strike_mag_dist_std_dev_7.5s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/source_strike_mag_dist_std_dev_10s_sim.png" alt="Mag-Dist Plot" /></td></tr>
-<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td><img src="resources/within_event_ss_mag_dist_std_dev_3s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_ss_mag_dist_std_dev_5s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_ss_mag_dist_std_dev_7.5s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_ss_mag_dist_std_dev_10s_sim.png" alt="Mag-Dist Plot" /></td></tr>
-<tr><td>Between-events</td><td>τ</td><td><img src="resources/between_events_mag_dist_std_dev_3s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/between_events_mag_dist_std_dev_5s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/between_events_mag_dist_std_dev_7.5s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/between_events_mag_dist_std_dev_10s_sim.png" alt="Mag-Dist Plot" /></td></tr>
+<tr><td><a href="#source-strike-variability">Source-strike</a></td><td>φ<sub>s</sub></td><td><img src="resources/source_strike_mag_dist_std_dev_3s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/source_strike_mag_dist_std_dev_5s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/source_strike_mag_dist_std_dev_7.5s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/source_strike_mag_dist_std_dev_10s_sim.png" alt="Mag-Dist Plot" /></td></tr>
+<tr><td><a href="#within-event-single-site-variability">Within-event, single-site</a></td><td>φ<sub>SS</sub></td><td><img src="resources/within_event_ss_mag_dist_std_dev_3s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_ss_mag_dist_std_dev_5s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_ss_mag_dist_std_dev_7.5s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/within_event_ss_mag_dist_std_dev_10s_sim.png" alt="Mag-Dist Plot" /></td></tr>
+<tr><td><a href="#between-events-variability">Between-events</a></td><td>τ</td><td><img src="resources/between_events_mag_dist_std_dev_3s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/between_events_mag_dist_std_dev_5s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/between_events_mag_dist_std_dev_7.5s_sim.png" alt="Mag-Dist Plot" /></td><td><img src="resources/between_events_mag_dist_std_dev_10s_sim.png" alt="Mag-Dist Plot" /></td></tr>
 </tbody>
 </table>
 <h3 id="m65-result-summary-table">M6.5 Result Summary Table</h3>
@@ -167,6 +185,17 @@ img {
 <tr><td>Between-events</td><td>τ</td><td>200 km</td><td>0.21</td><td>0.35</td><td>0.44</td><td>0.51</td></tr>
 </tbody>
 </table>
+<h4 id="m65-dist-dependent-plot-table">M6.5 Dist-Dependent Plot Table</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th><strong>φ<sub>s</sub></strong></th><th><img src="resources/source_strike_m6.5_dist_periods.png" alt="φs" /></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>φ<sub>SS</sub></strong></td><td><img src="resources/within_event_ss_m6.5_dist_periods.png" alt="φSS" /></td></tr>
+<tr><td><strong>τ</strong></td><td><img src="resources/between_events_m6.5_dist_periods.png" alt="τ" /></td></tr>
+</tbody>
+</table>
 <h3 id="m7-result-summary-table">M7 Result Summary Table</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <table>
@@ -204,6 +233,17 @@ img {
 <tr><td>Between-events</td><td>τ</td><td>160 km</td><td>0.16</td><td>0.26</td><td>0.27</td><td>0.31</td></tr>
 <tr><td>Between-events</td><td>τ</td><td>180 km</td><td>0.16</td><td>0.26</td><td>0.27</td><td>0.31</td></tr>
 <tr><td>Between-events</td><td>τ</td><td>200 km</td><td>0.16</td><td>0.28</td><td>0.27</td><td>0.32</td></tr>
+</tbody>
+</table>
+<h4 id="m7-dist-dependent-plot-table">M7 Dist-Dependent Plot Table</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th><strong>φ<sub>s</sub></strong></th><th><img src="resources/source_strike_m7_dist_periods.png" alt="φs" /></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>φ<sub>SS</sub></strong></td><td><img src="resources/within_event_ss_m7_dist_periods.png" alt="φSS" /></td></tr>
+<tr><td><strong>τ</strong></td><td><img src="resources/between_events_m7_dist_periods.png" alt="τ" /></td></tr>
 </tbody>
 </table>
 <h3 id="m75-result-summary-table">M7.5 Result Summary Table</h3>
@@ -245,6 +285,17 @@ img {
 <tr><td>Between-events</td><td>τ</td><td>200 km</td><td>0.11</td><td>0.2</td><td>0.27</td><td>0.3</td></tr>
 </tbody>
 </table>
+<h4 id="m75-dist-dependent-plot-table">M7.5 Dist-Dependent Plot Table</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th><strong>φ<sub>s</sub></strong></th><th><img src="resources/source_strike_m7.5_dist_periods.png" alt="φs" /></th></tr>
+</thead>
+<tbody>
+<tr><td><strong>φ<sub>SS</sub></strong></td><td><img src="resources/within_event_ss_m7.5_dist_periods.png" alt="φSS" /></td></tr>
+<tr><td><strong>τ</strong></td><td><img src="resources/between_events_m7.5_dist_periods.png" alt="τ" /></td></tr>
+</tbody>
+</table>
 <h2 id="source-strike-variability">Source-strike Variability</h2>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <h3 id="source-strike-variability-methodology">Source-strike Variability Methodology</h3>
@@ -263,7 +314,7 @@ img {
 <ul>
 <li>Rupture Strike <em>[36 unique]</em></li>
 </ul>
-<p>We take φ<sub>s</sub> to be the standard deviation of all residuals, δW<sub>es</sub>, across each combination of Rupture,Path.</p>
+<p>We take φ<sub>s</sub> to be the standard deviation of all residuals, δW<sub>es</sub>, across each combination of Rupture, Path.</p>
 <p>Here is an exmample with 5 rotations, which would be repeated for each combination of [Rupture, Path]. The site is shown with a blue square, and initially oriented rupture in bold with its hypocenter as a red star and centroid a green circle. Rotations of that rupture are in gray:</p>
 <p><img src="resources/example_source_strike.png" alt="Example" /></p>
 <h3 id="source-strike-variability-mag-distance-plots">Source-strike Variability Mag-Distance Plots</h3>
@@ -984,6 +1035,41 @@ img {
 </thead>
 <tbody>
 <tr><td>0.11</td><td>-4.17</td><td>[-4.43 -3.91]</td><td>0.18</td><td>-4.84</td><td>[-5.34 -4.35]</td><td>0.27</td><td>-5.18</td><td>[-5.88 -4.63]</td><td>0.28</td><td>-5.52</td><td>[-6.2 -4.92]</td></tr>
+</tbody>
+</table>
+<h2 id="azumth-dependence">Azumth Dependence</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<h3 id="rupture-strike-dependence">Rupture Strike Dependence</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>Mag</th><th>Type</th><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>M6.5</strong></td><td><strong>τ</strong></td><td><img src="resources/m6.5_dist_SOURCE_AZIMUTH_3s_between_events.png" alt="Rupture Strike" /></td><td><img src="resources/m6.5_dist_SOURCE_AZIMUTH_5s_between_events.png" alt="Rupture Strike" /></td><td><img src="resources/m6.5_dist_SOURCE_AZIMUTH_7.5s_between_events.png" alt="Rupture Strike" /></td><td><img src="resources/m6.5_dist_SOURCE_AZIMUTH_10s_between_events.png" alt="Rupture Strike" /></td></tr>
+<tr><td><strong>M7</strong></td><td><strong>τ</strong></td><td><img src="resources/m7_dist_SOURCE_AZIMUTH_3s_between_events.png" alt="Rupture Strike" /></td><td><img src="resources/m7_dist_SOURCE_AZIMUTH_5s_between_events.png" alt="Rupture Strike" /></td><td><img src="resources/m7_dist_SOURCE_AZIMUTH_7.5s_between_events.png" alt="Rupture Strike" /></td><td><img src="resources/m7_dist_SOURCE_AZIMUTH_10s_between_events.png" alt="Rupture Strike" /></td></tr>
+<tr><td><strong>M7.5</strong></td><td><strong>τ</strong></td><td><img src="resources/m7.5_dist_SOURCE_AZIMUTH_3s_between_events.png" alt="Rupture Strike" /></td><td><img src="resources/m7.5_dist_SOURCE_AZIMUTH_5s_between_events.png" alt="Rupture Strike" /></td><td><img src="resources/m7.5_dist_SOURCE_AZIMUTH_7.5s_between_events.png" alt="Rupture Strike" /></td><td><img src="resources/m7.5_dist_SOURCE_AZIMUTH_10s_between_events.png" alt="Rupture Strike" /></td></tr>
+<tr><td><strong>M6.5</strong></td><td><strong>Median SA</strong></td><td><img src="resources/m6.5_dist_SOURCE_AZIMUTH_3s_median_sa.png" alt="Rupture Strike" /></td><td><img src="resources/m6.5_dist_SOURCE_AZIMUTH_5s_median_sa.png" alt="Rupture Strike" /></td><td><img src="resources/m6.5_dist_SOURCE_AZIMUTH_7.5s_median_sa.png" alt="Rupture Strike" /></td><td><img src="resources/m6.5_dist_SOURCE_AZIMUTH_10s_median_sa.png" alt="Rupture Strike" /></td></tr>
+<tr><td><strong>M7</strong></td><td><strong>Median SA</strong></td><td><img src="resources/m7_dist_SOURCE_AZIMUTH_3s_median_sa.png" alt="Rupture Strike" /></td><td><img src="resources/m7_dist_SOURCE_AZIMUTH_5s_median_sa.png" alt="Rupture Strike" /></td><td><img src="resources/m7_dist_SOURCE_AZIMUTH_7.5s_median_sa.png" alt="Rupture Strike" /></td><td><img src="resources/m7_dist_SOURCE_AZIMUTH_10s_median_sa.png" alt="Rupture Strike" /></td></tr>
+<tr><td><strong>M7.5</strong></td><td><strong>Median SA</strong></td><td><img src="resources/m7.5_dist_SOURCE_AZIMUTH_3s_median_sa.png" alt="Rupture Strike" /></td><td><img src="resources/m7.5_dist_SOURCE_AZIMUTH_5s_median_sa.png" alt="Rupture Strike" /></td><td><img src="resources/m7.5_dist_SOURCE_AZIMUTH_7.5s_median_sa.png" alt="Rupture Strike" /></td><td><img src="resources/m7.5_dist_SOURCE_AZIMUTH_10s_median_sa.png" alt="Rupture Strike" /></td></tr>
+</tbody>
+</table>
+<h2 id="csv-files">CSV Files</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>Magnitude</th><th>Distance</th><th>Site</th><th>CSV File</th></tr>
+</thead>
+<tbody>
+<tr><td>M6.5</td><td>20.0 km</td><td>USC</td><td><a href="resources/sa_USC_m6.5_20.0km.csv.gz">sa_USC_m6.5_20.0km.csv.gz</a></td></tr>
+<tr><td>M6.5</td><td>60.0 km</td><td>USC</td><td><a href="resources/sa_USC_m6.5_60.0km.csv.gz">sa_USC_m6.5_60.0km.csv.gz</a></td></tr>
+<tr><td>M6.5</td><td>120.0 km</td><td>USC</td><td><a href="resources/sa_USC_m6.5_120.0km.csv.gz">sa_USC_m6.5_120.0km.csv.gz</a></td></tr>
+<tr><td>M7</td><td>20.0 km</td><td>USC</td><td><a href="resources/sa_USC_m7.0_20.0km.csv.gz">sa_USC_m7.0_20.0km.csv.gz</a></td></tr>
+<tr><td>M7</td><td>60.0 km</td><td>USC</td><td><a href="resources/sa_USC_m7.0_60.0km.csv.gz">sa_USC_m7.0_60.0km.csv.gz</a></td></tr>
+<tr><td>M7</td><td>120.0 km</td><td>USC</td><td><a href="resources/sa_USC_m7.0_120.0km.csv.gz">sa_USC_m7.0_120.0km.csv.gz</a></td></tr>
+<tr><td>M7.5</td><td>20.0 km</td><td>USC</td><td><a href="resources/sa_USC_m7.5_20.0km.csv.gz">sa_USC_m7.5_20.0km.csv.gz</a></td></tr>
+<tr><td>M7.5</td><td>60.0 km</td><td>USC</td><td><a href="resources/sa_USC_m7.5_60.0km.csv.gz">sa_USC_m7.5_60.0km.csv.gz</a></td></tr>
+<tr><td>M7.5</td><td>120.0 km</td><td>USC</td><td><a href="resources/sa_USC_m7.5_120.0km.csv.gz">sa_USC_m7.5_120.0km.csv.gz</a></td></tr>
 </tbody>
 </table>
 </body>
