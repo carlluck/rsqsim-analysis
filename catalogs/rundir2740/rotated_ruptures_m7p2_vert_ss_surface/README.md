@@ -36,23 +36,23 @@ We then  perform various rotations. We rotate the rupture in place around its ce
 
 | Quantity | Variations | Description |
 |-----|-----|-----|
-| Rupture | 100 | Unique (but similar in faulting style and magnitude) ruptures which match the given scenario. |
+| Rupture | 400 | Unique (but similar in faulting style and magnitude) ruptures which match the given scenario. |
 | Site | 1 | Unique site locations. If 3-d, each will have unique velocity profiles. |
 | Rupture Strike | 18 | Rupture strike conforming to the Aki & Richards (1980) convention, where dipping faults dip to the right of the rupture. If path rotation is also performed, this azimuth is relative to the path. |
 | Path | 1 | Path from the site to the centroid of the rupture, in azimuthal degrees (0 is North) |
 | Distance | 20.0, 50.0, 100.0 km | 3-dimensional distance between the site and the rupture surface. |
-| **Total # Simulations** | **5400** | Total number of combinations of the above. |
+| **Total # Simulations** | **21600** | Total number of combinations of the above. |
 
 ## M7.2 SS RSQSim Rupture Match Criteria
 *[(top)](#table-of-contents)*
 
-We condisder 100 events in the catalog which match the following criteria:
+We condisder 400 events in the catalog which match the following criteria:
 
 * M=[7.15,7.25]
 * Ztor=[0,1]
 * Rake=[-180,-170] or [-10,10] or [170,180]
 * Dip=90
-* Linear rupture (max 0.5km deviation from ideal)
+* Linear rupture (max 5% deviation from ideal)
 
 ## Sites
 
@@ -64,15 +64,15 @@ We condisder 100 events in the catalog which match the following criteria:
 
 | Type | Notation | Distance | 3s Std. Dev. | 5s Std. Dev. | 7.5s Std. Dev. | 10s Std. Dev. |
 |-----|-----|-----|-----|-----|-----|-----|
-| Source-strike | &phi;<sub>s</sub> | 20 km | 0.58 | 0.51 | 0.41 | 0.35 |
-| Source-strike | &phi;<sub>s</sub> | 50 km | 0.68 | 0.64 | 0.61 | 0.61 |
-| Source-strike | &phi;<sub>s</sub> | 100 km | 0.66 | 0.71 | 0.72 | 0.67 |
-| Within-event, single-site | &phi;<sub>SS</sub> | 20 km | 0.58 | 0.51 | 0.41 | 0.35 |
-| Within-event, single-site | &phi;<sub>SS</sub> | 50 km | 0.68 | 0.64 | 0.61 | 0.61 |
-| Within-event, single-site | &phi;<sub>SS</sub> | 100 km | 0.66 | 0.71 | 0.72 | 0.67 |
-| Between-events | &tau; | 20 km | 0.16 | 0.21 | 0.22 | 0.24 |
-| Between-events | &tau; | 50 km | 0.2 | 0.24 | 0.28 | 0.33 |
-| Between-events | &tau; | 100 km | 0.15 | 0.24 | 0.31 | 0.38 |
+| Source-strike | &phi;<sub>s</sub> | 20 km | 0.57 | 0.52 | 0.43 | 0.39 |
+| Source-strike | &phi;<sub>s</sub> | 50 km | 0.66 | 0.64 | 0.61 | 0.62 |
+| Source-strike | &phi;<sub>s</sub> | 100 km | 0.64 | 0.69 | 0.69 | 0.66 |
+| Within-event, single-site | &phi;<sub>SS</sub> | 20 km | 0.57 | 0.52 | 0.43 | 0.39 |
+| Within-event, single-site | &phi;<sub>SS</sub> | 50 km | 0.66 | 0.64 | 0.61 | 0.62 |
+| Within-event, single-site | &phi;<sub>SS</sub> | 100 km | 0.64 | 0.69 | 0.69 | 0.66 |
+| Between-events | &tau; | 20 km | 0.17 | 0.22 | 0.24 | 0.24 |
+| Between-events | &tau; | 50 km | 0.19 | 0.23 | 0.26 | 0.31 |
+| Between-events | &tau; | 100 km | 0.16 | 0.24 | 0.29 | 0.33 |
 
 ### Dist-Dependent Plot Table
 *[(top)](#table-of-contents)*
@@ -96,7 +96,7 @@ Source-strike variability, denoted &phi;<sub>s</sub> in Aki & Richards (1980), i
 
 Then, for each unique combination of:
 
-* Rupture *[100 unique]*
+* Rupture *[400 unique]*
 * Path *[1 unique]*
 
 we compute residuals, &delta;W<sub>es</sub>, of the natural-log ground motions (relative to the median), computed across all 18 combinations of:
@@ -117,7 +117,7 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 
 | 3s &phi;<sub>s</sub> | Total | Mean | Median | Range | 5s &phi;<sub>s</sub> | Total | Mean | Median | Range | 7.5s &phi;<sub>s</sub> | Total | Mean | Median | Range | 10s &phi;<sub>s</sub> | Total | Mean | Median | Range |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|  | 0.58 | 0.58 | 0.57 | [0.4 0.79] |  | 0.51 | 0.5 | 0.5 | [0.26 0.72] |  | 0.41 | 0.39 | 0.4 | [0.21 0.67] |  | 0.35 | 0.33 | 0.32 | [0.13 0.62] |
+|  | 0.57 | 0.57 | 0.57 | [0.29 0.85] |  | 0.52 | 0.51 | 0.51 | [0.23 0.85] |  | 0.43 | 0.42 | 0.41 | [0.21 0.76] |  | 0.39 | 0.37 | 0.35 | [0.12 0.81] |
 
 | 3s | 5s |
 |-----|-----|
@@ -138,7 +138,7 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 
 | 3s &phi;<sub>s</sub> | Total | Mean | Median | Range | 5s &phi;<sub>s</sub> | Total | Mean | Median | Range | 7.5s &phi;<sub>s</sub> | Total | Mean | Median | Range | 10s &phi;<sub>s</sub> | Total | Mean | Median | Range |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|  | 0.68 | 0.68 | 0.69 | [0.48 0.84] |  | 0.64 | 0.64 | 0.64 | [0.44 0.94] |  | 0.61 | 0.61 | 0.6 | [0.38 0.91] |  | 0.61 | 0.61 | 0.6 | [0.44 0.84] |
+|  | 0.66 | 0.66 | 0.66 | [0.35 0.88] |  | 0.64 | 0.64 | 0.64 | [0.37 0.94] |  | 0.61 | 0.61 | 0.61 | [0.35 0.91] |  | 0.62 | 0.62 | 0.61 | [0.35 0.99] |
 
 | 3s | 5s |
 |-----|-----|
@@ -159,7 +159,7 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 
 | 3s &phi;<sub>s</sub> | Total | Mean | Median | Range | 5s &phi;<sub>s</sub> | Total | Mean | Median | Range | 7.5s &phi;<sub>s</sub> | Total | Mean | Median | Range | 10s &phi;<sub>s</sub> | Total | Mean | Median | Range |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|  | 0.66 | 0.67 | 0.67 | [0.46 0.91] |  | 0.71 | 0.72 | 0.71 | [0.47 0.95] |  | 0.72 | 0.72 | 0.72 | [0.56 0.96] |  | 0.67 | 0.66 | 0.66 | [0.39 0.89] |
+|  | 0.64 | 0.64 | 0.64 | [0.41 0.91] |  | 0.69 | 0.69 | 0.69 | [0.34 0.97] |  | 0.69 | 0.69 | 0.7 | [0.4 0.98] |  | 0.66 | 0.66 | 0.64 | [0.39 1.01] |
 
 | 3s | 5s |
 |-----|-----|
@@ -186,7 +186,7 @@ Within-event, single-site variability, denoted &phi;<sub>SS</sub> in Al Atik (20
 
 Then, for each unique combination of:
 
-* Rupture *[100 unique]*
+* Rupture *[400 unique]*
 
 we compute residuals, &delta;W<sub>es</sub>, of the natural-log ground motions (relative to the median), computed across all 18 combinations of:
 
@@ -207,7 +207,7 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 
 | 3s &phi;<sub>SS</sub> | Total | Mean | Median | Range | 5s &phi;<sub>SS</sub> | Total | Mean | Median | Range | 7.5s &phi;<sub>SS</sub> | Total | Mean | Median | Range | 10s &phi;<sub>SS</sub> | Total | Mean | Median | Range |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|  | 0.58 | 0.58 | 0.57 | [0.4 0.79] |  | 0.51 | 0.5 | 0.5 | [0.26 0.72] |  | 0.41 | 0.39 | 0.4 | [0.21 0.67] |  | 0.35 | 0.33 | 0.32 | [0.13 0.62] |
+|  | 0.57 | 0.57 | 0.57 | [0.29 0.85] |  | 0.52 | 0.51 | 0.51 | [0.23 0.85] |  | 0.43 | 0.42 | 0.41 | [0.21 0.76] |  | 0.39 | 0.37 | 0.35 | [0.12 0.81] |
 
 | 3s | 5s |
 |-----|-----|
@@ -228,7 +228,7 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 
 | 3s &phi;<sub>SS</sub> | Total | Mean | Median | Range | 5s &phi;<sub>SS</sub> | Total | Mean | Median | Range | 7.5s &phi;<sub>SS</sub> | Total | Mean | Median | Range | 10s &phi;<sub>SS</sub> | Total | Mean | Median | Range |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|  | 0.68 | 0.68 | 0.69 | [0.48 0.84] |  | 0.64 | 0.64 | 0.64 | [0.44 0.94] |  | 0.61 | 0.61 | 0.6 | [0.38 0.91] |  | 0.61 | 0.61 | 0.6 | [0.44 0.84] |
+|  | 0.66 | 0.66 | 0.66 | [0.35 0.88] |  | 0.64 | 0.64 | 0.64 | [0.37 0.94] |  | 0.61 | 0.61 | 0.61 | [0.35 0.91] |  | 0.62 | 0.62 | 0.61 | [0.35 0.99] |
 
 | 3s | 5s |
 |-----|-----|
@@ -249,7 +249,7 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 
 | 3s &phi;<sub>SS</sub> | Total | Mean | Median | Range | 5s &phi;<sub>SS</sub> | Total | Mean | Median | Range | 7.5s &phi;<sub>SS</sub> | Total | Mean | Median | Range | 10s &phi;<sub>SS</sub> | Total | Mean | Median | Range |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|  | 0.66 | 0.67 | 0.67 | [0.46 0.91] |  | 0.71 | 0.72 | 0.71 | [0.47 0.95] |  | 0.72 | 0.72 | 0.72 | [0.56 0.96] |  | 0.67 | 0.66 | 0.66 | [0.39 0.89] |
+|  | 0.64 | 0.64 | 0.64 | [0.41 0.91] |  | 0.69 | 0.69 | 0.69 | [0.34 0.97] |  | 0.69 | 0.69 | 0.7 | [0.4 0.98] |  | 0.66 | 0.66 | 0.64 | [0.39 1.01] |
 
 | 3s | 5s |
 |-----|-----|
@@ -276,7 +276,7 @@ Between-events variability, denoted &tau; in Al Atik (2010), is computed separat
 
 We first compute the median natural-log ground motion, &delta;B<sub>e</sub>, for each combination of:
 
-* Rupture *[100 unique]*
+* Rupture *[400 unique]*
 
 That median, &delta;B<sub>e</sub>, is computed across all 18 combinations of:
 
@@ -297,7 +297,7 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 
 | 3s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 5s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 7.5s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 10s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 0.16 | -2.66 | [-3.06 -2.23] | 0.21 | -3.29 | [-3.76 -2.9] | 0.22 | -3.93 | [-4.48 -3.36] | 0.24 | -4.43 | [-5.23 -3.95] |
+| 0.17 | -2.68 | [-3.19 -2.23] | 0.22 | -3.35 | [-3.92 -2.59] | 0.24 | -3.94 | [-4.61 -3.17] | 0.24 | -4.46 | [-5.23 -3.93] |
 
 
 ### 50.0 km M7.2 Between-events Results
@@ -307,7 +307,7 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 
 | 3s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 5s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 7.5s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 10s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 0.2 | -3.6 | [-4.09 -3.1] | 0.24 | -4.05 | [-4.66 -3.52] | 0.28 | -4.53 | [-5.19 -3.98] | 0.33 | -4.96 | [-5.86 -4.26] |
+| 0.19 | -3.59 | [-4.09 -2.97] | 0.23 | -4.09 | [-4.86 -3.48] | 0.26 | -4.57 | [-5.22 -3.95] | 0.31 | -5.03 | [-5.86 -4.26] |
 
 
 ### 100.0 km M7.2 Between-events Results
@@ -317,7 +317,7 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 
 | 3s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 5s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 7.5s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 10s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 0.15 | -4.27 | [-4.68 -3.92] | 0.24 | -4.68 | [-5.48 -4.13] | 0.31 | -5.05 | [-5.77 -4.47] | 0.38 | -5.43 | [-6.34 -4.78] |
+| 0.16 | -4.28 | [-4.7 -3.82] | 0.24 | -4.7 | [-5.48 -4.08] | 0.29 | -5.08 | [-5.82 -4.42] | 0.33 | -5.5 | [-6.51 -4.78] |
 
 
 ## Azumth Dependence

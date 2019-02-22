@@ -71,23 +71,23 @@ img {
 <tr><th>Quantity</th><th>Variations</th><th>Description</th></tr>
 </thead>
 <tbody>
-<tr><td>Rupture</td><td>100</td><td>Unique (but similar in faulting style and magnitude) ruptures which match the given scenario.</td></tr>
+<tr><td>Rupture</td><td>400</td><td>Unique (but similar in faulting style and magnitude) ruptures which match the given scenario.</td></tr>
 <tr><td>Site</td><td>1</td><td>Unique site locations. If 3-d, each will have unique velocity profiles.</td></tr>
 <tr><td>Rupture Strike</td><td>18</td><td>Rupture strike conforming to the Aki &amp; Richards (1980) convention, where dipping faults dip to the right of the rupture. If path rotation is also performed, this azimuth is relative to the path.</td></tr>
 <tr><td>Path</td><td>1</td><td>Path from the site to the centroid of the rupture, in azimuthal degrees (0 is North)</td></tr>
 <tr><td>Distance</td><td>20.0, 50.0, 100.0 km</td><td>3-dimensional distance between the site and the rupture surface.</td></tr>
-<tr><td><strong>Total # Simulations</strong></td><td><strong>5400</strong></td><td>Total number of combinations of the above.</td></tr>
+<tr><td><strong>Total # Simulations</strong></td><td><strong>21600</strong></td><td>Total number of combinations of the above.</td></tr>
 </tbody>
 </table>
 <h2 id="m72-ss-rsqsim-rupture-match-criteria">M7.2 SS RSQSim Rupture Match Criteria</h2>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p>We condisder 100 events in the catalog which match the following criteria:</p>
+<p>We condisder 400 events in the catalog which match the following criteria:</p>
 <ul>
 <li>M=[7.15,7.25]</li>
 <li>Ztor=[0,1]</li>
 <li>Rake=[-180,-170] or [-10,10] or [170,180]</li>
 <li>Dip=90</li>
-<li>Linear rupture (max 0.5km deviation from ideal)</li>
+<li>Linear rupture (max 5% deviation from ideal)</li>
 </ul>
 <h2 id="sites">Sites</h2>
 <table>
@@ -104,15 +104,15 @@ img {
 <tr><th>Type</th><th>Notation</th><th>Distance</th><th>3s Std. Dev.</th><th>5s Std. Dev.</th><th>7.5s Std. Dev.</th><th>10s Std. Dev.</th></tr>
 </thead>
 <tbody>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>20 km</td><td>0.58</td><td>0.51</td><td>0.41</td><td>0.35</td></tr>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>50 km</td><td>0.68</td><td>0.64</td><td>0.61</td><td>0.61</td></tr>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>100 km</td><td>0.66</td><td>0.71</td><td>0.72</td><td>0.67</td></tr>
-<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>20 km</td><td>0.58</td><td>0.51</td><td>0.41</td><td>0.35</td></tr>
-<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>50 km</td><td>0.68</td><td>0.64</td><td>0.61</td><td>0.61</td></tr>
-<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>100 km</td><td>0.66</td><td>0.71</td><td>0.72</td><td>0.67</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>20 km</td><td>0.16</td><td>0.21</td><td>0.22</td><td>0.24</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>50 km</td><td>0.2</td><td>0.24</td><td>0.28</td><td>0.33</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>100 km</td><td>0.15</td><td>0.24</td><td>0.31</td><td>0.38</td></tr>
+<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>20 km</td><td>0.57</td><td>0.52</td><td>0.43</td><td>0.39</td></tr>
+<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>50 km</td><td>0.66</td><td>0.64</td><td>0.61</td><td>0.62</td></tr>
+<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>100 km</td><td>0.64</td><td>0.69</td><td>0.69</td><td>0.66</td></tr>
+<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>20 km</td><td>0.57</td><td>0.52</td><td>0.43</td><td>0.39</td></tr>
+<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>50 km</td><td>0.66</td><td>0.64</td><td>0.61</td><td>0.62</td></tr>
+<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>100 km</td><td>0.64</td><td>0.69</td><td>0.69</td><td>0.66</td></tr>
+<tr><td>Between-events</td><td>τ</td><td>20 km</td><td>0.17</td><td>0.22</td><td>0.24</td><td>0.24</td></tr>
+<tr><td>Between-events</td><td>τ</td><td>50 km</td><td>0.19</td><td>0.23</td><td>0.26</td><td>0.31</td></tr>
+<tr><td>Between-events</td><td>τ</td><td>100 km</td><td>0.16</td><td>0.24</td><td>0.29</td><td>0.33</td></tr>
 </tbody>
 </table>
 <h3 id="dist-dependent-plot-table">Dist-Dependent Plot Table</h3>
@@ -137,7 +137,7 @@ img {
 </ul>
 <p>Then, for each unique combination of:</p>
 <ul>
-<li>Rupture <em>[100 unique]</em></li>
+<li>Rupture <em>[400 unique]</em></li>
 <li>Path <em>[1 unique]</em></li>
 </ul>
 <p>we compute residuals, δW<sub>es</sub>, of the natural-log ground motions (relative to the median), computed across all 18 combinations of:</p>
@@ -155,7 +155,7 @@ img {
 <tr><th>3s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.58</td><td>0.58</td><td>0.57</td><td>[0.4 0.79]</td><td></td><td>0.51</td><td>0.5</td><td>0.5</td><td>[0.26 0.72]</td><td></td><td>0.41</td><td>0.39</td><td>0.4</td><td>[0.21 0.67]</td><td></td><td>0.35</td><td>0.33</td><td>0.32</td><td>[0.13 0.62]</td></tr>
+<tr><td></td><td>0.57</td><td>0.57</td><td>0.57</td><td>[0.29 0.85]</td><td></td><td>0.52</td><td>0.51</td><td>0.51</td><td>[0.23 0.85]</td><td></td><td>0.43</td><td>0.42</td><td>0.41</td><td>[0.21 0.76]</td><td></td><td>0.39</td><td>0.37</td><td>0.35</td><td>[0.12 0.81]</td></tr>
 </tbody>
 </table>
 <table>
@@ -185,7 +185,7 @@ img {
 <tr><th>3s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.68</td><td>0.68</td><td>0.69</td><td>[0.48 0.84]</td><td></td><td>0.64</td><td>0.64</td><td>0.64</td><td>[0.44 0.94]</td><td></td><td>0.61</td><td>0.61</td><td>0.6</td><td>[0.38 0.91]</td><td></td><td>0.61</td><td>0.61</td><td>0.6</td><td>[0.44 0.84]</td></tr>
+<tr><td></td><td>0.66</td><td>0.66</td><td>0.66</td><td>[0.35 0.88]</td><td></td><td>0.64</td><td>0.64</td><td>0.64</td><td>[0.37 0.94]</td><td></td><td>0.61</td><td>0.61</td><td>0.61</td><td>[0.35 0.91]</td><td></td><td>0.62</td><td>0.62</td><td>0.61</td><td>[0.35 0.99]</td></tr>
 </tbody>
 </table>
 <table>
@@ -215,7 +215,7 @@ img {
 <tr><th>3s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.66</td><td>0.67</td><td>0.67</td><td>[0.46 0.91]</td><td></td><td>0.71</td><td>0.72</td><td>0.71</td><td>[0.47 0.95]</td><td></td><td>0.72</td><td>0.72</td><td>0.72</td><td>[0.56 0.96]</td><td></td><td>0.67</td><td>0.66</td><td>0.66</td><td>[0.39 0.89]</td></tr>
+<tr><td></td><td>0.64</td><td>0.64</td><td>0.64</td><td>[0.41 0.91]</td><td></td><td>0.69</td><td>0.69</td><td>0.69</td><td>[0.34 0.97]</td><td></td><td>0.69</td><td>0.69</td><td>0.7</td><td>[0.4 0.98]</td><td></td><td>0.66</td><td>0.66</td><td>0.64</td><td>[0.39 1.01]</td></tr>
 </tbody>
 </table>
 <table>
@@ -248,7 +248,7 @@ img {
 </ul>
 <p>Then, for each unique combination of:</p>
 <ul>
-<li>Rupture <em>[100 unique]</em></li>
+<li>Rupture <em>[400 unique]</em></li>
 </ul>
 <p>we compute residuals, δW<sub>es</sub>, of the natural-log ground motions (relative to the median), computed across all 18 combinations of:</p>
 <ul>
@@ -266,7 +266,7 @@ img {
 <tr><th>3s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.58</td><td>0.58</td><td>0.57</td><td>[0.4 0.79]</td><td></td><td>0.51</td><td>0.5</td><td>0.5</td><td>[0.26 0.72]</td><td></td><td>0.41</td><td>0.39</td><td>0.4</td><td>[0.21 0.67]</td><td></td><td>0.35</td><td>0.33</td><td>0.32</td><td>[0.13 0.62]</td></tr>
+<tr><td></td><td>0.57</td><td>0.57</td><td>0.57</td><td>[0.29 0.85]</td><td></td><td>0.52</td><td>0.51</td><td>0.51</td><td>[0.23 0.85]</td><td></td><td>0.43</td><td>0.42</td><td>0.41</td><td>[0.21 0.76]</td><td></td><td>0.39</td><td>0.37</td><td>0.35</td><td>[0.12 0.81]</td></tr>
 </tbody>
 </table>
 <table>
@@ -296,7 +296,7 @@ img {
 <tr><th>3s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.68</td><td>0.68</td><td>0.69</td><td>[0.48 0.84]</td><td></td><td>0.64</td><td>0.64</td><td>0.64</td><td>[0.44 0.94]</td><td></td><td>0.61</td><td>0.61</td><td>0.6</td><td>[0.38 0.91]</td><td></td><td>0.61</td><td>0.61</td><td>0.6</td><td>[0.44 0.84]</td></tr>
+<tr><td></td><td>0.66</td><td>0.66</td><td>0.66</td><td>[0.35 0.88]</td><td></td><td>0.64</td><td>0.64</td><td>0.64</td><td>[0.37 0.94]</td><td></td><td>0.61</td><td>0.61</td><td>0.61</td><td>[0.35 0.91]</td><td></td><td>0.62</td><td>0.62</td><td>0.61</td><td>[0.35 0.99]</td></tr>
 </tbody>
 </table>
 <table>
@@ -326,7 +326,7 @@ img {
 <tr><th>3s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
-<tr><td></td><td>0.66</td><td>0.67</td><td>0.67</td><td>[0.46 0.91]</td><td></td><td>0.71</td><td>0.72</td><td>0.71</td><td>[0.47 0.95]</td><td></td><td>0.72</td><td>0.72</td><td>0.72</td><td>[0.56 0.96]</td><td></td><td>0.67</td><td>0.66</td><td>0.66</td><td>[0.39 0.89]</td></tr>
+<tr><td></td><td>0.64</td><td>0.64</td><td>0.64</td><td>[0.41 0.91]</td><td></td><td>0.69</td><td>0.69</td><td>0.69</td><td>[0.34 0.97]</td><td></td><td>0.69</td><td>0.69</td><td>0.7</td><td>[0.4 0.98]</td><td></td><td>0.66</td><td>0.66</td><td>0.64</td><td>[0.39 1.01]</td></tr>
 </tbody>
 </table>
 <table>
@@ -359,7 +359,7 @@ img {
 </ul>
 <p>We first compute the median natural-log ground motion, δB<sub>e</sub>, for each combination of:</p>
 <ul>
-<li>Rupture <em>[100 unique]</em></li>
+<li>Rupture <em>[400 unique]</em></li>
 </ul>
 <p>That median, δB<sub>e</sub>, is computed across all 18 combinations of:</p>
 <ul>
@@ -377,7 +377,7 @@ img {
 <tr><th>3s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>7.5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>10s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th></tr>
 </thead>
 <tbody>
-<tr><td>0.16</td><td>-2.66</td><td>[-3.06 -2.23]</td><td>0.21</td><td>-3.29</td><td>[-3.76 -2.9]</td><td>0.22</td><td>-3.93</td><td>[-4.48 -3.36]</td><td>0.24</td><td>-4.43</td><td>[-5.23 -3.95]</td></tr>
+<tr><td>0.17</td><td>-2.68</td><td>[-3.19 -2.23]</td><td>0.22</td><td>-3.35</td><td>[-3.92 -2.59]</td><td>0.24</td><td>-3.94</td><td>[-4.61 -3.17]</td><td>0.24</td><td>-4.46</td><td>[-5.23 -3.93]</td></tr>
 </tbody>
 </table>
 <h3 id="500-km-m72-between-events-results">50.0 km M7.2 Between-events Results</h3>
@@ -388,7 +388,7 @@ img {
 <tr><th>3s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>7.5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>10s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th></tr>
 </thead>
 <tbody>
-<tr><td>0.2</td><td>-3.6</td><td>[-4.09 -3.1]</td><td>0.24</td><td>-4.05</td><td>[-4.66 -3.52]</td><td>0.28</td><td>-4.53</td><td>[-5.19 -3.98]</td><td>0.33</td><td>-4.96</td><td>[-5.86 -4.26]</td></tr>
+<tr><td>0.19</td><td>-3.59</td><td>[-4.09 -2.97]</td><td>0.23</td><td>-4.09</td><td>[-4.86 -3.48]</td><td>0.26</td><td>-4.57</td><td>[-5.22 -3.95]</td><td>0.31</td><td>-5.03</td><td>[-5.86 -4.26]</td></tr>
 </tbody>
 </table>
 <h3 id="1000-km-m72-between-events-results">100.0 km M7.2 Between-events Results</h3>
@@ -399,7 +399,7 @@ img {
 <tr><th>3s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>7.5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>10s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th></tr>
 </thead>
 <tbody>
-<tr><td>0.15</td><td>-4.27</td><td>[-4.68 -3.92]</td><td>0.24</td><td>-4.68</td><td>[-5.48 -4.13]</td><td>0.31</td><td>-5.05</td><td>[-5.77 -4.47]</td><td>0.38</td><td>-5.43</td><td>[-6.34 -4.78]</td></tr>
+<tr><td>0.16</td><td>-4.28</td><td>[-4.7 -3.82]</td><td>0.24</td><td>-4.7</td><td>[-5.48 -4.08]</td><td>0.29</td><td>-5.08</td><td>[-5.82 -4.42]</td><td>0.33</td><td>-5.5</td><td>[-6.51 -4.78]</td></tr>
 </tbody>
 </table>
 <h2 id="azumth-dependence">Azumth Dependence</h2>
