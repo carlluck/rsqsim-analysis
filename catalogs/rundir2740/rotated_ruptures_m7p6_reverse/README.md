@@ -57,21 +57,21 @@ We condisder 48 events in the catalog which match the following criteria:
 
 | Name | Location | Vs30 (m/s) | Z1.0 (km) | Z2.5 (km) |
 |-----|-----|-----|-----|-----|
-| USC | *34.0192, -118.286* | 863 | N/A | N/A |
+| USC | *34.0192, -118.286* | 500 | N/A | N/A |
 
 ## Result Summary Table
 
 | Type | Notation | Distance | 3s Std. Dev. | 5s Std. Dev. | 7.5s Std. Dev. | 10s Std. Dev. |
 |-----|-----|-----|-----|-----|-----|-----|
-| Source-strike | &phi;<sub>s</sub> | 20 km | 0.5 | 0.46 | 0.41 | 0.38 |
-| Source-strike | &phi;<sub>s</sub> | 50 km | 0.42 | 0.43 | 0.37 | 0.33 |
-| Source-strike | &phi;<sub>s</sub> | 100 km | 0.34 | 0.4 | 0.36 | 0.38 |
-| Within-event, single-site | &phi;<sub>SS</sub> | 20 km | 0.5 | 0.46 | 0.41 | 0.38 |
-| Within-event, single-site | &phi;<sub>SS</sub> | 50 km | 0.42 | 0.43 | 0.37 | 0.33 |
-| Within-event, single-site | &phi;<sub>SS</sub> | 100 km | 0.34 | 0.4 | 0.36 | 0.38 |
-| Between-events | &tau; | 20 km | 0.12 | 0.13 | 0.17 | 0.21 |
-| Between-events | &tau; | 50 km | 0.1 | 0.15 | 0.18 | 0.21 |
-| Between-events | &tau; | 100 km | 0.12 | 0.16 | 0.16 | 0.22 |
+| Source-strike | &phi;<sub>s</sub> | 20 km | 0.52 | 0.46 | 0.41 | 0.37 |
+| Source-strike | &phi;<sub>s</sub> | 50 km | 0.46 | 0.44 | 0.38 | 0.33 |
+| Source-strike | &phi;<sub>s</sub> | 100 km | 0.41 | 0.4 | 0.36 | 0.37 |
+| Within-event, single-site | &phi;<sub>SS</sub> | 20 km | 0.52 | 0.46 | 0.41 | 0.37 |
+| Within-event, single-site | &phi;<sub>SS</sub> | 50 km | 0.46 | 0.44 | 0.38 | 0.33 |
+| Within-event, single-site | &phi;<sub>SS</sub> | 100 km | 0.41 | 0.4 | 0.36 | 0.37 |
+| Between-events | &tau; | 20 km | 0.12 | 0.15 | 0.17 | 0.2 |
+| Between-events | &tau; | 50 km | 0.12 | 0.15 | 0.17 | 0.2 |
+| Between-events | &tau; | 100 km | 0.11 | 0.14 | 0.16 | 0.22 |
 
 ### Dist-Dependent Plot Table
 *[(top)](#table-of-contents)*
@@ -116,7 +116,7 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 
 | 3s &phi;<sub>s</sub> | Total | Mean | Median | Range | 5s &phi;<sub>s</sub> | Total | Mean | Median | Range | 7.5s &phi;<sub>s</sub> | Total | Mean | Median | Range | 10s &phi;<sub>s</sub> | Total | Mean | Median | Range |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|  | 0.5 | 0.5 | 0.51 | [0.34 0.66] |  | 0.46 | 0.46 | 0.45 | [0.24 0.64] |  | 0.41 | 0.41 | 0.41 | [0.2 0.6] |  | 0.38 | 0.38 | 0.39 | [0.16 0.53] |
+|  | 0.52 | 0.52 | 0.53 | [0.36 0.66] |  | 0.46 | 0.46 | 0.45 | [0.24 0.62] |  | 0.41 | 0.41 | 0.4 | [0.21 0.59] |  | 0.37 | 0.37 | 0.38 | [0.16 0.53] |
 
 | 3s | 5s |
 |-----|-----|
@@ -137,7 +137,7 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 
 | 3s &phi;<sub>s</sub> | Total | Mean | Median | Range | 5s &phi;<sub>s</sub> | Total | Mean | Median | Range | 7.5s &phi;<sub>s</sub> | Total | Mean | Median | Range | 10s &phi;<sub>s</sub> | Total | Mean | Median | Range |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|  | 0.42 | 0.43 | 0.42 | [0.33 0.57] |  | 0.43 | 0.43 | 0.43 | [0.21 0.58] |  | 0.37 | 0.36 | 0.35 | [0.2 0.55] |  | 0.33 | 0.33 | 0.32 | [0.18 0.56] |
+|  | 0.46 | 0.46 | 0.48 | [0.32 0.61] |  | 0.44 | 0.44 | 0.43 | [0.22 0.58] |  | 0.38 | 0.37 | 0.36 | [0.21 0.55] |  | 0.33 | 0.33 | 0.33 | [0.16 0.53] |
 
 | 3s | 5s |
 |-----|-----|
@@ -158,7 +158,7 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 
 | 3s &phi;<sub>s</sub> | Total | Mean | Median | Range | 5s &phi;<sub>s</sub> | Total | Mean | Median | Range | 7.5s &phi;<sub>s</sub> | Total | Mean | Median | Range | 10s &phi;<sub>s</sub> | Total | Mean | Median | Range |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|  | 0.34 | 0.34 | 0.34 | [0.19 0.51] |  | 0.4 | 0.4 | 0.39 | [0.24 0.55] |  | 0.36 | 0.35 | 0.35 | [0.18 0.51] |  | 0.38 | 0.37 | 0.36 | [0.17 0.64] |
+|  | 0.41 | 0.41 | 0.41 | [0.28 0.54] |  | 0.4 | 0.41 | 0.39 | [0.27 0.59] |  | 0.36 | 0.36 | 0.35 | [0.17 0.54] |  | 0.37 | 0.37 | 0.36 | [0.17 0.64] |
 
 | 3s | 5s |
 |-----|-----|
@@ -206,7 +206,7 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 
 | 3s &phi;<sub>SS</sub> | Total | Mean | Median | Range | 5s &phi;<sub>SS</sub> | Total | Mean | Median | Range | 7.5s &phi;<sub>SS</sub> | Total | Mean | Median | Range | 10s &phi;<sub>SS</sub> | Total | Mean | Median | Range |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|  | 0.5 | 0.5 | 0.51 | [0.34 0.66] |  | 0.46 | 0.46 | 0.45 | [0.24 0.64] |  | 0.41 | 0.41 | 0.41 | [0.2 0.6] |  | 0.38 | 0.38 | 0.39 | [0.16 0.53] |
+|  | 0.52 | 0.52 | 0.53 | [0.36 0.66] |  | 0.46 | 0.46 | 0.45 | [0.24 0.62] |  | 0.41 | 0.41 | 0.4 | [0.21 0.59] |  | 0.37 | 0.37 | 0.38 | [0.16 0.53] |
 
 | 3s | 5s |
 |-----|-----|
@@ -227,7 +227,7 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 
 | 3s &phi;<sub>SS</sub> | Total | Mean | Median | Range | 5s &phi;<sub>SS</sub> | Total | Mean | Median | Range | 7.5s &phi;<sub>SS</sub> | Total | Mean | Median | Range | 10s &phi;<sub>SS</sub> | Total | Mean | Median | Range |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|  | 0.42 | 0.43 | 0.42 | [0.33 0.57] |  | 0.43 | 0.43 | 0.43 | [0.21 0.58] |  | 0.37 | 0.36 | 0.35 | [0.2 0.55] |  | 0.33 | 0.33 | 0.32 | [0.18 0.56] |
+|  | 0.46 | 0.46 | 0.48 | [0.32 0.61] |  | 0.44 | 0.44 | 0.43 | [0.22 0.58] |  | 0.38 | 0.37 | 0.36 | [0.21 0.55] |  | 0.33 | 0.33 | 0.33 | [0.16 0.53] |
 
 | 3s | 5s |
 |-----|-----|
@@ -248,7 +248,7 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 
 | 3s &phi;<sub>SS</sub> | Total | Mean | Median | Range | 5s &phi;<sub>SS</sub> | Total | Mean | Median | Range | 7.5s &phi;<sub>SS</sub> | Total | Mean | Median | Range | 10s &phi;<sub>SS</sub> | Total | Mean | Median | Range |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|  | 0.34 | 0.34 | 0.34 | [0.19 0.51] |  | 0.4 | 0.4 | 0.39 | [0.24 0.55] |  | 0.36 | 0.35 | 0.35 | [0.18 0.51] |  | 0.38 | 0.37 | 0.36 | [0.17 0.64] |
+|  | 0.41 | 0.41 | 0.41 | [0.28 0.54] |  | 0.4 | 0.41 | 0.39 | [0.27 0.59] |  | 0.36 | 0.36 | 0.35 | [0.17 0.54] |  | 0.37 | 0.37 | 0.36 | [0.17 0.64] |
 
 | 3s | 5s |
 |-----|-----|
@@ -296,7 +296,7 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 
 | 3s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 5s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 7.5s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 10s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 0.12 | -2.7 | [-3.02 -2.37] | 0.13 | -3.53 | [-3.76 -3.22] | 0.17 | -4.12 | [-4.46 -3.66] | 0.21 | -4.64 | [-5.03 -4.14] |
+| 0.12 | -2.47 | [-2.66 -2.11] | 0.15 | -3.37 | [-3.7 -3.09] | 0.17 | -4.03 | [-4.43 -3.6] | 0.2 | -4.56 | [-4.88 -4.1] |
 
 
 ### 50.0 km M7.6 Between-events Results
@@ -306,7 +306,7 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 
 | 3s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 5s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 7.5s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 10s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 0.1 | -3.55 | [-3.73 -3.34] | 0.15 | -4.16 | [-4.41 -3.87] | 0.18 | -4.71 | [-5.03 -4.36] | 0.21 | -5.2 | [-5.61 -4.76] |
+| 0.12 | -3.43 | [-3.66 -3.1] | 0.15 | -4.04 | [-4.3 -3.74] | 0.17 | -4.62 | [-4.99 -4.31] | 0.2 | -5.13 | [-5.5 -4.72] |
 
 
 ### 100.0 km M7.6 Between-events Results
@@ -316,7 +316,7 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 
 | 3s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 5s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 7.5s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 10s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 0.12 | -3.99 | [-4.24 -3.73] | 0.16 | -4.68 | [-4.99 -4.36] | 0.16 | -5.17 | [-5.47 -4.81] | 0.22 | -5.51 | [-6.06 -5.05] |
+| 0.11 | -3.73 | [-3.96 -3.46] | 0.14 | -4.56 | [-4.94 -4.3] | 0.16 | -5.09 | [-5.42 -4.77] | 0.22 | -5.47 | [-6 -5.01] |
 
 
 ## Azumth Dependence
