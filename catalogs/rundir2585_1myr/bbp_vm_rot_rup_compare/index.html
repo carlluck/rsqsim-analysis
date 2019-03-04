@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+	border-collapse: collapse
+}
+table, th, td {
+	border: 1px solid black
+}
+body {
+	max-width:1000px;
+	margin: auto;
+}
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+</style>
+</head>
+<body>
+<h1 id="scenario-based-bbp-velocity-model-comparisons">Scenario-Based BBP Velocity Model Comparisons</h1>
+<p>This page contains comparisons of BBP simulations for the same RSQSim catalog with different 1-dimensional layered velocity structures. Simulations are done for various scenario ruptures (we search the RSQSim catalog for matching events). This page uses results computed for the rupture rotation variability study.</p>
+<p>The following velocity models are shown:</p>
+<ul>
+<li>LA_BASIN_863, Vs30=863.0 m/s</li>
+<li>LA_BASIN_500, Vs30=500.0 m/s</li>
+</ul>
+<p>We compare results with the following GMPE(s):</p>
+<ul>
+<li>Abrahamson, Silva &amp; Kamai (2014)</li>
+<li>Boore, Stewart, Seyhan &amp; Atkinson (2014)</li>
+<li>Campbell &amp; Bozorgnia (2014)</li>
+<li>Chiou &amp; Youngs (2014)</li>
+</ul>
+<h2 id="table-of-contents">Table Of Contents</h2>
+<ul>
+<li><a href="#m66-vertical-strike-slip-with-surface-rupture">M6.6, Vertical Strike-Slip with Surface Rupture</a>
+<ul>
+<li><a href="#m66-vertical-strike-slip-with-surface-rupture-200-km">M6.6, Vertical Strike-Slip with Surface Rupture, 20.0 km</a></li>
+<li><a href="#m66-vertical-strike-slip-with-surface-rupture-500-km">M6.6, Vertical Strike-Slip with Surface Rupture, 50.0 km</a></li>
+<li><a href="#m66-vertical-strike-slip-with-surface-rupture-1000-km">M6.6, Vertical Strike-Slip with Surface Rupture, 100.0 km</a></li>
+</ul>
+</li>
+<li><a href="#m66-reverse-dip45-ztor3">M6.6, Reverse, Dip=45, Ztor=3</a>
+<ul>
+<li><a href="#m66-reverse-dip45-ztor3-200-km">M6.6, Reverse, Dip=45, Ztor=3, 20.0 km</a></li>
+<li><a href="#m66-reverse-dip45-ztor3-500-km">M6.6, Reverse, Dip=45, Ztor=3, 50.0 km</a></li>
+<li><a href="#m66-reverse-dip45-ztor3-1000-km">M6.6, Reverse, Dip=45, Ztor=3, 100.0 km</a></li>
+</ul>
+</li>
+<li><a href="#m72-vertical-strike-slip-with-surface-rupture">M7.2, Vertical Strike-Slip with Surface Rupture</a>
+<ul>
+<li><a href="#m72-vertical-strike-slip-with-surface-rupture-200-km">M7.2, Vertical Strike-Slip with Surface Rupture, 20.0 km</a></li>
+<li><a href="#m72-vertical-strike-slip-with-surface-rupture-500-km">M7.2, Vertical Strike-Slip with Surface Rupture, 50.0 km</a></li>
+<li><a href="#m72-vertical-strike-slip-with-surface-rupture-1000-km">M7.2, Vertical Strike-Slip with Surface Rupture, 100.0 km</a></li>
+</ul>
+</li>
+<li><a href="#m72-reverse-dip45">M7.2, Reverse, Dip=45</a>
+<ul>
+<li><a href="#m72-reverse-dip45-200-km">M7.2, Reverse, Dip=45, 20.0 km</a></li>
+<li><a href="#m72-reverse-dip45-500-km">M7.2, Reverse, Dip=45, 50.0 km</a></li>
+<li><a href="#m72-reverse-dip45-1000-km">M7.2, Reverse, Dip=45, 100.0 km</a></li>
+</ul>
+</li>
+<li><a href="#m76-vertical-strike-slip-with-surface-rupture">M7.6, Vertical Strike-Slip with Surface Rupture</a>
+<ul>
+<li><a href="#m76-vertical-strike-slip-with-surface-rupture-200-km">M7.6, Vertical Strike-Slip with Surface Rupture, 20.0 km</a></li>
+<li><a href="#m76-vertical-strike-slip-with-surface-rupture-500-km">M7.6, Vertical Strike-Slip with Surface Rupture, 50.0 km</a></li>
+<li><a href="#m76-vertical-strike-slip-with-surface-rupture-1000-km">M7.6, Vertical Strike-Slip with Surface Rupture, 100.0 km</a></li>
+</ul>
+</li>
+<li><a href="#m76-reverse-dip45">M7.6, Reverse, Dip=45</a>
+<ul>
+<li><a href="#m76-reverse-dip45-200-km">M7.6, Reverse, Dip=45, 20.0 km</a></li>
+<li><a href="#m76-reverse-dip45-500-km">M7.6, Reverse, Dip=45, 50.0 km</a></li>
+<li><a href="#m76-reverse-dip45-1000-km">M7.6, Reverse, Dip=45, 100.0 km</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="m66-vertical-strike-slip-with-surface-rupture">M6.6, Vertical Strike-Slip with Surface Rupture</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Scenario Criteria:</p>
+<ul>
+<li>M=[6.55,6.65]</li>
+<li>Ztor=[0,1]</li>
+<li>Rake=[-180,-170] or [-10,10] or [170,180]</li>
+<li>Dip=90</li>
+<li>Linear rupture (max 0.5km deviation from ideal)</li>
+</ul>
+<h3 id="m66-vertical-strike-slip-with-surface-rupture-200-km">M6.6, Vertical Strike-Slip with Surface Rupture, 20.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m6p6_vert_ss_surface_dist20.0.png" alt="20.0 km" /></p>
+<h3 id="m66-vertical-strike-slip-with-surface-rupture-500-km">M6.6, Vertical Strike-Slip with Surface Rupture, 50.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m6p6_vert_ss_surface_dist50.0.png" alt="50.0 km" /></p>
+<h3 id="m66-vertical-strike-slip-with-surface-rupture-1000-km">M6.6, Vertical Strike-Slip with Surface Rupture, 100.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m6p6_vert_ss_surface_dist100.0.png" alt="100.0 km" /></p>
+<h2 id="m66-reverse-dip45-ztor3">M6.6, Reverse, Dip=45, Ztor=3</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Scenario Criteria:</p>
+<ul>
+<li>M=[6.55,6.65]</li>
+<li>Ztor=[1,5]</li>
+<li>Rake=[75,105]</li>
+<li>Dip=[35,55]</li>
+</ul>
+<h3 id="m66-reverse-dip45-ztor3-200-km">M6.6, Reverse, Dip=45, Ztor=3, 20.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m6p6_reverse_dist20.0.png" alt="20.0 km" /></p>
+<h3 id="m66-reverse-dip45-ztor3-500-km">M6.6, Reverse, Dip=45, Ztor=3, 50.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m6p6_reverse_dist50.0.png" alt="50.0 km" /></p>
+<h3 id="m66-reverse-dip45-ztor3-1000-km">M6.6, Reverse, Dip=45, Ztor=3, 100.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m6p6_reverse_dist100.0.png" alt="100.0 km" /></p>
+<h2 id="m72-vertical-strike-slip-with-surface-rupture">M7.2, Vertical Strike-Slip with Surface Rupture</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Scenario Criteria:</p>
+<ul>
+<li>M=[7.15,7.25]</li>
+<li>Ztor=[0,1]</li>
+<li>Rake=[-180,-170] or [-10,10] or [170,180]</li>
+<li>Dip=90</li>
+<li>Linear rupture (max 5% deviation from ideal)</li>
+</ul>
+<h3 id="m72-vertical-strike-slip-with-surface-rupture-200-km">M7.2, Vertical Strike-Slip with Surface Rupture, 20.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m7p2_vert_ss_surface_dist20.0.png" alt="20.0 km" /></p>
+<h3 id="m72-vertical-strike-slip-with-surface-rupture-500-km">M7.2, Vertical Strike-Slip with Surface Rupture, 50.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m7p2_vert_ss_surface_dist50.0.png" alt="50.0 km" /></p>
+<h3 id="m72-vertical-strike-slip-with-surface-rupture-1000-km">M7.2, Vertical Strike-Slip with Surface Rupture, 100.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m7p2_vert_ss_surface_dist100.0.png" alt="100.0 km" /></p>
+<h2 id="m72-reverse-dip45">M7.2, Reverse, Dip=45</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Scenario Criteria:</p>
+<ul>
+<li>M=[7.15,7.25]</li>
+<li>Ztor=[0,5]</li>
+<li>Rake=[75,105]</li>
+<li>Dip=[35,55]</li>
+</ul>
+<h3 id="m72-reverse-dip45-200-km">M7.2, Reverse, Dip=45, 20.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m7p2_reverse_dist20.0.png" alt="20.0 km" /></p>
+<h3 id="m72-reverse-dip45-500-km">M7.2, Reverse, Dip=45, 50.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m7p2_reverse_dist50.0.png" alt="50.0 km" /></p>
+<h3 id="m72-reverse-dip45-1000-km">M7.2, Reverse, Dip=45, 100.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m7p2_reverse_dist100.0.png" alt="100.0 km" /></p>
+<h2 id="m76-vertical-strike-slip-with-surface-rupture">M7.6, Vertical Strike-Slip with Surface Rupture</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Scenario Criteria:</p>
+<ul>
+<li>M=[7.55,7.65]</li>
+<li>Ztor=[0,1]</li>
+<li>Rake=[-180,-170] or [-10,10] or [170,180]</li>
+<li>Dip=90</li>
+<li>Linear rupture (max 5% deviation from ideal)</li>
+</ul>
+<h3 id="m76-vertical-strike-slip-with-surface-rupture-200-km">M7.6, Vertical Strike-Slip with Surface Rupture, 20.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m7p6_vert_ss_surface_dist20.0.png" alt="20.0 km" /></p>
+<h3 id="m76-vertical-strike-slip-with-surface-rupture-500-km">M7.6, Vertical Strike-Slip with Surface Rupture, 50.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m7p6_vert_ss_surface_dist50.0.png" alt="50.0 km" /></p>
+<h3 id="m76-vertical-strike-slip-with-surface-rupture-1000-km">M7.6, Vertical Strike-Slip with Surface Rupture, 100.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m7p6_vert_ss_surface_dist100.0.png" alt="100.0 km" /></p>
+<h2 id="m76-reverse-dip45">M7.6, Reverse, Dip=45</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Scenario Criteria:</p>
+<ul>
+<li>M=[7.55,7.65]</li>
+<li>Ztor=[0,5]</li>
+<li>Rake=[75,105]</li>
+<li>Dip=[35,55]</li>
+</ul>
+<h3 id="m76-reverse-dip45-200-km">M7.6, Reverse, Dip=45, 20.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m7p6_reverse_dist20.0.png" alt="20.0 km" /></p>
+<h3 id="m76-reverse-dip45-500-km">M7.6, Reverse, Dip=45, 50.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m7p6_reverse_dist50.0.png" alt="50.0 km" /></p>
+<h3 id="m76-reverse-dip45-1000-km">M7.6, Reverse, Dip=45, 100.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m7p6_reverse_dist100.0.png" alt="100.0 km" /></p>
+</body>
+</html>

@@ -19,6 +19,7 @@
 * [Occupancy Copulas](#occupancy-copulas)
 * [BBP Part B Analysis](bbp_part_b/)
 * [Rotated Rupture Variability Comparisons](#rotated-rupture-variability-comparisons)
+* [BBP Velocity Model Comparisons](bbp_vm_rot_rup_compare/)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
@@ -73,6 +74,11 @@
 * [M7.6, Vertical Strike-Slip with Surface Rupture](rotated_ruptures_m7p6_vert_ss_surface/)
 * [Reverse, Dip=45, Mag-Dist Bins](rotated_ruptures_mag_dist_reverse/)
 * [Vertical Strike-Slip with Surface Rupture, Mag-Dist Bins](rotated_ruptures_mag_dist_vert_ss_surface/)
+
+## BBP Velocity Model Comparisons
+*[(top)](#bruce-2585-1myr)*
+
+[BBP Velocity Model Comparisons Here](bbp_vm_rot_rup_compare/)
 
 ## Plots
 ### Magnitude-Frequency Plot
