@@ -28,8 +28,8 @@
 ## Full Catalog GMPE Comparisons
 *[(top)](#bruce-2667)*
 
-* [ASK2014](gmpe_bbp_comparisons_ASK2014_GriddedSites/)
-* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr_GriddedSites/)
+* [ASK2014](gmpe_bbp_comparisons_ASK2014_GriddedSites_vmLA_BASIN_863/)
+* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr_GriddedSites_vmLA_BASIN_863/)
 
 ## Plots
 ### Magnitude-Frequency Plot

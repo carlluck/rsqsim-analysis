@@ -47,23 +47,23 @@
 
 ### Points Of Interest
 
-* [ASK2014](gmpe_bbp_comparisons_ASK2014/)
-* [ASK2014, Time Scale Factor: 2.0](gmpe_bbp_comparisons_ASK2014_timeScale2.0/)
-* [ASK2014, Time Scale Factor: 2.0, Velocities Scaled](gmpe_bbp_comparisons_ASK2014_timeScale2.0_velScale/)
-* [BSSA2014](gmpe_bbp_comparisons_BSSA2014/)
-* [CB2014](gmpe_bbp_comparisons_CB2014/)
-* [CY2014](gmpe_bbp_comparisons_CY2014/)
-* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
-* [NGAWest_2014_NoIdr, Time Scale Factor: 2.0](gmpe_bbp_comparisons_NGAWest_2014_NoIdr_timeScale2.0/)
-* [NGAWest_2014_NoIdr, Time Scale Factor: 2.0, Velocities Scaled](gmpe_bbp_comparisons_NGAWest_2014_NoIdr_timeScale2.0_velScale/)
+* [ASK2014, Time Scale Factor: 2.0, Velocities Scaled](gmpe_bbp_comparisons_ASK2014_timeScale2.0_velScale_vmLA_BASIN_863/)
+* [ASK2014, Time Scale Factor: 2.0](gmpe_bbp_comparisons_ASK2014_timeScale2.0_vmLA_BASIN_863/)
+* [ASK2014](gmpe_bbp_comparisons_ASK2014_vmLA_BASIN_863/)
+* [BSSA2014](gmpe_bbp_comparisons_BSSA2014_vmLA_BASIN_863/)
+* [CB2014](gmpe_bbp_comparisons_CB2014_vmLA_BASIN_863/)
+* [CY2014](gmpe_bbp_comparisons_CY2014_vmLA_BASIN_863/)
+* [NGAWest_2014_NoIdr, Time Scale Factor: 2.0, Velocities Scaled](gmpe_bbp_comparisons_NGAWest_2014_NoIdr_timeScale2.0_velScale_vmLA_BASIN_863/)
+* [NGAWest_2014_NoIdr, Time Scale Factor: 2.0](gmpe_bbp_comparisons_NGAWest_2014_NoIdr_timeScale2.0_vmLA_BASIN_863/)
+* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr_vmLA_BASIN_863/)
 
 ### Gridded Sites
 
-* [ASK2014](gmpe_bbp_comparisons_ASK2014_GriddedSites/)
-* [BSSA2014](gmpe_bbp_comparisons_BSSA2014_GriddedSites/)
-* [CB2014](gmpe_bbp_comparisons_CB2014_GriddedSites/)
-* [CY2014](gmpe_bbp_comparisons_CY2014_GriddedSites/)
-* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr_GriddedSites/)
+* [ASK2014](gmpe_bbp_comparisons_ASK2014_GriddedSites_vmLA_BASIN_863/)
+* [BSSA2014](gmpe_bbp_comparisons_BSSA2014_GriddedSites_vmLA_BASIN_863/)
+* [CB2014](gmpe_bbp_comparisons_CB2014_GriddedSites_vmLA_BASIN_863/)
+* [CY2014](gmpe_bbp_comparisons_CY2014_GriddedSites_vmLA_BASIN_863/)
+* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr_GriddedSites_vmLA_BASIN_863/)
 
 ## Hazard Comparisons
 *[(top)](#bruce-2585)*

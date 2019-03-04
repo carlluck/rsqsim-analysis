@@ -29,8 +29,8 @@
 ## Full Catalog GMPE Comparisons
 *[(top)](#jg-mod-load-test-b)*
 
-* [BSSA2014](gmpe_bbp_comparisons_BSSA2014/)
-* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
+* [BSSA2014](gmpe_bbp_comparisons_BSSA2014_vmLA_BASIN_863/)
+* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr_vmLA_BASIN_863/)
 
 ## Full Catalog RotD100/RotD50 Ratios
 *[(top)](#jg-mod-load-test-b)*

@@ -12,6 +12,8 @@
 
 * [Metadata](#metadata)
 * [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
+  * [Full Catalog GMPE Comparisons, LA_BASIN_863](#full-catalog-gmpe-comparisons-labasin863)
+  * [Full Catalog GMPE Comparisons, LA_BASIN_500](#full-catalog-gmpe-comparisons-labasin500)
 * [Source/Site Ground Motion Comparisons](source_site_comparisons/)
 * [Extreme Event Examples](extreme_events/)
 * [Occupancy Copulas](#occupancy-copulas)
@@ -33,7 +35,12 @@
 ## Full Catalog GMPE Comparisons
 *[(top)](#bruce-2585-1myr)*
 
-* [ASK2014](gmpe_bbp_comparisons_ASK2014/)
+### Full Catalog GMPE Comparisons, LA_BASIN_863
+
+* [ASK2014](gmpe_bbp_comparisons_ASK2014_vmLA_BASIN_863/)
+### Full Catalog GMPE Comparisons, LA_BASIN_500
+
+* [ASK2014](gmpe_bbp_comparisons_ASK2014_vmLA_BASIN_500/)
 
 ## Source/Site Ground Motion Comparisons
 *[(top)](#bruce-2585-1myr)*

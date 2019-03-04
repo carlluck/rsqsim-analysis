@@ -36,8 +36,8 @@
 ## Full Catalog GMPE Comparisons
 *[(top)](#bruce-2829)*
 
-* [ASK2014](gmpe_bbp_comparisons_ASK2014/)
-* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
+* [ASK2014](gmpe_bbp_comparisons_ASK2014_vmLA_BASIN_863/)
+* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr_vmLA_BASIN_863/)
 
 ## BBP Part B Analysis
 *[(top)](#bruce-2829)*

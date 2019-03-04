@@ -34,8 +34,8 @@
 ## Full Catalog GMPE Comparisons
 *[(top)](#bruce-2337)*
 
-* [BSSA2014](gmpe_bbp_comparisons_BSSA2014/)
-* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
+* [BSSA2014](gmpe_bbp_comparisons_BSSA2014_vmLA_BASIN_863/)
+* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr_vmLA_BASIN_863/)
 
 ## Plots
 ### Magnitude-Frequency Plot

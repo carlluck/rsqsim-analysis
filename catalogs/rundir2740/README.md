@@ -37,11 +37,11 @@
 ## Full Catalog GMPE Comparisons
 *[(top)](#bruce-2740)*
 
-* [ASK2014](gmpe_bbp_comparisons_ASK2014/)
-* [ASK2014, Focal Mechanism: Normal](gmpe_bbp_comparisons_ASK2014_mech_normal/)
-* [ASK2014, Focal Mechanism: Reverse](gmpe_bbp_comparisons_ASK2014_mech_reverse/)
-* [ASK2014, Focal Mechanism: Vertical Strike-Slip](gmpe_bbp_comparisons_ASK2014_mech_vert_ss/)
-* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
+* [ASK2014, Focal Mechanism: Normal](gmpe_bbp_comparisons_ASK2014_mech_normal_vmLA_BASIN_863/)
+* [ASK2014, Focal Mechanism: Reverse](gmpe_bbp_comparisons_ASK2014_mech_reverse_vmLA_BASIN_863/)
+* [ASK2014, Focal Mechanism: Vertical Strike-Slip](gmpe_bbp_comparisons_ASK2014_mech_vert_ss_vmLA_BASIN_863/)
+* [ASK2014](gmpe_bbp_comparisons_ASK2014_vmLA_BASIN_863/)
+* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr_vmLA_BASIN_863/)
 
 ## Source/Site Ground Motion Comparisons
 *[(top)](#bruce-2740)*
