@@ -42,7 +42,7 @@ We compare results with the following GMPE(s):
 ## M6.6, Vertical Strike-Slip with Surface Rupture
 *[(top)](#table-of-contents)*
 
-Scenario Criteria:
+Median spectra shown across 400 RSQSim events which match the following scenario criteria:
 
 * M=[6.55,6.65]
 * Ztor=[0,1]
@@ -68,7 +68,7 @@ Scenario Criteria:
 ## M6.6, Reverse, Dip=45, Ztor=3
 *[(top)](#table-of-contents)*
 
-Scenario Criteria:
+Median spectra shown across 142 RSQSim events which match the following scenario criteria:
 
 * M=[6.55,6.65]
 * Ztor=[1,5]
@@ -93,7 +93,7 @@ Scenario Criteria:
 ## M7.2, Vertical Strike-Slip with Surface Rupture
 *[(top)](#table-of-contents)*
 
-Scenario Criteria:
+Median spectra shown across 400 RSQSim events which match the following scenario criteria:
 
 * M=[7.15,7.25]
 * Ztor=[0,1]
@@ -119,7 +119,7 @@ Scenario Criteria:
 ## M7.2, Reverse, Dip=45
 *[(top)](#table-of-contents)*
 
-Scenario Criteria:
+Median spectra shown across 158 RSQSim events which match the following scenario criteria:
 
 * M=[7.15,7.25]
 * Ztor=[0,5]
@@ -144,7 +144,7 @@ Scenario Criteria:
 ## M7.6, Vertical Strike-Slip with Surface Rupture
 *[(top)](#table-of-contents)*
 
-Scenario Criteria:
+Median spectra shown across 400 RSQSim events which match the following scenario criteria:
 
 * M=[7.55,7.65]
 * Ztor=[0,1]
@@ -170,7 +170,7 @@ Scenario Criteria:
 ## M7.6, Reverse, Dip=45
 *[(top)](#table-of-contents)*
 
-Scenario Criteria:
+Median spectra shown across 165 RSQSim events which match the following scenario criteria:
 
 * M=[7.55,7.65]
 * Ztor=[0,5]
