@@ -58,6 +58,10 @@ We then  perform various rotations. We rotate the rupture in place around its ce
   * [120.0 km M7.5 Between-events Results](#1200-km-m75-between-events-results)
 * [Azumth Dependence](#azumth-dependence)
   * [Rupture Strike Dependence](#rupture-strike-dependence)
+* [BBP PartB Comparison](#bbp-partb-comparison)
+  * [BBP PartB Summary Table](#bbp-partb-summary-table)
+  * [BBP PartB, M6.6, Reverse, Dip=45, Ztor=3](#bbp-partb-m66-reverse-dip45-ztor3)
+  * [BBP PartB, M7.2, Reverse, Dip=45](#bbp-partb-m72-reverse-dip45)
 * [CSV Files](#csv-files)
 ## Rupture Rotation Parameters
 
@@ -75,9 +79,9 @@ We then  perform various rotations. We rotate the rupture in place around its ce
 
 We condisder 100 events in the catalog which match the following criteria:
 
-* Ztor=[0,5]
+* Ztor=[0.0,5.0]
 * Rake=[75,105]
-* Dip=[35,55]
+* Dip=[35.0,55.0]
 
 ## Sites
 
@@ -818,12 +822,49 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 
 | Mag | Type | 3s | 5s | 7.5s | 10s |
 |-----|-----|-----|-----|-----|-----|
+| **M6.5** | **&tau;** | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_2d_3s_between_events.png) | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_2d_5s_between_events.png) | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_2d_7.5s_between_events.png) | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_2d_10s_between_events.png) |
 | **M6.5** | **&tau;** | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_3s_between_events.png) | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_5s_between_events.png) | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_7.5s_between_events.png) | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_10s_between_events.png) |
+| **M7** | **&tau;** | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_2d_3s_between_events.png) | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_2d_5s_between_events.png) | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_2d_7.5s_between_events.png) | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_2d_10s_between_events.png) |
 | **M7** | **&tau;** | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_3s_between_events.png) | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_5s_between_events.png) | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_7.5s_between_events.png) | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_10s_between_events.png) |
+| **M7.5** | **&tau;** | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_2d_3s_between_events.png) | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_2d_5s_between_events.png) | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_2d_7.5s_between_events.png) | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_2d_10s_between_events.png) |
 | **M7.5** | **&tau;** | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_3s_between_events.png) | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_5s_between_events.png) | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_7.5s_between_events.png) | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_10s_between_events.png) |
+| **M6.5** | **Median SA** | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_2d_3s_median_sa.png) | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_2d_5s_median_sa.png) | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_2d_7.5s_median_sa.png) | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_2d_10s_median_sa.png) |
 | **M6.5** | **Median SA** | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_3s_median_sa.png) | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_5s_median_sa.png) | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_7.5s_median_sa.png) | ![Rupture Strike](resources/m6.5_dist_SOURCE_AZIMUTH_10s_median_sa.png) |
+| **M7** | **Median SA** | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_2d_3s_median_sa.png) | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_2d_5s_median_sa.png) | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_2d_7.5s_median_sa.png) | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_2d_10s_median_sa.png) |
 | **M7** | **Median SA** | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_3s_median_sa.png) | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_5s_median_sa.png) | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_7.5s_median_sa.png) | ![Rupture Strike](resources/m7_dist_SOURCE_AZIMUTH_10s_median_sa.png) |
+| **M7.5** | **Median SA** | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_2d_3s_median_sa.png) | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_2d_5s_median_sa.png) | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_2d_7.5s_median_sa.png) | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_2d_10s_median_sa.png) |
 | **M7.5** | **Median SA** | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_3s_median_sa.png) | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_5s_median_sa.png) | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_7.5s_median_sa.png) | ![Rupture Strike](resources/m7.5_dist_SOURCE_AZIMUTH_10s_median_sa.png) |
+
+## BBP PartB Comparison
+*[(top)](#table-of-contents)*
+
+Here we attempt to reproduce the SCEC BroadBand Platform "Part B" validation exercise as defined in:
+
+*Goulet, C. A., Abrahamson, N. A., Somerville, P. G., & Wooddell, K. E. (2014). The SCEC broadband platform validation exercise: Methodology for code validation in the context of seismic‐hazard analyses. Seismological Research Letters, 86(1), 17-26.* [(link)](https://pubs.geoscienceworld.org/ssa/srl/article/86/1/17/315438/the-scec-broadband-platform-validation-exercise)
+
+The BBP exercise positioned sites in a 'racetrack' around the ruptures. Here, we instead position and rotate the ruptures around the site in order to work in 3-D with CyberShake reciprical calculations. Results for official scenarios and distances are in **bold**, results for additional magnitudes or distances not defined in the Goulet et. al. (2014) are *italicised*.
+
+### BBP PartB Summary Table
+*[(top)](#table-of-contents)*
+
+| Scenario | 20.0 km | 40.0 km | 60.0 km | 80.0 km | 100.0 km | 120.0 km | 140.0 km | 160.0 km | 180.0 km | 200.0 km |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| **M6.6 Reverse** | **PASS** | *(PASS)* | *(PASS)* | *(PASS)* | *(PASS)* | *(PASS)* | *(PASS)* | *(PASS)* | *(PASS)* | *(PASS)* |
+| **M7.2 Reverse** | *(FAIL)* | *(FAIL)* | *(FAIL)* | *(FAIL)* | *(FAIL)* | *(FAIL)* | *(FAIL)* | *(FAIL)* | *(FAIL)* | *(FAIL)* |
+
+### BBP PartB, M6.6, Reverse, Dip=45, Ztor=3
+*[(top)](#table-of-contents)*
+
+| 20.0 km | 40.0 km | 60.0 km | 80.0 km | 100.0 km | 120.0 km | 140.0 km | 160.0 km | 180.0 km | 200.0 km |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| ![PartB Plot](resources/bbp_partB_m6p6_reverse_20km.png) | ![PartB Plot](resources/bbp_partB_m6p6_reverse_40km.png) | ![PartB Plot](resources/bbp_partB_m6p6_reverse_60km.png) | ![PartB Plot](resources/bbp_partB_m6p6_reverse_80km.png) | ![PartB Plot](resources/bbp_partB_m6p6_reverse_100km.png) | ![PartB Plot](resources/bbp_partB_m6p6_reverse_120km.png) | ![PartB Plot](resources/bbp_partB_m6p6_reverse_140km.png) | ![PartB Plot](resources/bbp_partB_m6p6_reverse_160km.png) | ![PartB Plot](resources/bbp_partB_m6p6_reverse_180km.png) | ![PartB Plot](resources/bbp_partB_m6p6_reverse_200km.png) |
+
+### BBP PartB, M7.2, Reverse, Dip=45
+*[(top)](#table-of-contents)*
+
+| 20.0 km | 40.0 km | 60.0 km | 80.0 km | 100.0 km | 120.0 km | 140.0 km | 160.0 km | 180.0 km | 200.0 km |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| ![PartB Plot](resources/bbp_partB_m7p2_reverse_20km.png) | ![PartB Plot](resources/bbp_partB_m7p2_reverse_40km.png) | ![PartB Plot](resources/bbp_partB_m7p2_reverse_60km.png) | ![PartB Plot](resources/bbp_partB_m7p2_reverse_80km.png) | ![PartB Plot](resources/bbp_partB_m7p2_reverse_100km.png) | ![PartB Plot](resources/bbp_partB_m7p2_reverse_120km.png) | ![PartB Plot](resources/bbp_partB_m7p2_reverse_140km.png) | ![PartB Plot](resources/bbp_partB_m7p2_reverse_160km.png) | ![PartB Plot](resources/bbp_partB_m7p2_reverse_180km.png) | ![PartB Plot](resources/bbp_partB_m7p2_reverse_200km.png) |
 
 ## CSV Files
 *[(top)](#table-of-contents)*

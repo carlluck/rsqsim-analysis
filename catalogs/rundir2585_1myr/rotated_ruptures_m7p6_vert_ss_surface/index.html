@@ -63,6 +63,12 @@ img {
 <li><a href="#rupture-strike-dependence">Rupture Strike Dependence</a></li>
 </ul>
 </li>
+<li><a href="#bbp-partb-comparison">BBP PartB Comparison</a>
+<ul>
+<li><a href="#bbp-partb-summary-table">BBP PartB Summary Table</a></li>
+<li><a href="#bbp-partb-m76-vertical-strike-slip-with-surface-rupture">BBP PartB, M7.6, Vertical Strike-Slip with Surface Rupture</a></li>
+</ul>
+</li>
 <li><a href="#csv-files">CSV Files</a></li>
 </ul>
 <h2 id="rupture-rotation-parameters">Rupture Rotation Parameters</h2>
@@ -84,10 +90,10 @@ img {
 <p>We condisder 400 events in the catalog which match the following criteria:</p>
 <ul>
 <li>M=[7.55,7.65]</li>
-<li>Ztor=[0,1]</li>
+<li>Ztor=[0.0,1.0]</li>
 <li>Rake=[-180,-170] or [-10,10] or [170,180]</li>
-<li>Dip=90</li>
-<li>Linear rupture (max 5% deviation from ideal)</li>
+<li>Dip=90.0</li>
+<li>Linear rupture (max 5.0% deviation from ideal)</li>
 </ul>
 <h2 id="sites">Sites</h2>
 <table>
@@ -413,6 +419,31 @@ img {
 <tbody>
 <tr><td><strong>τ</strong></td><td><img src="resources/m7.6_dist_SOURCE_AZIMUTH_3s_between_events.png" alt="Rupture Strike" /></td><td><img src="resources/m7.6_dist_SOURCE_AZIMUTH_5s_between_events.png" alt="Rupture Strike" /></td><td><img src="resources/m7.6_dist_SOURCE_AZIMUTH_7.5s_between_events.png" alt="Rupture Strike" /></td><td><img src="resources/m7.6_dist_SOURCE_AZIMUTH_10s_between_events.png" alt="Rupture Strike" /></td></tr>
 <tr><td><strong>Median SA</strong></td><td><img src="resources/m7.6_dist_SOURCE_AZIMUTH_3s_median_sa.png" alt="Rupture Strike" /></td><td><img src="resources/m7.6_dist_SOURCE_AZIMUTH_5s_median_sa.png" alt="Rupture Strike" /></td><td><img src="resources/m7.6_dist_SOURCE_AZIMUTH_7.5s_median_sa.png" alt="Rupture Strike" /></td><td><img src="resources/m7.6_dist_SOURCE_AZIMUTH_10s_median_sa.png" alt="Rupture Strike" /></td></tr>
+</tbody>
+</table>
+<h2 id="bbp-partb-comparison">BBP PartB Comparison</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Here we attempt to reproduce the SCEC BroadBand Platform &quot;Part B&quot; validation exercise as defined in:</p>
+<p><em>Goulet, C. A., Abrahamson, N. A., Somerville, P. G., &amp; Wooddell, K. E. (2014). The SCEC broadband platform validation exercise: Methodology for code validation in the context of seismic‐hazard analyses. Seismological Research Letters, 86(1), 17-26.</em> <a href="https://pubs.geoscienceworld.org/ssa/srl/article/86/1/17/315438/the-scec-broadband-platform-validation-exercise">(link)</a></p>
+<p>The BBP exercise positioned sites in a 'racetrack' around the ruptures. Here, we instead position and rotate the ruptures around the site in order to work in 3-D with CyberShake reciprical calculations. Results for official scenarios and distances are in <strong>bold</strong>, results for additional magnitudes or distances not defined in the Goulet et. al. (2014) are <em>italicised</em>.</p>
+<h3 id="bbp-partb-summary-table">BBP PartB Summary Table</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>Scenario</th><th>20.0 km</th><th>50.0 km</th><th>100.0 km</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>M7.6 SS</strong></td><td><em>(FAIL)</em></td><td><em>(FAIL)</em></td><td><em>(PASS)</em></td></tr>
+</tbody>
+</table>
+<h3 id="bbp-partb-m76-vertical-strike-slip-with-surface-rupture">BBP PartB, M7.6, Vertical Strike-Slip with Surface Rupture</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>20.0 km</th><th>50.0 km</th><th>100.0 km</th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/bbp_partB_m7p6_vert_ss_surface_20km.png" alt="PartB Plot" /></td><td><img src="resources/bbp_partB_m7p6_vert_ss_surface_50km.png" alt="PartB Plot" /></td><td><img src="resources/bbp_partB_m7p6_vert_ss_surface_100km.png" alt="PartB Plot" /></td></tr>
 </tbody>
 </table>
 <h2 id="csv-files">CSV Files</h2>

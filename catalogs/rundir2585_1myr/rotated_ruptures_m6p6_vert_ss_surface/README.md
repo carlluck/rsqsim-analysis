@@ -31,6 +31,9 @@ We then  perform various rotations. We rotate the rupture in place around its ce
   * [100.0 km M6.6 Between-events Results](#1000-km-m66-between-events-results)
 * [Azumth Dependence](#azumth-dependence)
   * [Rupture Strike Dependence](#rupture-strike-dependence)
+* [BBP PartB Comparison](#bbp-partb-comparison)
+  * [BBP PartB Summary Table](#bbp-partb-summary-table)
+  * [BBP PartB, M6.6, Vertical Strike-Slip with Surface Rupture](#bbp-partb-m66-vertical-strike-slip-with-surface-rupture)
 * [CSV Files](#csv-files)
 ## Rupture Rotation Parameters
 
@@ -49,9 +52,9 @@ We then  perform various rotations. We rotate the rupture in place around its ce
 We condisder 400 events in the catalog which match the following criteria:
 
 * M=[6.55,6.65]
-* Ztor=[0,1]
+* Ztor=[0.0,1.0]
 * Rake=[-180,-170] or [-10,10] or [170,180]
-* Dip=90
+* Dip=90.0
 * Linear rupture (max 0.5km deviation from ideal)
 
 ## Sites
@@ -330,6 +333,29 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 |-----|-----|-----|-----|-----|
 | **&tau;** | ![Rupture Strike](resources/m6.6_dist_SOURCE_AZIMUTH_3s_between_events.png) | ![Rupture Strike](resources/m6.6_dist_SOURCE_AZIMUTH_5s_between_events.png) | ![Rupture Strike](resources/m6.6_dist_SOURCE_AZIMUTH_7.5s_between_events.png) | ![Rupture Strike](resources/m6.6_dist_SOURCE_AZIMUTH_10s_between_events.png) |
 | **Median SA** | ![Rupture Strike](resources/m6.6_dist_SOURCE_AZIMUTH_3s_median_sa.png) | ![Rupture Strike](resources/m6.6_dist_SOURCE_AZIMUTH_5s_median_sa.png) | ![Rupture Strike](resources/m6.6_dist_SOURCE_AZIMUTH_7.5s_median_sa.png) | ![Rupture Strike](resources/m6.6_dist_SOURCE_AZIMUTH_10s_median_sa.png) |
+
+## BBP PartB Comparison
+*[(top)](#table-of-contents)*
+
+Here we attempt to reproduce the SCEC BroadBand Platform "Part B" validation exercise as defined in:
+
+*Goulet, C. A., Abrahamson, N. A., Somerville, P. G., & Wooddell, K. E. (2014). The SCEC broadband platform validation exercise: Methodology for code validation in the context of seismic‐hazard analyses. Seismological Research Letters, 86(1), 17-26.* [(link)](https://pubs.geoscienceworld.org/ssa/srl/article/86/1/17/315438/the-scec-broadband-platform-validation-exercise)
+
+The BBP exercise positioned sites in a 'racetrack' around the ruptures. Here, we instead position and rotate the ruptures around the site in order to work in 3-D with CyberShake reciprical calculations. Results for official scenarios and distances are in **bold**, results for additional magnitudes or distances not defined in the Goulet et. al. (2014) are *italicised*.
+
+### BBP PartB Summary Table
+*[(top)](#table-of-contents)*
+
+| Scenario | 20.0 km | 50.0 km | 100.0 km |
+|-----|-----|-----|-----|
+| **M6.6 SS** | **FAIL** | **FAIL** | *(FAIL)* |
+
+### BBP PartB, M6.6, Vertical Strike-Slip with Surface Rupture
+*[(top)](#table-of-contents)*
+
+| 20.0 km | 50.0 km | 100.0 km |
+|-----|-----|-----|
+| ![PartB Plot](resources/bbp_partB_m6p6_vert_ss_surface_20km.png) | ![PartB Plot](resources/bbp_partB_m6p6_vert_ss_surface_50km.png) | ![PartB Plot](resources/bbp_partB_m6p6_vert_ss_surface_100km.png) |
 
 ## CSV Files
 *[(top)](#table-of-contents)*
