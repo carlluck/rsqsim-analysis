@@ -16,29 +16,11 @@ We compare results with the following GMPE(s):
 
 ## Table Of Contents
 * [M6.6, Vertical Strike-Slip with Surface Rupture](#m66-vertical-strike-slip-with-surface-rupture)
-  * [M6.6, Vertical Strike-Slip with Surface Rupture, 20.0 km](#m66-vertical-strike-slip-with-surface-rupture-200-km)
-  * [M6.6, Vertical Strike-Slip with Surface Rupture, 50.0 km](#m66-vertical-strike-slip-with-surface-rupture-500-km)
-  * [M6.6, Vertical Strike-Slip with Surface Rupture, 100.0 km](#m66-vertical-strike-slip-with-surface-rupture-1000-km)
 * [M6.6, Reverse, Dip=45, Ztor=3](#m66-reverse-dip45-ztor3)
-  * [M6.6, Reverse, Dip=45, Ztor=3, 20.0 km](#m66-reverse-dip45-ztor3-200-km)
-  * [M6.6, Reverse, Dip=45, Ztor=3, 50.0 km](#m66-reverse-dip45-ztor3-500-km)
-  * [M6.6, Reverse, Dip=45, Ztor=3, 100.0 km](#m66-reverse-dip45-ztor3-1000-km)
 * [M7.2, Vertical Strike-Slip with Surface Rupture](#m72-vertical-strike-slip-with-surface-rupture)
-  * [M7.2, Vertical Strike-Slip with Surface Rupture, 20.0 km](#m72-vertical-strike-slip-with-surface-rupture-200-km)
-  * [M7.2, Vertical Strike-Slip with Surface Rupture, 50.0 km](#m72-vertical-strike-slip-with-surface-rupture-500-km)
-  * [M7.2, Vertical Strike-Slip with Surface Rupture, 100.0 km](#m72-vertical-strike-slip-with-surface-rupture-1000-km)
 * [M7.2, Reverse, Dip=45](#m72-reverse-dip45)
-  * [M7.2, Reverse, Dip=45, 20.0 km](#m72-reverse-dip45-200-km)
-  * [M7.2, Reverse, Dip=45, 50.0 km](#m72-reverse-dip45-500-km)
-  * [M7.2, Reverse, Dip=45, 100.0 km](#m72-reverse-dip45-1000-km)
 * [M7.6, Vertical Strike-Slip with Surface Rupture](#m76-vertical-strike-slip-with-surface-rupture)
-  * [M7.6, Vertical Strike-Slip with Surface Rupture, 20.0 km](#m76-vertical-strike-slip-with-surface-rupture-200-km)
-  * [M7.6, Vertical Strike-Slip with Surface Rupture, 50.0 km](#m76-vertical-strike-slip-with-surface-rupture-500-km)
-  * [M7.6, Vertical Strike-Slip with Surface Rupture, 100.0 km](#m76-vertical-strike-slip-with-surface-rupture-1000-km)
 * [M7.6, Reverse, Dip=45](#m76-reverse-dip45)
-  * [M7.6, Reverse, Dip=45, 20.0 km](#m76-reverse-dip45-200-km)
-  * [M7.6, Reverse, Dip=45, 50.0 km](#m76-reverse-dip45-500-km)
-  * [M7.6, Reverse, Dip=45, 100.0 km](#m76-reverse-dip45-1000-km)
 ## M6.6, Vertical Strike-Slip with Surface Rupture
 *[(top)](#table-of-contents)*
 
