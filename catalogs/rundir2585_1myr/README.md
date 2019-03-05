@@ -17,7 +17,7 @@
 * [Source/Site Ground Motion Comparisons](source_site_comparisons/)
 * [Extreme Event Examples](extreme_events/)
 * [Occupancy Copulas](#occupancy-copulas)
-* [BBP Part B Analysis](bbp_part_b/)
+* [BBP Part B Analysis](bbp_part_b_vmLA_BASIN_863)
 * [Rotated Rupture Variability Comparisons](#rotated-rupture-variability-comparisons)
 * [BBP Velocity Model Comparisons](bbp_vm_rot_rup_compare/)
 * [Plots](#plots)
@@ -61,7 +61,7 @@
 ## BBP Part B Analysis
 *[(top)](#bruce-2585-1myr)*
 
-[BBP Part B Analysis Here](bbp_part_b/)
+[BBP Part B Analysis Here](bbp_part_b_vmLA_BASIN_863)
 
 ## Rotated Rupture Variability Comparisons
 *[(top)](#bruce-2585-1myr)*

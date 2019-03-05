@@ -15,21 +15,29 @@ We compare results with the following GMPE(s):
 * Chiou & Youngs (2014)
 
 ## Table Of Contents
+* [Velocity Model Profiles](#velocity-model-profiles)
 * [M6.6, Vertical Strike-Slip with Surface Rupture](#m66-vertical-strike-slip-with-surface-rupture)
 * [M6.6, Reverse, Dip=45, Ztor=3](#m66-reverse-dip45-ztor3)
 * [M7.2, Vertical Strike-Slip with Surface Rupture](#m72-vertical-strike-slip-with-surface-rupture)
 * [M7.2, Reverse, Dip=45](#m72-reverse-dip45)
 * [M7.6, Vertical Strike-Slip with Surface Rupture](#m76-vertical-strike-slip-with-surface-rupture)
 * [M7.6, Reverse, Dip=45](#m76-reverse-dip45)
+## Velocity Model Profiles
+*[(top)](#table-of-contents)*
+
+![VM Profiles](resources/vm_profiles.png)
+
+![Upper VM Profiles](resources/vm_profiles_upper.png)
+
 ## M6.6, Vertical Strike-Slip with Surface Rupture
 *[(top)](#table-of-contents)*
 
 Median spectra shown across 400 RSQSim events which match the following scenario criteria:
 
 * M=[6.55,6.65]
-* Ztor=[0,1]
+* Ztor=[0.0,1.0]
 * Rake=[-180,-170] or [-10,10] or [170,180]
-* Dip=90
+* Dip=90.0
 * Linear rupture (max 0.5km deviation from ideal)
 
 ### M6.6, Vertical Strike-Slip with Surface Rupture, 20.0 km
@@ -53,9 +61,9 @@ Median spectra shown across 400 RSQSim events which match the following scenario
 Median spectra shown across 142 RSQSim events which match the following scenario criteria:
 
 * M=[6.55,6.65]
-* Ztor=[1,5]
-* Rake=[75,105]
-* Dip=[35,55]
+* Ztor=[1.0,5.0]
+* Rake=[80,100]
+* Dip=[35.0,55.0]
 
 ### M6.6, Reverse, Dip=45, Ztor=3, 20.0 km
 *[(top)](#table-of-contents)*
@@ -78,10 +86,10 @@ Median spectra shown across 142 RSQSim events which match the following scenario
 Median spectra shown across 400 RSQSim events which match the following scenario criteria:
 
 * M=[7.15,7.25]
-* Ztor=[0,1]
+* Ztor=[0.0,1.0]
 * Rake=[-180,-170] or [-10,10] or [170,180]
-* Dip=90
-* Linear rupture (max 5% deviation from ideal)
+* Dip=90.0
+* Linear rupture (max 5.0% deviation from ideal)
 
 ### M7.2, Vertical Strike-Slip with Surface Rupture, 20.0 km
 *[(top)](#table-of-contents)*
@@ -104,9 +112,9 @@ Median spectra shown across 400 RSQSim events which match the following scenario
 Median spectra shown across 158 RSQSim events which match the following scenario criteria:
 
 * M=[7.15,7.25]
-* Ztor=[0,5]
-* Rake=[75,105]
-* Dip=[35,55]
+* Ztor=[0.0,5.0]
+* Rake=[80,100]
+* Dip=[35.0,55.0]
 
 ### M7.2, Reverse, Dip=45, 20.0 km
 *[(top)](#table-of-contents)*
@@ -129,10 +137,10 @@ Median spectra shown across 158 RSQSim events which match the following scenario
 Median spectra shown across 400 RSQSim events which match the following scenario criteria:
 
 * M=[7.55,7.65]
-* Ztor=[0,1]
+* Ztor=[0.0,1.0]
 * Rake=[-180,-170] or [-10,10] or [170,180]
-* Dip=90
-* Linear rupture (max 5% deviation from ideal)
+* Dip=90.0
+* Linear rupture (max 5.0% deviation from ideal)
 
 ### M7.6, Vertical Strike-Slip with Surface Rupture, 20.0 km
 *[(top)](#table-of-contents)*
@@ -155,9 +163,9 @@ Median spectra shown across 400 RSQSim events which match the following scenario
 Median spectra shown across 165 RSQSim events which match the following scenario criteria:
 
 * M=[7.55,7.65]
-* Ztor=[0,5]
-* Rake=[75,105]
-* Dip=[35,55]
+* Ztor=[0.0,5.0]
+* Rake=[80,100]
+* Dip=[35.0,55.0]
 
 ### M7.6, Reverse, Dip=45, 20.0 km
 *[(top)](#table-of-contents)*

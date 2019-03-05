@@ -14,7 +14,7 @@
 * [Single Event Comparisons](#single-event-comparisons)
 * [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
 * [Source/Site Ground Motion Comparisons](source_site_comparisons/)
-* [BBP Part B Analysis](bbp_part_b/)
+* [BBP Part B Analysis](bbp_part_b_vmLA_BASIN_863)
 * [Rotated Rupture Variability Comparisons](#rotated-rupture-variability-comparisons)
 * [BBP Velocity Model Comparisons](bbp_vm_rot_rup_compare/)
 * [Plots](#plots)
@@ -52,7 +52,7 @@
 ## BBP Part B Analysis
 *[(top)](#bruce-2740)*
 
-[BBP Part B Analysis Here](bbp_part_b/)
+[BBP Part B Analysis Here](bbp_part_b_vmLA_BASIN_863)
 
 ## Rotated Rupture Variability Comparisons
 *[(top)](#bruce-2740)*
