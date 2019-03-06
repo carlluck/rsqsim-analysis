@@ -11,11 +11,14 @@
 | **Frictional Params** | a=0.001, b=0.008, (b-a)=0.007, ddotEQ=1 |
 
 * [Metadata](#metadata)
-* [Single Event Comparisons](#single-event-comparisons)
-* [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
-* [Source/Site Ground Motion Comparisons](source_site_comparisons/)
-* [BBP Part B Analysis](bbp_part_b_vmLA_BASIN_863)
-* [Rotated Rupture Variability Comparisons](#rotated-rupture-variability-comparisons)
+* [BBP Calculations, LA Basin 863 (m/s) Velocity Model](#bbp-calculations-la-basin-863-ms-velocity-model)
+  * [Single Event Comparisons, LA Basin 863 (m/s)](#single-event-comparisons-la-basin-863-ms)
+  * [Full Catalog GMPE Comparisons, LA Basin 863 (m/s)](#full-catalog-gmpe-comparisons-la-basin-863-ms)
+  * [Source/Site Ground Motion Comparisons, LA Basin 863 (m/s)](bbp_LA_BASIN_863/source_site_comparisons/)
+  * [BBP Part B Analysis, LA Basin 863 (m/s)](bbp_LA_BASIN_863/bbp_part_b)
+  * [Rotated Rupture Variability Comparisons, LA Basin 863 (m/s)](#rotated-rupture-variability-comparisons-la-basin-863-ms)
+* [BBP Calculations, LA Basin 500 (m/s) Velocity Model](#bbp-calculations-la-basin-500-ms-velocity-model)
+  * [Rotated Rupture Variability Comparisons, LA Basin 500 (m/s)](#rotated-rupture-variability-comparisons-la-basin-500-ms)
 * [BBP Velocity Model Comparisons](bbp_vm_rot_rup_compare/)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
@@ -30,42 +33,54 @@
     * [Subsection Interevent Time Comparisons](#subsection-interevent-time-comparisons)
 * [Input File](#input-file)
 
-## Single Event Comparisons
+## BBP Calculations, LA Basin 863 (m/s) Velocity Model
 *[(top)](#bruce-2740)*
 
-* [Event 385955, M7.49](event_385955/)
 
-## Full Catalog GMPE Comparisons
+### Single Event Comparisons, LA Basin 863 (m/s)
 *[(top)](#bruce-2740)*
 
-* [ASK2014, Focal Mechanism: Normal](gmpe_bbp_comparisons_ASK2014_mech_normal_vmLA_BASIN_863/)
-* [ASK2014, Focal Mechanism: Reverse](gmpe_bbp_comparisons_ASK2014_mech_reverse_vmLA_BASIN_863/)
-* [ASK2014, Focal Mechanism: Vertical Strike-Slip](gmpe_bbp_comparisons_ASK2014_mech_vert_ss_vmLA_BASIN_863/)
-* [ASK2014](gmpe_bbp_comparisons_ASK2014_vmLA_BASIN_863/)
-* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr_vmLA_BASIN_863/)
+* [Event 385955, M7.49](bbp_LA_BASIN_863/event_385955/)
 
-## Source/Site Ground Motion Comparisons
+### Full Catalog GMPE Comparisons, LA Basin 863 (m/s)
 *[(top)](#bruce-2740)*
 
-[Source/Site Ground Motion Comparisons here](source_site_comparisons/)
+* [ASK2014](bbp_LA_BASIN_863/gmpe_bbp_comparisons_ASK2014/)
+* [ASK2014, Focal Mechanism: Normal](bbp_LA_BASIN_863/gmpe_bbp_comparisons_ASK2014_mech_normal/)
+* [ASK2014, Focal Mechanism: Reverse](bbp_LA_BASIN_863/gmpe_bbp_comparisons_ASK2014_mech_reverse/)
+* [ASK2014, Focal Mechanism: Vertical Strike-Slip](bbp_LA_BASIN_863/gmpe_bbp_comparisons_ASK2014_mech_vert_ss/)
+* [NGAWest_2014_NoIdr](bbp_LA_BASIN_863/gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
 
-## BBP Part B Analysis
+### Source/Site Ground Motion Comparisons, LA Basin 863 (m/s)
 *[(top)](#bruce-2740)*
 
-[BBP Part B Analysis Here](bbp_part_b_vmLA_BASIN_863)
+[Source/Site Ground Motion Comparisons here](bbp_LA_BASIN_863/source_site_comparisons/)
 
-## Rotated Rupture Variability Comparisons
+### BBP Part B Analysis, LA Basin 863 (m/s)
 *[(top)](#bruce-2740)*
 
-* [M6.6, Reverse, Dip=45, Ztor=3](rotated_ruptures_m6p6_reverse/)
-* [M6.6, Vertical Strike-Slip with Surface Rupture](rotated_ruptures_m6p6_vert_ss_surface/)
-* [M7.2, Reverse, Dip=45](rotated_ruptures_m7p2_reverse/)
-* [M7.2, Vertical Strike-Slip with Surface Rupture](rotated_ruptures_m7p2_vert_ss_surface/)
-* [M7.6, Reverse, Dip=45](rotated_ruptures_m7p6_reverse/)
-* [M7.6, Vertical Strike-Slip with Surface Rupture](rotated_ruptures_m7p6_vert_ss_surface/)
-* [Normal, Dip=45, Mag-Dist Bins](rotated_ruptures_mag_dist_normal/)
-* [Reverse, Dip=45, Mag-Dist Bins](rotated_ruptures_mag_dist_reverse/)
-* [Vertical Strike-Slip with Surface Rupture, Mag-Dist Bins](rotated_ruptures_mag_dist_vert_ss_surface/)
+[BBP Part B Analysis Here](bbp_LA_BASIN_863/bbp_part_b)
+
+### Rotated Rupture Variability Comparisons, LA Basin 863 (m/s)
+*[(top)](#bruce-2740)*
+
+* [Normal, Dip=45, Mag-Dist Bins](bbp_LA_BASIN_863/rotated_ruptures_mag_dist_normal/)
+* [Reverse, Dip=45, Mag-Dist Bins](bbp_LA_BASIN_863/rotated_ruptures_mag_dist_reverse/)
+* [Vertical Strike-Slip with Surface Rupture, Mag-Dist Bins](bbp_LA_BASIN_863/rotated_ruptures_mag_dist_vert_ss_surface/)
+
+## BBP Calculations, LA Basin 500 (m/s) Velocity Model
+*[(top)](#bruce-2740)*
+
+
+### Rotated Rupture Variability Comparisons, LA Basin 500 (m/s)
+*[(top)](#bruce-2740)*
+
+* [M6.6, Reverse, Dip=45, Ztor=3](bbp_LA_BASIN_500/rotated_ruptures_m6p6_reverse/)
+* [M6.6, Vertical Strike-Slip with Surface Rupture](bbp_LA_BASIN_500/rotated_ruptures_m6p6_vert_ss_surface/)
+* [M7.2, Reverse, Dip=45](bbp_LA_BASIN_500/rotated_ruptures_m7p2_reverse/)
+* [M7.2, Vertical Strike-Slip with Surface Rupture](bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface/)
+* [M7.6, Reverse, Dip=45](bbp_LA_BASIN_500/rotated_ruptures_m7p6_reverse/)
+* [M7.6, Vertical Strike-Slip with Surface Rupture](bbp_LA_BASIN_500/rotated_ruptures_m7p6_vert_ss_surface/)
 
 ## BBP Velocity Model Comparisons
 *[(top)](#bruce-2740)*

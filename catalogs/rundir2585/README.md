@@ -11,14 +11,15 @@
 | **Frictional Params** | a=0.001, b=0.008, (b-a)=0.007, ddotEQ=1 |
 
 * [Metadata](#metadata)
-* [Single Event Comparisons](#single-event-comparisons)
-* [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
-  * [Points Of Interest](#points-of-interest)
-  * [Gridded Sites](#gridded-sites)
 * [Hazard Comparisons](#hazard-comparisons)
 * [Multi-Fault Rupture Comparisons](multi_fault/)
 * [Extreme Event Examples](extreme_events/)
-* [Rotated Rupture Variability Comparisons](#rotated-rupture-variability-comparisons)
+* [BBP Calculations, LA Basin 863 (m/s) Velocity Model](#bbp-calculations-la-basin-863-ms-velocity-model)
+  * [Single Event Comparisons, LA Basin 863 (m/s)](#single-event-comparisons-la-basin-863-ms)
+  * [Full Catalog GMPE Comparisons, LA Basin 863 (m/s)](#full-catalog-gmpe-comparisons-la-basin-863-ms)
+    * [Points Of Interest, LA Basin 863 (m/s)](#points-of-interest-la-basin-863-ms)
+    * [Gridded Sites, LA Basin 863 (m/s)](#gridded-sites-la-basin-863-ms)
+  * [Rotated Rupture Variability Comparisons, LA Basin 863 (m/s)](#rotated-rupture-variability-comparisons-la-basin-863-ms)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
@@ -31,39 +32,6 @@
     * [Element Interevent Time Comparisons](#element-interevent-time-comparisons)
     * [Subsection Interevent Time Comparisons](#subsection-interevent-time-comparisons)
 * [Input File](#input-file)
-
-## Single Event Comparisons
-*[(top)](#bruce-2585)*
-
-* [Event 1670183, M7.52](event_1670183/)
-* [Event 1670183, M7.52, GP DDW Extension](event_1670183_adjustDDW/)
-* [Event 1670183, M7.52, Time Scale Factor: 2.0](event_1670183_timeScale2.0/)
-* [Event 1670183, M7.52, Time Scale Factor: 2.0, Velocities Scaled](event_1670183_timeScale2.0_velScale/)
-* [Event 2637969, M7.77](event_2637969/)
-* [Event 81854, M7.32](event_81854/)
-
-## Full Catalog GMPE Comparisons
-*[(top)](#bruce-2585)*
-
-### Points Of Interest
-
-* [ASK2014, Time Scale Factor: 2.0, Velocities Scaled](gmpe_bbp_comparisons_ASK2014_timeScale2.0_velScale_vmLA_BASIN_863/)
-* [ASK2014, Time Scale Factor: 2.0](gmpe_bbp_comparisons_ASK2014_timeScale2.0_vmLA_BASIN_863/)
-* [ASK2014](gmpe_bbp_comparisons_ASK2014_vmLA_BASIN_863/)
-* [BSSA2014](gmpe_bbp_comparisons_BSSA2014_vmLA_BASIN_863/)
-* [CB2014](gmpe_bbp_comparisons_CB2014_vmLA_BASIN_863/)
-* [CY2014](gmpe_bbp_comparisons_CY2014_vmLA_BASIN_863/)
-* [NGAWest_2014_NoIdr, Time Scale Factor: 2.0, Velocities Scaled](gmpe_bbp_comparisons_NGAWest_2014_NoIdr_timeScale2.0_velScale_vmLA_BASIN_863/)
-* [NGAWest_2014_NoIdr, Time Scale Factor: 2.0](gmpe_bbp_comparisons_NGAWest_2014_NoIdr_timeScale2.0_vmLA_BASIN_863/)
-* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr_vmLA_BASIN_863/)
-
-### Gridded Sites
-
-* [ASK2014](gmpe_bbp_comparisons_ASK2014_GriddedSites_vmLA_BASIN_863/)
-* [BSSA2014](gmpe_bbp_comparisons_BSSA2014_GriddedSites_vmLA_BASIN_863/)
-* [CB2014](gmpe_bbp_comparisons_CB2014_GriddedSites_vmLA_BASIN_863/)
-* [CY2014](gmpe_bbp_comparisons_CY2014_GriddedSites_vmLA_BASIN_863/)
-* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr_GriddedSites_vmLA_BASIN_863/)
 
 ## Hazard Comparisons
 *[(top)](#bruce-2585)*
@@ -97,10 +65,47 @@
 
 [Extreme Event Examples Here](extreme_events/)
 
-## Rotated Rupture Variability Comparisons
+## BBP Calculations, LA Basin 863 (m/s) Velocity Model
 *[(top)](#bruce-2585)*
 
-* [M6.6, Reverse, Dip=45, Ztor=3](rotated_ruptures_m6p6_reverse/)
+
+### Single Event Comparisons, LA Basin 863 (m/s)
+*[(top)](#bruce-2585)*
+
+* [Event 1670183, M7.52](bbp_LA_BASIN_863/event_1670183/)
+* [Event 1670183, M7.52, GP DDW Extension](bbp_LA_BASIN_863/event_1670183_adjustDDW/)
+* [Event 1670183, M7.52, Time Scale Factor: 2.0](bbp_LA_BASIN_863/event_1670183_timeScale2.0/)
+* [Event 1670183, M7.52, Time Scale Factor: 2.0, Velocities Scaled](bbp_LA_BASIN_863/event_1670183_timeScale2.0_velScale/)
+* [Event 2637969, M7.77](bbp_LA_BASIN_863/event_2637969/)
+* [Event 81854, M7.32](bbp_LA_BASIN_863/event_81854/)
+
+### Full Catalog GMPE Comparisons, LA Basin 863 (m/s)
+*[(top)](#bruce-2585)*
+
+#### Points Of Interest, LA Basin 863 (m/s)
+
+* [ASK2014](bbp_LA_BASIN_863/gmpe_bbp_comparisons_ASK2014/)
+* [ASK2014, Time Scale Factor: 2.0](bbp_LA_BASIN_863/gmpe_bbp_comparisons_ASK2014_timeScale2.0/)
+* [ASK2014, Time Scale Factor: 2.0, Velocities Scaled](bbp_LA_BASIN_863/gmpe_bbp_comparisons_ASK2014_timeScale2.0_velScale/)
+* [BSSA2014](bbp_LA_BASIN_863/gmpe_bbp_comparisons_BSSA2014/)
+* [CB2014](bbp_LA_BASIN_863/gmpe_bbp_comparisons_CB2014/)
+* [CY2014](bbp_LA_BASIN_863/gmpe_bbp_comparisons_CY2014/)
+* [NGAWest_2014_NoIdr](bbp_LA_BASIN_863/gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
+* [NGAWest_2014_NoIdr, Time Scale Factor: 2.0](bbp_LA_BASIN_863/gmpe_bbp_comparisons_NGAWest_2014_NoIdr_timeScale2.0/)
+* [NGAWest_2014_NoIdr, Time Scale Factor: 2.0, Velocities Scaled](bbp_LA_BASIN_863/gmpe_bbp_comparisons_NGAWest_2014_NoIdr_timeScale2.0_velScale/)
+
+#### Gridded Sites, LA Basin 863 (m/s)
+
+* [ASK2014](bbp_LA_BASIN_863/gmpe_bbp_comparisons_ASK2014_GriddedSites/)
+* [BSSA2014](bbp_LA_BASIN_863/gmpe_bbp_comparisons_BSSA2014_GriddedSites/)
+* [CB2014](bbp_LA_BASIN_863/gmpe_bbp_comparisons_CB2014_GriddedSites/)
+* [CY2014](bbp_LA_BASIN_863/gmpe_bbp_comparisons_CY2014_GriddedSites/)
+* [NGAWest_2014_NoIdr](bbp_LA_BASIN_863/gmpe_bbp_comparisons_NGAWest_2014_NoIdr_GriddedSites/)
+
+### Rotated Rupture Variability Comparisons, LA Basin 863 (m/s)
+*[(top)](#bruce-2585)*
+
+* [M6.6, Reverse, Dip=45, Ztor=3](bbp_LA_BASIN_863/rotated_ruptures_m6p6_reverse/)
 
 ## Plots
 ### Magnitude-Frequency Plot

@@ -11,8 +11,9 @@
 | **Frictional Params** | a=0.001, b=0.011, (b-a)=0.01, ddotEQ=1 |
 
 * [Metadata](#metadata)
-* [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
-* [Rotated Rupture Variability Comparisons](#rotated-rupture-variability-comparisons)
+* [BBP Calculations, LA Basin 863 (m/s) Velocity Model](#bbp-calculations-la-basin-863-ms-velocity-model)
+  * [Full Catalog GMPE Comparisons, LA Basin 863 (m/s)](#full-catalog-gmpe-comparisons-la-basin-863-ms)
+  * [Rotated Rupture Variability Comparisons, LA Basin 863 (m/s)](#rotated-rupture-variability-comparisons-la-basin-863-ms)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
@@ -26,18 +27,22 @@
     * [Subsection Interevent Time Comparisons](#subsection-interevent-time-comparisons)
 * [Input File](#input-file)
 
-## Full Catalog GMPE Comparisons
+## BBP Calculations, LA Basin 863 (m/s) Velocity Model
 *[(top)](#bruce-3062)*
 
-* [ASK2014](gmpe_bbp_comparisons_ASK2014_vmLA_BASIN_863/)
-* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr_vmLA_BASIN_863/)
 
-## Rotated Rupture Variability Comparisons
+### Full Catalog GMPE Comparisons, LA Basin 863 (m/s)
 *[(top)](#bruce-3062)*
 
-* [M6.6, Reverse, Dip=45, Ztor=3](rotated_ruptures_m6p6_reverse/)
-* [M6.6, Vertical Strike-Slip with Surface Rupture](rotated_ruptures_m6p6_vert_ss_surface/)
-* [M7.2, Vertical Strike-Slip with Surface Rupture](rotated_ruptures_m7p2_vert_ss_surface/)
+* [ASK2014](bbp_LA_BASIN_863/gmpe_bbp_comparisons_ASK2014/)
+* [NGAWest_2014_NoIdr](bbp_LA_BASIN_863/gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
+
+### Rotated Rupture Variability Comparisons, LA Basin 863 (m/s)
+*[(top)](#bruce-3062)*
+
+* [M6.6, Reverse, Dip=45, Ztor=3](bbp_LA_BASIN_863/rotated_ruptures_m6p6_reverse/)
+* [M6.6, Vertical Strike-Slip with Surface Rupture](bbp_LA_BASIN_863/rotated_ruptures_m6p6_vert_ss_surface/)
+* [M7.2, Vertical Strike-Slip with Surface Rupture](bbp_LA_BASIN_863/rotated_ruptures_m7p2_vert_ss_surface/)
 
 ## Plots
 ### Magnitude-Frequency Plot

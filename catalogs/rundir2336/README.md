@@ -11,9 +11,10 @@
 | **Frictional Params** | a=0.001, b=0.008, (b-a)=0.007, ddotEQ=1.5 |
 
 * [Metadata](#metadata)
-* [Single Event Comparisons](#single-event-comparisons)
-* [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
-* [Full Catalog GMPE Comparisons with BBP Rupture Generator](#full-catalog-gmpe-comparisons-with-bbp-rupture-generator)
+* [BBP Calculations, LA Basin 863 (m/s) Velocity Model](#bbp-calculations-la-basin-863-ms-velocity-model)
+  * [Single Event Comparisons, LA Basin 863 (m/s)](#single-event-comparisons-la-basin-863-ms)
+  * [Full Catalog GMPE Comparisons, LA Basin 863 (m/s)](#full-catalog-gmpe-comparisons-la-basin-863-ms)
+  * [Full Catalog GMPE Comparisons with BBP Rupture Generator, LA Basin 863 (m/s)](#full-catalog-gmpe-comparisons-with-bbp-rupture-generator-la-basin-863-ms)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
@@ -27,22 +28,26 @@
     * [Subsection Interevent Time Comparisons](#subsection-interevent-time-comparisons)
 * [Input File](#input-file)
 
-## Single Event Comparisons
+## BBP Calculations, LA Basin 863 (m/s) Velocity Model
 *[(top)](#bruce-2336)*
 
-* [Event 131670, M7.67](event_131670/)
 
-## Full Catalog GMPE Comparisons
+### Single Event Comparisons, LA Basin 863 (m/s)
 *[(top)](#bruce-2336)*
 
-* [BSSA2014](gmpe_bbp_comparisons_BSSA2014_vmLA_BASIN_863/)
-* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr_vmLA_BASIN_863/)
+* [Event 131670, M7.67](bbp_LA_BASIN_863/event_131670/)
 
-## Full Catalog GMPE Comparisons with BBP Rupture Generator
+### Full Catalog GMPE Comparisons, LA Basin 863 (m/s)
 *[(top)](#bruce-2336)*
 
-* [BSSA2014](gmpe_bbp_rg_comparisons_BSSA2014/)
-* [NGAWest_2014_NoIdr](gmpe_bbp_rg_comparisons_NGAWest_2014_NoIdr/)
+* [BSSA2014](bbp_LA_BASIN_863/gmpe_bbp_comparisons_BSSA2014/)
+* [NGAWest_2014_NoIdr](bbp_LA_BASIN_863/gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
+
+### Full Catalog GMPE Comparisons with BBP Rupture Generator, LA Basin 863 (m/s)
+*[(top)](#bruce-2336)*
+
+* [BSSA2014](bbp_LA_BASIN_863/gmpe_bbp_rg_comparisons_BSSA2014/)
+* [NGAWest_2014_NoIdr](bbp_LA_BASIN_863/gmpe_bbp_rg_comparisons_NGAWest_2014_NoIdr/)
 
 ## Plots
 ### Magnitude-Frequency Plot

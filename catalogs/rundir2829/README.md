@@ -11,9 +11,10 @@
 | **Frictional Params** | a=0.001, b=0.01, (b-a)=0.009, ddotEQ=1.0 |
 
 * [Metadata](#metadata)
-* [Single Event Comparisons](#single-event-comparisons)
-* [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
-* [BBP Part B Analysis](bbp_part_b/)
+* [BBP Calculations, LA Basin 863 (m/s) Velocity Model](#bbp-calculations-la-basin-863-ms-velocity-model)
+  * [Single Event Comparisons, LA Basin 863 (m/s)](#single-event-comparisons-la-basin-863-ms)
+  * [Full Catalog GMPE Comparisons, LA Basin 863 (m/s)](#full-catalog-gmpe-comparisons-la-basin-863-ms)
+  * [BBP Part B Analysis, LA Basin 863 (m/s)](bbp_LA_BASIN_863/bbp_part_b)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
@@ -27,22 +28,26 @@
     * [Subsection Interevent Time Comparisons](#subsection-interevent-time-comparisons)
 * [Input File](#input-file)
 
-## Single Event Comparisons
+## BBP Calculations, LA Basin 863 (m/s) Velocity Model
 *[(top)](#bruce-2829)*
 
-* [Event 31324, M7.30](event_31324/)
-* [Event 5304, M7.61](event_5304/)
 
-## Full Catalog GMPE Comparisons
+### Single Event Comparisons, LA Basin 863 (m/s)
 *[(top)](#bruce-2829)*
 
-* [ASK2014](gmpe_bbp_comparisons_ASK2014_vmLA_BASIN_863/)
-* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr_vmLA_BASIN_863/)
+* [Event 31324, M7.30](bbp_LA_BASIN_863/event_31324/)
+* [Event 5304, M7.61](bbp_LA_BASIN_863/event_5304/)
 
-## BBP Part B Analysis
+### Full Catalog GMPE Comparisons, LA Basin 863 (m/s)
 *[(top)](#bruce-2829)*
 
-[BBP Part B Analysis Here](bbp_part_b/)
+* [ASK2014](bbp_LA_BASIN_863/gmpe_bbp_comparisons_ASK2014/)
+* [NGAWest_2014_NoIdr](bbp_LA_BASIN_863/gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
+
+### BBP Part B Analysis, LA Basin 863 (m/s)
+*[(top)](#bruce-2829)*
+
+[BBP Part B Analysis Here](bbp_LA_BASIN_863/bbp_part_b)
 
 ## Plots
 ### Magnitude-Frequency Plot
