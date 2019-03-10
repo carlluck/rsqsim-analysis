@@ -2,6 +2,7 @@
 
 | Date | Name | Duration | Element Area | Description |
 |-----|-----|-----|-----|-----|
+| 2019/03/09 | [Bruce 3164](rundir3164#bruce-3164) | 82,314 yrs | 1.34 km | AReduceDelay  tCausalFactor=3.0 areaFrac=0.99  V=1  b=.027 a=.015 fA=.005 ; Smooth Model |
 | 2019/02/10 | [Bruce 3067](rundir3067#bruce-3067) | 49,542 yrs | 1.34 km | Variable normal stress dsigdsA =0.666.  Rest same as r3062 |
 | 2019/02/08 | [Bruce 3065](rundir3065#bruce-3065) | 59,703 yrs | 1.34 km | Variable normal stress dsigdsA =0.6.  Rest same as r3062 |
 | 2019/02/08 | [Bruce 3062](rundir3062#bruce-3062) | 128,688 yrs | 1.34 km | SmoothF=1e5. Connected discontinuities. V=1. fracArea=0.99. b=.011 |
