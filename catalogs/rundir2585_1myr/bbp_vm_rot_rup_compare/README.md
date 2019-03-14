@@ -4,8 +4,8 @@ This page contains comparisons of BBP simulations for the same RSQSim catalog wi
 
 The following velocity models are shown:
 
-* LA_BASIN_863, Vs30=863.0 m/s
-* LA_BASIN_500, Vs30=500.0 m/s
+* LA Basin 863 (m/s), Vs30=863.0 m/s
+* LA Basin 500 (m/s), Vs30=500.0 m/s
 
 We compare results with the following GMPE(s):
 
@@ -29,7 +29,7 @@ We compare results with the following GMPE(s):
 
 ![Upper VM Profiles](resources/vm_profiles_upper.png)
 
-### LA_BASIN_863 Profile
+### LA Basin 863 (m/s) Profile
 *[(top)](#table-of-contents)*
 
 | Start Depth (km) | End Depth (km) | Thickness (km) | Vs (km/s) | Vp (km/s) |
@@ -53,7 +53,7 @@ We compare results with the following GMPE(s):
 | 21.0 | 31.0 | 10.0 | 3.8 | 6.8 |
 | 31.0 | 1030.0 | 999.0 | 4.5 | 7.8 |
 
-### LA_BASIN_500 Profile
+### LA Basin 500 (m/s) Profile
 *[(top)](#table-of-contents)*
 
 | Start Depth (km) | End Depth (km) | Thickness (km) | Vs (km/s) | Vp (km/s) |
@@ -73,6 +73,14 @@ We compare results with the following GMPE(s):
 | 9.0 | 17.0 | 8.0 | 3.6 | 6.35 |
 | 17.0 | 30.0 | 13.0 | 3.8 | 6.8 |
 | 30.0 | 1029.0 | 999.0 | 4.5 | 7.8 |
+
+### Z1.0 and Z2.5 Comparisons
+*[(top)](#table-of-contents)*
+
+| VM Name | VM Z1.0 (km) | ASK 2014 Z1.0 (km) | BSSA 2014 Z1.0 (km) | CY 2014 Z1.0 (km) | VM Z2.5 (km) | CB 2014 Z2.5 (km) |
+|-----|-----|-----|-----|-----|-----|-----|
+| **LA Basin 863 (m/s)** | **0.02** | 0.023041464 | 0.019953089 | 0.01995113 | **3.0** | 0.52470744 |
+| **LA Basin 500 (m/s)** | **0.2** | 0.24750118 | 0.22898823 | 0.2288851 | **2.5** | 0.9796973 |
 
 ## M6.6, Vertical Strike-Slip with Surface Rupture
 *[(top)](#table-of-contents)*
