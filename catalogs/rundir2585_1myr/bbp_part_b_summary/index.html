@@ -24,8 +24,7 @@ img {
 <h2 id="table-of-contents">Table Of Contents</h2>
 <ul>
 <li><a href="#bbp-partb-background-information">BBP PartB Background Information</a></li>
-<li><a href="#result-summary-table">Result Summary Table</a></li>
-<li><a href="#plots">Plots</a>
+<li><a href="#result">Result</a>
 <ul>
 <li><a href="#m66-vertical-strike-slip-with-surface-rupture">M6.6, Vertical Strike-Slip with Surface Rupture</a></li>
 <li><a href="#m66-reverse-dip45-ztor3">M6.6, Reverse, Dip=45, Ztor=3</a></li>
@@ -49,38 +48,9 @@ img {
 </ul>
 <p>50 rupture realizations were generated for each scenario with randomly distributed hypocenters, and 40 sites were distributed at random azimuths on the footwall side of the faults at rupture distances of 20 and 50 km. Resultant ground motions were compared against an evaluation criterion which &quot;was established so as to be wide enough to limit a pass/fail grade for each scenario considered.&quot; This criterion only applies at periods up to 3s, becase data above this period &quot;are fairly sparse and cannot provide a reliable constraint.&quot;</p>
 <p>A method is said to pass the test if the median RotD50 value is within the evaluation criteria at every spectral period. &quot;Departure from that range is a definite sign that the model is not consistent with our current dataset and is a sign of potential issues with the simulations.&quot;</p>
-<h2 id="result-summary-table">Result Summary Table</h2>
+<h2 id="result">Result</h2>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <p>Results for official BBP PartB criteria are listed in <strong>bold</strong>, and those for unofficial scenarios (which use the same formulae to determine criteria but where the underlying models are less constrained) are listed in <em>(italics)</em>. Failures also list the largetst failure (at any period), in natural-log units from the criterion. A positive value means that the simulated median value was above the maximum criterion by the specified natural-log amount, and a negative below the minimum criterion.</p>
-<table>
-<thead>
-<tr><th>Scenario</th><th>Velocity Model</th><th>Rotation?</th><th>Link</th><th>20.0 km Result</th><th>Ln Fail Amount</th><th>50.0 km Result</th><th>Ln Fail Amount</th><th>100.0 km Result</th><th>Ln Fail Amount</th></tr>
-</thead>
-<tbody>
-<tr><td>M6.6 SS</td><td>LA Basin 863 (m/s)</td><td>no</td><td><a href="../bbp_LA_BASIN_863/bbp_part_b">Page Link</a></td><td><strong>PASS</strong></td><td></td><td><strong>PASS</strong></td><td></td><td><em>N/A</em></td><td></td></tr>
-<tr><td>M6.6 SS</td><td>LA Basin 863 (m/s)</td><td>yes</td><td><a href="../bbp_LA_BASIN_863/rotated_ruptures_m6p6_vert_ss_surface">Page Link</a></td><td><strong>PASS</strong></td><td></td><td><strong>PASS</strong></td><td></td><td><em>(PASS)</em></td><td></td></tr>
-<tr><td>M6.6 SS</td><td>LA Basin 500 (m/s)</td><td>no</td><td><a href="../bbp_LA_BASIN_500/bbp_part_b">Page Link</a></td><td><strong>FAIL</strong></td><td>-0.026501494</td><td><strong>FAIL</strong></td><td>-0.03552638</td><td><em>N/A</em></td><td></td></tr>
-<tr><td>M6.6 SS</td><td>LA Basin 500 (m/s)</td><td>yes</td><td><a href="../bbp_LA_BASIN_500/rotated_ruptures_m6p6_vert_ss_surface">Page Link</a></td><td><strong>FAIL</strong></td><td>-0.02202357</td><td><strong>FAIL</strong></td><td>-0.04429825</td><td><em>(FAIL)</em></td><td>-0.05429953</td></tr>
-<tr><td>M6.6 Reverse</td><td>LA Basin 863 (m/s)</td><td>no</td><td><a href="../bbp_LA_BASIN_863/bbp_part_b">Page Link</a></td><td><strong>PASS</strong></td><td></td><td><strong>PASS</strong></td><td></td><td><em>N/A</em></td><td></td></tr>
-<tr><td>M6.6 Reverse</td><td>LA Basin 863 (m/s)</td><td>yes</td><td><a href="../bbp_LA_BASIN_863/rotated_ruptures_m6p6_reverse">Page Link</a></td><td><strong>FAIL</strong></td><td>-3.0430473E-4</td><td><strong>PASS</strong></td><td></td><td><em>(PASS)</em></td><td></td></tr>
-<tr><td>M6.6 Reverse</td><td>LA Basin 500 (m/s)</td><td>no</td><td><a href="../bbp_LA_BASIN_500/bbp_part_b">Page Link</a></td><td><strong>FAIL</strong></td><td>-0.31272474</td><td><strong>FAIL</strong></td><td>-0.24618043</td><td><em>N/A</em></td><td></td></tr>
-<tr><td>M6.6 Reverse</td><td>LA Basin 500 (m/s)</td><td>yes</td><td><a href="../bbp_LA_BASIN_500/rotated_ruptures_m6p6_reverse">Page Link</a></td><td><strong>FAIL</strong></td><td>-0.3436171</td><td><strong>FAIL</strong></td><td>-0.25448194</td><td><em>(FAIL)</em></td><td>-0.1595632</td></tr>
-<tr><td>M7.2 SS</td><td>LA Basin 863 (m/s)</td><td>yes</td><td><a href="../bbp_LA_BASIN_863/rotated_ruptures_m7p2_vert_ss_surface">Page Link</a></td><td><em>(FAIL)</em></td><td>0.48618278</td><td><em>(FAIL)</em></td><td>0.4000601</td><td><em>(FAIL)</em></td><td>0.2716579</td></tr>
-<tr><td>M7.2 SS</td><td>LA Basin 500 (m/s)</td><td>no</td><td><a href="../bbp_LA_BASIN_500/bbp_part_b">Page Link</a></td><td><em>(FAIL)</em></td><td>0.34203008</td><td><em>(FAIL)</em></td><td>0.016803756</td><td><em>N/A</em></td><td></td></tr>
-<tr><td>M7.2 SS</td><td>LA Basin 500 (m/s)</td><td>yes</td><td><a href="../bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface">Page Link</a></td><td><em>(FAIL)</em></td><td>0.19656545</td><td><em>(FAIL)</em></td><td>0.026863437</td><td><em>(FAIL)</em></td><td>0.06008641</td></tr>
-<tr><td>M7.2 Reverse</td><td>LA Basin 863 (m/s)</td><td>yes</td><td><a href="../bbp_LA_BASIN_863/rotated_ruptures_m7p2_reverse">Page Link</a></td><td><em>(FAIL)</em></td><td>0.22424392</td><td><em>(FAIL)</em></td><td>0.23314002</td><td><em>(FAIL)</em></td><td>0.2074014</td></tr>
-<tr><td>M7.2 Reverse</td><td>LA Basin 500 (m/s)</td><td>no</td><td><a href="../bbp_LA_BASIN_500/bbp_part_b">Page Link</a></td><td><em>(PASS)</em></td><td></td><td><em>(PASS)</em></td><td></td><td><em>N/A</em></td><td></td></tr>
-<tr><td>M7.2 Reverse</td><td>LA Basin 500 (m/s)</td><td>yes</td><td><a href="../bbp_LA_BASIN_500/rotated_ruptures_m7p2_reverse">Page Link</a></td><td><em>(PASS)</em></td><td></td><td><em>(PASS)</em></td><td></td><td><em>(PASS)</em></td><td></td></tr>
-<tr><td>M7.6 SS</td><td>LA Basin 863 (m/s)</td><td>yes</td><td><a href="../bbp_LA_BASIN_863/rotated_ruptures_m7p6_vert_ss_surface">Page Link</a></td><td><em>(FAIL)</em></td><td>0.7548017</td><td><em>(FAIL)</em></td><td>0.5500974</td><td><em>(FAIL)</em></td><td>0.2588784</td></tr>
-<tr><td>M7.6 SS</td><td>LA Basin 500 (m/s)</td><td>no</td><td><a href="../bbp_LA_BASIN_500/bbp_part_b">Page Link</a></td><td><em>(FAIL)</em></td><td>0.46908635</td><td><em>(FAIL)</em></td><td>0.27621907</td><td><em>N/A</em></td><td></td></tr>
-<tr><td>M7.6 SS</td><td>LA Basin 500 (m/s)</td><td>yes</td><td><a href="../bbp_LA_BASIN_500/rotated_ruptures_m7p6_vert_ss_surface">Page Link</a></td><td><em>(FAIL)</em></td><td>0.39212325</td><td><em>(FAIL)</em></td><td>0.1552544</td><td><em>(PASS)</em></td><td></td></tr>
-<tr><td>M7.6 Reverse</td><td>LA Basin 863 (m/s)</td><td>yes</td><td><a href="../bbp_LA_BASIN_863/rotated_ruptures_m7p6_reverse">Page Link</a></td><td><em>(FAIL)</em></td><td>0.6813394</td><td><em>(FAIL)</em></td><td>0.5887081</td><td><em>(FAIL)</em></td><td>0.43806335</td></tr>
-<tr><td>M7.6 Reverse</td><td>LA Basin 500 (m/s)</td><td>no</td><td><a href="../bbp_LA_BASIN_500/bbp_part_b">Page Link</a></td><td><em>(FAIL)</em></td><td>0.5856252</td><td><em>(FAIL)</em></td><td>0.22480956</td><td><em>N/A</em></td><td></td></tr>
-<tr><td>M7.6 Reverse</td><td>LA Basin 500 (m/s)</td><td>yes</td><td><a href="../bbp_LA_BASIN_500/rotated_ruptures_m7p6_reverse">Page Link</a></td><td><em>(FAIL)</em></td><td>0.3282838</td><td><em>(FAIL)</em></td><td>0.21737458</td><td><em>(FAIL)</em></td><td>0.19641219</td></tr>
-</tbody>
-</table>
-<h2 id="plots">Plots</h2>
-<p><em><a href="#table-of-contents">(top)</a></em></p>
 <h3 id="m66-vertical-strike-slip-with-surface-rupture">M6.6, Vertical Strike-Slip with Surface Rupture</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <table>

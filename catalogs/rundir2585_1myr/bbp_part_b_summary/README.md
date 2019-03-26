@@ -4,8 +4,7 @@ This page combines results from multiple BBP PartB calculations for different BB
 
 ## Table Of Contents
 * [BBP PartB Background Information](#bbp-partb-background-information)
-* [Result Summary Table](#result-summary-table)
-* [Plots](#plots)
+* [Result](#result)
   * [M6.6, Vertical Strike-Slip with Surface Rupture](#m66-vertical-strike-slip-with-surface-rupture)
   * [M6.6, Reverse, Dip=45, Ztor=3](#m66-reverse-dip45-ztor3)
   * [M7.2, Vertical Strike-Slip with Surface Rupture](#m72-vertical-strike-slip-with-surface-rupture)
@@ -30,36 +29,10 @@ The goal of this exercise was to validate BBP simulation methods (both rupture g
 
 A method is said to pass the test if the median RotD50 value is within the evaluation criteria at every spectral period. "Departure from that range is a definite sign that the model is not consistent with our current dataset and is a sign of potential issues with the simulations."
 
-## Result Summary Table
+## Result
 *[(top)](#table-of-contents)*
 
 Results for official BBP PartB criteria are listed in **bold**, and those for unofficial scenarios (which use the same formulae to determine criteria but where the underlying models are less constrained) are listed in *(italics)*. Failures also list the largetst failure (at any period), in natural-log units from the criterion. A positive value means that the simulated median value was above the maximum criterion by the specified natural-log amount, and a negative below the minimum criterion.
-
-| Scenario | Velocity Model | Rotation? | Link | 20.0 km Result | Ln Fail Amount | 50.0 km Result | Ln Fail Amount | 100.0 km Result | Ln Fail Amount |
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| M6.6 SS | LA Basin 863 (m/s) | no | [Page Link](../bbp_LA_BASIN_863/bbp_part_b) | **PASS** |  | **PASS** |  | *N/A* |  |
-| M6.6 SS | LA Basin 863 (m/s) | yes | [Page Link](../bbp_LA_BASIN_863/rotated_ruptures_m6p6_vert_ss_surface) | **PASS** |  | **PASS** |  | *(PASS)* |  |
-| M6.6 SS | LA Basin 500 (m/s) | no | [Page Link](../bbp_LA_BASIN_500/bbp_part_b) | **FAIL** | -0.026501494 | **FAIL** | -0.03552638 | *N/A* |  |
-| M6.6 SS | LA Basin 500 (m/s) | yes | [Page Link](../bbp_LA_BASIN_500/rotated_ruptures_m6p6_vert_ss_surface) | **FAIL** | -0.02202357 | **FAIL** | -0.04429825 | *(FAIL)* | -0.05429953 |
-| M6.6 Reverse | LA Basin 863 (m/s) | no | [Page Link](../bbp_LA_BASIN_863/bbp_part_b) | **PASS** |  | **PASS** |  | *N/A* |  |
-| M6.6 Reverse | LA Basin 863 (m/s) | yes | [Page Link](../bbp_LA_BASIN_863/rotated_ruptures_m6p6_reverse) | **FAIL** | -3.0430473E-4 | **PASS** |  | *(PASS)* |  |
-| M6.6 Reverse | LA Basin 500 (m/s) | no | [Page Link](../bbp_LA_BASIN_500/bbp_part_b) | **FAIL** | -0.31272474 | **FAIL** | -0.24618043 | *N/A* |  |
-| M6.6 Reverse | LA Basin 500 (m/s) | yes | [Page Link](../bbp_LA_BASIN_500/rotated_ruptures_m6p6_reverse) | **FAIL** | -0.3436171 | **FAIL** | -0.25448194 | *(FAIL)* | -0.1595632 |
-| M7.2 SS | LA Basin 863 (m/s) | yes | [Page Link](../bbp_LA_BASIN_863/rotated_ruptures_m7p2_vert_ss_surface) | *(FAIL)* | 0.48618278 | *(FAIL)* | 0.4000601 | *(FAIL)* | 0.2716579 |
-| M7.2 SS | LA Basin 500 (m/s) | no | [Page Link](../bbp_LA_BASIN_500/bbp_part_b) | *(FAIL)* | 0.34203008 | *(FAIL)* | 0.016803756 | *N/A* |  |
-| M7.2 SS | LA Basin 500 (m/s) | yes | [Page Link](../bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface) | *(FAIL)* | 0.19656545 | *(FAIL)* | 0.026863437 | *(FAIL)* | 0.06008641 |
-| M7.2 Reverse | LA Basin 863 (m/s) | yes | [Page Link](../bbp_LA_BASIN_863/rotated_ruptures_m7p2_reverse) | *(FAIL)* | 0.22424392 | *(FAIL)* | 0.23314002 | *(FAIL)* | 0.2074014 |
-| M7.2 Reverse | LA Basin 500 (m/s) | no | [Page Link](../bbp_LA_BASIN_500/bbp_part_b) | *(PASS)* |  | *(PASS)* |  | *N/A* |  |
-| M7.2 Reverse | LA Basin 500 (m/s) | yes | [Page Link](../bbp_LA_BASIN_500/rotated_ruptures_m7p2_reverse) | *(PASS)* |  | *(PASS)* |  | *(PASS)* |  |
-| M7.6 SS | LA Basin 863 (m/s) | yes | [Page Link](../bbp_LA_BASIN_863/rotated_ruptures_m7p6_vert_ss_surface) | *(FAIL)* | 0.7548017 | *(FAIL)* | 0.5500974 | *(FAIL)* | 0.2588784 |
-| M7.6 SS | LA Basin 500 (m/s) | no | [Page Link](../bbp_LA_BASIN_500/bbp_part_b) | *(FAIL)* | 0.46908635 | *(FAIL)* | 0.27621907 | *N/A* |  |
-| M7.6 SS | LA Basin 500 (m/s) | yes | [Page Link](../bbp_LA_BASIN_500/rotated_ruptures_m7p6_vert_ss_surface) | *(FAIL)* | 0.39212325 | *(FAIL)* | 0.1552544 | *(PASS)* |  |
-| M7.6 Reverse | LA Basin 863 (m/s) | yes | [Page Link](../bbp_LA_BASIN_863/rotated_ruptures_m7p6_reverse) | *(FAIL)* | 0.6813394 | *(FAIL)* | 0.5887081 | *(FAIL)* | 0.43806335 |
-| M7.6 Reverse | LA Basin 500 (m/s) | no | [Page Link](../bbp_LA_BASIN_500/bbp_part_b) | *(FAIL)* | 0.5856252 | *(FAIL)* | 0.22480956 | *N/A* |  |
-| M7.6 Reverse | LA Basin 500 (m/s) | yes | [Page Link](../bbp_LA_BASIN_500/rotated_ruptures_m7p6_reverse) | *(FAIL)* | 0.3282838 | *(FAIL)* | 0.21737458 | *(FAIL)* | 0.19641219 |
-
-## Plots
-*[(top)](#table-of-contents)*
 
 ### M6.6, Vertical Strike-Slip with Surface Rupture
 *[(top)](#table-of-contents)*
