@@ -49,7 +49,7 @@ We reproduce the Part B experiment using RSQSim as the rupture generator, couple
 | Scenario | 20 km | 50 km |
 |-----|-----|-----|
 | M6.6 SS | **[PASS](#m66-ss-20-km-results)** | **[PASS](#m66-ss-50-km-results)** |
-| M6.6 Reverse | **[FAIL](#m66-reverse-20-km-results)** | **[PASS](#m66-reverse-50-km-results)** |
+| M6.6 Reverse | **[PASS](#m66-reverse-20-km-results)** | **[PASS](#m66-reverse-50-km-results)** |
 
 ## M6.6, Vertical Strike-Slip with Surface Rupture
 *[(top)](#table-of-contents)*
@@ -60,14 +60,14 @@ We reproduce the Part B experiment using RSQSim as the rupture generator, couple
 4346 events in the catalog match the following criteria:
 
 * M=[6.55,6.65]
-* Ztor=[0,1]
+* Ztor=[0.0,1.0]
 * Rake=[-180,-170] or [-10,10] or [170,180]
-* Dip=90
+* Dip=90.0
 * Linear rupture (max 0.5km deviation from ideal)
 
 Example matches (20 km sites in Blue, 50 km sites in Geen):
 
-| ![Event 49332](resources/m6p6_vert_ss_surface_match_0_event_49332.png) | ![Event 49732](resources/m6p6_vert_ss_surface_match_1_event_49732.png) | ![Event 52998](resources/m6p6_vert_ss_surface_match_2_event_52998.png) | ![Event 55020](resources/m6p6_vert_ss_surface_match_3_event_55020.png) | ![Event 56442](resources/m6p6_vert_ss_surface_match_4_event_56442.png) |
+| ![Event 4063294](resources/m6p6_vert_ss_surface_match_0_event_4063294.png) | ![Event 7946360](resources/m6p6_vert_ss_surface_match_1_event_7946360.png) | ![Event 5627990](resources/m6p6_vert_ss_surface_match_2_event_5627990.png) | ![Event 9822358](resources/m6p6_vert_ss_surface_match_3_event_9822358.png) | ![Event 2687020](resources/m6p6_vert_ss_surface_match_4_event_2687020.png) |
 |-----|-----|-----|-----|-----|
 ### M6.6 SS 20 km Results
 *[(top)](#table-of-contents)*
@@ -120,27 +120,27 @@ Result: **PASS**
 142 events in the catalog match the following criteria:
 
 * M=[6.55,6.65]
-* Ztor=[2,4]
+* Ztor=[1.0,5.0]
 * Rake=[80,100]
-* Dip=[40,50]
+* Dip=[35.0,55.0]
 
 Example matches (20 km sites in Blue, 50 km sites in Geen):
 
-| ![Event 72342](resources/m6p6_reverse_match_0_event_72342.png) | ![Event 147609](resources/m6p6_reverse_match_1_event_147609.png) | ![Event 187511](resources/m6p6_reverse_match_2_event_187511.png) | ![Event 313568](resources/m6p6_reverse_match_3_event_313568.png) | ![Event 316102](resources/m6p6_reverse_match_4_event_316102.png) |
+| ![Event 1982494](resources/m6p6_reverse_match_0_event_1982494.png) | ![Event 4315200](resources/m6p6_reverse_match_1_event_4315200.png) | ![Event 5851740](resources/m6p6_reverse_match_2_event_5851740.png) | ![Event 6556513](resources/m6p6_reverse_match_3_event_6556513.png) | ![Event 8486791](resources/m6p6_reverse_match_4_event_8486791.png) |
 |-----|-----|-----|-----|-----|
 ### M6.6 Reverse 20 km Results
 *[(top)](#table-of-contents)*
 
-Result: **FAIL**
+Result: **PASS**
 
 ![Acceptance Plot](resources/m6p6_reverse_20km.png)
 
 | **Period** | 1s | 1.1s | 1.2s | 1.3s | 1.5s | 1.7s | 2s | 2.2s | 2.4s | 2.6s | 2.8s | 3s |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| **Lower Bound** | 0.0509 | 0.0451 | 0.0404 | 0.0365 | 0.0304 | 0.0258 | 0.0208 | 0.0184 | 0.0165 | 0.0149 | 0.0136 | 0.0124 |
-| **Sim Median** | **0.0642** | **0.0565** | **0.0493** | **0.0428** | **0.0332** | *0.0257* | *0.0206* | **0.0190** | **0.0182** | **0.0172** | **0.0156** | **0.0141** |
-| **NGA-W2 Median** | 0.0735 | 0.0651 | 0.0583 | 0.0527 | 0.0439 | 0.0372 | 0.0299 | 0.0265 | 0.0238 | 0.0215 | 0.0196 | 0.0179 |
-| **Upper Bound** | 0.1060 | 0.0939 | 0.0841 | 0.0760 | 0.0633 | 0.0536 | 0.0432 | 0.0383 | 0.0343 | 0.0310 | 0.0282 | 0.0259 |
+| **Lower Bound** | 0.0494 | 0.0438 | 0.0392 | 0.0355 | 0.0296 | 0.0251 | 0.0203 | 0.0180 | 0.0162 | 0.0146 | 0.0133 | 0.0122 |
+| **Sim Median** | **0.0642** | **0.0565** | **0.0493** | **0.0428** | **0.0332** | **0.0257** | **0.0206** | **0.0190** | **0.0182** | **0.0172** | **0.0156** | **0.0141** |
+| **NGA-W2 Median** | 0.0712 | 0.0632 | 0.0566 | 0.0511 | 0.0427 | 0.0363 | 0.0293 | 0.0260 | 0.0233 | 0.0211 | 0.0192 | 0.0176 |
+| **Upper Bound** | 0.1028 | 0.0911 | 0.0816 | 0.0738 | 0.0616 | 0.0523 | 0.0423 | 0.0375 | 0.0336 | 0.0304 | 0.0277 | 0.0254 |
 
 #### M6.6 Reverse 20 km Comparisons
 *[(top)](#table-of-contents)*
@@ -158,10 +158,10 @@ Result: **PASS**
 
 | **Period** | 1s | 1.1s | 1.2s | 1.3s | 1.5s | 1.7s | 2s | 2.2s | 2.4s | 2.6s | 2.8s | 3s |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| **Lower Bound** | 0.0203 | 0.0181 | 0.0163 | 0.0148 | 0.0124 | 0.0106 | 0.0085 | 0.0076 | 0.0068 | 0.0061 | 0.0056 | 0.0051 |
+| **Lower Bound** | 0.0198 | 0.0177 | 0.0159 | 0.0145 | 0.0122 | 0.0104 | 0.0084 | 0.0074 | 0.0067 | 0.0060 | 0.0055 | 0.0050 |
 | **Sim Median** | **0.0268** | **0.0236** | **0.0211** | **0.0187** | **0.0143** | **0.0119** | **0.0086** | **0.0077** | **0.0072** | **0.0072** | **0.0068** | **0.0062** |
-| **NGA-W2 Median** | 0.0294 | 0.0262 | 0.0235 | 0.0214 | 0.0180 | 0.0152 | 0.0123 | 0.0109 | 0.0098 | 0.0088 | 0.0080 | 0.0074 |
-| **Upper Bound** | 0.0424 | 0.0377 | 0.0340 | 0.0308 | 0.0259 | 0.0220 | 0.0177 | 0.0157 | 0.0141 | 0.0127 | 0.0116 | 0.0106 |
+| **NGA-W2 Median** | 0.0286 | 0.0255 | 0.0230 | 0.0209 | 0.0175 | 0.0149 | 0.0121 | 0.0107 | 0.0096 | 0.0087 | 0.0079 | 0.0073 |
+| **Upper Bound** | 0.0413 | 0.0368 | 0.0331 | 0.0301 | 0.0253 | 0.0215 | 0.0175 | 0.0155 | 0.0139 | 0.0125 | 0.0114 | 0.0105 |
 
 #### M6.6 Reverse 50 km Comparisons
 *[(top)](#table-of-contents)*

@@ -22,6 +22,7 @@
   * [Full Catalog GMPE Comparisons, LA Basin 500 (m/s)](#full-catalog-gmpe-comparisons-la-basin-500-ms)
   * [BBP Part B Analysis, LA Basin 500 (m/s)](bbp_LA_BASIN_500/bbp_part_b)
   * [Rotated Rupture Variability Comparisons, LA Basin 500 (m/s)](#rotated-rupture-variability-comparisons-la-basin-500-ms)
+* [BBP PartB Summary](bbp_part_b_summary/)
 * [BBP Velocity Model Comparisons](bbp_vm_rot_rup_compare/)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
@@ -100,6 +101,11 @@
 * [M7.2, Vertical Strike-Slip with Surface Rupture](bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface/)
 * [M7.6, Reverse, Dip=45](bbp_LA_BASIN_500/rotated_ruptures_m7p6_reverse/)
 * [M7.6, Vertical Strike-Slip with Surface Rupture](bbp_LA_BASIN_500/rotated_ruptures_m7p6_vert_ss_surface/)
+
+## BBP PartB Summary
+*[(top)](#bruce-2585-1myr)*
+
+[BBP PartB Summary Here](bbp_part_b_summary/)
 
 ## BBP Velocity Model Comparisons
 *[(top)](#bruce-2585-1myr)*
