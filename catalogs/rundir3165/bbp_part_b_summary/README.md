@@ -41,7 +41,7 @@ Results for official BBP PartB criteria are listed in **bold**, and those for un
 |-----|-----|-----|-----|-----|-----|
 | LA Basin 863 (m/s) | yes | [Page Link](../bbp_LA_BASIN_863/rotated_ruptures_m6p6_vert_ss_surface) | **PASS** | **PASS** | *(PASS)* |
 |  |  |  | ![Plot](../bbp_LA_BASIN_863/rotated_ruptures_m6p6_vert_ss_surface/resources/bbp_partB_m6p6_vert_ss_surface_20km.png) | ![Plot](../bbp_LA_BASIN_863/rotated_ruptures_m6p6_vert_ss_surface/resources/bbp_partB_m6p6_vert_ss_surface_50km.png) | ![Plot](../bbp_LA_BASIN_863/rotated_ruptures_m6p6_vert_ss_surface/resources/bbp_partB_m6p6_vert_ss_surface_100km.png) |
-| LA Basin 500 (m/s) | yes | [Page Link](../bbp_LA_BASIN_500/rotated_ruptures_m6p6_vert_ss_surface) | **FAIL**, Max Ln Fail: 0.06388516 | **PASS** | *(FAIL)*, Max Ln Fail: 0.033799104 |
+| LA Basin 500 (m/s) | yes | [Page Link](../bbp_LA_BASIN_500/rotated_ruptures_m6p6_vert_ss_surface) | **FAIL**, Max Ln Fail: 0.06388516 @ 1.0s | **PASS** | *(FAIL)*, Max Ln Fail: 0.033799104 @ 1.0s |
 |  |  |  | ![Plot](../bbp_LA_BASIN_500/rotated_ruptures_m6p6_vert_ss_surface/resources/bbp_partB_m6p6_vert_ss_surface_20km.png) | ![Plot](../bbp_LA_BASIN_500/rotated_ruptures_m6p6_vert_ss_surface/resources/bbp_partB_m6p6_vert_ss_surface_50km.png) | ![Plot](../bbp_LA_BASIN_500/rotated_ruptures_m6p6_vert_ss_surface/resources/bbp_partB_m6p6_vert_ss_surface_100km.png) |
 
 ### M6.6, Reverse, Dip=45, Ztor=3
@@ -49,9 +49,9 @@ Results for official BBP PartB criteria are listed in **bold**, and those for un
 
 | Velocity Model | Rotation? | Link | 20.0 km | 50.0 km | 100.0 km |
 |-----|-----|-----|-----|-----|-----|
-| LA Basin 863 (m/s) | yes | [Page Link](../bbp_LA_BASIN_863/rotated_ruptures_m6p6_reverse) | **FAIL**, Max Ln Fail: -0.21425407 | **FAIL**, Max Ln Fail: -0.2841328 | *(PASS)* |
+| LA Basin 863 (m/s) | yes | [Page Link](../bbp_LA_BASIN_863/rotated_ruptures_m6p6_reverse) | **FAIL**, Max Ln Fail: -0.21425407 @ 1.5s | **FAIL**, Max Ln Fail: -0.2841328 @ 2.2s | *(PASS)* |
 |  |  |  | ![Plot](../bbp_LA_BASIN_863/rotated_ruptures_m6p6_reverse/resources/bbp_partB_m6p6_reverse_20km.png) | ![Plot](../bbp_LA_BASIN_863/rotated_ruptures_m6p6_reverse/resources/bbp_partB_m6p6_reverse_50km.png) | ![Plot](../bbp_LA_BASIN_863/rotated_ruptures_m6p6_reverse/resources/bbp_partB_m6p6_reverse_100km.png) |
-| LA Basin 500 (m/s) | yes | [Page Link](../bbp_LA_BASIN_500/rotated_ruptures_m6p6_reverse) | **PASS** | **PASS** | *(FAIL)*, Max Ln Fail: 0.0064350786 |
+| LA Basin 500 (m/s) | yes | [Page Link](../bbp_LA_BASIN_500/rotated_ruptures_m6p6_reverse) | **PASS** | **PASS** | *(FAIL)*, Max Ln Fail: 0.0064350786 @ 1.1s |
 |  |  |  | ![Plot](../bbp_LA_BASIN_500/rotated_ruptures_m6p6_reverse/resources/bbp_partB_m6p6_reverse_20km.png) | ![Plot](../bbp_LA_BASIN_500/rotated_ruptures_m6p6_reverse/resources/bbp_partB_m6p6_reverse_50km.png) | ![Plot](../bbp_LA_BASIN_500/rotated_ruptures_m6p6_reverse/resources/bbp_partB_m6p6_reverse_100km.png) |
 
 ### M7.2, Vertical Strike-Slip with Surface Rupture
@@ -59,9 +59,9 @@ Results for official BBP PartB criteria are listed in **bold**, and those for un
 
 | Velocity Model | Rotation? | Link | 20.0 km | 50.0 km | 100.0 km |
 |-----|-----|-----|-----|-----|-----|
-| LA Basin 863 (m/s) | yes | [Page Link](../bbp_LA_BASIN_863/rotated_ruptures_m7p2_vert_ss_surface) | *(FAIL)*, Max Ln Fail: 0.19156045 | *(PASS)* | *(PASS)* |
+| LA Basin 863 (m/s) | yes | [Page Link](../bbp_LA_BASIN_863/rotated_ruptures_m7p2_vert_ss_surface) | *(FAIL)*, Max Ln Fail: 0.19156045 @ 1.5s | *(PASS)* | *(PASS)* |
 |  |  |  | ![Plot](../bbp_LA_BASIN_863/rotated_ruptures_m7p2_vert_ss_surface/resources/bbp_partB_m7p2_vert_ss_surface_20km.png) | ![Plot](../bbp_LA_BASIN_863/rotated_ruptures_m7p2_vert_ss_surface/resources/bbp_partB_m7p2_vert_ss_surface_50km.png) | ![Plot](../bbp_LA_BASIN_863/rotated_ruptures_m7p2_vert_ss_surface/resources/bbp_partB_m7p2_vert_ss_surface_100km.png) |
-| LA Basin 500 (m/s) | yes | [Page Link](../bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface) | *(FAIL)*, Max Ln Fail: 0.6178826 | *(FAIL)*, Max Ln Fail: 0.05187289 | *(FAIL)*, Max Ln Fail: 0.16185147 |
+| LA Basin 500 (m/s) | yes | [Page Link](../bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface) | *(FAIL)*, Max Ln Fail: 0.6178826 @ 1.0s | *(FAIL)*, Max Ln Fail: 0.05187289 @ 1.0s | *(FAIL)*, Max Ln Fail: 0.16185147 @ 1.0s |
 |  |  |  | ![Plot](../bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface/resources/bbp_partB_m7p2_vert_ss_surface_20km.png) | ![Plot](../bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface/resources/bbp_partB_m7p2_vert_ss_surface_50km.png) | ![Plot](../bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface/resources/bbp_partB_m7p2_vert_ss_surface_100km.png) |
 
 ### M7.2, Reverse, Dip=45
@@ -69,9 +69,9 @@ Results for official BBP PartB criteria are listed in **bold**, and those for un
 
 | Velocity Model | Rotation? | Link | 20.0 km | 50.0 km | 100.0 km |
 |-----|-----|-----|-----|-----|-----|
-| LA Basin 863 (m/s) | yes | [Page Link](../bbp_LA_BASIN_863/rotated_ruptures_m7p2_reverse) | *(PASS)* | *(PASS)* | *(FAIL)*, Max Ln Fail: 0.009173892 |
+| LA Basin 863 (m/s) | yes | [Page Link](../bbp_LA_BASIN_863/rotated_ruptures_m7p2_reverse) | *(PASS)* | *(PASS)* | *(FAIL)*, Max Ln Fail: 0.009173892 @ 1.2s |
 |  |  |  | ![Plot](../bbp_LA_BASIN_863/rotated_ruptures_m7p2_reverse/resources/bbp_partB_m7p2_reverse_20km.png) | ![Plot](../bbp_LA_BASIN_863/rotated_ruptures_m7p2_reverse/resources/bbp_partB_m7p2_reverse_50km.png) | ![Plot](../bbp_LA_BASIN_863/rotated_ruptures_m7p2_reverse/resources/bbp_partB_m7p2_reverse_100km.png) |
-| LA Basin 500 (m/s) | yes | [Page Link](../bbp_LA_BASIN_500/rotated_ruptures_m7p2_reverse) | *(FAIL)*, Max Ln Fail: 0.16362396 | *(FAIL)*, Max Ln Fail: 0.0689871 | *(FAIL)*, Max Ln Fail: 0.4141718 |
+| LA Basin 500 (m/s) | yes | [Page Link](../bbp_LA_BASIN_500/rotated_ruptures_m7p2_reverse) | *(FAIL)*, Max Ln Fail: 0.16362396 @ 1.0s | *(FAIL)*, Max Ln Fail: 0.0689871 @ 1.0s | *(FAIL)*, Max Ln Fail: 0.4141718 @ 1.0s |
 |  |  |  | ![Plot](../bbp_LA_BASIN_500/rotated_ruptures_m7p2_reverse/resources/bbp_partB_m7p2_reverse_20km.png) | ![Plot](../bbp_LA_BASIN_500/rotated_ruptures_m7p2_reverse/resources/bbp_partB_m7p2_reverse_50km.png) | ![Plot](../bbp_LA_BASIN_500/rotated_ruptures_m7p2_reverse/resources/bbp_partB_m7p2_reverse_100km.png) |
 
 ### M7.6, Vertical Strike-Slip with Surface Rupture
@@ -79,9 +79,9 @@ Results for official BBP PartB criteria are listed in **bold**, and those for un
 
 | Velocity Model | Rotation? | Link | 20.0 km | 50.0 km | 100.0 km |
 |-----|-----|-----|-----|-----|-----|
-| LA Basin 863 (m/s) | yes | [Page Link](../bbp_LA_BASIN_863/rotated_ruptures_m7p6_vert_ss_surface) | *(FAIL)*, Max Ln Fail: 0.57244045 | *(FAIL)*, Max Ln Fail: 0.44391522 | *(PASS)* |
+| LA Basin 863 (m/s) | yes | [Page Link](../bbp_LA_BASIN_863/rotated_ruptures_m7p6_vert_ss_surface) | *(FAIL)*, Max Ln Fail: 0.57244045 @ 2.4s | *(FAIL)*, Max Ln Fail: 0.44391522 @ 2.6s | *(PASS)* |
 |  |  |  | ![Plot](../bbp_LA_BASIN_863/rotated_ruptures_m7p6_vert_ss_surface/resources/bbp_partB_m7p6_vert_ss_surface_20km.png) | ![Plot](../bbp_LA_BASIN_863/rotated_ruptures_m7p6_vert_ss_surface/resources/bbp_partB_m7p6_vert_ss_surface_50km.png) | ![Plot](../bbp_LA_BASIN_863/rotated_ruptures_m7p6_vert_ss_surface/resources/bbp_partB_m7p6_vert_ss_surface_100km.png) |
-| LA Basin 500 (m/s) | yes | [Page Link](../bbp_LA_BASIN_500/rotated_ruptures_m7p6_vert_ss_surface) | *(FAIL)*, Max Ln Fail: 0.87517905 | *(FAIL)*, Max Ln Fail: 0.58009905 | *(FAIL)*, Max Ln Fail: 0.12701948 |
+| LA Basin 500 (m/s) | yes | [Page Link](../bbp_LA_BASIN_500/rotated_ruptures_m7p6_vert_ss_surface) | *(FAIL)*, Max Ln Fail: 0.87517905 @ 1.0s | *(FAIL)*, Max Ln Fail: 0.58009905 @ 1.1s | *(FAIL)*, Max Ln Fail: 0.12701948 @ 1.0s |
 |  |  |  | ![Plot](../bbp_LA_BASIN_500/rotated_ruptures_m7p6_vert_ss_surface/resources/bbp_partB_m7p6_vert_ss_surface_20km.png) | ![Plot](../bbp_LA_BASIN_500/rotated_ruptures_m7p6_vert_ss_surface/resources/bbp_partB_m7p6_vert_ss_surface_50km.png) | ![Plot](../bbp_LA_BASIN_500/rotated_ruptures_m7p6_vert_ss_surface/resources/bbp_partB_m7p6_vert_ss_surface_100km.png) |
 
 ### M7.6, Reverse, Dip=45
@@ -89,8 +89,8 @@ Results for official BBP PartB criteria are listed in **bold**, and those for un
 
 | Velocity Model | Rotation? | Link | 20.0 km | 50.0 km | 100.0 km |
 |-----|-----|-----|-----|-----|-----|
-| LA Basin 863 (m/s) | yes | [Page Link](../bbp_LA_BASIN_863/rotated_ruptures_m7p6_reverse) | *(FAIL)*, Max Ln Fail: 0.3365032 | *(FAIL)*, Max Ln Fail: 0.07858564 | *(FAIL)*, Max Ln Fail: 0.013165603 |
+| LA Basin 863 (m/s) | yes | [Page Link](../bbp_LA_BASIN_863/rotated_ruptures_m7p6_reverse) | *(FAIL)*, Max Ln Fail: 0.3365032 @ 1.0s | *(FAIL)*, Max Ln Fail: 0.07858564 @ 1.0s | *(FAIL)*, Max Ln Fail: 0.013165603 @ 1.3s |
 |  |  |  | ![Plot](../bbp_LA_BASIN_863/rotated_ruptures_m7p6_reverse/resources/bbp_partB_m7p6_reverse_20km.png) | ![Plot](../bbp_LA_BASIN_863/rotated_ruptures_m7p6_reverse/resources/bbp_partB_m7p6_reverse_50km.png) | ![Plot](../bbp_LA_BASIN_863/rotated_ruptures_m7p6_reverse/resources/bbp_partB_m7p6_reverse_100km.png) |
-| LA Basin 500 (m/s) | yes | [Page Link](../bbp_LA_BASIN_500/rotated_ruptures_m7p6_reverse) | *(FAIL)*, Max Ln Fail: 0.4124386 | *(FAIL)*, Max Ln Fail: 0.2585672 | *(FAIL)*, Max Ln Fail: 0.41032895 |
+| LA Basin 500 (m/s) | yes | [Page Link](../bbp_LA_BASIN_500/rotated_ruptures_m7p6_reverse) | *(FAIL)*, Max Ln Fail: 0.4124386 @ 1.7s | *(FAIL)*, Max Ln Fail: 0.2585672 @ 1.0s | *(FAIL)*, Max Ln Fail: 0.41032895 @ 1.0s |
 |  |  |  | ![Plot](../bbp_LA_BASIN_500/rotated_ruptures_m7p6_reverse/resources/bbp_partB_m7p6_reverse_20km.png) | ![Plot](../bbp_LA_BASIN_500/rotated_ruptures_m7p6_reverse/resources/bbp_partB_m7p6_reverse_50km.png) | ![Plot](../bbp_LA_BASIN_500/rotated_ruptures_m7p6_reverse/resources/bbp_partB_m7p6_reverse_100km.png) |
 
