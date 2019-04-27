@@ -35,6 +35,7 @@
   * [Element/Subsection Interevent Time Comparisons](#elementsubsection-interevent-time-comparisons)
     * [Element Interevent Time Comparisons](#element-interevent-time-comparisons)
     * [Subsection Interevent Time Comparisons](#subsection-interevent-time-comparisons)
+  * [Paleo Open Interval Plots](#paleo-open-interval-plots)
 * [Input File](#input-file)
 
 ## Extreme Event Examples
@@ -176,6 +177,20 @@
 | **M≥6.5** | ![Subsection Scatter](resources/interevent_sub_sects_m6.5_scatter.png) | ![Subsection 2-D Hist](resources/interevent_sub_sects_m6.5_hist2D.png) |
 | **M≥7.0** | ![Subsection Scatter](resources/interevent_sub_sects_m7_scatter.png) | ![Subsection 2-D Hist](resources/interevent_sub_sects_m7_hist2D.png) |
 | **M≥7.5** | ![Subsection Scatter](resources/interevent_sub_sects_m7.5_scatter.png) | ![Subsection 2-D Hist](resources/interevent_sub_sects_m7.5_hist2D.png) |
+### Paleo Open Interval Plots
+*[(top)](#bruce-2585-1myr)*
+
+These plots use the 5 paleoseismic sites identified in Biasi & Scharer (2019) on the Hayward, N. SAF, S. SAF, and SJC faults. A rupture is counted at a paleo site if the nearest element (at the surface) slips any amount.
+
+| ![Count](resources/paleo_open_biasi_count.png) |
+|-----|
+| ![Prob](resources/paleo_open_biasi_prob.png) |
+
+These plots use the full set of UCERF3 paleoseismic sites. A rupture is counted at a paleo site if the nearest element (at the surface) slips any amount.
+
+| ![Count](resources/paleo_open_ucerf3_count.png) |
+|-----|
+| ![Prob](resources/paleo_open_ucerf3_prob.png) |
 
 ## Input File
 *[(top)](#bruce-2585-1myr)*
