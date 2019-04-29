@@ -193,9 +193,10 @@ These plots use the 5 paleoseismic sites identified in Biasi & Scharer (2019) on
 | **TYS** | 329.00 | 0.0030395137 | 558.23 | 0.0017913908 | 1786 |
 | **TOTAL** | 31.61 | 0.0316373 | 51.44 | 0.019441806 | 19376 |
 
-| ![Count](resources/paleo_open_biasi_count.png) |
-|-----|
-| ![Prob](resources/paleo_open_biasi_prob.png) |
+**Paleoseismic Plots:**
+
+| ![Count](resources/paleo_open_biasi_count.png) | ![Prob](resources/paleo_open_biasi_prob.png) |
+|-----|-----|
 
 **Open interval probabilities table:**
 
@@ -262,9 +263,10 @@ These plots use the full set of UCERF3 paleoseismic sites. A rupture is counted 
 | **Elsinore Fault - Julian** | 3250.98 | 3.076E-4 | 1652.06 | 6.0530583E-4 | 604 |
 | **TOTAL** | 9.08 | 0.1101451 | 12.84 | 0.07789023 | 44786 |
 
-| ![Count](resources/paleo_open_ucerf3_count.png) |
-|-----|
-| ![Prob](resources/paleo_open_ucerf3_prob.png) |
+**Paleoseismic Plots:**
+
+| ![Count](resources/paleo_open_ucerf3_count.png) | ![Prob](resources/paleo_open_ucerf3_prob.png) |
+|-----|-----|
 
 **Open interval probabilities table:**
 
