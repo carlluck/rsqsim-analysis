@@ -36,6 +36,8 @@
     * [Element Interevent Time Comparisons](#element-interevent-time-comparisons)
     * [Subsection Interevent Time Comparisons](#subsection-interevent-time-comparisons)
   * [Paleo Open Interval Plots](#paleo-open-interval-plots)
+    * [Paleo Open Interval Plots, Biasi and Sharer 2019](#paleo-open-interval-plots-biasi-and-sharer-2019)
+    * [Paleo Open Interval Plots, UCERF3](#paleo-open-interval-plots-ucerf3)
 * [Input File](#input-file)
 
 ## Extreme Event Examples
@@ -180,6 +182,9 @@
 ### Paleo Open Interval Plots
 *[(top)](#bruce-2585-1myr)*
 
+#### Paleo Open Interval Plots, Biasi and Sharer 2019
+*[(top)](#bruce-2585-1myr)*
+
 These plots use the 5 paleoseismic sites identified in Biasi & Scharer (2019) on the Hayward, N. SAF, S. SAF, and SJC faults. A rupture is counted at a paleo site if the nearest element (at the surface) slips any amount.
 
 **Paleoseismic sites table:**
@@ -224,6 +229,9 @@ These plots use the 5 paleoseismic sites identified in Biasi & Scharer (2019) on
 | **200.00** | 0.0022892235 | 0.02047888 | 0.0017865654 |
 | **210.00** | 5.269872E-4 | 0.016860541 | 0.0013020267 |
 | **220.00** | 0.0 | 0.013881514 | 9.489008E-4 |
+
+#### Paleo Open Interval Plots, UCERF3
+*[(top)](#bruce-2585-1myr)*
 
 These plots use the full set of UCERF3 paleoseismic sites. A rupture is counted at a paleo site if the nearest element (at the surface) slips any amount.
 
