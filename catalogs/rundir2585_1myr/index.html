@@ -77,6 +77,7 @@ img {
 <li><a href="#paleo-open-interval-plots-ucerf3">Paleo Open Interval Plots, UCERF3</a></li>
 </ul>
 </li>
+<li><a href="#moment-release-variability-plots">Moment Release Variability Plots</a></li>
 </ul>
 </li>
 <li><a href="#input-file">Input File</a></li>
@@ -371,6 +372,12 @@ img {
 <tr><td><strong>190.00</strong></td><td>0.0</td><td>1.9625535E-4</td><td>0.0</td><td>2.5965832E-4</td><td>8.152152E-10</td></tr>
 </tbody>
 </table>
+<h3 id="moment-release-variability-plots">Moment Release Variability Plots</h3>
+<p><em><a href="#bruce-2585-1myr">(top)</a></em></p>
+<p>We first create a tapered moment release time series for the entire catalog. Each event's moment is distributed across a 25 year Hanning (cosine) taper. Here is a plot of a random 2,000 year section of this time series:</p>
+<p><img src="resources/moment_variability_time_series.png" alt="Time Series" /></p>
+<p>We then compute Welch's power spectral density estimate on the entire time series. Results are plotted below, with a Poisson randomization of the catalog also plotted in gray as a control. Significant deviations above the Poisson model indicate synchronization at that period.</p>
+<p><img src="resources/moment_variability_welch.png" alt="Welch PSD" /></p>
 <h2 id="input-file">Input File</h2>
 <p><em><a href="#bruce-2585-1myr">(top)</a></em></p>
 <pre><code>  A_1 = 0.001

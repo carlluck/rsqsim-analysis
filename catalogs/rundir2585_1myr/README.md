@@ -38,6 +38,7 @@
   * [Paleo Open Interval Plots](#paleo-open-interval-plots)
     * [Paleo Open Interval Plots, Biasi and Sharer 2019](#paleo-open-interval-plots-biasi-and-sharer-2019)
     * [Paleo Open Interval Plots, UCERF3](#paleo-open-interval-plots-ucerf3)
+  * [Moment Release Variability Plots](#moment-release-variability-plots)
 * [Input File](#input-file)
 
 ## Extreme Event Examples
@@ -179,6 +180,7 @@
 | **M≥6.5** | ![Subsection Scatter](resources/interevent_sub_sects_m6.5_scatter.png) | ![Subsection 2-D Hist](resources/interevent_sub_sects_m6.5_hist2D.png) |
 | **M≥7.0** | ![Subsection Scatter](resources/interevent_sub_sects_m7_scatter.png) | ![Subsection 2-D Hist](resources/interevent_sub_sects_m7_hist2D.png) |
 | **M≥7.5** | ![Subsection Scatter](resources/interevent_sub_sects_m7.5_scatter.png) | ![Subsection 2-D Hist](resources/interevent_sub_sects_m7.5_hist2D.png) |
+
 ### Paleo Open Interval Plots
 *[(top)](#bruce-2585-1myr)*
 
@@ -311,6 +313,17 @@ These plots use the full set of UCERF3 paleoseismic sites. By default, a rupture
 | **170.00** | 3.3145462E-4 | 4.820042E-4 | 4.821833E-4 | 6.192037E-4 | 7.37871E-9 |
 | **180.00** | 0.0 | 3.0756448E-4 | 1.1339292E-4 | 4.0097555E-4 | 2.452598E-9 |
 | **190.00** | 0.0 | 1.9625535E-4 | 0.0 | 2.5965832E-4 | 8.152152E-10 |
+
+### Moment Release Variability Plots
+*[(top)](#bruce-2585-1myr)*
+
+We first create a tapered moment release time series for the entire catalog. Each event's moment is distributed across a 25 year Hanning (cosine) taper. Here is a plot of a random 2,000 year section of this time series:
+
+![Time Series](resources/moment_variability_time_series.png)
+
+We then compute Welch's power spectral density estimate on the entire time series. Results are plotted below, with a Poisson randomization of the catalog also plotted in gray as a control. Significant deviations above the Poisson model indicate synchronization at that period.
+
+![Welch PSD](resources/moment_variability_welch.png)
 
 ## Input File
 *[(top)](#bruce-2585-1myr)*
