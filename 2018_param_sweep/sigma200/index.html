@@ -2,6 +2,12 @@
 <html>
 <head>
 <style>
+table {
+	border-collapse: collapse
+}
+table, th, td {
+	border: 1px solid black
+}
 body {
 	max-width:1000px;
 	margin: auto;
@@ -46,6 +52,13 @@ img {
 <li><a href="#subsection-interevent-time-comparisons">Subsection Interevent Time Comparisons</a></li>
 </ul>
 </li>
+<li><a href="#paleo-open-interval-plots">Paleo Open Interval Plots</a>
+<ul>
+<li><a href="#paleo-open-interval-plots-biasi-and-sharer-2019">Paleo Open Interval Plots, Biasi and Sharer 2019</a></li>
+<li><a href="#paleo-open-interval-plots-ucerf3">Paleo Open Interval Plots, UCERF3</a></li>
+</ul>
+</li>
+<li><a href="#moment-release-variability-plots">Moment Release Variability Plots</a></li>
 </ul>
 </li>
 <li><a href="#input-file">Input File</a></li>
@@ -137,6 +150,177 @@ img {
 <tr><td><strong>M≥7.5</strong></td><td><img src="resources/interevent_sub_sects_m7.5_scatter.png" alt="Subsection Scatter" /></td><td><img src="resources/interevent_sub_sects_m7.5_hist2D.png" alt="Subsection 2-D Hist" /></td></tr>
 </tbody>
 </table>
+<h3 id="paleo-open-interval-plots">Paleo Open Interval Plots</h3>
+<p><em><a href="#sigma200">(top)</a></em></p>
+<h4 id="paleo-open-interval-plots-biasi-and-sharer-2019">Paleo Open Interval Plots, Biasi and Sharer 2019</h4>
+<p><em><a href="#sigma200">(top)</a></em></p>
+<p>These plots use the 5 paleoseismic sites identified in Biasi &amp; Scharer (2019) on the Hayward, N. SAF, S. SAF, and SJC faults. By default, a rupture is counted at a paleo site if the nearest element (at the surface) slips any amount. We also alternatively apply a probability of detection model. Those results are marked as 'Prob. Filtered'.</p>
+<p><strong>Paleoseismic sites table:</strong></p>
+<table>
+<thead>
+<tr><th><strong>Site Name</strong></th><th>Data MRI (yr)</th><th>Data Annual Rate</th><th>Catalog MRI (yr)</th><th>Catalog Annual Rate</th><th>Catalog Occurences</th><th>Prob Filtered Catalog MRI (yr)</th><th>Prob Filtered Catalog Annual Rate</th><th>Prob Filtered Catalog Occurences</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>HOG</strong></td><td>191.00</td><td>0.005235602</td><td>715.11</td><td>0.0013983797</td><td>1290</td><td>722.49</td><td>0.0013841091</td><td>1276.8</td></tr>
+<tr><td><strong>FRA</strong></td><td>119.00</td><td>0.008403362</td><td>236.03</td><td>0.0042368183</td><td>3909</td><td>239.98</td><td>0.004167014</td><td>3844.6</td></tr>
+<tr><td><strong>COA</strong></td><td>181.00</td><td>0.005524862</td><td>352.52</td><td>0.0028367029</td><td>2617</td><td>362.76</td><td>0.0027566722</td><td>2543.17</td></tr>
+<tr><td><strong>SCZ</strong></td><td>106.00</td><td>0.009433962</td><td>243.17</td><td>0.0041123526</td><td>3794</td><td>252.18</td><td>0.0039654765</td><td>3658.37</td></tr>
+<tr><td><strong>TYS</strong></td><td>329.00</td><td>0.0030395137</td><td>690.81</td><td>0.0014475757</td><td>1336</td><td>712.76</td><td>0.0014029901</td><td>1294.82</td></tr>
+<tr><td><strong>TOTAL</strong></td><td>31.61</td><td>0.0316373</td><td>71.26</td><td>0.014032202</td><td>12946</td><td>73.11</td><td>0.013678441</td><td>12619.61</td></tr>
+</tbody>
+</table>
+<p><strong>Paleoseismic Plots:</strong></p>
+<table>
+<thead>
+<tr><th><img src="resources/paleo_open_biasi_count.png" alt="Count" /></th><th><img src="resources/paleo_open_biasi_prob.png" alt="Prob" /></th></tr>
+</thead>
+<tbody></tbody>
+</table>
+<p><strong>Open interval probabilities table:</strong></p>
+<table>
+<thead>
+<tr><th><strong>Open Interval (yr)</strong></th><th>Catalog Probability</th><th>Catalog Poisson Probability</th><th>Prob. Filtered Catalog Probability</th><th>Prob. Filtered Catalog Poisson Probability</th><th>Data Poisson Probability</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>10.00</strong></td><td>0.99322706</td><td>0.86907834</td><td>0.99358743</td><td>0.8721582</td><td>0.72878754</td></tr>
+<tr><td><strong>20.00</strong></td><td>0.972829</td><td>0.7552971</td><td>0.974181</td><td>0.76066</td><td>0.53113127</td></tr>
+<tr><td><strong>30.00</strong></td><td>0.9400438</td><td>0.65641236</td><td>0.9428773</td><td>0.66341585</td><td>0.3870819</td></tr>
+<tr><td><strong>40.00</strong></td><td>0.9008429</td><td>0.5704738</td><td>0.9052244</td><td>0.5786036</td><td>0.28210047</td></tr>
+<tr><td><strong>50.00</strong></td><td>0.8558918</td><td>0.4957864</td><td>0.86200446</td><td>0.5046339</td><td>0.2055913</td></tr>
+<tr><td><strong>60.00</strong></td><td>0.8001563</td><td>0.4308772</td><td>0.808053</td><td>0.4401206</td><td>0.14983238</td></tr>
+<tr><td><strong>70.00</strong></td><td>0.744802</td><td>0.37446606</td><td>0.7544963</td><td>0.38385484</td><td>0.10919597</td></tr>
+<tr><td><strong>80.00</strong></td><td>0.68861914</td><td>0.32544035</td><td>0.6998853</td><td>0.33478215</td><td>0.079580665</td></tr>
+<tr><td><strong>90.00</strong></td><td>0.63211167</td><td>0.28283313</td><td>0.64450544</td><td>0.291983</td><td>0.057997398</td></tr>
+<tr><td><strong>100.00</strong></td><td>0.5679584</td><td>0.24580416</td><td>0.58203155</td><td>0.2546554</td><td>0.04226778</td></tr>
+<tr><td><strong>110.00</strong></td><td>0.50402975</td><td>0.21362306</td><td>0.5191233</td><td>0.2220998</td><td>0.030804234</td></tr>
+<tr><td><strong>120.00</strong></td><td>0.44345918</td><td>0.18565518</td><td>0.4593668</td><td>0.19370615</td><td>0.022449743</td></tr>
+<tr><td><strong>130.00</strong></td><td>0.3873423</td><td>0.1613489</td><td>0.40398946</td><td>0.16894242</td><td>0.016361093</td></tr>
+<tr><td><strong>140.00</strong></td><td>0.33152658</td><td>0.14022483</td><td>0.34819624</td><td>0.14734453</td><td>0.011923761</td></tr>
+<tr><td><strong>150.00</strong></td><td>0.2796721</td><td>0.12186636</td><td>0.29613912</td><td>0.12850775</td><td>0.008689889</td></tr>
+<tr><td><strong>160.00</strong></td><td>0.23540187</td><td>0.10591141</td><td>0.25169575</td><td>0.112079084</td><td>0.0063330824</td></tr>
+<tr><td><strong>170.00</strong></td><td>0.19446656</td><td>0.092045315</td><td>0.20964882</td><td>0.0977507</td><td>0.0046154717</td></tr>
+<tr><td><strong>180.00</strong></td><td>0.16231924</td><td>0.07999459</td><td>0.1760595</td><td>0.08525407</td><td>0.0033636983</td></tr>
+<tr><td><strong>190.00</strong></td><td>0.1314745</td><td>0.06952156</td><td>0.14415215</td><td>0.07435504</td><td>0.0024514215</td></tr>
+<tr><td><strong>200.00</strong></td><td>0.108498685</td><td>0.060419682</td><td>0.11964236</td><td>0.06484936</td><td>0.0017865654</td></tr>
+<tr><td><strong>210.00</strong></td><td>0.08312827</td><td>0.05250944</td><td>0.09366953</td><td>0.056558907</td><td>0.0013020267</td></tr>
+<tr><td><strong>220.00</strong></td><td>0.061523695</td><td>0.045634814</td><td>0.07075769</td><td>0.049328316</td><td>9.489008E-4</td></tr>
+<tr><td><strong>230.00</strong></td><td>0.040841915</td><td>0.03966023</td><td>0.048786104</td><td>0.043022096</td><td>6.915471E-4</td></tr>
+<tr><td><strong>240.00</strong></td><td>0.029824253</td><td>0.034467846</td><td>0.036157712</td><td>0.037522078</td><td>5.039909E-4</td></tr>
+<tr><td><strong>250.00</strong></td><td>0.023236481</td><td>0.029955257</td><td>0.028058948</td><td>0.03272519</td><td>3.673023E-4</td></tr>
+<tr><td><strong>260.00</strong></td><td>0.0145817865</td><td>0.026033465</td><td>0.01797276</td><td>0.028541543</td><td>2.6768536E-4</td></tr>
+<tr><td><strong>270.00</strong></td><td>0.009313089</td><td>0.02262512</td><td>0.011604759</td><td>0.024892742</td><td>1.9508575E-4</td></tr>
+<tr><td><strong>280.00</strong></td><td>0.0043584714</td><td>0.019663002</td><td>0.006006702</td><td>0.021710409</td><td>1.4217607E-4</td></tr>
+<tr><td><strong>290.00</strong></td><td>0.0014744118</td><td>0.017088689</td><td>0.0025937834</td><td>0.018934913</td><td>1.0361615E-4</td></tr>
+<tr><td><strong>300.00</strong></td><td>0.0</td><td>0.014851409</td><td>8.088899E-4</td><td>0.01651424</td><td>7.551416E-5</td></tr>
+<tr><td><strong>310.00</strong></td><td>0.0</td><td>0.012907038</td><td>4.4084853E-4</td><td>0.01440303</td><td>5.503378E-5</td></tr>
+<tr><td><strong>320.00</strong></td><td>0.0</td><td>0.011217227</td><td>2.9860623E-4</td><td>0.012561722</td><td>4.0107934E-5</td></tr>
+<tr><td><strong>330.00</strong></td><td>0.0</td><td>0.009748649</td><td>1.8954808E-4</td><td>0.010955809</td><td>2.9230163E-5</td></tr>
+<tr><td><strong>340.00</strong></td><td>0.0</td><td>0.008472339</td><td>1.1109515E-4</td><td>0.009555199</td><td>2.1302578E-5</td></tr>
+<tr><td><strong>350.00</strong></td><td>0.0</td><td>0.0073631266</td><td>8.155228E-5</td><td>0.008333646</td><td>1.5525055E-5</td></tr>
+<tr><td><strong>360.00</strong></td><td>0.0</td><td>0.006399134</td><td>6.520061E-5</td><td>0.0072682574</td><td>1.1314466E-5</td></tr>
+<tr><td><strong>370.00</strong></td><td>0.0</td><td>0.0055613485</td><td>5.6117406E-5</td><td>0.006339071</td><td>8.245842E-6</td></tr>
+<tr><td><strong>380.00</strong></td><td>0.0</td><td>0.0048332475</td><td>5.1558174E-5</td><td>0.0055286726</td><td>6.009467E-6</td></tr>
+<tr><td><strong>390.00</strong></td><td>0.0</td><td>0.0042004706</td><td>4.4840603E-5</td><td>0.0048218775</td><td>4.379625E-6</td></tr>
+<tr><td><strong>400.00</strong></td><td>0.0</td><td>0.0036505382</td><td>2.7988202E-5</td><td>0.00420544</td><td>3.1918162E-6</td></tr>
+<tr><td><strong>410.00</strong></td><td>0.0</td><td>0.0031726037</td><td>8.674903E-6</td><td>0.0036678093</td><td>2.3261557E-6</td></tr>
+<tr><td><strong>420.00</strong></td><td>0.0</td><td>0.002757241</td><td>7.783572E-6</td><td>0.00319891</td><td>1.6952735E-6</td></tr>
+<tr><td><strong>430.00</strong></td><td>0.0</td><td>0.0023962585</td><td>6.8922423E-6</td><td>0.0027899558</td><td>1.2354942E-6</td></tr>
+<tr><td><strong>440.00</strong></td><td>0.0</td><td>0.0020825362</td><td>6.0009115E-6</td><td>0.0024332828</td><td>9.004128E-7</td></tr>
+<tr><td><strong>450.00</strong></td><td>0.0</td><td>0.0018098871</td><td>5.1095813E-6</td><td>0.0021222078</td><td>6.5620964E-7</td></tr>
+<tr><td><strong>460.00</strong></td><td>0.0</td><td>0.0015729337</td><td>0.0</td><td>0.0018509009</td><td>4.782374E-7</td></tr>
+</tbody>
+</table>
+<h4 id="paleo-open-interval-plots-ucerf3">Paleo Open Interval Plots, UCERF3</h4>
+<p><em><a href="#sigma200">(top)</a></em></p>
+<p>These plots use the full set of UCERF3 paleoseismic sites. By default, a rupture is counted at a paleo site if the nearest element (at the surface) slips any amount. We also alternativeslyapply a probability of detection model. Those results are marked as 'Prob. Filtered'.</p>
+<p><strong>Paleoseismic sites table:</strong></p>
+<table>
+<thead>
+<tr><th><strong>Site Name</strong></th><th>Data MRI (yr)</th><th>Data Annual Rate</th><th>Catalog MRI (yr)</th><th>Catalog Annual Rate</th><th>Catalog Occurences</th><th>Prob Filtered Catalog MRI (yr)</th><th>Prob Filtered Catalog Annual Rate</th><th>Prob Filtered Catalog Occurences</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>SSanAndreasBurroFlats</strong></td><td>205.44</td><td>0.0048677</td><td>416.09</td><td>0.002403307</td><td>2218</td><td>431.23</td><td>0.0023189331</td><td>2140.14</td></tr>
+<tr><td><strong>SSanAndreasIndio</strong></td><td>277.37</td><td>0.0036053</td><td>344.88</td><td>0.002899596</td><td>2675</td><td>352.21</td><td>0.0028391932</td><td>2619.27</td></tr>
+<tr><td><strong>SSAFMCreek1000Palms</strong></td><td>261.33</td><td>0.0038266</td><td>3126.86</td><td>3.1980954E-4</td><td>295</td><td>3586.74</td><td>2.7880486E-4</td><td>257.09</td></tr>
+<tr><td><strong>NSanAndreasFortRoss</strong></td><td>306.28</td><td>0.003265</td><td>381.78</td><td>0.0026193163</td><td>2417</td><td>385.73</td><td>0.0025924726</td><td>2392.23</td></tr>
+<tr><td><strong>NSanAndreasNorthCoast</strong></td><td>263.87</td><td>0.0037898</td><td>364.43</td><td>0.0027439941</td><td>2532</td><td>369.04</td><td>0.0027097254</td><td>2500.34</td></tr>
+<tr><td><strong>CalaverasfaultNorth</strong></td><td>618.05</td><td>0.001618</td><td>329.01</td><td>0.0030394415</td><td>2804</td><td>373.34</td><td>0.002678506</td><td>2470.81</td></tr>
+<tr><td><strong>ElsinoreTemecula</strong></td><td>1019.16</td><td>9.812E-4</td><td>1396.99</td><td>7.158253E-4</td><td>661</td><td>1416.36</td><td>7.0603547E-4</td><td>651.94</td></tr>
+<tr><td><strong>ElsinoreWhittier</strong></td><td>3196.93</td><td>3.128E-4</td><td>3047.67</td><td>3.2811903E-4</td><td>303</td><td>3109.37</td><td>3.2160868E-4</td><td>296.98</td></tr>
+<tr><td><strong>SSAFCarrizoBidart</strong></td><td>114.71</td><td>0.0087179</td><td>247.62</td><td>0.0040384205</td><td>3726</td><td>250.93</td><td>0.003985178</td><td>3676.87</td></tr>
+<tr><td><strong>SanJacintoHogLake</strong></td><td>311.78</td><td>0.0032074</td><td>715.11</td><td>0.0013983797</td><td>1290</td><td>722.68</td><td>0.001383745</td><td>1276.51</td></tr>
+<tr><td><strong>PuenteHills</strong></td><td>3506.31</td><td>2.852E-4</td><td>10310.73</td><td>9.698635E-5</td><td>90</td><td>10610.20</td><td>9.4248964E-5</td><td>87.48</td></tr>
+<tr><td><strong>SanGregorioNorth</strong></td><td>1019.06</td><td>9.813E-4</td><td>798.07</td><td>0.0012530265</td><td>1156</td><td>810.24</td><td>0.0012341975</td><td>1138.64</td></tr>
+<tr><td><strong>SanJacintoSuperstition</strong></td><td>508.26</td><td>0.0019675</td><td>2423.19</td><td>4.1267832E-4</td><td>381</td><td>2470.08</td><td>4.0484488E-4</td><td>373.77</td></tr>
+<tr><td><strong>SSanAndreasWrightwood</strong></td><td>106.04</td><td>0.0094304</td><td>306.85</td><td>0.0032589242</td><td>3007</td><td>310.04</td><td>0.0032254332</td><td>2976.09</td></tr>
+<tr><td><strong>SSanAndreasPitmanCanyon</strong></td><td>173.48</td><td>0.0057643</td><td>287.62</td><td>0.0034768363</td><td>3208</td><td>298.23</td><td>0.003353092</td><td>3093.68</td></tr>
+<tr><td><strong>SSanAndreasPlungeCreek</strong></td><td>205.36</td><td>0.0048695</td><td>719.71</td><td>0.0013894574</td><td>1282</td><td>772.45</td><td>0.0012945791</td><td>1194.43</td></tr>
+<tr><td><strong>FrazierMountianSSAF</strong></td><td>148.57</td><td>0.0067307</td><td>236.03</td><td>0.0042368183</td><td>3909</td><td>239.96</td><td>0.0041673975</td><td>3844.92</td></tr>
+<tr><td><strong>NSanAndreasSantaCruzSeg</strong></td><td>109.84</td><td>0.0091041</td><td>243.17</td><td>0.0041123526</td><td>3794</td><td>252.39</td><td>0.0039621936</td><td>3655.4</td></tr>
+<tr><td><strong>RodgersCreek</strong></td><td>325.31</td><td>0.003074</td><td>325.69</td><td>0.0030703829</td><td>2833</td><td>368.33</td><td>0.002714971</td><td>2504.67</td></tr>
+<tr><td><strong>GreenValleyMasonRoad</strong></td><td>293.31</td><td>0.0034094</td><td>3573.82</td><td>2.7981264E-4</td><td>258</td><td>3903.66</td><td>2.5616973E-4</td><td>236.18</td></tr>
+<tr><td><strong>HaywardfaultNorth</strong></td><td>318.34</td><td>0.0031413</td><td>741.66</td><td>0.0013483312</td><td>1244</td><td>750.48</td><td>0.0013324827</td><td>1229.38</td></tr>
+<tr><td><strong>HaywardfaultSouth</strong></td><td>167.57</td><td>0.0059677</td><td>690.81</td><td>0.0014475757</td><td>1336</td><td>712.21</td><td>0.0014040882</td><td>1295.86</td></tr>
+<tr><td><strong>Compton</strong></td><td>2658.16</td><td>3.762E-4</td><td>12570.62</td><td>7.95506E-5</td><td>74</td><td>12971.82</td><td>7.709015E-5</td><td>71.73</td></tr>
+<tr><td><strong>SSanAndreasCoachella</strong></td><td>178.45</td><td>0.0056037</td><td>352.52</td><td>0.0028367029</td><td>2617</td><td>362.56</td><td>0.002758162</td><td>2544.57</td></tr>
+<tr><td><strong>ElsinoreGlenIvy</strong></td><td>179.12</td><td>0.0055828</td><td>1143.72</td><td>8.7433914E-4</td><td>807</td><td>1174.65</td><td>8.5131696E-4</td><td>785.76</td></tr>
+<tr><td><strong>GarlockCentralallevents</strong></td><td>1434.93</td><td>6.969E-4</td><td>1291.80</td><td>7.741153E-4</td><td>714</td><td>1306.57</td><td>7.653645E-4</td><td>705.94</td></tr>
+<tr><td><strong>NSanAndreasAlderCreek</strong></td><td>869.64</td><td>0.0011499</td><td>383.68</td><td>0.0026063067</td><td>2405</td><td>387.63</td><td>0.0025797642</td><td>2380.49</td></tr>
+<tr><td><strong>SSanAndreasPallettCreek</strong></td><td>149.30</td><td>0.006698</td><td>307.16</td><td>0.0032556718</td><td>3004</td><td>310.26</td><td>0.0032231454</td><td>2973.99</td></tr>
+<tr><td><strong>GarlockWesternallevents</strong></td><td>1230.16</td><td>8.129E-4</td><td>1676.15</td><td>5.9660483E-4</td><td>551</td><td>1696.76</td><td>5.893588E-4</td><td>544.32</td></tr>
+<tr><td><strong>ElsinoreFaultJulian</strong></td><td>3250.98</td><td>3.076E-4</td><td>2485.70</td><td>4.023009E-4</td><td>372</td><td>2512.64</td><td>3.9798726E-4</td><td>368</td></tr>
+<tr><td><strong>TOTAL</strong></td><td>9.08</td><td>0.1101451</td><td>28.72</td><td>0.034814384</td><td>32118</td><td>29.85</td><td>0.033506047</td><td>30911.03</td></tr>
+</tbody>
+</table>
+<p><strong>Paleoseismic Plots:</strong></p>
+<table>
+<thead>
+<tr><th><img src="resources/paleo_open_ucerf3_count.png" alt="Count" /></th><th><img src="resources/paleo_open_ucerf3_prob.png" alt="Prob" /></th></tr>
+</thead>
+<tbody></tbody>
+</table>
+<p><strong>Open interval probabilities table:</strong></p>
+<table>
+<thead>
+<tr><th><strong>Open Interval (yr)</strong></th><th>Catalog Probability</th><th>Catalog Poisson Probability</th><th>Prob. Filtered Catalog Probability</th><th>Prob. Filtered Catalog Poisson Probability</th><th>Data Poisson Probability</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>10.00</strong></td><td>0.957531</td><td>0.7059973</td><td>0.96027964</td><td>0.71529484</td><td>0.33238843</td></tr>
+<tr><td><strong>20.00</strong></td><td>0.8575137</td><td>0.4984322</td><td>0.8657165</td><td>0.5116467</td><td>0.110482074</td></tr>
+<tr><td><strong>30.00</strong></td><td>0.72954947</td><td>0.3518918</td><td>0.74320686</td><td>0.36597824</td><td>0.036722966</td></tr>
+<tr><td><strong>40.00</strong></td><td>0.5979086</td><td>0.24843465</td><td>0.61617583</td><td>0.26178235</td><td>0.012206289</td></tr>
+<tr><td><strong>50.00</strong></td><td>0.4791423</td><td>0.17539419</td><td>0.4993562</td><td>0.18725155</td><td>0.004057229</td></tr>
+<tr><td><strong>60.00</strong></td><td>0.3682657</td><td>0.12382783</td><td>0.3893293</td><td>0.13394007</td><td>0.001348576</td></tr>
+<tr><td><strong>70.00</strong></td><td>0.27819178</td><td>0.08742212</td><td>0.29804268</td><td>0.09580664</td><td>4.4825108E-4</td></tr>
+<tr><td><strong>80.00</strong></td><td>0.20540757</td><td>0.06171978</td><td>0.22351748</td><td>0.06852999</td><td>1.4899348E-4</td></tr>
+<tr><td><strong>90.00</strong></td><td>0.14759356</td><td>0.043573998</td><td>0.16259669</td><td>0.04901915</td><td>4.952371E-5</td></tr>
+<tr><td><strong>100.00</strong></td><td>0.10354155</td><td>0.030763125</td><td>0.1158465</td><td>0.035063148</td><td>1.6461108E-5</td></tr>
+<tr><td><strong>110.00</strong></td><td>0.072456844</td><td>0.021718683</td><td>0.08235227</td><td>0.025080487</td><td>5.4714824E-6</td></tr>
+<tr><td><strong>120.00</strong></td><td>0.047264706</td><td>0.015333332</td><td>0.05502947</td><td>0.017939942</td><td>1.8186574E-6</td></tr>
+<tr><td><strong>130.00</strong></td><td>0.03064297</td><td>0.010825291</td><td>0.03637829</td><td>0.012832348</td><td>6.045007E-7</td></tr>
+<tr><td><strong>140.00</strong></td><td>0.019789696</td><td>0.0076426263</td><td>0.024347346</td><td>0.009178912</td><td>2.0092905E-7</td></tr>
+<tr><td><strong>150.00</strong></td><td>0.013383932</td><td>0.0053956737</td><td>0.016530601</td><td>0.0065656286</td><td>6.678649E-8</td></tr>
+<tr><td><strong>160.00</strong></td><td>0.007517307</td><td>0.003809331</td><td>0.009655248</td><td>0.0046963603</td><td>2.2199057E-8</td></tr>
+<tr><td><strong>170.00</strong></td><td>0.005547697</td><td>0.0026893774</td><td>0.007106545</td><td>0.0033592822</td><td>7.37871E-9</td></tr>
+<tr><td><strong>180.00</strong></td><td>0.0032916933</td><td>0.0018986932</td><td>0.0043982747</td><td>0.0024028772</td><td>2.452598E-9</td></tr>
+<tr><td><strong>190.00</strong></td><td>0.0014487825</td><td>0.0013404723</td><td>0.0021065513</td><td>0.0017187656</td><td>8.152152E-10</td></tr>
+<tr><td><strong>200.00</strong></td><td>4.27998E-4</td><td>9.4636984E-4</td><td>7.135447E-4</td><td>0.0012294241</td><td>2.709681E-10</td></tr>
+<tr><td><strong>210.00</strong></td><td>3.1685518E-4</td><td>6.6813454E-4</td><td>5.302173E-4</td><td>8.7940076E-4</td><td>9.006666E-11</td></tr>
+<tr><td><strong>220.00</strong></td><td>0.0</td><td>4.7170118E-4</td><td>1.4927701E-4</td><td>6.290308E-4</td><td>2.993712E-11</td></tr>
+<tr><td><strong>230.00</strong></td><td>0.0</td><td>3.3301977E-4</td><td>7.9200196E-5</td><td>4.499425E-4</td><td>9.950752E-12</td></tr>
+<tr><td><strong>240.00</strong></td><td>0.0</td><td>2.3511106E-4</td><td>6.8916255E-5</td><td>3.2184154E-4</td><td>3.3075149E-12</td></tr>
+<tr><td><strong>250.00</strong></td><td>0.0</td><td>1.6598777E-4</td><td>6.3863685E-5</td><td>2.3021159E-4</td><td>1.0993797E-12</td></tr>
+<tr><td><strong>260.00</strong></td><td>0.0</td><td>1.1718692E-4</td><td>6.270977E-5</td><td>1.6466917E-4</td><td>3.654211E-13</td></tr>
+<tr><td><strong>270.00</strong></td><td>0.0</td><td>8.273365E-5</td><td>6.155586E-5</td><td>1.17787E-4</td><td>1.2146175E-13</td></tr>
+<tr><td><strong>280.00</strong></td><td>0.0</td><td>5.8409736E-5</td><td>0.0</td><td>8.425243E-5</td><td>4.037248E-14</td></tr>
+</tbody>
+</table>
+<h3 id="moment-release-variability-plots">Moment Release Variability Plots</h3>
+<p><em><a href="#sigma200">(top)</a></em></p>
+<p>We first create a tapered moment release time series for the entire catalog. Each event's moment is distributed across a 25 year Hanning (cosine) taper. Here is a plot of a random 2,000 year section of this time series:</p>
+<p><img src="resources/moment_variability_time_series.png" alt="Time Series" /></p>
+<p>We then compute Welch's power spectral density estimate on the entire time series. Results are plotted below, with a Poisson randomization of the catalog also plotted in gray as a control. Significant deviations above the Poisson model indicate synchronization at that period.</p>
+<p><img src="resources/moment_variability_welch.png" alt="Welch PSD" /></p>
 <h2 id="input-file">Input File</h2>
 <p><em><a href="#sigma200">(top)</a></em></p>
 <pre><code>  A_1 = 0.001

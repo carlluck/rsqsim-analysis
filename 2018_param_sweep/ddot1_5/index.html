@@ -2,6 +2,12 @@
 <html>
 <head>
 <style>
+table {
+	border-collapse: collapse
+}
+table, th, td {
+	border: 1px solid black
+}
 body {
 	max-width:1000px;
 	margin: auto;
@@ -46,16 +52,23 @@ img {
 <li><a href="#subsection-interevent-time-comparisons">Subsection Interevent Time Comparisons</a></li>
 </ul>
 </li>
+<li><a href="#paleo-open-interval-plots">Paleo Open Interval Plots</a>
+<ul>
+<li><a href="#paleo-open-interval-plots-biasi-and-sharer-2019">Paleo Open Interval Plots, Biasi and Sharer 2019</a></li>
+<li><a href="#paleo-open-interval-plots-ucerf3">Paleo Open Interval Plots, UCERF3</a></li>
+</ul>
+</li>
+<li><a href="#moment-release-variability-plots">Moment Release Variability Plots</a></li>
 </ul>
 </li>
 <li><a href="#input-file">Input File</a></li>
 </ul>
 <h2 id="plots">Plots</h2>
 <h3 id="magnitude-frequency-plot">Magnitude-Frequency Plot</h3>
-<p><em><a href="#ddot15">(top)</a></em></p>
+<p><em><a href="#ddot1_5">(top)</a></em></p>
 <p><img src="resources/mfd.png" alt="MFD" /></p>
 <h3 id="magnitude-area-plots">Magnitude-Area Plots</h3>
-<p><em><a href="#ddot15">(top)</a></em></p>
+<p><em><a href="#ddot1_5">(top)</a></em></p>
 <table>
 <thead>
 <tr><th>Scatter</th><th>2-D Hist</th></tr>
@@ -65,7 +78,7 @@ img {
 </tbody>
 </table>
 <h3 id="slip-area-plots">Slip-Area Plots</h3>
-<p><em><a href="#ddot15">(top)</a></em></p>
+<p><em><a href="#ddot1_5">(top)</a></em></p>
 <table>
 <thead>
 <tr><th>Scatter</th><th>2-D Hist</th></tr>
@@ -75,7 +88,7 @@ img {
 </tbody>
 </table>
 <h3 id="rupture-velocity-plots">Rupture Velocity Plots</h3>
-<p><em><a href="#ddot15">(top)</a></em></p>
+<p><em><a href="#ddot1_5">(top)</a></em></p>
 <table>
 <thead>
 <tr><th><strong>Scatter</strong></th><th><img src="resources/rupture_velocity_scatter.png" alt="Rupture Velocity Scatter" /></th></tr>
@@ -85,7 +98,7 @@ img {
 </tbody>
 </table>
 <h3 id="global-interevent-time-distributions">Global Interevent-Time Distributions</h3>
-<p><em><a href="#ddot15">(top)</a></em></p>
+<p><em><a href="#ddot1_5">(top)</a></em></p>
 <table>
 <thead>
 <tr><th><strong>M≥6</strong></th><th><strong>M≥6.5</strong></th><th><strong>M≥7</strong></th><th><strong>M≥7.5</strong></th></tr>
@@ -95,7 +108,7 @@ img {
 </tbody>
 </table>
 <h3 id="normalized-fault-interevent-time-distributions">Normalized Fault Interevent-Time Distributions</h3>
-<p><em><a href="#ddot15">(top)</a></em></p>
+<p><em><a href="#ddot1_5">(top)</a></em></p>
 <table>
 <thead>
 <tr><th></th><th><strong>M≥6</strong></th><th><strong>M≥6.5</strong></th><th><strong>M≥7</strong></th><th><strong>M≥7.5</strong></th></tr>
@@ -107,11 +120,11 @@ img {
 </tbody>
 </table>
 <h3 id="stationarity-plot">Stationarity Plot</h3>
-<p><em><a href="#ddot15">(top)</a></em></p>
+<p><em><a href="#ddot1_5">(top)</a></em></p>
 <p><img src="resources/stationarity.png" alt="Stationarity" /></p>
 <h3 id="elementsubsection-interevent-time-comparisons">Element/Subsection Interevent Time Comparisons</h3>
 <h4 id="element-interevent-time-comparisons">Element Interevent Time Comparisons</h4>
-<p><em><a href="#ddot15">(top)</a></em></p>
+<p><em><a href="#ddot1_5">(top)</a></em></p>
 <table>
 <thead>
 <tr><th>Min Mag</th><th>Scatter</th><th>2-D Hist</th></tr>
@@ -124,7 +137,7 @@ img {
 </tbody>
 </table>
 <h4 id="subsection-interevent-time-comparisons">Subsection Interevent Time Comparisons</h4>
-<p><em><a href="#ddot15">(top)</a></em></p>
+<p><em><a href="#ddot1_5">(top)</a></em></p>
 <p><em>Subsections participate in a rupture if at least 20.0 % of its area ruptures</em></p>
 <table>
 <thead>
@@ -137,8 +150,145 @@ img {
 <tr><td><strong>M≥7.5</strong></td><td><img src="resources/interevent_sub_sects_m7.5_scatter.png" alt="Subsection Scatter" /></td><td><img src="resources/interevent_sub_sects_m7.5_hist2D.png" alt="Subsection 2-D Hist" /></td></tr>
 </tbody>
 </table>
+<h3 id="paleo-open-interval-plots">Paleo Open Interval Plots</h3>
+<p><em><a href="#ddot1_5">(top)</a></em></p>
+<h4 id="paleo-open-interval-plots-biasi-and-sharer-2019">Paleo Open Interval Plots, Biasi and Sharer 2019</h4>
+<p><em><a href="#ddot1_5">(top)</a></em></p>
+<p>These plots use the 5 paleoseismic sites identified in Biasi &amp; Scharer (2019) on the Hayward, N. SAF, S. SAF, and SJC faults. By default, a rupture is counted at a paleo site if the nearest element (at the surface) slips any amount. We also alternatively apply a probability of detection model. Those results are marked as 'Prob. Filtered'.</p>
+<p><strong>Paleoseismic sites table:</strong></p>
+<table>
+<thead>
+<tr><th><strong>Site Name</strong></th><th>Data MRI (yr)</th><th>Data Annual Rate</th><th>Catalog MRI (yr)</th><th>Catalog Annual Rate</th><th>Catalog Occurences</th><th>Prob Filtered Catalog MRI (yr)</th><th>Prob Filtered Catalog Annual Rate</th><th>Prob Filtered Catalog Occurences</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>HOG</strong></td><td>191.00</td><td>0.005235602</td><td>363.30</td><td>0.0027525336</td><td>1164</td><td>367.55</td><td>0.0027207017</td><td>1150.53</td></tr>
+<tr><td><strong>FRA</strong></td><td>119.00</td><td>0.008403362</td><td>117.89</td><td>0.008482478</td><td>3585</td><td>123.44</td><td>0.008101029</td><td>3423.81</td></tr>
+<tr><td><strong>COA</strong></td><td>181.00</td><td>0.005524862</td><td>179.44</td><td>0.0055728005</td><td>2355</td><td>191.82</td><td>0.005213226</td><td>2203.08</td></tr>
+<tr><td><strong>SCZ</strong></td><td>106.00</td><td>0.009433962</td><td>123.12</td><td>0.008122387</td><td>3432</td><td>141.74</td><td>0.007055416</td><td>2981.25</td></tr>
+<tr><td><strong>TYS</strong></td><td>329.00</td><td>0.0030395137</td><td>346.04</td><td>0.00288988</td><td>1221</td><td>383.11</td><td>0.0026101863</td><td>1102.81</td></tr>
+<tr><td><strong>TOTAL</strong></td><td>31.61</td><td>0.0316373</td><td>35.95</td><td>0.027820202</td><td>11757</td><td>38.91</td><td>0.025698405</td><td>10860.36</td></tr>
+</tbody>
+</table>
+<p><strong>Paleoseismic Plots:</strong></p>
+<table>
+<thead>
+<tr><th><img src="resources/paleo_open_biasi_count.png" alt="Count" /></th><th><img src="resources/paleo_open_biasi_prob.png" alt="Prob" /></th></tr>
+</thead>
+<tbody></tbody>
+</table>
+<p><strong>Open interval probabilities table:</strong></p>
+<table>
+<thead>
+<tr><th><strong>Open Interval (yr)</strong></th><th>Catalog Probability</th><th>Catalog Poisson Probability</th><th>Prob. Filtered Catalog Probability</th><th>Prob. Filtered Catalog Poisson Probability</th><th>Data Poisson Probability</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>10.00</strong></td><td>0.97335076</td><td>0.75714386</td><td>0.9771711</td><td>0.7733806</td><td>0.72878754</td></tr>
+<tr><td><strong>20.00</strong></td><td>0.9046456</td><td>0.5732668</td><td>0.9170494</td><td>0.5981175</td><td>0.53113127</td></tr>
+<tr><td><strong>30.00</strong></td><td>0.80650103</td><td>0.43404543</td><td>0.82980865</td><td>0.46257243</td><td>0.3870819</td></tr>
+<tr><td><strong>40.00</strong></td><td>0.69354576</td><td>0.32863483</td><td>0.72799474</td><td>0.35774451</td><td>0.28210047</td></tr>
+<tr><td><strong>50.00</strong></td><td>0.57109624</td><td>0.24882384</td><td>0.61546713</td><td>0.27667263</td><td>0.2055913</td></tr>
+<tr><td><strong>60.00</strong></td><td>0.4490359</td><td>0.18839544</td><td>0.50128573</td><td>0.21397324</td><td>0.14983238</td></tr>
+<tr><td><strong>70.00</strong></td><td>0.3403565</td><td>0.14264244</td><td>0.39456487</td><td>0.16548274</td><td>0.10919597</td></tr>
+<tr><td><strong>80.00</strong></td><td>0.25045443</td><td>0.10800085</td><td>0.3039659</td><td>0.12798114</td><td>0.079580665</td></tr>
+<tr><td><strong>90.00</strong></td><td>0.168443</td><td>0.08177218</td><td>0.21807666</td><td>0.09897812</td><td>0.057997398</td></tr>
+<tr><td><strong>100.00</strong></td><td>0.1098522</td><td>0.0619133</td><td>0.15265615</td><td>0.07654775</td><td>0.04226778</td></tr>
+<tr><td><strong>110.00</strong></td><td>0.06669993</td><td>0.046877276</td><td>0.10042765</td><td>0.059200544</td><td>0.030804234</td></tr>
+<tr><td><strong>120.00</strong></td><td>0.03506914</td><td>0.03549284</td><td>0.060078617</td><td>0.045784548</td><td>0.022449743</td></tr>
+<tr><td><strong>130.00</strong></td><td>0.013132246</td><td>0.026873186</td><td>0.029170152</td><td>0.03540888</td><td>0.016361093</td></tr>
+<tr><td><strong>140.00</strong></td><td>0.0013655784</td><td>0.020346867</td><td>0.008865825</td><td>0.027384538</td><td>0.011923761</td></tr>
+<tr><td><strong>150.00</strong></td><td>7.2633696E-4</td><td>0.015405505</td><td>0.0039022327</td><td>0.021178668</td><td>0.008689889</td></tr>
+<tr><td><strong>160.00</strong></td><td>0.0</td><td>0.011664184</td><td>0.0013951096</td><td>0.01637917</td><td>0.0063330824</td></tr>
+<tr><td><strong>170.00</strong></td><td>0.0</td><td>0.008831465</td><td>9.470634E-4</td><td>0.012667332</td><td>0.0046154717</td></tr>
+<tr><td><strong>180.00</strong></td><td>0.0</td><td>0.0066866893</td><td>5.3362927E-4</td><td>0.009796668</td><td>0.0033636983</td></tr>
+<tr><td><strong>190.00</strong></td><td>0.0</td><td>0.0050627855</td><td>3.0369894E-4</td><td>0.0075765527</td><td>0.0024514215</td></tr>
+<tr><td><strong>200.00</strong></td><td>0.0</td><td>0.003833257</td><td>1.8597208E-4</td><td>0.0058595585</td><td>0.0017865654</td></tr>
+<tr><td><strong>210.00</strong></td><td>0.0</td><td>0.0029023269</td><td>6.948779E-5</td><td>0.0045316685</td><td>0.0013020267</td></tr>
+<tr><td><strong>220.00</strong></td><td>0.0</td><td>0.002197479</td><td>3.0937284E-5</td><td>0.0035047042</td><td>9.489008E-4</td></tr>
+<tr><td><strong>230.00</strong></td><td>0.0</td><td>0.0016638077</td><td>1.8577923E-5</td><td>0.0027104702</td><td>6.915471E-4</td></tr>
+<tr><td><strong>240.00</strong></td><td>0.0</td><td>0.0012597417</td><td>8.518383E-6</td><td>0.0020962248</td><td>5.039909E-4</td></tr>
+<tr><td><strong>250.00</strong></td><td>0.0</td><td>9.538057E-4</td><td>0.0</td><td>0.0016211795</td><td>3.673023E-4</td></tr>
+</tbody>
+</table>
+<h4 id="paleo-open-interval-plots-ucerf3">Paleo Open Interval Plots, UCERF3</h4>
+<p><em><a href="#ddot1_5">(top)</a></em></p>
+<p>These plots use the full set of UCERF3 paleoseismic sites. By default, a rupture is counted at a paleo site if the nearest element (at the surface) slips any amount. We also alternativeslyapply a probability of detection model. Those results are marked as 'Prob. Filtered'.</p>
+<p><strong>Paleoseismic sites table:</strong></p>
+<table>
+<thead>
+<tr><th><strong>Site Name</strong></th><th>Data MRI (yr)</th><th>Data Annual Rate</th><th>Catalog MRI (yr)</th><th>Catalog Annual Rate</th><th>Catalog Occurences</th><th>Prob Filtered Catalog MRI (yr)</th><th>Prob Filtered Catalog Annual Rate</th><th>Prob Filtered Catalog Occurences</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>SSanAndreasBurroFlats</strong></td><td>205.44</td><td>0.0048677</td><td>208.33</td><td>0.0048000147</td><td>2028</td><td>236.98</td><td>0.0042197197</td><td>1782.68</td></tr>
+<tr><td><strong>SSanAndreasIndio</strong></td><td>277.37</td><td>0.0036053</td><td>175.86</td><td>0.0056864345</td><td>2403</td><td>186.64</td><td>0.005357942</td><td>2264.18</td></tr>
+<tr><td><strong>SSAFMCreek1000Palms</strong></td><td>261.33</td><td>0.0038266</td><td>1606.22</td><td>6.225804E-4</td><td>263</td><td>2316.38</td><td>4.3170826E-4</td><td>182.09</td></tr>
+<tr><td><strong>NSanAndreasFortRoss</strong></td><td>306.28</td><td>0.003265</td><td>191.41</td><td>0.0052244877</td><td>2208</td><td>193.79</td><td>0.005160215</td><td>2180.83</td></tr>
+<tr><td><strong>NSanAndreasNorthCoast</strong></td><td>263.87</td><td>0.0037898</td><td>182.01</td><td>0.0054943524</td><td>2322</td><td>186.61</td><td>0.0053588017</td><td>2264.68</td></tr>
+<tr><td><strong>CalaverasfaultNorth</strong></td><td>618.05</td><td>0.001618</td><td>166.37</td><td>0.0060107997</td><td>2540</td><td>238.75</td><td>0.0041885055</td><td>1769.49</td></tr>
+<tr><td><strong>ElsinoreTemecula</strong></td><td>1019.16</td><td>9.812E-4</td><td>697.35</td><td>0.0014339959</td><td>606</td><td>724.88</td><td>0.0013795374</td><td>582.95</td></tr>
+<tr><td><strong>ElsinoreWhittier</strong></td><td>3196.93</td><td>3.128E-4</td><td>1552.16</td><td>6.4426276E-4</td><td>272</td><td>1632.56</td><td>6.125359E-4</td><td>258.6</td></tr>
+<tr><td><strong>SSAFCarrizoBidart</strong></td><td>114.71</td><td>0.0087179</td><td>124.60</td><td>0.008025693</td><td>3392</td><td>127.94</td><td>0.007815874</td><td>3303.3</td></tr>
+<tr><td><strong>SanJacintoHogLake</strong></td><td>311.78</td><td>0.0032074</td><td>363.30</td><td>0.0027525336</td><td>1164</td><td>367.71</td><td>0.0027195183</td><td>1150.04</td></tr>
+<tr><td><strong>PuenteHills</strong></td><td>3506.31</td><td>2.852E-4</td><td>5300.95</td><td>1.8864548E-4</td><td>79</td><td>5709.10</td><td>1.7515899E-4</td><td>73.31</td></tr>
+<tr><td><strong>SanGregorioNorth</strong></td><td>1019.06</td><td>9.813E-4</td><td>396.69</td><td>0.002520871</td><td>1065</td><td>411.12</td><td>0.002432386</td><td>1027.59</td></tr>
+<tr><td><strong>SanJacintoSuperstition</strong></td><td>508.26</td><td>0.0019675</td><td>1259.42</td><td>7.9401553E-4</td><td>336</td><td>1337.08</td><td>7.478994E-4</td><td>316.35</td></tr>
+<tr><td><strong>SSanAndreasWrightwood</strong></td><td>106.04</td><td>0.0094304</td><td>154.83</td><td>0.0064588953</td><td>2730</td><td>156.59</td><td>0.0063862596</td><td>2699.31</td></tr>
+<tr><td><strong>SSanAndreasPitmanCanyon</strong></td><td>173.48</td><td>0.0057643</td><td>145.71</td><td>0.0068631377</td><td>2900</td><td>161.92</td><td>0.006175998</td><td>2609.68</td></tr>
+<tr><td><strong>SSanAndreasPlungeCreek</strong></td><td>205.36</td><td>0.0048695</td><td>367.52</td><td>0.0027209546</td><td>1150</td><td>449.63</td><td>0.0022240693</td><td>939.99</td></tr>
+<tr><td><strong>FrazierMountianSSAF</strong></td><td>148.57</td><td>0.0067307</td><td>117.89</td><td>0.008482478</td><td>3585</td><td>123.54</td><td>0.008094573</td><td>3421.08</td></tr>
+<tr><td><strong>NSanAndreasSantaCruzSeg</strong></td><td>109.84</td><td>0.0091041</td><td>123.12</td><td>0.008122387</td><td>3432</td><td>142.06</td><td>0.007039524</td><td>2974.46</td></tr>
+<tr><td><strong>RodgersCreek</strong></td><td>325.31</td><td>0.003074</td><td>171.81</td><td>0.0058202907</td><td>2460</td><td>232.50</td><td>0.0043010702</td><td>1817.73</td></tr>
+<tr><td><strong>GreenValleyMasonRoad</strong></td><td>293.31</td><td>0.0034094</td><td>1747.56</td><td>5.7222776E-4</td><td>242</td><td>2336.25</td><td>4.2803623E-4</td><td>180.8</td></tr>
+<tr><td><strong>HaywardfaultNorth</strong></td><td>318.34</td><td>0.0031413</td><td>374.25</td><td>0.0026720387</td><td>1130</td><td>384.42</td><td>0.0026013267</td><td>1100.02</td></tr>
+<tr><td><strong>HaywardfaultSouth</strong></td><td>167.57</td><td>0.0059677</td><td>346.04</td><td>0.00288988</td><td>1221</td><td>383.22</td><td>0.0026094639</td><td>1102.45</td></tr>
+<tr><td><strong>Compton</strong></td><td>2658.16</td><td>3.762E-4</td><td>6011.98</td><td>1.6633453E-4</td><td>69</td><td>6642.24</td><td>1.5055163E-4</td><td>62.54</td></tr>
+<tr><td><strong>SSanAndreasCoachella</strong></td><td>178.45</td><td>0.0056037</td><td>179.44</td><td>0.0055728005</td><td>2355</td><td>191.75</td><td>0.0052150204</td><td>2203.84</td></tr>
+<tr><td><strong>ElsinoreGlenIvy</strong></td><td>179.12</td><td>0.0055828</td><td>582.73</td><td>0.0017160546</td><td>725</td><td>627.32</td><td>0.0015940816</td><td>673.46</td></tr>
+<tr><td><strong>GarlockCentralallevents</strong></td><td>1434.93</td><td>6.969E-4</td><td>641.19</td><td>0.0015596092</td><td>659</td><td>652.37</td><td>0.0015328838</td><td>647.69</td></tr>
+<tr><td><strong>NSanAndreasAlderCreek</strong></td><td>869.64</td><td>0.0011499</td><td>190.89</td><td>0.0052386913</td><td>2214</td><td>193.91</td><td>0.0051571624</td><td>2179.55</td></tr>
+<tr><td><strong>SSanAndreasPallettCreek</strong></td><td>149.30</td><td>0.006698</td><td>154.60</td><td>0.0064683626</td><td>2734</td><td>156.32</td><td>0.006397068</td><td>2703.86</td></tr>
+<tr><td><strong>GarlockWesternallevents</strong></td><td>1230.16</td><td>8.129E-4</td><td>829.98</td><td>0.0012048457</td><td>509</td><td>850.85</td><td>0.0011752978</td><td>496.53</td></tr>
+<tr><td><strong>ElsinoreFaultJulian</strong></td><td>3250.98</td><td>3.076E-4</td><td>1265.08</td><td>7.9046434E-4</td><td>334</td><td>1290.56</td><td>7.748598E-4</td><td>327.36</td></tr>
+<tr><td><strong>TOTAL</strong></td><td>9.08</td><td>0.1101451</td><td>14.59</td><td>0.06855557</td><td>28971</td><td>16.17</td><td>0.061857596</td><td>26140.55</td></tr>
+</tbody>
+</table>
+<p><strong>Paleoseismic Plots:</strong></p>
+<table>
+<thead>
+<tr><th><img src="resources/paleo_open_ucerf3_count.png" alt="Count" /></th><th><img src="resources/paleo_open_ucerf3_prob.png" alt="Prob" /></th></tr>
+</thead>
+<tbody></tbody>
+</table>
+<p><strong>Open interval probabilities table:</strong></p>
+<table>
+<thead>
+<tr><th><strong>Open Interval (yr)</strong></th><th>Catalog Probability</th><th>Catalog Poisson Probability</th><th>Prob. Filtered Catalog Probability</th><th>Prob. Filtered Catalog Poisson Probability</th><th>Data Poisson Probability</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>10.00</strong></td><td>0.860123</td><td>0.50381017</td><td>0.8810504</td><td>0.538711</td><td>0.33238843</td></tr>
+<tr><td><strong>20.00</strong></td><td>0.6086442</td><td>0.25382468</td><td>0.6562218</td><td>0.2902096</td><td>0.110482074</td></tr>
+<tr><td><strong>30.00</strong></td><td>0.38172144</td><td>0.12787946</td><td>0.4376757</td><td>0.15633911</td><td>0.036722966</td></tr>
+<tr><td><strong>40.00</strong></td><td>0.2111226</td><td>0.06442697</td><td>0.26330683</td><td>0.0842216</td><td>0.012206289</td></tr>
+<tr><td><strong>50.00</strong></td><td>0.1085852</td><td>0.03245896</td><td>0.14958498</td><td>0.045371108</td><td>0.004057229</td></tr>
+<tr><td><strong>60.00</strong></td><td>0.049531534</td><td>0.016353155</td><td>0.07681187</td><td>0.024441916</td><td>0.001348576</td></tr>
+<tr><td><strong>70.00</strong></td><td>0.023906616</td><td>0.008238886</td><td>0.039204735</td><td>0.01316713</td><td>4.4825108E-4</td></tr>
+<tr><td><strong>80.00</strong></td><td>0.00777736</td><td>0.0041508344</td><td>0.016480867</td><td>0.007093278</td><td>1.4899348E-4</td></tr>
+<tr><td><strong>90.00</strong></td><td>0.003049115</td><td>0.0020912327</td><td>0.006801457</td><td>0.0038212272</td><td>4.952371E-5</td></tr>
+<tr><td><strong>100.00</strong></td><td>4.2968933E-4</td><td>0.0010535843</td><td>0.0017593605</td><td>0.0020585372</td><td>1.6461108E-5</td></tr>
+<tr><td><strong>110.00</strong></td><td>0.0</td><td>5.308065E-4</td><td>6.506497E-4</td><td>0.0011089568</td><td>5.4714824E-6</td></tr>
+<tr><td><strong>120.00</strong></td><td>0.0</td><td>2.674257E-4</td><td>1.8823435E-4</td><td>5.974072E-4</td><td>1.8186574E-6</td></tr>
+<tr><td><strong>130.00</strong></td><td>0.0</td><td>1.3473179E-4</td><td>1.04428786E-4</td><td>3.2182987E-4</td><td>6.045007E-7</td></tr>
+<tr><td><strong>140.00</strong></td><td>0.0</td><td>6.787924E-5</td><td>3.4843802E-6</td><td>1.7337331E-4</td><td>2.0092905E-7</td></tr>
+<tr><td><strong>150.00</strong></td><td>0.0</td><td>3.4198252E-5</td><td>0.0</td><td>9.3398114E-5</td><td>6.678649E-8</td></tr>
+</tbody>
+</table>
+<h3 id="moment-release-variability-plots">Moment Release Variability Plots</h3>
+<p><em><a href="#ddot1_5">(top)</a></em></p>
+<p>We first create a tapered moment release time series for the entire catalog. Each event's moment is distributed across a 25 year Hanning (cosine) taper. Here is a plot of a random 2,000 year section of this time series:</p>
+<p><img src="resources/moment_variability_time_series.png" alt="Time Series" /></p>
+<p>We then compute Welch's power spectral density estimate on the entire time series. Results are plotted below, with a Poisson randomization of the catalog also plotted in gray as a control. Significant deviations above the Poisson model indicate synchronization at that period.</p>
+<p><img src="resources/moment_variability_welch.png" alt="Welch PSD" /></p>
 <h2 id="input-file">Input File</h2>
-<p><em><a href="#ddot15">(top)</a></em></p>
+<p><em><a href="#ddot1_5">(top)</a></em></p>
 <pre><code>  A_1 = 0.001
   fA = .1
   B_1 = 0.008
