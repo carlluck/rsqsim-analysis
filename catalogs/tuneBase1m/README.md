@@ -11,8 +11,9 @@
 | **Frictional Params** | a=0.01, b=0.015, (b-a)=0.005, ddotEQ=1 |
 
 * [Metadata](#metadata)
-* [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
-* [Full Catalog RotD100/RotD50 Ratios](#full-catalog-rotd100rotd50-ratios)
+* [BBP Calculations, LA Basin 863 (m/s) Velocity Model](#bbp-calculations-la-basin-863-ms-velocity-model)
+  * [Full Catalog GMPE Comparisons, LA Basin 863 (m/s)](#full-catalog-gmpe-comparisons-la-basin-863-ms)
+  * [Full Catalog RotD100/RotD50 Ratios, LA Basin 863 (m/s)](bbp_LA_BASIN_863/catalog_rotd_ratio_comparisons/)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
@@ -26,16 +27,20 @@
     * [Subsection Interevent Time Comparisons](#subsection-interevent-time-comparisons)
 * [Input File](#input-file)
 
-## Full Catalog GMPE Comparisons
+## BBP Calculations, LA Basin 863 (m/s) Velocity Model
 *[(top)](#jg-tune-base-1m)*
 
-* [BSSA2014](gmpe_bbp_comparisons_BSSA2014/)
-* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
 
-## Full Catalog RotD100/RotD50 Ratios
+### Full Catalog GMPE Comparisons, LA Basin 863 (m/s)
 *[(top)](#jg-tune-base-1m)*
 
-[Full Catalog RotD100/RotD50 Ratios Plotted Here](catalog_rotd_ratio_comparisons/)
+* [BSSA2014](bbp_LA_BASIN_863/gmpe_bbp_comparisons_BSSA2014/)
+* [NGAWest_2014_NoIdr](bbp_LA_BASIN_863/gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
+
+### Full Catalog RotD100/RotD50 Ratios, LA Basin 863 (m/s)
+*[(top)](#jg-tune-base-1m)*
+
+[Full Catalog RotD100/RotD50 Ratios Plotted Here](bbp_LA_BASIN_863/catalog_rotd_ratio_comparisons/)
 
 ## Plots
 ### Magnitude-Frequency Plot

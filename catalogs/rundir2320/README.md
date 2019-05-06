@@ -12,8 +12,9 @@ faults surface breaking), same as rundir2310 but less resolved |
 | **Frictional Params** | a=0.001, b=0.01, (b-a)=0.009, ddotEQ=1 |
 
 * [Metadata](#metadata)
-* [Single Event Comparisons](#single-event-comparisons)
-* [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
+* [BBP Calculations, LA Basin 863 (m/s) Velocity Model](#bbp-calculations-la-basin-863-ms-velocity-model)
+  * [Single Event Comparisons, LA Basin 863 (m/s)](#single-event-comparisons-la-basin-863-ms)
+  * [Full Catalog GMPE Comparisons, LA Basin 863 (m/s)](#full-catalog-gmpe-comparisons-la-basin-863-ms)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
@@ -27,16 +28,20 @@ faults surface breaking), same as rundir2310 but less resolved |
     * [Subsection Interevent Time Comparisons](#subsection-interevent-time-comparisons)
 * [Input File](#input-file)
 
-## Single Event Comparisons
+## BBP Calculations, LA Basin 863 (m/s) Velocity Model
 *[(top)](#bruce-2320)*
 
-* [Event 6195527, M7.52](event_6195527/)
 
-## Full Catalog GMPE Comparisons
+### Single Event Comparisons, LA Basin 863 (m/s)
 *[(top)](#bruce-2320)*
 
-* [BSSA2014](gmpe_bbp_comparisons_BSSA2014/)
-* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
+* [Event 6195527, M7.52](bbp_LA_BASIN_863/event_6195527/)
+
+### Full Catalog GMPE Comparisons, LA Basin 863 (m/s)
+*[(top)](#bruce-2320)*
+
+* [BSSA2014](bbp_LA_BASIN_863/gmpe_bbp_comparisons_BSSA2014/)
+* [NGAWest_2014_NoIdr](bbp_LA_BASIN_863/gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
 
 ## Plots
 ### Magnitude-Frequency Plot

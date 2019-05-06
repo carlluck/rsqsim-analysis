@@ -12,7 +12,7 @@
 
 * [Metadata](#metadata)
 * [Hazard Comparisons](#hazard-comparisons)
-* [Multi-Fault Rupture Comparisons](#multi-fault-rupture-comparisons)
+* [Multi-Fault Rupture Comparisons](multi_fault/)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)

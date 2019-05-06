@@ -2,6 +2,12 @@
 <html>
 <head>
 <style>
+table {
+	border-collapse: collapse
+}
+table, th, td {
+	border: 1px solid black
+}
 body {
 	max-width:1000px;
 	margin: auto;
@@ -31,8 +37,22 @@ img {
 </table>
 <ul>
 <li><a href="#metadata">Metadata</a></li>
-<li><a href="#single-event-comparisons">Single Event Comparisons</a></li>
-<li><a href="#full-catalog-gmpe-comparisons">Full Catalog GMPE Comparisons</a></li>
+<li><a href="#bbp-calculations-la-basin-863-ms-velocity-model">BBP Calculations, LA Basin 863 (m/s) Velocity Model</a>
+<ul>
+<li><a href="#single-event-comparisons-la-basin-863-ms">Single Event Comparisons, LA Basin 863 (m/s)</a></li>
+<li><a href="#full-catalog-gmpe-comparisons-la-basin-863-ms">Full Catalog GMPE Comparisons, LA Basin 863 (m/s)</a></li>
+<li><a href="bbp_LA_BASIN_863/source_site_comparisons/">Source/Site Ground Motion Comparisons, LA Basin 863 (m/s)</a></li>
+<li><a href="bbp_LA_BASIN_863/bbp_part_b">BBP Part B Analysis, LA Basin 863 (m/s)</a></li>
+<li><a href="#rotated-rupture-variability-comparisons-la-basin-863-ms">Rotated Rupture Variability Comparisons, LA Basin 863 (m/s)</a></li>
+</ul>
+</li>
+<li><a href="#bbp-calculations-la-basin-500-ms-velocity-model">BBP Calculations, LA Basin 500 (m/s) Velocity Model</a>
+<ul>
+<li><a href="#rotated-rupture-variability-comparisons-la-basin-500-ms">Rotated Rupture Variability Comparisons, LA Basin 500 (m/s)</a></li>
+</ul>
+</li>
+<li><a href="bbp_part_b_summary/">BBP PartB Summary</a></li>
+<li><a href="bbp_vm_rot_rup_compare/">BBP Velocity Model Comparisons</a></li>
 <li><a href="#plots">Plots</a>
 <ul>
 <li><a href="#magnitude-frequency-plot">Magnitude-Frequency Plot</a></li>
@@ -52,17 +72,59 @@ img {
 </li>
 <li><a href="#input-file">Input File</a></li>
 </ul>
-<h2 id="single-event-comparisons">Single Event Comparisons</h2>
+<h2 id="bbp-calculations-la-basin-863-ms-velocity-model">BBP Calculations, LA Basin 863 (m/s) Velocity Model</h2>
+<p><em><a href="#bruce-2740">(top)</a></em></p>
+<h3 id="single-event-comparisons-la-basin-863-ms">Single Event Comparisons, LA Basin 863 (m/s)</h3>
 <p><em><a href="#bruce-2740">(top)</a></em></p>
 <ul>
-<li><a href="event_385955/">Event 385955, M7.49</a></li>
+<li><a href="bbp_LA_BASIN_863/event_385955/">Event 385955, M7.49</a></li>
 </ul>
-<h2 id="full-catalog-gmpe-comparisons">Full Catalog GMPE Comparisons</h2>
+<h3 id="full-catalog-gmpe-comparisons-la-basin-863-ms">Full Catalog GMPE Comparisons, LA Basin 863 (m/s)</h3>
 <p><em><a href="#bruce-2740">(top)</a></em></p>
 <ul>
-<li><a href="gmpe_bbp_comparisons_ASK2014/">ASK2014</a></li>
-<li><a href="gmpe_bbp_comparisons_NGAWest_2014_NoIdr/">NGAWest_2014_NoIdr</a></li>
+<li><a href="bbp_LA_BASIN_863/gmpe_bbp_comparisons_ASK2014/">ASK2014</a></li>
+<li><a href="bbp_LA_BASIN_863/gmpe_bbp_comparisons_ASK2014_mech_normal/">ASK2014, Focal Mechanism: Normal</a></li>
+<li><a href="bbp_LA_BASIN_863/gmpe_bbp_comparisons_ASK2014_mech_reverse/">ASK2014, Focal Mechanism: Reverse</a></li>
+<li><a href="bbp_LA_BASIN_863/gmpe_bbp_comparisons_ASK2014_mech_vert_ss/">ASK2014, Focal Mechanism: Vertical Strike-Slip</a></li>
+<li><a href="bbp_LA_BASIN_863/gmpe_bbp_comparisons_NGAWest_2014_NoIdr/">NGAWest_2014_NoIdr</a></li>
 </ul>
+<h3 id="sourcesite-ground-motion-comparisons-la-basin-863-ms">Source/Site Ground Motion Comparisons, LA Basin 863 (m/s)</h3>
+<p><em><a href="#bruce-2740">(top)</a></em></p>
+<p><a href="bbp_LA_BASIN_863/source_site_comparisons/">Source/Site Ground Motion Comparisons here</a></p>
+<h3 id="bbp-part-b-analysis-la-basin-863-ms">BBP Part B Analysis, LA Basin 863 (m/s)</h3>
+<p><em><a href="#bruce-2740">(top)</a></em></p>
+<p><a href="bbp_LA_BASIN_863/bbp_part_b">BBP Part B Analysis Here</a></p>
+<h3 id="rotated-rupture-variability-comparisons-la-basin-863-ms">Rotated Rupture Variability Comparisons, LA Basin 863 (m/s)</h3>
+<p><em><a href="#bruce-2740">(top)</a></em></p>
+<ul>
+<li><a href="bbp_LA_BASIN_863/rotated_ruptures_m6p6_reverse/">M6.6, Reverse, Dip=45, Ztor=3</a></li>
+<li><a href="bbp_LA_BASIN_863/rotated_ruptures_m6p6_vert_ss_surface/">M6.6, Vertical Strike-Slip with Surface Rupture</a></li>
+<li><a href="bbp_LA_BASIN_863/rotated_ruptures_m7p2_reverse/">M7.2, Reverse, Dip=45</a></li>
+<li><a href="bbp_LA_BASIN_863/rotated_ruptures_m7p2_vert_ss_surface/">M7.2, Vertical Strike-Slip with Surface Rupture</a></li>
+<li><a href="bbp_LA_BASIN_863/rotated_ruptures_m7p6_reverse/">M7.6, Reverse, Dip=45</a></li>
+<li><a href="bbp_LA_BASIN_863/rotated_ruptures_m7p6_vert_ss_surface/">M7.6, Vertical Strike-Slip with Surface Rupture</a></li>
+<li><a href="bbp_LA_BASIN_863/rotated_ruptures_mag_dist_normal/">Normal, Dip=45, Mag-Dist Bins</a></li>
+<li><a href="bbp_LA_BASIN_863/rotated_ruptures_mag_dist_reverse/">Reverse, Dip=45, Mag-Dist Bins</a></li>
+<li><a href="bbp_LA_BASIN_863/rotated_ruptures_mag_dist_vert_ss_surface/">Vertical Strike-Slip with Surface Rupture, Mag-Dist Bins</a></li>
+</ul>
+<h2 id="bbp-calculations-la-basin-500-ms-velocity-model">BBP Calculations, LA Basin 500 (m/s) Velocity Model</h2>
+<p><em><a href="#bruce-2740">(top)</a></em></p>
+<h3 id="rotated-rupture-variability-comparisons-la-basin-500-ms">Rotated Rupture Variability Comparisons, LA Basin 500 (m/s)</h3>
+<p><em><a href="#bruce-2740">(top)</a></em></p>
+<ul>
+<li><a href="bbp_LA_BASIN_500/rotated_ruptures_m6p6_reverse/">M6.6, Reverse, Dip=45, Ztor=3</a></li>
+<li><a href="bbp_LA_BASIN_500/rotated_ruptures_m6p6_vert_ss_surface/">M6.6, Vertical Strike-Slip with Surface Rupture</a></li>
+<li><a href="bbp_LA_BASIN_500/rotated_ruptures_m7p2_reverse/">M7.2, Reverse, Dip=45</a></li>
+<li><a href="bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface/">M7.2, Vertical Strike-Slip with Surface Rupture</a></li>
+<li><a href="bbp_LA_BASIN_500/rotated_ruptures_m7p6_reverse/">M7.6, Reverse, Dip=45</a></li>
+<li><a href="bbp_LA_BASIN_500/rotated_ruptures_m7p6_vert_ss_surface/">M7.6, Vertical Strike-Slip with Surface Rupture</a></li>
+</ul>
+<h2 id="bbp-partb-summary">BBP PartB Summary</h2>
+<p><em><a href="#bruce-2740">(top)</a></em></p>
+<p><a href="bbp_part_b_summary/">BBP PartB Summary Here</a></p>
+<h2 id="bbp-velocity-model-comparisons">BBP Velocity Model Comparisons</h2>
+<p><em><a href="#bruce-2740">(top)</a></em></p>
+<p><a href="bbp_vm_rot_rup_compare/">BBP Velocity Model Comparisons Here</a></p>
 <h2 id="plots">Plots</h2>
 <h3 id="magnitude-frequency-plot">Magnitude-Frequency Plot</h3>
 <p><em><a href="#bruce-2740">(top)</a></em></p>

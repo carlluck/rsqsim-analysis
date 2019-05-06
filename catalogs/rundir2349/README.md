@@ -11,10 +11,11 @@
 | **Frictional Params** | a=0.001, b=0.008, (b-a)=0.007, ddotEQ=1.0 |
 
 * [Metadata](#metadata)
-* [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
-* [Full Catalog RotD100/RotD50 Ratios](#full-catalog-rotd100rotd50-ratios)
 * [Hazard Comparisons](#hazard-comparisons)
-* [Multi-Fault Rupture Comparisons](#multi-fault-rupture-comparisons)
+* [Multi-Fault Rupture Comparisons](multi_fault/)
+* [BBP Calculations, LA Basin 863 (m/s) Velocity Model](#bbp-calculations-la-basin-863-ms-velocity-model)
+  * [Full Catalog GMPE Comparisons, LA Basin 863 (m/s)](#full-catalog-gmpe-comparisons-la-basin-863-ms)
+  * [Full Catalog RotD100/RotD50 Ratios, LA Basin 863 (m/s)](bbp_LA_BASIN_863/catalog_rotd_ratio_comparisons/)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
@@ -27,17 +28,6 @@
     * [Element Interevent Time Comparisons](#element-interevent-time-comparisons)
     * [Subsection Interevent Time Comparisons](#subsection-interevent-time-comparisons)
 * [Input File](#input-file)
-
-## Full Catalog GMPE Comparisons
-*[(top)](#bruce-2349)*
-
-* [BSSA2014](gmpe_bbp_comparisons_BSSA2014/)
-* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
-
-## Full Catalog RotD100/RotD50 Ratios
-*[(top)](#bruce-2349)*
-
-[Full Catalog RotD100/RotD50 Ratios Plotted Here](catalog_rotd_ratio_comparisons/)
 
 ## Hazard Comparisons
 *[(top)](#bruce-2349)*
@@ -52,6 +42,21 @@
 *[(top)](#bruce-2349)*
 
 [Multi-Fault Rupture Comparisons here](multi_fault/)
+
+## BBP Calculations, LA Basin 863 (m/s) Velocity Model
+*[(top)](#bruce-2349)*
+
+
+### Full Catalog GMPE Comparisons, LA Basin 863 (m/s)
+*[(top)](#bruce-2349)*
+
+* [BSSA2014](bbp_LA_BASIN_863/gmpe_bbp_comparisons_BSSA2014/)
+* [NGAWest_2014_NoIdr](bbp_LA_BASIN_863/gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
+
+### Full Catalog RotD100/RotD50 Ratios, LA Basin 863 (m/s)
+*[(top)](#bruce-2349)*
+
+[Full Catalog RotD100/RotD50 Ratios Plotted Here](bbp_LA_BASIN_863/catalog_rotd_ratio_comparisons/)
 
 ## Plots
 ### Magnitude-Frequency Plot

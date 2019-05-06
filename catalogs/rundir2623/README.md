@@ -11,8 +11,9 @@
 | **Frictional Params** | a=0.001, b=0.01, (b-a)=0.009, ddotEQ=1 |
 
 * [Metadata](#metadata)
-* [Full Catalog GMPE Comparisons](#full-catalog-gmpe-comparisons)
 * [Hazard Comparisons](#hazard-comparisons)
+* [BBP Calculations, LA Basin 863 (m/s) Velocity Model](#bbp-calculations-la-basin-863-ms-velocity-model)
+  * [Full Catalog GMPE Comparisons, LA Basin 863 (m/s)](#full-catalog-gmpe-comparisons-la-basin-863-ms)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
@@ -26,11 +27,6 @@
     * [Subsection Interevent Time Comparisons](#subsection-interevent-time-comparisons)
 * [Input File](#input-file)
 
-## Full Catalog GMPE Comparisons
-*[(top)](#bruce-2623)*
-
-* [NGAWest_2014_NoIdr](gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
-
 ## Hazard Comparisons
 *[(top)](#bruce-2623)*
 
@@ -40,6 +36,15 @@
 * [10.0s SA](hazard_sa_10.0s/)
 * [2.0s SA](hazard_sa_2.0s/)
 * [5.0s SA](hazard_sa_5.0s/)
+
+## BBP Calculations, LA Basin 863 (m/s) Velocity Model
+*[(top)](#bruce-2623)*
+
+
+### Full Catalog GMPE Comparisons, LA Basin 863 (m/s)
+*[(top)](#bruce-2623)*
+
+* [NGAWest_2014_NoIdr](bbp_LA_BASIN_863/gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
 
 ## Plots
 ### Magnitude-Frequency Plot

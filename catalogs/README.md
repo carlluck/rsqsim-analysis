@@ -2,6 +2,15 @@
 
 | Date | Name | Duration | Element Area | Description |
 |-----|-----|-----|-----|-----|
+| 2019/03/18 | [Bruce 3165](rundir3165#bruce-3165) | 183,792 yrs | 1.34 km | AReduceDelay  tCausalFactor=3.0 areaFrac=0.99  V=1  b=.017 a=.005 fA=.005 ; Smooth Model |
+| 2019/03/09 | [Bruce 3164](rundir3164#bruce-3164) | 82,314 yrs | 1.34 km | AReduceDelay  tCausalFactor=3.0 areaFrac=0.99  V=1  b=.027 a=.015 fA=.005 ; Smooth Model |
+| 2019/02/10 | [Bruce 3067](rundir3067#bruce-3067) | 49,542 yrs | 1.34 km | Variable normal stress dsigdsA =0.666.  Rest same as r3062 |
+| 2019/02/08 | [Bruce 3065](rundir3065#bruce-3065) | 59,703 yrs | 1.34 km | Variable normal stress dsigdsA =0.6.  Rest same as r3062 |
+| 2019/02/08 | [Bruce 3062](rundir3062#bruce-3062) | 128,688 yrs | 1.34 km | SmoothF=1e5. Connected discontinuities. V=1. fracArea=0.99. b=.011 |
+| 2019/01/19 | [Bruce 3032](rundir3032#bruce-3032) | 73,987 yrs | 1.35 km | SmoothF=1e5.   Unconnected discontinuities. V=1.  fracArea=0.99. b=.011 |
+| 2019/01/13 | [Bruce 3013](rundir3013#bruce-3013) | 150,137 yrs | 1.35 km | New const dip fault smoothing.  smoothF=1e6.  V=1.  fracArea=0.99.  b=.01 |
+| 2019/01/13 | [Bruce 3014](rundir3014#bruce-3014) | 171,939 yrs | 1.35 km | New const dip fault smoothing.  smoothF=1e6.  V=1.  fracArea=0.99.  b=.013 |
+| 2018/10/18 | [Bruce 2829](rundir2829#bruce-2829) | 25,074 yrs | 1.35 km | fracArea=0.95 ; NEW variableSpeed  s2ddf=.9 ddfmin=.1;  b=.01 a=.001 |
 | 2018/08/23 | [JG Test Master Exec](defaultModel_JfM#jg-test-master-exec) | 139,726 yrs | 1.35 km | Calculating stiffness files using the executable from the master branch |
 | 2018/08/22 | [JG Test Calc Siffness 2](test25a589d_J2#jg-test-calc-siffness-2) | 334,212 yrs | 1.35 km | Test of reading in the stiffness files written by previous run test25a589d_J using my executable |
 | 2018/08/22 | [JG Test Rerun 2763 V3](test25a589d_flt2763V3#jg-test-rerun-2763-v3) | 57,621 yrs | 1.35 km | Test of reading in the stiffness files written by previous run test25a589d_J using Bruce's executable |

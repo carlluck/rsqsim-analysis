@@ -12,7 +12,7 @@
 
 * [Metadata](#metadata)
 * [Hazard Comparisons](#hazard-comparisons)
-* [Extreme Event Examples](#extreme-event-examples)
+* [Extreme Event Examples](extreme_events/)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)

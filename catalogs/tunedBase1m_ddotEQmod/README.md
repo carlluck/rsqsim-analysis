@@ -5,13 +5,13 @@
 | **Author** | Jacqui Gilchrist, 2017/11/26 |
 | **Description** | New version of tuneBase1m, with patch-specific slip velocities. |
 | **Fault/Def Model** | Fault Model 3.1, Geologic |
-| **Slip Velocity** | Variable, range=[0.007585216 4.999275], mean=0.995433 |
+| **Slip Velocity** | Patch Variable, range=[0.007585216 4.999275], mean=0.995433 |
 | **Average Element Area** | 0.90 km^2 |
 | **Length** | 37,538,999 events in 112,714 years |
 | **Frictional Params** | a=0.01, b=0.015, (b-a)=0.005, ddotEQ=1 |
 
 * [Metadata](#metadata)
-* [Extreme Event Examples](#extreme-event-examples)
+* [Extreme Event Examples](extreme_events/)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)

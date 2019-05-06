@@ -11,7 +11,8 @@
 | **Frictional Params** | a=0.01, b=0.015, (b-a)=0.005, ddotEQ=1 |
 
 * [Metadata](#metadata)
-* [Single Event Comparisons](#single-event-comparisons)
+* [BBP Calculations, LA Basin 863 (m/s) Velocity Model](#bbp-calculations-la-basin-863-ms-velocity-model)
+  * [Single Event Comparisons, LA Basin 863 (m/s)](#single-event-comparisons-la-basin-863-ms)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
@@ -25,10 +26,14 @@
     * [Subsection Interevent Time Comparisons](#subsection-interevent-time-comparisons)
 * [Input File](#input-file)
 
-## Single Event Comparisons
+## BBP Calculations, LA Basin 863 (m/s) Velocity Model
 *[(top)](#u3-1mil-element-test)*
 
-* [Event 4099020, M7.35](event_4099020/)
+
+### Single Event Comparisons, LA Basin 863 (m/s)
+*[(top)](#u3-1mil-element-test)*
+
+* [Event 4099020, M7.35](bbp_LA_BASIN_863/event_4099020/)
 
 ## Plots
 ### Magnitude-Frequency Plot

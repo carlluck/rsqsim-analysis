@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+	border-collapse: collapse
+}
+table, th, td {
+	border: 1px solid black
+}
+body {
+	max-width:1000px;
+	margin: auto;
+}
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+</style>
+</head>
+<body>
+<h1 id="scenario-based-bbp-velocity-model-comparisons">Scenario-Based BBP Velocity Model Comparisons</h1>
+<p>This page contains comparisons of BBP simulations for the same RSQSim catalog with different 1-dimensional layered velocity structures. Simulations are done for various scenario ruptures (we search the RSQSim catalog for matching events). This page uses results computed for the rupture rotation variability study.</p>
+<p>The following velocity models are shown:</p>
+<ul>
+<li>LA Basin 863 (m/s), Vs30=863.0 m/s</li>
+<li>LA Basin 500 (m/s), Vs30=500.0 m/s</li>
+</ul>
+<p>We compare results with the following GMPE(s):</p>
+<ul>
+<li>Abrahamson, Silva &amp; Kamai (2014)</li>
+<li>Boore, Stewart, Seyhan &amp; Atkinson (2014)</li>
+<li>Campbell &amp; Bozorgnia (2014)</li>
+<li>Chiou &amp; Youngs (2014)</li>
+</ul>
+<h2 id="table-of-contents">Table Of Contents</h2>
+<ul>
+<li><a href="#velocity-model-profiles">Velocity Model Profiles</a></li>
+<li><a href="#m66-vertical-strike-slip-with-surface-rupture">M6.6, Vertical Strike-Slip with Surface Rupture</a></li>
+<li><a href="#m66-reverse-dip45-ztor3">M6.6, Reverse, Dip=45, Ztor=3</a></li>
+<li><a href="#m72-vertical-strike-slip-with-surface-rupture">M7.2, Vertical Strike-Slip with Surface Rupture</a></li>
+<li><a href="#m72-reverse-dip45">M7.2, Reverse, Dip=45</a></li>
+<li><a href="#m76-vertical-strike-slip-with-surface-rupture">M7.6, Vertical Strike-Slip with Surface Rupture</a></li>
+<li><a href="#m76-reverse-dip45">M7.6, Reverse, Dip=45</a></li>
+</ul>
+<h2 id="velocity-model-profiles">Velocity Model Profiles</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/vm_profiles.png" alt="VM Profiles" /></p>
+<p><img src="resources/vm_profiles_upper.png" alt="Upper VM Profiles" /></p>
+<h3 id="la-basin-863-ms-profile">LA Basin 863 (m/s) Profile</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>Start Depth (km)</th><th>End Depth (km)</th><th>Thickness (km)</th><th>Vs (km/s)</th><th>Vp (km/s)</th></tr>
+</thead>
+<tbody>
+<tr><td>0.0</td><td>0.002</td><td>0.002</td><td>0.45</td><td>1.7</td></tr>
+<tr><td>0.002</td><td>0.006</td><td>0.004</td><td>0.65</td><td>1.8</td></tr>
+<tr><td>0.006</td><td>0.012</td><td>0.006</td><td>0.85</td><td>1.8</td></tr>
+<tr><td>0.012</td><td>0.02</td><td>0.008</td><td>0.95</td><td>1.9</td></tr>
+<tr><td>0.02</td><td>0.03</td><td>0.01</td><td>1.15</td><td>2.0</td></tr>
+<tr><td>0.03</td><td>0.1</td><td>0.07</td><td>1.2</td><td>2.4</td></tr>
+<tr><td>0.1</td><td>0.3</td><td>0.2</td><td>1.4</td><td>2.8</td></tr>
+<tr><td>0.3</td><td>0.5</td><td>0.2</td><td>1.6</td><td>3.1</td></tr>
+<tr><td>0.5</td><td>0.7</td><td>0.2</td><td>1.8</td><td>3.4</td></tr>
+<tr><td>0.7</td><td>1.0</td><td>0.3</td><td>2.1</td><td>3.7</td></tr>
+<tr><td>1.0</td><td>3.0</td><td>2.0</td><td>2.4</td><td>4.4</td></tr>
+<tr><td>3.0</td><td>5.0</td><td>2.0</td><td>2.8</td><td>5.1</td></tr>
+<tr><td>5.0</td><td>6.0</td><td>1.0</td><td>3.15</td><td>5.6</td></tr>
+<tr><td>6.0</td><td>11.0</td><td>5.0</td><td>3.6</td><td>6.15</td></tr>
+<tr><td>11.0</td><td>16.0</td><td>5.0</td><td>3.65</td><td>6.32</td></tr>
+<tr><td>16.0</td><td>21.0</td><td>5.0</td><td>3.7</td><td>6.55</td></tr>
+<tr><td>21.0</td><td>31.0</td><td>10.0</td><td>3.8</td><td>6.8</td></tr>
+<tr><td>31.0</td><td>1030.0</td><td>999.0</td><td>4.5</td><td>7.8</td></tr>
+</tbody>
+</table>
+<h3 id="la-basin-500-ms-profile">LA Basin 500 (m/s) Profile</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>Start Depth (km)</th><th>End Depth (km)</th><th>Thickness (km)</th><th>Vs (km/s)</th><th>Vp (km/s)</th></tr>
+</thead>
+<tbody>
+<tr><td>0.0</td><td>0.01</td><td>0.01</td><td>0.425</td><td>1.5</td></tr>
+<tr><td>0.01</td><td>0.03</td><td>0.02</td><td>0.538</td><td>1.6</td></tr>
+<tr><td>0.03</td><td>0.1</td><td>0.07</td><td>0.65</td><td>1.8</td></tr>
+<tr><td>0.1</td><td>0.2</td><td>0.1</td><td>0.8</td><td>2.0</td></tr>
+<tr><td>0.2</td><td>0.5</td><td>0.3</td><td>1.4</td><td>3.1</td></tr>
+<tr><td>0.5</td><td>1.0</td><td>0.5</td><td>1.8</td><td>3.7</td></tr>
+<tr><td>1.0</td><td>1.5</td><td>0.5</td><td>2.1</td><td>4.2</td></tr>
+<tr><td>1.5</td><td>2.5</td><td>1.0</td><td>2.4</td><td>4.75</td></tr>
+<tr><td>2.5</td><td>3.5</td><td>1.0</td><td>2.75</td><td>5.1</td></tr>
+<tr><td>3.5</td><td>5.0</td><td>1.5</td><td>3.0</td><td>5.4</td></tr>
+<tr><td>5.0</td><td>7.0</td><td>2.0</td><td>3.35</td><td>5.8</td></tr>
+<tr><td>7.0</td><td>9.0</td><td>2.0</td><td>3.5</td><td>6.2</td></tr>
+<tr><td>9.0</td><td>17.0</td><td>8.0</td><td>3.6</td><td>6.35</td></tr>
+<tr><td>17.0</td><td>30.0</td><td>13.0</td><td>3.8</td><td>6.8</td></tr>
+<tr><td>30.0</td><td>1029.0</td><td>999.0</td><td>4.5</td><td>7.8</td></tr>
+</tbody>
+</table>
+<h3 id="z10-and-z25-comparisons">Z1.0 and Z2.5 Comparisons</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>VM Name</th><th>VM Z1.0 (km)</th><th>ASK 2014 Z1.0 (km)</th><th>BSSA 2014 Z1.0 (km)</th><th>CY 2014 Z1.0 (km)</th><th>VM Z2.5 (km)</th><th>CB 2014 Z2.5 (km)</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>LA Basin 863 (m/s)</strong></td><td><strong>0.02</strong></td><td>0.023041464</td><td>0.019953089</td><td>0.01995113</td><td><strong>3.0</strong></td><td>0.52470744</td></tr>
+<tr><td><strong>LA Basin 500 (m/s)</strong></td><td><strong>0.2</strong></td><td>0.24750118</td><td>0.22898823</td><td>0.2288851</td><td><strong>2.5</strong></td><td>0.9796973</td></tr>
+</tbody>
+</table>
+<h2 id="m66-vertical-strike-slip-with-surface-rupture">M6.6, Vertical Strike-Slip with Surface Rupture</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Median spectra shown across 400 RSQSim events which match the following scenario criteria:</p>
+<ul>
+<li>M=[6.55,6.65]</li>
+<li>Ztor=[0.0,1.0]</li>
+<li>Rake=[-180,-170] or [-10,10] or [170,180]</li>
+<li>Dip=90.0</li>
+<li>Linear rupture (max 0.5km deviation from ideal)</li>
+</ul>
+<h3 id="m66-vertical-strike-slip-with-surface-rupture-200-km">M6.6, Vertical Strike-Slip with Surface Rupture, 20.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m6p6_vert_ss_surface_dist20.0.png" alt="20.0 km" /></p>
+<h3 id="m66-vertical-strike-slip-with-surface-rupture-500-km">M6.6, Vertical Strike-Slip with Surface Rupture, 50.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m6p6_vert_ss_surface_dist50.0.png" alt="50.0 km" /></p>
+<h3 id="m66-vertical-strike-slip-with-surface-rupture-1000-km">M6.6, Vertical Strike-Slip with Surface Rupture, 100.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m6p6_vert_ss_surface_dist100.0.png" alt="100.0 km" /></p>
+<h2 id="m66-reverse-dip45-ztor3">M6.6, Reverse, Dip=45, Ztor=3</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Median spectra shown across 142 RSQSim events which match the following scenario criteria:</p>
+<ul>
+<li>M=[6.55,6.65]</li>
+<li>Ztor=[1.0,5.0]</li>
+<li>Rake=[80,100]</li>
+<li>Dip=[35.0,55.0]</li>
+</ul>
+<h3 id="m66-reverse-dip45-ztor3-200-km">M6.6, Reverse, Dip=45, Ztor=3, 20.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m6p6_reverse_dist20.0.png" alt="20.0 km" /></p>
+<h3 id="m66-reverse-dip45-ztor3-500-km">M6.6, Reverse, Dip=45, Ztor=3, 50.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m6p6_reverse_dist50.0.png" alt="50.0 km" /></p>
+<h3 id="m66-reverse-dip45-ztor3-1000-km">M6.6, Reverse, Dip=45, Ztor=3, 100.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m6p6_reverse_dist100.0.png" alt="100.0 km" /></p>
+<h2 id="m72-vertical-strike-slip-with-surface-rupture">M7.2, Vertical Strike-Slip with Surface Rupture</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Median spectra shown across 400 RSQSim events which match the following scenario criteria:</p>
+<ul>
+<li>M=[7.15,7.25]</li>
+<li>Ztor=[0.0,1.0]</li>
+<li>Rake=[-180,-170] or [-10,10] or [170,180]</li>
+<li>Dip=90.0</li>
+<li>Linear rupture (max 5.0% deviation from ideal)</li>
+</ul>
+<h3 id="m72-vertical-strike-slip-with-surface-rupture-200-km">M7.2, Vertical Strike-Slip with Surface Rupture, 20.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m7p2_vert_ss_surface_dist20.0.png" alt="20.0 km" /></p>
+<h3 id="m72-vertical-strike-slip-with-surface-rupture-500-km">M7.2, Vertical Strike-Slip with Surface Rupture, 50.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m7p2_vert_ss_surface_dist50.0.png" alt="50.0 km" /></p>
+<h3 id="m72-vertical-strike-slip-with-surface-rupture-1000-km">M7.2, Vertical Strike-Slip with Surface Rupture, 100.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m7p2_vert_ss_surface_dist100.0.png" alt="100.0 km" /></p>
+<h2 id="m72-reverse-dip45">M7.2, Reverse, Dip=45</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Median spectra shown across 158 RSQSim events which match the following scenario criteria:</p>
+<ul>
+<li>M=[7.15,7.25]</li>
+<li>Ztor=[0.0,5.0]</li>
+<li>Rake=[80,100]</li>
+<li>Dip=[35.0,55.0]</li>
+</ul>
+<h3 id="m72-reverse-dip45-200-km">M7.2, Reverse, Dip=45, 20.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m7p2_reverse_dist20.0.png" alt="20.0 km" /></p>
+<h3 id="m72-reverse-dip45-500-km">M7.2, Reverse, Dip=45, 50.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m7p2_reverse_dist50.0.png" alt="50.0 km" /></p>
+<h3 id="m72-reverse-dip45-1000-km">M7.2, Reverse, Dip=45, 100.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m7p2_reverse_dist100.0.png" alt="100.0 km" /></p>
+<h2 id="m76-vertical-strike-slip-with-surface-rupture">M7.6, Vertical Strike-Slip with Surface Rupture</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Median spectra shown across 400 RSQSim events which match the following scenario criteria:</p>
+<ul>
+<li>M=[7.55,7.65]</li>
+<li>Ztor=[0.0,1.0]</li>
+<li>Rake=[-180,-170] or [-10,10] or [170,180]</li>
+<li>Dip=90.0</li>
+<li>Linear rupture (max 5.0% deviation from ideal)</li>
+</ul>
+<h3 id="m76-vertical-strike-slip-with-surface-rupture-200-km">M7.6, Vertical Strike-Slip with Surface Rupture, 20.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m7p6_vert_ss_surface_dist20.0.png" alt="20.0 km" /></p>
+<h3 id="m76-vertical-strike-slip-with-surface-rupture-500-km">M7.6, Vertical Strike-Slip with Surface Rupture, 50.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m7p6_vert_ss_surface_dist50.0.png" alt="50.0 km" /></p>
+<h3 id="m76-vertical-strike-slip-with-surface-rupture-1000-km">M7.6, Vertical Strike-Slip with Surface Rupture, 100.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m7p6_vert_ss_surface_dist100.0.png" alt="100.0 km" /></p>
+<h2 id="m76-reverse-dip45">M7.6, Reverse, Dip=45</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Median spectra shown across 165 RSQSim events which match the following scenario criteria:</p>
+<ul>
+<li>M=[7.55,7.65]</li>
+<li>Ztor=[0.0,5.0]</li>
+<li>Rake=[80,100]</li>
+<li>Dip=[35.0,55.0]</li>
+</ul>
+<h3 id="m76-reverse-dip45-200-km">M7.6, Reverse, Dip=45, 20.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m7p6_reverse_dist20.0.png" alt="20.0 km" /></p>
+<h3 id="m76-reverse-dip45-500-km">M7.6, Reverse, Dip=45, 50.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m7p6_reverse_dist50.0.png" alt="50.0 km" /></p>
+<h3 id="m76-reverse-dip45-1000-km">M7.6, Reverse, Dip=45, 100.0 km</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/m7p6_reverse_dist100.0.png" alt="100.0 km" /></p>
+</body>
+</html>

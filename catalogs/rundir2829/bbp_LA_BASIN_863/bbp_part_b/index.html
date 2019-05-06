@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	max-width:1000px;
+	margin: auto;
+}
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+</style>
+</head>
+<body>
+<h1 id="bruce-2829-bbp-part-b-validation">Bruce 2829 BBP Part B Validation</h1>
+<p><a href="../#bruce-2829">Catalog Details</a></p>
+<h2 id="table-of-contents">Table Of Contents</h2>
+<ul>
+<li><a href="#background-information">Background Information</a></li>
+<li><a href="#rsqsim-bbp-part-b-methodology">RSQSim BBP Part B Methodology</a></li>
+<li><a href="#results-summary-table">Results Summary Table</a></li>
+<li><a href="#m66-vertical-strike-slip-with-surface-rupture">M6.6, Vertical Strike-Slip with Surface Rupture</a>
+<ul>
+<li><a href="#m66-ss-rsqsim-rupture-match-criteria">M6.6 SS RSQSim Rupture Match Criteria</a></li>
+<li><a href="#m66-ss-20-km-results">M6.6 SS 20 km Results</a>
+<ul>
+<li><a href="#m66-ss-20-km-comparisons">M6.6 SS 20 km Comparisons</a></li>
+</ul>
+</li>
+<li><a href="#m66-ss-50-km-results">M6.6 SS 50 km Results</a>
+<ul>
+<li><a href="#m66-ss-50-km-comparisons">M6.6 SS 50 km Comparisons</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#m66-reverse-dip45-ztor3">M6.6, Reverse, Dip=45, Ztor=3</a>
+<ul>
+<li><a href="#m66-reverse-rsqsim-rupture-match-criteria">M6.6 Reverse RSQSim Rupture Match Criteria</a></li>
+<li><a href="#m66-reverse-20-km-results">M6.6 Reverse 20 km Results</a>
+<ul>
+<li><a href="#m66-reverse-20-km-comparisons">M6.6 Reverse 20 km Comparisons</a></li>
+</ul>
+</li>
+<li><a href="#m66-reverse-50-km-results">M6.6 Reverse 50 km Results</a>
+<ul>
+<li><a href="#m66-reverse-50-km-comparisons">M6.6 Reverse 50 km Comparisons</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="background-information">Background Information</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>This page reproduces the SCEC BroadBand Platform &quot;Part B&quot; validation exercise as defined in:</p>
+<p><em>Goulet, C. A., Abrahamson, N. A., Somerville, P. G., &amp; Wooddell, K. E. (2014). The SCEC broadband platform validation exercise: Methodology for code validation in the context of seismic‐hazard analyses. Seismological Research Letters, 86(1), 17-26.</em> <a href="https://pubs.geoscienceworld.org/ssa/srl/article/86/1/17/315438/the-scec-broadband-platform-validation-exercise">(link)</a></p>
+<p>The goal of this exercise was to validate BBP simulation methods (both rupture generation and ground motion simulation) against the NGA-West GMPEs (the original study used NGA-West1, we use NGA-West2) for scenario ruptures where the NGA relations are well constrained:</p>
+<ul>
+<li>M 5.5, 45°-dipping reverse, Ztor = 6 km</li>
+<li>M 6.2, vertical strike slip, Ztor = 4 km</li>
+<li>M 6.6, vertical strike slip with a surface rupture</li>
+<li>M 6.6, 45°-dipping reverse, Ztor = 3 km</li>
+</ul>
+<p>50 rupture realizations were generated for each scenario with randomly distributed hypocenters, and 40 sites were distributed at random azimuths on the footwall side of the faults at rupture distances of 20 and 50 km. Resultant ground motions were compared against an evaluation criterion which &quot;was established so as to be wide enough to limit a pass/fail grade for each scenario considered.&quot; This criterion only applies at periods up to 3s, becase data above this period &quot;are fairly sparse and cannot provide a reliable constraint.&quot;</p>
+<p>A method is said to pass the test if the median RotD50 value is within the evaluation criteria at every spectral period. &quot;Departure from that range is a definite sign that the model is not consistent with our current dataset and is a sign of potential issues with the simulations.&quot;</p>
+<h2 id="rsqsim-bbp-part-b-methodology">RSQSim BBP Part B Methodology</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>We reproduce the Part B experiment using RSQSim as the rupture generator, coupled with the Graves &amp; Pitarka ground motion simulation method. While the original BBP Part B validation exercise was prescriptive (the magnitude and fault surface for each scenario was an input to the rupture generators), we can't prescribe RSQSim ruptures. Instead we search catalogs for ruptures which are very similar to the BBP Part B scenarios, and distribute sites around those ruptures. This algorithm can be a little tricky for non-rectangular dipping ruptures. The specific matching criteria for each scenario along with example plots of ruptures and sites can be found under each scenario.</p>
+<p><em>NOTE: We only currently only consider the larger M6.6 scenarios, and spectral periods 1s or larger</em></p>
+<h2 id="results-summary-table">Results Summary Table</h2>
+<table>
+<thead>
+<tr><th>Scenario</th><th>20 km</th><th>50 km</th></tr>
+</thead>
+<tbody>
+<tr><td>M6.6 SS</td><td><strong><a href="#m66-ss-20-km-results">FAIL</a></strong></td><td><strong><a href="#m66-ss-50-km-results">FAIL</a></strong></td></tr>
+<tr><td>M6.6 Reverse</td><td><strong><a href="#m66-reverse-20-km-results">FAIL</a></strong></td><td><strong><a href="#m66-reverse-50-km-results">FAIL</a></strong></td></tr>
+</tbody>
+</table>
+<h2 id="m66-vertical-strike-slip-with-surface-rupture">M6.6, Vertical Strike-Slip with Surface Rupture</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<h3 id="m66-ss-rsqsim-rupture-match-criteria">M6.6 SS RSQSim Rupture Match Criteria</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>122 events in the catalog match the following criteria:</p>
+<ul>
+<li>M=[6.55,6.65]</li>
+<li>Ztor=[0,1]</li>
+<li>Rake=[-180,-170] or [-10,10] or [170,180]</li>
+<li>Dip=90</li>
+<li>Linear rupture (max 0.5km deviation from ideal)</li>
+</ul>
+<p>Example matches (20 km sites in Blue, 50 km sites in Geen):</p>
+<table>
+<thead>
+<tr><th><img src="resources/m6p6_vert_ss_surface_match_0_event_93341.png" alt="Event 93341" /></th><th><img src="resources/m6p6_vert_ss_surface_match_1_event_96502.png" alt="Event 96502" /></th><th><img src="resources/m6p6_vert_ss_surface_match_2_event_100691.png" alt="Event 100691" /></th><th><img src="resources/m6p6_vert_ss_surface_match_3_event_103511.png" alt="Event 103511" /></th><th><img src="resources/m6p6_vert_ss_surface_match_4_event_105099.png" alt="Event 105099" /></th></tr>
+</thead>
+<tbody></tbody>
+</table>
+<h3 id="m66-ss-20-km-results">M6.6 SS 20 km Results</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Result: <strong>FAIL</strong></p>
+<p><img src="resources/m6p6_vert_ss_surface_20km.png" alt="Acceptance Plot" /></p>
+<table>
+<thead>
+<tr><th><strong>Period</strong></th><th>1s</th><th>1.1s</th><th>1.2s</th><th>1.3s</th><th>1.5s</th><th>1.7s</th><th>2s</th><th>2.2s</th><th>2.4s</th><th>2.6s</th><th>2.8s</th><th>3s</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Lower Bound</strong></td><td>0.0465</td><td>0.0413</td><td>0.0371</td><td>0.0336</td><td>0.0281</td><td>0.0240</td><td>0.0196</td><td>0.0175</td><td>0.0157</td><td>0.0143</td><td>0.0130</td><td>0.0120</td></tr>
+<tr><td><strong>Sim Median</strong></td><td><em>0.1396</em></td><td><em>0.1246</em></td><td><em>0.1105</em></td><td><em>0.0986</em></td><td><em>0.0826</em></td><td><em>0.0681</em></td><td><em>0.0559</em></td><td><em>0.0509</em></td><td><em>0.0464</em></td><td><em>0.0406</em></td><td><em>0.0352</em></td><td><em>0.0305</em></td></tr>
+<tr><td><strong>NGA-W2 Median</strong></td><td>0.0670</td><td>0.0596</td><td>0.0535</td><td>0.0485</td><td>0.0406</td><td>0.0347</td><td>0.0283</td><td>0.0252</td><td>0.0227</td><td>0.0207</td><td>0.0189</td><td>0.0174</td></tr>
+<tr><td><strong>Upper Bound</strong></td><td>0.0967</td><td>0.0859</td><td>0.0772</td><td>0.0699</td><td>0.0586</td><td>0.0500</td><td>0.0408</td><td>0.0364</td><td>0.0328</td><td>0.0298</td><td>0.0273</td><td>0.0252</td></tr>
+</tbody>
+</table>
+<h4 id="m66-ss-20-km-comparisons">M6.6 SS 20 km Comparisons</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>ExSIM</th><th>G&amp;P</th><th>SDSU</th><th>UCSB</th></tr>
+</thead>
+<tbody>
+<tr><td><img src="http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S17.png" alt="ExSIM" /></td><td><img src="http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S18.png" alt="G&amp;P" /></td><td><img src="http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S19.png" alt="SDSU" /></td><td><img src="http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S16.png" alt="UCSB" /></td></tr>
+</tbody>
+</table>
+<h3 id="m66-ss-50-km-results">M6.6 SS 50 km Results</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Result: <strong>FAIL</strong></p>
+<p><img src="resources/m6p6_vert_ss_surface_50km.png" alt="Acceptance Plot" /></p>
+<table>
+<thead>
+<tr><th><strong>Period</strong></th><th>1s</th><th>1.1s</th><th>1.2s</th><th>1.3s</th><th>1.5s</th><th>1.7s</th><th>2s</th><th>2.2s</th><th>2.4s</th><th>2.6s</th><th>2.8s</th><th>3s</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Lower Bound</strong></td><td>0.0187</td><td>0.0167</td><td>0.0151</td><td>0.0137</td><td>0.0116</td><td>0.0099</td><td>0.0081</td><td>0.0071</td><td>0.0063</td><td>0.0057</td><td>0.0052</td><td>0.0047</td></tr>
+<tr><td><strong>Sim Median</strong></td><td><em>0.0521</em></td><td><em>0.0482</em></td><td><em>0.0431</em></td><td><em>0.0387</em></td><td><em>0.0327</em></td><td><em>0.0268</em></td><td><em>0.0212</em></td><td><em>0.0190</em></td><td><em>0.0180</em></td><td><em>0.0168</em></td><td><em>0.0154</em></td><td><em>0.0136</em></td></tr>
+<tr><td><strong>NGA-W2 Median</strong></td><td>0.0270</td><td>0.0241</td><td>0.0218</td><td>0.0198</td><td>0.0167</td><td>0.0143</td><td>0.0117</td><td>0.0104</td><td>0.0094</td><td>0.0086</td><td>0.0078</td><td>0.0072</td></tr>
+<tr><td><strong>Upper Bound</strong></td><td>0.0390</td><td>0.0348</td><td>0.0314</td><td>0.0286</td><td>0.0242</td><td>0.0207</td><td>0.0169</td><td>0.0151</td><td>0.0136</td><td>0.0123</td><td>0.0113</td><td>0.0104</td></tr>
+</tbody>
+</table>
+<h4 id="m66-ss-50-km-comparisons">M6.6 SS 50 km Comparisons</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>ExSIM</th><th>G&amp;P</th><th>SDSU</th><th>UCSB</th></tr>
+</thead>
+<tbody>
+<tr><td><img src="http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S21.png" alt="ExSIM" /></td><td><img src="http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S22.png" alt="G&amp;P" /></td><td><img src="http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S23.png" alt="SDSU" /></td><td><img src="http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S20.png" alt="UCSB" /></td></tr>
+</tbody>
+</table>
+<h2 id="m66-reverse-dip45-ztor3">M6.6, Reverse, Dip=45, Ztor=3</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<h3 id="m66-reverse-rsqsim-rupture-match-criteria">M6.6 Reverse RSQSim Rupture Match Criteria</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>6 events in the catalog match the following criteria:</p>
+<ul>
+<li>M=[6.55,6.65]</li>
+<li>Ztor=[2,4]</li>
+<li>Rake=[80,100]</li>
+<li>Dip=[40,50]</li>
+</ul>
+<p>Example matches (20 km sites in Blue, 50 km sites in Geen):</p>
+<table>
+<thead>
+<tr><th><img src="resources/m6p6_reverse_match_0_event_164902.png" alt="Event 164902" /></th><th><img src="resources/m6p6_reverse_match_1_event_192726.png" alt="Event 192726" /></th><th><img src="resources/m6p6_reverse_match_2_event_260025.png" alt="Event 260025" /></th><th><img src="resources/m6p6_reverse_match_3_event_292445.png" alt="Event 292445" /></th><th><img src="resources/m6p6_reverse_match_4_event_318041.png" alt="Event 318041" /></th></tr>
+</thead>
+<tbody></tbody>
+</table>
+<h3 id="m66-reverse-20-km-results">M6.6 Reverse 20 km Results</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Result: <strong>FAIL</strong></p>
+<p><img src="resources/m6p6_reverse_20km.png" alt="Acceptance Plot" /></p>
+<table>
+<thead>
+<tr><th><strong>Period</strong></th><th>1s</th><th>1.1s</th><th>1.2s</th><th>1.3s</th><th>1.5s</th><th>1.7s</th><th>2s</th><th>2.2s</th><th>2.4s</th><th>2.6s</th><th>2.8s</th><th>3s</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Lower Bound</strong></td><td>0.0509</td><td>0.0451</td><td>0.0404</td><td>0.0365</td><td>0.0304</td><td>0.0258</td><td>0.0208</td><td>0.0184</td><td>0.0165</td><td>0.0149</td><td>0.0136</td><td>0.0124</td></tr>
+<tr><td><strong>Sim Median</strong></td><td><em>0.1244</em></td><td><em>0.1132</em></td><td><em>0.0946</em></td><td><em>0.0833</em></td><td><em>0.0655</em></td><td><strong>0.0525</strong></td><td><strong>0.0396</strong></td><td><strong>0.0344</strong></td><td><strong>0.0295</strong></td><td><strong>0.0270</strong></td><td><strong>0.0232</strong></td><td><strong>0.0209</strong></td></tr>
+<tr><td><strong>NGA-W2 Median</strong></td><td>0.0735</td><td>0.0651</td><td>0.0583</td><td>0.0527</td><td>0.0439</td><td>0.0372</td><td>0.0299</td><td>0.0265</td><td>0.0238</td><td>0.0215</td><td>0.0196</td><td>0.0179</td></tr>
+<tr><td><strong>Upper Bound</strong></td><td>0.1060</td><td>0.0939</td><td>0.0841</td><td>0.0760</td><td>0.0633</td><td>0.0536</td><td>0.0432</td><td>0.0383</td><td>0.0343</td><td>0.0310</td><td>0.0282</td><td>0.0259</td></tr>
+</tbody>
+</table>
+<h4 id="m66-reverse-20-km-comparisons">M6.6 Reverse 20 km Comparisons</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>ExSIM</th><th>G&amp;P</th><th>SDSU</th><th>UCSB</th></tr>
+</thead>
+<tbody>
+<tr><td><img src="http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S25.png" alt="ExSIM" /></td><td><img src="http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S26.png" alt="G&amp;P" /></td><td><img src="http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S27.png" alt="SDSU" /></td><td><img src="http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S24.png" alt="UCSB" /></td></tr>
+</tbody>
+</table>
+<h3 id="m66-reverse-50-km-results">M6.6 Reverse 50 km Results</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Result: <strong>FAIL</strong></p>
+<p><img src="resources/m6p6_reverse_50km.png" alt="Acceptance Plot" /></p>
+<table>
+<thead>
+<tr><th><strong>Period</strong></th><th>1s</th><th>1.1s</th><th>1.2s</th><th>1.3s</th><th>1.5s</th><th>1.7s</th><th>2s</th><th>2.2s</th><th>2.4s</th><th>2.6s</th><th>2.8s</th><th>3s</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Lower Bound</strong></td><td>0.0203</td><td>0.0181</td><td>0.0163</td><td>0.0148</td><td>0.0124</td><td>0.0106</td><td>0.0085</td><td>0.0076</td><td>0.0068</td><td>0.0061</td><td>0.0056</td><td>0.0051</td></tr>
+<tr><td><strong>Sim Median</strong></td><td><em>0.0454</em></td><td><em>0.0423</em></td><td><em>0.0395</em></td><td><em>0.0341</em></td><td><strong>0.0257</strong></td><td><strong>0.0206</strong></td><td><strong>0.0135</strong></td><td><strong>0.0120</strong></td><td><strong>0.0109</strong></td><td><strong>0.0109</strong></td><td><strong>0.0105</strong></td><td><strong>0.0091</strong></td></tr>
+<tr><td><strong>NGA-W2 Median</strong></td><td>0.0294</td><td>0.0262</td><td>0.0235</td><td>0.0214</td><td>0.0180</td><td>0.0152</td><td>0.0123</td><td>0.0109</td><td>0.0098</td><td>0.0088</td><td>0.0080</td><td>0.0074</td></tr>
+<tr><td><strong>Upper Bound</strong></td><td>0.0424</td><td>0.0377</td><td>0.0340</td><td>0.0308</td><td>0.0259</td><td>0.0220</td><td>0.0177</td><td>0.0157</td><td>0.0141</td><td>0.0127</td><td>0.0116</td><td>0.0106</td></tr>
+</tbody>
+</table>
+<h4 id="m66-reverse-50-km-comparisons">M6.6 Reverse 50 km Comparisons</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>ExSIM</th><th>G&amp;P</th><th>SDSU</th><th>UCSB</th></tr>
+</thead>
+<tbody>
+<tr><td><img src="http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S29.png" alt="ExSIM" /></td><td><img src="http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S30.png" alt="G&amp;P" /></td><td><img src="http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S31.png" alt="SDSU" /></td><td><img src="http://www.seismosoc.org/Publications/SRL/SRL_86/srl_86-1_dreger_et_al-esupp/SRL_2014118_esupp_Figure_S28.png" alt="UCSB" /></td></tr>
+</tbody>
+</table>
+</body>
+</html>
