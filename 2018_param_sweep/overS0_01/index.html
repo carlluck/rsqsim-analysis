@@ -284,7 +284,7 @@ img {
 <p><em><a href="#overs0_01">(top)</a></em></p>
 <p>We first create a tapered moment release time series for the entire catalog. Each event's moment is distributed across a 25 year Hanning (cosine) taper. Here is a plot of a random 2,000 year section of this time series:</p>
 <p><img src="resources/moment_variability_time_series.png" alt="Time Series" /></p>
-<p>We then compute Welch's power spectral density estimate on the entire time series. Results are plotted below, with a Poisson randomization of the catalog also plotted in gray as a control. Significant deviations above the Poisson model indicate synchronization at that period.</p>
+<p>We then compute Welch's power spectral density estimate on the entire time series. Results are plotted below, with a Poisson randomization of the catalog also plotted in a gray line, and the 95% confidence bounds from 200 realizations as a light gray shaded area. Significant deviations outside the Poisson confidence intervals indicate synchronous behaviour.</p>
 <p><img src="resources/moment_variability_welch.png" alt="Welch PSD" /></p>
 <h2 id="input-file">Input File</h2>
 <p><em><a href="#overs0_01">(top)</a></em></p>

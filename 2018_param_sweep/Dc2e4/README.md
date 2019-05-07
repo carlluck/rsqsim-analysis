@@ -216,7 +216,7 @@ We first create a tapered moment release time series for the entire catalog. Eac
 
 ![Time Series](resources/moment_variability_time_series.png)
 
-We then compute Welch's power spectral density estimate on the entire time series. Results are plotted below, with a Poisson randomization of the catalog also plotted in gray as a control. Significant deviations above the Poisson model indicate synchronization at that period.
+We then compute Welch's power spectral density estimate on the entire time series. Results are plotted below, with a Poisson randomization of the catalog also plotted in a gray line, and the 95% confidence bounds from 200 realizations as a light gray shaded area. Significant deviations outside the Poisson confidence intervals indicate synchronous behaviour.
 
 ![Welch PSD](resources/moment_variability_welch.png)
 
