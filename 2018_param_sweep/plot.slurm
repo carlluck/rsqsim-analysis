@@ -7,6 +7,6 @@
 
 cd /home/scec-02/kmilner/git/rsqsim-analysis/2018_param_sweep
 
-REPLOT="true"
+REPLOT="false"
 
 java -Djava.awt.headless=true -Xmx50G -cp /home/scec-02/kmilner/opensha-dev-all.jar scratch.kevin.simulators.ParamSweepCatalogsWriter $REPLOT
