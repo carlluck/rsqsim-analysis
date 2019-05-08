@@ -121,11 +121,15 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |  | 0.38 | 0.38 | 0.38 | [0.19 0.6] |  | 0.35 | 0.35 | 0.35 | [0.19 0.56] |  | 0.38 | 0.37 | 0.37 | [0.16 0.66] |  | 0.34 | 0.33 | 0.34 | [0.13 0.58] |
 
+Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture, from which we compute a total &phi;<sub>s</sub>
+
 | 3s | 5s |
 |-----|-----|
 | ![3s](resources/source_strike_m7.6_20km_3s_hist.png) | ![5s](resources/source_strike_m7.6_20km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/source_strike_m7.6_20km_7.5s_hist.png) | ![10s](resources/source_strike_m7.6_20km_10s_hist.png) |
+
+Here are plots of the &phi;<sub>s</sub> as a function of various parameters for disaggregation.
 
 | 3s | 5s | 7.5s | 10s |
 |-----|-----|-----|-----|
@@ -142,11 +146,15 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |  | 0.36 | 0.36 | 0.36 | [0.21 0.5] |  | 0.35 | 0.35 | 0.35 | [0.22 0.54] |  | 0.33 | 0.32 | 0.31 | [0.15 0.56] |  | 0.3 | 0.29 | 0.28 | [0.16 0.61] |
 
+Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture, from which we compute a total &phi;<sub>s</sub>
+
 | 3s | 5s |
 |-----|-----|
 | ![3s](resources/source_strike_m7.6_50km_3s_hist.png) | ![5s](resources/source_strike_m7.6_50km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/source_strike_m7.6_50km_7.5s_hist.png) | ![10s](resources/source_strike_m7.6_50km_10s_hist.png) |
+
+Here are plots of the &phi;<sub>s</sub> as a function of various parameters for disaggregation.
 
 | 3s | 5s | 7.5s | 10s |
 |-----|-----|-----|-----|
@@ -163,11 +171,15 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |  | 0.31 | 0.31 | 0.31 | [0.15 0.45] |  | 0.36 | 0.36 | 0.35 | [0.19 0.51] |  | 0.32 | 0.32 | 0.3 | [0.16 0.53] |  | 0.34 | 0.34 | 0.33 | [0.15 0.61] |
 
+Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture, from which we compute a total &phi;<sub>s</sub>
+
 | 3s | 5s |
 |-----|-----|
 | ![3s](resources/source_strike_m7.6_100km_3s_hist.png) | ![5s](resources/source_strike_m7.6_100km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/source_strike_m7.6_100km_7.5s_hist.png) | ![10s](resources/source_strike_m7.6_100km_10s_hist.png) |
+
+Here are plots of the &phi;<sub>s</sub> as a function of various parameters for disaggregation.
 
 | 3s | 5s | 7.5s | 10s |
 |-----|-----|-----|-----|
@@ -211,11 +223,15 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |  | 0.38 | 0.38 | 0.38 | [0.19 0.6] |  | 0.35 | 0.35 | 0.35 | [0.19 0.56] |  | 0.38 | 0.37 | 0.37 | [0.16 0.66] |  | 0.34 | 0.33 | 0.34 | [0.13 0.58] |
 
+Here are plots of the histogram of &phi;<sub>SS</sub> for each individual rupture, from which we compute a total &phi;<sub>SS</sub>
+
 | 3s | 5s |
 |-----|-----|
 | ![3s](resources/within_event_ss_m7.6_20km_3s_hist.png) | ![5s](resources/within_event_ss_m7.6_20km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/within_event_ss_m7.6_20km_7.5s_hist.png) | ![10s](resources/within_event_ss_m7.6_20km_10s_hist.png) |
+
+Here are plots of the &phi;<sub>SS</sub> as a function of various parameters for disaggregation.
 
 | 3s | 5s | 7.5s | 10s |
 |-----|-----|-----|-----|
@@ -232,11 +248,15 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |  | 0.36 | 0.36 | 0.36 | [0.21 0.5] |  | 0.35 | 0.35 | 0.35 | [0.22 0.54] |  | 0.33 | 0.32 | 0.31 | [0.15 0.56] |  | 0.3 | 0.29 | 0.28 | [0.16 0.61] |
 
+Here are plots of the histogram of &phi;<sub>SS</sub> for each individual rupture, from which we compute a total &phi;<sub>SS</sub>
+
 | 3s | 5s |
 |-----|-----|
 | ![3s](resources/within_event_ss_m7.6_50km_3s_hist.png) | ![5s](resources/within_event_ss_m7.6_50km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/within_event_ss_m7.6_50km_7.5s_hist.png) | ![10s](resources/within_event_ss_m7.6_50km_10s_hist.png) |
+
+Here are plots of the &phi;<sub>SS</sub> as a function of various parameters for disaggregation.
 
 | 3s | 5s | 7.5s | 10s |
 |-----|-----|-----|-----|
@@ -253,11 +273,15 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |  | 0.31 | 0.31 | 0.31 | [0.15 0.45] |  | 0.36 | 0.36 | 0.35 | [0.19 0.51] |  | 0.32 | 0.32 | 0.3 | [0.16 0.53] |  | 0.34 | 0.34 | 0.33 | [0.15 0.61] |
 
+Here are plots of the histogram of &phi;<sub>SS</sub> for each individual rupture, from which we compute a total &phi;<sub>SS</sub>
+
 | 3s | 5s |
 |-----|-----|
 | ![3s](resources/within_event_ss_m7.6_100km_3s_hist.png) | ![5s](resources/within_event_ss_m7.6_100km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/within_event_ss_m7.6_100km_7.5s_hist.png) | ![10s](resources/within_event_ss_m7.6_100km_10s_hist.png) |
+
+Here are plots of the &phi;<sub>SS</sub> as a function of various parameters for disaggregation.
 
 | 3s | 5s | 7.5s | 10s |
 |-----|-----|-----|-----|

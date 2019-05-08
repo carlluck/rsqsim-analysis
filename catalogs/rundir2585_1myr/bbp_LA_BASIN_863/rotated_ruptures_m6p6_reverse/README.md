@@ -121,11 +121,29 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |  | 0.35 | 0.34 | 0.34 | [0.17 0.61] |  | 0.36 | 0.35 | 0.35 | [0.14 0.62] |  | 0.36 | 0.34 | 0.34 | [0.13 0.69] |  | 0.31 | 0.3 | 0.29 | [0.12 0.57] |
 
+We compute uncertainties on &phi;<sub>s</sub> through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [10.0 30.0] km. We throw out any events with only 1 recording, leaving us with 4 events and a total of 52 recordings. We then downsample our simulated data 100 times, and compute &phi;<sub>s</sub> from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.
+
+*WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 53 fewer data points.*
+
+| Period (s) | Full &phi;<sub>s</sub> | Downsampled &phi;<sub>s</sub> 95% conf range |
+|-----|-----|-----|
+| 1 | 0.35 | [0.25 0.44] |
+| 2 | 0.37 | [0.25 0.54] |
+| 3 | 0.35 | [0.26 0.44] |
+| 4 | 0.33 | [0.23 0.42] |
+| 5 | 0.36 | [0.27 0.49] |
+| 7.5 | 0.36 | [0.23 0.48] |
+| 10 | 0.31 | [0.22 0.4] |
+
+Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture, from which we compute a total &phi;<sub>s</sub>
+
 | 3s | 5s |
 |-----|-----|
 | ![3s](resources/source_strike_m6.6_20km_3s_hist.png) | ![5s](resources/source_strike_m6.6_20km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/source_strike_m6.6_20km_7.5s_hist.png) | ![10s](resources/source_strike_m6.6_20km_10s_hist.png) |
+
+Here are plots of the &phi;<sub>s</sub> as a function of various parameters for disaggregation.
 
 | 3s | 5s | 7.5s | 10s |
 |-----|-----|-----|-----|
@@ -142,11 +160,29 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |  | 0.35 | 0.35 | 0.34 | [0.19 0.56] |  | 0.4 | 0.39 | 0.38 | [0.11 0.63] |  | 0.34 | 0.33 | 0.32 | [0.14 0.63] |  | 0.33 | 0.32 | 0.3 | [0.17 0.72] |
 
+We compute uncertainties on &phi;<sub>s</sub> through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [40.0 60.0] km. We throw out any events with only 1 recording, leaving us with 4 events and a total of 56 recordings. We then downsample our simulated data 100 times, and compute &phi;<sub>s</sub> from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.
+
+*WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 25 fewer data points.*
+
+| Period (s) | Full &phi;<sub>s</sub> | Downsampled &phi;<sub>s</sub> 95% conf range |
+|-----|-----|-----|
+| 1 | 0.32 | [0.26 0.39] |
+| 2 | 0.32 | [0.25 0.41] |
+| 3 | 0.35 | [0.27 0.45] |
+| 4 | 0.37 | [0.26 0.46] |
+| 5 | 0.4 | [0.27 0.52] |
+| 7.5 | 0.34 | [0.25 0.41] |
+| 10 | 0.33 | [0.22 0.41] |
+
+Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture, from which we compute a total &phi;<sub>s</sub>
+
 | 3s | 5s |
 |-----|-----|
 | ![3s](resources/source_strike_m6.6_50km_3s_hist.png) | ![5s](resources/source_strike_m6.6_50km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/source_strike_m6.6_50km_7.5s_hist.png) | ![10s](resources/source_strike_m6.6_50km_10s_hist.png) |
+
+Here are plots of the &phi;<sub>s</sub> as a function of various parameters for disaggregation.
 
 | 3s | 5s | 7.5s | 10s |
 |-----|-----|-----|-----|
@@ -163,11 +199,29 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |  | 0.36 | 0.36 | 0.36 | [0.19 0.62] |  | 0.4 | 0.39 | 0.39 | [0.18 0.64] |  | 0.38 | 0.37 | 0.36 | [0.19 0.73] |  | 0.37 | 0.36 | 0.34 | [0.18 0.84] |
 
+We compute uncertainties on &phi;<sub>s</sub> through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [80.0 120.0] km. We throw out any events with only 1 recording, leaving us with 3 events and a total of 47 recordings. We then downsample our simulated data 100 times, and compute &phi;<sub>s</sub> from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.
+
+*WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 98 fewer data points.*
+
+| Period (s) | Full &phi;<sub>s</sub> | Downsampled &phi;<sub>s</sub> 95% conf range |
+|-----|-----|-----|
+| 1 | 0.32 | [0.24 0.4] |
+| 2 | 0.3 | [0.24 0.36] |
+| 3 | 0.36 | [0.26 0.47] |
+| 4 | 0.41 | [0.31 0.56] |
+| 5 | 0.4 | [0.28 0.54] |
+| 7.5 | 0.38 | [0.29 0.54] |
+| 10 | 0.37 | [0.26 0.47] |
+
+Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture, from which we compute a total &phi;<sub>s</sub>
+
 | 3s | 5s |
 |-----|-----|
 | ![3s](resources/source_strike_m6.6_100km_3s_hist.png) | ![5s](resources/source_strike_m6.6_100km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/source_strike_m6.6_100km_7.5s_hist.png) | ![10s](resources/source_strike_m6.6_100km_10s_hist.png) |
+
+Here are plots of the &phi;<sub>s</sub> as a function of various parameters for disaggregation.
 
 | 3s | 5s | 7.5s | 10s |
 |-----|-----|-----|-----|
@@ -211,11 +265,29 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |  | 0.35 | 0.34 | 0.34 | [0.17 0.61] |  | 0.36 | 0.35 | 0.35 | [0.14 0.62] |  | 0.36 | 0.34 | 0.34 | [0.13 0.69] |  | 0.31 | 0.3 | 0.29 | [0.12 0.57] |
 
+We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [10.0 30.0] km. We throw out any events with only 1 recording, leaving us with 4 events and a total of 52 recordings. We then downsample our simulated data 100 times, and compute &phi;<sub>SS</sub> from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.
+
+*WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 53 fewer data points.*
+
+| Period (s) | Full &phi;<sub>SS</sub> | Downsampled &phi;<sub>SS</sub> 95% conf range |
+|-----|-----|-----|
+| 1 | 0.35 | [0.27 0.42] |
+| 2 | 0.37 | [0.26 0.5] |
+| 3 | 0.35 | [0.26 0.45] |
+| 4 | 0.33 | [0.24 0.42] |
+| 5 | 0.36 | [0.26 0.45] |
+| 7.5 | 0.36 | [0.21 0.46] |
+| 10 | 0.31 | [0.2 0.42] |
+
+Here are plots of the histogram of &phi;<sub>SS</sub> for each individual rupture, from which we compute a total &phi;<sub>SS</sub>
+
 | 3s | 5s |
 |-----|-----|
 | ![3s](resources/within_event_ss_m6.6_20km_3s_hist.png) | ![5s](resources/within_event_ss_m6.6_20km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/within_event_ss_m6.6_20km_7.5s_hist.png) | ![10s](resources/within_event_ss_m6.6_20km_10s_hist.png) |
+
+Here are plots of the &phi;<sub>SS</sub> as a function of various parameters for disaggregation.
 
 | 3s | 5s | 7.5s | 10s |
 |-----|-----|-----|-----|
@@ -232,11 +304,29 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |  | 0.35 | 0.35 | 0.34 | [0.19 0.56] |  | 0.4 | 0.39 | 0.38 | [0.11 0.63] |  | 0.34 | 0.33 | 0.32 | [0.14 0.63] |  | 0.33 | 0.32 | 0.3 | [0.17 0.72] |
 
+We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [40.0 60.0] km. We throw out any events with only 1 recording, leaving us with 4 events and a total of 56 recordings. We then downsample our simulated data 100 times, and compute &phi;<sub>SS</sub> from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.
+
+*WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 25 fewer data points.*
+
+| Period (s) | Full &phi;<sub>SS</sub> | Downsampled &phi;<sub>SS</sub> 95% conf range |
+|-----|-----|-----|
+| 1 | 0.32 | [0.25 0.39] |
+| 2 | 0.32 | [0.26 0.39] |
+| 3 | 0.35 | [0.28 0.45] |
+| 4 | 0.37 | [0.27 0.45] |
+| 5 | 0.4 | [0.27 0.5] |
+| 7.5 | 0.34 | [0.24 0.45] |
+| 10 | 0.33 | [0.27 0.44] |
+
+Here are plots of the histogram of &phi;<sub>SS</sub> for each individual rupture, from which we compute a total &phi;<sub>SS</sub>
+
 | 3s | 5s |
 |-----|-----|
 | ![3s](resources/within_event_ss_m6.6_50km_3s_hist.png) | ![5s](resources/within_event_ss_m6.6_50km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/within_event_ss_m6.6_50km_7.5s_hist.png) | ![10s](resources/within_event_ss_m6.6_50km_10s_hist.png) |
+
+Here are plots of the &phi;<sub>SS</sub> as a function of various parameters for disaggregation.
 
 | 3s | 5s | 7.5s | 10s |
 |-----|-----|-----|-----|
@@ -253,11 +343,29 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |  | 0.36 | 0.36 | 0.36 | [0.19 0.62] |  | 0.4 | 0.39 | 0.39 | [0.18 0.64] |  | 0.38 | 0.37 | 0.36 | [0.19 0.73] |  | 0.37 | 0.36 | 0.34 | [0.18 0.84] |
 
+We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [80.0 120.0] km. We throw out any events with only 1 recording, leaving us with 3 events and a total of 47 recordings. We then downsample our simulated data 100 times, and compute &phi;<sub>SS</sub> from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.
+
+*WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 98 fewer data points.*
+
+| Period (s) | Full &phi;<sub>SS</sub> | Downsampled &phi;<sub>SS</sub> 95% conf range |
+|-----|-----|-----|
+| 1 | 0.32 | [0.25 0.4] |
+| 2 | 0.3 | [0.23 0.37] |
+| 3 | 0.36 | [0.27 0.45] |
+| 4 | 0.41 | [0.3 0.53] |
+| 5 | 0.4 | [0.3 0.5] |
+| 7.5 | 0.38 | [0.26 0.5] |
+| 10 | 0.37 | [0.27 0.49] |
+
+Here are plots of the histogram of &phi;<sub>SS</sub> for each individual rupture, from which we compute a total &phi;<sub>SS</sub>
+
 | 3s | 5s |
 |-----|-----|
 | ![3s](resources/within_event_ss_m6.6_100km_3s_hist.png) | ![5s](resources/within_event_ss_m6.6_100km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/within_event_ss_m6.6_100km_7.5s_hist.png) | ![10s](resources/within_event_ss_m6.6_100km_10s_hist.png) |
+
+Here are plots of the &phi;<sub>SS</sub> as a function of various parameters for disaggregation.
 
 | 3s | 5s | 7.5s | 10s |
 |-----|-----|-----|-----|
@@ -301,6 +409,20 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 | 0.24 | -4.25 | [-4.8 -3.67] | 0.24 | -4.93 | [-5.56 -4.14] | 0.28 | -5.68 | [-6.44 -5.05] | 0.27 | -6.3 | [-7.01 -5.74] |
 
+We compute uncertainties on &tau; through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [10.0 30.0] km. We throw out any events with only 1 recording, leaving us with 4 events and a total of 52 recordings. We then downsample our simulated data 100 times, and compute &tau; from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.
+
+*WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 53 fewer data points.*
+
+| Period (s) | Full &tau; | Downsampled &tau; 95% conf range |
+|-----|-----|-----|
+| 1 | 0.25 | [0.07 0.5] |
+| 2 | 0.2 | [0.04 0.41] |
+| 3 | 0.24 | [0.07 0.44] |
+| 4 | 0.23 | [0.06 0.45] |
+| 5 | 0.24 | [0.07 0.52] |
+| 7.5 | 0.28 | [0.1 0.54] |
+| 10 | 0.27 | [0.07 0.5] |
+
 
 ### 50.0 km M6.6 Between-events Results
 *[(top)](#table-of-contents)*
@@ -311,6 +433,20 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 | 0.32 | -5.12 | [-5.8 -4.38] | 0.3 | -5.63 | [-6.61 -4.8] | 0.25 | -6.42 | [-6.98 -5.91] | 0.29 | -6.85 | [-7.58 -6.07] |
 
+We compute uncertainties on &tau; through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [40.0 60.0] km. We throw out any events with only 1 recording, leaving us with 4 events and a total of 56 recordings. We then downsample our simulated data 100 times, and compute &tau; from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.
+
+*WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 25 fewer data points.*
+
+| Period (s) | Full &tau; | Downsampled &tau; 95% conf range |
+|-----|-----|-----|
+| 1 | 0.34 | [0.1 0.59] |
+| 2 | 0.3 | [0.09 0.55] |
+| 3 | 0.32 | [0.09 0.54] |
+| 4 | 0.34 | [0.09 0.62] |
+| 5 | 0.3 | [0.08 0.58] |
+| 7.5 | 0.25 | [0.06 0.5] |
+| 10 | 0.29 | [0.08 0.64] |
+
 
 ### 100.0 km M6.6 Between-events Results
 *[(top)](#table-of-contents)*
@@ -320,6 +456,20 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 | 3s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 5s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 7.5s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 10s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 | 0.3 | -5.76 | [-6.27 -5] | 0.31 | -6.24 | [-7.16 -5.49] | 0.27 | -6.92 | [-7.57 -6.32] | 0.33 | -7.22 | [-7.97 -6.34] |
+
+We compute uncertainties on &tau; through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [80.0 120.0] km. We throw out any events with only 1 recording, leaving us with 3 events and a total of 47 recordings. We then downsample our simulated data 100 times, and compute &tau; from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.
+
+*WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 98 fewer data points.*
+
+| Period (s) | Full &tau; | Downsampled &tau; 95% conf range |
+|-----|-----|-----|
+| 1 | 0.13 | [0.02 0.23] |
+| 2 | 0.22 | [0.03 0.47] |
+| 3 | 0.3 | [0.05 0.59] |
+| 4 | 0.38 | [0.06 0.74] |
+| 5 | 0.31 | [0.04 0.69] |
+| 7.5 | 0.27 | [0.02 0.46] |
+| 10 | 0.33 | [0.06 0.61] |
 
 
 ## Azumth Dependence

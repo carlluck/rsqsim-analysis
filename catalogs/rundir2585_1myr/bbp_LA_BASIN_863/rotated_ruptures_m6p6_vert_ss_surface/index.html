@@ -164,6 +164,22 @@ img {
 <tr><td></td><td>0.39</td><td>0.39</td><td>0.38</td><td>[0.14 0.63]</td><td></td><td>0.41</td><td>0.4</td><td>0.4</td><td>[0.13 0.69]</td><td></td><td>0.32</td><td>0.31</td><td>0.3</td><td>[0.14 0.57]</td><td></td><td>0.24</td><td>0.23</td><td>0.22</td><td>[0.06 0.5]</td></tr>
 </tbody>
 </table>
+<p>We compute uncertainties on φ<sub>s</sub> through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [10.0 30.0] km. We throw out any events with only 1 recording, leaving us with 4 events and a total of 37 recordings. We then downsample our simulated data 100 times, and compute φ<sub>s</sub> from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.</p>
+<table>
+<thead>
+<tr><th>Period (s)</th><th>Full φ<sub>s</sub></th><th>Downsampled φ<sub>s</sub> 95% conf range</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>0.36</td><td>[0.25 0.44]</td></tr>
+<tr><td>2</td><td>0.42</td><td>[0.33 0.52]</td></tr>
+<tr><td>3</td><td>0.39</td><td>[0.28 0.49]</td></tr>
+<tr><td>4</td><td>0.42</td><td>[0.3 0.55]</td></tr>
+<tr><td>5</td><td>0.41</td><td>[0.3 0.52]</td></tr>
+<tr><td>7.5</td><td>0.32</td><td>[0.21 0.41]</td></tr>
+<tr><td>10</td><td>0.24</td><td>[0.16 0.34]</td></tr>
+</tbody>
+</table>
+<p>Here are plots of the histogram of φ<sub>s</sub> for each individual rupture, from which we compute a total φ<sub>s</sub></p>
 <table>
 <thead>
 <tr><th>3s</th><th>5s</th></tr>
@@ -174,6 +190,7 @@ img {
 <tr><td><img src="resources/source_strike_m6.6_20km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/source_strike_m6.6_20km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
+<p>Here are plots of the φ<sub>s</sub> as a function of various parameters for disaggregation.</p>
 <table>
 <thead>
 <tr><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
@@ -194,6 +211,23 @@ img {
 <tr><td></td><td>0.46</td><td>0.46</td><td>0.45</td><td>[0.22 0.77]</td><td></td><td>0.48</td><td>0.48</td><td>0.48</td><td>[0.23 0.78]</td><td></td><td>0.54</td><td>0.54</td><td>0.54</td><td>[0.19 0.77]</td><td></td><td>0.55</td><td>0.55</td><td>0.57</td><td>[0.25 0.72]</td></tr>
 </tbody>
 </table>
+<p>We compute uncertainties on φ<sub>s</sub> through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [40.0 60.0] km. We throw out any events with only 1 recording, leaving us with 3 events and a total of 33 recordings. We then downsample our simulated data 100 times, and compute φ<sub>s</sub> from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.</p>
+<p><em>WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 2 fewer data points.</em></p>
+<table>
+<thead>
+<tr><th>Period (s)</th><th>Full φ<sub>s</sub></th><th>Downsampled φ<sub>s</sub> 95% conf range</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>0.41</td><td>[0.33 0.52]</td></tr>
+<tr><td>2</td><td>0.45</td><td>[0.32 0.55]</td></tr>
+<tr><td>3</td><td>0.46</td><td>[0.34 0.57]</td></tr>
+<tr><td>4</td><td>0.48</td><td>[0.34 0.62]</td></tr>
+<tr><td>5</td><td>0.48</td><td>[0.34 0.62]</td></tr>
+<tr><td>7.5</td><td>0.54</td><td>[0.38 0.68]</td></tr>
+<tr><td>10</td><td>0.55</td><td>[0.42 0.66]</td></tr>
+</tbody>
+</table>
+<p>Here are plots of the histogram of φ<sub>s</sub> for each individual rupture, from which we compute a total φ<sub>s</sub></p>
 <table>
 <thead>
 <tr><th>3s</th><th>5s</th></tr>
@@ -204,6 +238,7 @@ img {
 <tr><td><img src="resources/source_strike_m6.6_50km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/source_strike_m6.6_50km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
+<p>Here are plots of the φ<sub>s</sub> as a function of various parameters for disaggregation.</p>
 <table>
 <thead>
 <tr><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
@@ -224,6 +259,23 @@ img {
 <tr><td></td><td>0.47</td><td>0.46</td><td>0.46</td><td>[0.25 0.69]</td><td></td><td>0.53</td><td>0.53</td><td>0.53</td><td>[0.23 0.82]</td><td></td><td>0.57</td><td>0.57</td><td>0.58</td><td>[0.15 0.79]</td><td></td><td>0.51</td><td>0.52</td><td>0.52</td><td>[0.24 0.75]</td></tr>
 </tbody>
 </table>
+<p>We compute uncertainties on φ<sub>s</sub> through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [80.0 120.0] km. We throw out any events with only 1 recording, leaving us with 2 events and a total of 29 recordings. We then downsample our simulated data 100 times, and compute φ<sub>s</sub> from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.</p>
+<p><em>WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 28 fewer data points.</em></p>
+<table>
+<thead>
+<tr><th>Period (s)</th><th>Full φ<sub>s</sub></th><th>Downsampled φ<sub>s</sub> 95% conf range</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>0.37</td><td>[0.24 0.49]</td></tr>
+<tr><td>2</td><td>0.45</td><td>[0.35 0.54]</td></tr>
+<tr><td>3</td><td>0.47</td><td>[0.33 0.61]</td></tr>
+<tr><td>4</td><td>0.49</td><td>[0.32 0.67]</td></tr>
+<tr><td>5</td><td>0.53</td><td>[0.37 0.63]</td></tr>
+<tr><td>7.5</td><td>0.57</td><td>[0.42 0.7]</td></tr>
+<tr><td>10</td><td>0.51</td><td>[0.37 0.66]</td></tr>
+</tbody>
+</table>
+<p>Here are plots of the histogram of φ<sub>s</sub> for each individual rupture, from which we compute a total φ<sub>s</sub></p>
 <table>
 <thead>
 <tr><th>3s</th><th>5s</th></tr>
@@ -234,6 +286,7 @@ img {
 <tr><td><img src="resources/source_strike_m6.6_100km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/source_strike_m6.6_100km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
+<p>Here are plots of the φ<sub>s</sub> as a function of various parameters for disaggregation.</p>
 <table>
 <thead>
 <tr><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
@@ -275,6 +328,22 @@ img {
 <tr><td></td><td>0.39</td><td>0.39</td><td>0.38</td><td>[0.14 0.63]</td><td></td><td>0.41</td><td>0.4</td><td>0.4</td><td>[0.13 0.69]</td><td></td><td>0.32</td><td>0.31</td><td>0.3</td><td>[0.14 0.57]</td><td></td><td>0.24</td><td>0.23</td><td>0.22</td><td>[0.06 0.5]</td></tr>
 </tbody>
 </table>
+<p>We compute uncertainties on φ<sub>SS</sub> through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [10.0 30.0] km. We throw out any events with only 1 recording, leaving us with 4 events and a total of 37 recordings. We then downsample our simulated data 100 times, and compute φ<sub>SS</sub> from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.</p>
+<table>
+<thead>
+<tr><th>Period (s)</th><th>Full φ<sub>SS</sub></th><th>Downsampled φ<sub>SS</sub> 95% conf range</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>0.36</td><td>[0.27 0.44]</td></tr>
+<tr><td>2</td><td>0.42</td><td>[0.29 0.51]</td></tr>
+<tr><td>3</td><td>0.39</td><td>[0.29 0.49]</td></tr>
+<tr><td>4</td><td>0.42</td><td>[0.33 0.52]</td></tr>
+<tr><td>5</td><td>0.41</td><td>[0.29 0.52]</td></tr>
+<tr><td>7.5</td><td>0.32</td><td>[0.21 0.4]</td></tr>
+<tr><td>10</td><td>0.24</td><td>[0.16 0.34]</td></tr>
+</tbody>
+</table>
+<p>Here are plots of the histogram of φ<sub>SS</sub> for each individual rupture, from which we compute a total φ<sub>SS</sub></p>
 <table>
 <thead>
 <tr><th>3s</th><th>5s</th></tr>
@@ -285,6 +354,7 @@ img {
 <tr><td><img src="resources/within_event_ss_m6.6_20km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_ss_m6.6_20km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
+<p>Here are plots of the φ<sub>SS</sub> as a function of various parameters for disaggregation.</p>
 <table>
 <thead>
 <tr><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
@@ -305,6 +375,23 @@ img {
 <tr><td></td><td>0.46</td><td>0.46</td><td>0.45</td><td>[0.22 0.77]</td><td></td><td>0.48</td><td>0.48</td><td>0.48</td><td>[0.23 0.78]</td><td></td><td>0.54</td><td>0.54</td><td>0.54</td><td>[0.19 0.77]</td><td></td><td>0.55</td><td>0.55</td><td>0.57</td><td>[0.25 0.72]</td></tr>
 </tbody>
 </table>
+<p>We compute uncertainties on φ<sub>SS</sub> through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [40.0 60.0] km. We throw out any events with only 1 recording, leaving us with 3 events and a total of 33 recordings. We then downsample our simulated data 100 times, and compute φ<sub>SS</sub> from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.</p>
+<p><em>WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 2 fewer data points.</em></p>
+<table>
+<thead>
+<tr><th>Period (s)</th><th>Full φ<sub>SS</sub></th><th>Downsampled φ<sub>SS</sub> 95% conf range</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>0.41</td><td>[0.3 0.53]</td></tr>
+<tr><td>2</td><td>0.45</td><td>[0.34 0.58]</td></tr>
+<tr><td>3</td><td>0.46</td><td>[0.36 0.62]</td></tr>
+<tr><td>4</td><td>0.48</td><td>[0.34 0.63]</td></tr>
+<tr><td>5</td><td>0.48</td><td>[0.34 0.61]</td></tr>
+<tr><td>7.5</td><td>0.54</td><td>[0.37 0.68]</td></tr>
+<tr><td>10</td><td>0.55</td><td>[0.4 0.65]</td></tr>
+</tbody>
+</table>
+<p>Here are plots of the histogram of φ<sub>SS</sub> for each individual rupture, from which we compute a total φ<sub>SS</sub></p>
 <table>
 <thead>
 <tr><th>3s</th><th>5s</th></tr>
@@ -315,6 +402,7 @@ img {
 <tr><td><img src="resources/within_event_ss_m6.6_50km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_ss_m6.6_50km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
+<p>Here are plots of the φ<sub>SS</sub> as a function of various parameters for disaggregation.</p>
 <table>
 <thead>
 <tr><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
@@ -335,6 +423,23 @@ img {
 <tr><td></td><td>0.47</td><td>0.46</td><td>0.46</td><td>[0.25 0.69]</td><td></td><td>0.53</td><td>0.53</td><td>0.53</td><td>[0.23 0.82]</td><td></td><td>0.57</td><td>0.57</td><td>0.58</td><td>[0.15 0.79]</td><td></td><td>0.51</td><td>0.52</td><td>0.52</td><td>[0.24 0.75]</td></tr>
 </tbody>
 </table>
+<p>We compute uncertainties on φ<sub>SS</sub> through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [80.0 120.0] km. We throw out any events with only 1 recording, leaving us with 2 events and a total of 29 recordings. We then downsample our simulated data 100 times, and compute φ<sub>SS</sub> from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.</p>
+<p><em>WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 28 fewer data points.</em></p>
+<table>
+<thead>
+<tr><th>Period (s)</th><th>Full φ<sub>SS</sub></th><th>Downsampled φ<sub>SS</sub> 95% conf range</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>0.37</td><td>[0.27 0.49]</td></tr>
+<tr><td>2</td><td>0.45</td><td>[0.33 0.56]</td></tr>
+<tr><td>3</td><td>0.47</td><td>[0.37 0.58]</td></tr>
+<tr><td>4</td><td>0.49</td><td>[0.33 0.64]</td></tr>
+<tr><td>5</td><td>0.53</td><td>[0.43 0.66]</td></tr>
+<tr><td>7.5</td><td>0.57</td><td>[0.42 0.7]</td></tr>
+<tr><td>10</td><td>0.51</td><td>[0.38 0.65]</td></tr>
+</tbody>
+</table>
+<p>Here are plots of the histogram of φ<sub>SS</sub> for each individual rupture, from which we compute a total φ<sub>SS</sub></p>
 <table>
 <thead>
 <tr><th>3s</th><th>5s</th></tr>
@@ -345,6 +450,7 @@ img {
 <tr><td><img src="resources/within_event_ss_m6.6_100km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_ss_m6.6_100km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
+<p>Here are plots of the φ<sub>SS</sub> as a function of various parameters for disaggregation.</p>
 <table>
 <thead>
 <tr><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
@@ -386,6 +492,21 @@ img {
 <tr><td>0.26</td><td>-4.06</td><td>[-4.64 -3.15]</td><td>0.29</td><td>-4.74</td><td>[-5.54 -3.87]</td><td>0.37</td><td>-5.22</td><td>[-6.22 -4.49]</td><td>0.39</td><td>-5.73</td><td>[-6.84 -5]</td></tr>
 </tbody>
 </table>
+<p>We compute uncertainties on τ through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [10.0 30.0] km. We throw out any events with only 1 recording, leaving us with 4 events and a total of 37 recordings. We then downsample our simulated data 100 times, and compute τ from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.</p>
+<table>
+<thead>
+<tr><th>Period (s)</th><th>Full τ</th><th>Downsampled τ 95% conf range</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>0.2</td><td>[0.06 0.46]</td></tr>
+<tr><td>2</td><td>0.27</td><td>[0.06 0.63]</td></tr>
+<tr><td>3</td><td>0.26</td><td>[0.07 0.53]</td></tr>
+<tr><td>4</td><td>0.26</td><td>[0.08 0.59]</td></tr>
+<tr><td>5</td><td>0.29</td><td>[0.1 0.64]</td></tr>
+<tr><td>7.5</td><td>0.37</td><td>[0.07 0.69]</td></tr>
+<tr><td>10</td><td>0.39</td><td>[0.08 0.71]</td></tr>
+</tbody>
+</table>
 <h3 id="500-km-m66-between-events-results">50.0 km M6.6 Between-events Results</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <p><img src="resources/between_events_m6.6_50km_std_dev.png" alt="Between-events Variability" /></p>
@@ -397,6 +518,22 @@ img {
 <tr><td>0.27</td><td>-4.83</td><td>[-5.52 -4.03]</td><td>0.32</td><td>-5.42</td><td>[-6.58 -4.57]</td><td>0.38</td><td>-5.91</td><td>[-7 -5.02]</td><td>0.4</td><td>-6.34</td><td>[-7.64 -5.63]</td></tr>
 </tbody>
 </table>
+<p>We compute uncertainties on τ through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [40.0 60.0] km. We throw out any events with only 1 recording, leaving us with 3 events and a total of 33 recordings. We then downsample our simulated data 100 times, and compute τ from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.</p>
+<p><em>WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 2 fewer data points.</em></p>
+<table>
+<thead>
+<tr><th>Period (s)</th><th>Full τ</th><th>Downsampled τ 95% conf range</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>0.22</td><td>[0.03 0.48]</td></tr>
+<tr><td>2</td><td>0.29</td><td>[0.05 0.66]</td></tr>
+<tr><td>3</td><td>0.27</td><td>[0.05 0.71]</td></tr>
+<tr><td>4</td><td>0.3</td><td>[0.05 0.71]</td></tr>
+<tr><td>5</td><td>0.32</td><td>[0.05 0.74]</td></tr>
+<tr><td>7.5</td><td>0.38</td><td>[0.11 0.87]</td></tr>
+<tr><td>10</td><td>0.4</td><td>[0.08 0.99]</td></tr>
+</tbody>
+</table>
 <h3 id="1000-km-m66-between-events-results">100.0 km M6.6 Between-events Results</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <p><img src="resources/between_events_m6.6_100km_std_dev.png" alt="Between-events Variability" /></p>
@@ -406,6 +543,22 @@ img {
 </thead>
 <tbody>
 <tr><td>0.25</td><td>-5.53</td><td>[-6.24 -4.75]</td><td>0.34</td><td>-6.02</td><td>[-7.17 -5.14]</td><td>0.4</td><td>-6.38</td><td>[-7.43 -5.52]</td><td>0.42</td><td>-6.77</td><td>[-8.14 -6.02]</td></tr>
+</tbody>
+</table>
+<p>We compute uncertainties on τ through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [80.0 120.0] km. We throw out any events with only 1 recording, leaving us with 2 events and a total of 29 recordings. We then downsample our simulated data 100 times, and compute τ from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.</p>
+<p><em>WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 28 fewer data points.</em></p>
+<table>
+<thead>
+<tr><th>Period (s)</th><th>Full τ</th><th>Downsampled τ 95% conf range</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>0.15</td><td>[0 0.39]</td></tr>
+<tr><td>2</td><td>0.23</td><td>[0.01 0.58]</td></tr>
+<tr><td>3</td><td>0.25</td><td>[0.01 0.51]</td></tr>
+<tr><td>4</td><td>0.32</td><td>[0.01 0.59]</td></tr>
+<tr><td>5</td><td>0.34</td><td>[0 0.79]</td></tr>
+<tr><td>7.5</td><td>0.4</td><td>[0.01 0.98]</td></tr>
+<tr><td>10</td><td>0.42</td><td>[0.01 0.89]</td></tr>
 </tbody>
 </table>
 <h2 id="azumth-dependence">Azumth Dependence</h2>
