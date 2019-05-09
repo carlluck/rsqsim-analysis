@@ -124,15 +124,15 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 
 We compute uncertainties on &phi;<sub>s</sub> through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [10.0 30.0] km. We throw out any events with only 1 recording, leaving us with 4 events and a total of 37 recordings. We then downsample our simulated data 100 times, and compute &phi;<sub>s</sub> from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.
 
-| Period (s) | Full &phi;<sub>s</sub> | Downsampled &phi;<sub>s</sub> 95% conf range |
-|-----|-----|-----|
-| 1 | 0.44 | [0.34 0.54] |
-| 2 | 0.41 | [0.28 0.49] |
-| 3 | 0.41 | [0.32 0.53] |
-| 4 | 0.44 | [0.31 0.55] |
-| 5 | 0.44 | [0.32 0.57] |
-| 7.5 | 0.34 | [0.26 0.46] |
-| 10 | 0.26 | [0.17 0.34] |
+| Period (s) | Full &phi;<sub>s</sub> | Downsampled median &phi;<sub>s</sub> | Downsampled &phi;<sub>s</sub> std. dev. | Downsampled &phi;<sub>s</sub> 68% conf range | Downsampled &phi;<sub>s</sub> 95% conf range |
+|-----|-----|-----|-----|-----|-----|
+| 1 | 0.44 | 0.44 | 0.05 | [0.39 0.48] | [0.34 0.55] |
+| 2 | 0.41 | 0.4 | 0.05 | [0.35 0.46] | [0.31 0.5] |
+| 3 | 0.41 | 0.4 | 0.06 | [0.34 0.46] | [0.28 0.52] |
+| 4 | 0.44 | 0.42 | 0.05 | [0.37 0.48] | [0.32 0.54] |
+| 5 | 0.44 | 0.43 | 0.06 | [0.37 0.48] | [0.32 0.56] |
+| 7.5 | 0.34 | 0.33 | 0.04 | [0.29 0.37] | [0.24 0.42] |
+| 10 | 0.26 | 0.24 | 0.04 | [0.21 0.28] | [0.17 0.34] |
 
 Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture, from which we compute a total &phi;<sub>s</sub>
 
@@ -163,15 +163,15 @@ We compute uncertainties on &phi;<sub>s</sub> through downsampling the rotationa
 
 *WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 2 fewer data points.*
 
-| Period (s) | Full &phi;<sub>s</sub> | Downsampled &phi;<sub>s</sub> 95% conf range |
-|-----|-----|-----|
-| 1 | 0.44 | [0.35 0.54] |
-| 2 | 0.41 | [0.29 0.55] |
-| 3 | 0.41 | [0.3 0.55] |
-| 4 | 0.47 | [0.33 0.62] |
-| 5 | 0.5 | [0.36 0.63] |
-| 7.5 | 0.54 | [0.36 0.68] |
-| 10 | 0.55 | [0.37 0.68] |
+| Period (s) | Full &phi;<sub>s</sub> | Downsampled median &phi;<sub>s</sub> | Downsampled &phi;<sub>s</sub> std. dev. | Downsampled &phi;<sub>s</sub> 68% conf range | Downsampled &phi;<sub>s</sub> 95% conf range |
+|-----|-----|-----|-----|-----|-----|
+| 1 | 0.44 | 0.43 | 0.04 | [0.39 0.48] | [0.33 0.54] |
+| 2 | 0.41 | 0.4 | 0.05 | [0.35 0.45] | [0.3 0.51] |
+| 3 | 0.41 | 0.4 | 0.06 | [0.34 0.46] | [0.28 0.51] |
+| 4 | 0.47 | 0.46 | 0.08 | [0.38 0.55] | [0.33 0.63] |
+| 5 | 0.5 | 0.48 | 0.08 | [0.41 0.58] | [0.36 0.64] |
+| 7.5 | 0.54 | 0.54 | 0.07 | [0.47 0.6] | [0.41 0.68] |
+| 10 | 0.55 | 0.57 | 0.07 | [0.48 0.62] | [0.42 0.68] |
 
 Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture, from which we compute a total &phi;<sub>s</sub>
 
@@ -202,15 +202,15 @@ We compute uncertainties on &phi;<sub>s</sub> through downsampling the rotationa
 
 *WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 28 fewer data points.*
 
-| Period (s) | Full &phi;<sub>s</sub> | Downsampled &phi;<sub>s</sub> 95% conf range |
-|-----|-----|-----|
-| 1 | 0.37 | [0.25 0.52] |
-| 2 | 0.39 | [0.29 0.49] |
-| 3 | 0.41 | [0.31 0.56] |
-| 4 | 0.46 | [0.31 0.61] |
-| 5 | 0.52 | [0.36 0.64] |
-| 7.5 | 0.56 | [0.42 0.69] |
-| 10 | 0.51 | [0.38 0.64] |
+| Period (s) | Full &phi;<sub>s</sub> | Downsampled median &phi;<sub>s</sub> | Downsampled &phi;<sub>s</sub> std. dev. | Downsampled &phi;<sub>s</sub> 68% conf range | Downsampled &phi;<sub>s</sub> 95% conf range |
+|-----|-----|-----|-----|-----|-----|
+| 1 | 0.37 | 0.37 | 0.05 | [0.32 0.43] | [0.27 0.46] |
+| 2 | 0.39 | 0.38 | 0.05 | [0.33 0.43] | [0.3 0.5] |
+| 3 | 0.41 | 0.4 | 0.06 | [0.36 0.46] | [0.31 0.54] |
+| 4 | 0.46 | 0.46 | 0.08 | [0.38 0.54] | [0.28 0.65] |
+| 5 | 0.52 | 0.53 | 0.08 | [0.44 0.59] | [0.34 0.69] |
+| 7.5 | 0.56 | 0.57 | 0.08 | [0.51 0.65] | [0.41 0.72] |
+| 10 | 0.51 | 0.53 | 0.06 | [0.47 0.57] | [0.36 0.63] |
 
 Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture, from which we compute a total &phi;<sub>s</sub>
 
@@ -266,15 +266,15 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 
 We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [10.0 30.0] km. We throw out any events with only 1 recording, leaving us with 4 events and a total of 37 recordings. We then downsample our simulated data 100 times, and compute &phi;<sub>SS</sub> from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.
 
-| Period (s) | Full &phi;<sub>SS</sub> | Downsampled &phi;<sub>SS</sub> 95% conf range |
-|-----|-----|-----|
-| 1 | 0.44 | [0.36 0.53] |
-| 2 | 0.41 | [0.3 0.5] |
-| 3 | 0.41 | [0.3 0.49] |
-| 4 | 0.44 | [0.33 0.53] |
-| 5 | 0.44 | [0.31 0.54] |
-| 7.5 | 0.34 | [0.23 0.43] |
-| 10 | 0.26 | [0.15 0.35] |
+| Period (s) | Full &phi;<sub>SS</sub> | Downsampled median &phi;<sub>SS</sub> | Downsampled &phi;<sub>SS</sub> std. dev. | Downsampled &phi;<sub>SS</sub> 68% conf range | Downsampled &phi;<sub>SS</sub> 95% conf range |
+|-----|-----|-----|-----|-----|-----|
+| 1 | 0.44 | 0.43 | 0.05 | [0.38 0.48] | [0.3 0.53] |
+| 2 | 0.41 | 0.39 | 0.05 | [0.35 0.44] | [0.3 0.51] |
+| 3 | 0.41 | 0.4 | 0.06 | [0.36 0.47] | [0.28 0.51] |
+| 4 | 0.44 | 0.43 | 0.07 | [0.36 0.49] | [0.28 0.54] |
+| 5 | 0.44 | 0.43 | 0.07 | [0.38 0.5] | [0.29 0.56] |
+| 7.5 | 0.34 | 0.34 | 0.05 | [0.29 0.38] | [0.24 0.44] |
+| 10 | 0.26 | 0.25 | 0.04 | [0.21 0.29] | [0.18 0.34] |
 
 Here are plots of the histogram of &phi;<sub>SS</sub> for each individual rupture, from which we compute a total &phi;<sub>SS</sub>
 
@@ -305,15 +305,15 @@ We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotation
 
 *WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 2 fewer data points.*
 
-| Period (s) | Full &phi;<sub>SS</sub> | Downsampled &phi;<sub>SS</sub> 95% conf range |
-|-----|-----|-----|
-| 1 | 0.44 | [0.33 0.52] |
-| 2 | 0.41 | [0.27 0.55] |
-| 3 | 0.41 | [0.32 0.52] |
-| 4 | 0.47 | [0.32 0.65] |
-| 5 | 0.5 | [0.36 0.65] |
-| 7.5 | 0.54 | [0.36 0.7] |
-| 10 | 0.55 | [0.35 0.66] |
+| Period (s) | Full &phi;<sub>SS</sub> | Downsampled median &phi;<sub>SS</sub> | Downsampled &phi;<sub>SS</sub> std. dev. | Downsampled &phi;<sub>SS</sub> 68% conf range | Downsampled &phi;<sub>SS</sub> 95% conf range |
+|-----|-----|-----|-----|-----|-----|
+| 1 | 0.44 | 0.42 | 0.05 | [0.37 0.48] | [0.32 0.51] |
+| 2 | 0.41 | 0.41 | 0.05 | [0.35 0.45] | [0.29 0.5] |
+| 3 | 0.41 | 0.41 | 0.06 | [0.35 0.47] | [0.3 0.53] |
+| 4 | 0.47 | 0.47 | 0.07 | [0.4 0.53] | [0.33 0.62] |
+| 5 | 0.5 | 0.49 | 0.07 | [0.44 0.56] | [0.34 0.65] |
+| 7.5 | 0.54 | 0.54 | 0.07 | [0.49 0.61] | [0.4 0.69] |
+| 10 | 0.55 | 0.55 | 0.07 | [0.46 0.62] | [0.4 0.66] |
 
 Here are plots of the histogram of &phi;<sub>SS</sub> for each individual rupture, from which we compute a total &phi;<sub>SS</sub>
 
@@ -344,15 +344,15 @@ We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotation
 
 *WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 28 fewer data points.*
 
-| Period (s) | Full &phi;<sub>SS</sub> | Downsampled &phi;<sub>SS</sub> 95% conf range |
-|-----|-----|-----|
-| 1 | 0.37 | [0.26 0.49] |
-| 2 | 0.39 | [0.29 0.49] |
-| 3 | 0.41 | [0.31 0.55] |
-| 4 | 0.46 | [0.32 0.63] |
-| 5 | 0.52 | [0.36 0.65] |
-| 7.5 | 0.56 | [0.43 0.67] |
-| 10 | 0.51 | [0.38 0.64] |
+| Period (s) | Full &phi;<sub>SS</sub> | Downsampled median &phi;<sub>SS</sub> | Downsampled &phi;<sub>SS</sub> std. dev. | Downsampled &phi;<sub>SS</sub> 68% conf range | Downsampled &phi;<sub>SS</sub> 95% conf range |
+|-----|-----|-----|-----|-----|-----|
+| 1 | 0.37 | 0.36 | 0.05 | [0.32 0.43] | [0.27 0.51] |
+| 2 | 0.39 | 0.39 | 0.05 | [0.35 0.44] | [0.29 0.51] |
+| 3 | 0.41 | 0.4 | 0.05 | [0.35 0.45] | [0.31 0.53] |
+| 4 | 0.46 | 0.45 | 0.08 | [0.39 0.55] | [0.32 0.62] |
+| 5 | 0.52 | 0.52 | 0.08 | [0.46 0.59] | [0.36 0.69] |
+| 7.5 | 0.56 | 0.57 | 0.07 | [0.51 0.64] | [0.4 0.7] |
+| 10 | 0.51 | 0.52 | 0.06 | [0.46 0.57] | [0.36 0.66] |
 
 Here are plots of the histogram of &phi;<sub>SS</sub> for each individual rupture, from which we compute a total &phi;<sub>SS</sub>
 
@@ -408,15 +408,15 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 
 We compute uncertainties on &tau; through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [10.0 30.0] km. We throw out any events with only 1 recording, leaving us with 4 events and a total of 37 recordings. We then downsample our simulated data 100 times, and compute &tau; from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.
 
-| Period (s) | Full &tau; | Downsampled &tau; 95% conf range |
-|-----|-----|-----|
-| 1 | 0.17 | [0.06 0.43] |
-| 2 | 0.24 | [0.07 0.49] |
-| 3 | 0.26 | [0.09 0.44] |
-| 4 | 0.26 | [0.1 0.52] |
-| 5 | 0.28 | [0.11 0.56] |
-| 7.5 | 0.36 | [0.12 0.69] |
-| 10 | 0.38 | [0.08 0.65] |
+| Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
+|-----|-----|-----|-----|-----|-----|
+| 1 | 0.17 | 0.19 | 0.1 | [0.11 0.3] | [0.06 0.51] |
+| 2 | 0.24 | 0.24 | 0.12 | [0.12 0.35] | [0.06 0.56] |
+| 3 | 0.26 | 0.25 | 0.13 | [0.17 0.39] | [0.08 0.59] |
+| 4 | 0.26 | 0.3 | 0.13 | [0.16 0.42] | [0.07 0.68] |
+| 5 | 0.28 | 0.28 | 0.14 | [0.15 0.45] | [0.08 0.61] |
+| 7.5 | 0.36 | 0.35 | 0.15 | [0.2 0.52] | [0.08 0.69] |
+| 10 | 0.38 | 0.36 | 0.12 | [0.24 0.49] | [0.14 0.66] |
 
 
 ### 50.0 km M6.6 Between-events Results
@@ -432,15 +432,15 @@ We compute uncertainties on &tau; through downsampling the rotational synthetic 
 
 *WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 2 fewer data points.*
 
-| Period (s) | Full &tau; | Downsampled &tau; 95% conf range |
-|-----|-----|-----|
-| 1 | 0.19 | [0.04 0.47] |
-| 2 | 0.25 | [0.05 0.56] |
-| 3 | 0.24 | [0.04 0.62] |
-| 4 | 0.29 | [0.04 0.58] |
-| 5 | 0.33 | [0.06 0.66] |
-| 7.5 | 0.39 | [0.07 0.92] |
-| 10 | 0.39 | [0.08 0.97] |
+| Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
+|-----|-----|-----|-----|-----|-----|
+| 1 | 0.19 | 0.22 | 0.13 | [0.11 0.36] | [0.04 0.51] |
+| 2 | 0.25 | 0.26 | 0.14 | [0.12 0.42] | [0.05 0.65] |
+| 3 | 0.24 | 0.26 | 0.14 | [0.14 0.41] | [0.04 0.66] |
+| 4 | 0.29 | 0.3 | 0.16 | [0.16 0.45] | [0.03 0.65] |
+| 5 | 0.33 | 0.32 | 0.17 | [0.17 0.46] | [0.07 0.86] |
+| 7.5 | 0.39 | 0.33 | 0.22 | [0.15 0.57] | [0.07 0.94] |
+| 10 | 0.39 | 0.38 | 0.21 | [0.2 0.61] | [0.06 0.89] |
 
 
 ### 100.0 km M6.6 Between-events Results
@@ -456,15 +456,15 @@ We compute uncertainties on &tau; through downsampling the rotational synthetic 
 
 *WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 28 fewer data points.*
 
-| Period (s) | Full &tau; | Downsampled &tau; 95% conf range |
-|-----|-----|-----|
-| 1 | 0.14 | [0.01 0.35] |
-| 2 | 0.2 | [0.01 0.54] |
-| 3 | 0.22 | [0.01 0.54] |
-| 4 | 0.27 | [0.01 0.57] |
-| 5 | 0.33 | [0.01 0.73] |
-| 7.5 | 0.41 | [0.01 0.97] |
-| 10 | 0.43 | [0.02 0.96] |
+| Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
+|-----|-----|-----|-----|-----|-----|
+| 1 | 0.14 | 0.09 | 0.09 | [0.03 0.21] | [0 0.36] |
+| 2 | 0.2 | 0.11 | 0.13 | [0.04 0.25] | [0 0.56] |
+| 3 | 0.22 | 0.19 | 0.13 | [0.06 0.32] | [0 0.51] |
+| 4 | 0.27 | 0.2 | 0.18 | [0.03 0.39] | [0.01 0.69] |
+| 5 | 0.33 | 0.21 | 0.2 | [0.07 0.52] | [0 0.77] |
+| 7.5 | 0.41 | 0.34 | 0.22 | [0.11 0.57] | [0.02 0.85] |
+| 10 | 0.43 | 0.34 | 0.22 | [0.11 0.57] | [0.01 0.9] |
 
 
 ## Azumth Dependence

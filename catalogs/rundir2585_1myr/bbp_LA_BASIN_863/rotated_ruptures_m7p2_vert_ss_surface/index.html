@@ -168,16 +168,16 @@ img {
 <p><em>WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 2 fewer data points.</em></p>
 <table>
 <thead>
-<tr><th>Period (s)</th><th>Full φ<sub>s</sub></th><th>Downsampled φ<sub>s</sub> 95% conf range</th></tr>
+<tr><th>Period (s)</th><th>Full φ<sub>s</sub></th><th>Downsampled median φ<sub>s</sub></th><th>Downsampled φ<sub>s</sub> std. dev.</th><th>Downsampled φ<sub>s</sub> 68% conf range</th><th>Downsampled φ<sub>s</sub> 95% conf range</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>0.31</td><td>[0.24 0.36]</td></tr>
-<tr><td>2</td><td>0.42</td><td>[0.35 0.5]</td></tr>
-<tr><td>3</td><td>0.43</td><td>[0.33 0.56]</td></tr>
-<tr><td>4</td><td>0.43</td><td>[0.31 0.55]</td></tr>
-<tr><td>5</td><td>0.45</td><td>[0.33 0.6]</td></tr>
-<tr><td>7.5</td><td>0.37</td><td>[0.25 0.46]</td></tr>
-<tr><td>10</td><td>0.31</td><td>[0.2 0.4]</td></tr>
+<tr><td>1</td><td>0.31</td><td>0.3</td><td>0.03</td><td>[0.27 0.34]</td><td>[0.24 0.38]</td></tr>
+<tr><td>2</td><td>0.42</td><td>0.42</td><td>0.04</td><td>[0.38 0.46]</td><td>[0.33 0.51]</td></tr>
+<tr><td>3</td><td>0.43</td><td>0.42</td><td>0.06</td><td>[0.38 0.47]</td><td>[0.32 0.58]</td></tr>
+<tr><td>4</td><td>0.43</td><td>0.41</td><td>0.05</td><td>[0.37 0.47]</td><td>[0.34 0.51]</td></tr>
+<tr><td>5</td><td>0.45</td><td>0.44</td><td>0.06</td><td>[0.38 0.5]</td><td>[0.3 0.55]</td></tr>
+<tr><td>7.5</td><td>0.37</td><td>0.34</td><td>0.06</td><td>[0.3 0.42]</td><td>[0.25 0.48]</td></tr>
+<tr><td>10</td><td>0.31</td><td>0.3</td><td>0.05</td><td>[0.25 0.36]</td><td>[0.21 0.41]</td></tr>
 </tbody>
 </table>
 <p>Here are plots of the histogram of φ<sub>s</sub> for each individual rupture, from which we compute a total φ<sub>s</sub></p>
@@ -215,16 +215,16 @@ img {
 <p>We compute uncertainties on φ<sub>s</sub> through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [7.0 7.4], and distance within the range [40.0 60.0] km. We throw out any events with only 1 recording, leaving us with 4 events and a total of 26 recordings. We then downsample our simulated data 100 times, and compute φ<sub>s</sub> from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.</p>
 <table>
 <thead>
-<tr><th>Period (s)</th><th>Full φ<sub>s</sub></th><th>Downsampled φ<sub>s</sub> 95% conf range</th></tr>
+<tr><th>Period (s)</th><th>Full φ<sub>s</sub></th><th>Downsampled median φ<sub>s</sub></th><th>Downsampled φ<sub>s</sub> std. dev.</th><th>Downsampled φ<sub>s</sub> 68% conf range</th><th>Downsampled φ<sub>s</sub> 95% conf range</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>0.36</td><td>[0.25 0.45]</td></tr>
-<tr><td>2</td><td>0.48</td><td>[0.36 0.58]</td></tr>
-<tr><td>3</td><td>0.52</td><td>[0.38 0.63]</td></tr>
-<tr><td>4</td><td>0.53</td><td>[0.36 0.67]</td></tr>
-<tr><td>5</td><td>0.55</td><td>[0.41 0.7]</td></tr>
-<tr><td>7.5</td><td>0.53</td><td>[0.38 0.67]</td></tr>
-<tr><td>10</td><td>0.55</td><td>[0.4 0.69]</td></tr>
+<tr><td>1</td><td>0.36</td><td>0.34</td><td>0.05</td><td>[0.3 0.39]</td><td>[0.24 0.45]</td></tr>
+<tr><td>2</td><td>0.48</td><td>0.46</td><td>0.06</td><td>[0.39 0.52]</td><td>[0.35 0.58]</td></tr>
+<tr><td>3</td><td>0.52</td><td>0.49</td><td>0.07</td><td>[0.42 0.57]</td><td>[0.37 0.64]</td></tr>
+<tr><td>4</td><td>0.53</td><td>0.5</td><td>0.07</td><td>[0.44 0.57]</td><td>[0.37 0.67]</td></tr>
+<tr><td>5</td><td>0.55</td><td>0.52</td><td>0.07</td><td>[0.45 0.59]</td><td>[0.36 0.66]</td></tr>
+<tr><td>7.5</td><td>0.53</td><td>0.5</td><td>0.07</td><td>[0.43 0.57]</td><td>[0.33 0.62]</td></tr>
+<tr><td>10</td><td>0.55</td><td>0.51</td><td>0.09</td><td>[0.45 0.63]</td><td>[0.28 0.7]</td></tr>
 </tbody>
 </table>
 <p>Here are plots of the histogram of φ<sub>s</sub> for each individual rupture, from which we compute a total φ<sub>s</sub></p>
@@ -263,16 +263,16 @@ img {
 <p><em>WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 20 fewer data points.</em></p>
 <table>
 <thead>
-<tr><th>Period (s)</th><th>Full φ<sub>s</sub></th><th>Downsampled φ<sub>s</sub> 95% conf range</th></tr>
+<tr><th>Period (s)</th><th>Full φ<sub>s</sub></th><th>Downsampled median φ<sub>s</sub></th><th>Downsampled φ<sub>s</sub> std. dev.</th><th>Downsampled φ<sub>s</sub> 68% conf range</th><th>Downsampled φ<sub>s</sub> 95% conf range</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>0.32</td><td>[0.25 0.4]</td></tr>
-<tr><td>2</td><td>0.4</td><td>[0.3 0.51]</td></tr>
-<tr><td>3</td><td>0.5</td><td>[0.4 0.61]</td></tr>
-<tr><td>4</td><td>0.57</td><td>[0.42 0.7]</td></tr>
-<tr><td>5</td><td>0.58</td><td>[0.46 0.73]</td></tr>
-<tr><td>7.5</td><td>0.58</td><td>[0.44 0.74]</td></tr>
-<tr><td>10</td><td>0.56</td><td>[0.43 0.76]</td></tr>
+<tr><td>1</td><td>0.32</td><td>0.32</td><td>0.03</td><td>[0.29 0.35]</td><td>[0.26 0.39]</td></tr>
+<tr><td>2</td><td>0.4</td><td>0.38</td><td>0.04</td><td>[0.35 0.42]</td><td>[0.32 0.47]</td></tr>
+<tr><td>3</td><td>0.5</td><td>0.49</td><td>0.05</td><td>[0.44 0.54]</td><td>[0.39 0.6]</td></tr>
+<tr><td>4</td><td>0.57</td><td>0.56</td><td>0.06</td><td>[0.51 0.63]</td><td>[0.42 0.69]</td></tr>
+<tr><td>5</td><td>0.58</td><td>0.56</td><td>0.06</td><td>[0.5 0.62]</td><td>[0.43 0.68]</td></tr>
+<tr><td>7.5</td><td>0.58</td><td>0.58</td><td>0.07</td><td>[0.5 0.65]</td><td>[0.43 0.71]</td></tr>
+<tr><td>10</td><td>0.56</td><td>0.55</td><td>0.06</td><td>[0.49 0.62]</td><td>[0.45 0.68]</td></tr>
 </tbody>
 </table>
 <p>Here are plots of the histogram of φ<sub>s</sub> for each individual rupture, from which we compute a total φ<sub>s</sub></p>
@@ -332,16 +332,16 @@ img {
 <p><em>WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 2 fewer data points.</em></p>
 <table>
 <thead>
-<tr><th>Period (s)</th><th>Full φ<sub>SS</sub></th><th>Downsampled φ<sub>SS</sub> 95% conf range</th></tr>
+<tr><th>Period (s)</th><th>Full φ<sub>SS</sub></th><th>Downsampled median φ<sub>SS</sub></th><th>Downsampled φ<sub>SS</sub> std. dev.</th><th>Downsampled φ<sub>SS</sub> 68% conf range</th><th>Downsampled φ<sub>SS</sub> 95% conf range</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>0.31</td><td>[0.24 0.36]</td></tr>
-<tr><td>2</td><td>0.42</td><td>[0.34 0.51]</td></tr>
-<tr><td>3</td><td>0.43</td><td>[0.32 0.54]</td></tr>
-<tr><td>4</td><td>0.43</td><td>[0.32 0.52]</td></tr>
-<tr><td>5</td><td>0.45</td><td>[0.31 0.58]</td></tr>
-<tr><td>7.5</td><td>0.37</td><td>[0.25 0.49]</td></tr>
-<tr><td>10</td><td>0.31</td><td>[0.22 0.43]</td></tr>
+<tr><td>1</td><td>0.31</td><td>0.31</td><td>0.03</td><td>[0.28 0.34]</td><td>[0.24 0.38]</td></tr>
+<tr><td>2</td><td>0.42</td><td>0.43</td><td>0.04</td><td>[0.38 0.46]</td><td>[0.33 0.5]</td></tr>
+<tr><td>3</td><td>0.43</td><td>0.43</td><td>0.05</td><td>[0.39 0.49]</td><td>[0.32 0.55]</td></tr>
+<tr><td>4</td><td>0.43</td><td>0.43</td><td>0.05</td><td>[0.38 0.48]</td><td>[0.33 0.54]</td></tr>
+<tr><td>5</td><td>0.45</td><td>0.44</td><td>0.06</td><td>[0.38 0.5]</td><td>[0.34 0.58]</td></tr>
+<tr><td>7.5</td><td>0.37</td><td>0.36</td><td>0.06</td><td>[0.29 0.43]</td><td>[0.25 0.48]</td></tr>
+<tr><td>10</td><td>0.31</td><td>0.29</td><td>0.05</td><td>[0.25 0.34]</td><td>[0.19 0.41]</td></tr>
 </tbody>
 </table>
 <p>Here are plots of the histogram of φ<sub>SS</sub> for each individual rupture, from which we compute a total φ<sub>SS</sub></p>
@@ -379,16 +379,16 @@ img {
 <p>We compute uncertainties on φ<sub>SS</sub> through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [7.0 7.4], and distance within the range [40.0 60.0] km. We throw out any events with only 1 recording, leaving us with 4 events and a total of 26 recordings. We then downsample our simulated data 100 times, and compute φ<sub>SS</sub> from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.</p>
 <table>
 <thead>
-<tr><th>Period (s)</th><th>Full φ<sub>SS</sub></th><th>Downsampled φ<sub>SS</sub> 95% conf range</th></tr>
+<tr><th>Period (s)</th><th>Full φ<sub>SS</sub></th><th>Downsampled median φ<sub>SS</sub></th><th>Downsampled φ<sub>SS</sub> std. dev.</th><th>Downsampled φ<sub>SS</sub> 68% conf range</th><th>Downsampled φ<sub>SS</sub> 95% conf range</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>0.36</td><td>[0.23 0.45]</td></tr>
-<tr><td>2</td><td>0.48</td><td>[0.34 0.59]</td></tr>
-<tr><td>3</td><td>0.52</td><td>[0.38 0.63]</td></tr>
-<tr><td>4</td><td>0.53</td><td>[0.35 0.65]</td></tr>
-<tr><td>5</td><td>0.55</td><td>[0.4 0.66]</td></tr>
-<tr><td>7.5</td><td>0.53</td><td>[0.37 0.67]</td></tr>
-<tr><td>10</td><td>0.55</td><td>[0.35 0.66]</td></tr>
+<tr><td>1</td><td>0.36</td><td>0.35</td><td>0.05</td><td>[0.29 0.39]</td><td>[0.25 0.45]</td></tr>
+<tr><td>2</td><td>0.48</td><td>0.46</td><td>0.06</td><td>[0.41 0.52]</td><td>[0.36 0.6]</td></tr>
+<tr><td>3</td><td>0.52</td><td>0.51</td><td>0.08</td><td>[0.43 0.61]</td><td>[0.38 0.68]</td></tr>
+<tr><td>4</td><td>0.53</td><td>0.52</td><td>0.08</td><td>[0.44 0.61]</td><td>[0.37 0.7]</td></tr>
+<tr><td>5</td><td>0.55</td><td>0.53</td><td>0.08</td><td>[0.45 0.61]</td><td>[0.41 0.71]</td></tr>
+<tr><td>7.5</td><td>0.53</td><td>0.5</td><td>0.07</td><td>[0.43 0.59]</td><td>[0.38 0.69]</td></tr>
+<tr><td>10</td><td>0.55</td><td>0.52</td><td>0.07</td><td>[0.44 0.61]</td><td>[0.39 0.67]</td></tr>
 </tbody>
 </table>
 <p>Here are plots of the histogram of φ<sub>SS</sub> for each individual rupture, from which we compute a total φ<sub>SS</sub></p>
@@ -427,16 +427,16 @@ img {
 <p><em>WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 20 fewer data points.</em></p>
 <table>
 <thead>
-<tr><th>Period (s)</th><th>Full φ<sub>SS</sub></th><th>Downsampled φ<sub>SS</sub> 95% conf range</th></tr>
+<tr><th>Period (s)</th><th>Full φ<sub>SS</sub></th><th>Downsampled median φ<sub>SS</sub></th><th>Downsampled φ<sub>SS</sub> std. dev.</th><th>Downsampled φ<sub>SS</sub> 68% conf range</th><th>Downsampled φ<sub>SS</sub> 95% conf range</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>0.32</td><td>[0.27 0.37]</td></tr>
-<tr><td>2</td><td>0.4</td><td>[0.3 0.51]</td></tr>
-<tr><td>3</td><td>0.5</td><td>[0.38 0.6]</td></tr>
-<tr><td>4</td><td>0.57</td><td>[0.41 0.67]</td></tr>
-<tr><td>5</td><td>0.58</td><td>[0.44 0.71]</td></tr>
-<tr><td>7.5</td><td>0.58</td><td>[0.47 0.69]</td></tr>
-<tr><td>10</td><td>0.56</td><td>[0.44 0.72]</td></tr>
+<tr><td>1</td><td>0.32</td><td>0.32</td><td>0.03</td><td>[0.29 0.35]</td><td>[0.27 0.38]</td></tr>
+<tr><td>2</td><td>0.4</td><td>0.39</td><td>0.04</td><td>[0.36 0.43]</td><td>[0.32 0.49]</td></tr>
+<tr><td>3</td><td>0.5</td><td>0.5</td><td>0.05</td><td>[0.45 0.55]</td><td>[0.39 0.59]</td></tr>
+<tr><td>4</td><td>0.57</td><td>0.56</td><td>0.06</td><td>[0.48 0.62]</td><td>[0.44 0.68]</td></tr>
+<tr><td>5</td><td>0.58</td><td>0.57</td><td>0.06</td><td>[0.52 0.64]</td><td>[0.45 0.7]</td></tr>
+<tr><td>7.5</td><td>0.58</td><td>0.56</td><td>0.07</td><td>[0.5 0.65]</td><td>[0.47 0.73]</td></tr>
+<tr><td>10</td><td>0.56</td><td>0.55</td><td>0.06</td><td>[0.49 0.61]</td><td>[0.44 0.71]</td></tr>
 </tbody>
 </table>
 <p>Here are plots of the histogram of φ<sub>SS</sub> for each individual rupture, from which we compute a total φ<sub>SS</sub></p>
@@ -496,16 +496,16 @@ img {
 <p><em>WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 2 fewer data points.</em></p>
 <table>
 <thead>
-<tr><th>Period (s)</th><th>Full τ</th><th>Downsampled τ 95% conf range</th></tr>
+<tr><th>Period (s)</th><th>Full τ</th><th>Downsampled median τ</th><th>Downsampled τ std. dev.</th><th>Downsampled τ 68% conf range</th><th>Downsampled τ 95% conf range</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>0.13</td><td>[0.04 0.3]</td></tr>
-<tr><td>2</td><td>0.18</td><td>[0.04 0.44]</td></tr>
-<tr><td>3</td><td>0.18</td><td>[0.03 0.43]</td></tr>
-<tr><td>4</td><td>0.18</td><td>[0.05 0.39]</td></tr>
-<tr><td>5</td><td>0.2</td><td>[0.05 0.43]</td></tr>
-<tr><td>7.5</td><td>0.21</td><td>[0.05 0.39]</td></tr>
-<tr><td>10</td><td>0.24</td><td>[0.06 0.47]</td></tr>
+<tr><td>1</td><td>0.13</td><td>0.14</td><td>0.06</td><td>[0.09 0.21]</td><td>[0.03 0.28]</td></tr>
+<tr><td>2</td><td>0.18</td><td>0.2</td><td>0.1</td><td>[0.09 0.31]</td><td>[0.04 0.39]</td></tr>
+<tr><td>3</td><td>0.18</td><td>0.21</td><td>0.1</td><td>[0.12 0.31]</td><td>[0.03 0.49]</td></tr>
+<tr><td>4</td><td>0.18</td><td>0.2</td><td>0.09</td><td>[0.12 0.29]</td><td>[0.07 0.42]</td></tr>
+<tr><td>5</td><td>0.2</td><td>0.21</td><td>0.09</td><td>[0.13 0.3]</td><td>[0.07 0.43]</td></tr>
+<tr><td>7.5</td><td>0.21</td><td>0.21</td><td>0.1</td><td>[0.13 0.31]</td><td>[0.08 0.47]</td></tr>
+<tr><td>10</td><td>0.24</td><td>0.24</td><td>0.1</td><td>[0.14 0.34]</td><td>[0.07 0.49]</td></tr>
 </tbody>
 </table>
 <h3 id="500-km-m72-between-events-results">50.0 km M7.2 Between-events Results</h3>
@@ -522,16 +522,16 @@ img {
 <p>We compute uncertainties on τ through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [7.0 7.4], and distance within the range [40.0 60.0] km. We throw out any events with only 1 recording, leaving us with 4 events and a total of 26 recordings. We then downsample our simulated data 100 times, and compute τ from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.</p>
 <table>
 <thead>
-<tr><th>Period (s)</th><th>Full τ</th><th>Downsampled τ 95% conf range</th></tr>
+<tr><th>Period (s)</th><th>Full τ</th><th>Downsampled median τ</th><th>Downsampled τ std. dev.</th><th>Downsampled τ 68% conf range</th><th>Downsampled τ 95% conf range</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>0.12</td><td>[0.05 0.39]</td></tr>
-<tr><td>2</td><td>0.17</td><td>[0.06 0.47]</td></tr>
-<tr><td>3</td><td>0.17</td><td>[0.09 0.57]</td></tr>
-<tr><td>4</td><td>0.18</td><td>[0.06 0.66]</td></tr>
-<tr><td>5</td><td>0.21</td><td>[0.09 0.65]</td></tr>
-<tr><td>7.5</td><td>0.23</td><td>[0.08 0.7]</td></tr>
-<tr><td>10</td><td>0.26</td><td>[0.09 0.67]</td></tr>
+<tr><td>1</td><td>0.12</td><td>0.17</td><td>0.08</td><td>[0.1 0.25]</td><td>[0.07 0.39]</td></tr>
+<tr><td>2</td><td>0.17</td><td>0.23</td><td>0.11</td><td>[0.16 0.35]</td><td>[0.06 0.56]</td></tr>
+<tr><td>3</td><td>0.17</td><td>0.22</td><td>0.12</td><td>[0.13 0.36]</td><td>[0.08 0.55]</td></tr>
+<tr><td>4</td><td>0.18</td><td>0.27</td><td>0.12</td><td>[0.16 0.37]</td><td>[0.06 0.61]</td></tr>
+<tr><td>5</td><td>0.21</td><td>0.26</td><td>0.15</td><td>[0.16 0.44]</td><td>[0.08 0.71]</td></tr>
+<tr><td>7.5</td><td>0.23</td><td>0.29</td><td>0.15</td><td>[0.16 0.45]</td><td>[0.07 0.67]</td></tr>
+<tr><td>10</td><td>0.26</td><td>0.31</td><td>0.15</td><td>[0.17 0.47]</td><td>[0.06 0.65]</td></tr>
 </tbody>
 </table>
 <h3 id="1000-km-m72-between-events-results">100.0 km M7.2 Between-events Results</h3>
@@ -549,16 +549,16 @@ img {
 <p><em>WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 20 fewer data points.</em></p>
 <table>
 <thead>
-<tr><th>Period (s)</th><th>Full τ</th><th>Downsampled τ 95% conf range</th></tr>
+<tr><th>Period (s)</th><th>Full τ</th><th>Downsampled median τ</th><th>Downsampled τ std. dev.</th><th>Downsampled τ 68% conf range</th><th>Downsampled τ 95% conf range</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>0.1</td><td>[0.02 0.28]</td></tr>
-<tr><td>2</td><td>0.14</td><td>[0.02 0.36]</td></tr>
-<tr><td>3</td><td>0.15</td><td>[0.04 0.46]</td></tr>
-<tr><td>4</td><td>0.2</td><td>[0.03 0.51]</td></tr>
-<tr><td>5</td><td>0.22</td><td>[0.02 0.46]</td></tr>
-<tr><td>7.5</td><td>0.24</td><td>[0.05 0.55]</td></tr>
-<tr><td>10</td><td>0.26</td><td>[0.08 0.55]</td></tr>
+<tr><td>1</td><td>0.1</td><td>0.1</td><td>0.05</td><td>[0.06 0.17]</td><td>[0.03 0.24]</td></tr>
+<tr><td>2</td><td>0.14</td><td>0.14</td><td>0.08</td><td>[0.05 0.23]</td><td>[0.02 0.37]</td></tr>
+<tr><td>3</td><td>0.15</td><td>0.15</td><td>0.1</td><td>[0.07 0.25]</td><td>[0.03 0.4]</td></tr>
+<tr><td>4</td><td>0.2</td><td>0.19</td><td>0.14</td><td>[0.11 0.34]</td><td>[0.05 0.56]</td></tr>
+<tr><td>5</td><td>0.22</td><td>0.2</td><td>0.14</td><td>[0.11 0.35]</td><td>[0.04 0.6]</td></tr>
+<tr><td>7.5</td><td>0.24</td><td>0.19</td><td>0.14</td><td>[0.08 0.36]</td><td>[0.03 0.57]</td></tr>
+<tr><td>10</td><td>0.26</td><td>0.24</td><td>0.15</td><td>[0.12 0.4]</td><td>[0.03 0.63]</td></tr>
 </tbody>
 </table>
 <h2 id="azumth-dependence">Azumth Dependence</h2>

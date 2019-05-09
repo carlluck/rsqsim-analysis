@@ -123,15 +123,15 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 
 We compute uncertainties on &phi;<sub>s</sub> through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [7.0 7.4], and distance within the range [10.0 30.0] km. We throw out any events with only 1 recording, leaving us with 2 events and a total of 9 recordings. We then downsample our simulated data 100 times, and compute &phi;<sub>s</sub> from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.
 
-| Period (s) | Full &phi;<sub>s</sub> | Downsampled &phi;<sub>s</sub> 95% conf range |
-|-----|-----|-----|
-| 1 | 0.32 | [0.17 0.45] |
-| 2 | 0.35 | [0.18 0.46] |
-| 3 | 0.38 | [0.19 0.54] |
-| 4 | 0.34 | [0.15 0.52] |
-| 5 | 0.35 | [0.18 0.54] |
-| 7.5 | 0.34 | [0.15 0.54] |
-| 10 | 0.31 | [0.14 0.45] |
+| Period (s) | Full &phi;<sub>s</sub> | Downsampled median &phi;<sub>s</sub> | Downsampled &phi;<sub>s</sub> std. dev. | Downsampled &phi;<sub>s</sub> 68% conf range | Downsampled &phi;<sub>s</sub> 95% conf range |
+|-----|-----|-----|-----|-----|-----|
+| 1 | 0.32 | 0.31 | 0.08 | [0.22 0.39] | [0.16 0.49] |
+| 2 | 0.35 | 0.33 | 0.08 | [0.23 0.4] | [0.17 0.49] |
+| 3 | 0.38 | 0.34 | 0.08 | [0.28 0.44] | [0.18 0.56] |
+| 4 | 0.34 | 0.32 | 0.08 | [0.25 0.4] | [0.17 0.49] |
+| 5 | 0.35 | 0.32 | 0.09 | [0.23 0.43] | [0.15 0.52] |
+| 7.5 | 0.34 | 0.3 | 0.1 | [0.23 0.42] | [0.12 0.51] |
+| 10 | 0.31 | 0.29 | 0.09 | [0.19 0.37] | [0.13 0.49] |
 
 Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture, from which we compute a total &phi;<sub>s</sub>
 
@@ -237,15 +237,15 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 
 We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [7.0 7.4], and distance within the range [10.0 30.0] km. We throw out any events with only 1 recording, leaving us with 2 events and a total of 9 recordings. We then downsample our simulated data 100 times, and compute &phi;<sub>SS</sub> from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.
 
-| Period (s) | Full &phi;<sub>SS</sub> | Downsampled &phi;<sub>SS</sub> 95% conf range |
-|-----|-----|-----|
-| 1 | 0.32 | [0.18 0.48] |
-| 2 | 0.35 | [0.16 0.51] |
-| 3 | 0.38 | [0.18 0.57] |
-| 4 | 0.34 | [0.14 0.52] |
-| 5 | 0.35 | [0.16 0.54] |
-| 7.5 | 0.34 | [0.17 0.52] |
-| 10 | 0.31 | [0.15 0.43] |
+| Period (s) | Full &phi;<sub>SS</sub> | Downsampled median &phi;<sub>SS</sub> | Downsampled &phi;<sub>SS</sub> std. dev. | Downsampled &phi;<sub>SS</sub> 68% conf range | Downsampled &phi;<sub>SS</sub> 95% conf range |
+|-----|-----|-----|-----|-----|-----|
+| 1 | 0.32 | 0.27 | 0.07 | [0.22 0.36] | [0.16 0.48] |
+| 2 | 0.35 | 0.3 | 0.09 | [0.22 0.38] | [0.17 0.57] |
+| 3 | 0.38 | 0.34 | 0.08 | [0.27 0.43] | [0.19 0.52] |
+| 4 | 0.34 | 0.32 | 0.1 | [0.21 0.44] | [0.15 0.5] |
+| 5 | 0.35 | 0.31 | 0.1 | [0.23 0.41] | [0.14 0.56] |
+| 7.5 | 0.34 | 0.31 | 0.09 | [0.22 0.41] | [0.13 0.51] |
+| 10 | 0.31 | 0.29 | 0.1 | [0.17 0.39] | [0.09 0.47] |
 
 Here are plots of the histogram of &phi;<sub>SS</sub> for each individual rupture, from which we compute a total &phi;<sub>SS</sub>
 
@@ -351,15 +351,15 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 
 We compute uncertainties on &tau; through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [7.0 7.4], and distance within the range [10.0 30.0] km. We throw out any events with only 1 recording, leaving us with 2 events and a total of 9 recordings. We then downsample our simulated data 100 times, and compute &tau; from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.
 
-| Period (s) | Full &tau; | Downsampled &tau; 95% conf range |
-|-----|-----|-----|
-| 1 | 0.17 | [0 0.53] |
-| 2 | 0.19 | [0.01 0.64] |
-| 3 | 0.18 | [0.01 0.71] |
-| 4 | 0.18 | [0 0.65] |
-| 5 | 0.19 | [0.01 0.64] |
-| 7.5 | 0.21 | [0.01 0.72] |
-| 10 | 0.24 | [0 0.76] |
+| Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
+|-----|-----|-----|-----|-----|-----|
+| 1 | 0.17 | 0.14 | 0.13 | [0.04 0.28] | [0.01 0.51] |
+| 2 | 0.19 | 0.17 | 0.15 | [0.06 0.36] | [0.01 0.58] |
+| 3 | 0.18 | 0.18 | 0.16 | [0.05 0.39] | [0.01 0.61] |
+| 4 | 0.18 | 0.13 | 0.15 | [0.03 0.31] | [0 0.63] |
+| 5 | 0.19 | 0.17 | 0.15 | [0.04 0.37] | [0 0.61] |
+| 7.5 | 0.21 | 0.2 | 0.17 | [0.05 0.39] | [0 0.67] |
+| 10 | 0.24 | 0.19 | 0.16 | [0.07 0.4] | [0.01 0.65] |
 
 
 ### 50.0 km M7.2 Between-events Results
