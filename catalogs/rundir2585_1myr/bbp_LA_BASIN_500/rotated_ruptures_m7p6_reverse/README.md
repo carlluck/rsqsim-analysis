@@ -19,16 +19,19 @@ We then  perform various rotations. We rotate the rupture in place around its ce
   * [20.0 km M7.6 Source-strike Results](#200-km-m76-source-strike-results)
   * [50.0 km M7.6 Source-strike Results](#500-km-m76-source-strike-results)
   * [100.0 km M7.6 Source-strike Results](#1000-km-m76-source-strike-results)
+  * [All Distances M7.6 Source-strike Results](#all-distances-m76-source-strike-results)
 * [Within-event, single-site Variability](#within-event-single-site-variability)
   * [Within-event, single-site Variability Methodology](#within-event-single-site-variability-methodology)
   * [20.0 km M7.6 Within-event, single-site Results](#200-km-m76-within-event-single-site-results)
   * [50.0 km M7.6 Within-event, single-site Results](#500-km-m76-within-event-single-site-results)
   * [100.0 km M7.6 Within-event, single-site Results](#1000-km-m76-within-event-single-site-results)
+  * [All Distances M7.6 Within-event, single-site Results](#all-distances-m76-within-event-single-site-results)
 * [Between-events Variability](#between-events-variability)
   * [Between-events Variability Methodology](#between-events-variability-methodology)
   * [20.0 km M7.6 Between-events Results](#200-km-m76-between-events-results)
   * [50.0 km M7.6 Between-events Results](#500-km-m76-between-events-results)
   * [100.0 km M7.6 Between-events Results](#1000-km-m76-between-events-results)
+  * [All Distances M7.6 Between-events Results](#all-distances-m76-between-events-results)
 * [Azumth Dependence](#azumth-dependence)
   * [Rupture Strike Dependence](#rupture-strike-dependence)
 * [BBP PartB Comparison](#bbp-partb-comparison)
@@ -64,17 +67,20 @@ We condisder 165 events in the catalog which match the following criteria:
 
 ## Result Summary Table
 
-| Type | Notation | Distance | 3s Std. Dev. | 5s Std. Dev. | 7.5s Std. Dev. | 10s Std. Dev. |
-|-----|-----|-----|-----|-----|-----|-----|
-| Source-strike | &phi;<sub>s</sub> | 20 km | 0.4 | 0.35 | 0.37 | 0.33 |
-| Source-strike | &phi;<sub>s</sub> | 50 km | 0.37 | 0.35 | 0.33 | 0.3 |
-| Source-strike | &phi;<sub>s</sub> | 100 km | 0.32 | 0.35 | 0.32 | 0.34 |
-| Within-event, single-site | &phi;<sub>SS</sub> | 20 km | 0.4 | 0.35 | 0.37 | 0.33 |
-| Within-event, single-site | &phi;<sub>SS</sub> | 50 km | 0.37 | 0.35 | 0.33 | 0.3 |
-| Within-event, single-site | &phi;<sub>SS</sub> | 100 km | 0.32 | 0.35 | 0.32 | 0.34 |
-| Between-events | &tau; | 20 km | 0.14 | 0.13 | 0.16 | 0.17 |
-| Between-events | &tau; | 50 km | 0.12 | 0.14 | 0.16 | 0.16 |
-| Between-events | &tau; | 100 km | 0.12 | 0.14 | 0.15 | 0.19 |
+| Type | Notation | Distance | T-independent Std. Dev. | 3s Std. Dev. | 5s Std. Dev. | 7.5s Std. Dev. | 10s Std. Dev. |
+|-----|-----|-----|-----|-----|-----|-----|-----|
+| Source-strike | &phi;<sub>s</sub> | 20 km | 0.37 | 0.4 | 0.35 | 0.37 | 0.33 |
+| Source-strike | &phi;<sub>s</sub> | 50 km | 0.35 | 0.37 | 0.35 | 0.33 | 0.3 |
+| Source-strike | &phi;<sub>s</sub> | 100 km | 0.32 | 0.32 | 0.35 | 0.32 | 0.34 |
+| Source-strike | &phi;<sub>s</sub> | (all) | 0.35 | 0.37 | 0.35 | 0.34 | 0.32 |
+| Within-event, single-site | &phi;<sub>SS</sub> | 20 km | 0.37 | 0.4 | 0.35 | 0.37 | 0.33 |
+| Within-event, single-site | &phi;<sub>SS</sub> | 50 km | 0.35 | 0.37 | 0.35 | 0.33 | 0.3 |
+| Within-event, single-site | &phi;<sub>SS</sub> | 100 km | 0.32 | 0.32 | 0.35 | 0.32 | 0.34 |
+| Within-event, single-site | &phi;<sub>SS</sub> | (all) | 0.35 | 0.37 | 0.35 | 0.34 | 0.32 |
+| Between-events | &tau; | 20 km | 0.13 | 0.14 | 0.13 | 0.16 | 0.17 |
+| Between-events | &tau; | 50 km | 0.14 | 0.12 | 0.14 | 0.16 | 0.16 |
+| Between-events | &tau; | 100 km | 0.13 | 0.12 | 0.14 | 0.15 | 0.19 |
+| Between-events | &tau; | (all) | 0.13 | 0.12 | 0.14 | 0.16 | 0.17 |
 
 ### Dist-Dependent Plot Table
 *[(top)](#table-of-contents)*
@@ -187,6 +193,24 @@ Here are plots of the &phi;<sub>s</sub> as a function of various parameters for 
 | ![Scatter](resources/source_strike_scatter__v_prop_3s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_residual.png) |
 
 
+### All Distances M7.6 Source-strike Results
+*[(top)](#table-of-contents)*
+
+![Source-strike Variability](resources/source_strike_m7.6_std_dev.png)
+
+| 3s &phi;<sub>s</sub> | Total | Mean | Median | Range | 5s &phi;<sub>s</sub> | Total | Mean | Median | Range | 7.5s &phi;<sub>s</sub> | Total | Mean | Median | Range | 10s &phi;<sub>s</sub> | Total | Mean | Median | Range |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|  | 0.37 | 0.37 | 0.37 | [0.19 0.56] |  | 0.35 | 0.35 | 0.35 | [0.18 0.55] |  | 0.34 | 0.34 | 0.33 | [0.15 0.63] |  | 0.32 | 0.32 | 0.31 | [0.13 0.61] |
+
+Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture, from which we compute a total &phi;<sub>s</sub>
+
+| 3s | 5s |
+|-----|-----|
+| ![3s](resources/source_strike_m7.6_3s_hist.png) | ![5s](resources/source_strike_m7.6_5s_hist.png) |
+| 7.5s | 10s |
+| ![7.5s](resources/source_strike_m7.6_7.5s_hist.png) | ![10s](resources/source_strike_m7.6_10s_hist.png) |
+
+
 ## Within-event, single-site Variability
 *[(top)](#table-of-contents)*
 
@@ -289,6 +313,24 @@ Here are plots of the &phi;<sub>SS</sub> as a function of various parameters for
 | ![Scatter](resources/within_event_ss_scatter__v_prop_3s_residual.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_5s_residual.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_10s_residual.png) |
 
 
+### All Distances M7.6 Within-event, single-site Results
+*[(top)](#table-of-contents)*
+
+![Within-event, single-site Variability](resources/within_event_ss_m7.6_std_dev.png)
+
+| 3s &phi;<sub>SS</sub> | Total | Mean | Median | Range | 5s &phi;<sub>SS</sub> | Total | Mean | Median | Range | 7.5s &phi;<sub>SS</sub> | Total | Mean | Median | Range | 10s &phi;<sub>SS</sub> | Total | Mean | Median | Range |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|  | 0.37 | 0.37 | 0.37 | [0.19 0.56] |  | 0.35 | 0.35 | 0.35 | [0.18 0.55] |  | 0.34 | 0.34 | 0.33 | [0.15 0.63] |  | 0.32 | 0.32 | 0.31 | [0.13 0.61] |
+
+Here are plots of the histogram of &phi;<sub>SS</sub> for each individual rupture, from which we compute a total &phi;<sub>SS</sub>
+
+| 3s | 5s |
+|-----|-----|
+| ![3s](resources/within_event_ss_m7.6_3s_hist.png) | ![5s](resources/within_event_ss_m7.6_5s_hist.png) |
+| 7.5s | 10s |
+| ![7.5s](resources/within_event_ss_m7.6_7.5s_hist.png) | ![10s](resources/within_event_ss_m7.6_10s_hist.png) |
+
+
 ## Between-events Variability
 *[(top)](#table-of-contents)*
 
@@ -344,6 +386,16 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 | 3s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 5s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 7.5s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 10s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 | 0.12 | -3.66 | [-4.02 -3.29] | 0.14 | -4.53 | [-4.95 -4.22] | 0.15 | -5.14 | [-5.49 -4.8] | 0.19 | -5.56 | [-6.13 -5.04] |
+
+
+### All Distances M7.6 Between-events Results
+*[(top)](#table-of-contents)*
+
+![Between-events Variability](resources/between_events_m7.6_std_dev.png)
+
+| 3s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 5s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 7.5s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 10s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| 0.12 | -3.14 | [-4.02 -2.18] | 0.14 | -3.98 | [-4.95 -3.05] | 0.16 | -4.63 | [-5.49 -3.71] | 0.17 | -5.15 | [-6.13 -4.1] |
 
 
 ## Azumth Dependence

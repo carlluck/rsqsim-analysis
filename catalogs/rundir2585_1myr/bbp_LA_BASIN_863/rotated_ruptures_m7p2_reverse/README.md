@@ -19,16 +19,19 @@ We then  perform various rotations. We rotate the rupture in place around its ce
   * [20.0 km M7.2 Source-strike Results](#200-km-m72-source-strike-results)
   * [50.0 km M7.2 Source-strike Results](#500-km-m72-source-strike-results)
   * [100.0 km M7.2 Source-strike Results](#1000-km-m72-source-strike-results)
+  * [All Distances M7.2 Source-strike Results](#all-distances-m72-source-strike-results)
 * [Within-event, single-site Variability](#within-event-single-site-variability)
   * [Within-event, single-site Variability Methodology](#within-event-single-site-variability-methodology)
   * [20.0 km M7.2 Within-event, single-site Results](#200-km-m72-within-event-single-site-results)
   * [50.0 km M7.2 Within-event, single-site Results](#500-km-m72-within-event-single-site-results)
   * [100.0 km M7.2 Within-event, single-site Results](#1000-km-m72-within-event-single-site-results)
+  * [All Distances M7.2 Within-event, single-site Results](#all-distances-m72-within-event-single-site-results)
 * [Between-events Variability](#between-events-variability)
   * [Between-events Variability Methodology](#between-events-variability-methodology)
   * [20.0 km M7.2 Between-events Results](#200-km-m72-between-events-results)
   * [50.0 km M7.2 Between-events Results](#500-km-m72-between-events-results)
   * [100.0 km M7.2 Between-events Results](#1000-km-m72-between-events-results)
+  * [All Distances M7.2 Between-events Results](#all-distances-m72-between-events-results)
 * [Azumth Dependence](#azumth-dependence)
   * [Rupture Strike Dependence](#rupture-strike-dependence)
 * [BBP PartB Comparison](#bbp-partb-comparison)
@@ -64,17 +67,20 @@ We condisder 158 events in the catalog which match the following criteria:
 
 ## Result Summary Table
 
-| Type | Notation | Distance | 3s Std. Dev. | 5s Std. Dev. | 7.5s Std. Dev. | 10s Std. Dev. |
-|-----|-----|-----|-----|-----|-----|-----|
-| Source-strike | &phi;<sub>s</sub> | 20 km | 0.38 | 0.35 | 0.34 | 0.31 |
-| Source-strike | &phi;<sub>s</sub> | 50 km | 0.36 | 0.37 | 0.34 | 0.33 |
-| Source-strike | &phi;<sub>s</sub> | 100 km | 0.34 | 0.38 | 0.35 | 0.36 |
-| Within-event, single-site | &phi;<sub>SS</sub> | 20 km | 0.38 | 0.35 | 0.34 | 0.31 |
-| Within-event, single-site | &phi;<sub>SS</sub> | 50 km | 0.36 | 0.37 | 0.34 | 0.33 |
-| Within-event, single-site | &phi;<sub>SS</sub> | 100 km | 0.34 | 0.38 | 0.35 | 0.36 |
-| Between-events | &tau; | 20 km | 0.18 | 0.19 | 0.21 | 0.24 |
-| Between-events | &tau; | 50 km | 0.21 | 0.22 | 0.21 | 0.25 |
-| Between-events | &tau; | 100 km | 0.17 | 0.23 | 0.21 | 0.27 |
+| Type | Notation | Distance | T-independent Std. Dev. | 3s Std. Dev. | 5s Std. Dev. | 7.5s Std. Dev. | 10s Std. Dev. |
+|-----|-----|-----|-----|-----|-----|-----|-----|
+| Source-strike | &phi;<sub>s</sub> | 20 km | 0.34 | 0.38 | 0.35 | 0.34 | 0.31 |
+| Source-strike | &phi;<sub>s</sub> | 50 km | 0.35 | 0.36 | 0.37 | 0.34 | 0.33 |
+| Source-strike | &phi;<sub>s</sub> | 100 km | 0.35 | 0.34 | 0.38 | 0.35 | 0.36 |
+| Source-strike | &phi;<sub>s</sub> | (all) | 0.35 | 0.36 | 0.37 | 0.35 | 0.34 |
+| Within-event, single-site | &phi;<sub>SS</sub> | 20 km | 0.34 | 0.38 | 0.35 | 0.34 | 0.31 |
+| Within-event, single-site | &phi;<sub>SS</sub> | 50 km | 0.35 | 0.36 | 0.37 | 0.34 | 0.33 |
+| Within-event, single-site | &phi;<sub>SS</sub> | 100 km | 0.35 | 0.34 | 0.38 | 0.35 | 0.36 |
+| Within-event, single-site | &phi;<sub>SS</sub> | (all) | 0.35 | 0.36 | 0.37 | 0.35 | 0.34 |
+| Between-events | &tau; | 20 km | 0.19 | 0.18 | 0.19 | 0.21 | 0.24 |
+| Between-events | &tau; | 50 km | 0.21 | 0.21 | 0.22 | 0.21 | 0.25 |
+| Between-events | &tau; | 100 km | 0.21 | 0.17 | 0.23 | 0.21 | 0.27 |
+| Between-events | &tau; | (all) | 0.21 | 0.18 | 0.22 | 0.21 | 0.25 |
 
 ### Dist-Dependent Plot Table
 *[(top)](#table-of-contents)*
@@ -125,6 +131,7 @@ We compute uncertainties on &phi;<sub>s</sub> through downsampling the rotationa
 
 | Period (s) | Full &phi;<sub>s</sub> | Downsampled median &phi;<sub>s</sub> | Downsampled &phi;<sub>s</sub> std. dev. | Downsampled &phi;<sub>s</sub> 68% conf range | Downsampled &phi;<sub>s</sub> 95% conf range |
 |-----|-----|-----|-----|-----|-----|
+| T-independent | 0.34 | 0.31 | 0.06 | [0.25 0.37] | [0.2 0.44] |
 | 1 | 0.32 | 0.29 | 0.08 | [0.22 0.39] | [0.18 0.46] |
 | 2 | 0.35 | 0.31 | 0.09 | [0.22 0.42] | [0.18 0.5] |
 | 3 | 0.38 | 0.35 | 0.1 | [0.25 0.46] | [0.18 0.55] |
@@ -199,6 +206,37 @@ Here are plots of the &phi;<sub>s</sub> as a function of various parameters for 
 | ![Scatter](resources/source_strike_scatter__v_prop_3s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_residual.png) |
 
 
+### All Distances M7.2 Source-strike Results
+*[(top)](#table-of-contents)*
+
+![Source-strike Variability](resources/source_strike_m7.2_std_dev.png)
+
+| 3s &phi;<sub>s</sub> | Total | Mean | Median | Range | 5s &phi;<sub>s</sub> | Total | Mean | Median | Range | 7.5s &phi;<sub>s</sub> | Total | Mean | Median | Range | 10s &phi;<sub>s</sub> | Total | Mean | Median | Range |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|  | 0.36 | 0.36 | 0.36 | [0.21 0.61] |  | 0.37 | 0.36 | 0.36 | [0.17 0.63] |  | 0.35 | 0.34 | 0.35 | [0.17 0.58] |  | 0.34 | 0.33 | 0.32 | [0.14 0.61] |
+
+We compute uncertainties on &phi;<sub>s</sub> through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [7.0 7.4], and all distances. We throw out any events with only 1 recording, leaving us with 3 events and a total of 24 recordings. We then downsample our simulated data 100 times, and compute &phi;<sub>s</sub> from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.
+
+| Period (s) | Full &phi;<sub>s</sub> | Downsampled median &phi;<sub>s</sub> | Downsampled &phi;<sub>s</sub> std. dev. | Downsampled &phi;<sub>s</sub> 68% conf range | Downsampled &phi;<sub>s</sub> 95% conf range |
+|-----|-----|-----|-----|-----|-----|
+| T-independent | 0.35 | 0.28 | 0.03 | [0.25 0.31] | [0.22 0.36] |
+| 1 | 0.32 | 0.25 | 0.05 | [0.21 0.3] | [0.18 0.36] |
+| 2 | 0.32 | 0.26 | 0.05 | [0.21 0.31] | [0.17 0.36] |
+| 3 | 0.36 | 0.31 | 0.05 | [0.25 0.36] | [0.23 0.42] |
+| 4 | 0.37 | 0.31 | 0.05 | [0.26 0.37] | [0.23 0.44] |
+| 5 | 0.37 | 0.29 | 0.05 | [0.24 0.34] | [0.19 0.41] |
+| 7.5 | 0.35 | 0.28 | 0.05 | [0.22 0.33] | [0.18 0.38] |
+| 10 | 0.34 | 0.27 | 0.05 | [0.22 0.33] | [0.16 0.38] |
+
+Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture, from which we compute a total &phi;<sub>s</sub>
+
+| 3s | 5s |
+|-----|-----|
+| ![3s](resources/source_strike_m7.2_3s_hist.png) | ![5s](resources/source_strike_m7.2_5s_hist.png) |
+| 7.5s | 10s |
+| ![7.5s](resources/source_strike_m7.2_7.5s_hist.png) | ![10s](resources/source_strike_m7.2_10s_hist.png) |
+
+
 ## Within-event, single-site Variability
 *[(top)](#table-of-contents)*
 
@@ -239,13 +277,14 @@ We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotation
 
 | Period (s) | Full &phi;<sub>SS</sub> | Downsampled median &phi;<sub>SS</sub> | Downsampled &phi;<sub>SS</sub> std. dev. | Downsampled &phi;<sub>SS</sub> 68% conf range | Downsampled &phi;<sub>SS</sub> 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| 1 | 0.32 | 0.3 | 0.08 | [0.21 0.37] | [0.13 0.48] |
-| 2 | 0.35 | 0.31 | 0.09 | [0.22 0.41] | [0.12 0.5] |
-| 3 | 0.38 | 0.34 | 0.08 | [0.28 0.44] | [0.19 0.54] |
-| 4 | 0.34 | 0.32 | 0.1 | [0.22 0.41] | [0.13 0.54] |
-| 5 | 0.35 | 0.33 | 0.1 | [0.24 0.44] | [0.17 0.55] |
-| 7.5 | 0.34 | 0.3 | 0.1 | [0.22 0.41] | [0.11 0.52] |
-| 10 | 0.31 | 0.28 | 0.09 | [0.18 0.36] | [0.09 0.45] |
+| T-independent | 0.34 | 0.32 | 0.06 | [0.25 0.38] | [0.2 0.43] |
+| 1 | 0.32 | 0.28 | 0.07 | [0.22 0.38] | [0.16 0.44] |
+| 2 | 0.35 | 0.32 | 0.09 | [0.22 0.4] | [0.13 0.49] |
+| 3 | 0.38 | 0.34 | 0.1 | [0.25 0.46] | [0.17 0.58] |
+| 4 | 0.34 | 0.32 | 0.09 | [0.23 0.4] | [0.14 0.5] |
+| 5 | 0.35 | 0.31 | 0.1 | [0.22 0.43] | [0.15 0.51] |
+| 7.5 | 0.34 | 0.31 | 0.09 | [0.22 0.41] | [0.14 0.5] |
+| 10 | 0.31 | 0.28 | 0.09 | [0.21 0.39] | [0.13 0.51] |
 
 Here are plots of the histogram of &phi;<sub>SS</sub> for each individual rupture, from which we compute a total &phi;<sub>SS</sub>
 
@@ -313,6 +352,37 @@ Here are plots of the &phi;<sub>SS</sub> as a function of various parameters for
 | ![Scatter](resources/within_event_ss_scatter__v_prop_3s_residual.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_5s_residual.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_10s_residual.png) |
 
 
+### All Distances M7.2 Within-event, single-site Results
+*[(top)](#table-of-contents)*
+
+![Within-event, single-site Variability](resources/within_event_ss_m7.2_std_dev.png)
+
+| 3s &phi;<sub>SS</sub> | Total | Mean | Median | Range | 5s &phi;<sub>SS</sub> | Total | Mean | Median | Range | 7.5s &phi;<sub>SS</sub> | Total | Mean | Median | Range | 10s &phi;<sub>SS</sub> | Total | Mean | Median | Range |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|  | 0.36 | 0.36 | 0.36 | [0.21 0.61] |  | 0.37 | 0.36 | 0.36 | [0.17 0.63] |  | 0.35 | 0.34 | 0.35 | [0.17 0.58] |  | 0.34 | 0.33 | 0.32 | [0.14 0.61] |
+
+We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [7.0 7.4], and all distances. We throw out any events with only 1 recording, leaving us with 3 events and a total of 24 recordings. We then downsample our simulated data 100 times, and compute &phi;<sub>SS</sub> from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.
+
+| Period (s) | Full &phi;<sub>SS</sub> | Downsampled median &phi;<sub>SS</sub> | Downsampled &phi;<sub>SS</sub> std. dev. | Downsampled &phi;<sub>SS</sub> 68% conf range | Downsampled &phi;<sub>SS</sub> 95% conf range |
+|-----|-----|-----|-----|-----|-----|
+| T-independent | 0.35 | 0.28 | 0.03 | [0.25 0.31] | [0.22 0.35] |
+| 1 | 0.32 | 0.26 | 0.05 | [0.21 0.31] | [0.15 0.34] |
+| 2 | 0.32 | 0.26 | 0.05 | [0.2 0.29] | [0.17 0.36] |
+| 3 | 0.36 | 0.29 | 0.05 | [0.23 0.34] | [0.2 0.4] |
+| 4 | 0.37 | 0.3 | 0.05 | [0.26 0.37] | [0.21 0.43] |
+| 5 | 0.37 | 0.3 | 0.06 | [0.24 0.36] | [0.21 0.42] |
+| 7.5 | 0.35 | 0.28 | 0.05 | [0.23 0.34] | [0.17 0.38] |
+| 10 | 0.34 | 0.27 | 0.05 | [0.22 0.33] | [0.17 0.36] |
+
+Here are plots of the histogram of &phi;<sub>SS</sub> for each individual rupture, from which we compute a total &phi;<sub>SS</sub>
+
+| 3s | 5s |
+|-----|-----|
+| ![3s](resources/within_event_ss_m7.2_3s_hist.png) | ![5s](resources/within_event_ss_m7.2_5s_hist.png) |
+| 7.5s | 10s |
+| ![7.5s](resources/within_event_ss_m7.2_7.5s_hist.png) | ![10s](resources/within_event_ss_m7.2_10s_hist.png) |
+
+
 ## Between-events Variability
 *[(top)](#table-of-contents)*
 
@@ -353,13 +423,14 @@ We compute uncertainties on &tau; through downsampling the rotational synthetic 
 
 | Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| 1 | 0.17 | 0.17 | 0.14 | [0.04 0.34] | [0.01 0.57] |
-| 2 | 0.19 | 0.19 | 0.16 | [0.05 0.41] | [0.01 0.6] |
-| 3 | 0.18 | 0.16 | 0.16 | [0.06 0.39] | [0.01 0.63] |
-| 4 | 0.18 | 0.17 | 0.17 | [0.04 0.36] | [0.01 0.59] |
-| 5 | 0.19 | 0.18 | 0.14 | [0.05 0.34] | [0 0.56] |
-| 7.5 | 0.21 | 0.2 | 0.16 | [0.04 0.39] | [0.01 0.61] |
-| 10 | 0.24 | 0.2 | 0.18 | [0.06 0.45] | [0.01 0.66] |
+| T-independent | 0.19 | 0.15 | 0.1 | [0.09 0.29] | [0.05 0.44] |
+| 1 | 0.17 | 0.17 | 0.13 | [0.05 0.32] | [0 0.44] |
+| 2 | 0.19 | 0.18 | 0.12 | [0.06 0.33] | [0.01 0.47] |
+| 3 | 0.18 | 0.2 | 0.16 | [0.05 0.36] | [0 0.68] |
+| 4 | 0.18 | 0.16 | 0.15 | [0.05 0.36] | [0 0.54] |
+| 5 | 0.19 | 0.15 | 0.15 | [0.03 0.33] | [0 0.58] |
+| 7.5 | 0.21 | 0.15 | 0.16 | [0.04 0.34] | [0.01 0.69] |
+| 10 | 0.24 | 0.17 | 0.17 | [0.06 0.43] | [0.02 0.62] |
 
 
 ### 50.0 km M7.2 Between-events Results
@@ -380,6 +451,29 @@ We compute uncertainties on &tau; through downsampling the rotational synthetic 
 | 3s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 5s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 7.5s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 10s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 | 0.17 | -4.59 | [-5.08 -4.17] | 0.23 | -5.2 | [-5.76 -4.58] | 0.21 | -5.87 | [-6.72 -5.11] | 0.27 | -6.13 | [-6.81 -5.45] |
+
+
+### All Distances M7.2 Between-events Results
+*[(top)](#table-of-contents)*
+
+![Between-events Variability](resources/between_events_m7.2_std_dev.png)
+
+| 3s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 5s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 7.5s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 10s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| 0.18 | -3.93 | [-5.08 -2.79] | 0.22 | -4.64 | [-5.76 -3.49] | 0.21 | -5.32 | [-6.72 -4.01] | 0.25 | -5.73 | [-6.81 -4.58] |
+
+We compute uncertainties on &tau; through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [7.0 7.4], and all distances. We throw out any events with only 1 recording, leaving us with 3 events and a total of 24 recordings. We then downsample our simulated data 100 times, and compute &tau; from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.
+
+| Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
+|-----|-----|-----|-----|-----|-----|
+| T-independent | 0.21 | 0.23 | 0.06 | [0.2 0.3] | [0.16 0.37] |
+| 1 | 0.17 | 0.21 | 0.07 | [0.12 0.3] | [0.08 0.37] |
+| 2 | 0.19 | 0.22 | 0.08 | [0.15 0.32] | [0.09 0.42] |
+| 3 | 0.18 | 0.25 | 0.09 | [0.17 0.35] | [0.1 0.5] |
+| 4 | 0.22 | 0.28 | 0.09 | [0.19 0.36] | [0.13 0.54] |
+| 5 | 0.22 | 0.25 | 0.1 | [0.16 0.38] | [0.08 0.46] |
+| 7.5 | 0.21 | 0.23 | 0.1 | [0.16 0.35] | [0.08 0.46] |
+| 10 | 0.25 | 0.26 | 0.1 | [0.19 0.36] | [0.08 0.51] |
 
 
 ## Azumth Dependence
