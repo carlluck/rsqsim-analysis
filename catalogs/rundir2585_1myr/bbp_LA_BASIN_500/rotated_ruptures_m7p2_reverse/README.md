@@ -77,10 +77,10 @@ We condisder 158 events in the catalog which match the following criteria:
 | Within-event, single-site | &phi;<sub>SS</sub> | 50 km | 0.34 | 0.35 | 0.37 | 0.34 | 0.33 |
 | Within-event, single-site | &phi;<sub>SS</sub> | 100 km | 0.34 | 0.33 | 0.35 | 0.35 | 0.36 |
 | Within-event, single-site | &phi;<sub>SS</sub> | (all) | 0.34 | 0.35 | 0.35 | 0.34 | 0.33 |
-| Between-events | &tau; | 20 km | 0.21 | 0.21 | 0.19 | 0.21 | 0.24 |
-| Between-events | &tau; | 50 km | 0.21 | 0.2 | 0.22 | 0.21 | 0.23 |
-| Between-events | &tau; | 100 km | 0.19 | 0.15 | 0.21 | 0.2 | 0.27 |
-| Between-events | &tau; | (all) | 0.2 | 0.2 | 0.21 | 0.21 | 0.24 |
+| Between-events | &tau; | 20 km | 0.2 | 0.21 | 0.19 | 0.21 | 0.24 |
+| Between-events | &tau; | 50 km | 0.2 | 0.2 | 0.22 | 0.21 | 0.23 |
+| Between-events | &tau; | 100 km | 0.18 | 0.15 | 0.21 | 0.2 | 0.27 |
+| Between-events | &tau; | (all) | 0.19 | 0.19 | 0.21 | 0.21 | 0.25 |
 
 ### Dist-Dependent Plot Table
 *[(top)](#table-of-contents)*
@@ -112,6 +112,8 @@ we compute residuals, &delta;W<sub>es</sub>, of the natural-log ground motions (
 * Rupture Strike *[18 unique]*
 
 We take &phi;<sub>s</sub> to be the standard deviation of all residuals, &delta;W<sub>es</sub>, across each combination of Rupture, Path.
+
+We also compute distance-independent &phi;<sub>s</sub>, which is computed as the standard deviation of all residuals, &delta;W<sub>es</sub>, across all distances. Each residual is still computed relative to the log-median ground motion at it's distance.
 
 Here is an exmample with 5 rotations, which would be repeated for each combination of [Rupture, Path]. The site is shown with a blue square, and initially oriented rupture in bold with its hypocenter as a red star and centroid a green circle. Rotations of that rupture are in gray:
 
@@ -259,6 +261,8 @@ we compute residuals, &delta;W<sub>es</sub>, of the natural-log ground motions (
 
 We take &phi;<sub>SS</sub> to be the standard deviation of all residuals, &delta;W<sub>es</sub>, across each combination of Rupture.
 
+We also compute distance-independent &phi;<sub>SS</sub>, which is computed as the standard deviation of all residuals, &delta;W<sub>es</sub>, across all distances. Each residual is still computed relative to the log-median ground motion at it's distance.
+
 Here is an exmample with 5 rotations, which would be repeated for each combination of [Rupture]. The site is shown with a blue square, and initially oriented rupture in bold with its hypocenter as a red star and centroid a green circle. Rotations of that rupture are in gray:
 
 ![Example](resources/example_within_event_ss.png)
@@ -405,6 +409,8 @@ That median, &delta;B<sub>e</sub>, is computed across all 18 combinations of:
 
 We take &tau; to be the standard deviation of all &delta;B<sub>e</sub>.
 
+We also compute distance-independent &tau;, which we take to be the mean value across all distances.
+
 Here is an exmample with 5 rotations, which would be repeated for each combination of [Rupture]. The site is shown with a blue square, and initially oriented rupture in bold with its hypocenter as a red star and centroid a green circle. Rotations of that rupture are in gray:
 
 ![Example](resources/example_between_events.png)
@@ -423,7 +429,7 @@ We compute uncertainties on &tau; through downsampling the rotational synthetic 
 
 | Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.21 | 0.18 | 0.1 | [0.09 0.3] | [0.04 0.43] |
+| T-independent | 0.2 | 0.2 | 0.09 | [0.11 0.32] | [0.08 0.4] |
 | 1 | 0.15 | 0.18 | 0.14 | [0.07 0.39] | [0.01 0.53] |
 | 2 | 0.22 | 0.19 | 0.16 | [0.03 0.37] | [0.01 0.62] |
 | 3 | 0.21 | 0.2 | 0.18 | [0.05 0.4] | [0 0.63] |
@@ -460,20 +466,20 @@ We compute uncertainties on &tau; through downsampling the rotational synthetic 
 
 | 3s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 5s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 7.5s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 10s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 0.2 | -3.77 | [-4.8 -2.56] | 0.21 | -4.56 | [-5.7 -3.31] | 0.21 | -5.24 | [-6.6 -3.98] | 0.24 | -5.67 | [-6.82 -4.5] |
+| 0.19 | -3.77 | [-4.8 -2.56] | 0.21 | -4.56 | [-5.7 -3.31] | 0.21 | -5.24 | [-6.6 -3.98] | 0.25 | -5.67 | [-6.82 -4.5] |
 
 We compute uncertainties on &tau; through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [7.0 7.4], and all distances. We throw out any events with only 1 recording, leaving us with 3 events and a total of 24 recordings. We then downsample our simulated data 100 times, and compute &tau; from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below.
 
 | Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.2 | 0.24 | 0.06 | [0.19 0.3] | [0.15 0.38] |
-| 1 | 0.14 | 0.21 | 0.08 | [0.13 0.29] | [0.08 0.37] |
-| 2 | 0.17 | 0.21 | 0.08 | [0.13 0.31] | [0.08 0.41] |
-| 3 | 0.2 | 0.24 | 0.08 | [0.16 0.33] | [0.09 0.42] |
-| 4 | 0.19 | 0.26 | 0.09 | [0.16 0.33] | [0.09 0.49] |
-| 5 | 0.21 | 0.24 | 0.1 | [0.16 0.36] | [0.08 0.46] |
-| 7.5 | 0.21 | 0.24 | 0.1 | [0.17 0.35] | [0.06 0.48] |
-| 10 | 0.24 | 0.26 | 0.09 | [0.18 0.36] | [0.1 0.51] |
+| T-independent | 0.19 | 0.25 | 0.05 | [0.2 0.31] | [0.18 0.37] |
+| 1 | 0.13 | 0.21 | 0.07 | [0.15 0.29] | [0.11 0.38] |
+| 2 | 0.18 | 0.23 | 0.08 | [0.15 0.32] | [0.11 0.4] |
+| 3 | 0.19 | 0.26 | 0.06 | [0.2 0.32] | [0.16 0.4] |
+| 4 | 0.2 | 0.26 | 0.08 | [0.19 0.33] | [0.11 0.47] |
+| 5 | 0.21 | 0.25 | 0.09 | [0.18 0.37] | [0.1 0.47] |
+| 7.5 | 0.21 | 0.24 | 0.09 | [0.19 0.36] | [0.11 0.49] |
+| 10 | 0.25 | 0.27 | 0.08 | [0.22 0.36] | [0.14 0.47] |
 
 
 ## Azumth Dependence

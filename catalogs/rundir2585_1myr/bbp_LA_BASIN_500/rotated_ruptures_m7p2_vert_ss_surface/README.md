@@ -79,7 +79,7 @@ We condisder 400 events in the catalog which match the following criteria:
 | Within-event, single-site | &phi;<sub>SS</sub> | 100 km | 0.48 | 0.4 | 0.55 | 0.58 | 0.56 |
 | Within-event, single-site | &phi;<sub>SS</sub> | (all) | 0.46 | 0.45 | 0.53 | 0.5 | 0.48 |
 | Between-events | &tau; | 20 km | 0.19 | 0.18 | 0.2 | 0.21 | 0.24 |
-| Between-events | &tau; | 50 km | 0.2 | 0.16 | 0.22 | 0.23 | 0.25 |
+| Between-events | &tau; | 50 km | 0.19 | 0.16 | 0.22 | 0.23 | 0.25 |
 | Between-events | &tau; | 100 km | 0.18 | 0.15 | 0.21 | 0.24 | 0.26 |
 | Between-events | &tau; | (all) | 0.19 | 0.16 | 0.21 | 0.23 | 0.25 |
 
@@ -113,6 +113,8 @@ we compute residuals, &delta;W<sub>es</sub>, of the natural-log ground motions (
 * Rupture Strike *[18 unique]*
 
 We take &phi;<sub>s</sub> to be the standard deviation of all residuals, &delta;W<sub>es</sub>, across each combination of Rupture, Path.
+
+We also compute distance-independent &phi;<sub>s</sub>, which is computed as the standard deviation of all residuals, &delta;W<sub>es</sub>, across all distances. Each residual is still computed relative to the log-median ground motion at it's distance.
 
 Here is an exmample with 5 rotations, which would be repeated for each combination of [Rupture, Path]. The site is shown with a blue square, and initially oriented rupture in bold with its hypocenter as a red star and centroid a green circle. Rotations of that rupture are in gray:
 
@@ -290,6 +292,8 @@ we compute residuals, &delta;W<sub>es</sub>, of the natural-log ground motions (
 
 We take &phi;<sub>SS</sub> to be the standard deviation of all residuals, &delta;W<sub>es</sub>, across each combination of Rupture.
 
+We also compute distance-independent &phi;<sub>SS</sub>, which is computed as the standard deviation of all residuals, &delta;W<sub>es</sub>, across all distances. Each residual is still computed relative to the log-median ground motion at it's distance.
+
 Here is an exmample with 5 rotations, which would be repeated for each combination of [Rupture]. The site is shown with a blue square, and initially oriented rupture in bold with its hypocenter as a red star and centroid a green circle. Rotations of that rupture are in gray:
 
 ![Example](resources/example_within_event_ss.png)
@@ -466,6 +470,8 @@ That median, &delta;B<sub>e</sub>, is computed across all 18 combinations of:
 
 We take &tau; to be the standard deviation of all &delta;B<sub>e</sub>.
 
+We also compute distance-independent &tau;, which we take to be the mean value across all distances.
+
 Here is an exmample with 5 rotations, which would be repeated for each combination of [Rupture]. The site is shown with a blue square, and initially oriented rupture in bold with its hypocenter as a red star and centroid a green circle. Rotations of that rupture are in gray:
 
 ![Example](resources/example_between_events.png)
@@ -486,7 +492,7 @@ We compute uncertainties on &tau; through downsampling the rotational synthetic 
 
 | Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.19 | 0.2 | 0.06 | [0.14 0.26] | [0.09 0.33] |
+| T-independent | 0.19 | 0.2 | 0.05 | [0.16 0.26] | [0.1 0.32] |
 | 1 | 0.11 | 0.13 | 0.06 | [0.08 0.2] | [0.03 0.27] |
 | 2 | 0.16 | 0.17 | 0.09 | [0.1 0.28] | [0.03 0.37] |
 | 3 | 0.18 | 0.21 | 0.1 | [0.12 0.32] | [0.07 0.41] |
@@ -509,7 +515,7 @@ We compute uncertainties on &tau; through downsampling the rotational synthetic 
 
 | Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.2 | 0.25 | 0.08 | [0.17 0.34] | [0.13 0.49] |
+| T-independent | 0.19 | 0.25 | 0.07 | [0.2 0.34] | [0.15 0.46] |
 | 1 | 0.1 | 0.16 | 0.08 | [0.1 0.25] | [0.03 0.34] |
 | 2 | 0.15 | 0.19 | 0.08 | [0.11 0.28] | [0.06 0.41] |
 | 3 | 0.16 | 0.23 | 0.11 | [0.13 0.35] | [0.08 0.54] |
@@ -534,7 +540,7 @@ We compute uncertainties on &tau; through downsampling the rotational synthetic 
 
 | Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.18 | 0.16 | 0.07 | [0.12 0.24] | [0.08 0.38] |
+| T-independent | 0.18 | 0.18 | 0.06 | [0.14 0.24] | [0.1 0.35] |
 | 1 | 0.11 | 0.09 | 0.07 | [0.05 0.16] | [0.01 0.25] |
 | 2 | 0.13 | 0.14 | 0.07 | [0.07 0.22] | [0.02 0.31] |
 | 3 | 0.15 | 0.14 | 0.1 | [0.09 0.27] | [0.03 0.41] |
@@ -557,14 +563,14 @@ We compute uncertainties on &tau; through downsampling the rotational synthetic 
 
 | Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.19 | 0.22 | 0.04 | [0.19 0.27] | [0.16 0.31] |
-| 1 | 0.11 | 0.15 | 0.04 | [0.11 0.19] | [0.09 0.24] |
-| 2 | 0.15 | 0.18 | 0.04 | [0.14 0.23] | [0.11 0.29] |
-| 3 | 0.16 | 0.2 | 0.06 | [0.15 0.27] | [0.11 0.33] |
-| 4 | 0.19 | 0.24 | 0.06 | [0.18 0.31] | [0.13 0.36] |
-| 5 | 0.21 | 0.26 | 0.06 | [0.2 0.33] | [0.17 0.4] |
-| 7.5 | 0.23 | 0.26 | 0.06 | [0.2 0.32] | [0.15 0.39] |
-| 10 | 0.25 | 0.27 | 0.07 | [0.21 0.36] | [0.17 0.41] |
+| T-independent | 0.19 | 0.23 | 0.03 | [0.21 0.26] | [0.17 0.29] |
+| 1 | 0.11 | 0.15 | 0.03 | [0.12 0.18] | [0.09 0.23] |
+| 2 | 0.15 | 0.18 | 0.04 | [0.15 0.23] | [0.11 0.27] |
+| 3 | 0.16 | 0.21 | 0.05 | [0.17 0.26] | [0.12 0.3] |
+| 4 | 0.19 | 0.24 | 0.05 | [0.2 0.3] | [0.15 0.35] |
+| 5 | 0.21 | 0.27 | 0.05 | [0.22 0.33] | [0.18 0.4] |
+| 7.5 | 0.23 | 0.27 | 0.06 | [0.23 0.34] | [0.16 0.41] |
+| 10 | 0.25 | 0.28 | 0.06 | [0.23 0.34] | [0.18 0.42] |
 
 
 ## Azumth Dependence

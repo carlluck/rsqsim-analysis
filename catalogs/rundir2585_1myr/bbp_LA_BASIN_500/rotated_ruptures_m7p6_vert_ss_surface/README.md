@@ -79,9 +79,9 @@ We condisder 400 events in the catalog which match the following criteria:
 | Within-event, single-site | &phi;<sub>SS</sub> | 100 km | 0.5 | 0.42 | 0.62 | 0.58 | 0.54 |
 | Within-event, single-site | &phi;<sub>SS</sub> | (all) | 0.47 | 0.47 | 0.57 | 0.49 | 0.44 |
 | Between-events | &tau; | 20 km | 0.15 | 0.12 | 0.17 | 0.19 | 0.2 |
-| Between-events | &tau; | 50 km | 0.2 | 0.16 | 0.2 | 0.2 | 0.21 |
-| Between-events | &tau; | 100 km | 0.14 | 0.12 | 0.18 | 0.23 | 0.23 |
-| Between-events | &tau; | (all) | 0.15 | 0.12 | 0.18 | 0.2 | 0.21 |
+| Between-events | &tau; | 50 km | 0.16 | 0.16 | 0.2 | 0.2 | 0.21 |
+| Between-events | &tau; | 100 km | 0.16 | 0.12 | 0.18 | 0.23 | 0.23 |
+| Between-events | &tau; | (all) | 0.16 | 0.14 | 0.18 | 0.21 | 0.21 |
 
 ### Dist-Dependent Plot Table
 *[(top)](#table-of-contents)*
@@ -113,6 +113,8 @@ we compute residuals, &delta;W<sub>es</sub>, of the natural-log ground motions (
 * Rupture Strike *[18 unique]*
 
 We take &phi;<sub>s</sub> to be the standard deviation of all residuals, &delta;W<sub>es</sub>, across each combination of Rupture, Path.
+
+We also compute distance-independent &phi;<sub>s</sub>, which is computed as the standard deviation of all residuals, &delta;W<sub>es</sub>, across all distances. Each residual is still computed relative to the log-median ground motion at it's distance.
 
 Here is an exmample with 5 rotations, which would be repeated for each combination of [Rupture, Path]. The site is shown with a blue square, and initially oriented rupture in bold with its hypocenter as a red star and centroid a green circle. Rotations of that rupture are in gray:
 
@@ -234,6 +236,8 @@ we compute residuals, &delta;W<sub>es</sub>, of the natural-log ground motions (
 
 We take &phi;<sub>SS</sub> to be the standard deviation of all residuals, &delta;W<sub>es</sub>, across each combination of Rupture.
 
+We also compute distance-independent &phi;<sub>SS</sub>, which is computed as the standard deviation of all residuals, &delta;W<sub>es</sub>, across all distances. Each residual is still computed relative to the log-median ground motion at it's distance.
+
 Here is an exmample with 5 rotations, which would be repeated for each combination of [Rupture]. The site is shown with a blue square, and initially oriented rupture in bold with its hypocenter as a red star and centroid a green circle. Rotations of that rupture are in gray:
 
 ![Example](resources/example_within_event_ss.png)
@@ -354,6 +358,8 @@ That median, &delta;B<sub>e</sub>, is computed across all 18 combinations of:
 
 We take &tau; to be the standard deviation of all &delta;B<sub>e</sub>.
 
+We also compute distance-independent &tau;, which we take to be the mean value across all distances.
+
 Here is an exmample with 5 rotations, which would be repeated for each combination of [Rupture]. The site is shown with a blue square, and initially oriented rupture in bold with its hypocenter as a red star and centroid a green circle. Rotations of that rupture are in gray:
 
 ![Example](resources/example_between_events.png)
@@ -396,7 +402,7 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 
 | 3s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 5s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 7.5s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 10s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 0.12 | -3.07 | [-4.17 -1.89] | 0.18 | -3.8 | [-5 -2.54] | 0.2 | -4.39 | [-5.5 -3.32] | 0.21 | -4.9 | [-5.97 -3.86] |
+| 0.14 | -3.07 | [-4.17 -1.89] | 0.18 | -3.8 | [-5 -2.54] | 0.21 | -4.39 | [-5.5 -3.32] | 0.21 | -4.9 | [-5.97 -3.86] |
 
 
 ## Azumth Dependence
