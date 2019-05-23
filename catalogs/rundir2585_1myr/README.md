@@ -28,6 +28,10 @@
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
   * [Slip-Area Plots](#slip-area-plots)
+  * [Slip-Length Plots](#slip-length-plots)
+  * [Slip Along Rupture (Dsr) Plots](#slip-along-rupture-dsr-plots)
+    * [Single-Fault Slip Along Rupture](#single-fault-slip-along-rupture)
+    * [Multi-Fault Slip Along Rupture](#multi-fault-slip-along-rupture)
   * [Rupture Velocity Plots](#rupture-velocity-plots)
   * [Global Interevent-Time Distributions](#global-interevent-time-distributions)
   * [Normalized Fault Interevent-Time Distributions](#normalized-fault-interevent-time-distributions)
@@ -133,6 +137,42 @@
 | Scatter | 2-D Hist |
 |-----|-----|
 | ![Slip Area Scatter](resources/slip_area.png) | ![Slip Area Hist](resources/slip_area_hist2D.png) |
+### Slip-Length Plots
+*[(top)](#bruce-2585-1myr)*
+
+These plots compute average slip-length scaling at mid-seismogenic depth. We define mid-seismogenic depth to be no deeper than 8 km, no shallower than 4 km, and no less than 2 km down- or up-dip from the top or bottom of the fault. Average slip is computed across all elements in this mid-seismogenic region, including any which did not slip, along the full length of the rupture.
+
+We define the rupture length, which also affects the region at mid-seismogenic depth across which we compute average slip, multiple ways in order to test sensitivity:
+
+* **Full Mapped Subsection Length:** Average slip in the mid-seismogenic zone across the whole length of each mapped subsection
+* **Full Slipped Length:** Average slip in the mid-seismogenic zone across the section of fault that slipped (regardless of if that slip was in the mid-seismgenic zone or not)
+* **Mid-Seismogenic Slipped Length:** Average slip in the mid-seismogenic zone across the section of fault that slipped in that mid-seismogenic zone (including any holes with no slip)
+* **Surface Slipped Length:** Average slip in the mid-seismogenic zone across the section of fault that had surface slip
+
+| Lengh Algorithm | Scatter | 2-D Hist |
+|-----|-----|-----|
+| **Full Mapped Subsection Length** | ![Slip Length Scatter](resources/slip_len_MID_SEIS_FULL_LEN.png) | ![Slip Length Hist](resources/slip_len_MID_SEIS_FULL_LEN_hist2D.png) |
+| **Full Slipped Length** | ![Slip Length Scatter](resources/slip_len_MID_SEIS_SLIPPED_LEN.png) | ![Slip Length Hist](resources/slip_len_MID_SEIS_SLIPPED_LEN_hist2D.png) |
+| **Mid-Seismogenic Slipped Length** | ![Slip Length Scatter](resources/slip_len_MID_SEIS_MID_SLIPPED_LEN.png) | ![Slip Length Hist](resources/slip_len_MID_SEIS_MID_SLIPPED_LEN_hist2D.png) |
+| **Surface Slipped Length** | ![Slip Length Scatter](resources/slip_len_MID_SEIS_SURF_SLIP_LEN.png) | ![Slip Length Hist](resources/slip_len_MID_SEIS_SURF_SLIP_LEN_hist2D.png) |
+### Slip Along Rupture (Dsr) Plots
+*[(top)](#bruce-2585-1myr)*
+
+These plots show the slip along rupture distiribution, noted D<sub>SR</sub> in UCERF3. First we compute average slip on each mapped subsection, then plot that slip along strike of the rupture, normalized by the maximum slip across all subsections in that rupture. We do this for single-fault events which can span multiple segments, e.g. SAF Mojave and San Bernardino, and also separately for each junction in multi-fault events. We only consider ruptures where at least 2 subsections participated (2 on each side of the jump for multi-fault ruptures).
+
+#### Single-Fault Slip Along Rupture
+
+| Absolute distance from either rupture endpoint | Normalized distance from either rupture endpoint |
+|-----|-----|
+| ![Slip Alon Rupture Absolute](resources/slip_along_rupture_single_abs.png) | ![Slip Alon Rupture Normalized](resources/slip_along_rupture_single_norm.png) |
+
+#### Multi-Fault Slip Along Rupture
+
+These plots show D<sub>SR</sub> for multi-fault ruptures, on either side of a jump. The left side (negative x-values) is always closer to either end of the rupture, and the right side (positive x-values) closer to the center.
+
+| Absolute distance on either side of jump | Normalized distance on either side of jump |
+|-----|-----|
+| ![Slip Alon Rupture Absolute](resources/slip_along_rupture_multi_abs.png) | ![Slip Alon Rupture Normalized](resources/slip_along_rupture_multi_norm.png) |
 ### Rupture Velocity Plots
 *[(top)](#bruce-2585-1myr)*
 
