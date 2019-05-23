@@ -158,7 +158,7 @@ We define the rupture length, which also affects the region at mid-seismogenic d
 ### Slip Along Rupture (Dsr) Plots
 *[(top)](#bruce-2585-1myr)*
 
-These plots show the slip along rupture distiribution, noted D<sub>SR</sub> in UCERF3. First we compute average slip on each mapped subsection, then plot that slip along strike of the rupture, normalized by the maximum slip across all subsections in that rupture. We do this for single-fault events which can span multiple segments, e.g. SAF Mojave and San Bernardino, and also separately for each junction in multi-fault events. We only consider ruptures where at least 2 subsections participated (2 on each side of the jump for multi-fault ruptures).
+These plots show the slip along rupture distiribution, noted D<sub>SR</sub> in UCERF3. First we compute average slip on each mapped subsection at mid-seismogenic depth (using the *Full Slipped Length* algorithm), then plot that slip along strike, normalized by the maximum slip across all subsections in that rupture. We do this for single-fault events, which can span multiple segments (e.g. SAF Mojave and San Bernardino), and also separately for each junction in multi-fault events. We only consider ruptures where at least 2 subsections participated (2 on each side of the jump for multi-fault ruptures).
 
 #### Single-Fault Slip Along Rupture
 
