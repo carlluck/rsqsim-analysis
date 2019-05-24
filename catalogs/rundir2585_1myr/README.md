@@ -144,6 +144,8 @@ These plots compute average slip-length scaling at mid-seismogenic depth. We def
 
 We define the rupture length, which also affects the region at mid-seismogenic depth across which we compute average slip, multiple ways in order to test sensitivity:
 
+The average value is plotted in a thick gray line, and UCERF3 Scaling Relationships in colored lines (assuming a down dip width of 12 km.)
+
 * **Full Mapped Subsection Length:** Average slip in the mid-seismogenic zone across the whole length of each mapped subsection
 * **Full Slipped Length:** Average slip in the mid-seismogenic zone across the section of fault that slipped (regardless of if that slip was in the mid-seismgenic zone or not)
 * **Mid-Seismogenic Slipped Length:** Average slip in the mid-seismogenic zone across the section of fault that slipped in that mid-seismogenic zone (including any holes with no slip)
@@ -161,6 +163,8 @@ We define the rupture length, which also affects the region at mid-seismogenic d
 These plots show the slip along rupture distiribution, noted D<sub>SR</sub> in UCERF3. First we compute average slip on each mapped subsection at mid-seismogenic depth (using the *Full Slipped Length* algorithm), then plot that slip along strike, normalized by the maximum slip across all subsections in that rupture. We do this for single-fault events, which can span multiple segments (e.g. SAF Mojave and San Bernardino), and also separately for each junction in multi-fault events. We only consider ruptures where at least 2 subsections participated (2 on each side of the jump for multi-fault ruptures). This is done using the UCERF3 'named faults' list to determine if multiple fault sections belong to the same master fault.
 
 The calculation is done independently for different length bins. Note that average slip is discretized at the subsection level, so the the shortest bin (which is only a few subsections long) will show less variation by construction.
+
+Average values are plotted with a solid black line, and sqrt(sin(|x*&pi;|)) in a dashed gray line (normalized length plots only).
 
 #### Single-Fault Slip Along Rupture
 
