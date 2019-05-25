@@ -144,7 +144,7 @@ These plots compute average slip-length scaling at mid-seismogenic depth. We def
 
 We define the rupture length, which also affects the region at mid-seismogenic depth across which we compute average slip, multiple ways in order to test sensitivity:
 
-The average value is plotted in a thick gray line, and UCERF3 Scaling Relationships in colored lines (assuming a down dip width of 12 km.)
+The average value is plotted in a thick gray line, and UCERF3 Scaling Relationships in colored lines (assuming a down dip width of 12 km).
 
 * **Full Mapped Subsection Length:** Average slip in the mid-seismogenic zone across the whole length of each mapped subsection
 * **Full Slipped Length:** Average slip in the mid-seismogenic zone across the section of fault that slipped (regardless of if that slip was in the mid-seismgenic zone or not)
@@ -178,7 +178,7 @@ Average values are plotted with a solid black line, and sqrt(sin(|x*&pi;|)) in a
 
 #### Multi-Fault Slip Along Rupture
 
-These plots show D<sub>SR</sub> for multi-fault ruptures, on either side of a jump. The left side (negative x-values) is always closer to either end of the rupture, and the right side (positive x-values) closer to the center.
+These plots show D<sub>SR</sub> for multi-fault ruptures, on either side of a jump. The left side (negative x-values) is always closer to either end of the rupture, and the right side (positive x-values) closer to the center. Ruptures are binned according the length of the rupture on that fault, rather than the total length of the rupture.
 
 | Rupture Length | Absolute distance on either side of jump | Normalized distance on either side of jump |
 |-----|-----|-----|
