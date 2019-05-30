@@ -64,8 +64,7 @@ img {
 <li><a href="#slip-length-plots">Slip-Length Plots</a></li>
 <li><a href="#slip-along-rupture-dsr-plots">Slip Along Rupture (Dsr) Plots</a>
 <ul>
-<li><a href="#single-fault-slip-along-rupture">Single-Fault Slip Along Rupture</a></li>
-<li><a href="#multi-fault-slip-along-rupture">Multi-Fault Slip Along Rupture</a></li>
+<li><a href="#two--and-three-fault-slip-along-rupture">Two- and Three-Fault Slip Along Rupture</a></li>
 </ul>
 </li>
 <li><a href="#rupture-velocity-plots">Rupture Velocity Plots</a></li>
@@ -199,33 +198,32 @@ img {
 <h3 id="slip-along-rupture-dsr-plots">Slip Along Rupture (Dsr) Plots</h3>
 <p><em><a href="#bruce-2585-1myr">(top)</a></em></p>
 <p>These plots show the slip along rupture distiribution, noted D<sub>SR</sub> in UCERF3. First we compute average slip along each mapped subsection at mid-seismogenic depth (using the <em>Full Slipped Length</em> algorithm), then plot that slip along strike, normalized by the maximum slip across all subsections in that rupture. We do this for single-fault events, which can span multiple segments (e.g. SAF Mojave and San Bernardino), and also separately for each junction in multi-fault events. We only consider ruptures where at least 2 subsections participated (2 on each side of the jump for multi-fault ruptures). This is done using the UCERF3 'named faults' list to determine if multiple fault sections belong to the same master fault.</p>
-<p>The calculation is done independently for different length bins. Note that average slip is discretized at approximately 2 element widths, so the the shortest bins will show less variation by construction.</p>
+<p>Ruptures are binned by their length in each row below. For multi-fault ruptures, the junction point is at x=0 with the shorter side of the rupture on the left (below zero), and longer half on the right</p>
 <p>Average values are plotted with a solid black line, and sqrt(sin(|x*π|)) in a dashed gray line (normalized length plots only).</p>
-<h4 id="single-fault-slip-along-rupture">Single-Fault Slip Along Rupture</h4>
 <table>
 <thead>
-<tr><th>Rupture Length</th><th>Absolute distance from either rupture endpoint</th><th>Normalized distance from either rupture endpoint</th></tr>
+<tr><th>Rupture Length</th><th>Single-fault, absolute distance from either rupture endpoint</th><th>Single-fault, normalized distance from either rupture endpoint</th><th>Multi-fault, normalized distance on either side of jump</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>All Lengths</strong></td><td><img src="resources/slip_along_rupture_single_abs.png" alt="Slip Alon Rupture Absolute" /></td><td><img src="resources/slip_along_rupture_single_norm.png" alt="Slip Alon Rupture Normalized" /></td></tr>
-<tr><td><strong>Len=[0 25]</strong></td><td><img src="resources/slip_along_rupture_single_abs_len_0_25.png" alt="Slip Alon Rupture Absolute" /></td><td><img src="resources/slip_along_rupture_single_norm_len_0_25.png" alt="Slip Alon Rupture Normalized" /></td></tr>
-<tr><td><strong>Len=[25 50]</strong></td><td><img src="resources/slip_along_rupture_single_abs_len_25_50.png" alt="Slip Alon Rupture Absolute" /></td><td><img src="resources/slip_along_rupture_single_norm_len_25_50.png" alt="Slip Alon Rupture Normalized" /></td></tr>
-<tr><td><strong>Len=[50 100]</strong></td><td><img src="resources/slip_along_rupture_single_abs_len_50_100.png" alt="Slip Alon Rupture Absolute" /></td><td><img src="resources/slip_along_rupture_single_norm_len_50_100.png" alt="Slip Alon Rupture Normalized" /></td></tr>
-<tr><td><strong>Len≥100</strong></td><td><img src="resources/slip_along_rupture_single_abs_len_100+.png" alt="Slip Alon Rupture Absolute" /></td><td><img src="resources/slip_along_rupture_single_norm_len_100+.png" alt="Slip Alon Rupture Normalized" /></td></tr>
+<tr><td><strong>All Lengths</strong></td><td><img src="resources/slip_along_rupture_single_abs.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_single_norm.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_multi_norm.png" alt="Slip Along Rupture" /></td></tr>
+<tr><td><strong>Len=[0 25]</strong></td><td><img src="resources/slip_along_rupture_single_abs_len_0_25.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_single_norm_len_0_25.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_multi_norm_len_0_25.png" alt="Slip Along Rupture" /></td></tr>
+<tr><td><strong>Len=[25 50]</strong></td><td><img src="resources/slip_along_rupture_single_abs_len_25_50.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_single_norm_len_25_50.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_multi_norm_len_25_50.png" alt="Slip Along Rupture" /></td></tr>
+<tr><td><strong>Len=[50 100]</strong></td><td><img src="resources/slip_along_rupture_single_abs_len_50_100.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_single_norm_len_50_100.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_multi_norm_len_50_100.png" alt="Slip Along Rupture" /></td></tr>
+<tr><td><strong>Len≥100</strong></td><td><img src="resources/slip_along_rupture_single_abs_len_100+.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_single_norm_len_100+.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_multi_norm_len_100+.png" alt="Slip Along Rupture" /></td></tr>
 </tbody>
 </table>
-<h4 id="multi-fault-slip-along-rupture">Multi-Fault Slip Along Rupture</h4>
-<p>These plots show D<sub>SR</sub> for multi-fault ruptures, on either side of a jump. The left side (negative x-values) is always closer to either end of the rupture, and the right side (positive x-values) closer to the center. Ruptures are binned according the length of the rupture on that fault, rather than the total length of the rupture.</p>
+<h4 id="two--and-three-fault-slip-along-rupture">Two- and Three-Fault Slip Along Rupture</h4>
+<p>These plots show D<sub>SR</sub> for two- and three-fault ruptures. Lengths are normalized, with the first fault in x=[0 1], second in x=[1 2], etc. Rupture are organized such that the leftmost side is always shorter than the rightmost side.</p>
 <table>
 <thead>
-<tr><th>Rupture Length</th><th>Absolute distance on either side of jump</th><th>Normalized distance on either side of jump</th></tr>
+<tr><th>Rupture Length</th><th>Two-fault Ruptures</th><th>Three-Fault Ruptures</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>All Lengths</strong></td><td><img src="resources/slip_along_rupture_multi_abs.png" alt="Slip Alon Rupture Absolute" /></td><td><img src="resources/slip_along_rupture_multi_norm.png" alt="Slip Alon Rupture Normalized" /></td></tr>
-<tr><td><strong>Len=[0 25]</strong></td><td><img src="resources/slip_along_rupture_multi_abs_len_0_25.png" alt="Slip Alon Rupture Absolute" /></td><td><img src="resources/slip_along_rupture_multi_norm_len_0_25.png" alt="Slip Alon Rupture Normalized" /></td></tr>
-<tr><td><strong>Len=[25 50]</strong></td><td><img src="resources/slip_along_rupture_multi_abs_len_25_50.png" alt="Slip Alon Rupture Absolute" /></td><td><img src="resources/slip_along_rupture_multi_norm_len_25_50.png" alt="Slip Alon Rupture Normalized" /></td></tr>
-<tr><td><strong>Len=[50 100]</strong></td><td><img src="resources/slip_along_rupture_multi_abs_len_50_100.png" alt="Slip Alon Rupture Absolute" /></td><td><img src="resources/slip_along_rupture_multi_norm_len_50_100.png" alt="Slip Alon Rupture Normalized" /></td></tr>
-<tr><td><strong>Len≥100</strong></td><td><img src="resources/slip_along_rupture_multi_abs_len_100+.png" alt="Slip Alon Rupture Absolute" /></td><td><img src="resources/slip_along_rupture_multi_norm_len_100+.png" alt="Slip Alon Rupture Normalized" /></td></tr>
+<tr><td><strong>All Lengths</strong></td><td><img src="resources/slip_along_rupture_two_norm.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_three_norm.png" alt="Slip Along Rupture" /></td></tr>
+<tr><td><strong>Len=[0 25]</strong></td><td><img src="resources/slip_along_rupture_two_norm_len_0_25.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_three_norm_len_0_25.png" alt="Slip Along Rupture" /></td></tr>
+<tr><td><strong>Len=[25 50]</strong></td><td><img src="resources/slip_along_rupture_two_norm_len_25_50.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_three_norm_len_25_50.png" alt="Slip Along Rupture" /></td></tr>
+<tr><td><strong>Len=[50 100]</strong></td><td><img src="resources/slip_along_rupture_two_norm_len_50_100.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_three_norm_len_50_100.png" alt="Slip Along Rupture" /></td></tr>
+<tr><td><strong>Len≥100</strong></td><td><img src="resources/slip_along_rupture_two_norm_len_100+.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_three_norm_len_100+.png" alt="Slip Along Rupture" /></td></tr>
 </tbody>
 </table>
 <h3 id="rupture-velocity-plots">Rupture Velocity Plots</h3>
