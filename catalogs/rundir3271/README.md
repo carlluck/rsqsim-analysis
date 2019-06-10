@@ -16,6 +16,7 @@
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
+    * [Mechanism-Dependent Magnitude-Area Plots](#mechanism-dependent-magnitude-area-plots)
   * [Slip-Area Plots](#slip-area-plots)
   * [Slip-Length Plots](#slip-length-plots)
   * [Slip Along Rupture (Dsr) Plots](#slip-along-rupture-dsr-plots)
@@ -55,6 +56,17 @@
 | Scatter | 2-D Hist |
 |-----|-----|
 | ![MA Scatter](resources/mag_area.png) | ![MA Hist](resources/mag_area_hist2D.png) |
+#### Mechanism-Dependent Magnitude-Area Plots
+*[(top)](#bruce-3271)*
+
+Here we disaggregate the magnitude-area scaling plots by focal mechanism. Multi-fault ruptures which incorporate multiple faulting styles are included in plot for the dominent fault style so long as no more than 10% of the participating elements are of a different style, otherwise they are listed as 'Unknown'.
+
+| Fault Style | Scatter | 2-D Hist |
+|-----|-----|-----|
+| **Strike-Slip** | ![MA Scatter](resources/mag_area_STRIKE_SLIP.png) | ![MA Hist](resources/mag_area_STRIKE_SLIP_hist2D.png) |
+| **Normal** | ![MA Scatter](resources/mag_area_NORMAL.png) | ![MA Hist](resources/mag_area_NORMAL_hist2D.png) |
+| **Reverse** | ![MA Scatter](resources/mag_area_REVERSE.png) | ![MA Hist](resources/mag_area_REVERSE_hist2D.png) |
+| **Unknown** | ![MA Scatter](resources/mag_area_UNKNOWN.png) | ![MA Hist](resources/mag_area_UNKNOWN_hist2D.png) |
 ### Slip-Area Plots
 *[(top)](#bruce-3271)*
 

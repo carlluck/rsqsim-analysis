@@ -59,7 +59,11 @@ img {
 <li><a href="#plots">Plots</a>
 <ul>
 <li><a href="#magnitude-frequency-plot">Magnitude-Frequency Plot</a></li>
-<li><a href="#magnitude-area-plots">Magnitude-Area Plots</a></li>
+<li><a href="#magnitude-area-plots">Magnitude-Area Plots</a>
+<ul>
+<li><a href="#mechanism-dependent-magnitude-area-plots">Mechanism-Dependent Magnitude-Area Plots</a></li>
+</ul>
+</li>
 <li><a href="#slip-area-plots">Slip-Area Plots</a></li>
 <li><a href="#slip-length-plots">Slip-Length Plots</a></li>
 <li><a href="#slip-along-rupture-dsr-plots">Slip Along Rupture (Dsr) Plots</a>
@@ -164,6 +168,20 @@ img {
 </thead>
 <tbody>
 <tr><td><img src="resources/mag_area.png" alt="MA Scatter" /></td><td><img src="resources/mag_area_hist2D.png" alt="MA Hist" /></td></tr>
+</tbody>
+</table>
+<h4 id="mechanism-dependent-magnitude-area-plots">Mechanism-Dependent Magnitude-Area Plots</h4>
+<p><em><a href="#bruce-2585-1myr">(top)</a></em></p>
+<p>Here we disaggregate the magnitude-area scaling plots by focal mechanism. Multi-fault ruptures which incorporate multiple faulting styles are included in plot for the dominent fault style so long as no more than 10% of the participating elements are of a different style, otherwise they are listed as 'Unknown'.</p>
+<table>
+<thead>
+<tr><th>Fault Style</th><th>Scatter</th><th>2-D Hist</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Strike-Slip</strong></td><td><img src="resources/mag_area_STRIKE_SLIP.png" alt="MA Scatter" /></td><td><img src="resources/mag_area_STRIKE_SLIP_hist2D.png" alt="MA Hist" /></td></tr>
+<tr><td><strong>Normal</strong></td><td><img src="resources/mag_area_NORMAL.png" alt="MA Scatter" /></td><td><img src="resources/mag_area_NORMAL_hist2D.png" alt="MA Hist" /></td></tr>
+<tr><td><strong>Reverse</strong></td><td><img src="resources/mag_area_REVERSE.png" alt="MA Scatter" /></td><td><img src="resources/mag_area_REVERSE_hist2D.png" alt="MA Hist" /></td></tr>
+<tr><td><strong>Unknown</strong></td><td><img src="resources/mag_area_UNKNOWN.png" alt="MA Scatter" /></td><td><img src="resources/mag_area_UNKNOWN_hist2D.png" alt="MA Hist" /></td></tr>
 </tbody>
 </table>
 <h3 id="slip-area-plots">Slip-Area Plots</h3>
