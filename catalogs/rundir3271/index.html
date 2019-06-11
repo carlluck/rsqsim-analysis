@@ -37,6 +37,7 @@ img {
 </table>
 <ul>
 <li><a href="#metadata">Metadata</a></li>
+<li><a href="#hazard-comparisons">Hazard Comparisons</a></li>
 <li><a href="#bbp-calculations-la-basin-500-ms-velocity-model">BBP Calculations, LA Basin 500 (m/s) Velocity Model</a>
 <ul>
 <li><a href="#full-catalog-gmpe-comparisons-la-basin-500-ms">Full Catalog GMPE Comparisons, LA Basin 500 (m/s)</a></li>
@@ -51,7 +52,11 @@ img {
 </ul>
 </li>
 <li><a href="#slip-area-plots">Slip-Area Plots</a></li>
-<li><a href="#slip-length-plots">Slip-Length Plots</a></li>
+<li><a href="#slip-length-plots">Slip-Length Plots</a>
+<ul>
+<li><a href="#mechanism-dependent-slip-length-plots">Mechanism-Dependent Slip-Length Plots</a></li>
+</ul>
+</li>
 <li><a href="#slip-along-rupture-dsr-plots">Slip Along Rupture (Dsr) Plots</a>
 <ul>
 <li><a href="#two--and-three-fault-slip-along-rupture">Two- and Three-Fault Slip Along Rupture</a></li>
@@ -82,6 +87,11 @@ img {
 </ul>
 </li>
 <li><a href="#input-file">Input File</a></li>
+</ul>
+<h2 id="hazard-comparisons">Hazard Comparisons</h2>
+<p><em><a href="#bruce-3271">(top)</a></em></p>
+<ul>
+<li><a href="hazard_pga/">PGA</a></li>
 </ul>
 <h2 id="bbp-calculations-la-basin-500-ms-velocity-model">BBP Calculations, LA Basin 500 (m/s) Velocity Model</h2>
 <p><em><a href="#bruce-3271">(top)</a></em></p>
@@ -152,9 +162,23 @@ img {
 <tr><td><strong>Surface Slipped Length</strong></td><td><img src="resources/slip_len_MID_SEIS_SURF_SLIP_LEN.png" alt="Slip Length Scatter" /></td><td><img src="resources/slip_len_MID_SEIS_SURF_SLIP_LEN_hist2D.png" alt="Slip Length Hist" /></td></tr>
 </tbody>
 </table>
+<h4 id="mechanism-dependent-slip-length-plots">Mechanism-Dependent Slip-Length Plots</h4>
+<p><em><a href="#bruce-3271">(top)</a></em></p>
+<p>Here we disaggregate the slip-length scaling plots by focal mechanism. Multi-fault ruptures which incorporate multiple faulting styles are included in plot for the dominent fault style so long as no more than 10% of the participating elements are of a different style, otherwise they are listed as 'Unknown'.</p>
+<table>
+<thead>
+<tr><th>Fault Style</th><th>Scatter</th><th>2-D Hist</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Strike-Slip</strong></td><td><img src="resources/slip_len_MID_SEIS_FULL_LEN_STRIKE_SLIP.png" alt="Slip Length Scatter" /></td><td><img src="resources/slip_len_MID_SEIS_FULL_LEN_STRIKE_SLIP_hist2D.png" alt="Slip Length Hist" /></td></tr>
+<tr><td><strong>Normal</strong></td><td><img src="resources/slip_len_MID_SEIS_FULL_LEN_NORMAL.png" alt="Slip Length Scatter" /></td><td><img src="resources/slip_len_MID_SEIS_FULL_LEN_NORMAL_hist2D.png" alt="Slip Length Hist" /></td></tr>
+<tr><td><strong>Reverse</strong></td><td><img src="resources/slip_len_MID_SEIS_FULL_LEN_REVERSE.png" alt="Slip Length Scatter" /></td><td><img src="resources/slip_len_MID_SEIS_FULL_LEN_REVERSE_hist2D.png" alt="Slip Length Hist" /></td></tr>
+<tr><td><strong>Unknown</strong></td><td><img src="resources/slip_len_MID_SEIS_FULL_LEN_UNKNOWN.png" alt="Slip Length Scatter" /></td><td><img src="resources/slip_len_MID_SEIS_FULL_LEN_UNKNOWN_hist2D.png" alt="Slip Length Hist" /></td></tr>
+</tbody>
+</table>
 <h3 id="slip-along-rupture-dsr-plots">Slip Along Rupture (Dsr) Plots</h3>
 <p><em><a href="#bruce-3271">(top)</a></em></p>
-<p>These plots show the slip along rupture distiribution, noted D<sub>SR</sub> in UCERF3. First we compute average slip along each mapped subsection at mid-seismogenic depth (using the <em>Full Slipped Length</em> algorithm), then plot that slip along strike, normalized by the maximum slip across all subsections in that rupture. We do this for single-fault events, which can span multiple segments (e.g. SAF Mojave and San Bernardino), and also separately for each junction in multi-fault events. This is done using the UCERF3 'named faults' list to determine if multiple fault sections belong to the same master fault. We only consider ruptures where at least 2 subsections participated (2 on each side of the jump for multi-fault ruptures).</p>
+<p>These plots show the slip along rupture distiribution, noted D<sub>SR</sub> in UCERF3. First we compute average slip along each mapped subsection at mid-seismogenic depth (using the <em>Full Mapped Subsection Length</em> algorithm), then plot that slip along strike, normalized by the maximum slip across all subsections in that rupture. We do this for single-fault events, which can span multiple segments (e.g. SAF Mojave and San Bernardino), and also separately for each junction in multi-fault events. This is done using the UCERF3 'named faults' list to determine if multiple fault sections belong to the same master fault. We only consider ruptures where at least 2 subsections participated (2 on each side of the jump for multi-fault ruptures).</p>
 <p>Ruptures are binned by their length in each row below. For multi-fault ruptures, the junction point is at x=0 with the shorter side of the rupture on the left (below zero), and longer half on the right</p>
 <p>Average values are plotted with a solid black line, and sqrt(sin(|x*π|)) in a dashed gray line (normalized length plots only).</p>
 <table>
