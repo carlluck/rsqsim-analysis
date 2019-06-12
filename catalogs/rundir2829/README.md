@@ -11,6 +11,7 @@
 | **Frictional Params** | a=0.001, b=0.01, (b-a)=0.009, ddotEQ=1.0 |
 
 * [Metadata](#metadata)
+* [Hazard Comparisons](#hazard-comparisons)
 * [BBP Calculations, LA Basin 863 (m/s) Velocity Model](#bbp-calculations-la-basin-863-ms-velocity-model)
   * [Single Event Comparisons, LA Basin 863 (m/s)](#single-event-comparisons-la-basin-863-ms)
   * [Full Catalog GMPE Comparisons, LA Basin 863 (m/s)](#full-catalog-gmpe-comparisons-la-basin-863-ms)
@@ -38,6 +39,16 @@
     * [Paleo Open Interval Plots, UCERF3](#paleo-open-interval-plots-ucerf3)
   * [Moment Release Variability Plots](#moment-release-variability-plots)
 * [Input File](#input-file)
+
+## Hazard Comparisons
+*[(top)](#bruce-2829)*
+
+* [PGA](hazard_pga/)
+* [0.2s SA](hazard_sa_0.2s/)
+* [1.0s SA](hazard_sa_1.0s/)
+* [10.0s SA](hazard_sa_10.0s/)
+* [2.0s SA](hazard_sa_2.0s/)
+* [5.0s SA](hazard_sa_5.0s/)
 
 ## BBP Calculations, LA Basin 863 (m/s) Velocity Model
 *[(top)](#bruce-2829)*
