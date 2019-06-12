@@ -42,6 +42,7 @@
   * [Element/Subsection Interevent Time Comparisons](#elementsubsection-interevent-time-comparisons)
     * [Element Interevent Time Comparisons](#element-interevent-time-comparisons)
     * [Subsection Interevent Time Comparisons](#subsection-interevent-time-comparisons)
+  * [Paleo Recurrence Plots](#paleo-recurrence-plots)
   * [Paleo Open Interval Plots](#paleo-open-interval-plots)
     * [Paleo Open Interval Plots, Biasi and Sharer 2019](#paleo-open-interval-plots-biasi-and-sharer-2019)
     * [Paleo Open Interval Plots, UCERF3](#paleo-open-interval-plots-ucerf3)
@@ -281,6 +282,47 @@ Slip rates are calculated at mid-seismogenic depth: no deeper than 8 km, no shal
 | **M≥6.5** | ![Subsection Scatter](resources/interevent_sub_sects_m6.5_scatter.png) | ![Subsection 2-D Hist](resources/interevent_sub_sects_m6.5_hist2D.png) |
 | **M≥7.0** | ![Subsection Scatter](resources/interevent_sub_sects_m7_scatter.png) | ![Subsection 2-D Hist](resources/interevent_sub_sects_m7_hist2D.png) |
 | **M≥7.5** | ![Subsection Scatter](resources/interevent_sub_sects_m7.5_scatter.png) | ![Subsection 2-D Hist](resources/interevent_sub_sects_m7.5_hist2D.png) |
+
+### Paleo Recurrence Plots
+*[(top)](#bruce-2585-1myr)*
+
+| ![Paleo Plot](resources/paleo_recurrence_raw_sect_rate.png) | ![Paleo Plot](resources/paleo_recurrence_paleo_sect_rate.png) |
+|-----|-----|
+| ![Paleo Plot](resources/paleo_recurrence_raw_elem_rate.png) | ![Paleo Plot](resources/paleo_recurrence_paleo_elem_rate.png) |
+
+| Paleoseismic Site Name | UCERF3 Rate | UCERF3 95% Conf | UCERF3 68% Conf | Sim Subsection Rate | Sim Paleo-Detectable Subsection Rate | Sim Element Rate | Sim Paleo-Detectable Element Rate |
+|-----|-----|-----|-----|-----|-----|-----|-----|
+| Calaveras fault - North | 0.001618 | [8.41E-4 0.0031128] | [0.0011644 0.0022419] | 0.008768692 | 0.0053412807 | 0.0027172712 | 0.0022971644 |
+| Compton | 3.762E-4 | [1.647E-4 8.592E-4] | [2.464E-4 5.721E-4] | 0.0015426959 | 0.0011161239 | 0.0 | 0.0 |
+| Elsinore - Glen Ivy | 0.0055828 | [0.0038119 0.0081764] | [0.0046288 0.00677] | 0.0020682958 | 0.0015783713 | 0.0012387708 | 0.0011976741 |
+| Elsinore Fault - Julian | 3.076E-4 | [7.8E-6 0.0011347] | [5.35E-5 5.62E-4] | 6.3593575E-4 | 6.1095273E-4 | 6.0584414E-4 | 5.983845E-4 |
+| Elsinore - Temecula | 9.812E-4 | [1.06E-5 0.090633] | [5.225E-4 0.0018758] | 0.0015176196 | 0.0012179044 | 0.0010832975 | 0.0010570592 |
+| Elsinore - Whittier | 3.128E-4 | [7.9E-6 0.0011538] | [5.45E-5 5.725E-4] | 0.001000044 | 7.4916426E-4 | 4.5839534E-4 | 4.4663626E-4 |
+| Frazier Mountian, SSAF | 0.0067307 | [0.0037115 0.0122057] | [0.0049697 0.0090886] | 0.007441652 | 0.006715215 | 0.006593069 | 0.006358392 |
+| Garlock Central (all events) | 6.969E-4 | [3.037E-4 0.0015988] | [4.591E-4 0.0010631] | 0.0012287402 | 0.0011838555 | 0.0011906242 | 0.0011775665 |
+| Garlock - Western (all events) | 8.129E-4 | [3.459E-4 0.00191] | [5.294E-4 0.0012535] | 0.0011214135 | 9.986702E-4 | 9.077632E-4 | 8.958566E-4 |
+| Green Valley - Mason Road | 0.0034094 | [0.0018448 0.0063008] | [0.0025038 0.004657] | 0.0012016578 | 6.0914905E-4 | 2.3270835E-4 | 2.1744035E-4 |
+| Hayward fault - North | 0.0031413 | [0.0020308 0.0048591] | [0.0025239 0.0039174] | 0.0025016149 | 0.0020774251 | 0.001958963 | 0.0019202144 |
+| Hayward fault - South | 0.0059677 | [0.0046073 0.0077298] | [0.0052416 0.0068047] | 0.0055508967 | 0.003305852 | 0.001807502 | 0.0017297734 |
+| N. San Andreas - Alder Creek | 0.0011499 | [2.91E-5 0.0042417] | [2.006E-4 0.0021088] | 0.004126561 | 0.0040145763 | 0.0040413016 | 0.003995564 |
+| N. San Andreas - Santa Cruz Seg. | 0.0091041 | [0.0054923 0.0150912] | [0.0070415 0.0117617] | 0.00683982 | 0.0051511074 | 0.004476627 | 0.0042036925 |
+| N. San Andreas -  Fort Ross | 0.003265 | [0.0023217 0.0045915] | [0.0027356 0.0038814] | 0.004162671 | 0.004052146 | 0.004073399 | 0.004026125 |
+| N. San Andreas - North Coast | 0.0037898 | [0.0024481 0.0058668] | [0.0030343 0.0047303] | 0.0045829504 | 0.0042250096 | 0.0041757105 | 0.004117597 |
+| N. San Andreas -Offshore Noyo | 0.0053293 | [0.004035 0.0070387] | [0.0046304 0.0061415] | 0.004730399 | 0.004347228 | 0.0 | 0.0 |
+| Puente Hills | 2.852E-4 | [1.909E-4 4.262E-4] | [2.319E-4 3.518E-4] | 7.021373E-4 | 4.990211E-4 | 0.0 | 0.0 |
+| San Gregorio - North | 9.813E-4 | [2.48E-5 0.0036199] | [1.717E-4 0.0018047] | 0.002543743 | 0.002165311 | 0.0019709996 | 0.0019304156 |
+| Rodgers Creek | 0.003074 | [0.001274 0.0074173] | [0.0019892 0.004789] | 0.0048266924 | 0.0028739776 | 0.002072308 | 0.0019985388 |
+| San Jacinto - Hog Lake | 0.0032074 | [0.0018202 0.0056519] | [0.0024066 0.0042752] | 0.0025517675 | 0.0024729003 | 0.0024755355 | 0.0024466803 |
+| San Jacinto - Superstition | 0.0019675 | [5.929E-4 0.0065288] | [0.0010666 0.0036454] | 0.0016550379 | 0.0013456646 | 0.0010130837 | 9.226028E-4 |
+| S. SAF- Carrizo Bidart | 0.0087179 | [0.0048746 0.0155916] | [0.0064913 0.0117016] | 0.008051508 | 0.0066333357 | 0.005989231 | 0.005894856 |
+| S. San Andreas - Burro Flats                          | 0.0048677 | [0.002824 0.0083903] | [0.0036799 0.0064073] | 0.0072540813 | 0.0041485326 | 0.0033411703 | 0.0028308397 |
+| S. San Andreas - Coachella | 0.0056037 | [0.0031142 0.0100834] | [0.0041571 0.0075507] | 0.0068859607 | 0.0053759506 | 0.0038888375 | 0.0037919066 |
+| S. San Andreas - Indio   | 0.0036053 | [0.0022287 0.0058323] | [0.002805 0.0046111] | 0.0068859607 | 0.0053759506 | 0.0041847383 | 0.0040601175 |
+| S. San Andreas - Pallett Creek | 0.006698 | [0.0044376 0.0101097] | [0.005447 0.0082553] | 0.005123596 | 0.0050253547 | 0.005081468 | 0.0050275642 |
+| S. San Andreas - Pitman Canyon       | 0.0057643 | [0.003515 0.0094529] | [0.0044747 0.0074149] | 0.0064636753 | 0.0048317555 | 0.004804625 | 0.0045684604 |
+| S. San Andreas - Plunge Creek    | 0.0048695 | [0.0028965 0.0081864] | [0.0036725 0.0062762] | 0.006568996 | 0.0039884737 | 0.0016811172 | 0.0015094049 |
+| S. SAF M. Creek - 1000 Palms | 0.0038266 | [0.0024425 0.0059951] | [0.0030666 0.0047993] | 0.0053211977 | 0.004012116 | 0.002203708 | 0.002103523 |
+| S. San Andreas - Wrightwood         | 0.0094304 | [0.0067778 0.0131212] | [0.0079741 0.0111519] | 0.005100526 | 0.0049956534 | 0.005069431 | 0.005016221 |
 
 ### Paleo Open Interval Plots
 *[(top)](#bruce-2585-1myr)*
