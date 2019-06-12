@@ -1,0 +1,53 @@
+
+X-Axis: 1.0s SA (g)
+Y-Axis: Annual Probabilitiy
+Number of Data Sets: 6
+
+
+DATASET #1
+
+org.opensha.commons.data.function.LightFixedXFunc@1b1426f4
+
+DATASET #2
+
+org.opensha.commons.data.function.LightFixedXFunc@32b260fa
+
+DATASET #3
+
+org.opensha.commons.data.function.LightFixedXFunc@581ac8a8
+
+DATASET #4
+
+Name: 1000yr
+Num Points: 2
+Info: 
+
+X, Y Data:
+0.001	0.001
+10.0	0.001
+
+
+
+DATASET #5
+
+Name: 2500yr
+Num Points: 2
+Info: 
+
+X, Y Data:
+0.001	4.0E-4
+10.0	4.0E-4
+
+
+
+DATASET #6
+
+Name: 10000yr
+Num Points: 2
+Info: 
+
+X, Y Data:
+0.001	1.0E-4
+10.0	1.0E-4
+
+
