@@ -11,6 +11,7 @@
 | **Frictional Params** | a=0.001, b=0.008, (b-a)=0.007, ddotEQ=1 |
 
 * [Metadata](#metadata)
+* [Hazard Comparisons](#hazard-comparisons)
 * [BBP Calculations, LA Basin 863 (m/s) Velocity Model](#bbp-calculations-la-basin-863-ms-velocity-model)
   * [Single Event Comparisons, LA Basin 863 (m/s)](#single-event-comparisons-la-basin-863-ms)
   * [Full Catalog GMPE Comparisons, LA Basin 863 (m/s)](#full-catalog-gmpe-comparisons-la-basin-863-ms)
@@ -35,6 +36,7 @@
   * [Rupture Velocity Plots](#rupture-velocity-plots)
   * [Global Interevent-Time Distributions](#global-interevent-time-distributions)
   * [Normalized Fault Interevent-Time Distributions](#normalized-fault-interevent-time-distributions)
+  * [Normalized Rupture Interevent-Time Distributions](#normalized-rupture-interevent-time-distributions)
   * [Stationarity Plot](#stationarity-plot)
   * [Element/Subsection Interevent Time Comparisons](#elementsubsection-interevent-time-comparisons)
     * [Element Interevent Time Comparisons](#element-interevent-time-comparisons)
@@ -45,6 +47,16 @@
     * [Paleo Open Interval Plots, UCERF3](#paleo-open-interval-plots-ucerf3)
   * [Moment Release Variability Plots](#moment-release-variability-plots)
 * [Input File](#input-file)
+
+## Hazard Comparisons
+*[(top)](#bruce-2740)*
+
+* [PGA](hazard_pga/)
+* [0.2s SA](hazard_sa_0.2s/)
+* [1.0s SA](hazard_sa_1.0s/)
+* [10.0s SA](hazard_sa_10.0s/)
+* [2.0s SA](hazard_sa_2.0s/)
+* [5.0s SA](hazard_sa_5.0s/)
 
 ## BBP Calculations, LA Basin 863 (m/s) Velocity Model
 *[(top)](#bruce-2740)*
@@ -237,11 +249,21 @@ Slip rates are calculated at mid-seismogenic depth: no deeper than 8 km, no shal
 ### Normalized Fault Interevent-Time Distributions
 *[(top)](#bruce-2740)*
 
+These plots show interevent-time distributions for a point on a fault (either an element,  or aggregated at the subsection or parent section level).
+
 |  | **M≥6** | **M≥6.5** | **M≥7** | **M≥7.5** |
 |-----|-----|-----|-----|-----|
 | **Elements** | ![Norm RIs](resources/norm_ri_elem_m6.png) | ![Norm RIs](resources/norm_ri_elem_m6.5.png) | ![Norm RIs](resources/norm_ri_elem_m7.png) | ![Norm RIs](resources/norm_ri_elem_m7.5.png) |
 | **Subsections** | ![Norm RIs](resources/norm_ri_subsect_m6.png) | ![Norm RIs](resources/norm_ri_subsect_m6.5.png) | ![Norm RIs](resources/norm_ri_subsect_m7.png) | ![Norm RIs](resources/norm_ri_subsect_m7.5.png) |
 | **Sections** | ![Norm RIs](resources/norm_ri_parent_m6.png) | ![Norm RIs](resources/norm_ri_parent_m6.5.png) | ![Norm RIs](resources/norm_ri_parent_m7.png) | ![Norm RIs](resources/norm_ri_parent_m7.5.png) |
+### Normalized Rupture Interevent-Time Distributions
+*[(top)](#bruce-2740)*
+
+These plots show interevent-time distributions, averaged over a rupture, similar to the UCERF3 BPT calculation. For each rupture, we compute the average normalized open interval across all subsections which participate.
+
+| **M≥6** | **M≥6.5** | **M≥7** | **M≥7.5** |
+|-----|-----|-----|-----|
+| ![Norm RIs](resources/u3_norm_ri_m6.png) | ![Norm RIs](resources/u3_norm_ri_m6.5.png) | ![Norm RIs](resources/u3_norm_ri_m7.png) | ![Norm RIs](resources/u3_norm_ri_m7.5.png) |
 ### Stationarity Plot
 *[(top)](#bruce-2740)*
 

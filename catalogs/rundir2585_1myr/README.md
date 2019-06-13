@@ -38,6 +38,7 @@
   * [Rupture Velocity Plots](#rupture-velocity-plots)
   * [Global Interevent-Time Distributions](#global-interevent-time-distributions)
   * [Normalized Fault Interevent-Time Distributions](#normalized-fault-interevent-time-distributions)
+  * [Normalized Rupture Interevent-Time Distributions](#normalized-rupture-interevent-time-distributions)
   * [Stationarity Plot](#stationarity-plot)
   * [Element/Subsection Interevent Time Comparisons](#elementsubsection-interevent-time-comparisons)
     * [Element Interevent Time Comparisons](#element-interevent-time-comparisons)
@@ -250,11 +251,21 @@ Slip rates are calculated at mid-seismogenic depth: no deeper than 8 km, no shal
 ### Normalized Fault Interevent-Time Distributions
 *[(top)](#bruce-2585-1myr)*
 
+These plots show interevent-time distributions for a point on a fault (either an element,  or aggregated at the subsection or parent section level).
+
 |  | **M≥6** | **M≥6.5** | **M≥7** | **M≥7.5** |
 |-----|-----|-----|-----|-----|
 | **Elements** | ![Norm RIs](resources/norm_ri_elem_m6.png) | ![Norm RIs](resources/norm_ri_elem_m6.5.png) | ![Norm RIs](resources/norm_ri_elem_m7.png) | ![Norm RIs](resources/norm_ri_elem_m7.5.png) |
 | **Subsections** | ![Norm RIs](resources/norm_ri_subsect_m6.png) | ![Norm RIs](resources/norm_ri_subsect_m6.5.png) | ![Norm RIs](resources/norm_ri_subsect_m7.png) | ![Norm RIs](resources/norm_ri_subsect_m7.5.png) |
 | **Sections** | ![Norm RIs](resources/norm_ri_parent_m6.png) | ![Norm RIs](resources/norm_ri_parent_m6.5.png) | ![Norm RIs](resources/norm_ri_parent_m7.png) | ![Norm RIs](resources/norm_ri_parent_m7.5.png) |
+### Normalized Rupture Interevent-Time Distributions
+*[(top)](#bruce-2585-1myr)*
+
+These plots show interevent-time distributions, averaged over a rupture, similar to the UCERF3 BPT calculation. For each rupture, we compute the average normalized open interval across all subsections which participate.
+
+| **M≥6** | **M≥6.5** | **M≥7** | **M≥7.5** |
+|-----|-----|-----|-----|
+| ![Norm RIs](resources/u3_norm_ri_m6.png) | ![Norm RIs](resources/u3_norm_ri_m6.5.png) | ![Norm RIs](resources/u3_norm_ri_m7.png) | ![Norm RIs](resources/u3_norm_ri_m7.5.png) |
 ### Stationarity Plot
 *[(top)](#bruce-2585-1myr)*
 

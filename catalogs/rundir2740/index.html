@@ -37,6 +37,7 @@ img {
 </table>
 <ul>
 <li><a href="#metadata">Metadata</a></li>
+<li><a href="#hazard-comparisons">Hazard Comparisons</a></li>
 <li><a href="#bbp-calculations-la-basin-863-ms-velocity-model">BBP Calculations, LA Basin 863 (m/s) Velocity Model</a>
 <ul>
 <li><a href="#single-event-comparisons-la-basin-863-ms">Single Event Comparisons, LA Basin 863 (m/s)</a></li>
@@ -80,6 +81,7 @@ img {
 <li><a href="#rupture-velocity-plots">Rupture Velocity Plots</a></li>
 <li><a href="#global-interevent-time-distributions">Global Interevent-Time Distributions</a></li>
 <li><a href="#normalized-fault-interevent-time-distributions">Normalized Fault Interevent-Time Distributions</a></li>
+<li><a href="#normalized-rupture-interevent-time-distributions">Normalized Rupture Interevent-Time Distributions</a></li>
 <li><a href="#stationarity-plot">Stationarity Plot</a></li>
 <li><a href="#elementsubsection-interevent-time-comparisons">Element/Subsection Interevent Time Comparisons</a>
 <ul>
@@ -98,6 +100,16 @@ img {
 </ul>
 </li>
 <li><a href="#input-file">Input File</a></li>
+</ul>
+<h2 id="hazard-comparisons">Hazard Comparisons</h2>
+<p><em><a href="#bruce-2740">(top)</a></em></p>
+<ul>
+<li><a href="hazard_pga/">PGA</a></li>
+<li><a href="hazard_sa_0.2s/">0.2s SA</a></li>
+<li><a href="hazard_sa_1.0s/">1.0s SA</a></li>
+<li><a href="hazard_sa_10.0s/">10.0s SA</a></li>
+<li><a href="hazard_sa_2.0s/">2.0s SA</a></li>
+<li><a href="hazard_sa_5.0s/">5.0s SA</a></li>
 </ul>
 <h2 id="bbp-calculations-la-basin-863-ms-velocity-model">BBP Calculations, LA Basin 863 (m/s) Velocity Model</h2>
 <p><em><a href="#bruce-2740">(top)</a></em></p>
@@ -308,6 +320,7 @@ img {
 </table>
 <h3 id="normalized-fault-interevent-time-distributions">Normalized Fault Interevent-Time Distributions</h3>
 <p><em><a href="#bruce-2740">(top)</a></em></p>
+<p>These plots show interevent-time distributions for a point on a fault (either an element,  or aggregated at the subsection or parent section level).</p>
 <table>
 <thead>
 <tr><th></th><th><strong>M≥6</strong></th><th><strong>M≥6.5</strong></th><th><strong>M≥7</strong></th><th><strong>M≥7.5</strong></th></tr>
@@ -316,6 +329,17 @@ img {
 <tr><td><strong>Elements</strong></td><td><img src="resources/norm_ri_elem_m6.png" alt="Norm RIs" /></td><td><img src="resources/norm_ri_elem_m6.5.png" alt="Norm RIs" /></td><td><img src="resources/norm_ri_elem_m7.png" alt="Norm RIs" /></td><td><img src="resources/norm_ri_elem_m7.5.png" alt="Norm RIs" /></td></tr>
 <tr><td><strong>Subsections</strong></td><td><img src="resources/norm_ri_subsect_m6.png" alt="Norm RIs" /></td><td><img src="resources/norm_ri_subsect_m6.5.png" alt="Norm RIs" /></td><td><img src="resources/norm_ri_subsect_m7.png" alt="Norm RIs" /></td><td><img src="resources/norm_ri_subsect_m7.5.png" alt="Norm RIs" /></td></tr>
 <tr><td><strong>Sections</strong></td><td><img src="resources/norm_ri_parent_m6.png" alt="Norm RIs" /></td><td><img src="resources/norm_ri_parent_m6.5.png" alt="Norm RIs" /></td><td><img src="resources/norm_ri_parent_m7.png" alt="Norm RIs" /></td><td><img src="resources/norm_ri_parent_m7.5.png" alt="Norm RIs" /></td></tr>
+</tbody>
+</table>
+<h3 id="normalized-rupture-interevent-time-distributions">Normalized Rupture Interevent-Time Distributions</h3>
+<p><em><a href="#bruce-2740">(top)</a></em></p>
+<p>These plots show interevent-time distributions, averaged over a rupture, similar to the UCERF3 BPT calculation. For each rupture, we compute the average normalized open interval across all subsections which participate.</p>
+<table>
+<thead>
+<tr><th><strong>M≥6</strong></th><th><strong>M≥6.5</strong></th><th><strong>M≥7</strong></th><th><strong>M≥7.5</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/u3_norm_ri_m6.png" alt="Norm RIs" /></td><td><img src="resources/u3_norm_ri_m6.5.png" alt="Norm RIs" /></td><td><img src="resources/u3_norm_ri_m7.png" alt="Norm RIs" /></td><td><img src="resources/u3_norm_ri_m7.5.png" alt="Norm RIs" /></td></tr>
 </tbody>
 </table>
 <h3 id="stationarity-plot">Stationarity Plot</h3>
