@@ -12,6 +12,7 @@
 
 * [Metadata](#metadata)
 * [Hazard Comparisons](#hazard-comparisons)
+* [Multi-Fault Rupture Comparisons](multi_fault/)
 * [Parent Section MFDs](parent_sect_mfds/)
 * [BBP Calculations, LA Basin 500 (m/s) Velocity Model](#bbp-calculations-la-basin-500-ms-velocity-model)
   * [Full Catalog GMPE Comparisons, LA Basin 500 (m/s)](#full-catalog-gmpe-comparisons-la-basin-500-ms)
@@ -50,6 +51,11 @@
 * [10.0s SA](hazard_sa_10.0s/)
 * [2.0s SA](hazard_sa_2.0s/)
 * [5.0s SA](hazard_sa_5.0s/)
+
+## Multi-Fault Rupture Comparisons
+*[(top)](#bruce-3271)*
+
+[Multi-Fault Rupture Comparisons here](multi_fault/)
 
 ## Parent Section MFDs
 *[(top)](#bruce-3271)*

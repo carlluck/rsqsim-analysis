@@ -11,6 +11,7 @@
 | **Frictional Params** | a=0.001, b=0.008, (b-a)=0.007, ddotEQ=1 |
 
 * [Metadata](#metadata)
+* [Multi-Fault Rupture Comparisons](multi_fault/)
 * [Parent Section MFDs](parent_sect_mfds/)
 * [Extreme Event Examples](extreme_events/)
 * [Occupancy Copulas](#occupancy-copulas)
@@ -50,6 +51,11 @@
     * [Paleo Open Interval Plots, UCERF3](#paleo-open-interval-plots-ucerf3)
   * [Moment Release Variability Plots](#moment-release-variability-plots)
 * [Input File](#input-file)
+
+## Multi-Fault Rupture Comparisons
+*[(top)](#bruce-2585-1myr)*
+
+[Multi-Fault Rupture Comparisons here](multi_fault/)
 
 ## Parent Section MFDs
 *[(top)](#bruce-2585-1myr)*
