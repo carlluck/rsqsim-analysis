@@ -11,6 +11,7 @@
 | **Frictional Params** | a=0.001, b=0.008, (b-a)=0.007, ddotEQ=1 |
 
 * [Metadata](#metadata)
+* [Parent Section MFDs](parent_sect_mfds/)
 * [Extreme Event Examples](extreme_events/)
 * [Occupancy Copulas](#occupancy-copulas)
 * [BBP Calculations, LA Basin 863 (m/s) Velocity Model](#bbp-calculations-la-basin-863-ms-velocity-model)
@@ -49,6 +50,11 @@
     * [Paleo Open Interval Plots, UCERF3](#paleo-open-interval-plots-ucerf3)
   * [Moment Release Variability Plots](#moment-release-variability-plots)
 * [Input File](#input-file)
+
+## Parent Section MFDs
+*[(top)](#bruce-2585-1myr)*
+
+[Parent Section MFDs here](parent_sect_mfds/)
 
 ## Extreme Event Examples
 *[(top)](#bruce-2585-1myr)*

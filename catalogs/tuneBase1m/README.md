@@ -11,6 +11,7 @@
 | **Frictional Params** | a=0.01, b=0.015, (b-a)=0.005, ddotEQ=1 |
 
 * [Metadata](#metadata)
+* [Parent Section MFDs](parent_sect_mfds/)
 * [BBP Calculations, LA Basin 863 (m/s) Velocity Model](#bbp-calculations-la-basin-863-ms-velocity-model)
   * [Full Catalog GMPE Comparisons, LA Basin 863 (m/s)](#full-catalog-gmpe-comparisons-la-basin-863-ms)
   * [Full Catalog RotD100/RotD50 Ratios, LA Basin 863 (m/s)](bbp_LA_BASIN_863/catalog_rotd_ratio_comparisons/)
@@ -39,6 +40,11 @@
     * [Paleo Open Interval Plots, UCERF3](#paleo-open-interval-plots-ucerf3)
   * [Moment Release Variability Plots](#moment-release-variability-plots)
 * [Input File](#input-file)
+
+## Parent Section MFDs
+*[(top)](#jg-tune-base-1m)*
+
+[Parent Section MFDs here](parent_sect_mfds/)
 
 ## BBP Calculations, LA Basin 863 (m/s) Velocity Model
 *[(top)](#jg-tune-base-1m)*
