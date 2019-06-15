@@ -41,6 +41,7 @@
     * [Paleo Open Interval Plots, Biasi and Sharer 2019](#paleo-open-interval-plots-biasi-and-sharer-2019)
     * [Paleo Open Interval Plots, UCERF3](#paleo-open-interval-plots-ucerf3)
   * [Moment Release Variability Plots](#moment-release-variability-plots)
+  * [Trigger Hypocenter Statistics Within Previous Rupture Area](#trigger-hypocenter-statistics-within-previous-rupture-area)
 * [Input File](#input-file)
 
 ## Multi-Fault Rupture Comparisons
@@ -416,6 +417,14 @@ We first create a tapered moment release time series for the entire catalog. Eac
 We then compute Welch's power spectral density estimate on the entire time series. Results are plotted below, with a Poisson randomization of the catalog also plotted in a gray line, and the 95% confidence bounds from 200 realizations as a light gray shaded area. Significant deviations outside the Poisson confidence intervals indicate synchronous behaviour.
 
 ![Welch PSD](resources/moment_variability_welch.png)
+
+### Trigger Hypocenter Statistics Within Previous Rupture Area
+*[(top)](#jg-tune-base-1m)*
+
+| ![hypocenter plot](resources/trigger_within_prev_1yr.png) |
+|-----|
+| ![hypocenter plot](resources/trigger_within_prev_10yr.png) |
+| ![hypocenter plot](resources/trigger_within_prev_100yr.png) |
 
 ## Input File
 *[(top)](#jg-tune-base-1m)*
