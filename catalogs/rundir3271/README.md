@@ -434,10 +434,11 @@ We then compute Welch's power spectral density estimate on the entire time serie
 ### Trigger Hypocenter Statistics Within Previous Rupture Area
 *[(top)](#bruce-3271)*
 
-| ![hypocenter plot](resources/trigger_within_prev_1yr.png) |
-|-----|
-| ![hypocenter plot](resources/trigger_within_prev_10yr.png) |
-| ![hypocenter plot](resources/trigger_within_prev_100yr.png) |
+| M≥6 | M≥6.5 | M≥7 |
+|-----|-----|-----|
+| ![hypocenter plot](resources/trigger_within_prev_m6_1yr.png) | ![hypocenter plot](resources/trigger_within_prev_m6.5_1yr.png) | ![hypocenter plot](resources/trigger_within_prev_m7_1yr.png) |
+| ![hypocenter plot](resources/trigger_within_prev_m6_10yr.png) | ![hypocenter plot](resources/trigger_within_prev_m6.5_10yr.png) | ![hypocenter plot](resources/trigger_within_prev_m7_10yr.png) |
+| ![hypocenter plot](resources/trigger_within_prev_m6_100yr.png) | ![hypocenter plot](resources/trigger_within_prev_m6.5_100yr.png) | ![hypocenter plot](resources/trigger_within_prev_m7_100yr.png) |
 
 ## Input File
 *[(top)](#bruce-3271)*
