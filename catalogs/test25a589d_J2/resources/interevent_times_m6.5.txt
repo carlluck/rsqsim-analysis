@@ -1,47 +1,74 @@
 
-X-Axis: Interevent Time (years)
-Y-Axis: Count
-Number of Data Sets: 2
+X-Axis: Log10 Interevent Time (years)
+Y-Axis: Probability Density (1/yr)
+Number of Data Sets: 5
 
 
 DATASET #1
 
-     Name: JG Test Calc Siffness 2 Histogram
-   Points: 20
+     Name: Simulated
+   Points: 5
      Info: 
 
 Data[x,y]:
-1050.0	  1.0
-1150.0	  12.0
-1250.0	  50.0
-1350.0	  52.0
-1450.0	  42.0
-1550.0	  26.0
-1650.0	  11.0
-1750.0	  6.0
-1850.0	  2.0
-1950.0	  1.0
-2050.0	  0.0
-2150.0	  0.0
-2250.0	  3.0
-2350.0	  4.0
-2450.0	  5.0
-2550.0	  2.0
-2650.0	  3.0
-2750.0	  0.0
-2850.0	  0.0
-2950.0	  1.0
+3.05	  7.689281E-4
+3.15	  0.0018462252
+3.25	  2.8668594E-4
+3.35	  1.051028E-4
+3.45	  4.174306E-5
 
 
 
 DATASET #2
 
-Name: JG Test Calc Siffness 2 Mean=1480.29
+Name: Mean=1480.29
 Num Points: 2
 Info: 
 
 X, Y Data:
-1480.2937	  0.0
-1480.2937	  62.4
+3.170348	  1.0E-5
+3.170348	  0.01
+
+
+
+DATASET #3
+
+     Name: Poisson
+   Points: 5
+     Info: 
+
+Data[x,y]:
+3.05	  3.118681E-4
+3.15	  2.5571501E-4
+3.25	  1.9936184E-4
+3.35	  1.4594923E-4
+3.45	  9.879631E-5
+
+
+
+DATASET #4
+
+Name: Power-Law Fit
+Num Points: 6
+Info: 
+
+X, Y Data:
+2.9469726	3.118681E-4
+3.05	7.689281E-4
+3.15	0.0018462252
+3.25	0.004432856
+3.35	0.010643455
+3.45	0.025555335
+
+
+
+DATASET #5
+
+Name: 
+Num Points: 1
+Info: 
+
+X, Y Data:
+2.9469726	3.118681E-4
 
 

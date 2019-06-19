@@ -47,9 +47,21 @@ img {
 <li><a href="#magnitude-frequency-plot">Magnitude-Frequency Plot</a></li>
 <li><a href="#magnitude-area-plots">Magnitude-Area Plots</a></li>
 <li><a href="#slip-area-plots">Slip-Area Plots</a></li>
+<li><a href="#slip-length-plots">Slip-Length Plots</a></li>
+<li><a href="#slip-along-rupture-dsr-plots">Slip Along Rupture (Dsr) Plots</a>
+<ul>
+<li><a href="#two--and-three-fault-slip-along-rupture">Two- and Three-Fault Slip Along Rupture</a></li>
+</ul>
+</li>
+<li><a href="#slip-rate-plots">Slip Rate Plots</a>
+<ul>
+<li><a href="#slip-rate-fault-plots">Slip Rate Fault Plots</a></li>
+</ul>
+</li>
 <li><a href="#rupture-velocity-plots">Rupture Velocity Plots</a></li>
 <li><a href="#global-interevent-time-distributions">Global Interevent-Time Distributions</a></li>
 <li><a href="#normalized-fault-interevent-time-distributions">Normalized Fault Interevent-Time Distributions</a></li>
+<li><a href="#normalized-rupture-interevent-time-distributions">Normalized Rupture Interevent-Time Distributions</a></li>
 <li><a href="#stationarity-plot">Stationarity Plot</a></li>
 <li><a href="#elementsubsection-interevent-time-comparisons">Element/Subsection Interevent Time Comparisons</a>
 <ul>
@@ -57,6 +69,15 @@ img {
 <li><a href="#subsection-interevent-time-comparisons">Subsection Interevent Time Comparisons</a></li>
 </ul>
 </li>
+<li><a href="#paleo-recurrence-plots">Paleo Recurrence Plots</a></li>
+<li><a href="#paleo-open-interval-plots">Paleo Open Interval Plots</a>
+<ul>
+<li><a href="#paleo-open-interval-plots-biasi-and-sharer-2019">Paleo Open Interval Plots, Biasi and Sharer 2019</a></li>
+<li><a href="#paleo-open-interval-plots-ucerf3">Paleo Open Interval Plots, UCERF3</a></li>
+</ul>
+</li>
+<li><a href="#moment-release-variability-plots">Moment Release Variability Plots</a></li>
+<li><a href="#trigger-hypocenter-statistics-within-previous-rupture-area">Trigger Hypocenter Statistics Within Previous Rupture Area</a></li>
 </ul>
 </li>
 <li><a href="#input-file">Input File</a></li>
@@ -93,6 +114,88 @@ img {
 <tr><td><img src="resources/slip_area.png" alt="Slip Area Scatter" /></td><td><img src="resources/slip_area_hist2D.png" alt="Slip Area Hist" /></td></tr>
 </tbody>
 </table>
+<h3 id="slip-length-plots">Slip-Length Plots</h3>
+<p><em><a href="#bruce-3014">(top)</a></em></p>
+<p>These plots compute average slip-length scaling at mid-seismogenic depth. We define mid-seismogenic depth to be no deeper than 8 km, no shallower than 4 km, and no less than 2 km down- or up-dip from the top or bottom of the fault. Average slip is computed across all elements in this mid-seismogenic region, including any which did not slip, along the full length of the rupture.</p>
+<p>We define the rupture length, which also determines the region at mid-seismogenic depth across which we compute average slip, multiple ways in order to test sensitivity:</p>
+<ul>
+<li><strong>Full Mapped Subsection Length:</strong> Average slip in the mid-seismogenic zone across the whole length of each mapped subsection</li>
+<li><strong>Full Slipped Length:</strong> Average slip in the mid-seismogenic zone across the section of fault that slipped (regardless of if that slip was in the mid-seismgenic zone or not)</li>
+<li><strong>Mid-Seismogenic Slipped Length:</strong> Average slip in the mid-seismogenic zone across the section of fault that slipped in that mid-seismogenic zone (including any holes with no slip)</li>
+<li><strong>Surface Slipped Length:</strong> Average slip in the mid-seismogenic zone across the section of fault that had surface slip</li>
+</ul>
+<p>These length algorithms are illustrated in the following example plot, which also has the mid-seismogenic depth range outlined in a cyan dashed line:</p>
+<p><img src="resources/slip_len_example_rupture.png" alt="Example plot" /></p>
+<p>The average value is plotted in a thick gray line, and UCERF3 Scaling Relationships in colored lines (assuming a down dip width of 12 km).</p>
+<table>
+<thead>
+<tr><th>Lengh Algorithm</th><th>Scatter</th><th>2-D Hist</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Full Mapped Subsection Length</strong></td><td><img src="resources/slip_len_MID_SEIS_FULL_SUBSECTION_LEN.png" alt="Slip Length Scatter" /></td><td><img src="resources/slip_len_MID_SEIS_FULL_SUBSECTION_LEN_hist2D.png" alt="Slip Length Hist" /></td></tr>
+<tr><td><strong>Full Slipped Length</strong></td><td><img src="resources/slip_len_MID_SEIS_SLIPPED_LEN.png" alt="Slip Length Scatter" /></td><td><img src="resources/slip_len_MID_SEIS_SLIPPED_LEN_hist2D.png" alt="Slip Length Hist" /></td></tr>
+<tr><td><strong>Mid-Seismogenic Slipped Length</strong></td><td><img src="resources/slip_len_MID_SEIS_MID_SLIPPED_LEN.png" alt="Slip Length Scatter" /></td><td><img src="resources/slip_len_MID_SEIS_MID_SLIPPED_LEN_hist2D.png" alt="Slip Length Hist" /></td></tr>
+<tr><td><strong>Surface Slipped Length</strong></td><td><img src="resources/slip_len_MID_SEIS_SURF_SLIP_LEN.png" alt="Slip Length Scatter" /></td><td><img src="resources/slip_len_MID_SEIS_SURF_SLIP_LEN_hist2D.png" alt="Slip Length Hist" /></td></tr>
+</tbody>
+</table>
+<h3 id="slip-along-rupture-dsr-plots">Slip Along Rupture (Dsr) Plots</h3>
+<p><em><a href="#bruce-3014">(top)</a></em></p>
+<p>These plots show the slip along rupture distiribution, noted D<sub>SR</sub> in UCERF3. First we compute average slip along each mapped subsection at mid-seismogenic depth (using the <em>Full Slipped Length</em> algorithm), then plot that slip along strike, normalized by the average slip across all subsections in that rupture. We do this for single-fault events, which can span multiple segments (e.g. SAF Mojave and San Bernardino), and also separately for each junction in multi-fault events. This is done using the UCERF3 'named faults' list to determine if multiple fault sections belong to the same master fault. We only consider ruptures where at least 2 subsections participated (2 on each side of the jump for multi-fault ruptures).</p>
+<p>Ruptures are binned by their length in each row below. For multi-fault ruptures, the junction point is at x=0 with the shorter side of the rupture on the left (below zero), and longer half on the right</p>
+<p>Average values are plotted with a solid black line, and 1.311<em>sqrt(sin(|x</em>π|)) in a dashed gray line (normalized length plots only).</p>
+<table>
+<thead>
+<tr><th>Rupture Length</th><th>Single-fault, absolute distance from either rupture endpoint</th><th>Single-fault, normalized distance along strike</th><th>Multi-fault, normalized distance on either side of jump</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>All Lengths</strong></td><td><img src="resources/slip_along_rupture_single_abs.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_single_norm.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_multi_norm.png" alt="Slip Along Rupture" /></td></tr>
+<tr><td><strong>Len=[0 25]</strong></td><td><img src="resources/slip_along_rupture_single_abs_len_0_25.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_single_norm_len_0_25.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_multi_norm_len_0_25.png" alt="Slip Along Rupture" /></td></tr>
+<tr><td><strong>Len=[25 50]</strong></td><td><img src="resources/slip_along_rupture_single_abs_len_25_50.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_single_norm_len_25_50.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_multi_norm_len_25_50.png" alt="Slip Along Rupture" /></td></tr>
+<tr><td><strong>Len=[50 100]</strong></td><td><img src="resources/slip_along_rupture_single_abs_len_50_100.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_single_norm_len_50_100.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_multi_norm_len_50_100.png" alt="Slip Along Rupture" /></td></tr>
+<tr><td><strong>Len≥100</strong></td><td><img src="resources/slip_along_rupture_single_abs_len_100+.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_single_norm_len_100+.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_multi_norm_len_100+.png" alt="Slip Along Rupture" /></td></tr>
+</tbody>
+</table>
+<h4 id="two--and-three-fault-slip-along-rupture">Two- and Three-Fault Slip Along Rupture</h4>
+<p>These plots show D<sub>SR</sub> for two- and three-fault ruptures. Lengths are normalized, with the first fault in x=[0 1], second in x=[1 2], etc. Rupture are organized such that the leftmost side is always shorter than the rightmost side.</p>
+<table>
+<thead>
+<tr><th>Rupture Length</th><th>Two-fault Ruptures</th><th>Three-Fault Ruptures</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>All Lengths</strong></td><td><img src="resources/slip_along_rupture_two_norm.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_three_norm.png" alt="Slip Along Rupture" /></td></tr>
+<tr><td><strong>Len=[0 25]</strong></td><td><img src="resources/slip_along_rupture_two_norm_len_0_25.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_three_norm_len_0_25.png" alt="Slip Along Rupture" /></td></tr>
+<tr><td><strong>Len=[25 50]</strong></td><td><img src="resources/slip_along_rupture_two_norm_len_25_50.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_three_norm_len_25_50.png" alt="Slip Along Rupture" /></td></tr>
+<tr><td><strong>Len=[50 100]</strong></td><td><img src="resources/slip_along_rupture_two_norm_len_50_100.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_three_norm_len_50_100.png" alt="Slip Along Rupture" /></td></tr>
+<tr><td><strong>Len≥100</strong></td><td><img src="resources/slip_along_rupture_two_norm_len_100+.png" alt="Slip Along Rupture" /></td><td><img src="resources/slip_along_rupture_three_norm_len_100+.png" alt="Slip Along Rupture" /></td></tr>
+</tbody>
+</table>
+<h3 id="slip-rate-plots">Slip Rate Plots</h3>
+<p><em><a href="#bruce-3014">(top)</a></em></p>
+<p>Slip rates are calculated at mid-seismogenic depth: no deeper than 8 km, no shallower than 4 km, and no less than 2 km down- or up-dip from the top or bottom of the fault. UCERF3 comparisons are included with the original target slip rate for the fault and deformation model used as input to the simulator when constructing the geometry, but this target is often smoothed and/or modified before use in the simlators. Post-UCERF3 inversion slip rates (which will not perfectly match the target) are also included and labeled as 'UCERF3 Solution'.</p>
+<table>
+<thead>
+<tr><th><p align="center"><strong>Simulation Slip Rate</strong></p></th><th><p align="center"><strong>Simulation vs Target Ratio</strong></p></th><th><p align="center"><strong>UCERF3 Target Slip Rate</strong></p></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/slip_rate_sim_map.png" alt="Slip Rate Plot" /></td><td><img src="resources/slip_rate_sim_ratio_map.png" alt="Slip Rate Plot" /></td><td><img src="resources/slip_rate_u3_target_map.png" alt="Slip Rate Plot" /></td></tr>
+<tr><td><p align="center"><strong>Simulation vs UCERF3 Target Ratio</strong></p></td><td><p align="center"><strong>UCERF3 Solution Slip Rate</strong></p></td><td><p align="center"><strong>UCERF3 Solution vs Target Ratio</strong></p></td></tr>
+<tr><td><img src="resources/slip_rate_sim_u3_ratio_map.png" alt="Slip Rate Plot" /></td><td><img src="resources/slip_rate_u3_sol_map.png" alt="Slip Rate Plot" /></td><td><img src="resources/slip_rate_u3_ratio_map.png" alt="Slip Rate Plot" /></td></tr>
+</tbody>
+</table>
+<h4 id="slip-rate-fault-plots">Slip Rate Fault Plots</h4>
+<p><em><a href="#bruce-3014">(top)</a></em></p>
+<table>
+<thead>
+<tr><th><p align="center"><strong>Calaveras</strong></p></th><th><p align="center"><strong>Elsinore</strong></p></th><th><p align="center"><strong>Garlock</strong></p></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/slip_rate_fault_Calaveras.png" alt="Slip Rate Plot" /></td><td><img src="resources/slip_rate_fault_Elsinore.png" alt="Slip Rate Plot" /></td><td><img src="resources/slip_rate_fault_Garlock.png" alt="Slip Rate Plot" /></td></tr>
+<tr><td><p align="center"><strong>Green Valley</strong></p></td><td><p align="center"><strong>Hayward-Rodgers Creek</strong></p></td><td><p align="center"><strong>San Andreas</strong></p></td></tr>
+<tr><td><img src="resources/slip_rate_fault_Green_Valley.png" alt="Slip Rate Plot" /></td><td><img src="resources/slip_rate_fault_Hayward_Rodgers_Creek.png" alt="Slip Rate Plot" /></td><td><img src="resources/slip_rate_fault_San_Andreas.png" alt="Slip Rate Plot" /></td></tr>
+<tr><td><p align="center"><strong>San Jacinto (CC to SM)</strong></p></td><td><p align="center"><strong>San Jacinto (SB to C)</strong></p></td><td></td></tr>
+<tr><td><img src="resources/slip_rate_fault_San_Jacinto_CC_to_SM_.png" alt="Slip Rate Plot" /></td><td><img src="resources/slip_rate_fault_San_Jacinto_SB_to_C_.png" alt="Slip Rate Plot" /></td><td></td></tr>
+</tbody>
+</table>
 <h3 id="rupture-velocity-plots">Rupture Velocity Plots</h3>
 <p><em><a href="#bruce-3014">(top)</a></em></p>
 <table>
@@ -115,6 +218,7 @@ img {
 </table>
 <h3 id="normalized-fault-interevent-time-distributions">Normalized Fault Interevent-Time Distributions</h3>
 <p><em><a href="#bruce-3014">(top)</a></em></p>
+<p>These plots show interevent-time distributions for a point on a fault (either an element,  or aggregated at the subsection or parent section level).</p>
 <table>
 <thead>
 <tr><th></th><th><strong>M≥6</strong></th><th><strong>M≥6.5</strong></th><th><strong>M≥7</strong></th><th><strong>M≥7.5</strong></th></tr>
@@ -123,6 +227,17 @@ img {
 <tr><td><strong>Elements</strong></td><td><img src="resources/norm_ri_elem_m6.png" alt="Norm RIs" /></td><td><img src="resources/norm_ri_elem_m6.5.png" alt="Norm RIs" /></td><td><img src="resources/norm_ri_elem_m7.png" alt="Norm RIs" /></td><td><img src="resources/norm_ri_elem_m7.5.png" alt="Norm RIs" /></td></tr>
 <tr><td><strong>Subsections</strong></td><td><img src="resources/norm_ri_subsect_m6.png" alt="Norm RIs" /></td><td><img src="resources/norm_ri_subsect_m6.5.png" alt="Norm RIs" /></td><td><img src="resources/norm_ri_subsect_m7.png" alt="Norm RIs" /></td><td><img src="resources/norm_ri_subsect_m7.5.png" alt="Norm RIs" /></td></tr>
 <tr><td><strong>Sections</strong></td><td><img src="resources/norm_ri_parent_m6.png" alt="Norm RIs" /></td><td><img src="resources/norm_ri_parent_m6.5.png" alt="Norm RIs" /></td><td><img src="resources/norm_ri_parent_m7.png" alt="Norm RIs" /></td><td><img src="resources/norm_ri_parent_m7.5.png" alt="Norm RIs" /></td></tr>
+</tbody>
+</table>
+<h3 id="normalized-rupture-interevent-time-distributions">Normalized Rupture Interevent-Time Distributions</h3>
+<p><em><a href="#bruce-3014">(top)</a></em></p>
+<p>These plots show interevent-time distributions, averaged over a rupture, similar to the UCERF3 BPT calculation. For each rupture, we compute the average normalized open interval across all subsections which participate.</p>
+<table>
+<thead>
+<tr><th><strong>M≥6</strong></th><th><strong>M≥6.5</strong></th><th><strong>M≥7</strong></th><th><strong>M≥7.5</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/u3_norm_ri_m6.png" alt="Norm RIs" /></td><td><img src="resources/u3_norm_ri_m6.5.png" alt="Norm RIs" /></td><td><img src="resources/u3_norm_ri_m7.png" alt="Norm RIs" /></td><td><img src="resources/u3_norm_ri_m7.5.png" alt="Norm RIs" /></td></tr>
 </tbody>
 </table>
 <h3 id="stationarity-plot">Stationarity Plot</h3>
@@ -154,6 +269,244 @@ img {
 <tr><td><strong>M≥6.5</strong></td><td><img src="resources/interevent_sub_sects_m6.5_scatter.png" alt="Subsection Scatter" /></td><td><img src="resources/interevent_sub_sects_m6.5_hist2D.png" alt="Subsection 2-D Hist" /></td></tr>
 <tr><td><strong>M≥7.0</strong></td><td><img src="resources/interevent_sub_sects_m7_scatter.png" alt="Subsection Scatter" /></td><td><img src="resources/interevent_sub_sects_m7_hist2D.png" alt="Subsection 2-D Hist" /></td></tr>
 <tr><td><strong>M≥7.5</strong></td><td><img src="resources/interevent_sub_sects_m7.5_scatter.png" alt="Subsection Scatter" /></td><td><img src="resources/interevent_sub_sects_m7.5_hist2D.png" alt="Subsection 2-D Hist" /></td></tr>
+</tbody>
+</table>
+<h3 id="paleo-recurrence-plots">Paleo Recurrence Plots</h3>
+<p><em><a href="#bruce-3014">(top)</a></em></p>
+<table>
+<thead>
+<tr><th><img src="resources/paleo_recurrence_raw_sect_rate.png" alt="Paleo Plot" /></th><th><img src="resources/paleo_recurrence_paleo_sect_rate.png" alt="Paleo Plot" /></th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/paleo_recurrence_raw_elem_rate.png" alt="Paleo Plot" /></td><td><img src="resources/paleo_recurrence_paleo_elem_rate.png" alt="Paleo Plot" /></td></tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr><th>Paleoseismic Site Name</th><th>UCERF3 Rate</th><th>UCERF3 95% Conf</th><th>UCERF3 68% Conf</th><th>Sim Subsection Rate</th><th>Sim Paleo-Detectable Subsection Rate</th><th>Sim Element Rate</th><th>Sim Paleo-Detectable Element Rate</th></tr>
+</thead>
+<tbody>
+<tr><td>Calaveras fault - North</td><td>0.001618</td><td>[8.41E-4 0.0031128]</td><td>[0.0011644 0.0022419]</td><td>0.002516498</td><td>0.0019278302</td><td>0.0019472903</td><td>0.0017088775</td></tr>
+<tr><td>Compton</td><td>3.762E-4</td><td>[1.647E-4 8.592E-4]</td><td>[2.464E-4 5.721E-4]</td><td>1.737582E-4</td><td>1.6670754E-4</td><td>0.0</td><td>0.0</td></tr>
+<tr><td>Elsinore - Glen Ivy</td><td>0.0055828</td><td>[0.0038119 0.0081764]</td><td>[0.0046288 0.00677]</td><td>9.346993E-4</td><td>7.9047715E-4</td><td>9.346993E-4</td><td>9.155178E-4</td></tr>
+<tr><td>Elsinore Fault - Julian</td><td>3.076E-4</td><td>[7.8E-6 0.0011347]</td><td>[5.35E-5 5.62E-4]</td><td>4.43383E-4</td><td>4.3451507E-4</td><td>4.43383E-4</td><td>4.3894918E-4</td></tr>
+<tr><td>Elsinore - Temecula</td><td>9.812E-4</td><td>[1.06E-5 0.090633]</td><td>[5.225E-4 0.0018758]</td><td>6.111496E-4</td><td>5.663062E-4</td><td>6.111496E-4</td><td>6.050381E-4</td></tr>
+<tr><td>Elsinore - Whittier</td><td>3.128E-4</td><td>[7.9E-6 0.0011538]</td><td>[5.45E-5 5.725E-4]</td><td>5.751996E-4</td><td>5.110589E-4</td><td>4.97308E-4</td><td>4.7591492E-4</td></tr>
+<tr><td>Frazier Mountian, SSAF</td><td>0.0067307</td><td>[0.0037115 0.0122057]</td><td>[0.0049697 0.0090886]</td><td>0.0040024305</td><td>0.003767977</td><td>0.0039125555</td><td>0.0037357442</td></tr>
+<tr><td>Garlock Central (all events)</td><td>6.969E-4</td><td>[3.037E-4 0.0015988]</td><td>[4.591E-4 0.0010631]</td><td>9.167243E-4</td><td>8.9145935E-4</td><td>8.86766E-4</td><td>8.752343E-4</td></tr>
+<tr><td>Garlock - Western (all events)</td><td>8.129E-4</td><td>[3.459E-4 0.00191]</td><td>[5.294E-4 0.0012535]</td><td>9.706493E-4</td><td>9.0388535E-4</td><td>8.68791E-4</td><td>8.4297376E-4</td></tr>
+<tr><td>Green Valley - Mason Road</td><td>0.0034094</td><td>[0.0018448 0.0063008]</td><td>[0.0025038 0.004657]</td><td>7.189995E-5</td><td>6.802157E-5</td><td>5.9916624E-6</td><td>5.931746E-6</td></tr>
+<tr><td>Hayward fault - North</td><td>0.0031413</td><td>[0.0020308 0.0048591]</td><td>[0.0025239 0.0039174]</td><td>0.0013001907</td><td>0.0011872782</td><td>0.001258249</td><td>0.0012409107</td></tr>
+<tr><td>Hayward fault - South</td><td>0.0059677</td><td>[0.0046073 0.0077298]</td><td>[0.0052416 0.0068047]</td><td>0.0014799406</td><td>0.0013405677</td><td>0.001366099</td><td>0.0013361853</td></tr>
+<tr><td>N. San Andreas - Alder Creek</td><td>0.0011499</td><td>[2.91E-5 0.0042417]</td><td>[2.006E-4 0.0021088]</td><td>0.0035350807</td><td>0.0034565395</td><td>0.0035350807</td><td>0.0034993314</td></tr>
+<tr><td>N. San Andreas - Santa Cruz Seg.</td><td>0.0091041</td><td>[0.0054923 0.0150912]</td><td>[0.0070415 0.0117617]</td><td>0.0023846817</td><td>0.0022736448</td><td>0.0023726984</td><td>0.002348019</td></tr>
+<tr><td>N. San Andreas -  Fort Ross</td><td>0.003265</td><td>[0.0023217 0.0045915]</td><td>[0.0027356 0.0038814]</td><td>0.0035350807</td><td>0.0034975542</td><td>0.0035350807</td><td>0.0034996674</td></tr>
+<tr><td>N. San Andreas - North Coast</td><td>0.0037898</td><td>[0.0024481 0.0058668]</td><td>[0.0030343 0.0047303]</td><td>0.003600989</td><td>0.0035086991</td><td>0.003547064</td><td>0.0035081366</td></tr>
+<tr><td>N. San Andreas -Offshore Noyo</td><td>0.0053293</td><td>[0.004035 0.0070387]</td><td>[0.0046304 0.0061415]</td><td>0.0031815728</td><td>0.0031036558</td><td>0.0</td><td>0.0</td></tr>
+<tr><td>Puente Hills</td><td>2.852E-4</td><td>[1.909E-4 4.262E-4]</td><td>[2.319E-4 3.518E-4]</td><td>2.0970819E-4</td><td>1.9932303E-4</td><td>8.9874935E-5</td><td>8.750091E-5</td></tr>
+<tr><td>San Gregorio - North</td><td>9.813E-4</td><td>[2.48E-5 0.0036199]</td><td>[1.717E-4 0.0018047]</td><td>0.001863407</td><td>0.0017237702</td><td>0.0016776655</td><td>0.0016343454</td></tr>
+<tr><td>Rodgers Creek</td><td>0.003074</td><td>[0.001274 0.0074173]</td><td>[0.0019892 0.004789]</td><td>0.0018214653</td><td>0.0016163414</td><td>0.0015578322</td><td>0.0015293455</td></tr>
+<tr><td>San Jacinto - Hog Lake</td><td>0.0032074</td><td>[0.0018202 0.0056519]</td><td>[0.0024066 0.0042752]</td><td>0.0015758072</td><td>0.0015132729</td><td>0.0015758072</td><td>0.0015600218</td></tr>
+<tr><td>San Jacinto - Superstition</td><td>0.0019675</td><td>[5.929E-4 0.0065288]</td><td>[0.0010666 0.0036454]</td><td>0.0013361407</td><td>0.0011129959</td><td>0.0013181657</td><td>0.0010485087</td></tr>
+<tr><td>S. SAF- Carrizo Bidart</td><td>0.0087179</td><td>[0.0048746 0.0155916]</td><td>[0.0064913 0.0117016]</td><td>0.003229506</td><td>0.0031175143</td><td>0.003229506</td><td>0.0031963384</td></tr>
+<tr><td>S. San Andreas - Burro Flats                         </td><td>0.0048677</td><td>[0.002824 0.0083903]</td><td>[0.0036799 0.0064073]</td><td>0.0016776655</td><td>0.0014317532</td><td>0.0015758072</td><td>0.0013929937</td></tr>
+<tr><td>S. San Andreas - Coachella</td><td>0.0056037</td><td>[0.0031142 0.0100834]</td><td>[0.0041571 0.0075507]</td><td>0.0044098636</td><td>0.0040047257</td><td>0.0043978803</td><td>0.004327612</td></tr>
+<tr><td>S. San Andreas - Indio  </td><td>0.0036053</td><td>[0.0022287 0.0058323]</td><td>[0.002805 0.0046111]</td><td>0.0044098636</td><td>0.0040047257</td><td>0.0043978803</td><td>0.004324272</td></tr>
+<tr><td>S. San Andreas - Pallett Creek</td><td>0.006698</td><td>[0.0044376 0.0101097]</td><td>[0.005447 0.0082553]</td><td>0.003427231</td><td>0.0033761037</td><td>0.003427231</td><td>0.0033910316</td></tr>
+<tr><td>S. San Andreas - Pitman Canyon      </td><td>0.0057643</td><td>[0.003515 0.0094529]</td><td>[0.0044747 0.0074149]</td><td>0.006339179</td><td>0.003375509</td><td>0.003972472</td><td>0.0035924031</td></tr>
+<tr><td>S. San Andreas - Plunge Creek   </td><td>0.0048695</td><td>[0.0028965 0.0081864]</td><td>[0.0036725 0.0062762]</td><td>0.0016297322</td><td>0.0015020678</td><td>0.0016297322</td><td>0.0016096154</td></tr>
+<tr><td>S. SAF M. Creek - 1000 Palms</td><td>0.0038266</td><td>[0.0024425 0.0059951]</td><td>[0.0030666 0.0047993]</td><td>0.001845432</td><td>0.0016099153</td><td>0.001845432</td><td>0.0018114785</td></tr>
+<tr><td>S. San Andreas - Wrightwood        </td><td>0.0094304</td><td>[0.0067778 0.0131212]</td><td>[0.0079741 0.0111519]</td><td>0.0034212393</td><td>0.0033322372</td><td>0.0034152477</td><td>0.0033790679</td></tr>
+</tbody>
+</table>
+<h3 id="paleo-open-interval-plots">Paleo Open Interval Plots</h3>
+<p><em><a href="#bruce-3014">(top)</a></em></p>
+<h4 id="paleo-open-interval-plots-biasi-and-sharer-2019">Paleo Open Interval Plots, Biasi and Sharer 2019</h4>
+<p><em><a href="#bruce-3014">(top)</a></em></p>
+<p>These plots use the 5 paleoseismic sites identified in Biasi &amp; Scharer (2019) on the Hayward, N. SAF, S. SAF, and SJC faults. By default, a rupture is counted at a paleo site if the nearest element (at the surface) slips any amount. We also alternatively apply a probability of detection model. Those results are marked as 'Prob. Filtered'.</p>
+<p><strong>Paleoseismic sites table:</strong></p>
+<table>
+<thead>
+<tr><th><strong>Site Name</strong></th><th>Data MRI (yr)</th><th>Data Annual Rate</th><th>Catalog MRI (yr)</th><th>Catalog Annual Rate</th><th>Catalog Occurences</th><th>Prob Filtered Catalog MRI (yr)</th><th>Prob Filtered Catalog Annual Rate</th><th>Prob Filtered Catalog Occurences</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>HOG</strong></td><td>191.00</td><td>0.005235602</td><td>634.08</td><td>0.0015770884</td><td>263</td><td>639.49</td><td>0.0015637485</td><td>260.76</td></tr>
+<tr><td><strong>FRA</strong></td><td>119.00</td><td>0.008403362</td><td>166898.59</td><td>0.0</td><td>0</td><td>∞</td><td>0.0</td><td>0</td></tr>
+<tr><td><strong>COA</strong></td><td>181.00</td><td>0.005524862</td><td>227.36</td><td>0.004398321</td><td>734</td><td>231.04</td><td>0.004328233</td><td>722.31</td></tr>
+<tr><td><strong>SCZ</strong></td><td>106.00</td><td>0.009433962</td><td>421.84</td><td>0.002370572</td><td>396</td><td>426.24</td><td>0.0023461226</td><td>391.87</td></tr>
+<tr><td><strong>TYS</strong></td><td>329.00</td><td>0.0030395137</td><td>732.50</td><td>0.0013651889</td><td>228</td><td>749.87</td><td>0.001333573</td><td>222.72</td></tr>
+<tr><td><strong>TOTAL</strong></td><td>31.61</td><td>0.0316373</td><td>102.87</td><td>0.009720677</td><td>1621</td><td>104.39</td><td>0.009579863</td><td>1597.53</td></tr>
+</tbody>
+</table>
+<p><strong>Paleoseismic Plots:</strong></p>
+<table>
+<thead>
+<tr><th><img src="resources/paleo_open_biasi_count.png" alt="Count" /></th><th><img src="resources/paleo_open_biasi_prob.png" alt="Prob" /></th></tr>
+</thead>
+<tbody></tbody>
+</table>
+<p><strong>Open interval probabilities table:</strong></p>
+<table>
+<thead>
+<tr><th><strong>Open Interval (yr)</strong></th><th>Catalog Probability</th><th>Catalog Poisson Probability</th><th>Prob. Filtered Catalog Probability</th><th>Prob. Filtered Catalog Poisson Probability</th><th>Data Poisson Probability</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>10.00</strong></td><td>0.9972562</td><td>0.90736836</td><td>0.99731994</td><td>0.90864694</td><td>0.72878754</td></tr>
+<tr><td><strong>20.00</strong></td><td>0.98855793</td><td>0.82331735</td><td>0.98886997</td><td>0.8256393</td><td>0.53113127</td></tr>
+<tr><td><strong>30.00</strong></td><td>0.97598076</td><td>0.74705213</td><td>0.976606</td><td>0.75021464</td><td>0.3870819</td></tr>
+<tr><td><strong>40.00</strong></td><td>0.9577121</td><td>0.6778515</td><td>0.9590086</td><td>0.68168026</td><td>0.28210047</td></tr>
+<tr><td><strong>50.00</strong></td><td>0.9302833</td><td>0.615061</td><td>0.93212515</td><td>0.6194067</td><td>0.2055913</td></tr>
+<tr><td><strong>60.00</strong></td><td>0.8954628</td><td>0.5580869</td><td>0.89825606</td><td>0.56282204</td><td>0.14983238</td></tr>
+<tr><td><strong>70.00</strong></td><td>0.8591715</td><td>0.5063904</td><td>0.8630461</td><td>0.51140654</td><td>0.10919597</td></tr>
+<tr><td><strong>80.00</strong></td><td>0.8290472</td><td>0.45948264</td><td>0.833258</td><td>0.46468797</td><td>0.079580665</td></tr>
+<tr><td><strong>90.00</strong></td><td>0.79086524</td><td>0.41692</td><td>0.796185</td><td>0.42223734</td><td>0.057997398</td></tr>
+<tr><td><strong>100.00</strong></td><td>0.75159985</td><td>0.37830004</td><td>0.75764203</td><td>0.38366467</td><td>0.04226778</td></tr>
+<tr><td><strong>110.00</strong></td><td>0.71125543</td><td>0.3432575</td><td>0.71789914</td><td>0.34861574</td><td>0.030804234</td></tr>
+<tr><td><strong>120.00</strong></td><td>0.6565127</td><td>0.311461</td><td>0.6642247</td><td>0.31676862</td><td>0.022449743</td></tr>
+<tr><td><strong>130.00</strong></td><td>0.6158779</td><td>0.28260985</td><td>0.624235</td><td>0.28783086</td><td>0.016361093</td></tr>
+<tr><td><strong>140.00</strong></td><td>0.5721118</td><td>0.25643125</td><td>0.5807755</td><td>0.26153663</td><td>0.011923761</td></tr>
+<tr><td><strong>150.00</strong></td><td>0.51549435</td><td>0.2326776</td><td>0.52541775</td><td>0.23764446</td><td>0.008689889</td></tr>
+<tr><td><strong>160.00</strong></td><td>0.47041762</td><td>0.2111243</td><td>0.48117542</td><td>0.21593492</td><td>0.0063330824</td></tr>
+<tr><td><strong>170.00</strong></td><td>0.4255822</td><td>0.19156751</td><td>0.43689492</td><td>0.19620861</td><td>0.0046154717</td></tr>
+<tr><td><strong>180.00</strong></td><td>0.39719862</td><td>0.1738223</td><td>0.4085965</td><td>0.17828436</td><td>0.0033636983</td></tr>
+<tr><td><strong>190.00</strong></td><td>0.35043716</td><td>0.15772085</td><td>0.3613525</td><td>0.16199754</td><td>0.0024514215</td></tr>
+<tr><td><strong>200.00</strong></td><td>0.2978183</td><td>0.14311092</td><td>0.30888218</td><td>0.14719857</td><td>0.0017865654</td></tr>
+<tr><td><strong>210.00</strong></td><td>0.25775602</td><td>0.12985432</td><td>0.2693944</td><td>0.13375154</td><td>0.0013020267</td></tr>
+<tr><td><strong>220.00</strong></td><td>0.18110554</td><td>0.1178257</td><td>0.19291821</td><td>0.121532924</td><td>9.489008E-4</td></tr>
+<tr><td><strong>230.00</strong></td><td>0.11700542</td><td>0.10691132</td><td>0.12889883</td><td>0.110430524</td><td>6.915471E-4</td></tr>
+<tr><td><strong>240.00</strong></td><td>0.07316191</td><td>0.097007945</td><td>0.08428273</td><td>0.10034236</td><td>5.039909E-4</td></tr>
+<tr><td><strong>250.00</strong></td><td>0.021148166</td><td>0.08802194</td><td>0.031494882</td><td>0.09117578</td><td>3.673023E-4</td></tr>
+<tr><td><strong>260.00</strong></td><td>0.009859805</td><td>0.07986833</td><td>0.019198822</td><td>0.0828466</td><td>2.6768536E-4</td></tr>
+<tr><td><strong>270.00</strong></td><td>0.003173714</td><td>0.072469994</td><td>0.010063926</td><td>0.07527831</td><td>1.9508575E-4</td></tr>
+<tr><td><strong>280.00</strong></td><td>0.0</td><td>0.065756984</td><td>0.007757262</td><td>0.06840141</td><td>1.4217607E-4</td></tr>
+<tr><td><strong>290.00</strong></td><td>0.0</td><td>0.059665807</td><td>0.0070568393</td><td>0.062152732</td><td>1.0361615E-4</td></tr>
+<tr><td><strong>300.00</strong></td><td>0.0</td><td>0.054138865</td><td>0.006482571</td><td>0.05647489</td><td>7.551416E-5</td></tr>
+<tr><td><strong>310.00</strong></td><td>0.0</td><td>0.049123894</td><td>0.006120567</td><td>0.05131574</td><td>5.503378E-5</td></tr>
+<tr><td><strong>320.00</strong></td><td>0.0</td><td>0.044573467</td><td>0.005441493</td><td>0.04662789</td><td>4.0107934E-5</td></tr>
+<tr><td><strong>330.00</strong></td><td>0.0</td><td>0.040444557</td><td>0.0047289543</td><td>0.04236829</td><td>2.9230163E-5</td></tr>
+<tr><td><strong>340.00</strong></td><td>0.0</td><td>0.03669811</td><td>0.0040426813</td><td>0.038497817</td><td>2.1302578E-5</td></tr>
+<tr><td><strong>350.00</strong></td><td>0.0</td><td>0.033298705</td><td>0.0031013151</td><td>0.034980927</td><td>1.5525055E-5</td></tr>
+<tr><td><strong>360.00</strong></td><td>0.0</td><td>0.03021419</td><td>0.0027057384</td><td>0.031785313</td><td>1.1314466E-5</td></tr>
+<tr><td><strong>370.00</strong></td><td>0.0</td><td>0.027415402</td><td>0.0020418048</td><td>0.028881628</td><td>8.245842E-6</td></tr>
+<tr><td><strong>380.00</strong></td><td>0.0</td><td>0.024875868</td><td>0.001258572</td><td>0.026243202</td><td>6.009467E-6</td></tr>
+<tr><td><strong>390.00</strong></td><td>0.0</td><td>0.022571577</td><td>9.6015295E-4</td><td>0.023845807</td><td>4.379625E-6</td></tr>
+<tr><td><strong>400.00</strong></td><td>0.0</td><td>0.020480735</td><td>6.931526E-4</td><td>0.021667419</td><td>3.1918162E-6</td></tr>
+<tr><td><strong>410.00</strong></td><td>0.0</td><td>0.018583572</td><td>6.257017E-4</td><td>0.019688034</td><td>2.3261557E-6</td></tr>
+<tr><td><strong>420.00</strong></td><td>0.0</td><td>0.016862145</td><td>5.720798E-4</td><td>0.017889474</td><td>1.6952735E-6</td></tr>
+<tr><td><strong>430.00</strong></td><td>0.0</td><td>0.015300176</td><td>5.4190983E-4</td><td>0.016255217</td><td>1.2354942E-6</td></tr>
+<tr><td><strong>440.00</strong></td><td>0.0</td><td>0.013882896</td><td>4.1980043E-4</td><td>0.014770253</td><td>9.004128E-7</td></tr>
+<tr><td><strong>450.00</strong></td><td>0.0</td><td>0.012596901</td><td>4.0671192E-4</td><td>0.013420945</td><td>6.5620964E-7</td></tr>
+<tr><td><strong>460.00</strong></td><td>0.0</td><td>0.01143003</td><td>3.9048496E-4</td><td>0.012194901</td><td>4.782374E-7</td></tr>
+<tr><td><strong>470.00</strong></td><td>0.0</td><td>0.010371247</td><td>2.6641955E-4</td><td>0.01108086</td><td>3.4853346E-7</td></tr>
+<tr><td><strong>480.00</strong></td><td>0.0</td><td>0.0094105415</td><td>0.0</td><td>0.01006859</td><td>2.5400686E-7</td></tr>
+</tbody>
+</table>
+<h4 id="paleo-open-interval-plots-ucerf3">Paleo Open Interval Plots, UCERF3</h4>
+<p><em><a href="#bruce-3014">(top)</a></em></p>
+<p>These plots use the full set of UCERF3 paleoseismic sites. By default, a rupture is counted at a paleo site if the nearest element (at the surface) slips any amount. We also alternativeslyapply a probability of detection model. Those results are marked as 'Prob. Filtered'.</p>
+<p><strong>Paleoseismic sites table:</strong></p>
+<table>
+<thead>
+<tr><th><strong>Site Name</strong></th><th>Data MRI (yr)</th><th>Data Annual Rate</th><th>Catalog MRI (yr)</th><th>Catalog Annual Rate</th><th>Catalog Occurences</th><th>Prob Filtered Catalog MRI (yr)</th><th>Prob Filtered Catalog Annual Rate</th><th>Prob Filtered Catalog Occurences</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>SSanAndreasBurroFlats</strong></td><td>205.44</td><td>0.0048677</td><td>635.07</td><td>0.0015746212</td><td>263</td><td>714.04</td><td>0.0014004838</td><td>233.85</td></tr>
+<tr><td><strong>SSanAndreasIndio</strong></td><td>277.37</td><td>0.0036053</td><td>227.36</td><td>0.004398321</td><td>734</td><td>231.24</td><td>0.0043244553</td><td>721.69</td></tr>
+<tr><td><strong>SSAFMCreek1000Palms</strong></td><td>261.33</td><td>0.0038266</td><td>1295.05</td><td>7.721685E-4</td><td>128</td><td>1665.64</td><td>6.0036936E-4</td><td>99.45</td></tr>
+<tr><td><strong>NSanAndreasFortRoss</strong></td><td>306.28</td><td>0.003265</td><td>283.02</td><td>0.0035333107</td><td>590</td><td>285.93</td><td>0.0034973677</td><td>583.97</td></tr>
+<tr><td><strong>NSanAndreasNorthCoast</strong></td><td>263.87</td><td>0.0037898</td><td>282.06</td><td>0.0035453085</td><td>592</td><td>285.27</td><td>0.0035054716</td><td>585.35</td></tr>
+<tr><td><strong>CalaverasfaultNorth</strong></td><td>618.05</td><td>0.001618</td><td>512.03</td><td>0.0019530158</td><td>325</td><td>584.68</td><td>0.0017103408</td><td>284.63</td></tr>
+<tr><td><strong>ElsinoreTemecula</strong></td><td>1019.16</td><td>9.812E-4</td><td>1636.72</td><td>6.109771E-4</td><td>102</td><td>1652.84</td><td>6.050183E-4</td><td>100.98</td></tr>
+<tr><td><strong>ElsinoreWhittier</strong></td><td>3196.93</td><td>3.128E-4</td><td>1992.73</td><td>5.0182483E-4</td><td>83</td><td>2087.21</td><td>4.7910868E-4</td><td>79.25</td></tr>
+<tr><td><strong>SSAFCarrizoBidart</strong></td><td>114.71</td><td>0.0087179</td><td>309.73</td><td>0.0032286176</td><td>539</td><td>312.79</td><td>0.0031970774</td><td>533.72</td></tr>
+<tr><td><strong>SanJacintoHogLake</strong></td><td>311.78</td><td>0.0032074</td><td>634.08</td><td>0.0015770884</td><td>263</td><td>640.88</td><td>0.0015603484</td><td>260.21</td></tr>
+<tr><td><strong>PuenteHills</strong></td><td>3506.31</td><td>2.852E-4</td><td>10590.86</td><td>9.442104E-5</td><td>15</td><td>10784.49</td><td>9.2725786E-5</td><td>14.74</td></tr>
+<tr><td><strong>SanGregorioNorth</strong></td><td>1019.06</td><td>9.813E-4</td><td>597.38</td><td>0.001673964</td><td>280</td><td>613.32</td><td>0.0016304634</td><td>272.71</td></tr>
+<tr><td><strong>SanJacintoSuperstition</strong></td><td>508.26</td><td>0.0019675</td><td>760.06</td><td>0.0013156782</td><td>219</td><td>1070.07</td><td>9.3451526E-4</td><td>155.24</td></tr>
+<tr><td><strong>SSanAndreasWrightwood</strong></td><td>106.04</td><td>0.0094304</td><td>293.02</td><td>0.0034127922</td><td>570</td><td>296.28</td><td>0.003375197</td><td>563.71</td></tr>
+<tr><td><strong>SSanAndreasPitmanCanyon</strong></td><td>173.48</td><td>0.0057643</td><td>260.51</td><td>0.0038386416</td><td>641</td><td>282.52</td><td>0.0035396202</td><td>591.08</td></tr>
+<tr><td><strong>SSanAndreasPlungeCreek</strong></td><td>205.36</td><td>0.0048695</td><td>613.98</td><td>0.0016287112</td><td>272</td><td>622.76</td><td>0.001605746</td><td>268.13</td></tr>
+<tr><td><strong>FrazierMountianSSAF</strong></td><td>148.57</td><td>0.0067307</td><td>166898.59</td><td>0.0</td><td>0</td><td>∞</td><td>0.0</td><td>0</td></tr>
+<tr><td><strong>NSanAndreasSantaCruzSeg</strong></td><td>109.84</td><td>0.0091041</td><td>421.84</td><td>0.002370572</td><td>396</td><td>426.37</td><td>0.0023453776</td><td>391.79</td></tr>
+<tr><td><strong>RodgersCreek</strong></td><td>325.31</td><td>0.003074</td><td>640.61</td><td>0.0015610132</td><td>260</td><td>653.05</td><td>0.0015312847</td><td>255.05</td></tr>
+<tr><td><strong>GreenValleyMasonRoad</strong></td><td>293.31</td><td>0.0034094</td><td>166898.59</td><td>0.0</td><td>0</td><td>∞</td><td>0.0</td><td>0</td></tr>
+<tr><td><strong>HaywardfaultNorth</strong></td><td>318.34</td><td>0.0031413</td><td>794.37</td><td>0.0012588613</td><td>210</td><td>805.48</td><td>0.0012415015</td><td>207.11</td></tr>
+<tr><td><strong>HaywardfaultSouth</strong></td><td>167.57</td><td>0.0059677</td><td>732.50</td><td>0.0013651889</td><td>228</td><td>749.52</td><td>0.0013341925</td><td>222.82</td></tr>
+<tr><td><strong>SSanAndreasCoachella</strong></td><td>178.45</td><td>0.0056037</td><td>227.36</td><td>0.004398321</td><td>734</td><td>231.09</td><td>0.0043273894</td><td>722.15</td></tr>
+<tr><td><strong>ElsinoreGlenIvy</strong></td><td>179.12</td><td>0.0055828</td><td>1072.66</td><td>9.322589E-4</td><td>156</td><td>1092.91</td><td>9.14985E-4</td><td>153.08</td></tr>
+<tr><td><strong>GarlockCentralallevents</strong></td><td>1434.93</td><td>6.969E-4</td><td>1120.08</td><td>8.927928E-4</td><td>149</td><td>1136.59</td><td>8.7982323E-4</td><td>146.85</td></tr>
+<tr><td><strong>NSanAndreasAlderCreek</strong></td><td>869.64</td><td>0.0011499</td><td>283.02</td><td>0.0035333107</td><td>590</td><td>286.05</td><td>0.0034958706</td><td>583.72</td></tr>
+<tr><td><strong>SSanAndreasPallettCreek</strong></td><td>149.30</td><td>0.006698</td><td>291.99</td><td>0.0034247881</td><td>572</td><td>295.26</td><td>0.0033868921</td><td>565.65</td></tr>
+<tr><td><strong>GarlockWesternallevents</strong></td><td>1230.16</td><td>8.129E-4</td><td>1152.24</td><td>8.6787465E-4</td><td>145</td><td>1187.88</td><td>8.418384E-4</td><td>140.68</td></tr>
+<tr><td><strong>ElsinoreFaultJulian</strong></td><td>3250.98</td><td>3.076E-4</td><td>2249.55</td><td>4.4453304E-4</td><td>74</td><td>2269.13</td><td>4.4069823E-4</td><td>73.35</td></tr>
+<tr><td><strong>TOTAL</strong></td><td>9.11</td><td>0.1097689</td><td>28.66</td><td>0.034892634</td><td>5824</td><td>29.69</td><td>0.033679504</td><td>5621.52</td></tr>
+</tbody>
+</table>
+<p><strong>Paleoseismic Plots:</strong></p>
+<table>
+<thead>
+<tr><th><img src="resources/paleo_open_ucerf3_count.png" alt="Count" /></th><th><img src="resources/paleo_open_ucerf3_prob.png" alt="Prob" /></th></tr>
+</thead>
+<tbody></tbody>
+</table>
+<p><strong>Open interval probabilities table:</strong></p>
+<table>
+<thead>
+<tr><th><strong>Open Interval (yr)</strong></th><th>Catalog Probability</th><th>Catalog Poisson Probability</th><th>Prob. Filtered Catalog Probability</th><th>Prob. Filtered Catalog Poisson Probability</th><th>Data Poisson Probability</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>10.00</strong></td><td>0.95548546</td><td>0.7054451</td><td>0.9581623</td><td>0.7140552</td><td>0.33364123</td></tr>
+<tr><td><strong>20.00</strong></td><td>0.8544285</td><td>0.49765277</td><td>0.8621086</td><td>0.50987476</td><td>0.11131647</td></tr>
+<tr><td><strong>30.00</strong></td><td>0.73131096</td><td>0.3510667</td><td>0.74375093</td><td>0.36407873</td><td>0.037139766</td></tr>
+<tr><td><strong>40.00</strong></td><td>0.59441245</td><td>0.24765828</td><td>0.61195695</td><td>0.2599723</td><td>0.012391358</td></tr>
+<tr><td><strong>50.00</strong></td><td>0.47007254</td><td>0.17470932</td><td>0.48740855</td><td>0.18563455</td><td>0.004134268</td></tr>
+<tr><td><strong>60.00</strong></td><td>0.36417004</td><td>0.12324783</td><td>0.3839342</td><td>0.13255331</td><td>0.0013793623</td></tr>
+<tr><td><strong>70.00</strong></td><td>0.2740183</td><td>0.08694457</td><td>0.29326838</td><td>0.09465038</td><td>4.6021215E-4</td></tr>
+<tr><td><strong>80.00</strong></td><td>0.20927149</td><td>0.061334625</td><td>0.2270265</td><td>0.067585595</td><td>1.5354574E-4</td></tr>
+<tr><td><strong>90.00</strong></td><td>0.1514808</td><td>0.043268207</td><td>0.1666864</td><td>0.04825984</td><td>5.1229195E-5</td></tr>
+<tr><td><strong>100.00</strong></td><td>0.10590566</td><td>0.030523345</td><td>0.11760392</td><td>0.03446019</td><td>1.7092172E-5</td></tr>
+<tr><td><strong>110.00</strong></td><td>0.07622112</td><td>0.021532545</td><td>0.08465312</td><td>0.024606476</td><td>5.702653E-6</td></tr>
+<tr><td><strong>120.00</strong></td><td>0.049558762</td><td>0.015190028</td><td>0.055823408</td><td>0.017570382</td><td>1.9026403E-6</td></tr>
+<tr><td><strong>130.00</strong></td><td>0.036585405</td><td>0.0107157305</td><td>0.039709922</td><td>0.012546222</td><td>6.347993E-7</td></tr>
+<tr><td><strong>140.00</strong></td><td>0.023067843</td><td>0.007559359</td><td>0.026807394</td><td>0.0089586945</td><td>2.1179521E-7</td></tr>
+<tr><td><strong>150.00</strong></td><td>0.014365482</td><td>0.005332713</td><td>0.017561462</td><td>0.006397002</td><td>7.066362E-8</td></tr>
+<tr><td><strong>160.00</strong></td><td>0.009985561</td><td>0.003761936</td><td>0.011968347</td><td>0.004567812</td><td>2.3576296E-8</td></tr>
+<tr><td><strong>170.00</strong></td><td>0.00824273</td><td>0.0026538393</td><td>0.009778362</td><td>0.00326167</td><td>7.866025E-9</td></tr>
+<tr><td><strong>180.00</strong></td><td>0.0039726216</td><td>0.0018721379</td><td>0.004690718</td><td>0.0023290124</td><td>2.6244302E-9</td></tr>
+<tr><td><strong>190.00</strong></td><td>0.0030585856</td><td>0.0013206905</td><td>0.0029891247</td><td>0.0016630433</td><td>8.756182E-10</td></tr>
+<tr><td><strong>200.00</strong></td><td>0.002441403</td><td>9.316746E-4</td><td>0.0025235966</td><td>0.0011875046</td><td>2.9214234E-10</td></tr>
+<tr><td><strong>210.00</strong></td><td>0.0018191956</td><td>6.572453E-4</td><td>0.0019013861</td><td>8.479438E-4</td><td>9.7470726E-11</td></tr>
+<tr><td><strong>220.00</strong></td><td>0.0</td><td>4.6365045E-4</td><td>8.136959E-5</td><td>6.0547865E-4</td><td>3.2520254E-11</td></tr>
+<tr><td><strong>230.00</strong></td><td>0.0</td><td>3.2707994E-4</td><td>5.958018E-5</td><td>4.3234517E-4</td><td>1.0850098E-11</td></tr>
+<tr><td><strong>240.00</strong></td><td>0.0</td><td>2.3073693E-4</td><td>0.0</td><td>3.087183E-4</td><td>3.6200402E-12</td></tr>
+</tbody>
+</table>
+<h3 id="moment-release-variability-plots">Moment Release Variability Plots</h3>
+<p><em><a href="#bruce-3014">(top)</a></em></p>
+<p>We first create a tapered moment release time series for the entire catalog. Each event's moment is distributed across a 25 year Hanning (cosine) taper. Here is a plot of a random 2,000 year section of this time series:</p>
+<p><img src="resources/moment_variability_time_series.png" alt="Time Series" /></p>
+<p>We then compute Welch's power spectral density estimate on the entire time series. Results are plotted below, with a Poisson randomization of the catalog also plotted in a gray line, and the 95% confidence bounds from 200 realizations as a light gray shaded area. Significant deviations outside the Poisson confidence intervals indicate synchronous behaviour.</p>
+<p><img src="resources/moment_variability_welch.png" alt="Welch PSD" /></p>
+<h3 id="trigger-hypocenter-statistics-within-previous-rupture-area">Trigger Hypocenter Statistics Within Previous Rupture Area</h3>
+<p><em><a href="#bruce-3014">(top)</a></em></p>
+<p>Example rupture plots:</p>
+<table>
+<thead>
+<tr><th>M≥6</th><th>M≥6.5</th><th>M≥7</th></tr>
+</thead>
+<tbody>
+<tr><td></td><td></td><td></td></tr>
+<tr><td><img src="resources/trigger_within_prev_m6_example_new_hypo.png" alt="example" /></td><td><img src="resources/trigger_within_prev_m6.5_example_new_hypo.png" alt="example" /></td><td></td></tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr><th>M≥6</th><th>M≥6.5</th><th>M≥7</th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/trigger_within_prev_m6_1yr.png" alt="hypocenter plot" /></td><td><img src="resources/trigger_within_prev_m6.5_1yr.png" alt="hypocenter plot" /></td><td><img src="resources/trigger_within_prev_m7_1yr.png" alt="hypocenter plot" /></td></tr>
+<tr><td><img src="resources/trigger_within_prev_m6_10yr.png" alt="hypocenter plot" /></td><td><img src="resources/trigger_within_prev_m6.5_10yr.png" alt="hypocenter plot" /></td><td><img src="resources/trigger_within_prev_m7_10yr.png" alt="hypocenter plot" /></td></tr>
+<tr><td><img src="resources/trigger_within_prev_m6_100yr.png" alt="hypocenter plot" /></td><td><img src="resources/trigger_within_prev_m6.5_100yr.png" alt="hypocenter plot" /></td><td><img src="resources/trigger_within_prev_m7_100yr.png" alt="hypocenter plot" /></td></tr>
 </tbody>
 </table>
 <h2 id="input-file">Input File</h2>
