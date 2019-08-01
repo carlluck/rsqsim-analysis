@@ -112,6 +112,10 @@
 *[(top)](#bruce-2585-1myr)*
 
 * [ASK2014](bbp_LA_BASIN_500/gmpe_bbp_comparisons_ASK2014/)
+* [BSSA2014](bbp_LA_BASIN_500/gmpe_bbp_comparisons_BSSA2014/)
+* [CB2014](bbp_LA_BASIN_500/gmpe_bbp_comparisons_CB2014/)
+* [CY2014](bbp_LA_BASIN_500/gmpe_bbp_comparisons_CY2014/)
+* [NGAWest_2014_NoIdr](bbp_LA_BASIN_500/gmpe_bbp_comparisons_NGAWest_2014_NoIdr/)
 
 ### BBP Part B Analysis, LA Basin 500 (m/s)
 *[(top)](#bruce-2585-1myr)*

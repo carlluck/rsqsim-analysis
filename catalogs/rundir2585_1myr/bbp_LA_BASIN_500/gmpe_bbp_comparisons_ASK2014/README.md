@@ -250,7 +250,7 @@ GMPE Residuals use the following values, averaged among all ruptures, for all pa
 ### Period-Dependent Residual Components
 *[(top)](#table-of-contents)*
 
-**Note: These are not yet corrected for covariance. Currently only useful for comparing relative phi and tau, not absolute values**
+**Note: These are not corrected for covariance. Currently only useful for comparing relative phi and tau, not absolute values**
 
 ![Residual Components](resources/period_residual_components.png)
 
