@@ -145,6 +145,12 @@ We compute uncertainties on &phi;<sub>s</sub> through downsampling the rotationa
 | 7.5 | 0.37 | 0.35 | 0.06 | [0.3 0.42] | [0.25 0.46] |
 | 10 | 0.31 | 0.29 | 0.05 | [0.24 0.35] | [0.21 0.41] |
 
+These plots show the dependence of &phi;<sub>s</sub> to the number of events included and the number of recordingsper event. The left plot holds the number of recordings per event fixed at the average data value (9), varying the number of events. The right plot holds the number of events fixed at the data value (6), varying the number of recordings per event. Period-independent &phi;<sub>s</sub> values are plotted.
+
+| Event Count Dependence | Recordings/Event Dependence |
+|-----|-----|
+| ![num events dependence](resources/source_strike_event_count_dependence_20km.png) | ![num recordings dependence](resources/source_strike_event_recordings_dependence_20km.png) |
+
 Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture, from which we compute a total &phi;<sub>s</sub>
 
 | 3s | 5s |
@@ -174,14 +180,20 @@ We compute uncertainties on &phi;<sub>s</sub> through downsampling the rotationa
 
 | Period (s) | Full &phi;<sub>s</sub> | Downsampled median &phi;<sub>s</sub> | Downsampled &phi;<sub>s</sub> std. dev. | Downsampled &phi;<sub>s</sub> 68% conf range | Downsampled &phi;<sub>s</sub> 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.51 | 0.49 | 0.05 | [0.44 0.54] | [0.38 0.6] |
-| 1 | 0.36 | 0.34 | 0.05 | [0.29 0.39] | [0.25 0.43] |
-| 2 | 0.48 | 0.47 | 0.07 | [0.4 0.54] | [0.31 0.58] |
-| 3 | 0.52 | 0.5 | 0.07 | [0.45 0.58] | [0.38 0.64] |
-| 4 | 0.53 | 0.53 | 0.08 | [0.45 0.6] | [0.38 0.69] |
-| 5 | 0.55 | 0.53 | 0.07 | [0.46 0.6] | [0.36 0.67] |
-| 7.5 | 0.53 | 0.51 | 0.08 | [0.42 0.58] | [0.34 0.66] |
-| 10 | 0.55 | 0.54 | 0.08 | [0.45 0.61] | [0.4 0.71] |
+| T-independent | 0.51 | 0.49 | 0.05 | [0.44 0.53] | [0.39 0.6] |
+| 1 | 0.36 | 0.35 | 0.05 | [0.3 0.4] | [0.25 0.44] |
+| 2 | 0.48 | 0.47 | 0.06 | [0.41 0.53] | [0.37 0.62] |
+| 3 | 0.52 | 0.5 | 0.07 | [0.45 0.57] | [0.37 0.65] |
+| 4 | 0.53 | 0.52 | 0.07 | [0.44 0.59] | [0.38 0.68] |
+| 5 | 0.55 | 0.52 | 0.08 | [0.45 0.61] | [0.38 0.72] |
+| 7.5 | 0.53 | 0.51 | 0.07 | [0.44 0.56] | [0.4 0.67] |
+| 10 | 0.55 | 0.53 | 0.07 | [0.47 0.6] | [0.4 0.68] |
+
+These plots show the dependence of &phi;<sub>s</sub> to the number of events included and the number of recordingsper event. The left plot holds the number of recordings per event fixed at the average data value (5), varying the number of events. The right plot holds the number of events fixed at the data value (6), varying the number of recordings per event. Period-independent &phi;<sub>s</sub> values are plotted.
+
+| Event Count Dependence | Recordings/Event Dependence |
+|-----|-----|
+| ![num events dependence](resources/source_strike_event_count_dependence_50km.png) | ![num recordings dependence](resources/source_strike_event_recordings_dependence_50km.png) |
 
 Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture, from which we compute a total &phi;<sub>s</sub>
 
@@ -214,14 +226,20 @@ We compute uncertainties on &phi;<sub>s</sub> through downsampling the rotationa
 
 | Period (s) | Full &phi;<sub>s</sub> | Downsampled median &phi;<sub>s</sub> | Downsampled &phi;<sub>s</sub> std. dev. | Downsampled &phi;<sub>s</sub> 68% conf range | Downsampled &phi;<sub>s</sub> 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.51 | 0.5 | 0.03 | [0.48 0.54] | [0.43 0.58] |
-| 1 | 0.32 | 0.32 | 0.03 | [0.29 0.35] | [0.27 0.39] |
-| 2 | 0.4 | 0.39 | 0.05 | [0.35 0.45] | [0.3 0.5] |
-| 3 | 0.5 | 0.5 | 0.05 | [0.46 0.55] | [0.41 0.61] |
-| 4 | 0.57 | 0.56 | 0.06 | [0.51 0.63] | [0.45 0.71] |
-| 5 | 0.58 | 0.58 | 0.06 | [0.51 0.64] | [0.44 0.69] |
-| 7.5 | 0.58 | 0.59 | 0.07 | [0.52 0.65] | [0.44 0.73] |
-| 10 | 0.56 | 0.56 | 0.06 | [0.49 0.62] | [0.44 0.66] |
+| T-independent | 0.51 | 0.5 | 0.04 | [0.47 0.54] | [0.44 0.59] |
+| 1 | 0.32 | 0.31 | 0.03 | [0.29 0.34] | [0.26 0.37] |
+| 2 | 0.4 | 0.39 | 0.05 | [0.34 0.45] | [0.28 0.49] |
+| 3 | 0.5 | 0.5 | 0.05 | [0.45 0.55] | [0.39 0.6] |
+| 4 | 0.57 | 0.55 | 0.06 | [0.51 0.63] | [0.44 0.69] |
+| 5 | 0.58 | 0.57 | 0.06 | [0.51 0.61] | [0.44 0.71] |
+| 7.5 | 0.58 | 0.58 | 0.07 | [0.51 0.65] | [0.45 0.72] |
+| 10 | 0.56 | 0.55 | 0.06 | [0.49 0.62] | [0.42 0.7] |
+
+These plots show the dependence of &phi;<sub>s</sub> to the number of events included and the number of recordingsper event. The left plot holds the number of recordings per event fixed at the average data value (20), varying the number of events. The right plot holds the number of events fixed at the data value (3), varying the number of recordings per event. Period-independent &phi;<sub>s</sub> values are plotted.
+
+| Event Count Dependence | Recordings/Event Dependence |
+|-----|-----|
+| ![num events dependence](resources/source_strike_event_count_dependence_100km.png) | ![num recordings dependence](resources/source_strike_event_recordings_dependence_100km.png) |
 
 Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture, from which we compute a total &phi;<sub>s</sub>
 
@@ -252,14 +270,20 @@ We compute uncertainties on &phi;<sub>s</sub> through downsampling the rotationa
 
 | Period (s) | Full &phi;<sub>s</sub> | Downsampled median &phi;<sub>s</sub> | Downsampled &phi;<sub>s</sub> std. dev. | Downsampled &phi;<sub>s</sub> 68% conf range | Downsampled &phi;<sub>s</sub> 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.47 | 0.47 | 0.02 | [0.45 0.49] | [0.43 0.51] |
-| 1 | 0.33 | 0.33 | 0.02 | [0.31 0.35] | [0.29 0.36] |
-| 2 | 0.44 | 0.43 | 0.02 | [0.41 0.45] | [0.39 0.48] |
-| 3 | 0.49 | 0.48 | 0.02 | [0.46 0.51] | [0.44 0.53] |
-| 4 | 0.51 | 0.51 | 0.03 | [0.48 0.53] | [0.46 0.56] |
-| 5 | 0.53 | 0.52 | 0.03 | [0.49 0.55] | [0.46 0.58] |
-| 7.5 | 0.5 | 0.49 | 0.03 | [0.47 0.53] | [0.45 0.55] |
-| 10 | 0.49 | 0.47 | 0.03 | [0.45 0.51] | [0.41 0.53] |
+| T-independent | 0.47 | 0.47 | 0.01 | [0.46 0.48] | [0.45 0.5] |
+| 1 | 0.33 | 0.33 | 0.01 | [0.31 0.34] | [0.3 0.35] |
+| 2 | 0.44 | 0.43 | 0.02 | [0.41 0.46] | [0.4 0.47] |
+| 3 | 0.49 | 0.49 | 0.02 | [0.46 0.51] | [0.42 0.53] |
+| 4 | 0.51 | 0.51 | 0.02 | [0.49 0.54] | [0.46 0.55] |
+| 5 | 0.53 | 0.53 | 0.03 | [0.5 0.55] | [0.47 0.58] |
+| 7.5 | 0.5 | 0.5 | 0.03 | [0.47 0.53] | [0.44 0.56] |
+| 10 | 0.49 | 0.48 | 0.03 | [0.46 0.51] | [0.43 0.54] |
+
+These plots show the dependence of &phi;<sub>s</sub> to the number of events included and the number of recordingsper event. The left plot holds the number of recordings per event fixed at the average data value (31), varying the number of events. The right plot holds the number of events fixed at the data value (6), varying the number of recordings per event. Period-independent &phi;<sub>s</sub> values are plotted.
+
+| Event Count Dependence | Recordings/Event Dependence |
+|-----|-----|
+| ![num events dependence](resources/source_strike_event_count_dependence_all_dists.png) | ![num recordings dependence](resources/source_strike_event_recordings_dependence_all_dists.png) |
 
 Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture, from which we compute a total &phi;<sub>s</sub>
 
@@ -314,14 +338,20 @@ We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotation
 
 | Period (s) | Full &phi;<sub>SS</sub> | Downsampled median &phi;<sub>SS</sub> | Downsampled &phi;<sub>SS</sub> std. dev. | Downsampled &phi;<sub>SS</sub> 68% conf range | Downsampled &phi;<sub>SS</sub> 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.39 | 0.39 | 0.03 | [0.36 0.43] | [0.33 0.47] |
-| 1 | 0.31 | 0.31 | 0.03 | [0.28 0.33] | [0.25 0.39] |
-| 2 | 0.42 | 0.42 | 0.04 | [0.38 0.47] | [0.35 0.52] |
-| 3 | 0.43 | 0.43 | 0.07 | [0.35 0.5] | [0.31 0.56] |
-| 4 | 0.43 | 0.42 | 0.06 | [0.37 0.48] | [0.32 0.56] |
-| 5 | 0.45 | 0.46 | 0.06 | [0.39 0.51] | [0.32 0.57] |
-| 7.5 | 0.37 | 0.36 | 0.06 | [0.31 0.41] | [0.25 0.52] |
-| 10 | 0.31 | 0.31 | 0.05 | [0.26 0.36] | [0.19 0.41] |
+| T-independent | 0.39 | 0.39 | 0.03 | [0.35 0.42] | [0.34 0.45] |
+| 1 | 0.31 | 0.31 | 0.03 | [0.28 0.34] | [0.24 0.36] |
+| 2 | 0.42 | 0.42 | 0.05 | [0.37 0.47] | [0.33 0.53] |
+| 3 | 0.43 | 0.43 | 0.05 | [0.37 0.49] | [0.33 0.56] |
+| 4 | 0.43 | 0.42 | 0.06 | [0.37 0.49] | [0.34 0.55] |
+| 5 | 0.45 | 0.44 | 0.06 | [0.38 0.5] | [0.34 0.55] |
+| 7.5 | 0.37 | 0.35 | 0.06 | [0.3 0.41] | [0.26 0.51] |
+| 10 | 0.31 | 0.29 | 0.05 | [0.25 0.35] | [0.21 0.41] |
+
+These plots show the dependence of &phi;<sub>SS</sub> to the number of events included and the number of recordingsper event. The left plot holds the number of recordings per event fixed at the average data value (9), varying the number of events. The right plot holds the number of events fixed at the data value (6), varying the number of recordings per event. Period-independent &phi;<sub>SS</sub> values are plotted.
+
+| Event Count Dependence | Recordings/Event Dependence |
+|-----|-----|
+| ![num events dependence](resources/within_event_ss_event_count_dependence_20km.png) | ![num recordings dependence](resources/within_event_ss_event_recordings_dependence_20km.png) |
 
 Here are plots of the histogram of &phi;<sub>SS</sub> for each individual rupture, from which we compute a total &phi;<sub>SS</sub>
 
@@ -352,14 +382,20 @@ We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotation
 
 | Period (s) | Full &phi;<sub>SS</sub> | Downsampled median &phi;<sub>SS</sub> | Downsampled &phi;<sub>SS</sub> std. dev. | Downsampled &phi;<sub>SS</sub> 68% conf range | Downsampled &phi;<sub>SS</sub> 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.51 | 0.49 | 0.05 | [0.45 0.55] | [0.38 0.58] |
-| 1 | 0.36 | 0.35 | 0.04 | [0.31 0.4] | [0.25 0.44] |
-| 2 | 0.48 | 0.47 | 0.07 | [0.4 0.54] | [0.33 0.61] |
-| 3 | 0.52 | 0.51 | 0.07 | [0.44 0.58] | [0.38 0.67] |
-| 4 | 0.53 | 0.52 | 0.07 | [0.44 0.58] | [0.35 0.64] |
-| 5 | 0.55 | 0.53 | 0.07 | [0.47 0.6] | [0.39 0.68] |
-| 7.5 | 0.53 | 0.51 | 0.08 | [0.45 0.59] | [0.32 0.68] |
-| 10 | 0.55 | 0.53 | 0.08 | [0.45 0.61] | [0.36 0.7] |
+| T-independent | 0.51 | 0.49 | 0.05 | [0.44 0.54] | [0.41 0.59] |
+| 1 | 0.36 | 0.35 | 0.04 | [0.31 0.39] | [0.27 0.43] |
+| 2 | 0.48 | 0.48 | 0.06 | [0.41 0.53] | [0.32 0.59] |
+| 3 | 0.52 | 0.51 | 0.07 | [0.44 0.57] | [0.38 0.65] |
+| 4 | 0.53 | 0.51 | 0.07 | [0.45 0.59] | [0.41 0.7] |
+| 5 | 0.55 | 0.52 | 0.07 | [0.45 0.61] | [0.38 0.7] |
+| 7.5 | 0.53 | 0.5 | 0.07 | [0.43 0.56] | [0.35 0.63] |
+| 10 | 0.55 | 0.53 | 0.08 | [0.44 0.6] | [0.39 0.73] |
+
+These plots show the dependence of &phi;<sub>SS</sub> to the number of events included and the number of recordingsper event. The left plot holds the number of recordings per event fixed at the average data value (5), varying the number of events. The right plot holds the number of events fixed at the data value (6), varying the number of recordings per event. Period-independent &phi;<sub>SS</sub> values are plotted.
+
+| Event Count Dependence | Recordings/Event Dependence |
+|-----|-----|
+| ![num events dependence](resources/within_event_ss_event_count_dependence_50km.png) | ![num recordings dependence](resources/within_event_ss_event_recordings_dependence_50km.png) |
 
 Here are plots of the histogram of &phi;<sub>SS</sub> for each individual rupture, from which we compute a total &phi;<sub>SS</sub>
 
@@ -392,14 +428,20 @@ We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotation
 
 | Period (s) | Full &phi;<sub>SS</sub> | Downsampled median &phi;<sub>SS</sub> | Downsampled &phi;<sub>SS</sub> std. dev. | Downsampled &phi;<sub>SS</sub> 68% conf range | Downsampled &phi;<sub>SS</sub> 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.51 | 0.5 | 0.04 | [0.46 0.54] | [0.42 0.59] |
-| 1 | 0.32 | 0.32 | 0.03 | [0.29 0.35] | [0.25 0.39] |
-| 2 | 0.4 | 0.39 | 0.05 | [0.34 0.43] | [0.29 0.49] |
-| 3 | 0.5 | 0.49 | 0.05 | [0.45 0.55] | [0.4 0.6] |
-| 4 | 0.57 | 0.55 | 0.06 | [0.5 0.62] | [0.46 0.73] |
-| 5 | 0.58 | 0.56 | 0.06 | [0.5 0.63] | [0.45 0.7] |
-| 7.5 | 0.58 | 0.57 | 0.08 | [0.5 0.66] | [0.44 0.73] |
-| 10 | 0.56 | 0.56 | 0.07 | [0.49 0.61] | [0.42 0.69] |
+| T-independent | 0.51 | 0.5 | 0.04 | [0.46 0.55] | [0.43 0.59] |
+| 1 | 0.32 | 0.32 | 0.03 | [0.3 0.36] | [0.26 0.39] |
+| 2 | 0.4 | 0.4 | 0.05 | [0.35 0.43] | [0.3 0.51] |
+| 3 | 0.5 | 0.51 | 0.05 | [0.46 0.55] | [0.41 0.6] |
+| 4 | 0.57 | 0.56 | 0.07 | [0.49 0.63] | [0.45 0.71] |
+| 5 | 0.58 | 0.57 | 0.06 | [0.51 0.63] | [0.47 0.73] |
+| 7.5 | 0.58 | 0.57 | 0.07 | [0.49 0.65] | [0.45 0.7] |
+| 10 | 0.56 | 0.54 | 0.06 | [0.49 0.61] | [0.43 0.68] |
+
+These plots show the dependence of &phi;<sub>SS</sub> to the number of events included and the number of recordingsper event. The left plot holds the number of recordings per event fixed at the average data value (20), varying the number of events. The right plot holds the number of events fixed at the data value (3), varying the number of recordings per event. Period-independent &phi;<sub>SS</sub> values are plotted.
+
+| Event Count Dependence | Recordings/Event Dependence |
+|-----|-----|
+| ![num events dependence](resources/within_event_ss_event_count_dependence_100km.png) | ![num recordings dependence](resources/within_event_ss_event_recordings_dependence_100km.png) |
 
 Here are plots of the histogram of &phi;<sub>SS</sub> for each individual rupture, from which we compute a total &phi;<sub>SS</sub>
 
@@ -431,13 +473,19 @@ We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotation
 | Period (s) | Full &phi;<sub>SS</sub> | Downsampled median &phi;<sub>SS</sub> | Downsampled &phi;<sub>SS</sub> std. dev. | Downsampled &phi;<sub>SS</sub> 68% conf range | Downsampled &phi;<sub>SS</sub> 95% conf range |
 |-----|-----|-----|-----|-----|-----|
 | T-independent | 0.47 | 0.47 | 0.02 | [0.45 0.48] | [0.44 0.5] |
-| 1 | 0.33 | 0.33 | 0.02 | [0.31 0.34] | [0.29 0.36] |
-| 2 | 0.44 | 0.42 | 0.02 | [0.41 0.45] | [0.38 0.48] |
+| 1 | 0.33 | 0.33 | 0.02 | [0.31 0.34] | [0.3 0.36] |
+| 2 | 0.44 | 0.43 | 0.02 | [0.41 0.45] | [0.39 0.47] |
 | 3 | 0.49 | 0.48 | 0.02 | [0.46 0.51] | [0.44 0.53] |
-| 4 | 0.51 | 0.5 | 0.03 | [0.48 0.54] | [0.45 0.55] |
-| 5 | 0.53 | 0.52 | 0.03 | [0.5 0.55] | [0.47 0.59] |
-| 7.5 | 0.5 | 0.49 | 0.03 | [0.46 0.52] | [0.43 0.55] |
-| 10 | 0.49 | 0.48 | 0.03 | [0.46 0.51] | [0.44 0.54] |
+| 4 | 0.51 | 0.5 | 0.03 | [0.48 0.54] | [0.46 0.57] |
+| 5 | 0.53 | 0.51 | 0.03 | [0.49 0.55] | [0.47 0.58] |
+| 7.5 | 0.5 | 0.5 | 0.03 | [0.46 0.52] | [0.44 0.55] |
+| 10 | 0.49 | 0.47 | 0.03 | [0.45 0.51] | [0.43 0.54] |
+
+These plots show the dependence of &phi;<sub>SS</sub> to the number of events included and the number of recordingsper event. The left plot holds the number of recordings per event fixed at the average data value (31), varying the number of events. The right plot holds the number of events fixed at the data value (6), varying the number of recordings per event. Period-independent &phi;<sub>SS</sub> values are plotted.
+
+| Event Count Dependence | Recordings/Event Dependence |
+|-----|-----|
+| ![num events dependence](resources/within_event_ss_event_count_dependence_all_dists.png) | ![num recordings dependence](resources/within_event_ss_event_recordings_dependence_all_dists.png) |
 
 Here are plots of the histogram of &phi;<sub>SS</sub> for each individual rupture, from which we compute a total &phi;<sub>SS</sub>
 
@@ -492,14 +540,20 @@ We compute uncertainties on &tau; through downsampling the rotational synthetic 
 
 | Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.19 | 0.21 | 0.05 | [0.15 0.27] | [0.12 0.33] |
-| 1 | 0.13 | 0.15 | 0.07 | [0.08 0.23] | [0.04 0.35] |
-| 2 | 0.18 | 0.18 | 0.09 | [0.12 0.3] | [0.05 0.43] |
-| 3 | 0.18 | 0.22 | 0.1 | [0.13 0.32] | [0.06 0.46] |
-| 4 | 0.18 | 0.21 | 0.09 | [0.12 0.34] | [0.06 0.43] |
-| 5 | 0.2 | 0.22 | 0.1 | [0.13 0.33] | [0.05 0.43] |
-| 7.5 | 0.21 | 0.2 | 0.09 | [0.14 0.31] | [0.08 0.43] |
-| 10 | 0.24 | 0.22 | 0.11 | [0.12 0.34] | [0.03 0.49] |
+| T-independent | 0.19 | 0.21 | 0.05 | [0.15 0.27] | [0.11 0.33] |
+| 1 | 0.13 | 0.14 | 0.06 | [0.09 0.22] | [0.04 0.26] |
+| 2 | 0.18 | 0.2 | 0.09 | [0.09 0.29] | [0.04 0.35] |
+| 3 | 0.18 | 0.2 | 0.09 | [0.11 0.29] | [0.06 0.42] |
+| 4 | 0.18 | 0.2 | 0.08 | [0.1 0.28] | [0.06 0.37] |
+| 5 | 0.2 | 0.22 | 0.1 | [0.12 0.31] | [0.05 0.48] |
+| 7.5 | 0.21 | 0.24 | 0.1 | [0.13 0.33] | [0.05 0.44] |
+| 10 | 0.24 | 0.24 | 0.11 | [0.14 0.38] | [0.06 0.48] |
+
+These plots show the dependence of &tau; to the number of events included and the number of recordingsper event. The left plot holds the number of recordings per event fixed at the average data value (9), varying the number of events. The right plot holds the number of events fixed at the data value (6), varying the number of recordings per event. Period-independent &tau; values are plotted.
+
+| Event Count Dependence | Recordings/Event Dependence |
+|-----|-----|
+| ![num events dependence](resources/between_events_event_count_dependence_20km.png) | ![num recordings dependence](resources/between_events_event_recordings_dependence_20km.png) |
 
 
 ### 50.0 km M7.2 Between-events Results
@@ -515,14 +569,20 @@ We compute uncertainties on &tau; through downsampling the rotational synthetic 
 
 | Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.19 | 0.27 | 0.08 | [0.2 0.36] | [0.15 0.49] |
-| 1 | 0.12 | 0.16 | 0.08 | [0.09 0.27] | [0.05 0.36] |
-| 2 | 0.17 | 0.23 | 0.12 | [0.14 0.4] | [0.04 0.53] |
-| 3 | 0.17 | 0.25 | 0.11 | [0.16 0.38] | [0.08 0.52] |
-| 4 | 0.18 | 0.28 | 0.12 | [0.14 0.38] | [0.09 0.62] |
-| 5 | 0.21 | 0.3 | 0.13 | [0.16 0.42] | [0.08 0.64] |
-| 7.5 | 0.23 | 0.3 | 0.13 | [0.19 0.44] | [0.06 0.62] |
-| 10 | 0.26 | 0.32 | 0.14 | [0.2 0.49] | [0.09 0.66] |
+| T-independent | 0.19 | 0.25 | 0.08 | [0.18 0.36] | [0.14 0.48] |
+| 1 | 0.12 | 0.16 | 0.09 | [0.08 0.27] | [0.05 0.44] |
+| 2 | 0.17 | 0.23 | 0.11 | [0.13 0.33] | [0.08 0.53] |
+| 3 | 0.17 | 0.24 | 0.12 | [0.14 0.39] | [0.07 0.51] |
+| 4 | 0.18 | 0.28 | 0.13 | [0.16 0.42] | [0.09 0.61] |
+| 5 | 0.21 | 0.28 | 0.12 | [0.16 0.43] | [0.09 0.56] |
+| 7.5 | 0.23 | 0.29 | 0.14 | [0.12 0.45] | [0.06 0.58] |
+| 10 | 0.26 | 0.32 | 0.15 | [0.17 0.47] | [0.07 0.65] |
+
+These plots show the dependence of &tau; to the number of events included and the number of recordingsper event. The left plot holds the number of recordings per event fixed at the average data value (5), varying the number of events. The right plot holds the number of events fixed at the data value (6), varying the number of recordings per event. Period-independent &tau; values are plotted.
+
+| Event Count Dependence | Recordings/Event Dependence |
+|-----|-----|
+| ![num events dependence](resources/between_events_event_count_dependence_50km.png) | ![num recordings dependence](resources/between_events_event_recordings_dependence_50km.png) |
 
 
 ### 100.0 km M7.2 Between-events Results
@@ -540,14 +600,20 @@ We compute uncertainties on &tau; through downsampling the rotational synthetic 
 
 | Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.19 | 0.19 | 0.07 | [0.13 0.26] | [0.09 0.4] |
-| 1 | 0.1 | 0.11 | 0.06 | [0.05 0.18] | [0.02 0.26] |
-| 2 | 0.14 | 0.14 | 0.08 | [0.07 0.22] | [0.03 0.34] |
-| 3 | 0.15 | 0.16 | 0.1 | [0.07 0.26] | [0.01 0.48] |
-| 4 | 0.2 | 0.2 | 0.12 | [0.1 0.34] | [0.04 0.52] |
-| 5 | 0.22 | 0.19 | 0.14 | [0.09 0.37] | [0.03 0.57] |
-| 7.5 | 0.24 | 0.23 | 0.14 | [0.1 0.39] | [0.04 0.59] |
-| 10 | 0.26 | 0.25 | 0.14 | [0.1 0.43] | [0.04 0.57] |
+| T-independent | 0.19 | 0.19 | 0.07 | [0.14 0.26] | [0.1 0.4] |
+| 1 | 0.1 | 0.1 | 0.07 | [0.05 0.19] | [0.01 0.26] |
+| 2 | 0.14 | 0.14 | 0.07 | [0.08 0.22] | [0.02 0.32] |
+| 3 | 0.15 | 0.14 | 0.11 | [0.08 0.29] | [0.03 0.47] |
+| 4 | 0.2 | 0.17 | 0.12 | [0.09 0.33] | [0.03 0.58] |
+| 5 | 0.22 | 0.22 | 0.12 | [0.12 0.35] | [0.05 0.54] |
+| 7.5 | 0.24 | 0.25 | 0.13 | [0.14 0.38] | [0.08 0.59] |
+| 10 | 0.26 | 0.26 | 0.16 | [0.13 0.42] | [0.04 0.71] |
+
+These plots show the dependence of &tau; to the number of events included and the number of recordingsper event. The left plot holds the number of recordings per event fixed at the average data value (20), varying the number of events. The right plot holds the number of events fixed at the data value (3), varying the number of recordings per event. Period-independent &tau; values are plotted.
+
+| Event Count Dependence | Recordings/Event Dependence |
+|-----|-----|
+| ![num events dependence](resources/between_events_event_count_dependence_100km.png) | ![num recordings dependence](resources/between_events_event_recordings_dependence_100km.png) |
 
 
 ### All Distances M7.2 Between-events Results
@@ -563,14 +629,20 @@ We compute uncertainties on &tau; through downsampling the rotational synthetic 
 
 | Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.19 | 0.24 | 0.03 | [0.2 0.27] | [0.18 0.31] |
-| 1 | 0.12 | 0.15 | 0.03 | [0.12 0.18] | [0.09 0.21] |
-| 2 | 0.16 | 0.21 | 0.05 | [0.16 0.26] | [0.12 0.3] |
-| 3 | 0.17 | 0.22 | 0.05 | [0.18 0.27] | [0.14 0.34] |
-| 4 | 0.19 | 0.25 | 0.05 | [0.19 0.3] | [0.15 0.37] |
-| 5 | 0.21 | 0.27 | 0.05 | [0.21 0.32] | [0.18 0.38] |
-| 7.5 | 0.23 | 0.26 | 0.06 | [0.22 0.33] | [0.15 0.41] |
-| 10 | 0.25 | 0.29 | 0.06 | [0.23 0.35] | [0.19 0.42] |
+| T-independent | 0.19 | 0.23 | 0.03 | [0.2 0.27] | [0.17 0.31] |
+| 1 | 0.12 | 0.16 | 0.03 | [0.11 0.19] | [0.1 0.24] |
+| 2 | 0.16 | 0.2 | 0.04 | [0.16 0.25] | [0.13 0.31] |
+| 3 | 0.17 | 0.22 | 0.05 | [0.17 0.27] | [0.13 0.33] |
+| 4 | 0.19 | 0.24 | 0.05 | [0.19 0.29] | [0.15 0.38] |
+| 5 | 0.21 | 0.26 | 0.06 | [0.2 0.31] | [0.16 0.39] |
+| 7.5 | 0.23 | 0.25 | 0.06 | [0.2 0.32] | [0.15 0.39] |
+| 10 | 0.25 | 0.28 | 0.06 | [0.22 0.34] | [0.17 0.43] |
+
+These plots show the dependence of &tau; to the number of events included and the number of recordingsper event. The left plot holds the number of recordings per event fixed at the average data value (31), varying the number of events. The right plot holds the number of events fixed at the data value (6), varying the number of recordings per event. Period-independent &tau; values are plotted.
+
+| Event Count Dependence | Recordings/Event Dependence |
+|-----|-----|
+| ![num events dependence](resources/between_events_event_count_dependence_all_dists.png) | ![num recordings dependence](resources/between_events_event_recordings_dependence_all_dists.png) |
 
 
 ## Azumth Dependence
