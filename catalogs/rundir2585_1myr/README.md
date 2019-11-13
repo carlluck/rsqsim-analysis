@@ -21,6 +21,7 @@
   * [BBP Part B Analysis, LA Basin 863 (m/s)](bbp_LA_BASIN_863/bbp_part_b)
   * [Rotated Rupture Variability Comparisons, LA Basin 863 (m/s)](#rotated-rupture-variability-comparisons-la-basin-863-ms)
 * [BBP Calculations, LA Basin 500 (m/s) Velocity Model](#bbp-calculations-la-basin-500-ms-velocity-model)
+  * [Single Event Comparisons, LA Basin 500 (m/s)](#single-event-comparisons-la-basin-500-ms)
   * [Full Catalog GMPE Comparisons, LA Basin 500 (m/s)](#full-catalog-gmpe-comparisons-la-basin-500-ms)
   * [BBP Part B Analysis, LA Basin 500 (m/s)](bbp_LA_BASIN_500/bbp_part_b)
   * [Rotated Rupture Variability Comparisons, LA Basin 500 (m/s)](#rotated-rupture-variability-comparisons-la-basin-500-ms)
@@ -97,8 +98,10 @@
 
 * [M6.6, Reverse, Dip=45, Ztor=3](bbp_LA_BASIN_863/rotated_ruptures_m6p6_reverse/)
 * [M6.6, Vertical Strike-Slip with Surface Rupture](bbp_LA_BASIN_863/rotated_ruptures_m6p6_vert_ss_surface/)
+* [M6.6, Vertical Strike-Slip with Surface Rupture (relaxed)](bbp_LA_BASIN_863/rotated_ruptures_m6p6_vert_ss_surface_relaxed/)
 * [M7.2, Reverse, Dip=45](bbp_LA_BASIN_863/rotated_ruptures_m7p2_reverse/)
 * [M7.2, Vertical Strike-Slip with Surface Rupture](bbp_LA_BASIN_863/rotated_ruptures_m7p2_vert_ss_surface/)
+* [M7.2, Vertical Strike-Slip with Surface Rupture (relaxed) ](bbp_LA_BASIN_863/rotated_ruptures_m7p2_vert_ss_surface_relaxed/)
 * [M7.6, Reverse, Dip=45](bbp_LA_BASIN_863/rotated_ruptures_m7p6_reverse/)
 * [M7.6, Vertical Strike-Slip with Surface Rupture](bbp_LA_BASIN_863/rotated_ruptures_m7p6_vert_ss_surface/)
 * [Reverse, Dip=45, Mag-Dist Bins](bbp_LA_BASIN_863/rotated_ruptures_mag_dist_reverse/)
@@ -107,6 +110,12 @@
 ## BBP Calculations, LA Basin 500 (m/s) Velocity Model
 *[(top)](#bruce-2585-1myr)*
 
+
+### Single Event Comparisons, LA Basin 500 (m/s)
+*[(top)](#bruce-2585-1myr)*
+
+* [Event 3817386, M7.57](bbp_LA_BASIN_500/event_3817386/)
+* [Event 9955310, M7.50](bbp_LA_BASIN_500/event_9955310/)
 
 ### Full Catalog GMPE Comparisons, LA Basin 500 (m/s)
 *[(top)](#bruce-2585-1myr)*
