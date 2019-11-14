@@ -50,7 +50,7 @@ Ruptures are binned by their moment magnitude (**Mw**) and the Joyner-Boore dist
 *[(top)](#table-of-contents)*
 
 **Legend**
-* Red +: GMPE Mean/RSQSim/BBP single rupture comparison
+* Red +: GMPE Mean/RSQSim-BBP single rupture comparison
 * Yellow Region: Factor of 2 above & below
 * Green Line: Linear Regression
 
@@ -65,14 +65,14 @@ Ruptures are binned by their moment magnitude (**Mw**) and the Joyner-Boore dist
 ##### All Sites, 6.5 < Mw < 7, Z-Score Histograms
 *[(top)](#table-of-contents)*
 
-These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
+These plots compare RSQSim-BBP to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
 
-**z-score**: (ln(*RSQSim/BBP*) - ln(*GMPE-mean*)) / *GMPE-sigma*
+**z-score**: (ln(*RSQSim-BBP*) - ln(*GMPE-mean*)) / *GMPE-sigma*
 
 **Legend**
 * Black Line: Standard Normal distribution (in natural log space)
 * Gray Histogram: z-score for each rupture
-* Blue Dashed Line: RSQSim/BBP Mean
+* Blue Dashed Line: RSQSim-BBP Mean
 
 | **0 km < rJB < 10 km** | **10 km < rJB < 20 km** | **20 km < rJB < 40 km** |
 |-----|-----|-----|
@@ -85,7 +85,7 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 *[(top)](#table-of-contents)*
 
 **Legend**
-* Red +: GMPE Mean/RSQSim/BBP single rupture comparison
+* Red +: GMPE Mean/RSQSim-BBP single rupture comparison
 * Yellow Region: Factor of 2 above & below
 * Green Line: Linear Regression
 
@@ -100,14 +100,14 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 ##### All Sites, 7 < Mw < 7.5, Z-Score Histograms
 *[(top)](#table-of-contents)*
 
-These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
+These plots compare RSQSim-BBP to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
 
-**z-score**: (ln(*RSQSim/BBP*) - ln(*GMPE-mean*)) / *GMPE-sigma*
+**z-score**: (ln(*RSQSim-BBP*) - ln(*GMPE-mean*)) / *GMPE-sigma*
 
 **Legend**
 * Black Line: Standard Normal distribution (in natural log space)
 * Gray Histogram: z-score for each rupture
-* Blue Dashed Line: RSQSim/BBP Mean
+* Blue Dashed Line: RSQSim-BBP Mean
 
 | **0 km < rJB < 10 km** | **10 km < rJB < 20 km** | **20 km < rJB < 40 km** |
 |-----|-----|-----|
@@ -120,7 +120,7 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 *[(top)](#table-of-contents)*
 
 **Legend**
-* Red +: GMPE Mean/RSQSim/BBP single rupture comparison
+* Red +: GMPE Mean/RSQSim-BBP single rupture comparison
 * Yellow Region: Factor of 2 above & below
 * Green Line: Linear Regression
 
@@ -135,14 +135,14 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 ##### All Sites, 7.5 < Mw < 8, Z-Score Histograms
 *[(top)](#table-of-contents)*
 
-These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
+These plots compare RSQSim-BBP to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
 
-**z-score**: (ln(*RSQSim/BBP*) - ln(*GMPE-mean*)) / *GMPE-sigma*
+**z-score**: (ln(*RSQSim-BBP*) - ln(*GMPE-mean*)) / *GMPE-sigma*
 
 **Legend**
 * Black Line: Standard Normal distribution (in natural log space)
 * Gray Histogram: z-score for each rupture
-* Blue Dashed Line: RSQSim/BBP Mean
+* Blue Dashed Line: RSQSim-BBP Mean
 
 | **0 km < rJB < 10 km** | **10 km < rJB < 20 km** | **20 km < rJB < 40 km** |
 |-----|-----|-----|
@@ -155,7 +155,7 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 *[(top)](#table-of-contents)*
 
 **Legend**
-* Red +: GMPE Mean/RSQSim/BBP single rupture comparison
+* Red +: GMPE Mean/RSQSim-BBP single rupture comparison
 * Yellow Region: Factor of 2 above & below
 * Green Line: Linear Regression
 
@@ -170,14 +170,14 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 ##### All Sites, 8 < Mw < 8.5, Z-Score Histograms
 *[(top)](#table-of-contents)*
 
-These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
+These plots compare RSQSim-BBP to the full GMPE log-normal distributions. Each rupture's GMPE distribution is converted to a standard log-normal distribution, and the z-score is computed for each rupture:
 
-**z-score**: (ln(*RSQSim/BBP*) - ln(*GMPE-mean*)) / *GMPE-sigma*
+**z-score**: (ln(*RSQSim-BBP*) - ln(*GMPE-mean*)) / *GMPE-sigma*
 
 **Legend**
 * Black Line: Standard Normal distribution (in natural log space)
 * Gray Histogram: z-score for each rupture
-* Blue Dashed Line: RSQSim/BBP Mean
+* Blue Dashed Line: RSQSim-BBP Mean
 
 | **0 km < rJB < 10 km** | **10 km < rJB < 20 km** | **20 km < rJB < 40 km** |
 |-----|-----|-----|
@@ -190,12 +190,12 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 
 z-score standard normal plots across all magnitudes/distances
 
-**z-score**: (ln(*RSQSim/BBP*) - ln(*GMPE-mean*)) / *GMPE-sigma*
+**z-score**: (ln(*RSQSim-BBP*) - ln(*GMPE-mean*)) / *GMPE-sigma*
 
 **Legend**
 * Black Line: Standard Normal distribution (in natural log space)
 * Gray Histogram: z-score for each rupture
-* Blue Dashed Line: RSQSim/BBP Mean
+* Blue Dashed Line: RSQSim-BBP Mean
 
 ![Standard Normal Plot](resources/All_Sites_all_mags_all_dists_ASK2014_std_norm.png)
 ## Hazard Curves
@@ -203,7 +203,7 @@ z-score standard normal plots across all magnitudes/distances
 
 **Legend**:
 * **Simulation Curves** *(truncated below lowest possible y-value)*
-  * Black Solid Line: RSQSim/BBP
+  * Black Solid Line: RSQSim-BBP
 * **GMPE Curves**
   * Blue Solid Line: ASK2014 full curves
   * Blue Dashed Line: ASK2014, 3-sigma truncation
@@ -227,7 +227,7 @@ z-score standard normal plots across all magnitudes/distances
 ## GMPE Residuals
 *[(top)](#table-of-contents)*
 
-Residuals of simulation data (RSQSim/BBP) in log space relative to GMPE log-mean
+Residuals of simulation data (RSQSim-BBP) in log space relative to GMPE log-mean
 
 **Legend**
 * Black Thick Line: Linear Least-Squares Fit to Residuals
