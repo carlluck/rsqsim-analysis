@@ -33,19 +33,19 @@ Ruptures are binned by their moment magnitude (**Mw**) and the Joyner-Boore dist
 | Name | Location | # Ruptures | Vs30 (m/s) | Z1.0 (km) | Z2.5 (km) |
 |-----|-----|-----|-----|-----|-----|
 | USC | *34.0192, -118.286* | 84613 (84613 sims) | 500 | N/A | N/A |
-| PAS | *34.148426, -118.17119* | 86417 (86417 sims) | 500 | N/A | N/A |
 | SBSM | *34.064987, -117.29201* | 91404 (91404 sims) | 500 | N/A | N/A |
 | WNGC | *34.041824, -118.0653* | 85499 (85499 sims) | 500 | N/A | N/A |
 | STNI | *33.93088, -118.17881* | 83412 (83412 sims) | 500 | N/A | N/A |
-| LAPD | *34.557, -118.125* | 88204 (88204 sims) | 500 | N/A | N/A |
-| s119 | *34.55314, -118.72826* | 73110 (73110 sims) | 500 | N/A | N/A |
-| s279 | *34.37809, -118.34757* | 81487 (81487 sims) | 500 | N/A | N/A |
-| s480 | *34.15755, -117.87389* | 87252 (87252 sims) | 500 | N/A | N/A |
 | SMCA | *34.00909, -118.48939* | 77239 (77239 sims) | 500 | N/A | N/A |
+| OSI | *34.6145, -118.7235* | 73487 (73487 sims) | 500 | N/A | N/A |
+| PDE | *34.44199, -118.58215* | 74006 (74006 sims) | 500 | N/A | N/A |
+| WSS | *34.1717, -118.64971* | 71855 (71855 sims) | 500 | N/A | N/A |
+| LAF | *33.86889, -118.33143* | 82636 (82636 sims) | 500 | N/A | N/A |
+| s022 | *34.24505, -119.18086* | 63599 (63599 sims) | 500 | N/A | N/A |
 
-106964 ruptures within 200 km of *any* site
+105399 ruptures within 200 km of *any* site
 #### All Sites, 6.5 < Mw < 7
-45019 Ruptures
+44412 Ruptures
 ##### All Sites, 6.5 < Mw < 7, Scatter Plots
 *[(top)](#table-of-contents)*
 
@@ -80,7 +80,7 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 | **40 km < rJB < 80 km** | **80 km < rJB < 160 km** | **160 km < rJB < 200 km** |
 | ![Standard Normal Plot](resources/All_Sites_mag_6.5_7_dist_40_80_ASK2014_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_6.5_7_dist_80_160_ASK2014_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_6.5_7_dist_160_200_ASK2014_std_norm.png) |
 #### All Sites, 7 < Mw < 7.5
-43566 Ruptures
+42786 Ruptures
 ##### All Sites, 7 < Mw < 7.5, Scatter Plots
 *[(top)](#table-of-contents)*
 
@@ -115,7 +115,7 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 | **40 km < rJB < 80 km** | **80 km < rJB < 160 km** | **160 km < rJB < 200 km** |
 | ![Standard Normal Plot](resources/All_Sites_mag_7_7.5_dist_40_80_ASK2014_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_7_7.5_dist_80_160_ASK2014_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_7_7.5_dist_160_200_ASK2014_std_norm.png) |
 #### All Sites, 7.5 < Mw < 8
-18295 Ruptures
+18117 Ruptures
 ##### All Sites, 7.5 < Mw < 8, Scatter Plots
 *[(top)](#table-of-contents)*
 
@@ -166,7 +166,7 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 | **20 km < rJB < 40 km** | ![Scatter Plot](resources/All_Sites_mag_8_8.5_dist_20_40_3s_ASK2014_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_8_8.5_dist_20_40_5s_ASK2014_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_8_8.5_dist_20_40_10s_ASK2014_scatter.png) |
 | **40 km < rJB < 80 km** | ![Scatter Plot](resources/All_Sites_mag_8_8.5_dist_40_80_3s_ASK2014_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_8_8.5_dist_40_80_5s_ASK2014_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_8_8.5_dist_40_80_10s_ASK2014_scatter.png) |
 | **80 km < rJB < 160 km** | ![Scatter Plot](resources/All_Sites_mag_8_8.5_dist_80_160_3s_ASK2014_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_8_8.5_dist_80_160_5s_ASK2014_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_8_8.5_dist_80_160_10s_ASK2014_scatter.png) |
-| **160 km < rJB < 200 km** | N/A | N/A | N/A |
+| **160 km < rJB < 200 km** | ![Scatter Plot](resources/All_Sites_mag_8_8.5_dist_160_200_3s_ASK2014_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_8_8.5_dist_160_200_5s_ASK2014_scatter.png) | ![Scatter Plot](resources/All_Sites_mag_8_8.5_dist_160_200_10s_ASK2014_scatter.png) |
 ##### All Sites, 8 < Mw < 8.5, Z-Score Histograms
 *[(top)](#table-of-contents)*
 
@@ -183,7 +183,7 @@ These plots compare RSQSim/BBP to the full GMPE log-normal distributions. Each r
 |-----|-----|-----|
 | ![Standard Normal Plot](resources/All_Sites_mag_8_8.5_dist_0_10_ASK2014_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_8_8.5_dist_10_20_ASK2014_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_8_8.5_dist_20_40_ASK2014_std_norm.png) |
 | **40 km < rJB < 80 km** | **80 km < rJB < 160 km** | **160 km < rJB < 200 km** |
-| ![Standard Normal Plot](resources/All_Sites_mag_8_8.5_dist_40_80_ASK2014_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_8_8.5_dist_80_160_ASK2014_std_norm.png) | N/A |
+| ![Standard Normal Plot](resources/All_Sites_mag_8_8.5_dist_40_80_ASK2014_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_8_8.5_dist_80_160_ASK2014_std_norm.png) | ![Standard Normal Plot](resources/All_Sites_mag_8_8.5_dist_160_200_ASK2014_std_norm.png) |
 #### All Sites, All Ruptures, Z-Score Histograms
 *[(top)](#table-of-contents)*
 
@@ -215,15 +215,15 @@ z-score standard normal plots across all magnitudes/distances
 | Site | 3s | 5s | 10s |
 |-----|-----|-----|-----|
 | **USC** | ![Hazard Curve](resources/USC_curves_3.0s_ASK2014.png) | ![Hazard Curve](resources/USC_curves_5.0s_ASK2014.png) | ![Hazard Curve](resources/USC_curves_10.0s_ASK2014.png) |
-| **PAS** | ![Hazard Curve](resources/PAS_curves_3.0s_ASK2014.png) | ![Hazard Curve](resources/PAS_curves_5.0s_ASK2014.png) | ![Hazard Curve](resources/PAS_curves_10.0s_ASK2014.png) |
 | **SBSM** | ![Hazard Curve](resources/SBSM_curves_3.0s_ASK2014.png) | ![Hazard Curve](resources/SBSM_curves_5.0s_ASK2014.png) | ![Hazard Curve](resources/SBSM_curves_10.0s_ASK2014.png) |
 | **WNGC** | ![Hazard Curve](resources/WNGC_curves_3.0s_ASK2014.png) | ![Hazard Curve](resources/WNGC_curves_5.0s_ASK2014.png) | ![Hazard Curve](resources/WNGC_curves_10.0s_ASK2014.png) |
 | **STNI** | ![Hazard Curve](resources/STNI_curves_3.0s_ASK2014.png) | ![Hazard Curve](resources/STNI_curves_5.0s_ASK2014.png) | ![Hazard Curve](resources/STNI_curves_10.0s_ASK2014.png) |
-| **LAPD** | ![Hazard Curve](resources/LAPD_curves_3.0s_ASK2014.png) | ![Hazard Curve](resources/LAPD_curves_5.0s_ASK2014.png) | ![Hazard Curve](resources/LAPD_curves_10.0s_ASK2014.png) |
-| **s119** | ![Hazard Curve](resources/s119_curves_3.0s_ASK2014.png) | ![Hazard Curve](resources/s119_curves_5.0s_ASK2014.png) | ![Hazard Curve](resources/s119_curves_10.0s_ASK2014.png) |
-| **s279** | ![Hazard Curve](resources/s279_curves_3.0s_ASK2014.png) | ![Hazard Curve](resources/s279_curves_5.0s_ASK2014.png) | ![Hazard Curve](resources/s279_curves_10.0s_ASK2014.png) |
-| **s480** | ![Hazard Curve](resources/s480_curves_3.0s_ASK2014.png) | ![Hazard Curve](resources/s480_curves_5.0s_ASK2014.png) | ![Hazard Curve](resources/s480_curves_10.0s_ASK2014.png) |
 | **SMCA** | ![Hazard Curve](resources/SMCA_curves_3.0s_ASK2014.png) | ![Hazard Curve](resources/SMCA_curves_5.0s_ASK2014.png) | ![Hazard Curve](resources/SMCA_curves_10.0s_ASK2014.png) |
+| **OSI** | ![Hazard Curve](resources/OSI_curves_3.0s_ASK2014.png) | ![Hazard Curve](resources/OSI_curves_5.0s_ASK2014.png) | ![Hazard Curve](resources/OSI_curves_10.0s_ASK2014.png) |
+| **PDE** | ![Hazard Curve](resources/PDE_curves_3.0s_ASK2014.png) | ![Hazard Curve](resources/PDE_curves_5.0s_ASK2014.png) | ![Hazard Curve](resources/PDE_curves_10.0s_ASK2014.png) |
+| **WSS** | ![Hazard Curve](resources/WSS_curves_3.0s_ASK2014.png) | ![Hazard Curve](resources/WSS_curves_5.0s_ASK2014.png) | ![Hazard Curve](resources/WSS_curves_10.0s_ASK2014.png) |
+| **LAF** | ![Hazard Curve](resources/LAF_curves_3.0s_ASK2014.png) | ![Hazard Curve](resources/LAF_curves_5.0s_ASK2014.png) | ![Hazard Curve](resources/LAF_curves_10.0s_ASK2014.png) |
+| **s022** | ![Hazard Curve](resources/s022_curves_3.0s_ASK2014.png) | ![Hazard Curve](resources/s022_curves_5.0s_ASK2014.png) | ![Hazard Curve](resources/s022_curves_10.0s_ASK2014.png) |
 ## GMPE Residuals
 *[(top)](#table-of-contents)*
 
@@ -239,13 +239,13 @@ GMPE Residuals use the following values, averaged among all ruptures, for all pa
 
 | Name | Average Value |
 |-----|-----|
-| Magnitude | 7.12 |
-| rRup | 108.45 |
-| rJB | 108.78 |
+| Magnitude | 7.13 |
+| rRup | 107.76 |
+| rJB | 108.3 |
 | Vs30 | 500 |
 | Z10 | � |
 | Z25 | � |
-| Occurrence Time | 502687.04 |
+| Occurrence Time | 502811.13 |
 
 ### Period-Dependent Residual Components
 *[(top)](#table-of-contents)*
