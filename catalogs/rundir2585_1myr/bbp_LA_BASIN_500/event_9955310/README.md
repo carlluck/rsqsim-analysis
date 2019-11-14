@@ -5,6 +5,8 @@
 
 
 
+**Graves & Pitarka (2015) Simulations: 400 per site**
+
 ## Table Of Contents
 * [Fault List](#fault-list)
 * [Rupture Plots](#rupture-plots)
@@ -73,6 +75,8 @@
     * [s022 RotD Ratio](#s022-rotd-ratio)
     * [s022 Acceleration Seismograms](#s022-acceleration-seismograms)
     * [s022 Velocity Seismograms](#s022-velocity-seismograms)
+* [ShakeMaps](#shakemaps)
+  * [Region RotD100/RotD50 Ratio](#region-rotd100rotd50-ratio)
 ## Fault List
 *[(top)](#table-of-contents)*
 
@@ -88,6 +92,8 @@
 **Legend**
 * Colored, Filled Triangles: RSQSim Elements
 * Red Star: RSQSim Hypocenter
+* Dark Green Solid Outline: BBP Equivalent Planar Surface
+* Green Star: BBP Equivalent Hypocenter
 * Dark Gray Dashed Outline: GMPE Surface
 
 ### Slip/Time Plot
@@ -115,10 +121,10 @@
 
 *Location: 34.0192, -118.286*
 
-| Distance | Actual RSQSim Surface | GMPE Surface |
-|-----|-----|-----|
-| Horizontal | 60.07 km | 60.07 km |
-| 3-D | 60.07 km | 60.07 km |
+| Distance | Actual RSQSim Surface | BBP Equivalent Planar Surface | GMPE Surface |
+|-----|-----|-----|-----|
+| Horizontal | 60.07 km | 59.14 km | 60.07 km |
+| 3-D | 60.07 km | 59.14 km | 60.07 km |
 
 *NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.*
 #### USC Fourier Amplitude Spectra
@@ -136,9 +142,13 @@
 #### USC Acceleration Seismograms
 *[(top)](#table-of-contents)*
 
+RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
+
 ![USC Acceleration Seismograms](resources/seis_accel_USC.png)
 #### USC Velocity Seismograms
 *[(top)](#table-of-contents)*
+
+RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
 
 ![USC Velocity Seismograms](resources/seis_vel_USC.png)
 ### Site SBSM
@@ -146,10 +156,10 @@
 
 *Location: 34.064987, -117.29201*
 
-| Distance | Actual RSQSim Surface | GMPE Surface |
-|-----|-----|-----|
-| Horizontal | 30.83 km | 31.15 km |
-| 3-D | 30.83 km | 31.15 km |
+| Distance | Actual RSQSim Surface | BBP Equivalent Planar Surface | GMPE Surface |
+|-----|-----|-----|-----|
+| Horizontal | 30.83 km | 31.03 km | 31.15 km |
+| 3-D | 30.83 km | 31.03 km | 31.15 km |
 
 *NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.*
 #### SBSM Fourier Amplitude Spectra
@@ -167,9 +177,13 @@
 #### SBSM Acceleration Seismograms
 *[(top)](#table-of-contents)*
 
+RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
+
 ![SBSM Acceleration Seismograms](resources/seis_accel_SBSM.png)
 #### SBSM Velocity Seismograms
 *[(top)](#table-of-contents)*
+
+RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
 
 ![SBSM Velocity Seismograms](resources/seis_vel_SBSM.png)
 ### Site WNGC
@@ -177,10 +191,10 @@
 
 *Location: 34.041824, -118.0653*
 
-| Distance | Actual RSQSim Surface | GMPE Surface |
-|-----|-----|-----|
-| Horizontal | 48.75 km | 48.74 km |
-| 3-D | 48.75 km | 48.74 km |
+| Distance | Actual RSQSim Surface | BBP Equivalent Planar Surface | GMPE Surface |
+|-----|-----|-----|-----|
+| Horizontal | 48.75 km | 47.91 km | 48.74 km |
+| 3-D | 48.75 km | 47.91 km | 48.74 km |
 
 *NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.*
 #### WNGC Fourier Amplitude Spectra
@@ -198,9 +212,13 @@
 #### WNGC Acceleration Seismograms
 *[(top)](#table-of-contents)*
 
+RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
+
 ![WNGC Acceleration Seismograms](resources/seis_accel_WNGC.png)
 #### WNGC Velocity Seismograms
 *[(top)](#table-of-contents)*
+
+RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
 
 ![WNGC Velocity Seismograms](resources/seis_vel_WNGC.png)
 ### Site STNI
@@ -208,10 +226,10 @@
 
 *Location: 33.93088, -118.17881*
 
-| Distance | Actual RSQSim Surface | GMPE Surface |
-|-----|-----|-----|
-| Horizontal | 64.46 km | 64.46 km |
-| 3-D | 64.46 km | 64.46 km |
+| Distance | Actual RSQSim Surface | BBP Equivalent Planar Surface | GMPE Surface |
+|-----|-----|-----|-----|
+| Horizontal | 64.46 km | 63.60 km | 64.46 km |
+| 3-D | 64.46 km | 63.60 km | 64.46 km |
 
 *NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.*
 #### STNI Fourier Amplitude Spectra
@@ -229,9 +247,13 @@
 #### STNI Acceleration Seismograms
 *[(top)](#table-of-contents)*
 
+RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
+
 ![STNI Acceleration Seismograms](resources/seis_accel_STNI.png)
 #### STNI Velocity Seismograms
 *[(top)](#table-of-contents)*
+
+RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
 
 ![STNI Velocity Seismograms](resources/seis_vel_STNI.png)
 ### Site SMCA
@@ -239,10 +261,10 @@
 
 *Location: 34.00909, -118.48939*
 
-| Distance | Actual RSQSim Surface | GMPE Surface |
-|-----|-----|-----|
-| Horizontal | 69.18 km | 69.18 km |
-| 3-D | 69.18 km | 69.18 km |
+| Distance | Actual RSQSim Surface | BBP Equivalent Planar Surface | GMPE Surface |
+|-----|-----|-----|-----|
+| Horizontal | 69.18 km | 68.38 km | 69.18 km |
+| 3-D | 69.18 km | 68.38 km | 69.18 km |
 
 *NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.*
 #### SMCA Fourier Amplitude Spectra
@@ -260,9 +282,13 @@
 #### SMCA Acceleration Seismograms
 *[(top)](#table-of-contents)*
 
+RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
+
 ![SMCA Acceleration Seismograms](resources/seis_accel_SMCA.png)
 #### SMCA Velocity Seismograms
 *[(top)](#table-of-contents)*
+
+RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
 
 ![SMCA Velocity Seismograms](resources/seis_vel_SMCA.png)
 ### Site OSI
@@ -270,10 +296,10 @@
 
 *Location: 34.6145, -118.7235*
 
-| Distance | Actual RSQSim Surface | GMPE Surface |
-|-----|-----|-----|
-| Horizontal | 21.73 km | 21.73 km |
-| 3-D | 22.39 km | 21.73 km |
+| Distance | Actual RSQSim Surface | BBP Equivalent Planar Surface | GMPE Surface |
+|-----|-----|-----|-----|
+| Horizontal | 21.73 km | 21.94 km | 21.73 km |
+| 3-D | 22.39 km | 21.94 km | 21.73 km |
 
 *NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.*
 #### OSI Fourier Amplitude Spectra
@@ -291,9 +317,13 @@
 #### OSI Acceleration Seismograms
 *[(top)](#table-of-contents)*
 
+RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
+
 ![OSI Acceleration Seismograms](resources/seis_accel_OSI.png)
 #### OSI Velocity Seismograms
 *[(top)](#table-of-contents)*
+
+RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
 
 ![OSI Velocity Seismograms](resources/seis_vel_OSI.png)
 ### Site PDE
@@ -301,10 +331,10 @@
 
 *Location: 34.44199, -118.58215*
 
-| Distance | Actual RSQSim Surface | GMPE Surface |
-|-----|-----|-----|
-| Horizontal | 28.77 km | 28.76 km |
-| 3-D | 28.77 km | 28.76 km |
+| Distance | Actual RSQSim Surface | BBP Equivalent Planar Surface | GMPE Surface |
+|-----|-----|-----|-----|
+| Horizontal | 28.77 km | 28.84 km | 28.76 km |
+| 3-D | 28.77 km | 28.84 km | 28.76 km |
 
 *NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.*
 #### PDE Fourier Amplitude Spectra
@@ -322,9 +352,13 @@
 #### PDE Acceleration Seismograms
 *[(top)](#table-of-contents)*
 
+RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
+
 ![PDE Acceleration Seismograms](resources/seis_accel_PDE.png)
 #### PDE Velocity Seismograms
 *[(top)](#table-of-contents)*
+
+RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
 
 ![PDE Velocity Seismograms](resources/seis_vel_PDE.png)
 ### Site WSS
@@ -332,10 +366,10 @@
 
 *Location: 34.1717, -118.64971*
 
-| Distance | Actual RSQSim Surface | GMPE Surface |
-|-----|-----|-----|
-| Horizontal | 58.73 km | 58.73 km |
-| 3-D | 58.73 km | 58.73 km |
+| Distance | Actual RSQSim Surface | BBP Equivalent Planar Surface | GMPE Surface |
+|-----|-----|-----|-----|
+| Horizontal | 58.73 km | 58.58 km | 58.73 km |
+| 3-D | 58.73 km | 58.58 km | 58.73 km |
 
 *NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.*
 #### WSS Fourier Amplitude Spectra
@@ -353,9 +387,13 @@
 #### WSS Acceleration Seismograms
 *[(top)](#table-of-contents)*
 
+RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
+
 ![WSS Acceleration Seismograms](resources/seis_accel_WSS.png)
 #### WSS Velocity Seismograms
 *[(top)](#table-of-contents)*
+
+RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
 
 ![WSS Velocity Seismograms](resources/seis_vel_WSS.png)
 ### Site LAF
@@ -363,10 +401,10 @@
 
 *Location: 33.86889, -118.33143*
 
-| Distance | Actual RSQSim Surface | GMPE Surface |
-|-----|-----|-----|
-| Horizontal | 76.90 km | 76.90 km |
-| 3-D | 76.90 km | 76.90 km |
+| Distance | Actual RSQSim Surface | BBP Equivalent Planar Surface | GMPE Surface |
+|-----|-----|-----|-----|
+| Horizontal | 76.90 km | 75.99 km | 76.90 km |
+| 3-D | 76.90 km | 75.99 km | 76.90 km |
 
 *NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.*
 #### LAF Fourier Amplitude Spectra
@@ -384,9 +422,13 @@
 #### LAF Acceleration Seismograms
 *[(top)](#table-of-contents)*
 
+RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
+
 ![LAF Acceleration Seismograms](resources/seis_accel_LAF.png)
 #### LAF Velocity Seismograms
 *[(top)](#table-of-contents)*
+
+RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
 
 ![LAF Velocity Seismograms](resources/seis_vel_LAF.png)
 ### Site s022
@@ -394,10 +436,10 @@
 
 *Location: 34.24505, -119.18086*
 
-| Distance | Actual RSQSim Surface | GMPE Surface |
-|-----|-----|-----|
-| Horizontal | 79.60 km | 79.60 km |
-| 3-D | 79.78 km | 79.60 km |
+| Distance | Actual RSQSim Surface | BBP Equivalent Planar Surface | GMPE Surface |
+|-----|-----|-----|-----|
+| Horizontal | 79.60 km | 79.84 km | 79.60 km |
+| 3-D | 79.78 km | 79.84 km | 79.60 km |
 
 *NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.*
 #### s022 Fourier Amplitude Spectra
@@ -415,8 +457,42 @@
 #### s022 Acceleration Seismograms
 *[(top)](#table-of-contents)*
 
+RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
+
 ![s022 Acceleration Seismograms](resources/seis_accel_s022.png)
 #### s022 Velocity Seismograms
 *[(top)](#table-of-contents)*
 
+RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
+
 ![s022 Velocity Seismograms](resources/seis_vel_s022.png)
+
+## ShakeMaps
+*[(top)](#table-of-contents)*
+
+
+| SA Period | RSQSim | NGAWest_2014_NoIdr | Ratio |
+|-----|-----|-----|-----|
+| **1.0 s** | ![RSQSim Map](resources/shakemap_1s.png) | ![NGAWest_2014_NoIdr Map](resources/shakemap_1s_NGAWest_2014_NoIdr.png) | ![NGAWest_2014_NoIdr Ratio](resources/shakemap_1s_NGAWest_2014_NoIdr_ratio.png) |
+| **2.0 s** | ![RSQSim Map](resources/shakemap_2s.png) | ![NGAWest_2014_NoIdr Map](resources/shakemap_2s_NGAWest_2014_NoIdr.png) | ![NGAWest_2014_NoIdr Ratio](resources/shakemap_2s_NGAWest_2014_NoIdr_ratio.png) |
+| **3.0 s** | ![RSQSim Map](resources/shakemap_3s.png) | ![NGAWest_2014_NoIdr Map](resources/shakemap_3s_NGAWest_2014_NoIdr.png) | ![NGAWest_2014_NoIdr Ratio](resources/shakemap_3s_NGAWest_2014_NoIdr_ratio.png) |
+| **4.0 s** | ![RSQSim Map](resources/shakemap_4s.png) | ![NGAWest_2014_NoIdr Map](resources/shakemap_4s_NGAWest_2014_NoIdr.png) | ![NGAWest_2014_NoIdr Ratio](resources/shakemap_4s_NGAWest_2014_NoIdr_ratio.png) |
+| **5.0 s** | ![RSQSim Map](resources/shakemap_5s.png) | ![NGAWest_2014_NoIdr Map](resources/shakemap_5s_NGAWest_2014_NoIdr.png) | ![NGAWest_2014_NoIdr Ratio](resources/shakemap_5s_NGAWest_2014_NoIdr_ratio.png) |
+| **7.5 s** | ![RSQSim Map](resources/shakemap_7.5s.png) | ![NGAWest_2014_NoIdr Map](resources/shakemap_7.5s_NGAWest_2014_NoIdr.png) | ![NGAWest_2014_NoIdr Ratio](resources/shakemap_7.5s_NGAWest_2014_NoIdr_ratio.png) |
+| **10.0 s** | ![RSQSim Map](resources/shakemap_10s.png) | ![NGAWest_2014_NoIdr Map](resources/shakemap_10s_NGAWest_2014_NoIdr.png) | ![NGAWest_2014_NoIdr Ratio](resources/shakemap_10s_NGAWest_2014_NoIdr_ratio.png) |
+### Region RotD100/RotD50 Ratio
+*[(top)](#table-of-contents)*
+
+![ShakeMap RotD Ratio Plot](resources/rotd_ratio_shakemap.png)
+
+![ShakeMap RotD Dist Dependence](resources/rotd_ratio_shakemap_dist_dependence.png)
+
+| SA Period | RotD50 | RotD100 | RotD100/RotD50 Ratio |
+|-----|-----|-----|-----|
+| **1.0 s** | ![RotD50 Map](resources/shakemap_1s.png) | ![RotD100 Map](resources/shakemap_1s_rd100.png) | ![RotD Ratio Map](resources/shakemap_1s_rd100_ratio.png) |
+| **2.0 s** | ![RotD50 Map](resources/shakemap_2s.png) | ![RotD100 Map](resources/shakemap_2s_rd100.png) | ![RotD Ratio Map](resources/shakemap_2s_rd100_ratio.png) |
+| **3.0 s** | ![RotD50 Map](resources/shakemap_3s.png) | ![RotD100 Map](resources/shakemap_3s_rd100.png) | ![RotD Ratio Map](resources/shakemap_3s_rd100_ratio.png) |
+| **4.0 s** | ![RotD50 Map](resources/shakemap_4s.png) | ![RotD100 Map](resources/shakemap_4s_rd100.png) | ![RotD Ratio Map](resources/shakemap_4s_rd100_ratio.png) |
+| **5.0 s** | ![RotD50 Map](resources/shakemap_5s.png) | ![RotD100 Map](resources/shakemap_5s_rd100.png) | ![RotD Ratio Map](resources/shakemap_5s_rd100_ratio.png) |
+| **7.5 s** | ![RotD50 Map](resources/shakemap_7.5s.png) | ![RotD100 Map](resources/shakemap_7.5s_rd100.png) | ![RotD Ratio Map](resources/shakemap_7.5s_rd100_ratio.png) |
+| **10.0 s** | ![RotD50 Map](resources/shakemap_10s.png) | ![RotD100 Map](resources/shakemap_10s_rd100.png) | ![RotD Ratio Map](resources/shakemap_10s_rd100_ratio.png) |
