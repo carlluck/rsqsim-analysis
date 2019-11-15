@@ -13,6 +13,7 @@ We then  perform various rotations. We rotate the rupture in place around its ce
 * [M7.2 SS RSQSim Rupture Match Criteria](#m72-ss-rsqsim-rupture-match-criteria)
 * [Sites](#sites)
 * [Result Summary Table](#result-summary-table)
+  * [GMPE Table](#gmpe-table)
   * [Dist-Dependent Plot Table](#dist-dependent-plot-table)
 * [Source-strike Variability](#source-strike-variability)
   * [Source-strike Variability Methodology](#source-strike-variability-methodology)
@@ -83,6 +84,21 @@ We condisder 400 events in the catalog which match the following criteria:
 | Between-events | &tau; | 100 km | 0.18 | 0.15 | 0.21 | 0.24 | 0.26 |
 | Between-events | &tau; | (all) | 0.19 | 0.16 | 0.21 | 0.23 | 0.25 |
 
+### GMPE Table
+*[(top)](#table-of-contents)*
+
+| Type | Notation | Distance | ASK2014 3s | ASK2014 5s | ASK2014 7.5s | ASK2014 10s | BSSA2014 3s | BSSA2014 5s | BSSA2014 7.5s | BSSA2014 10s | CB2014 3s | CB2014 5s | CB2014 7.5s | CB2014 10s | CY2014 3s | CY2014 5s | CY2014 7.5s | CY2014 10s |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| Source-strike | &phi;<sub>SS</sub> | 20 km | 0.48 | 0.5 | 0.49 | 0.48 | 0.55 | 0.54 | 0.54 | 0.54 | 0.55 | 0.51 | 0.49 | 0.47 | 0.51 | 0.53 | 0.52 | 0.51 |
+| Source-strike | &phi;<sub>SS</sub> | 20 km | 0.48 | 0.5 | 0.49 | 0.48 | 0.55 | 0.54 | 0.54 | 0.54 | 0.55 | 0.51 | 0.49 | 0.47 | 0.52 | 0.53 | 0.52 | 0.51 |
+| Source-strike | &phi;<sub>SS</sub> | 20 km | 0.48 | 0.5 | 0.49 | 0.48 | 0.55 | 0.54 | 0.54 | 0.54 | 0.55 | 0.51 | 0.49 | 0.47 | 0.52 | 0.53 | 0.52 | 0.51 |
+| Within-event, single-site | &phi;<sub>SS</sub> | 20 km | 0.48 | 0.5 | 0.49 | 0.48 | 0.55 | 0.54 | 0.54 | 0.54 | 0.55 | 0.51 | 0.49 | 0.47 | 0.51 | 0.53 | 0.52 | 0.51 |
+| Within-event, single-site | &phi;<sub>SS</sub> | 20 km | 0.48 | 0.5 | 0.49 | 0.48 | 0.55 | 0.54 | 0.54 | 0.54 | 0.55 | 0.51 | 0.49 | 0.47 | 0.52 | 0.53 | 0.52 | 0.51 |
+| Within-event, single-site | &phi;<sub>SS</sub> | 20 km | 0.48 | 0.5 | 0.49 | 0.48 | 0.55 | 0.54 | 0.54 | 0.54 | 0.55 | 0.51 | 0.49 | 0.47 | 0.52 | 0.53 | 0.52 | 0.51 |
+| Between-events | &tau; | 20 km | 0.36 | 0.36 | 0.36 | 0.36 | 0.3 | 0.33 | 0.34 | 0.35 | 0.35 | 0.4 | 0.42 | 0.39 | 0.33 | 0.33 | 0.34 | 0.34 |
+| Between-events | &tau; | 20 km | 0.36 | 0.36 | 0.36 | 0.36 | 0.3 | 0.33 | 0.34 | 0.35 | 0.35 | 0.4 | 0.42 | 0.39 | 0.33 | 0.33 | 0.34 | 0.34 |
+| Between-events | &tau; | 20 km | 0.36 | 0.36 | 0.36 | 0.36 | 0.3 | 0.33 | 0.34 | 0.35 | 0.35 | 0.4 | 0.42 | 0.39 | 0.33 | 0.33 | 0.34 | 0.34 |
+
 ### Dist-Dependent Plot Table
 *[(top)](#table-of-contents)*
 
@@ -145,6 +161,12 @@ We compute uncertainties on &phi;<sub>s</sub> through downsampling the rotationa
 | 7.5 | 0.38 | 0.37 | 0.06 | [0.31 0.43] | [0.25 0.48] |
 | 10 | 0.31 | 0.29 | 0.05 | [0.25 0.35] | [0.22 0.4] |
 
+These plots show the distribution of period-independent downsampled &phi;<sub>s</sub> for each site.
+
+| **USC** |
+|-----|
+| ![Dowmsampled Histogram](resources/source_strike_m7.2_20km_USC_downsampled_hist.png) |
+
 Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture, from which we compute a total &phi;<sub>s</sub>
 
 | 3s | 5s |
@@ -182,6 +204,12 @@ We compute uncertainties on &phi;<sub>s</sub> through downsampling the rotationa
 | 5 | 0.55 | 0.55 | 0.07 | [0.46 0.6] | [0.36 0.66] |
 | 7.5 | 0.53 | 0.51 | 0.08 | [0.42 0.59] | [0.35 0.64] |
 | 10 | 0.54 | 0.54 | 0.08 | [0.45 0.61] | [0.39 0.7] |
+
+These plots show the distribution of period-independent downsampled &phi;<sub>s</sub> for each site.
+
+| **USC** |
+|-----|
+| ![Dowmsampled Histogram](resources/source_strike_m7.2_50km_USC_downsampled_hist.png) |
 
 Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture, from which we compute a total &phi;<sub>s</sub>
 
@@ -223,6 +251,12 @@ We compute uncertainties on &phi;<sub>s</sub> through downsampling the rotationa
 | 7.5 | 0.58 | 0.58 | 0.07 | [0.51 0.65] | [0.43 0.71] |
 | 10 | 0.56 | 0.56 | 0.05 | [0.49 0.61] | [0.42 0.65] |
 
+These plots show the distribution of period-independent downsampled &phi;<sub>s</sub> for each site.
+
+| **USC** |
+|-----|
+| ![Dowmsampled Histogram](resources/source_strike_m7.2_100km_USC_downsampled_hist.png) |
+
 Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture, from which we compute a total &phi;<sub>s</sub>
 
 | 3s | 5s |
@@ -260,6 +294,12 @@ We compute uncertainties on &phi;<sub>s</sub> through downsampling the rotationa
 | 5 | 0.53 | 0.52 | 0.03 | [0.49 0.55] | [0.46 0.58] |
 | 7.5 | 0.5 | 0.49 | 0.03 | [0.47 0.53] | [0.45 0.55] |
 | 10 | 0.48 | 0.47 | 0.03 | [0.45 0.5] | [0.41 0.52] |
+
+These plots show the distribution of period-independent downsampled &phi;<sub>s</sub> for each site.
+
+| **USC** |
+|-----|
+| ![Dowmsampled Histogram](resources/source_strike_m7.2_USC_downsampled_hist.png) |
 
 Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture, from which we compute a total &phi;<sub>s</sub>
 
@@ -323,6 +363,12 @@ We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotation
 | 7.5 | 0.38 | 0.37 | 0.06 | [0.32 0.43] | [0.25 0.54] |
 | 10 | 0.31 | 0.31 | 0.05 | [0.25 0.36] | [0.2 0.41] |
 
+These plots show the distribution of period-independent downsampled &phi;<sub>SS</sub> for each site.
+
+| **USC** |
+|-----|
+| ![Dowmsampled Histogram](resources/within_event_ss_m7.2_20km_USC_downsampled_hist.png) |
+
 Here are plots of the histogram of &phi;<sub>SS</sub> for each individual rupture, from which we compute a total &phi;<sub>SS</sub>
 
 | 3s | 5s |
@@ -360,6 +406,12 @@ We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotation
 | 5 | 0.55 | 0.54 | 0.07 | [0.47 0.62] | [0.4 0.69] |
 | 7.5 | 0.53 | 0.51 | 0.08 | [0.44 0.59] | [0.33 0.66] |
 | 10 | 0.54 | 0.52 | 0.09 | [0.45 0.61] | [0.36 0.69] |
+
+These plots show the distribution of period-independent downsampled &phi;<sub>SS</sub> for each site.
+
+| **USC** |
+|-----|
+| ![Dowmsampled Histogram](resources/within_event_ss_m7.2_50km_USC_downsampled_hist.png) |
 
 Here are plots of the histogram of &phi;<sub>SS</sub> for each individual rupture, from which we compute a total &phi;<sub>SS</sub>
 
@@ -401,6 +453,12 @@ We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotation
 | 7.5 | 0.58 | 0.57 | 0.07 | [0.5 0.65] | [0.45 0.71] |
 | 10 | 0.56 | 0.55 | 0.06 | [0.48 0.61] | [0.43 0.69] |
 
+These plots show the distribution of period-independent downsampled &phi;<sub>SS</sub> for each site.
+
+| **USC** |
+|-----|
+| ![Dowmsampled Histogram](resources/within_event_ss_m7.2_100km_USC_downsampled_hist.png) |
+
 Here are plots of the histogram of &phi;<sub>SS</sub> for each individual rupture, from which we compute a total &phi;<sub>SS</sub>
 
 | 3s | 5s |
@@ -439,6 +497,12 @@ We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotation
 | 7.5 | 0.5 | 0.49 | 0.03 | [0.46 0.52] | [0.44 0.55] |
 | 10 | 0.48 | 0.48 | 0.03 | [0.45 0.51] | [0.43 0.54] |
 
+These plots show the distribution of period-independent downsampled &phi;<sub>SS</sub> for each site.
+
+| **USC** |
+|-----|
+| ![Dowmsampled Histogram](resources/within_event_ss_m7.2_USC_downsampled_hist.png) |
+
 Here are plots of the histogram of &phi;<sub>SS</sub> for each individual rupture, from which we compute a total &phi;<sub>SS</sub>
 
 | 3s | 5s |
@@ -456,7 +520,6 @@ Here are plots of the histogram of &phi;<sub>SS</sub> for each individual ruptur
 
 Between-events variability, denoted &tau; in Al Atik (2010), is computed separately for each:
 
-* Site *[1 unique]*
 * Distance *[3 unique]*
 
 We first compute the median natural-log ground motion, &delta;B<sub>e</sub>, for each combination of:
@@ -465,6 +528,7 @@ We first compute the median natural-log ground motion, &delta;B<sub>e</sub>, for
 
 That median, &delta;B<sub>e</sub>, is computed across all 18 combinations of:
 
+* Site *[1 unique]*
 * Rupture Strike *[18 unique]*
 * Path *[1 unique]*
 
@@ -492,14 +556,18 @@ We compute uncertainties on &tau; through downsampling the rotational synthetic 
 
 | Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.19 | 0.2 | 0.05 | [0.16 0.26] | [0.1 0.32] |
-| 1 | 0.11 | 0.13 | 0.06 | [0.08 0.2] | [0.03 0.27] |
-| 2 | 0.16 | 0.17 | 0.09 | [0.1 0.28] | [0.03 0.37] |
-| 3 | 0.18 | 0.21 | 0.1 | [0.12 0.32] | [0.07 0.41] |
-| 4 | 0.19 | 0.22 | 0.09 | [0.13 0.33] | [0.07 0.45] |
-| 5 | 0.2 | 0.23 | 0.1 | [0.13 0.32] | [0.07 0.48] |
-| 7.5 | 0.21 | 0.2 | 0.08 | [0.14 0.31] | [0.08 0.42] |
-| 10 | 0.24 | 0.22 | 0.1 | [0.12 0.32] | [0.03 0.47] |
+| T-independent | 0.19 | 0.2 | 0.05 | [0.16 0.26] | [0.12 0.31] |
+| 1 | 0.11 | 0.14 | 0.06 | [0.07 0.2] | [0.04 0.27] |
+| 2 | 0.16 | 0.19 | 0.08 | [0.13 0.26] | [0.07 0.39] |
+| 3 | 0.18 | 0.21 | 0.07 | [0.12 0.26] | [0.08 0.38] |
+| 4 | 0.19 | 0.21 | 0.08 | [0.12 0.3] | [0.08 0.42] |
+| 5 | 0.2 | 0.22 | 0.1 | [0.13 0.35] | [0.07 0.46] |
+| 7.5 | 0.21 | 0.23 | 0.09 | [0.13 0.31] | [0.07 0.43] |
+| 10 | 0.24 | 0.23 | 0.11 | [0.13 0.35] | [0.06 0.49] |
+
+This plot shows the distribution of period-independent downsampled &tau;.
+
+![Dowmsampled Histogram](resources/between_events_m7.2_20km_downsampled_hist.png)
 
 
 ### 50.0 km M7.2 Between-events Results
@@ -515,14 +583,18 @@ We compute uncertainties on &tau; through downsampling the rotational synthetic 
 
 | Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.19 | 0.25 | 0.07 | [0.2 0.34] | [0.15 0.46] |
-| 1 | 0.1 | 0.16 | 0.08 | [0.1 0.25] | [0.03 0.34] |
-| 2 | 0.15 | 0.19 | 0.08 | [0.11 0.28] | [0.06 0.41] |
-| 3 | 0.16 | 0.23 | 0.11 | [0.13 0.35] | [0.08 0.54] |
-| 4 | 0.2 | 0.27 | 0.13 | [0.16 0.4] | [0.1 0.55] |
-| 5 | 0.22 | 0.3 | 0.13 | [0.17 0.42] | [0.09 0.61] |
-| 7.5 | 0.23 | 0.32 | 0.13 | [0.18 0.46] | [0.09 0.6] |
-| 10 | 0.25 | 0.33 | 0.14 | [0.19 0.47] | [0.11 0.66] |
+| T-independent | 0.19 | 0.25 | 0.07 | [0.18 0.33] | [0.13 0.44] |
+| 1 | 0.1 | 0.14 | 0.09 | [0.08 0.24] | [0.03 0.4] |
+| 2 | 0.15 | 0.17 | 0.09 | [0.1 0.29] | [0.04 0.41] |
+| 3 | 0.16 | 0.2 | 0.11 | [0.13 0.34] | [0.07 0.5] |
+| 4 | 0.2 | 0.25 | 0.13 | [0.16 0.4] | [0.09 0.58] |
+| 5 | 0.22 | 0.28 | 0.14 | [0.16 0.43] | [0.08 0.63] |
+| 7.5 | 0.23 | 0.29 | 0.14 | [0.18 0.46] | [0.06 0.62] |
+| 10 | 0.25 | 0.33 | 0.14 | [0.18 0.46] | [0.08 0.61] |
+
+This plot shows the distribution of period-independent downsampled &tau;.
+
+![Dowmsampled Histogram](resources/between_events_m7.2_50km_downsampled_hist.png)
 
 
 ### 100.0 km M7.2 Between-events Results
@@ -540,14 +612,18 @@ We compute uncertainties on &tau; through downsampling the rotational synthetic 
 
 | Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.18 | 0.18 | 0.06 | [0.14 0.24] | [0.1 0.35] |
-| 1 | 0.11 | 0.09 | 0.07 | [0.05 0.16] | [0.01 0.25] |
-| 2 | 0.13 | 0.14 | 0.07 | [0.07 0.22] | [0.02 0.31] |
-| 3 | 0.15 | 0.14 | 0.1 | [0.09 0.27] | [0.03 0.41] |
-| 4 | 0.18 | 0.17 | 0.11 | [0.07 0.28] | [0.02 0.44] |
-| 5 | 0.21 | 0.2 | 0.12 | [0.09 0.32] | [0.04 0.52] |
-| 7.5 | 0.24 | 0.23 | 0.14 | [0.12 0.42] | [0.04 0.61] |
-| 10 | 0.26 | 0.24 | 0.15 | [0.11 0.44] | [0.04 0.59] |
+| T-independent | 0.18 | 0.19 | 0.06 | [0.14 0.25] | [0.1 0.36] |
+| 1 | 0.11 | 0.11 | 0.07 | [0.05 0.18] | [0.02 0.3] |
+| 2 | 0.13 | 0.14 | 0.08 | [0.07 0.24] | [0.03 0.35] |
+| 3 | 0.15 | 0.15 | 0.09 | [0.08 0.26] | [0.03 0.37] |
+| 4 | 0.18 | 0.16 | 0.1 | [0.08 0.27] | [0.03 0.46] |
+| 5 | 0.21 | 0.2 | 0.12 | [0.1 0.35] | [0.04 0.52] |
+| 7.5 | 0.24 | 0.24 | 0.14 | [0.12 0.42] | [0.03 0.61] |
+| 10 | 0.26 | 0.26 | 0.14 | [0.14 0.41] | [0.03 0.54] |
+
+This plot shows the distribution of period-independent downsampled &tau;.
+
+![Dowmsampled Histogram](resources/between_events_m7.2_100km_downsampled_hist.png)
 
 
 ### All Distances M7.2 Between-events Results
@@ -563,14 +639,18 @@ We compute uncertainties on &tau; through downsampling the rotational synthetic 
 
 | Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.19 | 0.23 | 0.03 | [0.21 0.26] | [0.17 0.29] |
-| 1 | 0.11 | 0.15 | 0.03 | [0.12 0.18] | [0.09 0.23] |
-| 2 | 0.15 | 0.18 | 0.04 | [0.15 0.23] | [0.11 0.27] |
-| 3 | 0.16 | 0.21 | 0.05 | [0.17 0.26] | [0.12 0.3] |
-| 4 | 0.19 | 0.24 | 0.05 | [0.2 0.3] | [0.15 0.35] |
-| 5 | 0.21 | 0.27 | 0.05 | [0.22 0.33] | [0.18 0.4] |
-| 7.5 | 0.23 | 0.27 | 0.06 | [0.23 0.34] | [0.16 0.41] |
-| 10 | 0.25 | 0.28 | 0.06 | [0.23 0.34] | [0.18 0.42] |
+| T-independent | 0.19 | 0.23 | 0.03 | [0.2 0.26] | [0.18 0.3] |
+| 1 | 0.11 | 0.15 | 0.03 | [0.12 0.19] | [0.09 0.22] |
+| 2 | 0.15 | 0.19 | 0.03 | [0.16 0.23] | [0.12 0.27] |
+| 3 | 0.16 | 0.21 | 0.04 | [0.17 0.25] | [0.13 0.32] |
+| 4 | 0.19 | 0.24 | 0.05 | [0.2 0.29] | [0.16 0.38] |
+| 5 | 0.21 | 0.26 | 0.06 | [0.21 0.32] | [0.16 0.38] |
+| 7.5 | 0.23 | 0.27 | 0.06 | [0.21 0.34] | [0.17 0.38] |
+| 10 | 0.25 | 0.29 | 0.06 | [0.23 0.35] | [0.17 0.39] |
+
+This plot shows the distribution of period-independent downsampled &tau;.
+
+![Dowmsampled Histogram](resources/between_events_m7.2_downsampled_hist.png)
 
 
 ## Azumth Dependence
