@@ -11,8 +11,10 @@ We then  perform various rotations. We rotate the rupture in place around its ce
 ## Table Of Contents
 * [Rupture Rotation Parameters](#rupture-rotation-parameters)
 * [M7.2 SS Rel RSQSim Rupture Match Criteria](#m72-ss-rel-rsqsim-rupture-match-criteria)
+  * [Fault Section Counts](#fault-section-counts)
 * [Sites](#sites)
 * [Result Summary Table](#result-summary-table)
+  * [GMPE Table](#gmpe-table)
   * [Dist-Dependent Plot Table](#dist-dependent-plot-table)
 * [Source-strike Variability](#source-strike-variability)
   * [Source-strike Variability Methodology](#source-strike-variability-methodology)
@@ -60,6 +62,73 @@ We condisder 400 events in the catalog which match the following criteria:
 * Dip=90.0
 * Linear rupture (max 20.0% deviation from ideal)
 
+### Fault Section Counts
+*[(top)](#table-of-contents)*
+
+This tables gives a list of all fault sections which participate in the ruptures matching the above criteria. Many ruptures include multiple sections, so the sum of counts may be larger than the number of events.
+
+| Section Name | Participation Count |
+|-----|-----|
+| Mendocino | 127 |
+| Cerro Prieto | 53 |
+| San Andreas (Offshore) 2011 CFM | 51 |
+| Superstition Hills | 38 |
+| Garlock (West) | 24 |
+| San Jacinto (Coyote Creek) | 16 |
+| Laguna Salada | 16 |
+| San Jacinto (Borrego) | 14 |
+| San Juan | 10 |
+| San Jacinto (Clark) rev | 9 |
+| San Andreas (Parkfield) | 8 |
+| San Andreas (Creeping Section) 2011 CFM | 8 |
+| San Jacinto (Superstition Mtn) | 7 |
+| Bartlett Springs 2011 CFM | 7 |
+| Honey Lake 2011 CFM | 6 |
+| Earthquake Valley (No  Extension) | 6 |
+| Brawley (Seismic Zone) alt 1 | 6 |
+| San Andreas (Cholame) rev | 6 |
+| San Diego Trough north alt1 | 6 |
+| Earthquake Valley | 6 |
+| Elsinore (Temecula) rev | 6 |
+| Elmore Ranch | 6 |
+| Elsinore (Stepovers Combined) | 4 |
+| San Gregorio (North) 2011 CFM | 4 |
+| Johnson Valley (No) 2011 rev | 4 |
+| San Diego Trough south | 3 |
+| Emerson-Copper Mtn 2011 | 3 |
+| Rose Canyon | 3 |
+| Camp Rock 2011 | 3 |
+| Garberville - Briceland 2011 CFM | 3 |
+| Death Valley (No) | 3 |
+| Cady | 3 |
+| Earthquake Valley (So Extension) | 2 |
+| San Jacinto (Lytle Creek connector) | 2 |
+| San Andreas (North Coast) 2011 CFM | 2 |
+| Pisgah-Bullion Mtn-Mesquite Lk | 2 |
+| Blackwater | 2 |
+| Sargent 2011 CFM | 2 |
+| Pinto Mtn | 2 |
+| San Jacinto (San Jacinto Valley) rev | 2 |
+| San Jacinto (San Bernardino) | 2 |
+| Elsinore (Glen Ivy) rev | 2 |
+| Lenwood-Lockhart-Old Woman Springs | 2 |
+| San Andreas (Coachella) rev | 2 |
+| McLean Lake | 2 |
+| San Jacinto (Stepovers Combined) | 2 |
+| Hunting Creek - Bartlett Springs connector 2011 | 1 |
+| Bullion Mountains | 1 |
+| Manix-Afton Hills | 1 |
+| Gravel Hills-Harper Lk | 1 |
+| Ludlow | 1 |
+| Hunting Creek - Berryessa 2011 CFM | 1 |
+| Paradise | 1 |
+| Calico-Hidalgo | 1 |
+| Ash Hill | 1 |
+| Palos Verdes | 1 |
+| San Jacinto (Anza) rev | 1 |
+| White Mountains | 1 |
+| Collayami 2011 CFM | 1 |
+
 ## Sites
 
 | Name | Location | Vs30 (m/s) | Z1.0 (km) | Z2.5 (km) |
@@ -82,6 +151,21 @@ We condisder 400 events in the catalog which match the following criteria:
 | Between-events | &tau; | 50 km | 0.21 | 0.19 | 0.22 | 0.26 | 0.28 |
 | Between-events | &tau; | 100 km | 0.2 | 0.16 | 0.22 | 0.25 | 0.28 |
 | Between-events | &tau; | (all) | 0.21 | 0.18 | 0.22 | 0.25 | 0.28 |
+
+### GMPE Table
+*[(top)](#table-of-contents)*
+
+| Type | Notation | Distance | ASK2014 3s | ASK2014 5s | ASK2014 7.5s | ASK2014 10s | BSSA2014 3s | BSSA2014 5s | BSSA2014 7.5s | BSSA2014 10s | CB2014 3s | CB2014 5s | CB2014 7.5s | CB2014 10s | CY2014 3s | CY2014 5s | CY2014 7.5s | CY2014 10s |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| Source-strike | &phi;<sub>SS</sub> | 20 km | 0.48 | 0.5 | 0.49 | 0.48 | 0.55 | 0.54 | 0.54 | 0.54 | 0.55 | 0.51 | 0.49 | 0.47 | 0.51 | 0.53 | 0.52 | 0.51 |
+| Source-strike | &phi;<sub>SS</sub> | 50 km | 0.48 | 0.5 | 0.49 | 0.48 | 0.55 | 0.54 | 0.54 | 0.54 | 0.55 | 0.51 | 0.49 | 0.47 | 0.52 | 0.53 | 0.52 | 0.51 |
+| Source-strike | &phi;<sub>SS</sub> | 100 km | 0.48 | 0.5 | 0.49 | 0.48 | 0.55 | 0.54 | 0.54 | 0.54 | 0.55 | 0.51 | 0.49 | 0.47 | 0.52 | 0.53 | 0.52 | 0.51 |
+| Within-event, single-site | &phi;<sub>SS</sub> | 20 km | 0.48 | 0.5 | 0.49 | 0.48 | 0.55 | 0.54 | 0.54 | 0.54 | 0.55 | 0.51 | 0.49 | 0.47 | 0.51 | 0.53 | 0.52 | 0.51 |
+| Within-event, single-site | &phi;<sub>SS</sub> | 50 km | 0.48 | 0.5 | 0.49 | 0.48 | 0.55 | 0.54 | 0.54 | 0.54 | 0.55 | 0.51 | 0.49 | 0.47 | 0.52 | 0.53 | 0.52 | 0.51 |
+| Within-event, single-site | &phi;<sub>SS</sub> | 100 km | 0.48 | 0.5 | 0.49 | 0.48 | 0.55 | 0.54 | 0.54 | 0.54 | 0.55 | 0.51 | 0.49 | 0.47 | 0.52 | 0.53 | 0.52 | 0.51 |
+| Between-events | &tau; | 20 km | 0.36 | 0.36 | 0.36 | 0.36 | 0.3 | 0.33 | 0.34 | 0.35 | 0.35 | 0.4 | 0.42 | 0.39 | 0.33 | 0.33 | 0.34 | 0.34 |
+| Between-events | &tau; | 50 km | 0.36 | 0.36 | 0.36 | 0.36 | 0.3 | 0.33 | 0.34 | 0.35 | 0.35 | 0.4 | 0.42 | 0.39 | 0.33 | 0.33 | 0.34 | 0.34 |
+| Between-events | &tau; | 100 km | 0.36 | 0.36 | 0.36 | 0.36 | 0.3 | 0.33 | 0.34 | 0.35 | 0.35 | 0.4 | 0.42 | 0.39 | 0.33 | 0.33 | 0.34 | 0.34 |
 
 ### Dist-Dependent Plot Table
 *[(top)](#table-of-contents)*
@@ -145,6 +229,13 @@ We compute uncertainties on &phi;<sub>s</sub> through downsampling the rotationa
 | 7.5 | 0.39 | 0.38 | 0.05 | [0.32 0.43] | [0.28 0.49] |
 | 10 | 0.33 | 0.31 | 0.06 | [0.26 0.38] | [0.2 0.43] |
 
+These plots show the dependence of &phi;<sub>s</sub> to the number of events included and the number of recordings per event. The left plot holds the number of recordings per event fixed at the full set of simulated recordings (18), varying the number of events. The right plot holds the number of events fixed at the full set of simulated events (400), varying the number of recordings per event.
+
+| Period | Event Count Dependence | Recordings/Event Dependence |
+|-----|-----|-----|
+| Period Indep. | ![num events dependence](resources/source_strike_event_count_dependence_20km_period_indep.png) | ![num recordings dependence](resources/source_strike_event_recordings_dependence_20km_period_indep.png) |
+| 1s | ![num events dependence](resources/source_strike_event_count_dependence_20km_1s.png) | ![num recordings dependence](resources/source_strike_event_recordings_dependence_20km_1.png) |
+
 These plots show the distribution of period-independent downsampled &phi;<sub>s</sub> for each site.
 
 | **USC** |
@@ -158,13 +249,6 @@ Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture
 | ![3s](resources/source_strike_m7.2_20km_3s_hist.png) | ![5s](resources/source_strike_m7.2_20km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/source_strike_m7.2_20km_7.5s_hist.png) | ![10s](resources/source_strike_m7.2_20km_10s_hist.png) |
-
-Here are plots of the &phi;<sub>s</sub> as a function of various parameters for disaggregation.
-
-| 3s | 5s | 7.5s | 10s |
-|-----|-----|-----|-----|
-| ![Scatter](resources/source_strike_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_std_dev.png) |
-| ![Scatter](resources/source_strike_scatter__v_prop_3s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_residual.png) |
 
 
 ### 50.0 km M7.2 Source-strike Results
@@ -180,14 +264,21 @@ We compute uncertainties on &phi;<sub>s</sub> through downsampling the rotationa
 
 | Period (s) | Full &phi;<sub>s</sub> | Downsampled median &phi;<sub>s</sub> | Downsampled &phi;<sub>s</sub> std. dev. | Downsampled &phi;<sub>s</sub> 68% conf range | Downsampled &phi;<sub>s</sub> 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.5 | 0.48 | 0.05 | [0.43 0.53] | [0.39 0.57] |
-| 1 | 0.35 | 0.34 | 0.05 | [0.3 0.39] | [0.23 0.44] |
-| 2 | 0.46 | 0.45 | 0.07 | [0.38 0.51] | [0.32 0.59] |
-| 3 | 0.52 | 0.49 | 0.07 | [0.42 0.58] | [0.39 0.65] |
-| 4 | 0.53 | 0.51 | 0.07 | [0.45 0.59] | [0.38 0.67] |
-| 5 | 0.54 | 0.53 | 0.08 | [0.46 0.61] | [0.39 0.71] |
-| 7.5 | 0.52 | 0.51 | 0.08 | [0.42 0.58] | [0.35 0.64] |
-| 10 | 0.54 | 0.52 | 0.07 | [0.45 0.59] | [0.4 0.72] |
+| T-independent | 0.5 | 0.48 | 0.05 | [0.42 0.53] | [0.38 0.59] |
+| 1 | 0.35 | 0.34 | 0.05 | [0.28 0.39] | [0.25 0.43] |
+| 2 | 0.46 | 0.45 | 0.06 | [0.39 0.51] | [0.32 0.57] |
+| 3 | 0.52 | 0.49 | 0.07 | [0.43 0.57] | [0.37 0.64] |
+| 4 | 0.53 | 0.51 | 0.08 | [0.44 0.58] | [0.35 0.71] |
+| 5 | 0.54 | 0.52 | 0.07 | [0.45 0.59] | [0.38 0.66] |
+| 7.5 | 0.52 | 0.49 | 0.07 | [0.41 0.56] | [0.35 0.61] |
+| 10 | 0.54 | 0.52 | 0.08 | [0.44 0.59] | [0.33 0.64] |
+
+These plots show the dependence of &phi;<sub>s</sub> to the number of events included and the number of recordings per event. The left plot holds the number of recordings per event fixed at the full set of simulated recordings (18), varying the number of events. The right plot holds the number of events fixed at the full set of simulated events (400), varying the number of recordings per event.
+
+| Period | Event Count Dependence | Recordings/Event Dependence |
+|-----|-----|-----|
+| Period Indep. | ![num events dependence](resources/source_strike_event_count_dependence_50km_period_indep.png) | ![num recordings dependence](resources/source_strike_event_recordings_dependence_50km_period_indep.png) |
+| 1s | ![num events dependence](resources/source_strike_event_count_dependence_50km_1s.png) | ![num recordings dependence](resources/source_strike_event_recordings_dependence_50km_1.png) |
 
 These plots show the distribution of period-independent downsampled &phi;<sub>s</sub> for each site.
 
@@ -202,13 +293,6 @@ Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture
 | ![3s](resources/source_strike_m7.2_50km_3s_hist.png) | ![5s](resources/source_strike_m7.2_50km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/source_strike_m7.2_50km_7.5s_hist.png) | ![10s](resources/source_strike_m7.2_50km_10s_hist.png) |
-
-Here are plots of the &phi;<sub>s</sub> as a function of various parameters for disaggregation.
-
-| 3s | 5s | 7.5s | 10s |
-|-----|-----|-----|-----|
-| ![Scatter](resources/source_strike_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_std_dev.png) |
-| ![Scatter](resources/source_strike_scatter__v_prop_3s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_residual.png) |
 
 
 ### 100.0 km M7.2 Source-strike Results
@@ -226,14 +310,21 @@ We compute uncertainties on &phi;<sub>s</sub> through downsampling the rotationa
 
 | Period (s) | Full &phi;<sub>s</sub> | Downsampled median &phi;<sub>s</sub> | Downsampled &phi;<sub>s</sub> std. dev. | Downsampled &phi;<sub>s</sub> 68% conf range | Downsampled &phi;<sub>s</sub> 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.49 | 0.49 | 0.04 | [0.45 0.52] | [0.4 0.56] |
-| 1 | 0.31 | 0.31 | 0.04 | [0.28 0.34] | [0.24 0.41] |
-| 2 | 0.38 | 0.38 | 0.05 | [0.32 0.43] | [0.29 0.46] |
-| 3 | 0.48 | 0.48 | 0.06 | [0.41 0.54] | [0.36 0.6] |
-| 4 | 0.54 | 0.53 | 0.06 | [0.48 0.6] | [0.41 0.66] |
-| 5 | 0.55 | 0.56 | 0.07 | [0.48 0.63] | [0.42 0.68] |
-| 7.5 | 0.55 | 0.56 | 0.07 | [0.5 0.62] | [0.41 0.69] |
-| 10 | 0.53 | 0.53 | 0.07 | [0.47 0.6] | [0.4 0.68] |
+| T-independent | 0.49 | 0.47 | 0.04 | [0.43 0.52] | [0.4 0.57] |
+| 1 | 0.31 | 0.3 | 0.03 | [0.27 0.33] | [0.24 0.36] |
+| 2 | 0.38 | 0.37 | 0.05 | [0.32 0.43] | [0.29 0.47] |
+| 3 | 0.48 | 0.48 | 0.05 | [0.43 0.53] | [0.37 0.6] |
+| 4 | 0.54 | 0.53 | 0.07 | [0.46 0.6] | [0.41 0.66] |
+| 5 | 0.55 | 0.54 | 0.07 | [0.46 0.6] | [0.39 0.67] |
+| 7.5 | 0.55 | 0.52 | 0.07 | [0.46 0.61] | [0.4 0.71] |
+| 10 | 0.53 | 0.51 | 0.08 | [0.43 0.6] | [0.4 0.68] |
+
+These plots show the dependence of &phi;<sub>s</sub> to the number of events included and the number of recordings per event. The left plot holds the number of recordings per event fixed at the full set of simulated recordings (18), varying the number of events. The right plot holds the number of events fixed at the full set of simulated events (400), varying the number of recordings per event.
+
+| Period | Event Count Dependence | Recordings/Event Dependence |
+|-----|-----|-----|
+| Period Indep. | ![num events dependence](resources/source_strike_event_count_dependence_100km_period_indep.png) | ![num recordings dependence](resources/source_strike_event_recordings_dependence_100km_period_indep.png) |
+| 1s | ![num events dependence](resources/source_strike_event_count_dependence_100km_1s.png) | ![num recordings dependence](resources/source_strike_event_recordings_dependence_100km_1.png) |
 
 These plots show the distribution of period-independent downsampled &phi;<sub>s</sub> for each site.
 
@@ -248,13 +339,6 @@ Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture
 | ![3s](resources/source_strike_m7.2_100km_3s_hist.png) | ![5s](resources/source_strike_m7.2_100km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/source_strike_m7.2_100km_7.5s_hist.png) | ![10s](resources/source_strike_m7.2_100km_10s_hist.png) |
-
-Here are plots of the &phi;<sub>s</sub> as a function of various parameters for disaggregation.
-
-| 3s | 5s | 7.5s | 10s |
-|-----|-----|-----|-----|
-| ![Scatter](resources/source_strike_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_std_dev.png) |
-| ![Scatter](resources/source_strike_scatter__v_prop_3s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_residual.png) |
 
 
 ### All Distances M7.2 Source-strike Results
@@ -271,13 +355,20 @@ We compute uncertainties on &phi;<sub>s</sub> through downsampling the rotationa
 | Period (s) | Full &phi;<sub>s</sub> | Downsampled median &phi;<sub>s</sub> | Downsampled &phi;<sub>s</sub> std. dev. | Downsampled &phi;<sub>s</sub> 68% conf range | Downsampled &phi;<sub>s</sub> 95% conf range |
 |-----|-----|-----|-----|-----|-----|
 | T-independent | 0.47 | 0.47 | 0.02 | [0.45 0.48] | [0.43 0.5] |
-| 1 | 0.33 | 0.33 | 0.01 | [0.31 0.34] | [0.3 0.36] |
-| 2 | 0.43 | 0.43 | 0.02 | [0.4 0.45] | [0.38 0.48] |
-| 3 | 0.49 | 0.49 | 0.03 | [0.46 0.52] | [0.43 0.53] |
-| 4 | 0.51 | 0.51 | 0.03 | [0.48 0.53] | [0.46 0.57] |
-| 5 | 0.53 | 0.52 | 0.03 | [0.5 0.55] | [0.47 0.57] |
-| 7.5 | 0.49 | 0.49 | 0.03 | [0.45 0.52] | [0.42 0.54] |
-| 10 | 0.47 | 0.47 | 0.03 | [0.44 0.5] | [0.42 0.53] |
+| 1 | 0.33 | 0.32 | 0.02 | [0.31 0.34] | [0.29 0.36] |
+| 2 | 0.43 | 0.43 | 0.02 | [0.41 0.45] | [0.38 0.48] |
+| 3 | 0.49 | 0.48 | 0.02 | [0.46 0.51] | [0.44 0.53] |
+| 4 | 0.51 | 0.51 | 0.03 | [0.47 0.53] | [0.46 0.57] |
+| 5 | 0.53 | 0.52 | 0.03 | [0.49 0.56] | [0.46 0.58] |
+| 7.5 | 0.49 | 0.48 | 0.03 | [0.46 0.52] | [0.43 0.53] |
+| 10 | 0.47 | 0.47 | 0.03 | [0.44 0.5] | [0.42 0.52] |
+
+These plots show the dependence of &phi;<sub>s</sub> to the number of events included and the number of recordings per event. The left plot holds the number of recordings per event fixed at the full set of simulated recordings (18), varying the number of events. The right plot holds the number of events fixed at the full set of simulated events (400), varying the number of recordings per event.
+
+| Period | Event Count Dependence | Recordings/Event Dependence |
+|-----|-----|-----|
+| Period Indep. | ![num events dependence](resources/source_strike_event_count_dependence_all_dists_period_indep.png) | ![num recordings dependence](resources/source_strike_event_recordings_dependence_all_dists_period_indep.png) |
+| 1s | ![num events dependence](resources/source_strike_event_count_dependence_all_dists_1s.png) | ![num recordings dependence](resources/source_strike_event_recordings_dependence_all_dists_1.png) |
 
 These plots show the distribution of period-independent downsampled &phi;<sub>s</sub> for each site.
 
@@ -338,14 +429,21 @@ We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotation
 
 | Period (s) | Full &phi;<sub>SS</sub> | Downsampled median &phi;<sub>SS</sub> | Downsampled &phi;<sub>SS</sub> std. dev. | Downsampled &phi;<sub>SS</sub> 68% conf range | Downsampled &phi;<sub>SS</sub> 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.42 | 0.41 | 0.04 | [0.38 0.45] | [0.35 0.51] |
-| 1 | 0.32 | 0.32 | 0.03 | [0.29 0.36] | [0.25 0.39] |
-| 2 | 0.45 | 0.45 | 0.05 | [0.4 0.5] | [0.34 0.54] |
-| 3 | 0.47 | 0.47 | 0.06 | [0.42 0.53] | [0.36 0.61] |
-| 4 | 0.46 | 0.45 | 0.06 | [0.41 0.54] | [0.36 0.6] |
-| 5 | 0.48 | 0.46 | 0.07 | [0.41 0.55] | [0.34 0.63] |
-| 7.5 | 0.39 | 0.38 | 0.05 | [0.33 0.43] | [0.28 0.5] |
-| 10 | 0.33 | 0.32 | 0.05 | [0.27 0.37] | [0.22 0.43] |
+| T-independent | 0.42 | 0.41 | 0.04 | [0.37 0.44] | [0.34 0.48] |
+| 1 | 0.32 | 0.32 | 0.03 | [0.29 0.35] | [0.25 0.4] |
+| 2 | 0.45 | 0.44 | 0.05 | [0.39 0.49] | [0.35 0.53] |
+| 3 | 0.47 | 0.45 | 0.06 | [0.4 0.52] | [0.34 0.6] |
+| 4 | 0.46 | 0.45 | 0.06 | [0.39 0.5] | [0.3 0.57] |
+| 5 | 0.48 | 0.46 | 0.07 | [0.41 0.53] | [0.32 0.58] |
+| 7.5 | 0.39 | 0.37 | 0.05 | [0.32 0.43] | [0.29 0.48] |
+| 10 | 0.33 | 0.31 | 0.05 | [0.27 0.37] | [0.23 0.41] |
+
+These plots show the dependence of &phi;<sub>SS</sub> to the number of events included and the number of recordings per event. The left plot holds the number of recordings per event fixed at the full set of simulated recordings (18), varying the number of events. The right plot holds the number of events fixed at the full set of simulated events (400), varying the number of recordings per event.
+
+| Period | Event Count Dependence | Recordings/Event Dependence |
+|-----|-----|-----|
+| Period Indep. | ![num events dependence](resources/within_event_ss_event_count_dependence_20km_period_indep.png) | ![num recordings dependence](resources/within_event_ss_event_recordings_dependence_20km_period_indep.png) |
+| 1s | ![num events dependence](resources/within_event_ss_event_count_dependence_20km_1s.png) | ![num recordings dependence](resources/within_event_ss_event_recordings_dependence_20km_1.png) |
 
 These plots show the distribution of period-independent downsampled &phi;<sub>SS</sub> for each site.
 
@@ -361,13 +459,6 @@ Here are plots of the histogram of &phi;<sub>SS</sub> for each individual ruptur
 | 7.5s | 10s |
 | ![7.5s](resources/within_event_ss_m7.2_20km_7.5s_hist.png) | ![10s](resources/within_event_ss_m7.2_20km_10s_hist.png) |
 
-Here are plots of the &phi;<sub>SS</sub> as a function of various parameters for disaggregation.
-
-| 3s | 5s | 7.5s | 10s |
-|-----|-----|-----|-----|
-| ![Scatter](resources/within_event_ss_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_10s_std_dev.png) |
-| ![Scatter](resources/within_event_ss_scatter__v_prop_3s_residual.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_5s_residual.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_10s_residual.png) |
-
 
 ### 50.0 km M7.2 Within-event, single-site Results
 *[(top)](#table-of-contents)*
@@ -382,14 +473,21 @@ We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotation
 
 | Period (s) | Full &phi;<sub>SS</sub> | Downsampled median &phi;<sub>SS</sub> | Downsampled &phi;<sub>SS</sub> std. dev. | Downsampled &phi;<sub>SS</sub> 68% conf range | Downsampled &phi;<sub>SS</sub> 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.5 | 0.47 | 0.05 | [0.42 0.53] | [0.37 0.57] |
-| 1 | 0.35 | 0.34 | 0.05 | [0.28 0.38] | [0.21 0.44] |
-| 2 | 0.46 | 0.45 | 0.06 | [0.38 0.5] | [0.31 0.57] |
-| 3 | 0.52 | 0.48 | 0.08 | [0.41 0.57] | [0.33 0.64] |
-| 4 | 0.53 | 0.51 | 0.08 | [0.43 0.57] | [0.33 0.67] |
-| 5 | 0.54 | 0.52 | 0.08 | [0.44 0.62] | [0.35 0.7] |
-| 7.5 | 0.52 | 0.48 | 0.08 | [0.41 0.58] | [0.36 0.65] |
-| 10 | 0.54 | 0.5 | 0.07 | [0.43 0.57] | [0.37 0.64] |
+| T-independent | 0.5 | 0.47 | 0.05 | [0.43 0.52] | [0.39 0.59] |
+| 1 | 0.35 | 0.35 | 0.04 | [0.3 0.38] | [0.25 0.44] |
+| 2 | 0.46 | 0.45 | 0.06 | [0.39 0.52] | [0.33 0.58] |
+| 3 | 0.52 | 0.5 | 0.07 | [0.43 0.58] | [0.36 0.66] |
+| 4 | 0.53 | 0.5 | 0.07 | [0.44 0.58] | [0.38 0.67] |
+| 5 | 0.54 | 0.51 | 0.08 | [0.45 0.59] | [0.36 0.71] |
+| 7.5 | 0.52 | 0.51 | 0.07 | [0.44 0.59] | [0.35 0.66] |
+| 10 | 0.54 | 0.51 | 0.08 | [0.44 0.6] | [0.36 0.69] |
+
+These plots show the dependence of &phi;<sub>SS</sub> to the number of events included and the number of recordings per event. The left plot holds the number of recordings per event fixed at the full set of simulated recordings (18), varying the number of events. The right plot holds the number of events fixed at the full set of simulated events (400), varying the number of recordings per event.
+
+| Period | Event Count Dependence | Recordings/Event Dependence |
+|-----|-----|-----|
+| Period Indep. | ![num events dependence](resources/within_event_ss_event_count_dependence_50km_period_indep.png) | ![num recordings dependence](resources/within_event_ss_event_recordings_dependence_50km_period_indep.png) |
+| 1s | ![num events dependence](resources/within_event_ss_event_count_dependence_50km_1s.png) | ![num recordings dependence](resources/within_event_ss_event_recordings_dependence_50km_1.png) |
 
 These plots show the distribution of period-independent downsampled &phi;<sub>SS</sub> for each site.
 
@@ -404,13 +502,6 @@ Here are plots of the histogram of &phi;<sub>SS</sub> for each individual ruptur
 | ![3s](resources/within_event_ss_m7.2_50km_3s_hist.png) | ![5s](resources/within_event_ss_m7.2_50km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/within_event_ss_m7.2_50km_7.5s_hist.png) | ![10s](resources/within_event_ss_m7.2_50km_10s_hist.png) |
-
-Here are plots of the &phi;<sub>SS</sub> as a function of various parameters for disaggregation.
-
-| 3s | 5s | 7.5s | 10s |
-|-----|-----|-----|-----|
-| ![Scatter](resources/within_event_ss_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_10s_std_dev.png) |
-| ![Scatter](resources/within_event_ss_scatter__v_prop_3s_residual.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_5s_residual.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_10s_residual.png) |
 
 
 ### 100.0 km M7.2 Within-event, single-site Results
@@ -428,14 +519,21 @@ We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotation
 
 | Period (s) | Full &phi;<sub>SS</sub> | Downsampled median &phi;<sub>SS</sub> | Downsampled &phi;<sub>SS</sub> std. dev. | Downsampled &phi;<sub>SS</sub> 68% conf range | Downsampled &phi;<sub>SS</sub> 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.49 | 0.48 | 0.03 | [0.45 0.51] | [0.41 0.54] |
-| 1 | 0.31 | 0.31 | 0.04 | [0.27 0.35] | [0.24 0.39] |
-| 2 | 0.38 | 0.37 | 0.04 | [0.33 0.42] | [0.3 0.46] |
-| 3 | 0.48 | 0.48 | 0.05 | [0.42 0.53] | [0.38 0.59] |
-| 4 | 0.54 | 0.53 | 0.06 | [0.48 0.61] | [0.42 0.65] |
-| 5 | 0.55 | 0.56 | 0.06 | [0.49 0.61] | [0.45 0.67] |
-| 7.5 | 0.55 | 0.53 | 0.06 | [0.47 0.6] | [0.42 0.65] |
-| 10 | 0.53 | 0.52 | 0.05 | [0.46 0.57] | [0.41 0.65] |
+| T-independent | 0.49 | 0.48 | 0.04 | [0.45 0.52] | [0.39 0.55] |
+| 1 | 0.31 | 0.31 | 0.03 | [0.27 0.34] | [0.24 0.38] |
+| 2 | 0.38 | 0.38 | 0.04 | [0.33 0.43] | [0.29 0.47] |
+| 3 | 0.48 | 0.48 | 0.06 | [0.42 0.55] | [0.37 0.6] |
+| 4 | 0.54 | 0.53 | 0.06 | [0.46 0.59] | [0.4 0.66] |
+| 5 | 0.55 | 0.55 | 0.06 | [0.48 0.6] | [0.42 0.66] |
+| 7.5 | 0.55 | 0.55 | 0.06 | [0.49 0.61] | [0.42 0.66] |
+| 10 | 0.53 | 0.53 | 0.06 | [0.47 0.59] | [0.39 0.63] |
+
+These plots show the dependence of &phi;<sub>SS</sub> to the number of events included and the number of recordings per event. The left plot holds the number of recordings per event fixed at the full set of simulated recordings (18), varying the number of events. The right plot holds the number of events fixed at the full set of simulated events (400), varying the number of recordings per event.
+
+| Period | Event Count Dependence | Recordings/Event Dependence |
+|-----|-----|-----|
+| Period Indep. | ![num events dependence](resources/within_event_ss_event_count_dependence_100km_period_indep.png) | ![num recordings dependence](resources/within_event_ss_event_recordings_dependence_100km_period_indep.png) |
+| 1s | ![num events dependence](resources/within_event_ss_event_count_dependence_100km_1s.png) | ![num recordings dependence](resources/within_event_ss_event_recordings_dependence_100km_1.png) |
 
 These plots show the distribution of period-independent downsampled &phi;<sub>SS</sub> for each site.
 
@@ -451,13 +549,6 @@ Here are plots of the histogram of &phi;<sub>SS</sub> for each individual ruptur
 | 7.5s | 10s |
 | ![7.5s](resources/within_event_ss_m7.2_100km_7.5s_hist.png) | ![10s](resources/within_event_ss_m7.2_100km_10s_hist.png) |
 
-Here are plots of the &phi;<sub>SS</sub> as a function of various parameters for disaggregation.
-
-| 3s | 5s | 7.5s | 10s |
-|-----|-----|-----|-----|
-| ![Scatter](resources/within_event_ss_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_10s_std_dev.png) |
-| ![Scatter](resources/within_event_ss_scatter__v_prop_3s_residual.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_5s_residual.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_10s_residual.png) |
-
 
 ### All Distances M7.2 Within-event, single-site Results
 *[(top)](#table-of-contents)*
@@ -472,14 +563,21 @@ We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotation
 
 | Period (s) | Full &phi;<sub>SS</sub> | Downsampled median &phi;<sub>SS</sub> | Downsampled &phi;<sub>SS</sub> std. dev. | Downsampled &phi;<sub>SS</sub> 68% conf range | Downsampled &phi;<sub>SS</sub> 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.47 | 0.46 | 0.02 | [0.44 0.48] | [0.43 0.5] |
-| 1 | 0.33 | 0.32 | 0.01 | [0.31 0.33] | [0.29 0.36] |
-| 2 | 0.43 | 0.43 | 0.02 | [0.41 0.45] | [0.39 0.46] |
-| 3 | 0.49 | 0.49 | 0.03 | [0.46 0.51] | [0.44 0.55] |
-| 4 | 0.51 | 0.5 | 0.03 | [0.48 0.53] | [0.45 0.56] |
-| 5 | 0.53 | 0.52 | 0.03 | [0.49 0.55] | [0.46 0.59] |
-| 7.5 | 0.49 | 0.48 | 0.03 | [0.45 0.52] | [0.42 0.55] |
-| 10 | 0.47 | 0.47 | 0.03 | [0.44 0.5] | [0.41 0.53] |
+| T-independent | 0.47 | 0.47 | 0.02 | [0.45 0.48] | [0.43 0.5] |
+| 1 | 0.33 | 0.32 | 0.01 | [0.31 0.34] | [0.3 0.35] |
+| 2 | 0.43 | 0.43 | 0.02 | [0.41 0.45] | [0.39 0.48] |
+| 3 | 0.49 | 0.49 | 0.02 | [0.46 0.51] | [0.43 0.53] |
+| 4 | 0.51 | 0.5 | 0.03 | [0.48 0.54] | [0.45 0.56] |
+| 5 | 0.53 | 0.52 | 0.03 | [0.49 0.55] | [0.46 0.58] |
+| 7.5 | 0.49 | 0.49 | 0.03 | [0.45 0.52] | [0.42 0.56] |
+| 10 | 0.47 | 0.47 | 0.03 | [0.44 0.5] | [0.41 0.54] |
+
+These plots show the dependence of &phi;<sub>SS</sub> to the number of events included and the number of recordings per event. The left plot holds the number of recordings per event fixed at the full set of simulated recordings (18), varying the number of events. The right plot holds the number of events fixed at the full set of simulated events (400), varying the number of recordings per event.
+
+| Period | Event Count Dependence | Recordings/Event Dependence |
+|-----|-----|-----|
+| Period Indep. | ![num events dependence](resources/within_event_ss_event_count_dependence_all_dists_period_indep.png) | ![num recordings dependence](resources/within_event_ss_event_recordings_dependence_all_dists_period_indep.png) |
+| 1s | ![num events dependence](resources/within_event_ss_event_count_dependence_all_dists_1s.png) | ![num recordings dependence](resources/within_event_ss_event_recordings_dependence_all_dists_1.png) |
 
 These plots show the distribution of period-independent downsampled &phi;<sub>SS</sub> for each site.
 
@@ -540,14 +638,21 @@ We compute uncertainties on &tau; through downsampling the rotational synthetic 
 
 | Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.21 | 0.21 | 0.07 | [0.16 0.29] | [0.12 0.4] |
-| 1 | 0.15 | 0.15 | 0.07 | [0.08 0.22] | [0.04 0.34] |
-| 2 | 0.2 | 0.2 | 0.1 | [0.12 0.31] | [0.06 0.51] |
-| 3 | 0.19 | 0.2 | 0.1 | [0.11 0.32] | [0.07 0.46] |
-| 4 | 0.19 | 0.21 | 0.11 | [0.11 0.31] | [0.05 0.45] |
-| 5 | 0.21 | 0.22 | 0.1 | [0.15 0.34] | [0.07 0.49] |
-| 7.5 | 0.25 | 0.23 | 0.12 | [0.12 0.39] | [0.04 0.5] |
-| 10 | 0.28 | 0.25 | 0.1 | [0.14 0.36] | [0.09 0.47] |
+| T-independent | 0.21 | 0.22 | 0.06 | [0.16 0.29] | [0.12 0.38] |
+| 1 | 0.15 | 0.15 | 0.08 | [0.1 0.25] | [0.05 0.37] |
+| 2 | 0.2 | 0.21 | 0.1 | [0.13 0.3] | [0.06 0.49] |
+| 3 | 0.19 | 0.22 | 0.11 | [0.13 0.33] | [0.07 0.5] |
+| 4 | 0.19 | 0.21 | 0.1 | [0.12 0.3] | [0.06 0.47] |
+| 5 | 0.21 | 0.22 | 0.11 | [0.13 0.34] | [0.05 0.51] |
+| 7.5 | 0.25 | 0.23 | 0.11 | [0.14 0.36] | [0.07 0.52] |
+| 10 | 0.28 | 0.23 | 0.11 | [0.17 0.38] | [0.07 0.52] |
+
+These plots show the dependence of &tau; to the number of events included and the number of recordings per event. The left plot holds the number of recordings per event fixed at the full set of simulated recordings (18), varying the number of events. The right plot holds the number of events fixed at the full set of simulated events (400), varying the number of recordings per event.
+
+| Period | Event Count Dependence | Recordings/Event Dependence |
+|-----|-----|-----|
+| Period Indep. | ![num events dependence](resources/between_events_event_count_dependence_20km_period_indep.png) | ![num recordings dependence](resources/between_events_event_recordings_dependence_20km_period_indep.png) |
+| 1s | ![num events dependence](resources/between_events_event_count_dependence_20km_1s.png) | ![num recordings dependence](resources/between_events_event_recordings_dependence_20km_1.png) |
 
 This plot shows the distribution of period-independent downsampled &tau;.
 
@@ -567,14 +672,21 @@ We compute uncertainties on &tau; through downsampling the rotational synthetic 
 
 | Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.21 | 0.27 | 0.09 | [0.2 0.38] | [0.15 0.49] |
-| 1 | 0.13 | 0.15 | 0.09 | [0.09 0.27] | [0.04 0.36] |
-| 2 | 0.2 | 0.26 | 0.12 | [0.15 0.38] | [0.06 0.53] |
-| 3 | 0.19 | 0.27 | 0.14 | [0.14 0.41] | [0.09 0.55] |
-| 4 | 0.2 | 0.28 | 0.13 | [0.18 0.42] | [0.08 0.57] |
-| 5 | 0.22 | 0.29 | 0.13 | [0.16 0.43] | [0.07 0.62] |
-| 7.5 | 0.26 | 0.29 | 0.14 | [0.16 0.46] | [0.06 0.6] |
-| 10 | 0.28 | 0.32 | 0.15 | [0.2 0.52] | [0.12 0.64] |
+| T-independent | 0.21 | 0.27 | 0.09 | [0.18 0.38] | [0.13 0.5] |
+| 1 | 0.13 | 0.17 | 0.09 | [0.09 0.26] | [0.04 0.42] |
+| 2 | 0.2 | 0.25 | 0.14 | [0.11 0.42] | [0.04 0.58] |
+| 3 | 0.19 | 0.23 | 0.13 | [0.13 0.41] | [0.06 0.59] |
+| 4 | 0.2 | 0.31 | 0.14 | [0.15 0.42] | [0.05 0.62] |
+| 5 | 0.22 | 0.3 | 0.14 | [0.15 0.45] | [0.05 0.58] |
+| 7.5 | 0.26 | 0.29 | 0.14 | [0.19 0.49] | [0.08 0.63] |
+| 10 | 0.28 | 0.32 | 0.16 | [0.15 0.51] | [0.06 0.66] |
+
+These plots show the dependence of &tau; to the number of events included and the number of recordings per event. The left plot holds the number of recordings per event fixed at the full set of simulated recordings (18), varying the number of events. The right plot holds the number of events fixed at the full set of simulated events (400), varying the number of recordings per event.
+
+| Period | Event Count Dependence | Recordings/Event Dependence |
+|-----|-----|-----|
+| Period Indep. | ![num events dependence](resources/between_events_event_count_dependence_50km_period_indep.png) | ![num recordings dependence](resources/between_events_event_recordings_dependence_50km_period_indep.png) |
+| 1s | ![num events dependence](resources/between_events_event_count_dependence_50km_1s.png) | ![num recordings dependence](resources/between_events_event_recordings_dependence_50km_1.png) |
 
 This plot shows the distribution of period-independent downsampled &tau;.
 
@@ -596,14 +708,21 @@ We compute uncertainties on &tau; through downsampling the rotational synthetic 
 
 | Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.2 | 0.19 | 0.08 | [0.14 0.29] | [0.11 0.4] |
-| 1 | 0.11 | 0.11 | 0.06 | [0.07 0.19] | [0.02 0.27] |
-| 2 | 0.15 | 0.16 | 0.08 | [0.08 0.27] | [0.03 0.34] |
-| 3 | 0.16 | 0.17 | 0.1 | [0.09 0.31] | [0.02 0.39] |
-| 4 | 0.2 | 0.2 | 0.1 | [0.1 0.33] | [0.07 0.46] |
-| 5 | 0.22 | 0.21 | 0.12 | [0.1 0.34] | [0.04 0.55] |
-| 7.5 | 0.25 | 0.22 | 0.17 | [0.1 0.44] | [0.04 0.68] |
-| 10 | 0.28 | 0.26 | 0.17 | [0.11 0.46] | [0.04 0.62] |
+| T-independent | 0.2 | 0.19 | 0.07 | [0.14 0.28] | [0.11 0.4] |
+| 1 | 0.11 | 0.1 | 0.06 | [0.05 0.17] | [0.03 0.28] |
+| 2 | 0.15 | 0.15 | 0.09 | [0.08 0.27] | [0.02 0.37] |
+| 3 | 0.16 | 0.17 | 0.12 | [0.07 0.32] | [0.04 0.49] |
+| 4 | 0.2 | 0.2 | 0.12 | [0.1 0.34] | [0.03 0.55] |
+| 5 | 0.22 | 0.21 | 0.13 | [0.1 0.34] | [0.04 0.56] |
+| 7.5 | 0.25 | 0.23 | 0.13 | [0.12 0.38] | [0.04 0.55] |
+| 10 | 0.28 | 0.24 | 0.15 | [0.14 0.46] | [0.07 0.64] |
+
+These plots show the dependence of &tau; to the number of events included and the number of recordings per event. The left plot holds the number of recordings per event fixed at the full set of simulated recordings (18), varying the number of events. The right plot holds the number of events fixed at the full set of simulated events (400), varying the number of recordings per event.
+
+| Period | Event Count Dependence | Recordings/Event Dependence |
+|-----|-----|-----|
+| Period Indep. | ![num events dependence](resources/between_events_event_count_dependence_100km_period_indep.png) | ![num recordings dependence](resources/between_events_event_recordings_dependence_100km_period_indep.png) |
+| 1s | ![num events dependence](resources/between_events_event_count_dependence_100km_1s.png) | ![num recordings dependence](resources/between_events_event_recordings_dependence_100km_1.png) |
 
 This plot shows the distribution of period-independent downsampled &tau;.
 
@@ -623,14 +742,21 @@ We compute uncertainties on &tau; through downsampling the rotational synthetic 
 
 | Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.21 | 0.25 | 0.03 | [0.21 0.28] | [0.2 0.32] |
-| 1 | 0.13 | 0.16 | 0.04 | [0.12 0.2] | [0.1 0.24] |
-| 2 | 0.18 | 0.22 | 0.05 | [0.18 0.27] | [0.13 0.32] |
-| 3 | 0.18 | 0.24 | 0.05 | [0.19 0.29] | [0.15 0.35] |
-| 4 | 0.2 | 0.25 | 0.05 | [0.2 0.31] | [0.16 0.36] |
-| 5 | 0.22 | 0.25 | 0.06 | [0.21 0.33] | [0.17 0.4] |
-| 7.5 | 0.25 | 0.29 | 0.06 | [0.24 0.34] | [0.19 0.41] |
-| 10 | 0.28 | 0.29 | 0.05 | [0.25 0.37] | [0.2 0.43] |
+| T-independent | 0.21 | 0.25 | 0.04 | [0.21 0.29] | [0.18 0.33] |
+| 1 | 0.13 | 0.17 | 0.04 | [0.12 0.2] | [0.09 0.25] |
+| 2 | 0.18 | 0.22 | 0.05 | [0.18 0.28] | [0.14 0.32] |
+| 3 | 0.18 | 0.23 | 0.05 | [0.18 0.28] | [0.14 0.33] |
+| 4 | 0.2 | 0.25 | 0.05 | [0.19 0.31] | [0.17 0.37] |
+| 5 | 0.22 | 0.27 | 0.05 | [0.21 0.32] | [0.16 0.37] |
+| 7.5 | 0.25 | 0.3 | 0.06 | [0.23 0.35] | [0.16 0.42] |
+| 10 | 0.28 | 0.31 | 0.07 | [0.23 0.39] | [0.16 0.44] |
+
+These plots show the dependence of &tau; to the number of events included and the number of recordings per event. The left plot holds the number of recordings per event fixed at the full set of simulated recordings (18), varying the number of events. The right plot holds the number of events fixed at the full set of simulated events (400), varying the number of recordings per event.
+
+| Period | Event Count Dependence | Recordings/Event Dependence |
+|-----|-----|-----|
+| Period Indep. | ![num events dependence](resources/between_events_event_count_dependence_all_dists_period_indep.png) | ![num recordings dependence](resources/between_events_event_recordings_dependence_all_dists_period_indep.png) |
+| 1s | ![num events dependence](resources/between_events_event_count_dependence_all_dists_1s.png) | ![num recordings dependence](resources/between_events_event_recordings_dependence_all_dists_1.png) |
 
 This plot shows the distribution of period-independent downsampled &tau;.
 
