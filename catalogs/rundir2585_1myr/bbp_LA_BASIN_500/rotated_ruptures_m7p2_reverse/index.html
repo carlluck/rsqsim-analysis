@@ -73,8 +73,11 @@ img {
 <li><a href="#log10area-event-term-scatters">Log10(Area) Event Term Scatters</a></li>
 <li><a href="#max-slip-event-term-scatters">Max Slip Event Term Scatters</a></li>
 <li><a href="#mean-slip-event-term-scatters">Mean Slip Event Term Scatters</a></li>
+<li><a href="#slip-std-dev-event-term-scatters">Slip Std Dev Event Term Scatters</a></li>
+<li><a href="#mid-seismogenic-mean-slip-event-term-scatters">Mid-Seismogenic Mean Slip Event Term Scatters</a></li>
 </ul>
 </li>
+<li><a href="#directivity-comparisons">Directivity Comparisons</a></li>
 <li><a href="#azumth-dependence">Azumth Dependence</a>
 <ul>
 <li><a href="#rupture-strike-dependence">Rupture Strike Dependence</a></li>
@@ -514,14 +517,14 @@ img {
 <tr><th>Period (s)</th><th>Full &phi;<sub>SS</sub></th><th>Downsampled median &phi;<sub>SS</sub></th><th>Downsampled &phi;<sub>SS</sub> std. dev.</th><th>Downsampled &phi;<sub>SS</sub> 68% conf range</th><th>Downsampled &phi;<sub>SS</sub> 95% conf range</th></tr>
 </thead>
 <tbody>
-<tr><td>T-independent</td><td>0.34</td><td>0.33</td><td>0.02</td><td>[0.31 0.36]</td><td>[0.29 0.38]</td></tr>
-<tr><td>1</td><td>0.33</td><td>0.32</td><td>0.03</td><td>[0.29 0.35]</td><td>[0.26 0.39]</td></tr>
-<tr><td>2</td><td>0.33</td><td>0.32</td><td>0.04</td><td>[0.29 0.36]</td><td>[0.26 0.4]</td></tr>
-<tr><td>3</td><td>0.35</td><td>0.34</td><td>0.03</td><td>[0.3 0.38]</td><td>[0.27 0.41]</td></tr>
-<tr><td>4</td><td>0.34</td><td>0.34</td><td>0.04</td><td>[0.3 0.38]</td><td>[0.27 0.41]</td></tr>
-<tr><td>5</td><td>0.35</td><td>0.35</td><td>0.04</td><td>[0.31 0.39]</td><td>[0.27 0.45]</td></tr>
-<tr><td>7.5</td><td>0.34</td><td>0.33</td><td>0.04</td><td>[0.3 0.39]</td><td>[0.26 0.41]</td></tr>
-<tr><td>10</td><td>0.33</td><td>0.32</td><td>0.04</td><td>[0.28 0.37]</td><td>[0.25 0.41]</td></tr>
+<tr><td>T-independent</td><td>0.34</td><td>0.33</td><td>0.02</td><td>[0.31 0.36]</td><td>[0.29 0.37]</td></tr>
+<tr><td>1</td><td>0.33</td><td>0.32</td><td>0.03</td><td>[0.28 0.35]</td><td>[0.25 0.37]</td></tr>
+<tr><td>2</td><td>0.33</td><td>0.32</td><td>0.03</td><td>[0.28 0.35]</td><td>[0.26 0.4]</td></tr>
+<tr><td>3</td><td>0.35</td><td>0.34</td><td>0.03</td><td>[0.31 0.38]</td><td>[0.28 0.41]</td></tr>
+<tr><td>4</td><td>0.34</td><td>0.34</td><td>0.04</td><td>[0.3 0.38]</td><td>[0.27 0.42]</td></tr>
+<tr><td>5</td><td>0.35</td><td>0.35</td><td>0.04</td><td>[0.31 0.4]</td><td>[0.27 0.42]</td></tr>
+<tr><td>7.5</td><td>0.34</td><td>0.34</td><td>0.04</td><td>[0.3 0.37]</td><td>[0.23 0.4]</td></tr>
+<tr><td>10</td><td>0.33</td><td>0.32</td><td>0.04</td><td>[0.28 0.36]</td><td>[0.25 0.42]</td></tr>
 </tbody>
 </table>
 <p>These plots show the distribution of period-independent downsampled &phi;<sub>SS</sub> for each site.</p>
@@ -587,14 +590,14 @@ img {
 <tr><th>Period (s)</th><th>Full &tau;</th><th>Downsampled median &tau;</th><th>Downsampled &tau; std. dev.</th><th>Downsampled &tau; 68% conf range</th><th>Downsampled &tau; 95% conf range</th></tr>
 </thead>
 <tbody>
-<tr><td>T-independent</td><td>0.2</td><td>0.19</td><td>0.1</td><td>[0.13 0.34]</td><td>[0.09 0.48]</td></tr>
-<tr><td>1</td><td>0.15</td><td>0.18</td><td>0.14</td><td>[0.08 0.37]</td><td>[0.01 0.53]</td></tr>
-<tr><td>2</td><td>0.22</td><td>0.21</td><td>0.17</td><td>[0.08 0.43]</td><td>[0.01 0.66]</td></tr>
-<tr><td>3</td><td>0.21</td><td>0.19</td><td>0.19</td><td>[0.05 0.43]</td><td>[0.01 0.72]</td></tr>
-<tr><td>4</td><td>0.19</td><td>0.16</td><td>0.16</td><td>[0.05 0.38]</td><td>[0.01 0.58]</td></tr>
-<tr><td>5</td><td>0.19</td><td>0.17</td><td>0.17</td><td>[0.03 0.38]</td><td>[0.01 0.76]</td></tr>
-<tr><td>7.5</td><td>0.21</td><td>0.2</td><td>0.15</td><td>[0.05 0.34]</td><td>[0.02 0.57]</td></tr>
-<tr><td>10</td><td>0.24</td><td>0.2</td><td>0.15</td><td>[0.08 0.4]</td><td>[0.01 0.54]</td></tr>
+<tr><td>T-independent</td><td>0.2</td><td>0.17</td><td>0.12</td><td>[0.11 0.3]</td><td>[0.06 0.64]</td></tr>
+<tr><td>1</td><td>0.15</td><td>0.15</td><td>0.16</td><td>[0.04 0.35]</td><td>[0 0.62]</td></tr>
+<tr><td>2</td><td>0.22</td><td>0.16</td><td>0.19</td><td>[0.03 0.42]</td><td>[0 0.72]</td></tr>
+<tr><td>3</td><td>0.21</td><td>0.18</td><td>0.2</td><td>[0.04 0.37]</td><td>[0 0.83]</td></tr>
+<tr><td>4</td><td>0.19</td><td>0.16</td><td>0.17</td><td>[0.05 0.38]</td><td>[0.01 0.63]</td></tr>
+<tr><td>5</td><td>0.19</td><td>0.16</td><td>0.18</td><td>[0.05 0.35]</td><td>[0.01 0.71]</td></tr>
+<tr><td>7.5</td><td>0.21</td><td>0.18</td><td>0.17</td><td>[0.04 0.36]</td><td>[0 0.71]</td></tr>
+<tr><td>10</td><td>0.24</td><td>0.16</td><td>0.18</td><td>[0.05 0.38]</td><td>[0.01 0.74]</td></tr>
 </tbody>
 </table>
 <p>This plot shows the distribution of period-independent downsampled &tau;.</p>
@@ -659,14 +662,14 @@ img {
 <tr><th>Period (s)</th><th>Full &tau;</th><th>Downsampled median &tau;</th><th>Downsampled &tau; std. dev.</th><th>Downsampled &tau; 68% conf range</th><th>Downsampled &tau; 95% conf range</th></tr>
 </thead>
 <tbody>
-<tr><td>T-independent</td><td>0.19</td><td>0.21</td><td>0.05</td><td>[0.18 0.26]</td><td>[0.14 0.34]</td></tr>
-<tr><td>1</td><td>0.13</td><td>0.17</td><td>0.05</td><td>[0.13 0.24]</td><td>[0.08 0.29]</td></tr>
-<tr><td>2</td><td>0.18</td><td>0.2</td><td>0.06</td><td>[0.14 0.26]</td><td>[0.07 0.33]</td></tr>
-<tr><td>3</td><td>0.19</td><td>0.22</td><td>0.07</td><td>[0.16 0.28]</td><td>[0.1 0.36]</td></tr>
-<tr><td>4</td><td>0.2</td><td>0.21</td><td>0.08</td><td>[0.15 0.3]</td><td>[0.08 0.46]</td></tr>
-<tr><td>5</td><td>0.21</td><td>0.22</td><td>0.08</td><td>[0.16 0.3]</td><td>[0.06 0.41]</td></tr>
-<tr><td>7.5</td><td>0.21</td><td>0.22</td><td>0.08</td><td>[0.15 0.3]</td><td>[0.1 0.42]</td></tr>
-<tr><td>10</td><td>0.25</td><td>0.25</td><td>0.08</td><td>[0.19 0.35]</td><td>[0.11 0.41]</td></tr>
+<tr><td>T-independent</td><td>0.19</td><td>0.21</td><td>0.04</td><td>[0.18 0.26]</td><td>[0.15 0.32]</td></tr>
+<tr><td>1</td><td>0.13</td><td>0.17</td><td>0.06</td><td>[0.11 0.23]</td><td>[0.08 0.3]</td></tr>
+<tr><td>2</td><td>0.18</td><td>0.19</td><td>0.07</td><td>[0.14 0.26]</td><td>[0.07 0.38]</td></tr>
+<tr><td>3</td><td>0.19</td><td>0.21</td><td>0.07</td><td>[0.15 0.29]</td><td>[0.09 0.35]</td></tr>
+<tr><td>4</td><td>0.2</td><td>0.22</td><td>0.06</td><td>[0.17 0.29]</td><td>[0.11 0.37]</td></tr>
+<tr><td>5</td><td>0.21</td><td>0.23</td><td>0.08</td><td>[0.16 0.3]</td><td>[0.09 0.42]</td></tr>
+<tr><td>7.5</td><td>0.21</td><td>0.23</td><td>0.07</td><td>[0.15 0.3]</td><td>[0.11 0.4]</td></tr>
+<tr><td>10</td><td>0.25</td><td>0.25</td><td>0.08</td><td>[0.18 0.34]</td><td>[0.1 0.41]</td></tr>
 </tbody>
 </table>
 <p>This plot shows the distribution of period-independent downsampled &tau;.</p>
@@ -696,7 +699,7 @@ img {
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <table>
 <thead>
-<tr><th>Distance</th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
+<tr><th></th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
 </thead>
 <tbody>
 <tr><td><strong>20 km</strong></td><td><img src="resources/event_term_scatter_v_prop_m7.2_20km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_v_prop_m7.2_20km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_v_prop_m7.2_20km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_v_prop_m7.2_20km_USC_10s.png" alt="plot" /></td></tr>
@@ -708,7 +711,7 @@ img {
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <table>
 <thead>
-<tr><th>Distance</th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
+<tr><th></th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
 </thead>
 <tbody>
 <tr><td><strong>20 km</strong></td><td><img src="resources/event_term_scatter_mag_m7.2_20km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mag_m7.2_20km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mag_m7.2_20km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mag_m7.2_20km_USC_10s.png" alt="plot" /></td></tr>
@@ -720,7 +723,7 @@ img {
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <table>
 <thead>
-<tr><th>Distance</th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
+<tr><th></th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
 </thead>
 <tbody>
 <tr><td><strong>20 km</strong></td><td><img src="resources/event_term_scatter_area_m7.2_20km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_area_m7.2_20km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_area_m7.2_20km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_area_m7.2_20km_USC_10s.png" alt="plot" /></td></tr>
@@ -732,7 +735,7 @@ img {
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <table>
 <thead>
-<tr><th>Distance</th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
+<tr><th></th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
 </thead>
 <tbody>
 <tr><td><strong>20 km</strong></td><td><img src="resources/event_term_scatter_max_slip_m7.2_20km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_max_slip_m7.2_20km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_max_slip_m7.2_20km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_max_slip_m7.2_20km_USC_10s.png" alt="plot" /></td></tr>
@@ -744,12 +747,48 @@ img {
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <table>
 <thead>
-<tr><th>Distance</th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
+<tr><th></th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
 </thead>
 <tbody>
 <tr><td><strong>20 km</strong></td><td><img src="resources/event_term_scatter_mean_slip_m7.2_20km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mean_slip_m7.2_20km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mean_slip_m7.2_20km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mean_slip_m7.2_20km_USC_10s.png" alt="plot" /></td></tr>
 <tr><td><strong>50 km</strong></td><td><img src="resources/event_term_scatter_mean_slip_m7.2_50km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mean_slip_m7.2_50km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mean_slip_m7.2_50km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mean_slip_m7.2_50km_USC_10s.png" alt="plot" /></td></tr>
 <tr><td><strong>100 km</strong></td><td><img src="resources/event_term_scatter_mean_slip_m7.2_100km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mean_slip_m7.2_100km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mean_slip_m7.2_100km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mean_slip_m7.2_100km_USC_10s.png" alt="plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="slip-std-dev-event-term-scatters">Slip Std Dev Event Term Scatters</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th></th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>20 km</strong></td><td><img src="resources/event_term_scatter_slip_std_dev_m7.2_20km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_slip_std_dev_m7.2_20km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_slip_std_dev_m7.2_20km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_slip_std_dev_m7.2_20km_USC_10s.png" alt="plot" /></td></tr>
+<tr><td><strong>50 km</strong></td><td><img src="resources/event_term_scatter_slip_std_dev_m7.2_50km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_slip_std_dev_m7.2_50km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_slip_std_dev_m7.2_50km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_slip_std_dev_m7.2_50km_USC_10s.png" alt="plot" /></td></tr>
+<tr><td><strong>100 km</strong></td><td><img src="resources/event_term_scatter_slip_std_dev_m7.2_100km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_slip_std_dev_m7.2_100km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_slip_std_dev_m7.2_100km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_slip_std_dev_m7.2_100km_USC_10s.png" alt="plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="mid-seismogenic-mean-slip-event-term-scatters">Mid-Seismogenic Mean Slip Event Term Scatters</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th></th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>20 km</strong></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m7.2_20km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m7.2_20km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m7.2_20km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m7.2_20km_USC_10s.png" alt="plot" /></td></tr>
+<tr><td><strong>50 km</strong></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m7.2_50km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m7.2_50km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m7.2_50km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m7.2_50km_USC_10s.png" alt="plot" /></td></tr>
+<tr><td><strong>100 km</strong></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m7.2_100km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m7.2_100km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m7.2_100km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m7.2_100km_USC_10s.png" alt="plot" /></td></tr>
+</tbody>
+</table>
+<h2 id="directivity-comparisons">Directivity Comparisons</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th></th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>20 km</strong></td><td><img src="resources/directivity_20km_3s.png" alt="plot" /></td><td><img src="resources/directivity_20km_5s.png" alt="plot" /></td><td><img src="resources/directivity_20km_7.5s.png" alt="plot" /></td><td><img src="resources/directivity_20km_10s.png" alt="plot" /></td></tr>
+<tr><td><strong>50 km</strong></td><td><img src="resources/directivity_50km_3s.png" alt="plot" /></td><td><img src="resources/directivity_50km_5s.png" alt="plot" /></td><td><img src="resources/directivity_50km_7.5s.png" alt="plot" /></td><td><img src="resources/directivity_50km_10s.png" alt="plot" /></td></tr>
+<tr><td><strong>100 km</strong></td><td><em>N/A</em></td><td><em>N/A</em></td><td><em>N/A</em></td><td><em>N/A</em></td></tr>
 </tbody>
 </table>
 <h2 id="azumth-dependence">Azumth Dependence</h2>

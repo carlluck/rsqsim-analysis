@@ -73,9 +73,11 @@ img {
 <li><a href="#log10area-event-term-scatters">Log10(Area) Event Term Scatters</a></li>
 <li><a href="#max-slip-event-term-scatters">Max Slip Event Term Scatters</a></li>
 <li><a href="#mean-slip-event-term-scatters">Mean Slip Event Term Scatters</a></li>
+<li><a href="#slip-std-dev-event-term-scatters">Slip Std Dev Event Term Scatters</a></li>
 <li><a href="#mid-seismogenic-mean-slip-event-term-scatters">Mid-Seismogenic Mean Slip Event Term Scatters</a></li>
 </ul>
 </li>
+<li><a href="#directivity-comparisons">Directivity Comparisons</a></li>
 <li><a href="#azumth-dependence">Azumth Dependence</a>
 <ul>
 <li><a href="#rupture-strike-dependence">Rupture Strike Dependence</a></li>
@@ -950,7 +952,7 @@ img {
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <table>
 <thead>
-<tr><th>Distance</th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
+<tr><th></th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
 </thead>
 <tbody>
 <tr><td><strong>20 km</strong></td><td><img src="resources/event_term_scatter_v_prop_m7.2_20km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_v_prop_m7.2_20km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_v_prop_m7.2_20km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_v_prop_m7.2_20km_USC_10s.png" alt="plot" /></td></tr>
@@ -962,7 +964,7 @@ img {
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <table>
 <thead>
-<tr><th>Distance</th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
+<tr><th></th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
 </thead>
 <tbody>
 <tr><td><strong>20 km</strong></td><td><img src="resources/event_term_scatter_mag_m7.2_20km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mag_m7.2_20km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mag_m7.2_20km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mag_m7.2_20km_USC_10s.png" alt="plot" /></td></tr>
@@ -974,7 +976,7 @@ img {
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <table>
 <thead>
-<tr><th>Distance</th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
+<tr><th></th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
 </thead>
 <tbody>
 <tr><td><strong>20 km</strong></td><td><img src="resources/event_term_scatter_area_m7.2_20km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_area_m7.2_20km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_area_m7.2_20km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_area_m7.2_20km_USC_10s.png" alt="plot" /></td></tr>
@@ -986,7 +988,7 @@ img {
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <table>
 <thead>
-<tr><th>Distance</th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
+<tr><th></th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
 </thead>
 <tbody>
 <tr><td><strong>20 km</strong></td><td><img src="resources/event_term_scatter_max_slip_m7.2_20km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_max_slip_m7.2_20km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_max_slip_m7.2_20km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_max_slip_m7.2_20km_USC_10s.png" alt="plot" /></td></tr>
@@ -998,7 +1000,7 @@ img {
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <table>
 <thead>
-<tr><th>Distance</th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
+<tr><th></th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
 </thead>
 <tbody>
 <tr><td><strong>20 km</strong></td><td><img src="resources/event_term_scatter_mean_slip_m7.2_20km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mean_slip_m7.2_20km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mean_slip_m7.2_20km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mean_slip_m7.2_20km_USC_10s.png" alt="plot" /></td></tr>
@@ -1006,16 +1008,40 @@ img {
 <tr><td><strong>100 km</strong></td><td><img src="resources/event_term_scatter_mean_slip_m7.2_100km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mean_slip_m7.2_100km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mean_slip_m7.2_100km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mean_slip_m7.2_100km_USC_10s.png" alt="plot" /></td></tr>
 </tbody>
 </table>
+<h3 id="slip-std-dev-event-term-scatters">Slip Std Dev Event Term Scatters</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th></th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>20 km</strong></td><td><img src="resources/event_term_scatter_slip_std_dev_m7.2_20km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_slip_std_dev_m7.2_20km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_slip_std_dev_m7.2_20km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_slip_std_dev_m7.2_20km_USC_10s.png" alt="plot" /></td></tr>
+<tr><td><strong>50 km</strong></td><td><img src="resources/event_term_scatter_slip_std_dev_m7.2_50km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_slip_std_dev_m7.2_50km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_slip_std_dev_m7.2_50km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_slip_std_dev_m7.2_50km_USC_10s.png" alt="plot" /></td></tr>
+<tr><td><strong>100 km</strong></td><td><img src="resources/event_term_scatter_slip_std_dev_m7.2_100km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_slip_std_dev_m7.2_100km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_slip_std_dev_m7.2_100km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_slip_std_dev_m7.2_100km_USC_10s.png" alt="plot" /></td></tr>
+</tbody>
+</table>
 <h3 id="mid-seismogenic-mean-slip-event-term-scatters">Mid-Seismogenic Mean Slip Event Term Scatters</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <table>
 <thead>
-<tr><th>Distance</th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
+<tr><th></th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
 </thead>
 <tbody>
 <tr><td><strong>20 km</strong></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m7.2_20km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m7.2_20km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m7.2_20km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m7.2_20km_USC_10s.png" alt="plot" /></td></tr>
 <tr><td><strong>50 km</strong></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m7.2_50km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m7.2_50km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m7.2_50km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m7.2_50km_USC_10s.png" alt="plot" /></td></tr>
 <tr><td><strong>100 km</strong></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m7.2_100km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m7.2_100km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m7.2_100km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m7.2_100km_USC_10s.png" alt="plot" /></td></tr>
+</tbody>
+</table>
+<h2 id="directivity-comparisons">Directivity Comparisons</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th></th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>20 km</strong></td><td><img src="resources/directivity_20km_3s.png" alt="plot" /></td><td><img src="resources/directivity_20km_5s.png" alt="plot" /></td><td><img src="resources/directivity_20km_7.5s.png" alt="plot" /></td><td><img src="resources/directivity_20km_10s.png" alt="plot" /></td></tr>
+<tr><td><strong>50 km</strong></td><td><img src="resources/directivity_50km_3s.png" alt="plot" /></td><td><img src="resources/directivity_50km_5s.png" alt="plot" /></td><td><img src="resources/directivity_50km_7.5s.png" alt="plot" /></td><td><img src="resources/directivity_50km_10s.png" alt="plot" /></td></tr>
+<tr><td><strong>100 km</strong></td><td><em>N/A</em></td><td><em>N/A</em></td><td><em>N/A</em></td><td><em>N/A</em></td></tr>
 </tbody>
 </table>
 <h2 id="azumth-dependence">Azumth Dependence</h2>

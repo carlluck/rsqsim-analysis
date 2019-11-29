@@ -40,6 +40,9 @@ We then  perform various rotations. We rotate the rupture in place around its ce
   * [Log10(Area) Event Term Scatters](#log10area-event-term-scatters)
   * [Max Slip Event Term Scatters](#max-slip-event-term-scatters)
   * [Mean Slip Event Term Scatters](#mean-slip-event-term-scatters)
+  * [Slip Std Dev Event Term Scatters](#slip-std-dev-event-term-scatters)
+  * [Mid-Seismogenic Mean Slip Event Term Scatters](#mid-seismogenic-mean-slip-event-term-scatters)
+* [Directivity Comparisons](#directivity-comparisons)
 * [Azumth Dependence](#azumth-dependence)
   * [Rupture Strike Dependence](#rupture-strike-dependence)
 * [BBP PartB Comparison](#bbp-partb-comparison)
@@ -422,14 +425,14 @@ We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotation
 
 | Period (s) | Full &phi;<sub>SS</sub> | Downsampled median &phi;<sub>SS</sub> | Downsampled &phi;<sub>SS</sub> std. dev. | Downsampled &phi;<sub>SS</sub> 68% conf range | Downsampled &phi;<sub>SS</sub> 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.34 | 0.33 | 0.02 | [0.31 0.36] | [0.29 0.38] |
-| 1 | 0.33 | 0.32 | 0.03 | [0.29 0.35] | [0.26 0.39] |
-| 2 | 0.33 | 0.32 | 0.04 | [0.29 0.36] | [0.26 0.4] |
-| 3 | 0.35 | 0.34 | 0.03 | [0.3 0.38] | [0.27 0.41] |
-| 4 | 0.34 | 0.34 | 0.04 | [0.3 0.38] | [0.27 0.41] |
-| 5 | 0.35 | 0.35 | 0.04 | [0.31 0.39] | [0.27 0.45] |
-| 7.5 | 0.34 | 0.33 | 0.04 | [0.3 0.39] | [0.26 0.41] |
-| 10 | 0.33 | 0.32 | 0.04 | [0.28 0.37] | [0.25 0.41] |
+| T-independent | 0.34 | 0.33 | 0.02 | [0.31 0.36] | [0.29 0.37] |
+| 1 | 0.33 | 0.32 | 0.03 | [0.28 0.35] | [0.25 0.37] |
+| 2 | 0.33 | 0.32 | 0.03 | [0.28 0.35] | [0.26 0.4] |
+| 3 | 0.35 | 0.34 | 0.03 | [0.31 0.38] | [0.28 0.41] |
+| 4 | 0.34 | 0.34 | 0.04 | [0.3 0.38] | [0.27 0.42] |
+| 5 | 0.35 | 0.35 | 0.04 | [0.31 0.4] | [0.27 0.42] |
+| 7.5 | 0.34 | 0.34 | 0.04 | [0.3 0.37] | [0.23 0.4] |
+| 10 | 0.33 | 0.32 | 0.04 | [0.28 0.36] | [0.25 0.42] |
 
 These plots show the distribution of period-independent downsampled &phi;<sub>SS</sub> for each site.
 
@@ -495,14 +498,14 @@ We compute uncertainties on &tau; through downsampling the rotational synthetic 
 
 | Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.2 | 0.19 | 0.1 | [0.13 0.34] | [0.09 0.48] |
-| 1 | 0.15 | 0.18 | 0.14 | [0.08 0.37] | [0.01 0.53] |
-| 2 | 0.22 | 0.21 | 0.17 | [0.08 0.43] | [0.01 0.66] |
-| 3 | 0.21 | 0.19 | 0.19 | [0.05 0.43] | [0.01 0.72] |
-| 4 | 0.19 | 0.16 | 0.16 | [0.05 0.38] | [0.01 0.58] |
-| 5 | 0.19 | 0.17 | 0.17 | [0.03 0.38] | [0.01 0.76] |
-| 7.5 | 0.21 | 0.2 | 0.15 | [0.05 0.34] | [0.02 0.57] |
-| 10 | 0.24 | 0.2 | 0.15 | [0.08 0.4] | [0.01 0.54] |
+| T-independent | 0.2 | 0.17 | 0.12 | [0.11 0.3] | [0.06 0.64] |
+| 1 | 0.15 | 0.15 | 0.16 | [0.04 0.35] | [0 0.62] |
+| 2 | 0.22 | 0.16 | 0.19 | [0.03 0.42] | [0 0.72] |
+| 3 | 0.21 | 0.18 | 0.2 | [0.04 0.37] | [0 0.83] |
+| 4 | 0.19 | 0.16 | 0.17 | [0.05 0.38] | [0.01 0.63] |
+| 5 | 0.19 | 0.16 | 0.18 | [0.05 0.35] | [0.01 0.71] |
+| 7.5 | 0.21 | 0.18 | 0.17 | [0.04 0.36] | [0 0.71] |
+| 10 | 0.24 | 0.16 | 0.18 | [0.05 0.38] | [0.01 0.74] |
 
 This plot shows the distribution of period-independent downsampled &tau;.
 
@@ -558,14 +561,14 @@ We compute uncertainties on &tau; through downsampling the rotational synthetic 
 
 | Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.19 | 0.21 | 0.05 | [0.18 0.26] | [0.14 0.34] |
-| 1 | 0.13 | 0.17 | 0.05 | [0.13 0.24] | [0.08 0.29] |
-| 2 | 0.18 | 0.2 | 0.06 | [0.14 0.26] | [0.07 0.33] |
-| 3 | 0.19 | 0.22 | 0.07 | [0.16 0.28] | [0.1 0.36] |
-| 4 | 0.2 | 0.21 | 0.08 | [0.15 0.3] | [0.08 0.46] |
-| 5 | 0.21 | 0.22 | 0.08 | [0.16 0.3] | [0.06 0.41] |
-| 7.5 | 0.21 | 0.22 | 0.08 | [0.15 0.3] | [0.1 0.42] |
-| 10 | 0.25 | 0.25 | 0.08 | [0.19 0.35] | [0.11 0.41] |
+| T-independent | 0.19 | 0.21 | 0.04 | [0.18 0.26] | [0.15 0.32] |
+| 1 | 0.13 | 0.17 | 0.06 | [0.11 0.23] | [0.08 0.3] |
+| 2 | 0.18 | 0.19 | 0.07 | [0.14 0.26] | [0.07 0.38] |
+| 3 | 0.19 | 0.21 | 0.07 | [0.15 0.29] | [0.09 0.35] |
+| 4 | 0.2 | 0.22 | 0.06 | [0.17 0.29] | [0.11 0.37] |
+| 5 | 0.21 | 0.23 | 0.08 | [0.16 0.3] | [0.09 0.42] |
+| 7.5 | 0.21 | 0.23 | 0.07 | [0.15 0.3] | [0.11 0.4] |
+| 10 | 0.25 | 0.25 | 0.08 | [0.18 0.34] | [0.1 0.41] |
 
 This plot shows the distribution of period-independent downsampled &tau;.
 
@@ -591,7 +594,7 @@ This is a histogram of the number of recordings per event from ASK 2014 with M=[
 ### Propagation Velocity Event Term Scatters
 *[(top)](#table-of-contents)*
 
-| Distance | 3 s | 5 s | 7.5 s | 10 s |
+|  | 3 s | 5 s | 7.5 s | 10 s |
 |-----|-----|-----|-----|-----|
 | **20 km** | ![plot](resources/event_term_scatter_v_prop_m7.2_20km_USC_3s.png) | ![plot](resources/event_term_scatter_v_prop_m7.2_20km_USC_5s.png) | ![plot](resources/event_term_scatter_v_prop_m7.2_20km_USC_7.5s.png) | ![plot](resources/event_term_scatter_v_prop_m7.2_20km_USC_10s.png) |
 | **50 km** | ![plot](resources/event_term_scatter_v_prop_m7.2_50km_USC_3s.png) | ![plot](resources/event_term_scatter_v_prop_m7.2_50km_USC_5s.png) | ![plot](resources/event_term_scatter_v_prop_m7.2_50km_USC_7.5s.png) | ![plot](resources/event_term_scatter_v_prop_m7.2_50km_USC_10s.png) |
@@ -599,7 +602,7 @@ This is a histogram of the number of recordings per event from ASK 2014 with M=[
 ### Mag Event Term Scatters
 *[(top)](#table-of-contents)*
 
-| Distance | 3 s | 5 s | 7.5 s | 10 s |
+|  | 3 s | 5 s | 7.5 s | 10 s |
 |-----|-----|-----|-----|-----|
 | **20 km** | ![plot](resources/event_term_scatter_mag_m7.2_20km_USC_3s.png) | ![plot](resources/event_term_scatter_mag_m7.2_20km_USC_5s.png) | ![plot](resources/event_term_scatter_mag_m7.2_20km_USC_7.5s.png) | ![plot](resources/event_term_scatter_mag_m7.2_20km_USC_10s.png) |
 | **50 km** | ![plot](resources/event_term_scatter_mag_m7.2_50km_USC_3s.png) | ![plot](resources/event_term_scatter_mag_m7.2_50km_USC_5s.png) | ![plot](resources/event_term_scatter_mag_m7.2_50km_USC_7.5s.png) | ![plot](resources/event_term_scatter_mag_m7.2_50km_USC_10s.png) |
@@ -607,7 +610,7 @@ This is a histogram of the number of recordings per event from ASK 2014 with M=[
 ### Log10(Area) Event Term Scatters
 *[(top)](#table-of-contents)*
 
-| Distance | 3 s | 5 s | 7.5 s | 10 s |
+|  | 3 s | 5 s | 7.5 s | 10 s |
 |-----|-----|-----|-----|-----|
 | **20 km** | ![plot](resources/event_term_scatter_area_m7.2_20km_USC_3s.png) | ![plot](resources/event_term_scatter_area_m7.2_20km_USC_5s.png) | ![plot](resources/event_term_scatter_area_m7.2_20km_USC_7.5s.png) | ![plot](resources/event_term_scatter_area_m7.2_20km_USC_10s.png) |
 | **50 km** | ![plot](resources/event_term_scatter_area_m7.2_50km_USC_3s.png) | ![plot](resources/event_term_scatter_area_m7.2_50km_USC_5s.png) | ![plot](resources/event_term_scatter_area_m7.2_50km_USC_7.5s.png) | ![plot](resources/event_term_scatter_area_m7.2_50km_USC_10s.png) |
@@ -615,7 +618,7 @@ This is a histogram of the number of recordings per event from ASK 2014 with M=[
 ### Max Slip Event Term Scatters
 *[(top)](#table-of-contents)*
 
-| Distance | 3 s | 5 s | 7.5 s | 10 s |
+|  | 3 s | 5 s | 7.5 s | 10 s |
 |-----|-----|-----|-----|-----|
 | **20 km** | ![plot](resources/event_term_scatter_max_slip_m7.2_20km_USC_3s.png) | ![plot](resources/event_term_scatter_max_slip_m7.2_20km_USC_5s.png) | ![plot](resources/event_term_scatter_max_slip_m7.2_20km_USC_7.5s.png) | ![plot](resources/event_term_scatter_max_slip_m7.2_20km_USC_10s.png) |
 | **50 km** | ![plot](resources/event_term_scatter_max_slip_m7.2_50km_USC_3s.png) | ![plot](resources/event_term_scatter_max_slip_m7.2_50km_USC_5s.png) | ![plot](resources/event_term_scatter_max_slip_m7.2_50km_USC_7.5s.png) | ![plot](resources/event_term_scatter_max_slip_m7.2_50km_USC_10s.png) |
@@ -623,11 +626,35 @@ This is a histogram of the number of recordings per event from ASK 2014 with M=[
 ### Mean Slip Event Term Scatters
 *[(top)](#table-of-contents)*
 
-| Distance | 3 s | 5 s | 7.5 s | 10 s |
+|  | 3 s | 5 s | 7.5 s | 10 s |
 |-----|-----|-----|-----|-----|
 | **20 km** | ![plot](resources/event_term_scatter_mean_slip_m7.2_20km_USC_3s.png) | ![plot](resources/event_term_scatter_mean_slip_m7.2_20km_USC_5s.png) | ![plot](resources/event_term_scatter_mean_slip_m7.2_20km_USC_7.5s.png) | ![plot](resources/event_term_scatter_mean_slip_m7.2_20km_USC_10s.png) |
 | **50 km** | ![plot](resources/event_term_scatter_mean_slip_m7.2_50km_USC_3s.png) | ![plot](resources/event_term_scatter_mean_slip_m7.2_50km_USC_5s.png) | ![plot](resources/event_term_scatter_mean_slip_m7.2_50km_USC_7.5s.png) | ![plot](resources/event_term_scatter_mean_slip_m7.2_50km_USC_10s.png) |
 | **100 km** | ![plot](resources/event_term_scatter_mean_slip_m7.2_100km_USC_3s.png) | ![plot](resources/event_term_scatter_mean_slip_m7.2_100km_USC_5s.png) | ![plot](resources/event_term_scatter_mean_slip_m7.2_100km_USC_7.5s.png) | ![plot](resources/event_term_scatter_mean_slip_m7.2_100km_USC_10s.png) |
+### Slip Std Dev Event Term Scatters
+*[(top)](#table-of-contents)*
+
+|  | 3 s | 5 s | 7.5 s | 10 s |
+|-----|-----|-----|-----|-----|
+| **20 km** | ![plot](resources/event_term_scatter_slip_std_dev_m7.2_20km_USC_3s.png) | ![plot](resources/event_term_scatter_slip_std_dev_m7.2_20km_USC_5s.png) | ![plot](resources/event_term_scatter_slip_std_dev_m7.2_20km_USC_7.5s.png) | ![plot](resources/event_term_scatter_slip_std_dev_m7.2_20km_USC_10s.png) |
+| **50 km** | ![plot](resources/event_term_scatter_slip_std_dev_m7.2_50km_USC_3s.png) | ![plot](resources/event_term_scatter_slip_std_dev_m7.2_50km_USC_5s.png) | ![plot](resources/event_term_scatter_slip_std_dev_m7.2_50km_USC_7.5s.png) | ![plot](resources/event_term_scatter_slip_std_dev_m7.2_50km_USC_10s.png) |
+| **100 km** | ![plot](resources/event_term_scatter_slip_std_dev_m7.2_100km_USC_3s.png) | ![plot](resources/event_term_scatter_slip_std_dev_m7.2_100km_USC_5s.png) | ![plot](resources/event_term_scatter_slip_std_dev_m7.2_100km_USC_7.5s.png) | ![plot](resources/event_term_scatter_slip_std_dev_m7.2_100km_USC_10s.png) |
+### Mid-Seismogenic Mean Slip Event Term Scatters
+*[(top)](#table-of-contents)*
+
+|  | 3 s | 5 s | 7.5 s | 10 s |
+|-----|-----|-----|-----|-----|
+| **20 km** | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.2_20km_USC_3s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.2_20km_USC_5s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.2_20km_USC_7.5s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.2_20km_USC_10s.png) |
+| **50 km** | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.2_50km_USC_3s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.2_50km_USC_5s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.2_50km_USC_7.5s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.2_50km_USC_10s.png) |
+| **100 km** | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.2_100km_USC_3s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.2_100km_USC_5s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.2_100km_USC_7.5s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.2_100km_USC_10s.png) |
+## Directivity Comparisons
+*[(top)](#table-of-contents)*
+
+|  | 3 s | 5 s | 7.5 s | 10 s |
+|-----|-----|-----|-----|-----|
+| **20 km** | ![plot](resources/directivity_20km_3s.png) | ![plot](resources/directivity_20km_5s.png) | ![plot](resources/directivity_20km_7.5s.png) | ![plot](resources/directivity_20km_10s.png) |
+| **50 km** | ![plot](resources/directivity_50km_3s.png) | ![plot](resources/directivity_50km_5s.png) | ![plot](resources/directivity_50km_7.5s.png) | ![plot](resources/directivity_50km_10s.png) |
+| **100 km** | *N/A* | *N/A* | *N/A* | *N/A* |
 ## Azumth Dependence
 *[(top)](#table-of-contents)*
 

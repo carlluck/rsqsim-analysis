@@ -40,7 +40,9 @@ We then  perform various rotations. We rotate the rupture in place around its ce
   * [Log10(Area) Event Term Scatters](#log10area-event-term-scatters)
   * [Max Slip Event Term Scatters](#max-slip-event-term-scatters)
   * [Mean Slip Event Term Scatters](#mean-slip-event-term-scatters)
+  * [Slip Std Dev Event Term Scatters](#slip-std-dev-event-term-scatters)
   * [Mid-Seismogenic Mean Slip Event Term Scatters](#mid-seismogenic-mean-slip-event-term-scatters)
+* [Directivity Comparisons](#directivity-comparisons)
 * [Azumth Dependence](#azumth-dependence)
   * [Rupture Strike Dependence](#rupture-strike-dependence)
 * [BBP PartB Comparison](#bbp-partb-comparison)
@@ -828,7 +830,7 @@ This is a histogram of the number of recordings per event from ASK 2014 with M=[
 ### Propagation Velocity Event Term Scatters
 *[(top)](#table-of-contents)*
 
-| Distance | 3 s | 5 s | 7.5 s | 10 s |
+|  | 3 s | 5 s | 7.5 s | 10 s |
 |-----|-----|-----|-----|-----|
 | **20 km** | ![plot](resources/event_term_scatter_v_prop_m7.2_20km_USC_3s.png) | ![plot](resources/event_term_scatter_v_prop_m7.2_20km_USC_5s.png) | ![plot](resources/event_term_scatter_v_prop_m7.2_20km_USC_7.5s.png) | ![plot](resources/event_term_scatter_v_prop_m7.2_20km_USC_10s.png) |
 | **50 km** | ![plot](resources/event_term_scatter_v_prop_m7.2_50km_USC_3s.png) | ![plot](resources/event_term_scatter_v_prop_m7.2_50km_USC_5s.png) | ![plot](resources/event_term_scatter_v_prop_m7.2_50km_USC_7.5s.png) | ![plot](resources/event_term_scatter_v_prop_m7.2_50km_USC_10s.png) |
@@ -836,7 +838,7 @@ This is a histogram of the number of recordings per event from ASK 2014 with M=[
 ### Mag Event Term Scatters
 *[(top)](#table-of-contents)*
 
-| Distance | 3 s | 5 s | 7.5 s | 10 s |
+|  | 3 s | 5 s | 7.5 s | 10 s |
 |-----|-----|-----|-----|-----|
 | **20 km** | ![plot](resources/event_term_scatter_mag_m7.2_20km_USC_3s.png) | ![plot](resources/event_term_scatter_mag_m7.2_20km_USC_5s.png) | ![plot](resources/event_term_scatter_mag_m7.2_20km_USC_7.5s.png) | ![plot](resources/event_term_scatter_mag_m7.2_20km_USC_10s.png) |
 | **50 km** | ![plot](resources/event_term_scatter_mag_m7.2_50km_USC_3s.png) | ![plot](resources/event_term_scatter_mag_m7.2_50km_USC_5s.png) | ![plot](resources/event_term_scatter_mag_m7.2_50km_USC_7.5s.png) | ![plot](resources/event_term_scatter_mag_m7.2_50km_USC_10s.png) |
@@ -844,7 +846,7 @@ This is a histogram of the number of recordings per event from ASK 2014 with M=[
 ### Log10(Area) Event Term Scatters
 *[(top)](#table-of-contents)*
 
-| Distance | 3 s | 5 s | 7.5 s | 10 s |
+|  | 3 s | 5 s | 7.5 s | 10 s |
 |-----|-----|-----|-----|-----|
 | **20 km** | ![plot](resources/event_term_scatter_area_m7.2_20km_USC_3s.png) | ![plot](resources/event_term_scatter_area_m7.2_20km_USC_5s.png) | ![plot](resources/event_term_scatter_area_m7.2_20km_USC_7.5s.png) | ![plot](resources/event_term_scatter_area_m7.2_20km_USC_10s.png) |
 | **50 km** | ![plot](resources/event_term_scatter_area_m7.2_50km_USC_3s.png) | ![plot](resources/event_term_scatter_area_m7.2_50km_USC_5s.png) | ![plot](resources/event_term_scatter_area_m7.2_50km_USC_7.5s.png) | ![plot](resources/event_term_scatter_area_m7.2_50km_USC_10s.png) |
@@ -852,7 +854,7 @@ This is a histogram of the number of recordings per event from ASK 2014 with M=[
 ### Max Slip Event Term Scatters
 *[(top)](#table-of-contents)*
 
-| Distance | 3 s | 5 s | 7.5 s | 10 s |
+|  | 3 s | 5 s | 7.5 s | 10 s |
 |-----|-----|-----|-----|-----|
 | **20 km** | ![plot](resources/event_term_scatter_max_slip_m7.2_20km_USC_3s.png) | ![plot](resources/event_term_scatter_max_slip_m7.2_20km_USC_5s.png) | ![plot](resources/event_term_scatter_max_slip_m7.2_20km_USC_7.5s.png) | ![plot](resources/event_term_scatter_max_slip_m7.2_20km_USC_10s.png) |
 | **50 km** | ![plot](resources/event_term_scatter_max_slip_m7.2_50km_USC_3s.png) | ![plot](resources/event_term_scatter_max_slip_m7.2_50km_USC_5s.png) | ![plot](resources/event_term_scatter_max_slip_m7.2_50km_USC_7.5s.png) | ![plot](resources/event_term_scatter_max_slip_m7.2_50km_USC_10s.png) |
@@ -860,19 +862,35 @@ This is a histogram of the number of recordings per event from ASK 2014 with M=[
 ### Mean Slip Event Term Scatters
 *[(top)](#table-of-contents)*
 
-| Distance | 3 s | 5 s | 7.5 s | 10 s |
+|  | 3 s | 5 s | 7.5 s | 10 s |
 |-----|-----|-----|-----|-----|
 | **20 km** | ![plot](resources/event_term_scatter_mean_slip_m7.2_20km_USC_3s.png) | ![plot](resources/event_term_scatter_mean_slip_m7.2_20km_USC_5s.png) | ![plot](resources/event_term_scatter_mean_slip_m7.2_20km_USC_7.5s.png) | ![plot](resources/event_term_scatter_mean_slip_m7.2_20km_USC_10s.png) |
 | **50 km** | ![plot](resources/event_term_scatter_mean_slip_m7.2_50km_USC_3s.png) | ![plot](resources/event_term_scatter_mean_slip_m7.2_50km_USC_5s.png) | ![plot](resources/event_term_scatter_mean_slip_m7.2_50km_USC_7.5s.png) | ![plot](resources/event_term_scatter_mean_slip_m7.2_50km_USC_10s.png) |
 | **100 km** | ![plot](resources/event_term_scatter_mean_slip_m7.2_100km_USC_3s.png) | ![plot](resources/event_term_scatter_mean_slip_m7.2_100km_USC_5s.png) | ![plot](resources/event_term_scatter_mean_slip_m7.2_100km_USC_7.5s.png) | ![plot](resources/event_term_scatter_mean_slip_m7.2_100km_USC_10s.png) |
+### Slip Std Dev Event Term Scatters
+*[(top)](#table-of-contents)*
+
+|  | 3 s | 5 s | 7.5 s | 10 s |
+|-----|-----|-----|-----|-----|
+| **20 km** | ![plot](resources/event_term_scatter_slip_std_dev_m7.2_20km_USC_3s.png) | ![plot](resources/event_term_scatter_slip_std_dev_m7.2_20km_USC_5s.png) | ![plot](resources/event_term_scatter_slip_std_dev_m7.2_20km_USC_7.5s.png) | ![plot](resources/event_term_scatter_slip_std_dev_m7.2_20km_USC_10s.png) |
+| **50 km** | ![plot](resources/event_term_scatter_slip_std_dev_m7.2_50km_USC_3s.png) | ![plot](resources/event_term_scatter_slip_std_dev_m7.2_50km_USC_5s.png) | ![plot](resources/event_term_scatter_slip_std_dev_m7.2_50km_USC_7.5s.png) | ![plot](resources/event_term_scatter_slip_std_dev_m7.2_50km_USC_10s.png) |
+| **100 km** | ![plot](resources/event_term_scatter_slip_std_dev_m7.2_100km_USC_3s.png) | ![plot](resources/event_term_scatter_slip_std_dev_m7.2_100km_USC_5s.png) | ![plot](resources/event_term_scatter_slip_std_dev_m7.2_100km_USC_7.5s.png) | ![plot](resources/event_term_scatter_slip_std_dev_m7.2_100km_USC_10s.png) |
 ### Mid-Seismogenic Mean Slip Event Term Scatters
 *[(top)](#table-of-contents)*
 
-| Distance | 3 s | 5 s | 7.5 s | 10 s |
+|  | 3 s | 5 s | 7.5 s | 10 s |
 |-----|-----|-----|-----|-----|
 | **20 km** | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.2_20km_USC_3s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.2_20km_USC_5s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.2_20km_USC_7.5s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.2_20km_USC_10s.png) |
 | **50 km** | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.2_50km_USC_3s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.2_50km_USC_5s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.2_50km_USC_7.5s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.2_50km_USC_10s.png) |
 | **100 km** | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.2_100km_USC_3s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.2_100km_USC_5s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.2_100km_USC_7.5s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.2_100km_USC_10s.png) |
+## Directivity Comparisons
+*[(top)](#table-of-contents)*
+
+|  | 3 s | 5 s | 7.5 s | 10 s |
+|-----|-----|-----|-----|-----|
+| **20 km** | ![plot](resources/directivity_20km_3s.png) | ![plot](resources/directivity_20km_5s.png) | ![plot](resources/directivity_20km_7.5s.png) | ![plot](resources/directivity_20km_10s.png) |
+| **50 km** | ![plot](resources/directivity_50km_3s.png) | ![plot](resources/directivity_50km_5s.png) | ![plot](resources/directivity_50km_7.5s.png) | ![plot](resources/directivity_50km_10s.png) |
+| **100 km** | *N/A* | *N/A* | *N/A* | *N/A* |
 ## Azumth Dependence
 *[(top)](#table-of-contents)*
 
