@@ -27,10 +27,15 @@ img {
 <h2 id="table-of-contents">Table Of Contents</h2>
 <ul>
 <li><a href="#rupture-rotation-parameters">Rupture Rotation Parameters</a></li>
-<li><a href="#m66-reverse-rsqsim-rupture-match-criteria">M6.6 Reverse RSQSim Rupture Match Criteria</a></li>
+<li><a href="#m66-reverse-rsqsim-rupture-match-criteria">M6.6 Reverse RSQSim Rupture Match Criteria</a>
+<ul>
+<li><a href="#fault-section-counts">Fault Section Counts</a></li>
+</ul>
+</li>
 <li><a href="#sites">Sites</a></li>
 <li><a href="#result-summary-table">Result Summary Table</a>
 <ul>
+<li><a href="#gmpe-table">GMPE Table</a></li>
 <li><a href="#dist-dependent-plot-table">Dist-Dependent Plot Table</a></li>
 </ul>
 </li>
@@ -40,6 +45,7 @@ img {
 <li><a href="#200-km-m66-source-strike-results">20.0 km M6.6 Source-strike Results</a></li>
 <li><a href="#500-km-m66-source-strike-results">50.0 km M6.6 Source-strike Results</a></li>
 <li><a href="#1000-km-m66-source-strike-results">100.0 km M6.6 Source-strike Results</a></li>
+<li><a href="#all-distances-m66-source-strike-results">All Distances M6.6 Source-strike Results</a></li>
 </ul>
 </li>
 <li><a href="#within-event-single-site-variability">Within-event, single-site Variability</a>
@@ -48,6 +54,7 @@ img {
 <li><a href="#200-km-m66-within-event-single-site-results">20.0 km M6.6 Within-event, single-site Results</a></li>
 <li><a href="#500-km-m66-within-event-single-site-results">50.0 km M6.6 Within-event, single-site Results</a></li>
 <li><a href="#1000-km-m66-within-event-single-site-results">100.0 km M6.6 Within-event, single-site Results</a></li>
+<li><a href="#all-distances-m66-within-event-single-site-results">All Distances M6.6 Within-event, single-site Results</a></li>
 </ul>
 </li>
 <li><a href="#between-events-variability">Between-events Variability</a>
@@ -56,8 +63,21 @@ img {
 <li><a href="#200-km-m66-between-events-results">20.0 km M6.6 Between-events Results</a></li>
 <li><a href="#500-km-m66-between-events-results">50.0 km M6.6 Between-events Results</a></li>
 <li><a href="#1000-km-m66-between-events-results">100.0 km M6.6 Between-events Results</a></li>
+<li><a href="#all-distances-m66-between-events-results">All Distances M6.6 Between-events Results</a></li>
 </ul>
 </li>
+<li><a href="#event-term-scatters">Event Term Scatters</a>
+<ul>
+<li><a href="#propagation-velocity-event-term-scatters">Propagation Velocity Event Term Scatters</a></li>
+<li><a href="#mag-event-term-scatters">Mag Event Term Scatters</a></li>
+<li><a href="#log10area-event-term-scatters">Log10(Area) Event Term Scatters</a></li>
+<li><a href="#max-slip-event-term-scatters">Max Slip Event Term Scatters</a></li>
+<li><a href="#mean-slip-event-term-scatters">Mean Slip Event Term Scatters</a></li>
+<li><a href="#slip-std-dev-event-term-scatters">Slip Std Dev Event Term Scatters</a></li>
+<li><a href="#mid-seismogenic-mean-slip-event-term-scatters">Mid-Seismogenic Mean Slip Event Term Scatters</a></li>
+</ul>
+</li>
+<li><a href="#directivity-comparisons">Directivity Comparisons</a></li>
 <li><a href="#azumth-dependence">Azumth Dependence</a>
 <ul>
 <li><a href="#rupture-strike-dependence">Rupture Strike Dependence</a></li>
@@ -94,6 +114,31 @@ img {
 <li>Rake=[80,100]</li>
 <li>Dip=[35.0,55.0]</li>
 </ul>
+<h3 id="fault-section-counts">Fault Section Counts</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>This tables gives a list of all fault sections which participate in the ruptures matching the above criteria. Many ruptures include multiple sections, so the sum of counts may be larger than the number of events.</p>
+<table>
+<thead>
+<tr><th>Section Name</th><th>Participation Count</th></tr>
+</thead>
+<tbody>
+<tr><td>McKinleyville (alt1)</td><td>14</td></tr>
+<tr><td>Cucamonga</td><td>11</td></tr>
+<tr><td>Fickle Hill (alt1)</td><td>6</td></tr>
+<tr><td>Table Bluff</td><td>5</td></tr>
+<tr><td>San Luis Range 2011 CFM</td><td>3</td></tr>
+<tr><td>Mount Diablo Thrust South</td><td>3</td></tr>
+<tr><td>Carlsbad</td><td>2</td></tr>
+<tr><td>Mad River (alt1)</td><td>2</td></tr>
+<tr><td>Big Lagoon - Bald Mtn 2011 CFM</td><td>1</td></tr>
+<tr><td>Sierra Madre</td><td>1</td></tr>
+<tr><td>San Luis Range - Oceano 2011 CFM</td><td>1</td></tr>
+<tr><td>Mount Diablo Thrust North CFM</td><td>1</td></tr>
+<tr><td>Los Osos 2011</td><td>1</td></tr>
+<tr><td>TOTAL # PARENTS</td><td>51</td></tr>
+</tbody>
+</table>
+<p>Actual magnitude range: [6.552737,6.6489244], average: 6.5978293, stdDev: 0.026210476</p>
 <h2 id="sites">Sites</h2>
 <table>
 <thead>
@@ -106,36 +151,57 @@ img {
 <h2 id="result-summary-table">Result Summary Table</h2>
 <table>
 <thead>
-<tr><th>Type</th><th>Notation</th><th>Distance</th><th>3s Std. Dev.</th><th>5s Std. Dev.</th><th>7.5s Std. Dev.</th><th>10s Std. Dev.</th></tr>
+<tr><th>Type</th><th>Notation</th><th>Distance</th><th>T-independent Std. Dev.</th><th>3s Std. Dev.</th><th>5s Std. Dev.</th><th>7.5s Std. Dev.</th><th>10s Std. Dev.</th></tr>
 </thead>
 <tbody>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>20 km</td><td>0.37</td><td>0.44</td><td>0.44</td><td>0.39</td></tr>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>50 km</td><td>0.42</td><td>0.51</td><td>0.46</td><td>0.42</td></tr>
-<tr><td>Source-strike</td><td>φ<sub>s</sub></td><td>100 km</td><td>0.38</td><td>0.48</td><td>0.5</td><td>0.46</td></tr>
-<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>20 km</td><td>0.37</td><td>0.44</td><td>0.44</td><td>0.39</td></tr>
-<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>50 km</td><td>0.42</td><td>0.51</td><td>0.46</td><td>0.42</td></tr>
-<tr><td>Within-event, single-site</td><td>φ<sub>SS</sub></td><td>100 km</td><td>0.38</td><td>0.48</td><td>0.5</td><td>0.46</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>20 km</td><td>0.18</td><td>0.29</td><td>0.25</td><td>0.24</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>50 km</td><td>0.24</td><td>0.34</td><td>0.26</td><td>0.23</td></tr>
-<tr><td>Between-events</td><td>τ</td><td>100 km</td><td>0.18</td><td>0.27</td><td>0.26</td><td>0.26</td></tr>
+<tr><td>Source-strike</td><td>&phi;<sub>s</sub></td><td>20 km</td><td>0.41</td><td>0.37</td><td>0.44</td><td>0.44</td><td>0.39</td></tr>
+<tr><td>Source-strike</td><td>&phi;<sub>s</sub></td><td>50 km</td><td>0.43</td><td>0.42</td><td>0.51</td><td>0.46</td><td>0.42</td></tr>
+<tr><td>Source-strike</td><td>&phi;<sub>s</sub></td><td>100 km</td><td>0.43</td><td>0.38</td><td>0.48</td><td>0.5</td><td>0.46</td></tr>
+<tr><td>Source-strike</td><td>&phi;<sub>s</sub></td><td>(all)</td><td>0.42</td><td>0.39</td><td>0.48</td><td>0.47</td><td>0.43</td></tr>
+<tr><td>Within-event, single-site</td><td>&phi;<sub>SS</sub></td><td>20 km</td><td>0.41</td><td>0.37</td><td>0.44</td><td>0.44</td><td>0.39</td></tr>
+<tr><td>Within-event, single-site</td><td>&phi;<sub>SS</sub></td><td>50 km</td><td>0.43</td><td>0.42</td><td>0.51</td><td>0.46</td><td>0.42</td></tr>
+<tr><td>Within-event, single-site</td><td>&phi;<sub>SS</sub></td><td>100 km</td><td>0.43</td><td>0.38</td><td>0.48</td><td>0.5</td><td>0.46</td></tr>
+<tr><td>Within-event, single-site</td><td>&phi;<sub>SS</sub></td><td>(all)</td><td>0.42</td><td>0.39</td><td>0.48</td><td>0.47</td><td>0.43</td></tr>
+<tr><td>Between-events</td><td>&tau;</td><td>20 km</td><td>0.21</td><td>0.18</td><td>0.29</td><td>0.25</td><td>0.24</td></tr>
+<tr><td>Between-events</td><td>&tau;</td><td>50 km</td><td>0.24</td><td>0.24</td><td>0.34</td><td>0.26</td><td>0.23</td></tr>
+<tr><td>Between-events</td><td>&tau;</td><td>100 km</td><td>0.22</td><td>0.18</td><td>0.27</td><td>0.26</td><td>0.26</td></tr>
+<tr><td>Between-events</td><td>&tau;</td><td>(all)</td><td>0.22</td><td>0.2</td><td>0.3</td><td>0.25</td><td>0.24</td></tr>
+</tbody>
+</table>
+<h3 id="gmpe-table">GMPE Table</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>Type</th><th>Notation</th><th>Distance</th><th>ASK2014 3s</th><th>ASK2014 5s</th><th>ASK2014 7.5s</th><th>ASK2014 10s</th><th>BSSA2014 3s</th><th>BSSA2014 5s</th><th>BSSA2014 7.5s</th><th>BSSA2014 10s</th><th>CB2014 3s</th><th>CB2014 5s</th><th>CB2014 7.5s</th><th>CB2014 10s</th><th>CY2014 3s</th><th>CY2014 5s</th><th>CY2014 7.5s</th><th>CY2014 10s</th></tr>
+</thead>
+<tbody>
+<tr><td>Source-strike</td><td>&phi;<sub>SS</sub></td><td>20 km</td><td>0.55</td><td>0.58</td><td>0.57</td><td>0.55</td><td>0.55</td><td>0.54</td><td>0.54</td><td>0.54</td><td>0.55</td><td>0.51</td><td>0.49</td><td>0.47</td><td>0.52</td><td>0.53</td><td>0.52</td><td>0.51</td></tr>
+<tr><td>Source-strike</td><td>&phi;<sub>SS</sub></td><td>50 km</td><td>0.55</td><td>0.58</td><td>0.57</td><td>0.55</td><td>0.55</td><td>0.54</td><td>0.54</td><td>0.54</td><td>0.55</td><td>0.51</td><td>0.49</td><td>0.47</td><td>0.53</td><td>0.53</td><td>0.52</td><td>0.51</td></tr>
+<tr><td>Source-strike</td><td>&phi;<sub>SS</sub></td><td>100 km</td><td>0.55</td><td>0.58</td><td>0.57</td><td>0.55</td><td>0.55</td><td>0.54</td><td>0.54</td><td>0.54</td><td>0.55</td><td>0.51</td><td>0.49</td><td>0.47</td><td>0.53</td><td>0.53</td><td>0.52</td><td>0.51</td></tr>
+<tr><td>Within-event, single-site</td><td>&phi;<sub>SS</sub></td><td>20 km</td><td>0.55</td><td>0.58</td><td>0.57</td><td>0.55</td><td>0.55</td><td>0.54</td><td>0.54</td><td>0.54</td><td>0.55</td><td>0.51</td><td>0.49</td><td>0.47</td><td>0.52</td><td>0.53</td><td>0.52</td><td>0.51</td></tr>
+<tr><td>Within-event, single-site</td><td>&phi;<sub>SS</sub></td><td>50 km</td><td>0.55</td><td>0.58</td><td>0.57</td><td>0.55</td><td>0.55</td><td>0.54</td><td>0.54</td><td>0.54</td><td>0.55</td><td>0.51</td><td>0.49</td><td>0.47</td><td>0.53</td><td>0.53</td><td>0.52</td><td>0.51</td></tr>
+<tr><td>Within-event, single-site</td><td>&phi;<sub>SS</sub></td><td>100 km</td><td>0.55</td><td>0.58</td><td>0.57</td><td>0.55</td><td>0.55</td><td>0.54</td><td>0.54</td><td>0.54</td><td>0.55</td><td>0.51</td><td>0.49</td><td>0.47</td><td>0.53</td><td>0.53</td><td>0.52</td><td>0.51</td></tr>
+<tr><td>Between-events</td><td>&tau;</td><td>20 km</td><td>0.38</td><td>0.38</td><td>0.38</td><td>0.38</td><td>0.3</td><td>0.33</td><td>0.34</td><td>0.35</td><td>0.35</td><td>0.4</td><td>0.42</td><td>0.39</td><td>0.33</td><td>0.33</td><td>0.34</td><td>0.34</td></tr>
+<tr><td>Between-events</td><td>&tau;</td><td>50 km</td><td>0.38</td><td>0.38</td><td>0.38</td><td>0.38</td><td>0.3</td><td>0.33</td><td>0.34</td><td>0.35</td><td>0.35</td><td>0.4</td><td>0.42</td><td>0.39</td><td>0.33</td><td>0.33</td><td>0.34</td><td>0.34</td></tr>
+<tr><td>Between-events</td><td>&tau;</td><td>100 km</td><td>0.38</td><td>0.38</td><td>0.38</td><td>0.38</td><td>0.3</td><td>0.33</td><td>0.34</td><td>0.35</td><td>0.35</td><td>0.4</td><td>0.42</td><td>0.39</td><td>0.33</td><td>0.34</td><td>0.34</td><td>0.34</td></tr>
 </tbody>
 </table>
 <h3 id="dist-dependent-plot-table">Dist-Dependent Plot Table</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <table>
 <thead>
-<tr><th><strong>φ<sub>s</sub></strong></th><th><img src="resources/source_strike_m6.6_dist_periods.png" alt="φs" /></th></tr>
+<tr><th><strong>&phi;<sub>s</sub></strong></th><th><img src="resources/source_strike_m6.6_dist_periods.png" alt="&phi;s" /></th></tr>
 </thead>
 <tbody>
-<tr><td><strong>φ<sub>SS</sub></strong></td><td><img src="resources/within_event_ss_m6.6_dist_periods.png" alt="φSS" /></td></tr>
-<tr><td><strong>τ</strong></td><td><img src="resources/between_events_m6.6_dist_periods.png" alt="τ" /></td></tr>
+<tr><td><strong>&phi;<sub>SS</sub></strong></td><td><img src="resources/within_event_ss_m6.6_dist_periods.png" alt="&phi;SS" /></td></tr>
+<tr><td><strong>&tau;</strong></td><td><img src="resources/between_events_m6.6_dist_periods.png" alt="&tau;" /></td></tr>
 </tbody>
 </table>
 <h2 id="source-strike-variability">Source-strike Variability</h2>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <h3 id="source-strike-variability-methodology">Source-strike Variability Methodology</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p>Source-strike variability, denoted φ<sub>s</sub> in Aki &amp; Richards (1980), is computed separately for each:</p>
+<p>Source-strike variability, denoted &phi;<sub>s</sub> in Aki &amp; Richards (1980), is computed separately for each:</p>
 <ul>
 <li>Site <em>[1 unique]</em></li>
 <li>Distance <em>[3 unique]</em></li>
@@ -145,11 +211,12 @@ img {
 <li>Rupture <em>[49 unique]</em></li>
 <li>Path <em>[1 unique]</em></li>
 </ul>
-<p>we compute residuals, δW<sub>es</sub>, of the natural-log ground motions (relative to the median), computed across all 18 combinations of:</p>
+<p>we compute residuals, &delta;W<sub>es</sub>, of the natural-log ground motions (relative to the median), computed across all 18 combinations of:</p>
 <ul>
 <li>Rupture Strike <em>[18 unique]</em></li>
 </ul>
-<p>We take φ<sub>s</sub> to be the standard deviation of all residuals, δW<sub>es</sub>, across each combination of Rupture, Path.</p>
+<p>We take &phi;<sub>s</sub> to be the standard deviation of all residuals, &delta;W<sub>es</sub>, across each combination of Rupture, Path.</p>
+<p>We also compute distance-independent &phi;<sub>s</sub>, which is computed as the standard deviation of all residuals, &delta;W<sub>es</sub>, across all distances. Each residual is still computed relative to the log-median ground motion at it's distance.</p>
 <p>Here is an exmample with 5 rotations, which would be repeated for each combination of [Rupture, Path]. The site is shown with a blue square, and initially oriented rupture in bold with its hypocenter as a red star and centroid a green circle. Rotations of that rupture are in gray:</p>
 <p><img src="resources/example_source_strike.png" alt="Example" /></p>
 <h3 id="200-km-m66-source-strike-results">20.0 km M6.6 Source-strike Results</h3>
@@ -157,12 +224,13 @@ img {
 <p><img src="resources/source_strike_m6.6_20km_std_dev.png" alt="Source-strike Variability" /></p>
 <table>
 <thead>
-<tr><th>3s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
+<tr><th>3s &phi;<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s &phi;<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s &phi;<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s &phi;<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
 <tr><td></td><td>0.37</td><td>0.37</td><td>0.36</td><td>[0.24 0.51]</td><td></td><td>0.44</td><td>0.43</td><td>0.43</td><td>[0.22 0.67]</td><td></td><td>0.44</td><td>0.43</td><td>0.41</td><td>[0.2 0.78]</td><td></td><td>0.39</td><td>0.38</td><td>0.37</td><td>[0.2 0.68]</td></tr>
 </tbody>
 </table>
+<p>Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture, from which we compute a total &phi;<sub>s</sub></p>
 <table>
 <thead>
 <tr><th>3s</th><th>5s</th></tr>
@@ -173,13 +241,33 @@ img {
 <tr><td><img src="resources/source_strike_m6.6_20km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/source_strike_m6.6_20km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
+<h4 id="200-km-m66-source-strike-downsampled-results">20.0 km M6.6 Source-strike Downsampled Results</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>We compute uncertainties on &phi;<sub>s</sub> through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [10.0 30.0] km. We throw out any events with only 1 recording, leaving us with 4 events and a total of 52 recordings. We then downsample our simulated data 100 times, and compute &phi;<sub>s</sub> from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below. Weighted standard deviations are calculated, weighted by the square-root of the number of recordings in each event.</p>
+<p><em>WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 53 fewer data points.</em></p>
 <table>
 <thead>
-<tr><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
+<tr><th>Period (s)</th><th>Full &phi;<sub>s</sub></th><th>Downsampled median &phi;<sub>s</sub></th><th>Downsampled &phi;<sub>s</sub> std. dev.</th><th>Downsampled &phi;<sub>s</sub> 68% conf range</th><th>Downsampled &phi;<sub>s</sub> 95% conf range</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/source_strike_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/source_strike_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
+<tr><td>T-independent</td><td>0.41</td><td>0.4</td><td>0.03</td><td>[0.36 0.43]</td><td>[0.35 0.46]</td></tr>
+<tr><td>1</td><td>0.41</td><td>0.41</td><td>0.06</td><td>[0.33 0.45]</td><td>[0.29 0.51]</td></tr>
+<tr><td>2</td><td>0.38</td><td>0.37</td><td>0.05</td><td>[0.34 0.43]</td><td>[0.29 0.48]</td></tr>
+<tr><td>3</td><td>0.37</td><td>0.37</td><td>0.04</td><td>[0.33 0.41]</td><td>[0.3 0.45]</td></tr>
+<tr><td>4</td><td>0.39</td><td>0.38</td><td>0.06</td><td>[0.33 0.44]</td><td>[0.27 0.51]</td></tr>
+<tr><td>5</td><td>0.44</td><td>0.43</td><td>0.06</td><td>[0.36 0.5]</td><td>[0.32 0.55]</td></tr>
+<tr><td>7.5</td><td>0.44</td><td>0.43</td><td>0.07</td><td>[0.36 0.5]</td><td>[0.33 0.58]</td></tr>
+<tr><td>10</td><td>0.39</td><td>0.38</td><td>0.06</td><td>[0.31 0.44]</td><td>[0.28 0.53]</td></tr>
+</tbody>
+</table>
+<p>These plots show the distribution of period-independent downsampled &phi;<sub>s</sub> for each site.</p>
+<table>
+<thead>
+<tr><th>Period</th><th><strong>USC</strong></th></tr>
+</thead>
+<tbody>
+<tr><td>Period-Indep</td><td><img src="resources/source_strike_m6.6_20km_USC_downsampled_hist_period_indep.png" alt="Dowmsampled Histogram" /></td></tr>
+<tr><td>3s</td><td><img src="resources/source_strike_m6.6_20km_USC_downsampled_hist_3s.png" alt="Dowmsampled Histogram" /></td></tr>
 </tbody>
 </table>
 <h3 id="500-km-m66-source-strike-results">50.0 km M6.6 Source-strike Results</h3>
@@ -187,12 +275,13 @@ img {
 <p><img src="resources/source_strike_m6.6_50km_std_dev.png" alt="Source-strike Variability" /></p>
 <table>
 <thead>
-<tr><th>3s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
+<tr><th>3s &phi;<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s &phi;<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s &phi;<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s &phi;<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
 <tr><td></td><td>0.42</td><td>0.42</td><td>0.42</td><td>[0.23 0.72]</td><td></td><td>0.51</td><td>0.49</td><td>0.46</td><td>[0.21 0.85]</td><td></td><td>0.46</td><td>0.45</td><td>0.43</td><td>[0.27 0.84]</td><td></td><td>0.42</td><td>0.41</td><td>0.38</td><td>[0.26 0.78]</td></tr>
 </tbody>
 </table>
+<p>Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture, from which we compute a total &phi;<sub>s</sub></p>
 <table>
 <thead>
 <tr><th>3s</th><th>5s</th></tr>
@@ -203,13 +292,33 @@ img {
 <tr><td><img src="resources/source_strike_m6.6_50km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/source_strike_m6.6_50km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
+<h4 id="500-km-m66-source-strike-downsampled-results">50.0 km M6.6 Source-strike Downsampled Results</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>We compute uncertainties on &phi;<sub>s</sub> through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [40.0 60.0] km. We throw out any events with only 1 recording, leaving us with 4 events and a total of 56 recordings. We then downsample our simulated data 100 times, and compute &phi;<sub>s</sub> from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below. Weighted standard deviations are calculated, weighted by the square-root of the number of recordings in each event.</p>
+<p><em>WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 25 fewer data points.</em></p>
 <table>
 <thead>
-<tr><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
+<tr><th>Period (s)</th><th>Full &phi;<sub>s</sub></th><th>Downsampled median &phi;<sub>s</sub></th><th>Downsampled &phi;<sub>s</sub> std. dev.</th><th>Downsampled &phi;<sub>s</sub> 68% conf range</th><th>Downsampled &phi;<sub>s</sub> 95% conf range</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/source_strike_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/source_strike_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
+<tr><td>T-independent</td><td>0.43</td><td>0.43</td><td>0.04</td><td>[0.38 0.46]</td><td>[0.36 0.5]</td></tr>
+<tr><td>1</td><td>0.36</td><td>0.36</td><td>0.03</td><td>[0.32 0.39]</td><td>[0.29 0.42]</td></tr>
+<tr><td>2</td><td>0.37</td><td>0.36</td><td>0.04</td><td>[0.32 0.41]</td><td>[0.27 0.44]</td></tr>
+<tr><td>3</td><td>0.42</td><td>0.43</td><td>0.05</td><td>[0.38 0.47]</td><td>[0.31 0.53]</td></tr>
+<tr><td>4</td><td>0.43</td><td>0.43</td><td>0.05</td><td>[0.38 0.48]</td><td>[0.31 0.55]</td></tr>
+<tr><td>5</td><td>0.51</td><td>0.5</td><td>0.09</td><td>[0.41 0.59]</td><td>[0.32 0.65]</td></tr>
+<tr><td>7.5</td><td>0.46</td><td>0.45</td><td>0.07</td><td>[0.38 0.55]</td><td>[0.34 0.62]</td></tr>
+<tr><td>10</td><td>0.42</td><td>0.41</td><td>0.08</td><td>[0.34 0.51]</td><td>[0.3 0.6]</td></tr>
+</tbody>
+</table>
+<p>These plots show the distribution of period-independent downsampled &phi;<sub>s</sub> for each site.</p>
+<table>
+<thead>
+<tr><th>Period</th><th><strong>USC</strong></th></tr>
+</thead>
+<tbody>
+<tr><td>Period-Indep</td><td><img src="resources/source_strike_m6.6_50km_USC_downsampled_hist_period_indep.png" alt="Dowmsampled Histogram" /></td></tr>
+<tr><td>3s</td><td><img src="resources/source_strike_m6.6_50km_USC_downsampled_hist_3s.png" alt="Dowmsampled Histogram" /></td></tr>
 </tbody>
 </table>
 <h3 id="1000-km-m66-source-strike-results">100.0 km M6.6 Source-strike Results</h3>
@@ -217,12 +326,13 @@ img {
 <p><img src="resources/source_strike_m6.6_100km_std_dev.png" alt="Source-strike Variability" /></p>
 <table>
 <thead>
-<tr><th>3s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
+<tr><th>3s &phi;<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s &phi;<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s &phi;<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s &phi;<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
 <tr><td></td><td>0.38</td><td>0.38</td><td>0.36</td><td>[0.23 0.58]</td><td></td><td>0.48</td><td>0.47</td><td>0.46</td><td>[0.27 0.76]</td><td></td><td>0.5</td><td>0.48</td><td>0.45</td><td>[0.27 0.88]</td><td></td><td>0.46</td><td>0.45</td><td>0.46</td><td>[0.25 0.74]</td></tr>
 </tbody>
 </table>
+<p>Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture, from which we compute a total &phi;<sub>s</sub></p>
 <table>
 <thead>
 <tr><th>3s</th><th>5s</th></tr>
@@ -233,20 +343,91 @@ img {
 <tr><td><img src="resources/source_strike_m6.6_100km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/source_strike_m6.6_100km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
+<h4 id="1000-km-m66-source-strike-downsampled-results">100.0 km M6.6 Source-strike Downsampled Results</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>We compute uncertainties on &phi;<sub>s</sub> through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [80.0 120.0] km. We throw out any events with only 1 recording, leaving us with 3 events and a total of 47 recordings. We then downsample our simulated data 100 times, and compute &phi;<sub>s</sub> from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below. Weighted standard deviations are calculated, weighted by the square-root of the number of recordings in each event.</p>
+<p><em>WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 98 fewer data points.</em></p>
 <table>
 <thead>
-<tr><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
+<tr><th>Period (s)</th><th>Full &phi;<sub>s</sub></th><th>Downsampled median &phi;<sub>s</sub></th><th>Downsampled &phi;<sub>s</sub> std. dev.</th><th>Downsampled &phi;<sub>s</sub> 68% conf range</th><th>Downsampled &phi;<sub>s</sub> 95% conf range</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/source_strike_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/source_strike_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/source_strike_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
+<tr><td>T-independent</td><td>0.43</td><td>0.43</td><td>0.04</td><td>[0.38 0.47]</td><td>[0.35 0.51]</td></tr>
+<tr><td>1</td><td>0.36</td><td>0.36</td><td>0.04</td><td>[0.32 0.39]</td><td>[0.28 0.43]</td></tr>
+<tr><td>2</td><td>0.34</td><td>0.34</td><td>0.04</td><td>[0.3 0.38]</td><td>[0.27 0.43]</td></tr>
+<tr><td>3</td><td>0.38</td><td>0.37</td><td>0.05</td><td>[0.32 0.42]</td><td>[0.28 0.47]</td></tr>
+<tr><td>4</td><td>0.46</td><td>0.44</td><td>0.07</td><td>[0.38 0.53]</td><td>[0.33 0.57]</td></tr>
+<tr><td>5</td><td>0.48</td><td>0.48</td><td>0.08</td><td>[0.39 0.57]</td><td>[0.32 0.61]</td></tr>
+<tr><td>7.5</td><td>0.5</td><td>0.48</td><td>0.08</td><td>[0.4 0.59]</td><td>[0.34 0.66]</td></tr>
+<tr><td>10</td><td>0.46</td><td>0.46</td><td>0.07</td><td>[0.39 0.53]</td><td>[0.34 0.58]</td></tr>
+</tbody>
+</table>
+<p>These plots show the distribution of period-independent downsampled &phi;<sub>s</sub> for each site.</p>
+<table>
+<thead>
+<tr><th>Period</th><th><strong>USC</strong></th></tr>
+</thead>
+<tbody>
+<tr><td>Period-Indep</td><td><img src="resources/source_strike_m6.6_100km_USC_downsampled_hist_period_indep.png" alt="Dowmsampled Histogram" /></td></tr>
+<tr><td>3s</td><td><img src="resources/source_strike_m6.6_100km_USC_downsampled_hist_3s.png" alt="Dowmsampled Histogram" /></td></tr>
+</tbody>
+</table>
+<h3 id="all-distances-m66-source-strike-results">All Distances M6.6 Source-strike Results</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/source_strike_m6.6_std_dev.png" alt="Source-strike Variability" /></p>
+<table>
+<thead>
+<tr><th>3s &phi;<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s &phi;<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s &phi;<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s &phi;<sub>s</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
+</thead>
+<tbody>
+<tr><td></td><td>0.39</td><td>0.39</td><td>0.38</td><td>[0.23 0.72]</td><td></td><td>0.48</td><td>0.46</td><td>0.45</td><td>[0.21 0.85]</td><td></td><td>0.47</td><td>0.45</td><td>0.43</td><td>[0.2 0.88]</td><td></td><td>0.43</td><td>0.41</td><td>0.4</td><td>[0.2 0.78]</td></tr>
+</tbody>
+</table>
+<p>Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture, from which we compute a total &phi;<sub>s</sub></p>
+<table>
+<thead>
+<tr><th>3s</th><th>5s</th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/source_strike_m6.6_3s_hist.png" alt="3s" /></td><td><img src="resources/source_strike_m6.6_5s_hist.png" alt="5s" /></td></tr>
+<tr><td>7.5s</td><td>10s</td></tr>
+<tr><td><img src="resources/source_strike_m6.6_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/source_strike_m6.6_10s_hist.png" alt="10s" /></td></tr>
+</tbody>
+</table>
+<h4 id="all-distances-m66-source-strike-downsampled-results">All Distances M6.6 Source-strike Downsampled Results</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>We compute uncertainties on &phi;<sub>s</sub> through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and all distances. We throw out any events with only 1 recording, leaving us with 7 events and a total of 288 recordings. We then downsample our simulated data 100 times, and compute &phi;<sub>s</sub> from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below. Weighted standard deviations are calculated, weighted by the square-root of the number of recordings in each event.</p>
+<p><em>WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 1059 fewer data points.</em></p>
+<table>
+<thead>
+<tr><th>Period (s)</th><th>Full &phi;<sub>s</sub></th><th>Downsampled median &phi;<sub>s</sub></th><th>Downsampled &phi;<sub>s</sub> std. dev.</th><th>Downsampled &phi;<sub>s</sub> 68% conf range</th><th>Downsampled &phi;<sub>s</sub> 95% conf range</th></tr>
+</thead>
+<tbody>
+<tr><td>T-independent</td><td>0.42</td><td>0.42</td><td>0.02</td><td>[0.4 0.43]</td><td>[0.38 0.46]</td></tr>
+<tr><td>1</td><td>0.38</td><td>0.38</td><td>0.02</td><td>[0.35 0.4]</td><td>[0.33 0.42]</td></tr>
+<tr><td>2</td><td>0.36</td><td>0.36</td><td>0.02</td><td>[0.34 0.38]</td><td>[0.32 0.4]</td></tr>
+<tr><td>3</td><td>0.39</td><td>0.39</td><td>0.02</td><td>[0.37 0.42]</td><td>[0.34 0.44]</td></tr>
+<tr><td>4</td><td>0.43</td><td>0.42</td><td>0.02</td><td>[0.39 0.45]</td><td>[0.37 0.47]</td></tr>
+<tr><td>5</td><td>0.48</td><td>0.47</td><td>0.03</td><td>[0.44 0.51]</td><td>[0.41 0.54]</td></tr>
+<tr><td>7.5</td><td>0.47</td><td>0.46</td><td>0.04</td><td>[0.43 0.5]</td><td>[0.39 0.56]</td></tr>
+<tr><td>10</td><td>0.43</td><td>0.42</td><td>0.03</td><td>[0.39 0.45]</td><td>[0.36 0.5]</td></tr>
+</tbody>
+</table>
+<p>These plots show the distribution of period-independent downsampled &phi;<sub>s</sub> for each site.</p>
+<table>
+<thead>
+<tr><th>Period</th><th><strong>USC</strong></th></tr>
+</thead>
+<tbody>
+<tr><td>Period-Indep</td><td><img src="resources/source_strike_m6.6_USC_downsampled_hist_period_indep.png" alt="Dowmsampled Histogram" /></td></tr>
+<tr><td>3s</td><td><img src="resources/source_strike_m6.6_USC_downsampled_hist_3s.png" alt="Dowmsampled Histogram" /></td></tr>
 </tbody>
 </table>
 <h2 id="within-event-single-site-variability">Within-event, single-site Variability</h2>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <h3 id="within-event-single-site-variability-methodology">Within-event, single-site Variability Methodology</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p>Within-event, single-site variability, denoted φ<sub>SS</sub> in Al Atik (2010), is computed separately for each:</p>
+<p>Within-event, single-site variability, denoted &phi;<sub>SS</sub> in Al Atik (2010), is computed separately for each:</p>
 <ul>
 <li>Site <em>[1 unique]</em></li>
 <li>Distance <em>[3 unique]</em></li>
@@ -255,12 +436,13 @@ img {
 <ul>
 <li>Rupture <em>[49 unique]</em></li>
 </ul>
-<p>we compute residuals, δW<sub>es</sub>, of the natural-log ground motions (relative to the median), computed across all 18 combinations of:</p>
+<p>we compute residuals, &delta;W<sub>es</sub>, of the natural-log ground motions (relative to the median), computed across all 18 combinations of:</p>
 <ul>
 <li>Rupture Strike <em>[18 unique]</em></li>
 <li>Path <em>[1 unique]</em></li>
 </ul>
-<p>We take φ<sub>SS</sub> to be the standard deviation of all residuals, δW<sub>es</sub>, across each combination of Rupture.</p>
+<p>We take &phi;<sub>SS</sub> to be the standard deviation of all residuals, &delta;W<sub>es</sub>, across each combination of Rupture.</p>
+<p>We also compute distance-independent &phi;<sub>SS</sub>, which is computed as the standard deviation of all residuals, &delta;W<sub>es</sub>, across all distances. Each residual is still computed relative to the log-median ground motion at it's distance.</p>
 <p>Here is an exmample with 5 rotations, which would be repeated for each combination of [Rupture]. The site is shown with a blue square, and initially oriented rupture in bold with its hypocenter as a red star and centroid a green circle. Rotations of that rupture are in gray:</p>
 <p><img src="resources/example_within_event_ss.png" alt="Example" /></p>
 <h3 id="200-km-m66-within-event-single-site-results">20.0 km M6.6 Within-event, single-site Results</h3>
@@ -268,12 +450,13 @@ img {
 <p><img src="resources/within_event_ss_m6.6_20km_std_dev.png" alt="Within-event, single-site Variability" /></p>
 <table>
 <thead>
-<tr><th>3s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
+<tr><th>3s &phi;<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s &phi;<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s &phi;<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s &phi;<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
 <tr><td></td><td>0.37</td><td>0.37</td><td>0.36</td><td>[0.24 0.51]</td><td></td><td>0.44</td><td>0.43</td><td>0.43</td><td>[0.22 0.67]</td><td></td><td>0.44</td><td>0.43</td><td>0.41</td><td>[0.2 0.78]</td><td></td><td>0.39</td><td>0.38</td><td>0.37</td><td>[0.2 0.68]</td></tr>
 </tbody>
 </table>
+<p>Here are plots of the histogram of &phi;<sub>SS</sub> for each individual rupture, from which we compute a total &phi;<sub>SS</sub></p>
 <table>
 <thead>
 <tr><th>3s</th><th>5s</th></tr>
@@ -284,26 +467,59 @@ img {
 <tr><td><img src="resources/within_event_ss_m6.6_20km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_ss_m6.6_20km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
+<h4 id="200-km-m66-within-event-single-site-downsampled-results">20.0 km M6.6 Within-event, single-site Downsampled Results</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [10.0 30.0] km. We throw out any events with only 1 recording, leaving us with 4 events and a total of 52 recordings. We then downsample our simulated data 100 times, and compute &phi;<sub>SS</sub> from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below. Weighted standard deviations are calculated, weighted by the square-root of the number of recordings in each event.</p>
+<p><em>WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 53 fewer data points.</em></p>
 <table>
 <thead>
-<tr><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
+<tr><th>Period (s)</th><th>Full &phi;<sub>SS</sub></th><th>Downsampled median &phi;<sub>SS</sub></th><th>Downsampled &phi;<sub>SS</sub> std. dev.</th><th>Downsampled &phi;<sub>SS</sub> 68% conf range</th><th>Downsampled &phi;<sub>SS</sub> 95% conf range</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/within_event_ss_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/within_event_ss_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
+<tr><td>T-independent</td><td>0.41</td><td>0.4</td><td>0.03</td><td>[0.36 0.43]</td><td>[0.34 0.46]</td></tr>
+<tr><td>1</td><td>0.41</td><td>0.4</td><td>0.06</td><td>[0.33 0.47]</td><td>[0.29 0.52]</td></tr>
+<tr><td>2</td><td>0.38</td><td>0.38</td><td>0.05</td><td>[0.32 0.42]</td><td>[0.28 0.48]</td></tr>
+<tr><td>3</td><td>0.37</td><td>0.36</td><td>0.04</td><td>[0.33 0.4]</td><td>[0.29 0.45]</td></tr>
+<tr><td>4</td><td>0.39</td><td>0.37</td><td>0.05</td><td>[0.33 0.43]</td><td>[0.26 0.49]</td></tr>
+<tr><td>5</td><td>0.44</td><td>0.43</td><td>0.07</td><td>[0.37 0.5]</td><td>[0.3 0.59]</td></tr>
+<tr><td>7.5</td><td>0.44</td><td>0.43</td><td>0.07</td><td>[0.35 0.49]</td><td>[0.3 0.58]</td></tr>
+<tr><td>10</td><td>0.39</td><td>0.37</td><td>0.06</td><td>[0.32 0.44]</td><td>[0.26 0.52]</td></tr>
 </tbody>
 </table>
+<p>These plots show the distribution of period-independent downsampled &phi;<sub>SS</sub> for each site.</p>
+<table>
+<thead>
+<tr><th>Period</th><th><strong>USC</strong></th></tr>
+</thead>
+<tbody>
+<tr><td>Period-Indep</td><td><img src="resources/within_event_ss_m6.6_20km_USC_downsampled_hist_period_indep.png" alt="Dowmsampled Histogram" /></td></tr>
+<tr><td>3s</td><td><img src="resources/within_event_ss_m6.6_20km_USC_downsampled_hist_3s.png" alt="Dowmsampled Histogram" /></td></tr>
+</tbody>
+</table>
+<p>These plots show the dependence of &phi;<sub>SS</sub> to the number of events included and the number of recordings per event. The left plot holds the number of recordings per event fixed at the full set of simulated recordings (18), varying the number of events. The right plot holds the number of events fixed at the full set of simulated events (49), varying the number of recordings per event.</p>
+<table>
+<thead>
+<tr><th>Period</th><th>Event Count Dependence</th><th>Recordings/Event Dependence</th></tr>
+</thead>
+<tbody>
+<tr><td>Period Indep.</td><td><img src="resources/within_event_ss_event_count_dependence_20km_period_indep.png" alt="num events dependence" /></td><td><img src="resources/within_event_ss_event_recordings_dependence_20km_period_indep.png" alt="num recordings dependence" /></td></tr>
+<tr><td>1s</td><td><img src="resources/within_event_ss_event_count_dependence_20km_1s.png" alt="num events dependence" /></td><td><img src="resources/within_event_ss_event_recordings_dependence_20km_1.png" alt="num recordings dependence" /></td></tr>
+</tbody>
+</table>
+<p>This is a histogram of the number of recordings per event from ASK 2014 with M=[6.4,6.8]. The top plot shows the subset with distance in the range [10.0,30.0], and the bottom the whole distribution at all distances.</p>
+<p><img src="resources/within_event_ss_event_recordings_hist_20km.png" alt="Histogram" /></p>
 <h3 id="500-km-m66-within-event-single-site-results">50.0 km M6.6 Within-event, single-site Results</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <p><img src="resources/within_event_ss_m6.6_50km_std_dev.png" alt="Within-event, single-site Variability" /></p>
 <table>
 <thead>
-<tr><th>3s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
+<tr><th>3s &phi;<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s &phi;<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s &phi;<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s &phi;<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
 <tr><td></td><td>0.42</td><td>0.42</td><td>0.42</td><td>[0.23 0.72]</td><td></td><td>0.51</td><td>0.49</td><td>0.46</td><td>[0.21 0.85]</td><td></td><td>0.46</td><td>0.45</td><td>0.43</td><td>[0.27 0.84]</td><td></td><td>0.42</td><td>0.41</td><td>0.38</td><td>[0.26 0.78]</td></tr>
 </tbody>
 </table>
+<p>Here are plots of the histogram of &phi;<sub>SS</sub> for each individual rupture, from which we compute a total &phi;<sub>SS</sub></p>
 <table>
 <thead>
 <tr><th>3s</th><th>5s</th></tr>
@@ -314,26 +530,59 @@ img {
 <tr><td><img src="resources/within_event_ss_m6.6_50km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_ss_m6.6_50km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
+<h4 id="500-km-m66-within-event-single-site-downsampled-results">50.0 km M6.6 Within-event, single-site Downsampled Results</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [40.0 60.0] km. We throw out any events with only 1 recording, leaving us with 4 events and a total of 56 recordings. We then downsample our simulated data 100 times, and compute &phi;<sub>SS</sub> from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below. Weighted standard deviations are calculated, weighted by the square-root of the number of recordings in each event.</p>
+<p><em>WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 25 fewer data points.</em></p>
 <table>
 <thead>
-<tr><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
+<tr><th>Period (s)</th><th>Full &phi;<sub>SS</sub></th><th>Downsampled median &phi;<sub>SS</sub></th><th>Downsampled &phi;<sub>SS</sub> std. dev.</th><th>Downsampled &phi;<sub>SS</sub> 68% conf range</th><th>Downsampled &phi;<sub>SS</sub> 95% conf range</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/within_event_ss_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/within_event_ss_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
+<tr><td>T-independent</td><td>0.43</td><td>0.43</td><td>0.04</td><td>[0.38 0.47]</td><td>[0.35 0.51]</td></tr>
+<tr><td>1</td><td>0.36</td><td>0.35</td><td>0.03</td><td>[0.33 0.39]</td><td>[0.3 0.45]</td></tr>
+<tr><td>2</td><td>0.37</td><td>0.36</td><td>0.04</td><td>[0.32 0.4]</td><td>[0.26 0.45]</td></tr>
+<tr><td>3</td><td>0.42</td><td>0.43</td><td>0.06</td><td>[0.36 0.48]</td><td>[0.32 0.54]</td></tr>
+<tr><td>4</td><td>0.43</td><td>0.43</td><td>0.07</td><td>[0.35 0.51]</td><td>[0.32 0.57]</td></tr>
+<tr><td>5</td><td>0.51</td><td>0.52</td><td>0.1</td><td>[0.39 0.6]</td><td>[0.31 0.71]</td></tr>
+<tr><td>7.5</td><td>0.46</td><td>0.45</td><td>0.07</td><td>[0.38 0.53]</td><td>[0.31 0.61]</td></tr>
+<tr><td>10</td><td>0.42</td><td>0.42</td><td>0.06</td><td>[0.36 0.48]</td><td>[0.32 0.55]</td></tr>
 </tbody>
 </table>
+<p>These plots show the distribution of period-independent downsampled &phi;<sub>SS</sub> for each site.</p>
+<table>
+<thead>
+<tr><th>Period</th><th><strong>USC</strong></th></tr>
+</thead>
+<tbody>
+<tr><td>Period-Indep</td><td><img src="resources/within_event_ss_m6.6_50km_USC_downsampled_hist_period_indep.png" alt="Dowmsampled Histogram" /></td></tr>
+<tr><td>3s</td><td><img src="resources/within_event_ss_m6.6_50km_USC_downsampled_hist_3s.png" alt="Dowmsampled Histogram" /></td></tr>
+</tbody>
+</table>
+<p>These plots show the dependence of &phi;<sub>SS</sub> to the number of events included and the number of recordings per event. The left plot holds the number of recordings per event fixed at the full set of simulated recordings (18), varying the number of events. The right plot holds the number of events fixed at the full set of simulated events (49), varying the number of recordings per event.</p>
+<table>
+<thead>
+<tr><th>Period</th><th>Event Count Dependence</th><th>Recordings/Event Dependence</th></tr>
+</thead>
+<tbody>
+<tr><td>Period Indep.</td><td><img src="resources/within_event_ss_event_count_dependence_50km_period_indep.png" alt="num events dependence" /></td><td><img src="resources/within_event_ss_event_recordings_dependence_50km_period_indep.png" alt="num recordings dependence" /></td></tr>
+<tr><td>1s</td><td><img src="resources/within_event_ss_event_count_dependence_50km_1s.png" alt="num events dependence" /></td><td><img src="resources/within_event_ss_event_recordings_dependence_50km_1.png" alt="num recordings dependence" /></td></tr>
+</tbody>
+</table>
+<p>This is a histogram of the number of recordings per event from ASK 2014 with M=[6.4,6.8]. The top plot shows the subset with distance in the range [40.0,60.0], and the bottom the whole distribution at all distances.</p>
+<p><img src="resources/within_event_ss_event_recordings_hist_50km.png" alt="Histogram" /></p>
 <h3 id="1000-km-m66-within-event-single-site-results">100.0 km M6.6 Within-event, single-site Results</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <p><img src="resources/within_event_ss_m6.6_100km_std_dev.png" alt="Within-event, single-site Variability" /></p>
 <table>
 <thead>
-<tr><th>3s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s φ<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
+<tr><th>3s &phi;<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s &phi;<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s &phi;<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s &phi;<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
 </thead>
 <tbody>
 <tr><td></td><td>0.38</td><td>0.38</td><td>0.36</td><td>[0.23 0.58]</td><td></td><td>0.48</td><td>0.47</td><td>0.46</td><td>[0.27 0.76]</td><td></td><td>0.5</td><td>0.48</td><td>0.45</td><td>[0.27 0.88]</td><td></td><td>0.46</td><td>0.45</td><td>0.46</td><td>[0.25 0.74]</td></tr>
 </tbody>
 </table>
+<p>Here are plots of the histogram of &phi;<sub>SS</sub> for each individual rupture, from which we compute a total &phi;<sub>SS</sub></p>
 <table>
 <thead>
 <tr><th>3s</th><th>5s</th></tr>
@@ -344,34 +593,130 @@ img {
 <tr><td><img src="resources/within_event_ss_m6.6_100km_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_ss_m6.6_100km_10s_hist.png" alt="10s" /></td></tr>
 </tbody>
 </table>
+<h4 id="1000-km-m66-within-event-single-site-downsampled-results">100.0 km M6.6 Within-event, single-site Downsampled Results</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [80.0 120.0] km. We throw out any events with only 1 recording, leaving us with 3 events and a total of 47 recordings. We then downsample our simulated data 100 times, and compute &phi;<sub>SS</sub> from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below. Weighted standard deviations are calculated, weighted by the square-root of the number of recordings in each event.</p>
+<p><em>WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 98 fewer data points.</em></p>
 <table>
 <thead>
-<tr><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
+<tr><th>Period (s)</th><th>Full &phi;<sub>SS</sub></th><th>Downsampled median &phi;<sub>SS</sub></th><th>Downsampled &phi;<sub>SS</sub> std. dev.</th><th>Downsampled &phi;<sub>SS</sub> 68% conf range</th><th>Downsampled &phi;<sub>SS</sub> 95% conf range</th></tr>
 </thead>
 <tbody>
-<tr><td><img src="resources/within_event_ss_scatter__v_prop_3s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_7.5s_std_dev.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_10s_std_dev.png" alt="Scatter" /></td></tr>
-<tr><td><img src="resources/within_event_ss_scatter__v_prop_3s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_7.5s_residual.png" alt="Scatter" /></td><td><img src="resources/within_event_ss_scatter__v_prop_10s_residual.png" alt="Scatter" /></td></tr>
+<tr><td>T-independent</td><td>0.43</td><td>0.42</td><td>0.04</td><td>[0.38 0.47]</td><td>[0.36 0.52]</td></tr>
+<tr><td>1</td><td>0.36</td><td>0.36</td><td>0.04</td><td>[0.33 0.4]</td><td>[0.29 0.44]</td></tr>
+<tr><td>2</td><td>0.34</td><td>0.33</td><td>0.04</td><td>[0.3 0.37]</td><td>[0.27 0.42]</td></tr>
+<tr><td>3</td><td>0.38</td><td>0.37</td><td>0.05</td><td>[0.33 0.43]</td><td>[0.3 0.48]</td></tr>
+<tr><td>4</td><td>0.46</td><td>0.45</td><td>0.07</td><td>[0.39 0.53]</td><td>[0.35 0.61]</td></tr>
+<tr><td>5</td><td>0.48</td><td>0.47</td><td>0.08</td><td>[0.38 0.56]</td><td>[0.33 0.62]</td></tr>
+<tr><td>7.5</td><td>0.5</td><td>0.47</td><td>0.09</td><td>[0.4 0.59]</td><td>[0.34 0.67]</td></tr>
+<tr><td>10</td><td>0.46</td><td>0.44</td><td>0.08</td><td>[0.37 0.54]</td><td>[0.32 0.62]</td></tr>
 </tbody>
 </table>
+<p>These plots show the distribution of period-independent downsampled &phi;<sub>SS</sub> for each site.</p>
+<table>
+<thead>
+<tr><th>Period</th><th><strong>USC</strong></th></tr>
+</thead>
+<tbody>
+<tr><td>Period-Indep</td><td><img src="resources/within_event_ss_m6.6_100km_USC_downsampled_hist_period_indep.png" alt="Dowmsampled Histogram" /></td></tr>
+<tr><td>3s</td><td><img src="resources/within_event_ss_m6.6_100km_USC_downsampled_hist_3s.png" alt="Dowmsampled Histogram" /></td></tr>
+</tbody>
+</table>
+<p>These plots show the dependence of &phi;<sub>SS</sub> to the number of events included and the number of recordings per event. The left plot holds the number of recordings per event fixed at the full set of simulated recordings (18), varying the number of events. The right plot holds the number of events fixed at the full set of simulated events (49), varying the number of recordings per event.</p>
+<table>
+<thead>
+<tr><th>Period</th><th>Event Count Dependence</th><th>Recordings/Event Dependence</th></tr>
+</thead>
+<tbody>
+<tr><td>Period Indep.</td><td><img src="resources/within_event_ss_event_count_dependence_100km_period_indep.png" alt="num events dependence" /></td><td><img src="resources/within_event_ss_event_recordings_dependence_100km_period_indep.png" alt="num recordings dependence" /></td></tr>
+<tr><td>1s</td><td><img src="resources/within_event_ss_event_count_dependence_100km_1s.png" alt="num events dependence" /></td><td><img src="resources/within_event_ss_event_recordings_dependence_100km_1.png" alt="num recordings dependence" /></td></tr>
+</tbody>
+</table>
+<p>This is a histogram of the number of recordings per event from ASK 2014 with M=[6.4,6.8]. The top plot shows the subset with distance in the range [80.0,120.0], and the bottom the whole distribution at all distances.</p>
+<p><img src="resources/within_event_ss_event_recordings_hist_100km.png" alt="Histogram" /></p>
+<h3 id="all-distances-m66-within-event-single-site-results">All Distances M6.6 Within-event, single-site Results</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/within_event_ss_m6.6_std_dev.png" alt="Within-event, single-site Variability" /></p>
+<table>
+<thead>
+<tr><th>3s &phi;<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>5s &phi;<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>7.5s &phi;<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th><th>10s &phi;<sub>SS</sub></th><th>Total</th><th>Mean</th><th>Median</th><th>Range</th></tr>
+</thead>
+<tbody>
+<tr><td></td><td>0.39</td><td>0.39</td><td>0.38</td><td>[0.23 0.72]</td><td></td><td>0.48</td><td>0.46</td><td>0.45</td><td>[0.21 0.85]</td><td></td><td>0.47</td><td>0.45</td><td>0.43</td><td>[0.2 0.88]</td><td></td><td>0.43</td><td>0.41</td><td>0.4</td><td>[0.2 0.78]</td></tr>
+</tbody>
+</table>
+<p>Here are plots of the histogram of &phi;<sub>SS</sub> for each individual rupture, from which we compute a total &phi;<sub>SS</sub></p>
+<table>
+<thead>
+<tr><th>3s</th><th>5s</th></tr>
+</thead>
+<tbody>
+<tr><td><img src="resources/within_event_ss_m6.6_3s_hist.png" alt="3s" /></td><td><img src="resources/within_event_ss_m6.6_5s_hist.png" alt="5s" /></td></tr>
+<tr><td>7.5s</td><td>10s</td></tr>
+<tr><td><img src="resources/within_event_ss_m6.6_7.5s_hist.png" alt="7.5s" /></td><td><img src="resources/within_event_ss_m6.6_10s_hist.png" alt="10s" /></td></tr>
+</tbody>
+</table>
+<h4 id="all-distances-m66-within-event-single-site-downsampled-results">All Distances M6.6 Within-event, single-site Downsampled Results</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and all distances. We throw out any events with only 1 recording, leaving us with 7 events and a total of 288 recordings. We then downsample our simulated data 100 times, and compute &phi;<sub>SS</sub> from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below. Weighted standard deviations are calculated, weighted by the square-root of the number of recordings in each event.</p>
+<p><em>WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 1059 fewer data points.</em></p>
+<table>
+<thead>
+<tr><th>Period (s)</th><th>Full &phi;<sub>SS</sub></th><th>Downsampled median &phi;<sub>SS</sub></th><th>Downsampled &phi;<sub>SS</sub> std. dev.</th><th>Downsampled &phi;<sub>SS</sub> 68% conf range</th><th>Downsampled &phi;<sub>SS</sub> 95% conf range</th></tr>
+</thead>
+<tbody>
+<tr><td>T-independent</td><td>0.42</td><td>0.42</td><td>0.02</td><td>[0.41 0.44]</td><td>[0.39 0.46]</td></tr>
+<tr><td>1</td><td>0.38</td><td>0.37</td><td>0.02</td><td>[0.36 0.39]</td><td>[0.34 0.41]</td></tr>
+<tr><td>2</td><td>0.36</td><td>0.36</td><td>0.02</td><td>[0.34 0.38]</td><td>[0.32 0.4]</td></tr>
+<tr><td>3</td><td>0.39</td><td>0.39</td><td>0.02</td><td>[0.37 0.41]</td><td>[0.36 0.43]</td></tr>
+<tr><td>4</td><td>0.43</td><td>0.43</td><td>0.03</td><td>[0.4 0.46]</td><td>[0.37 0.48]</td></tr>
+<tr><td>5</td><td>0.48</td><td>0.48</td><td>0.03</td><td>[0.45 0.52]</td><td>[0.42 0.55]</td></tr>
+<tr><td>7.5</td><td>0.47</td><td>0.47</td><td>0.03</td><td>[0.44 0.51]</td><td>[0.41 0.54]</td></tr>
+<tr><td>10</td><td>0.43</td><td>0.43</td><td>0.03</td><td>[0.4 0.46]</td><td>[0.36 0.48]</td></tr>
+</tbody>
+</table>
+<p>These plots show the distribution of period-independent downsampled &phi;<sub>SS</sub> for each site.</p>
+<table>
+<thead>
+<tr><th>Period</th><th><strong>USC</strong></th></tr>
+</thead>
+<tbody>
+<tr><td>Period-Indep</td><td><img src="resources/within_event_ss_m6.6_USC_downsampled_hist_period_indep.png" alt="Dowmsampled Histogram" /></td></tr>
+<tr><td>3s</td><td><img src="resources/within_event_ss_m6.6_USC_downsampled_hist_3s.png" alt="Dowmsampled Histogram" /></td></tr>
+</tbody>
+</table>
+<p>These plots show the dependence of &phi;<sub>SS</sub> to the number of events included and the number of recordings per event. The left plot holds the number of recordings per event fixed at the full set of simulated recordings (18), varying the number of events. The right plot holds the number of events fixed at the full set of simulated events (49), varying the number of recordings per event.</p>
+<table>
+<thead>
+<tr><th>Period</th><th>Event Count Dependence</th><th>Recordings/Event Dependence</th></tr>
+</thead>
+<tbody>
+<tr><td>Period Indep.</td><td><img src="resources/within_event_ss_event_count_dependence_all_dists_period_indep.png" alt="num events dependence" /></td><td><img src="resources/within_event_ss_event_recordings_dependence_all_dists_period_indep.png" alt="num recordings dependence" /></td></tr>
+<tr><td>1s</td><td><img src="resources/within_event_ss_event_count_dependence_all_dists_1s.png" alt="num events dependence" /></td><td><img src="resources/within_event_ss_event_recordings_dependence_all_dists_1.png" alt="num recordings dependence" /></td></tr>
+</tbody>
+</table>
+<p>This is a histogram of the number of recordings per event from ASK 2014 with M=[6.4,6.8].</p>
+<p><img src="resources/within_event_ss_event_recordings_hist_all_dists.png" alt="Histogram" /></p>
 <h2 id="between-events-variability">Between-events Variability</h2>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <h3 id="between-events-variability-methodology">Between-events Variability Methodology</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
-<p>Between-events variability, denoted τ in Al Atik (2010), is computed separately for each:</p>
+<p>Between-events variability, denoted &tau; in Al Atik (2010), is computed separately for each:</p>
 <ul>
-<li>Site <em>[1 unique]</em></li>
 <li>Distance <em>[3 unique]</em></li>
 </ul>
-<p>We first compute the median natural-log ground motion, δB<sub>e</sub>, for each combination of:</p>
+<p>We first compute the median natural-log ground motion, &delta;B<sub>e</sub>, for each combination of:</p>
 <ul>
 <li>Rupture <em>[49 unique]</em></li>
 </ul>
-<p>That median, δB<sub>e</sub>, is computed across all 18 combinations of:</p>
+<p>That median, &delta;B<sub>e</sub>, is computed across all 18 combinations of:</p>
 <ul>
+<li>Site <em>[1 unique]</em></li>
 <li>Rupture Strike <em>[18 unique]</em></li>
 <li>Path <em>[1 unique]</em></li>
 </ul>
-<p>We take τ to be the standard deviation of all δB<sub>e</sub>.</p>
+<p>We take &tau; to be the standard deviation of all &delta;B<sub>e</sub>.</p>
+<p>We also compute distance-independent &tau;, which we take to be the mean value across all distances.</p>
 <p>Here is an exmample with 5 rotations, which would be repeated for each combination of [Rupture]. The site is shown with a blue square, and initially oriented rupture in bold with its hypocenter as a red star and centroid a green circle. Rotations of that rupture are in gray:</p>
 <p><img src="resources/example_between_events.png" alt="Example" /></p>
 <h3 id="200-km-m66-between-events-results">20.0 km M6.6 Between-events Results</h3>
@@ -379,32 +724,301 @@ img {
 <p><img src="resources/between_events_m6.6_20km_std_dev.png" alt="Between-events Variability" /></p>
 <table>
 <thead>
-<tr><th>3s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>7.5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>10s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th></tr>
+<tr><th>3s &tau;</th><th>Mean &delta;B<sub>e</sub></th><th>&delta;B<sub>e</sub> Range</th><th>5s &tau;</th><th>Mean &delta;B<sub>e</sub></th><th>&delta;B<sub>e</sub> Range</th><th>7.5s &tau;</th><th>Mean &delta;B<sub>e</sub></th><th>&delta;B<sub>e</sub> Range</th><th>10s &tau;</th><th>Mean &delta;B<sub>e</sub></th><th>&delta;B<sub>e</sub> Range</th></tr>
 </thead>
 <tbody>
 <tr><td>0.18</td><td>-3.77</td><td>[-4.08 -3.3]</td><td>0.29</td><td>-4.49</td><td>[-4.98 -3.83]</td><td>0.25</td><td>-5.15</td><td>[-5.66 -4.67]</td><td>0.24</td><td>-5.75</td><td>[-6.23 -5.26]</td></tr>
 </tbody>
 </table>
+<h4 id="200-km-m66-between-events-downsampled-results">20.0 km M6.6 Between-events Downsampled Results</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>We compute uncertainties on &tau; through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [10.0 30.0] km. We throw out any events with only 1 recording, leaving us with 4 events and a total of 52 recordings. We then downsample our simulated data 100 times, and compute &tau; from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below. Weighted standard deviations are calculated, weighted by the square-root of the number of recordings in each event.</p>
+<p><em>WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 53 fewer data points.</em></p>
+<table>
+<thead>
+<tr><th>Period (s)</th><th>Full &tau;</th><th>Downsampled median &tau;</th><th>Downsampled &tau; std. dev.</th><th>Downsampled &tau; 68% conf range</th><th>Downsampled &tau; 95% conf range</th></tr>
+</thead>
+<tbody>
+<tr><td>T-independent</td><td>0.21</td><td>0.21</td><td>0.05</td><td>[0.15 0.26]</td><td>[0.13 0.34]</td></tr>
+<tr><td>1</td><td>0.13</td><td>0.15</td><td>0.07</td><td>[0.08 0.22]</td><td>[0.04 0.31]</td></tr>
+<tr><td>2</td><td>0.15</td><td>0.16</td><td>0.07</td><td>[0.1 0.22]</td><td>[0.04 0.33]</td></tr>
+<tr><td>3</td><td>0.18</td><td>0.18</td><td>0.08</td><td>[0.12 0.27]</td><td>[0.06 0.37]</td></tr>
+<tr><td>4</td><td>0.22</td><td>0.22</td><td>0.09</td><td>[0.13 0.31]</td><td>[0.06 0.4]</td></tr>
+<tr><td>5</td><td>0.29</td><td>0.27</td><td>0.1</td><td>[0.18 0.4]</td><td>[0.1 0.47]</td></tr>
+<tr><td>7.5</td><td>0.25</td><td>0.24</td><td>0.11</td><td>[0.14 0.37]</td><td>[0.07 0.47]</td></tr>
+<tr><td>10</td><td>0.24</td><td>0.24</td><td>0.09</td><td>[0.13 0.34]</td><td>[0.07 0.44]</td></tr>
+</tbody>
+</table>
+<p>This plot shows the distribution of period-independent downsampled &tau;.</p>
+<table>
+<thead>
+<tr><th>Period-Indep</th><th><img src="resources/between_events_m6.6_20km_downsampled_hist_period_indep.png" alt="Dowmsampled Histogram" /></th></tr>
+</thead>
+<tbody>
+<tr><td>3s</td><td><img src="resources/between_events_m6.6_20km_downsampled_hist_3s.png" alt="Dowmsampled Histogram" /></td></tr>
+</tbody>
+</table>
+<p>These plots show the dependence of &tau; to the number of events included and the number of recordings per event. The left plot holds the number of recordings per event fixed at the full set of simulated recordings (18), varying the number of events. The right plot holds the number of events fixed at the full set of simulated events (49), varying the number of recordings per event.</p>
+<table>
+<thead>
+<tr><th>Period</th><th>Event Count Dependence</th><th>Recordings/Event Dependence</th></tr>
+</thead>
+<tbody>
+<tr><td>Period Indep.</td><td><img src="resources/between_events_event_count_dependence_20km_period_indep.png" alt="num events dependence" /></td><td><img src="resources/between_events_event_recordings_dependence_20km_period_indep.png" alt="num recordings dependence" /></td></tr>
+<tr><td>1s</td><td><img src="resources/between_events_event_count_dependence_20km_1s.png" alt="num events dependence" /></td><td><img src="resources/between_events_event_recordings_dependence_20km_1.png" alt="num recordings dependence" /></td></tr>
+</tbody>
+</table>
+<p>This is a histogram of the number of recordings per event from ASK 2014 with M=[6.4,6.8]. The top plot shows the subset with distance in the range [10.0,30.0], and the bottom the whole distribution at all distances.</p>
+<p><img src="resources/between_events_event_recordings_hist_20km.png" alt="Histogram" /></p>
 <h3 id="500-km-m66-between-events-results">50.0 km M6.6 Between-events Results</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <p><img src="resources/between_events_m6.6_50km_std_dev.png" alt="Between-events Variability" /></p>
 <table>
 <thead>
-<tr><th>3s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>7.5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>10s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th></tr>
+<tr><th>3s &tau;</th><th>Mean &delta;B<sub>e</sub></th><th>&delta;B<sub>e</sub> Range</th><th>5s &tau;</th><th>Mean &delta;B<sub>e</sub></th><th>&delta;B<sub>e</sub> Range</th><th>7.5s &tau;</th><th>Mean &delta;B<sub>e</sub></th><th>&delta;B<sub>e</sub> Range</th><th>10s &tau;</th><th>Mean &delta;B<sub>e</sub></th><th>&delta;B<sub>e</sub> Range</th></tr>
 </thead>
 <tbody>
 <tr><td>0.24</td><td>-4.7</td><td>[-5.26 -4.18]</td><td>0.34</td><td>-5.22</td><td>[-5.89 -4.54]</td><td>0.26</td><td>-5.98</td><td>[-6.55 -5.45]</td><td>0.23</td><td>-6.39</td><td>[-6.93 -5.87]</td></tr>
 </tbody>
 </table>
+<h4 id="500-km-m66-between-events-downsampled-results">50.0 km M6.6 Between-events Downsampled Results</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>We compute uncertainties on &tau; through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [40.0 60.0] km. We throw out any events with only 1 recording, leaving us with 4 events and a total of 56 recordings. We then downsample our simulated data 100 times, and compute &tau; from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below. Weighted standard deviations are calculated, weighted by the square-root of the number of recordings in each event.</p>
+<p><em>WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 25 fewer data points.</em></p>
+<table>
+<thead>
+<tr><th>Period (s)</th><th>Full &tau;</th><th>Downsampled median &tau;</th><th>Downsampled &tau; std. dev.</th><th>Downsampled &tau; 68% conf range</th><th>Downsampled &tau; 95% conf range</th></tr>
+</thead>
+<tbody>
+<tr><td>T-independent</td><td>0.24</td><td>0.26</td><td>0.06</td><td>[0.19 0.31]</td><td>[0.15 0.37]</td></tr>
+<tr><td>1</td><td>0.19</td><td>0.19</td><td>0.09</td><td>[0.11 0.3]</td><td>[0.06 0.41]</td></tr>
+<tr><td>2</td><td>0.18</td><td>0.17</td><td>0.08</td><td>[0.11 0.27]</td><td>[0.05 0.33]</td></tr>
+<tr><td>3</td><td>0.24</td><td>0.25</td><td>0.09</td><td>[0.17 0.35]</td><td>[0.07 0.42]</td></tr>
+<tr><td>4</td><td>0.24</td><td>0.27</td><td>0.09</td><td>[0.17 0.35]</td><td>[0.08 0.41]</td></tr>
+<tr><td>5</td><td>0.34</td><td>0.35</td><td>0.13</td><td>[0.22 0.48]</td><td>[0.09 0.58]</td></tr>
+<tr><td>7.5</td><td>0.26</td><td>0.29</td><td>0.11</td><td>[0.18 0.4]</td><td>[0.09 0.49]</td></tr>
+<tr><td>10</td><td>0.23</td><td>0.23</td><td>0.1</td><td>[0.14 0.35]</td><td>[0.07 0.47]</td></tr>
+</tbody>
+</table>
+<p>This plot shows the distribution of period-independent downsampled &tau;.</p>
+<table>
+<thead>
+<tr><th>Period-Indep</th><th><img src="resources/between_events_m6.6_50km_downsampled_hist_period_indep.png" alt="Dowmsampled Histogram" /></th></tr>
+</thead>
+<tbody>
+<tr><td>3s</td><td><img src="resources/between_events_m6.6_50km_downsampled_hist_3s.png" alt="Dowmsampled Histogram" /></td></tr>
+</tbody>
+</table>
+<p>These plots show the dependence of &tau; to the number of events included and the number of recordings per event. The left plot holds the number of recordings per event fixed at the full set of simulated recordings (18), varying the number of events. The right plot holds the number of events fixed at the full set of simulated events (49), varying the number of recordings per event.</p>
+<table>
+<thead>
+<tr><th>Period</th><th>Event Count Dependence</th><th>Recordings/Event Dependence</th></tr>
+</thead>
+<tbody>
+<tr><td>Period Indep.</td><td><img src="resources/between_events_event_count_dependence_50km_period_indep.png" alt="num events dependence" /></td><td><img src="resources/between_events_event_recordings_dependence_50km_period_indep.png" alt="num recordings dependence" /></td></tr>
+<tr><td>1s</td><td><img src="resources/between_events_event_count_dependence_50km_1s.png" alt="num events dependence" /></td><td><img src="resources/between_events_event_recordings_dependence_50km_1.png" alt="num recordings dependence" /></td></tr>
+</tbody>
+</table>
+<p>This is a histogram of the number of recordings per event from ASK 2014 with M=[6.4,6.8]. The top plot shows the subset with distance in the range [40.0,60.0], and the bottom the whole distribution at all distances.</p>
+<p><img src="resources/between_events_event_recordings_hist_50km.png" alt="Histogram" /></p>
 <h3 id="1000-km-m66-between-events-results">100.0 km M6.6 Between-events Results</h3>
 <p><em><a href="#table-of-contents">(top)</a></em></p>
 <p><img src="resources/between_events_m6.6_100km_std_dev.png" alt="Between-events Variability" /></p>
 <table>
 <thead>
-<tr><th>3s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>7.5s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th><th>10s τ</th><th>Mean δB<sub>e</sub></th><th>δB<sub>e</sub> Range</th></tr>
+<tr><th>3s &tau;</th><th>Mean &delta;B<sub>e</sub></th><th>&delta;B<sub>e</sub> Range</th><th>5s &tau;</th><th>Mean &delta;B<sub>e</sub></th><th>&delta;B<sub>e</sub> Range</th><th>7.5s &tau;</th><th>Mean &delta;B<sub>e</sub></th><th>&delta;B<sub>e</sub> Range</th><th>10s &tau;</th><th>Mean &delta;B<sub>e</sub></th><th>&delta;B<sub>e</sub> Range</th></tr>
 </thead>
 <tbody>
 <tr><td>0.18</td><td>-5.29</td><td>[-5.75 -4.95]</td><td>0.27</td><td>-5.96</td><td>[-6.45 -5.38]</td><td>0.26</td><td>-6.49</td><td>[-7.07 -5.94]</td><td>0.26</td><td>-6.72</td><td>[-7.23 -6.11]</td></tr>
+</tbody>
+</table>
+<h4 id="1000-km-m66-between-events-downsampled-results">100.0 km M6.6 Between-events Downsampled Results</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>We compute uncertainties on &tau; through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and distance within the range [80.0 120.0] km. We throw out any events with only 1 recording, leaving us with 3 events and a total of 47 recordings. We then downsample our simulated data 100 times, and compute &tau; from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below. Weighted standard deviations are calculated, weighted by the square-root of the number of recordings in each event.</p>
+<p><em>WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 98 fewer data points.</em></p>
+<table>
+<thead>
+<tr><th>Period (s)</th><th>Full &tau;</th><th>Downsampled median &tau;</th><th>Downsampled &tau; std. dev.</th><th>Downsampled &tau; 68% conf range</th><th>Downsampled &tau; 95% conf range</th></tr>
+</thead>
+<tbody>
+<tr><td>T-independent</td><td>0.22</td><td>0.19</td><td>0.06</td><td>[0.14 0.27]</td><td>[0.09 0.33]</td></tr>
+<tr><td>1</td><td>0.13</td><td>0.11</td><td>0.06</td><td>[0.05 0.18]</td><td>[0.01 0.25]</td></tr>
+<tr><td>2</td><td>0.17</td><td>0.13</td><td>0.08</td><td>[0.07 0.24]</td><td>[0.02 0.32]</td></tr>
+<tr><td>3</td><td>0.18</td><td>0.15</td><td>0.08</td><td>[0.08 0.25]</td><td>[0.02 0.33]</td></tr>
+<tr><td>4</td><td>0.26</td><td>0.2</td><td>0.12</td><td>[0.1 0.34]</td><td>[0.02 0.47]</td></tr>
+<tr><td>5</td><td>0.27</td><td>0.22</td><td>0.12</td><td>[0.11 0.36]</td><td>[0.03 0.47]</td></tr>
+<tr><td>7.5</td><td>0.26</td><td>0.24</td><td>0.12</td><td>[0.12 0.38]</td><td>[0.04 0.51]</td></tr>
+<tr><td>10</td><td>0.26</td><td>0.26</td><td>0.12</td><td>[0.1 0.38]</td><td>[0.06 0.48]</td></tr>
+</tbody>
+</table>
+<p>This plot shows the distribution of period-independent downsampled &tau;.</p>
+<table>
+<thead>
+<tr><th>Period-Indep</th><th><img src="resources/between_events_m6.6_100km_downsampled_hist_period_indep.png" alt="Dowmsampled Histogram" /></th></tr>
+</thead>
+<tbody>
+<tr><td>3s</td><td><img src="resources/between_events_m6.6_100km_downsampled_hist_3s.png" alt="Dowmsampled Histogram" /></td></tr>
+</tbody>
+</table>
+<p>These plots show the dependence of &tau; to the number of events included and the number of recordings per event. The left plot holds the number of recordings per event fixed at the full set of simulated recordings (18), varying the number of events. The right plot holds the number of events fixed at the full set of simulated events (49), varying the number of recordings per event.</p>
+<table>
+<thead>
+<tr><th>Period</th><th>Event Count Dependence</th><th>Recordings/Event Dependence</th></tr>
+</thead>
+<tbody>
+<tr><td>Period Indep.</td><td><img src="resources/between_events_event_count_dependence_100km_period_indep.png" alt="num events dependence" /></td><td><img src="resources/between_events_event_recordings_dependence_100km_period_indep.png" alt="num recordings dependence" /></td></tr>
+<tr><td>1s</td><td><img src="resources/between_events_event_count_dependence_100km_1s.png" alt="num events dependence" /></td><td><img src="resources/between_events_event_recordings_dependence_100km_1.png" alt="num recordings dependence" /></td></tr>
+</tbody>
+</table>
+<p>This is a histogram of the number of recordings per event from ASK 2014 with M=[6.4,6.8]. The top plot shows the subset with distance in the range [80.0,120.0], and the bottom the whole distribution at all distances.</p>
+<p><img src="resources/between_events_event_recordings_hist_100km.png" alt="Histogram" /></p>
+<h3 id="all-distances-m66-between-events-results">All Distances M6.6 Between-events Results</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/between_events_m6.6_std_dev.png" alt="Between-events Variability" /></p>
+<table>
+<thead>
+<tr><th>3s &tau;</th><th>Mean &delta;B<sub>e</sub></th><th>&delta;B<sub>e</sub> Range</th><th>5s &tau;</th><th>Mean &delta;B<sub>e</sub></th><th>&delta;B<sub>e</sub> Range</th><th>7.5s &tau;</th><th>Mean &delta;B<sub>e</sub></th><th>&delta;B<sub>e</sub> Range</th><th>10s &tau;</th><th>Mean &delta;B<sub>e</sub></th><th>&delta;B<sub>e</sub> Range</th></tr>
+</thead>
+<tbody>
+<tr><td>0.2</td><td>-4.59</td><td>[-5.75 -3.3]</td><td>0.3</td><td>-5.22</td><td>[-6.45 -3.83]</td><td>0.25</td><td>-5.87</td><td>[-7.07 -4.67]</td><td>0.24</td><td>-6.28</td><td>[-7.23 -5.26]</td></tr>
+</tbody>
+</table>
+<h4 id="all-distances-m66-between-events-downsampled-results">All Distances M6.6 Between-events Downsampled Results</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>We compute uncertainties on &tau; through downsampling the rotational synthetic data to match the sample sizes used in the ASK 2014 regressions. We search the ASK dataset for ruptures with the same mechanism, magnitude in the range [6.4 6.8], and all distances. We throw out any events with only 1 recording, leaving us with 7 events and a total of 288 recordings. We then downsample our simulated data 100 times, and compute &tau; from each sample. The 95% confidence range from these samples is plotted as a shaded region above, and listed in the table below. Weighted standard deviations are calculated, weighted by the square-root of the number of recordings in each event.</p>
+<p><em>WARNING: Some real events had more recordings than we have rotations per event, so our dataset for this test is smaller. We are using 1059 fewer data points.</em></p>
+<table>
+<thead>
+<tr><th>Period (s)</th><th>Full &tau;</th><th>Downsampled median &tau;</th><th>Downsampled &tau; std. dev.</th><th>Downsampled &tau; 68% conf range</th><th>Downsampled &tau; 95% conf range</th></tr>
+</thead>
+<tbody>
+<tr><td>T-independent</td><td>0.22</td><td>0.24</td><td>0.02</td><td>[0.22 0.26]</td><td>[0.2 0.3]</td></tr>
+<tr><td>1</td><td>0.15</td><td>0.17</td><td>0.04</td><td>[0.14 0.21]</td><td>[0.12 0.26]</td></tr>
+<tr><td>2</td><td>0.17</td><td>0.19</td><td>0.03</td><td>[0.15 0.22]</td><td>[0.12 0.25]</td></tr>
+<tr><td>3</td><td>0.2</td><td>0.21</td><td>0.04</td><td>[0.18 0.26]</td><td>[0.16 0.3]</td></tr>
+<tr><td>4</td><td>0.24</td><td>0.26</td><td>0.04</td><td>[0.22 0.29]</td><td>[0.19 0.34]</td></tr>
+<tr><td>5</td><td>0.3</td><td>0.31</td><td>0.04</td><td>[0.27 0.36]</td><td>[0.23 0.41]</td></tr>
+<tr><td>7.5</td><td>0.25</td><td>0.27</td><td>0.04</td><td>[0.22 0.31]</td><td>[0.19 0.38]</td></tr>
+<tr><td>10</td><td>0.24</td><td>0.26</td><td>0.04</td><td>[0.22 0.31]</td><td>[0.17 0.34]</td></tr>
+</tbody>
+</table>
+<p>This plot shows the distribution of period-independent downsampled &tau;.</p>
+<table>
+<thead>
+<tr><th>Period-Indep</th><th><img src="resources/between_events_m6.6_downsampled_hist_period_indep.png" alt="Dowmsampled Histogram" /></th></tr>
+</thead>
+<tbody>
+<tr><td>3s</td><td><img src="resources/between_events_m6.6_downsampled_hist_3s.png" alt="Dowmsampled Histogram" /></td></tr>
+</tbody>
+</table>
+<p>These plots show the dependence of &tau; to the number of events included and the number of recordings per event. The left plot holds the number of recordings per event fixed at the full set of simulated recordings (18), varying the number of events. The right plot holds the number of events fixed at the full set of simulated events (49), varying the number of recordings per event.</p>
+<table>
+<thead>
+<tr><th>Period</th><th>Event Count Dependence</th><th>Recordings/Event Dependence</th></tr>
+</thead>
+<tbody>
+<tr><td>Period Indep.</td><td><img src="resources/between_events_event_count_dependence_all_dists_period_indep.png" alt="num events dependence" /></td><td><img src="resources/between_events_event_recordings_dependence_all_dists_period_indep.png" alt="num recordings dependence" /></td></tr>
+<tr><td>1s</td><td><img src="resources/between_events_event_count_dependence_all_dists_1s.png" alt="num events dependence" /></td><td><img src="resources/between_events_event_recordings_dependence_all_dists_1.png" alt="num recordings dependence" /></td></tr>
+</tbody>
+</table>
+<p>This is a histogram of the number of recordings per event from ASK 2014 with M=[6.4,6.8].</p>
+<p><img src="resources/between_events_event_recordings_hist_all_dists.png" alt="Histogram" /></p>
+<h2 id="event-term-scatters">Event Term Scatters</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<h3 id="propagation-velocity-event-term-scatters">Propagation Velocity Event Term Scatters</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th></th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>20 km</strong></td><td><img src="resources/event_term_scatter_v_prop_m6.6_20km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_v_prop_m6.6_20km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_v_prop_m6.6_20km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_v_prop_m6.6_20km_USC_10s.png" alt="plot" /></td></tr>
+<tr><td><strong>50 km</strong></td><td><img src="resources/event_term_scatter_v_prop_m6.6_50km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_v_prop_m6.6_50km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_v_prop_m6.6_50km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_v_prop_m6.6_50km_USC_10s.png" alt="plot" /></td></tr>
+<tr><td><strong>100 km</strong></td><td><img src="resources/event_term_scatter_v_prop_m6.6_100km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_v_prop_m6.6_100km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_v_prop_m6.6_100km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_v_prop_m6.6_100km_USC_10s.png" alt="plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="mag-event-term-scatters">Mag Event Term Scatters</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th></th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>20 km</strong></td><td><img src="resources/event_term_scatter_mag_m6.6_20km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mag_m6.6_20km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mag_m6.6_20km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mag_m6.6_20km_USC_10s.png" alt="plot" /></td></tr>
+<tr><td><strong>50 km</strong></td><td><img src="resources/event_term_scatter_mag_m6.6_50km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mag_m6.6_50km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mag_m6.6_50km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mag_m6.6_50km_USC_10s.png" alt="plot" /></td></tr>
+<tr><td><strong>100 km</strong></td><td><img src="resources/event_term_scatter_mag_m6.6_100km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mag_m6.6_100km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mag_m6.6_100km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mag_m6.6_100km_USC_10s.png" alt="plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="log10area-event-term-scatters">Log10(Area) Event Term Scatters</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th></th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>20 km</strong></td><td><img src="resources/event_term_scatter_area_m6.6_20km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_area_m6.6_20km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_area_m6.6_20km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_area_m6.6_20km_USC_10s.png" alt="plot" /></td></tr>
+<tr><td><strong>50 km</strong></td><td><img src="resources/event_term_scatter_area_m6.6_50km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_area_m6.6_50km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_area_m6.6_50km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_area_m6.6_50km_USC_10s.png" alt="plot" /></td></tr>
+<tr><td><strong>100 km</strong></td><td><img src="resources/event_term_scatter_area_m6.6_100km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_area_m6.6_100km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_area_m6.6_100km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_area_m6.6_100km_USC_10s.png" alt="plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="max-slip-event-term-scatters">Max Slip Event Term Scatters</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th></th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>20 km</strong></td><td><img src="resources/event_term_scatter_max_slip_m6.6_20km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_max_slip_m6.6_20km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_max_slip_m6.6_20km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_max_slip_m6.6_20km_USC_10s.png" alt="plot" /></td></tr>
+<tr><td><strong>50 km</strong></td><td><img src="resources/event_term_scatter_max_slip_m6.6_50km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_max_slip_m6.6_50km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_max_slip_m6.6_50km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_max_slip_m6.6_50km_USC_10s.png" alt="plot" /></td></tr>
+<tr><td><strong>100 km</strong></td><td><img src="resources/event_term_scatter_max_slip_m6.6_100km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_max_slip_m6.6_100km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_max_slip_m6.6_100km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_max_slip_m6.6_100km_USC_10s.png" alt="plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="mean-slip-event-term-scatters">Mean Slip Event Term Scatters</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th></th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>20 km</strong></td><td><img src="resources/event_term_scatter_mean_slip_m6.6_20km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mean_slip_m6.6_20km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mean_slip_m6.6_20km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mean_slip_m6.6_20km_USC_10s.png" alt="plot" /></td></tr>
+<tr><td><strong>50 km</strong></td><td><img src="resources/event_term_scatter_mean_slip_m6.6_50km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mean_slip_m6.6_50km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mean_slip_m6.6_50km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mean_slip_m6.6_50km_USC_10s.png" alt="plot" /></td></tr>
+<tr><td><strong>100 km</strong></td><td><img src="resources/event_term_scatter_mean_slip_m6.6_100km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mean_slip_m6.6_100km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mean_slip_m6.6_100km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mean_slip_m6.6_100km_USC_10s.png" alt="plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="slip-std-dev-event-term-scatters">Slip Std Dev Event Term Scatters</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th></th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>20 km</strong></td><td><img src="resources/event_term_scatter_slip_std_dev_m6.6_20km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_slip_std_dev_m6.6_20km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_slip_std_dev_m6.6_20km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_slip_std_dev_m6.6_20km_USC_10s.png" alt="plot" /></td></tr>
+<tr><td><strong>50 km</strong></td><td><img src="resources/event_term_scatter_slip_std_dev_m6.6_50km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_slip_std_dev_m6.6_50km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_slip_std_dev_m6.6_50km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_slip_std_dev_m6.6_50km_USC_10s.png" alt="plot" /></td></tr>
+<tr><td><strong>100 km</strong></td><td><img src="resources/event_term_scatter_slip_std_dev_m6.6_100km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_slip_std_dev_m6.6_100km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_slip_std_dev_m6.6_100km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_slip_std_dev_m6.6_100km_USC_10s.png" alt="plot" /></td></tr>
+</tbody>
+</table>
+<h3 id="mid-seismogenic-mean-slip-event-term-scatters">Mid-Seismogenic Mean Slip Event Term Scatters</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th></th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>20 km</strong></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m6.6_20km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m6.6_20km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m6.6_20km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m6.6_20km_USC_10s.png" alt="plot" /></td></tr>
+<tr><td><strong>50 km</strong></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m6.6_50km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m6.6_50km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m6.6_50km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m6.6_50km_USC_10s.png" alt="plot" /></td></tr>
+<tr><td><strong>100 km</strong></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m6.6_100km_USC_3s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m6.6_100km_USC_5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m6.6_100km_USC_7.5s.png" alt="plot" /></td><td><img src="resources/event_term_scatter_mid_seis_mean_slip_m6.6_100km_USC_10s.png" alt="plot" /></td></tr>
+</tbody>
+</table>
+<h2 id="directivity-comparisons">Directivity Comparisons</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th></th><th>3 s</th><th>5 s</th><th>7.5 s</th><th>10 s</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>20 km</strong></td><td><img src="resources/directivity_20km_3s.png" alt="plot" /></td><td><img src="resources/directivity_20km_5s.png" alt="plot" /></td><td><img src="resources/directivity_20km_7.5s.png" alt="plot" /></td><td><img src="resources/directivity_20km_10s.png" alt="plot" /></td></tr>
+<tr><td><strong>50 km</strong></td><td><img src="resources/directivity_50km_3s.png" alt="plot" /></td><td><img src="resources/directivity_50km_5s.png" alt="plot" /></td><td><img src="resources/directivity_50km_7.5s.png" alt="plot" /></td><td><img src="resources/directivity_50km_10s.png" alt="plot" /></td></tr>
+<tr><td><strong>100 km</strong></td><td><em>N/A</em></td><td><em>N/A</em></td><td><em>N/A</em></td><td><em>N/A</em></td></tr>
 </tbody>
 </table>
 <h2 id="azumth-dependence">Azumth Dependence</h2>
@@ -416,7 +1030,7 @@ img {
 <tr><th>Type</th><th>3s</th><th>5s</th><th>7.5s</th><th>10s</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>τ</strong></td><td><img src="resources/m6.6_dist_SOURCE_AZIMUTH_3s_between_events.png" alt="Rupture Strike" /></td><td><img src="resources/m6.6_dist_SOURCE_AZIMUTH_5s_between_events.png" alt="Rupture Strike" /></td><td><img src="resources/m6.6_dist_SOURCE_AZIMUTH_7.5s_between_events.png" alt="Rupture Strike" /></td><td><img src="resources/m6.6_dist_SOURCE_AZIMUTH_10s_between_events.png" alt="Rupture Strike" /></td></tr>
+<tr><td><strong>&tau;</strong></td><td><img src="resources/m6.6_dist_SOURCE_AZIMUTH_3s_between_events.png" alt="Rupture Strike" /></td><td><img src="resources/m6.6_dist_SOURCE_AZIMUTH_5s_between_events.png" alt="Rupture Strike" /></td><td><img src="resources/m6.6_dist_SOURCE_AZIMUTH_7.5s_between_events.png" alt="Rupture Strike" /></td><td><img src="resources/m6.6_dist_SOURCE_AZIMUTH_10s_between_events.png" alt="Rupture Strike" /></td></tr>
 <tr><td><strong>Median SA</strong></td><td><img src="resources/m6.6_dist_SOURCE_AZIMUTH_3s_median_sa.png" alt="Rupture Strike" /></td><td><img src="resources/m6.6_dist_SOURCE_AZIMUTH_5s_median_sa.png" alt="Rupture Strike" /></td><td><img src="resources/m6.6_dist_SOURCE_AZIMUTH_7.5s_median_sa.png" alt="Rupture Strike" /></td><td><img src="resources/m6.6_dist_SOURCE_AZIMUTH_10s_median_sa.png" alt="Rupture Strike" /></td></tr>
 </tbody>
 </table>

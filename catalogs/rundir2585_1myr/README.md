@@ -151,6 +151,8 @@
 * [M7.2, Vertical Strike-Slip with Surface Rupture (randMag, Dm=0.2) ](bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface_rnd_mag_0p2/)
 * [M7.2, Vertical Strike-Slip with Surface Rupture (randMag, Dm=0.25) ](bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface_rnd_mag_0p25/)
 * [M7.2, Vertical Strike-Slip with Surface Rupture (randMag, Dm=0.3) ](bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface_rnd_mag_0p3/)
+* [M7.2, Vertical Strike-Slip with Surface Rupture, Time Scale Factor: 2.0](bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface_timeScale2.0/)
+* [M7.2, Vertical Strike-Slip with Surface Rupture, Time Scale Factor: 2.0, Velocities Scaled](bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface_timeScale2.0_velScale/)
 * [M7.6, Reverse, Dip=45](bbp_LA_BASIN_500/rotated_ruptures_m7p6_reverse/)
 * [M7.6, Vertical Strike-Slip with Surface Rupture](bbp_LA_BASIN_500/rotated_ruptures_m7p6_vert_ss_surface/)
 

@@ -11,24 +11,38 @@ We then  perform various rotations. We rotate the rupture in place around its ce
 ## Table Of Contents
 * [Rupture Rotation Parameters](#rupture-rotation-parameters)
 * [M7.6 Reverse RSQSim Rupture Match Criteria](#m76-reverse-rsqsim-rupture-match-criteria)
+  * [Fault Section Counts](#fault-section-counts)
 * [Sites](#sites)
 * [Result Summary Table](#result-summary-table)
+  * [GMPE Table](#gmpe-table)
   * [Dist-Dependent Plot Table](#dist-dependent-plot-table)
 * [Source-strike Variability](#source-strike-variability)
   * [Source-strike Variability Methodology](#source-strike-variability-methodology)
   * [20.0 km M7.6 Source-strike Results](#200-km-m76-source-strike-results)
   * [50.0 km M7.6 Source-strike Results](#500-km-m76-source-strike-results)
   * [100.0 km M7.6 Source-strike Results](#1000-km-m76-source-strike-results)
+  * [All Distances M7.6 Source-strike Results](#all-distances-m76-source-strike-results)
 * [Within-event, single-site Variability](#within-event-single-site-variability)
   * [Within-event, single-site Variability Methodology](#within-event-single-site-variability-methodology)
   * [20.0 km M7.6 Within-event, single-site Results](#200-km-m76-within-event-single-site-results)
   * [50.0 km M7.6 Within-event, single-site Results](#500-km-m76-within-event-single-site-results)
   * [100.0 km M7.6 Within-event, single-site Results](#1000-km-m76-within-event-single-site-results)
+  * [All Distances M7.6 Within-event, single-site Results](#all-distances-m76-within-event-single-site-results)
 * [Between-events Variability](#between-events-variability)
   * [Between-events Variability Methodology](#between-events-variability-methodology)
   * [20.0 km M7.6 Between-events Results](#200-km-m76-between-events-results)
   * [50.0 km M7.6 Between-events Results](#500-km-m76-between-events-results)
   * [100.0 km M7.6 Between-events Results](#1000-km-m76-between-events-results)
+  * [All Distances M7.6 Between-events Results](#all-distances-m76-between-events-results)
+* [Event Term Scatters](#event-term-scatters)
+  * [Propagation Velocity Event Term Scatters](#propagation-velocity-event-term-scatters)
+  * [Mag Event Term Scatters](#mag-event-term-scatters)
+  * [Log10(Area) Event Term Scatters](#log10area-event-term-scatters)
+  * [Max Slip Event Term Scatters](#max-slip-event-term-scatters)
+  * [Mean Slip Event Term Scatters](#mean-slip-event-term-scatters)
+  * [Slip Std Dev Event Term Scatters](#slip-std-dev-event-term-scatters)
+  * [Mid-Seismogenic Mean Slip Event Term Scatters](#mid-seismogenic-mean-slip-event-term-scatters)
+* [Directivity Comparisons](#directivity-comparisons)
 * [Azumth Dependence](#azumth-dependence)
   * [Rupture Strike Dependence](#rupture-strike-dependence)
 * [BBP PartB Comparison](#bbp-partb-comparison)
@@ -56,6 +70,21 @@ We condisder 48 events in the catalog which match the following criteria:
 * Rake=[80,100]
 * Dip=[35.0,55.0]
 
+### Fault Section Counts
+*[(top)](#table-of-contents)*
+
+This tables gives a list of all fault sections which participate in the ruptures matching the above criteria. Many ruptures include multiple sections, so the sum of counts may be larger than the number of events.
+
+| Section Name | Participation Count |
+|-----|-----|
+| Trinidad (alt1) | 26 |
+| Big Lagoon - Bald Mtn 2011 CFM | 24 |
+| McKinleyville (alt1) | 6 |
+| Mad River (alt1) | 2 |
+| TOTAL # PARENTS | 58 |
+
+Actual magnitude range: [7.550748,7.645306], average: 7.595223, stdDev: 0.027415982
+
 ## Sites
 
 | Name | Location | Vs30 (m/s) | Z1.0 (km) | Z2.5 (km) |
@@ -64,17 +93,35 @@ We condisder 48 events in the catalog which match the following criteria:
 
 ## Result Summary Table
 
-| Type | Notation | Distance | 3s Std. Dev. | 5s Std. Dev. | 7.5s Std. Dev. | 10s Std. Dev. |
-|-----|-----|-----|-----|-----|-----|-----|
-| Source-strike | &phi;<sub>s</sub> | 20 km | 0.52 | 0.46 | 0.41 | 0.37 |
-| Source-strike | &phi;<sub>s</sub> | 50 km | 0.46 | 0.44 | 0.38 | 0.33 |
-| Source-strike | &phi;<sub>s</sub> | 100 km | 0.41 | 0.4 | 0.36 | 0.37 |
-| Within-event, single-site | &phi;<sub>SS</sub> | 20 km | 0.52 | 0.46 | 0.41 | 0.37 |
-| Within-event, single-site | &phi;<sub>SS</sub> | 50 km | 0.46 | 0.44 | 0.38 | 0.33 |
-| Within-event, single-site | &phi;<sub>SS</sub> | 100 km | 0.41 | 0.4 | 0.36 | 0.37 |
-| Between-events | &tau; | 20 km | 0.12 | 0.15 | 0.17 | 0.2 |
-| Between-events | &tau; | 50 km | 0.12 | 0.15 | 0.17 | 0.2 |
-| Between-events | &tau; | 100 km | 0.11 | 0.14 | 0.16 | 0.22 |
+| Type | Notation | Distance | T-independent Std. Dev. | 3s Std. Dev. | 5s Std. Dev. | 7.5s Std. Dev. | 10s Std. Dev. |
+|-----|-----|-----|-----|-----|-----|-----|-----|
+| Source-strike | &phi;<sub>s</sub> | 20 km | 0.47 | 0.52 | 0.46 | 0.41 | 0.37 |
+| Source-strike | &phi;<sub>s</sub> | 50 km | 0.41 | 0.46 | 0.44 | 0.38 | 0.33 |
+| Source-strike | &phi;<sub>s</sub> | 100 km | 0.38 | 0.41 | 0.4 | 0.36 | 0.37 |
+| Source-strike | &phi;<sub>s</sub> | (all) | 0.42 | 0.46 | 0.43 | 0.38 | 0.36 |
+| Within-event, single-site | &phi;<sub>SS</sub> | 20 km | 0.47 | 0.52 | 0.46 | 0.41 | 0.37 |
+| Within-event, single-site | &phi;<sub>SS</sub> | 50 km | 0.41 | 0.46 | 0.44 | 0.38 | 0.33 |
+| Within-event, single-site | &phi;<sub>SS</sub> | 100 km | 0.38 | 0.41 | 0.4 | 0.36 | 0.37 |
+| Within-event, single-site | &phi;<sub>SS</sub> | (all) | 0.42 | 0.46 | 0.43 | 0.38 | 0.36 |
+| Between-events | &tau; | 20 km | 0.15 | 0.12 | 0.15 | 0.17 | 0.2 |
+| Between-events | &tau; | 50 km | 0.13 | 0.12 | 0.15 | 0.17 | 0.2 |
+| Between-events | &tau; | 100 km | 0.13 | 0.11 | 0.14 | 0.16 | 0.22 |
+| Between-events | &tau; | (all) | 0.14 | 0.12 | 0.14 | 0.17 | 0.21 |
+
+### GMPE Table
+*[(top)](#table-of-contents)*
+
+| Type | Notation | Distance | ASK2014 3s | ASK2014 5s | ASK2014 7.5s | ASK2014 10s | BSSA2014 3s | BSSA2014 5s | BSSA2014 7.5s | BSSA2014 10s | CB2014 3s | CB2014 5s | CB2014 7.5s | CB2014 10s | CY2014 3s | CY2014 5s | CY2014 7.5s | CY2014 10s |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| Source-strike | &phi;<sub>SS</sub> | 20 km | 0.55 | 0.58 | 0.57 | 0.55 | 0.55 | 0.54 | 0.54 | 0.54 | 0.55 | 0.51 | 0.49 | 0.47 | 0.52 | 0.53 | 0.52 | 0.51 |
+| Source-strike | &phi;<sub>SS</sub> | 50 km | 0.55 | 0.58 | 0.57 | 0.55 | 0.55 | 0.54 | 0.54 | 0.54 | 0.55 | 0.51 | 0.49 | 0.47 | 0.52 | 0.53 | 0.52 | 0.51 |
+| Source-strike | &phi;<sub>SS</sub> | 100 km | 0.55 | 0.58 | 0.57 | 0.55 | 0.55 | 0.54 | 0.54 | 0.54 | 0.55 | 0.51 | 0.49 | 0.47 | 0.53 | 0.53 | 0.52 | 0.51 |
+| Within-event, single-site | &phi;<sub>SS</sub> | 20 km | 0.55 | 0.58 | 0.57 | 0.55 | 0.55 | 0.54 | 0.54 | 0.54 | 0.55 | 0.51 | 0.49 | 0.47 | 0.52 | 0.53 | 0.52 | 0.51 |
+| Within-event, single-site | &phi;<sub>SS</sub> | 50 km | 0.55 | 0.58 | 0.57 | 0.55 | 0.55 | 0.54 | 0.54 | 0.54 | 0.55 | 0.51 | 0.49 | 0.47 | 0.52 | 0.53 | 0.52 | 0.51 |
+| Within-event, single-site | &phi;<sub>SS</sub> | 100 km | 0.55 | 0.58 | 0.57 | 0.55 | 0.55 | 0.54 | 0.54 | 0.54 | 0.55 | 0.51 | 0.49 | 0.47 | 0.53 | 0.53 | 0.52 | 0.51 |
+| Between-events | &tau; | 20 km | 0.36 | 0.36 | 0.36 | 0.36 | 0.3 | 0.33 | 0.34 | 0.35 | 0.35 | 0.4 | 0.42 | 0.39 | 0.32 | 0.33 | 0.34 | 0.34 |
+| Between-events | &tau; | 50 km | 0.36 | 0.36 | 0.36 | 0.36 | 0.3 | 0.33 | 0.34 | 0.35 | 0.35 | 0.4 | 0.42 | 0.39 | 0.33 | 0.33 | 0.34 | 0.34 |
+| Between-events | &tau; | 100 km | 0.36 | 0.36 | 0.36 | 0.36 | 0.3 | 0.33 | 0.34 | 0.35 | 0.35 | 0.4 | 0.42 | 0.39 | 0.33 | 0.33 | 0.34 | 0.34 |
 
 ### Dist-Dependent Plot Table
 *[(top)](#table-of-contents)*
@@ -107,6 +154,8 @@ we compute residuals, &delta;W<sub>es</sub>, of the natural-log ground motions (
 
 We take &phi;<sub>s</sub> to be the standard deviation of all residuals, &delta;W<sub>es</sub>, across each combination of Rupture, Path.
 
+We also compute distance-independent &phi;<sub>s</sub>, which is computed as the standard deviation of all residuals, &delta;W<sub>es</sub>, across all distances. Each residual is still computed relative to the log-median ground motion at it's distance.
+
 Here is an exmample with 5 rotations, which would be repeated for each combination of [Rupture, Path]. The site is shown with a blue square, and initially oriented rupture in bold with its hypocenter as a red star and centroid a green circle. Rotations of that rupture are in gray:
 
 ![Example](resources/example_source_strike.png)
@@ -121,16 +170,13 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |  | 0.52 | 0.52 | 0.53 | [0.36 0.66] |  | 0.46 | 0.46 | 0.45 | [0.24 0.62] |  | 0.41 | 0.41 | 0.4 | [0.21 0.59] |  | 0.37 | 0.37 | 0.38 | [0.16 0.53] |
 
+Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture, from which we compute a total &phi;<sub>s</sub>
+
 | 3s | 5s |
 |-----|-----|
 | ![3s](resources/source_strike_m7.6_20km_3s_hist.png) | ![5s](resources/source_strike_m7.6_20km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/source_strike_m7.6_20km_7.5s_hist.png) | ![10s](resources/source_strike_m7.6_20km_10s_hist.png) |
-
-| 3s | 5s | 7.5s | 10s |
-|-----|-----|-----|-----|
-| ![Scatter](resources/source_strike_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_std_dev.png) |
-| ![Scatter](resources/source_strike_scatter__v_prop_3s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_residual.png) |
 
 
 ### 50.0 km M7.6 Source-strike Results
@@ -142,16 +188,13 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |  | 0.46 | 0.46 | 0.48 | [0.32 0.61] |  | 0.44 | 0.44 | 0.43 | [0.22 0.58] |  | 0.38 | 0.37 | 0.36 | [0.21 0.55] |  | 0.33 | 0.33 | 0.33 | [0.16 0.53] |
 
+Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture, from which we compute a total &phi;<sub>s</sub>
+
 | 3s | 5s |
 |-----|-----|
 | ![3s](resources/source_strike_m7.6_50km_3s_hist.png) | ![5s](resources/source_strike_m7.6_50km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/source_strike_m7.6_50km_7.5s_hist.png) | ![10s](resources/source_strike_m7.6_50km_10s_hist.png) |
-
-| 3s | 5s | 7.5s | 10s |
-|-----|-----|-----|-----|
-| ![Scatter](resources/source_strike_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_std_dev.png) |
-| ![Scatter](resources/source_strike_scatter__v_prop_3s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_residual.png) |
 
 
 ### 100.0 km M7.6 Source-strike Results
@@ -163,16 +206,31 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |  | 0.41 | 0.41 | 0.41 | [0.28 0.54] |  | 0.4 | 0.41 | 0.39 | [0.27 0.59] |  | 0.36 | 0.36 | 0.35 | [0.17 0.54] |  | 0.37 | 0.37 | 0.36 | [0.17 0.64] |
 
+Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture, from which we compute a total &phi;<sub>s</sub>
+
 | 3s | 5s |
 |-----|-----|
 | ![3s](resources/source_strike_m7.6_100km_3s_hist.png) | ![5s](resources/source_strike_m7.6_100km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/source_strike_m7.6_100km_7.5s_hist.png) | ![10s](resources/source_strike_m7.6_100km_10s_hist.png) |
 
-| 3s | 5s | 7.5s | 10s |
-|-----|-----|-----|-----|
-| ![Scatter](resources/source_strike_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_std_dev.png) |
-| ![Scatter](resources/source_strike_scatter__v_prop_3s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/source_strike_scatter__v_prop_10s_residual.png) |
+
+### All Distances M7.6 Source-strike Results
+*[(top)](#table-of-contents)*
+
+![Source-strike Variability](resources/source_strike_m7.6_std_dev.png)
+
+| 3s &phi;<sub>s</sub> | Total | Mean | Median | Range | 5s &phi;<sub>s</sub> | Total | Mean | Median | Range | 7.5s &phi;<sub>s</sub> | Total | Mean | Median | Range | 10s &phi;<sub>s</sub> | Total | Mean | Median | Range |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|  | 0.46 | 0.46 | 0.47 | [0.28 0.66] |  | 0.43 | 0.43 | 0.43 | [0.22 0.62] |  | 0.38 | 0.38 | 0.37 | [0.17 0.59] |  | 0.36 | 0.36 | 0.36 | [0.16 0.64] |
+
+Here are plots of the histogram of &phi;<sub>s</sub> for each individual rupture, from which we compute a total &phi;<sub>s</sub>
+
+| 3s | 5s |
+|-----|-----|
+| ![3s](resources/source_strike_m7.6_3s_hist.png) | ![5s](resources/source_strike_m7.6_5s_hist.png) |
+| 7.5s | 10s |
+| ![7.5s](resources/source_strike_m7.6_7.5s_hist.png) | ![10s](resources/source_strike_m7.6_10s_hist.png) |
 
 
 ## Within-event, single-site Variability
@@ -197,6 +255,8 @@ we compute residuals, &delta;W<sub>es</sub>, of the natural-log ground motions (
 
 We take &phi;<sub>SS</sub> to be the standard deviation of all residuals, &delta;W<sub>es</sub>, across each combination of Rupture.
 
+We also compute distance-independent &phi;<sub>SS</sub>, which is computed as the standard deviation of all residuals, &delta;W<sub>es</sub>, across all distances. Each residual is still computed relative to the log-median ground motion at it's distance.
+
 Here is an exmample with 5 rotations, which would be repeated for each combination of [Rupture]. The site is shown with a blue square, and initially oriented rupture in bold with its hypocenter as a red star and centroid a green circle. Rotations of that rupture are in gray:
 
 ![Example](resources/example_within_event_ss.png)
@@ -211,16 +271,13 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |  | 0.52 | 0.52 | 0.53 | [0.36 0.66] |  | 0.46 | 0.46 | 0.45 | [0.24 0.62] |  | 0.41 | 0.41 | 0.4 | [0.21 0.59] |  | 0.37 | 0.37 | 0.38 | [0.16 0.53] |
 
+Here are plots of the histogram of &phi;<sub>SS</sub> for each individual rupture, from which we compute a total &phi;<sub>SS</sub>
+
 | 3s | 5s |
 |-----|-----|
 | ![3s](resources/within_event_ss_m7.6_20km_3s_hist.png) | ![5s](resources/within_event_ss_m7.6_20km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/within_event_ss_m7.6_20km_7.5s_hist.png) | ![10s](resources/within_event_ss_m7.6_20km_10s_hist.png) |
-
-| 3s | 5s | 7.5s | 10s |
-|-----|-----|-----|-----|
-| ![Scatter](resources/within_event_ss_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_10s_std_dev.png) |
-| ![Scatter](resources/within_event_ss_scatter__v_prop_3s_residual.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_5s_residual.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_10s_residual.png) |
 
 
 ### 50.0 km M7.6 Within-event, single-site Results
@@ -232,16 +289,13 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |  | 0.46 | 0.46 | 0.48 | [0.32 0.61] |  | 0.44 | 0.44 | 0.43 | [0.22 0.58] |  | 0.38 | 0.37 | 0.36 | [0.21 0.55] |  | 0.33 | 0.33 | 0.33 | [0.16 0.53] |
 
+Here are plots of the histogram of &phi;<sub>SS</sub> for each individual rupture, from which we compute a total &phi;<sub>SS</sub>
+
 | 3s | 5s |
 |-----|-----|
 | ![3s](resources/within_event_ss_m7.6_50km_3s_hist.png) | ![5s](resources/within_event_ss_m7.6_50km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/within_event_ss_m7.6_50km_7.5s_hist.png) | ![10s](resources/within_event_ss_m7.6_50km_10s_hist.png) |
-
-| 3s | 5s | 7.5s | 10s |
-|-----|-----|-----|-----|
-| ![Scatter](resources/within_event_ss_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_10s_std_dev.png) |
-| ![Scatter](resources/within_event_ss_scatter__v_prop_3s_residual.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_5s_residual.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_10s_residual.png) |
 
 
 ### 100.0 km M7.6 Within-event, single-site Results
@@ -253,16 +307,31 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |  | 0.41 | 0.41 | 0.41 | [0.28 0.54] |  | 0.4 | 0.41 | 0.39 | [0.27 0.59] |  | 0.36 | 0.36 | 0.35 | [0.17 0.54] |  | 0.37 | 0.37 | 0.36 | [0.17 0.64] |
 
+Here are plots of the histogram of &phi;<sub>SS</sub> for each individual rupture, from which we compute a total &phi;<sub>SS</sub>
+
 | 3s | 5s |
 |-----|-----|
 | ![3s](resources/within_event_ss_m7.6_100km_3s_hist.png) | ![5s](resources/within_event_ss_m7.6_100km_5s_hist.png) |
 | 7.5s | 10s |
 | ![7.5s](resources/within_event_ss_m7.6_100km_7.5s_hist.png) | ![10s](resources/within_event_ss_m7.6_100km_10s_hist.png) |
 
-| 3s | 5s | 7.5s | 10s |
-|-----|-----|-----|-----|
-| ![Scatter](resources/within_event_ss_scatter__v_prop_3s_std_dev.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_5s_std_dev.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_7.5s_std_dev.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_10s_std_dev.png) |
-| ![Scatter](resources/within_event_ss_scatter__v_prop_3s_residual.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_5s_residual.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_7.5s_residual.png) | ![Scatter](resources/within_event_ss_scatter__v_prop_10s_residual.png) |
+
+### All Distances M7.6 Within-event, single-site Results
+*[(top)](#table-of-contents)*
+
+![Within-event, single-site Variability](resources/within_event_ss_m7.6_std_dev.png)
+
+| 3s &phi;<sub>SS</sub> | Total | Mean | Median | Range | 5s &phi;<sub>SS</sub> | Total | Mean | Median | Range | 7.5s &phi;<sub>SS</sub> | Total | Mean | Median | Range | 10s &phi;<sub>SS</sub> | Total | Mean | Median | Range |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|  | 0.46 | 0.46 | 0.47 | [0.28 0.66] |  | 0.43 | 0.43 | 0.43 | [0.22 0.62] |  | 0.38 | 0.38 | 0.37 | [0.17 0.59] |  | 0.36 | 0.36 | 0.36 | [0.16 0.64] |
+
+Here are plots of the histogram of &phi;<sub>SS</sub> for each individual rupture, from which we compute a total &phi;<sub>SS</sub>
+
+| 3s | 5s |
+|-----|-----|
+| ![3s](resources/within_event_ss_m7.6_3s_hist.png) | ![5s](resources/within_event_ss_m7.6_5s_hist.png) |
+| 7.5s | 10s |
+| ![7.5s](resources/within_event_ss_m7.6_7.5s_hist.png) | ![10s](resources/within_event_ss_m7.6_10s_hist.png) |
 
 
 ## Between-events Variability
@@ -273,7 +342,6 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 
 Between-events variability, denoted &tau; in Al Atik (2010), is computed separately for each:
 
-* Site *[1 unique]*
 * Distance *[3 unique]*
 
 We first compute the median natural-log ground motion, &delta;B<sub>e</sub>, for each combination of:
@@ -282,10 +350,13 @@ We first compute the median natural-log ground motion, &delta;B<sub>e</sub>, for
 
 That median, &delta;B<sub>e</sub>, is computed across all 18 combinations of:
 
+* Site *[1 unique]*
 * Rupture Strike *[18 unique]*
 * Path *[1 unique]*
 
 We take &tau; to be the standard deviation of all &delta;B<sub>e</sub>.
+
+We also compute distance-independent &tau;, which we take to be the mean value across all distances.
 
 Here is an exmample with 5 rotations, which would be repeated for each combination of [Rupture]. The site is shown with a blue square, and initially oriented rupture in bold with its hypocenter as a red star and centroid a green circle. Rotations of that rupture are in gray:
 
@@ -322,6 +393,83 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 | 0.11 | -3.73 | [-3.96 -3.46] | 0.14 | -4.56 | [-4.94 -4.3] | 0.16 | -5.09 | [-5.42 -4.77] | 0.22 | -5.47 | [-6 -5.01] |
 
 
+### All Distances M7.6 Between-events Results
+*[(top)](#table-of-contents)*
+
+![Between-events Variability](resources/between_events_m7.6_std_dev.png)
+
+| 3s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 5s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 7.5s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range | 10s &tau; | Mean &delta;B<sub>e</sub> | &delta;B<sub>e</sub> Range |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| 0.12 | -3.21 | [-3.96 -2.11] | 0.14 | -3.99 | [-4.94 -3.09] | 0.17 | -4.58 | [-5.42 -3.6] | 0.21 | -5.06 | [-6 -4.1] |
+
+
+## Event Term Scatters
+*[(top)](#table-of-contents)*
+
+### Propagation Velocity Event Term Scatters
+*[(top)](#table-of-contents)*
+
+|  | 3 s | 5 s | 7.5 s | 10 s |
+|-----|-----|-----|-----|-----|
+| **20 km** | ![plot](resources/event_term_scatter_v_prop_m7.6_20km_USC_3s.png) | ![plot](resources/event_term_scatter_v_prop_m7.6_20km_USC_5s.png) | ![plot](resources/event_term_scatter_v_prop_m7.6_20km_USC_7.5s.png) | ![plot](resources/event_term_scatter_v_prop_m7.6_20km_USC_10s.png) |
+| **50 km** | ![plot](resources/event_term_scatter_v_prop_m7.6_50km_USC_3s.png) | ![plot](resources/event_term_scatter_v_prop_m7.6_50km_USC_5s.png) | ![plot](resources/event_term_scatter_v_prop_m7.6_50km_USC_7.5s.png) | ![plot](resources/event_term_scatter_v_prop_m7.6_50km_USC_10s.png) |
+| **100 km** | ![plot](resources/event_term_scatter_v_prop_m7.6_100km_USC_3s.png) | ![plot](resources/event_term_scatter_v_prop_m7.6_100km_USC_5s.png) | ![plot](resources/event_term_scatter_v_prop_m7.6_100km_USC_7.5s.png) | ![plot](resources/event_term_scatter_v_prop_m7.6_100km_USC_10s.png) |
+### Mag Event Term Scatters
+*[(top)](#table-of-contents)*
+
+|  | 3 s | 5 s | 7.5 s | 10 s |
+|-----|-----|-----|-----|-----|
+| **20 km** | ![plot](resources/event_term_scatter_mag_m7.6_20km_USC_3s.png) | ![plot](resources/event_term_scatter_mag_m7.6_20km_USC_5s.png) | ![plot](resources/event_term_scatter_mag_m7.6_20km_USC_7.5s.png) | ![plot](resources/event_term_scatter_mag_m7.6_20km_USC_10s.png) |
+| **50 km** | ![plot](resources/event_term_scatter_mag_m7.6_50km_USC_3s.png) | ![plot](resources/event_term_scatter_mag_m7.6_50km_USC_5s.png) | ![plot](resources/event_term_scatter_mag_m7.6_50km_USC_7.5s.png) | ![plot](resources/event_term_scatter_mag_m7.6_50km_USC_10s.png) |
+| **100 km** | ![plot](resources/event_term_scatter_mag_m7.6_100km_USC_3s.png) | ![plot](resources/event_term_scatter_mag_m7.6_100km_USC_5s.png) | ![plot](resources/event_term_scatter_mag_m7.6_100km_USC_7.5s.png) | ![plot](resources/event_term_scatter_mag_m7.6_100km_USC_10s.png) |
+### Log10(Area) Event Term Scatters
+*[(top)](#table-of-contents)*
+
+|  | 3 s | 5 s | 7.5 s | 10 s |
+|-----|-----|-----|-----|-----|
+| **20 km** | ![plot](resources/event_term_scatter_area_m7.6_20km_USC_3s.png) | ![plot](resources/event_term_scatter_area_m7.6_20km_USC_5s.png) | ![plot](resources/event_term_scatter_area_m7.6_20km_USC_7.5s.png) | ![plot](resources/event_term_scatter_area_m7.6_20km_USC_10s.png) |
+| **50 km** | ![plot](resources/event_term_scatter_area_m7.6_50km_USC_3s.png) | ![plot](resources/event_term_scatter_area_m7.6_50km_USC_5s.png) | ![plot](resources/event_term_scatter_area_m7.6_50km_USC_7.5s.png) | ![plot](resources/event_term_scatter_area_m7.6_50km_USC_10s.png) |
+| **100 km** | ![plot](resources/event_term_scatter_area_m7.6_100km_USC_3s.png) | ![plot](resources/event_term_scatter_area_m7.6_100km_USC_5s.png) | ![plot](resources/event_term_scatter_area_m7.6_100km_USC_7.5s.png) | ![plot](resources/event_term_scatter_area_m7.6_100km_USC_10s.png) |
+### Max Slip Event Term Scatters
+*[(top)](#table-of-contents)*
+
+|  | 3 s | 5 s | 7.5 s | 10 s |
+|-----|-----|-----|-----|-----|
+| **20 km** | ![plot](resources/event_term_scatter_max_slip_m7.6_20km_USC_3s.png) | ![plot](resources/event_term_scatter_max_slip_m7.6_20km_USC_5s.png) | ![plot](resources/event_term_scatter_max_slip_m7.6_20km_USC_7.5s.png) | ![plot](resources/event_term_scatter_max_slip_m7.6_20km_USC_10s.png) |
+| **50 km** | ![plot](resources/event_term_scatter_max_slip_m7.6_50km_USC_3s.png) | ![plot](resources/event_term_scatter_max_slip_m7.6_50km_USC_5s.png) | ![plot](resources/event_term_scatter_max_slip_m7.6_50km_USC_7.5s.png) | ![plot](resources/event_term_scatter_max_slip_m7.6_50km_USC_10s.png) |
+| **100 km** | ![plot](resources/event_term_scatter_max_slip_m7.6_100km_USC_3s.png) | ![plot](resources/event_term_scatter_max_slip_m7.6_100km_USC_5s.png) | ![plot](resources/event_term_scatter_max_slip_m7.6_100km_USC_7.5s.png) | ![plot](resources/event_term_scatter_max_slip_m7.6_100km_USC_10s.png) |
+### Mean Slip Event Term Scatters
+*[(top)](#table-of-contents)*
+
+|  | 3 s | 5 s | 7.5 s | 10 s |
+|-----|-----|-----|-----|-----|
+| **20 km** | ![plot](resources/event_term_scatter_mean_slip_m7.6_20km_USC_3s.png) | ![plot](resources/event_term_scatter_mean_slip_m7.6_20km_USC_5s.png) | ![plot](resources/event_term_scatter_mean_slip_m7.6_20km_USC_7.5s.png) | ![plot](resources/event_term_scatter_mean_slip_m7.6_20km_USC_10s.png) |
+| **50 km** | ![plot](resources/event_term_scatter_mean_slip_m7.6_50km_USC_3s.png) | ![plot](resources/event_term_scatter_mean_slip_m7.6_50km_USC_5s.png) | ![plot](resources/event_term_scatter_mean_slip_m7.6_50km_USC_7.5s.png) | ![plot](resources/event_term_scatter_mean_slip_m7.6_50km_USC_10s.png) |
+| **100 km** | ![plot](resources/event_term_scatter_mean_slip_m7.6_100km_USC_3s.png) | ![plot](resources/event_term_scatter_mean_slip_m7.6_100km_USC_5s.png) | ![plot](resources/event_term_scatter_mean_slip_m7.6_100km_USC_7.5s.png) | ![plot](resources/event_term_scatter_mean_slip_m7.6_100km_USC_10s.png) |
+### Slip Std Dev Event Term Scatters
+*[(top)](#table-of-contents)*
+
+|  | 3 s | 5 s | 7.5 s | 10 s |
+|-----|-----|-----|-----|-----|
+| **20 km** | ![plot](resources/event_term_scatter_slip_std_dev_m7.6_20km_USC_3s.png) | ![plot](resources/event_term_scatter_slip_std_dev_m7.6_20km_USC_5s.png) | ![plot](resources/event_term_scatter_slip_std_dev_m7.6_20km_USC_7.5s.png) | ![plot](resources/event_term_scatter_slip_std_dev_m7.6_20km_USC_10s.png) |
+| **50 km** | ![plot](resources/event_term_scatter_slip_std_dev_m7.6_50km_USC_3s.png) | ![plot](resources/event_term_scatter_slip_std_dev_m7.6_50km_USC_5s.png) | ![plot](resources/event_term_scatter_slip_std_dev_m7.6_50km_USC_7.5s.png) | ![plot](resources/event_term_scatter_slip_std_dev_m7.6_50km_USC_10s.png) |
+| **100 km** | ![plot](resources/event_term_scatter_slip_std_dev_m7.6_100km_USC_3s.png) | ![plot](resources/event_term_scatter_slip_std_dev_m7.6_100km_USC_5s.png) | ![plot](resources/event_term_scatter_slip_std_dev_m7.6_100km_USC_7.5s.png) | ![plot](resources/event_term_scatter_slip_std_dev_m7.6_100km_USC_10s.png) |
+### Mid-Seismogenic Mean Slip Event Term Scatters
+*[(top)](#table-of-contents)*
+
+|  | 3 s | 5 s | 7.5 s | 10 s |
+|-----|-----|-----|-----|-----|
+| **20 km** | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.6_20km_USC_3s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.6_20km_USC_5s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.6_20km_USC_7.5s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.6_20km_USC_10s.png) |
+| **50 km** | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.6_50km_USC_3s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.6_50km_USC_5s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.6_50km_USC_7.5s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.6_50km_USC_10s.png) |
+| **100 km** | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.6_100km_USC_3s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.6_100km_USC_5s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.6_100km_USC_7.5s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.6_100km_USC_10s.png) |
+## Directivity Comparisons
+*[(top)](#table-of-contents)*
+
+|  | 3 s | 5 s | 7.5 s | 10 s |
+|-----|-----|-----|-----|-----|
+| **20 km** | ![plot](resources/directivity_20km_3s.png) | ![plot](resources/directivity_20km_5s.png) | ![plot](resources/directivity_20km_7.5s.png) | ![plot](resources/directivity_20km_10s.png) |
+| **50 km** | ![plot](resources/directivity_50km_3s.png) | ![plot](resources/directivity_50km_5s.png) | ![plot](resources/directivity_50km_7.5s.png) | ![plot](resources/directivity_50km_10s.png) |
+| **100 km** | *N/A* | *N/A* | *N/A* | *N/A* |
 ## Azumth Dependence
 *[(top)](#table-of-contents)*
 
