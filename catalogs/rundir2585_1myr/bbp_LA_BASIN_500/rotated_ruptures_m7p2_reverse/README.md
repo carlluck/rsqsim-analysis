@@ -650,6 +650,8 @@ This is a histogram of the number of recordings per event from ASK 2014 with M=[
 ## Directivity Comparisons
 *[(top)](#table-of-contents)*
 
+Directivity comparisons for individual ruptures can be found [here](resources/directivity_debug/README.md).
+
 |  | 3 s | 5 s | 7.5 s | 10 s |
 |-----|-----|-----|-----|-----|
 | **20 km** | ![plot](resources/directivity_20km_3s.png) | ![plot](resources/directivity_20km_5s.png) | ![plot](resources/directivity_20km_7.5s.png) | ![plot](resources/directivity_20km_10s.png) |
