@@ -118,6 +118,7 @@
 * [Event 3817386, M7.57](bbp_LA_BASIN_500/event_3817386/)
 * [Event 9955310, M7.50](bbp_LA_BASIN_500/event_9955310/)
 * [Event 9955310, M7.50, GP DDW Extension](bbp_LA_BASIN_500/event_9955310_adjustDDW/)
+* [Event 9955310, M7.50, Time Scale Factor: 2.0, Velocities Scaled](bbp_LA_BASIN_500/event_9955310_timeScale2.0_velScale/)
 
 ### Full Catalog GMPE Comparisons, LA Basin 500 (m/s)
 *[(top)](#bruce-2585-1myr)*
