@@ -73,6 +73,8 @@
     * [s022 RotD Ratio](#s022-rotd-ratio)
     * [s022 Acceleration Seismograms](#s022-acceleration-seismograms)
     * [s022 Velocity Seismograms](#s022-velocity-seismograms)
+* [ShakeMaps](#shakemaps)
+  * [Region RotD100/RotD50 Ratio](#region-rotd100rotd50-ratio)
 ## Fault List
 *[(top)](#table-of-contents)*
 
@@ -420,3 +422,33 @@
 *[(top)](#table-of-contents)*
 
 ![s022 Velocity Seismograms](resources/seis_vel_s022.png)
+
+## ShakeMaps
+*[(top)](#table-of-contents)*
+
+
+| SA Period | RSQSim | NGAWest_2014_NoIdr | Ratio |
+|-----|-----|-----|-----|
+| **1.0 s** | ![RSQSim Map](resources/shakemap_1s.png) | ![NGAWest_2014_NoIdr Map](resources/shakemap_1s_NGAWest_2014_NoIdr.png) | ![NGAWest_2014_NoIdr Ratio](resources/shakemap_1s_NGAWest_2014_NoIdr_ratio.png) |
+| **2.0 s** | ![RSQSim Map](resources/shakemap_2s.png) | ![NGAWest_2014_NoIdr Map](resources/shakemap_2s_NGAWest_2014_NoIdr.png) | ![NGAWest_2014_NoIdr Ratio](resources/shakemap_2s_NGAWest_2014_NoIdr_ratio.png) |
+| **3.0 s** | ![RSQSim Map](resources/shakemap_3s.png) | ![NGAWest_2014_NoIdr Map](resources/shakemap_3s_NGAWest_2014_NoIdr.png) | ![NGAWest_2014_NoIdr Ratio](resources/shakemap_3s_NGAWest_2014_NoIdr_ratio.png) |
+| **4.0 s** | ![RSQSim Map](resources/shakemap_4s.png) | ![NGAWest_2014_NoIdr Map](resources/shakemap_4s_NGAWest_2014_NoIdr.png) | ![NGAWest_2014_NoIdr Ratio](resources/shakemap_4s_NGAWest_2014_NoIdr_ratio.png) |
+| **5.0 s** | ![RSQSim Map](resources/shakemap_5s.png) | ![NGAWest_2014_NoIdr Map](resources/shakemap_5s_NGAWest_2014_NoIdr.png) | ![NGAWest_2014_NoIdr Ratio](resources/shakemap_5s_NGAWest_2014_NoIdr_ratio.png) |
+| **7.5 s** | ![RSQSim Map](resources/shakemap_7.5s.png) | ![NGAWest_2014_NoIdr Map](resources/shakemap_7.5s_NGAWest_2014_NoIdr.png) | ![NGAWest_2014_NoIdr Ratio](resources/shakemap_7.5s_NGAWest_2014_NoIdr_ratio.png) |
+| **10.0 s** | ![RSQSim Map](resources/shakemap_10s.png) | ![NGAWest_2014_NoIdr Map](resources/shakemap_10s_NGAWest_2014_NoIdr.png) | ![NGAWest_2014_NoIdr Ratio](resources/shakemap_10s_NGAWest_2014_NoIdr_ratio.png) |
+### Region RotD100/RotD50 Ratio
+*[(top)](#table-of-contents)*
+
+![ShakeMap RotD Ratio Plot](resources/rotd_ratio_shakemap.png)
+
+![ShakeMap RotD Dist Dependence](resources/rotd_ratio_shakemap_dist_dependence.png)
+
+| SA Period | RotD50 | RotD100 | RotD100/RotD50 Ratio |
+|-----|-----|-----|-----|
+| **1.0 s** | ![RotD50 Map](resources/shakemap_1s.png) | ![RotD100 Map](resources/shakemap_1s_rd100.png) | ![RotD Ratio Map](resources/shakemap_1s_rd100_ratio.png) |
+| **2.0 s** | ![RotD50 Map](resources/shakemap_2s.png) | ![RotD100 Map](resources/shakemap_2s_rd100.png) | ![RotD Ratio Map](resources/shakemap_2s_rd100_ratio.png) |
+| **3.0 s** | ![RotD50 Map](resources/shakemap_3s.png) | ![RotD100 Map](resources/shakemap_3s_rd100.png) | ![RotD Ratio Map](resources/shakemap_3s_rd100_ratio.png) |
+| **4.0 s** | ![RotD50 Map](resources/shakemap_4s.png) | ![RotD100 Map](resources/shakemap_4s_rd100.png) | ![RotD Ratio Map](resources/shakemap_4s_rd100_ratio.png) |
+| **5.0 s** | ![RotD50 Map](resources/shakemap_5s.png) | ![RotD100 Map](resources/shakemap_5s_rd100.png) | ![RotD Ratio Map](resources/shakemap_5s_rd100_ratio.png) |
+| **7.5 s** | ![RotD50 Map](resources/shakemap_7.5s.png) | ![RotD100 Map](resources/shakemap_7.5s_rd100.png) | ![RotD Ratio Map](resources/shakemap_7.5s_rd100_ratio.png) |
+| **10.0 s** | ![RotD50 Map](resources/shakemap_10s.png) | ![RotD100 Map](resources/shakemap_10s_rd100.png) | ![RotD Ratio Map](resources/shakemap_10s_rd100_ratio.png) |
