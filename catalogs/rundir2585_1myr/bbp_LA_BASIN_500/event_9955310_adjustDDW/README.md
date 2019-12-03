@@ -79,6 +79,9 @@
     * [s022 RotD Ratio](#s022-rotd-ratio)
     * [s022 Acceleration Seismograms](#s022-acceleration-seismograms)
     * [s022 Velocity Seismograms](#s022-velocity-seismograms)
+* [G&P ShakeMaps](#gp-shakemaps)
+  * [GP Region RotD100/RotD50 Ratio, Seed 1000](#gp-region-rotd100rotd50-ratio-seed-1000)
+  * [GP Region RotD100/RotD50 Ratio, Seed 1001](#gp-region-rotd100rotd50-ratio-seed-1001)
 ## Fault List
 *[(top)](#table-of-contents)*
 
@@ -464,3 +467,43 @@ RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparison
 RSQSim ruptures in blue. Gray seismograms are Graves & Pitarka (2015) comparisons.
 
 ![s022 Velocity Seismograms](resources/seis_vel_s022.png)
+
+## G&P ShakeMaps
+*[(top)](#table-of-contents)*
+
+
+| SA Period | G&P Seed 1000 | G&P Seed 1001 |
+|-----|-----|-----|
+| **1.0 s** | ![GP Map](resources/gp_shakemap_seed1000_1s.png) | ![GP Map](resources/gp_shakemap_seed1001_1s.png) |
+| **2.0 s** | ![GP Map](resources/gp_shakemap_seed1000_2s.png) | ![GP Map](resources/gp_shakemap_seed1001_2s.png) |
+| **3.0 s** | ![GP Map](resources/gp_shakemap_seed1000_3s.png) | ![GP Map](resources/gp_shakemap_seed1001_3s.png) |
+| **4.0 s** | ![GP Map](resources/gp_shakemap_seed1000_4s.png) | ![GP Map](resources/gp_shakemap_seed1001_4s.png) |
+| **5.0 s** | ![GP Map](resources/gp_shakemap_seed1000_5s.png) | ![GP Map](resources/gp_shakemap_seed1001_5s.png) |
+| **7.5 s** | ![GP Map](resources/gp_shakemap_seed1000_7.5s.png) | ![GP Map](resources/gp_shakemap_seed1001_7.5s.png) |
+| **10.0 s** | ![GP Map](resources/gp_shakemap_seed1000_10s.png) | ![GP Map](resources/gp_shakemap_seed1001_10s.png) |
+### GP Region RotD100/RotD50 Ratio, Seed 1000
+*[(top)](#table-of-contents)*
+
+
+| SA Period | RotD50 | RotD100 | RotD100/RotD50 Ratio |
+|-----|-----|-----|-----|
+| **1.0 s** | ![RotD50 Map](resources/gp_shakemap_seed1000_1s.png) | ![RotD100 Map](resources/gp_shakemap_seed1000_1s_rd100.png) | ![RotD Ratio Map](resources/gp_shakemap_seed1000_1s_rd100_ratio.png) |
+| **2.0 s** | ![RotD50 Map](resources/gp_shakemap_seed1000_2s.png) | ![RotD100 Map](resources/gp_shakemap_seed1000_2s_rd100.png) | ![RotD Ratio Map](resources/gp_shakemap_seed1000_2s_rd100_ratio.png) |
+| **3.0 s** | ![RotD50 Map](resources/gp_shakemap_seed1000_3s.png) | ![RotD100 Map](resources/gp_shakemap_seed1000_3s_rd100.png) | ![RotD Ratio Map](resources/gp_shakemap_seed1000_3s_rd100_ratio.png) |
+| **4.0 s** | ![RotD50 Map](resources/gp_shakemap_seed1000_4s.png) | ![RotD100 Map](resources/gp_shakemap_seed1000_4s_rd100.png) | ![RotD Ratio Map](resources/gp_shakemap_seed1000_4s_rd100_ratio.png) |
+| **5.0 s** | ![RotD50 Map](resources/gp_shakemap_seed1000_5s.png) | ![RotD100 Map](resources/gp_shakemap_seed1000_5s_rd100.png) | ![RotD Ratio Map](resources/gp_shakemap_seed1000_5s_rd100_ratio.png) |
+| **7.5 s** | ![RotD50 Map](resources/gp_shakemap_seed1000_7.5s.png) | ![RotD100 Map](resources/gp_shakemap_seed1000_7.5s_rd100.png) | ![RotD Ratio Map](resources/gp_shakemap_seed1000_7.5s_rd100_ratio.png) |
+| **10.0 s** | ![RotD50 Map](resources/gp_shakemap_seed1000_10s.png) | ![RotD100 Map](resources/gp_shakemap_seed1000_10s_rd100.png) | ![RotD Ratio Map](resources/gp_shakemap_seed1000_10s_rd100_ratio.png) |
+### GP Region RotD100/RotD50 Ratio, Seed 1001
+*[(top)](#table-of-contents)*
+
+
+| SA Period | RotD50 | RotD100 | RotD100/RotD50 Ratio |
+|-----|-----|-----|-----|
+| **1.0 s** | ![RotD50 Map](resources/gp_shakemap_seed1001_1s.png) | ![RotD100 Map](resources/gp_shakemap_seed1001_1s_rd100.png) | ![RotD Ratio Map](resources/gp_shakemap_seed1001_1s_rd100_ratio.png) |
+| **2.0 s** | ![RotD50 Map](resources/gp_shakemap_seed1001_2s.png) | ![RotD100 Map](resources/gp_shakemap_seed1001_2s_rd100.png) | ![RotD Ratio Map](resources/gp_shakemap_seed1001_2s_rd100_ratio.png) |
+| **3.0 s** | ![RotD50 Map](resources/gp_shakemap_seed1001_3s.png) | ![RotD100 Map](resources/gp_shakemap_seed1001_3s_rd100.png) | ![RotD Ratio Map](resources/gp_shakemap_seed1001_3s_rd100_ratio.png) |
+| **4.0 s** | ![RotD50 Map](resources/gp_shakemap_seed1001_4s.png) | ![RotD100 Map](resources/gp_shakemap_seed1001_4s_rd100.png) | ![RotD Ratio Map](resources/gp_shakemap_seed1001_4s_rd100_ratio.png) |
+| **5.0 s** | ![RotD50 Map](resources/gp_shakemap_seed1001_5s.png) | ![RotD100 Map](resources/gp_shakemap_seed1001_5s_rd100.png) | ![RotD Ratio Map](resources/gp_shakemap_seed1001_5s_rd100_ratio.png) |
+| **7.5 s** | ![RotD50 Map](resources/gp_shakemap_seed1001_7.5s.png) | ![RotD100 Map](resources/gp_shakemap_seed1001_7.5s_rd100.png) | ![RotD Ratio Map](resources/gp_shakemap_seed1001_7.5s_rd100_ratio.png) |
+| **10.0 s** | ![RotD50 Map](resources/gp_shakemap_seed1001_10s.png) | ![RotD100 Map](resources/gp_shakemap_seed1001_10s_rd100.png) | ![RotD Ratio Map](resources/gp_shakemap_seed1001_10s_rd100_ratio.png) |
