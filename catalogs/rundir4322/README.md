@@ -49,8 +49,8 @@
 ### Single Event Comparisons, LA Basin 500 (m/s)
 *[(top)](#bruce-4322)*
 
-* [Event 40636, M7.28, Time Scale Factor: 2.0, Velocities Scaled](bbp_LA_BASIN_500/event_40636_timeScale2.0_velScale/)
-* [Event 92236, M7.19, Time Scale Factor: 2.0, Velocities Scaled](bbp_LA_BASIN_500/event_92236_timeScale2.0_velScale/)
+* [Event 40636, M7.28](bbp_LA_BASIN_500/event_40636/)
+* [Event 92236, M7.19](bbp_LA_BASIN_500/event_92236/)
 
 ### Full Catalog GMPE Comparisons, LA Basin 500 (m/s)
 *[(top)](#bruce-4322)*
