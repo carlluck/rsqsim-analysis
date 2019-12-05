@@ -2,8 +2,8 @@
 
 Map plots show the re-oriented (with strike=0) raw rupture in black, the linear GMPE source used to predict directivity with a dashed line, and hypocenter with a star. Map background is empirical fD estimates, and mean simulated values at 20 and 50 km are overlaid. The chart on the right shows the simulated values for 20 km at each spectral period.
 
-| 3s Map Plot | 5s Map Plot | 7.5s Map Plot | 10s Map Plot | Residuals Plot |
-|-----|-----|-----|-----|-----|
+| 3s Map Plot | 5s Map Plot | 10s Map Plot | Residuals Plot |
+|-----|-----|-----|-----|
 | ![plot](event_10153094_map_3s.png) | ![plot](event_10153094_map_5s.png) | ![plot](event_10153094_map_10s.png) | ![plot](event_10153094_residuals.png) |
 | ![plot](event_10155220_map_3s.png) | ![plot](event_10155220_map_5s.png) | ![plot](event_10155220_map_10s.png) | ![plot](event_10155220_residuals.png) |
 | ![plot](event_10155360_map_3s.png) | ![plot](event_10155360_map_5s.png) | ![plot](event_10155360_map_10s.png) | ![plot](event_10155360_residuals.png) |

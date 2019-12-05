@@ -10,7 +10,7 @@ We then  perform various rotations. We rotate the rupture in place around its ce
 
 ## Table Of Contents
 * [Rupture Rotation Parameters](#rupture-rotation-parameters)
-* [M7.2 SS RndMag 0.2 RSQSim Rupture Match Criteria](#m72-ss-rndmag-02-rsqsim-rupture-match-criteria)
+* [M7.2 SS RndMag 0.2 Rupture Match Criteria](#m72-ss-rndmag-02-rupture-match-criteria)
   * [Fault Section Counts](#fault-section-counts)
 * [Sites](#sites)
 * [Result Summary Table](#result-summary-table)
@@ -60,10 +60,10 @@ We then  perform various rotations. We rotate the rupture in place around its ce
 | Distance | 20.0, 50.0, 100.0 km | 3-dimensional distance between the site and the rupture surface. |
 | **Total # Simulations** | **5400** | Total number of combinations of the above. |
 
-## M7.2 SS RndMag 0.2 RSQSim Rupture Match Criteria
+## M7.2 SS RndMag 0.2 Rupture Match Criteria
 *[(top)](#table-of-contents)*
 
-We condisder 100 events in the catalog which match the following criteria:
+We condisder 100 events which match the following criteria:
 
 * M=[7.0,7.4]
 * Ztor=[0.0,1.0]
@@ -222,14 +222,14 @@ We compute uncertainties on &phi;<sub>s</sub> through downsampling the rotationa
 
 | Period (s) | Full &phi;<sub>s</sub> | Downsampled median &phi;<sub>s</sub> | Downsampled &phi;<sub>s</sub> std. dev. | Downsampled &phi;<sub>s</sub> 68% conf range | Downsampled &phi;<sub>s</sub> 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.41 | 0.41 | 0.03 | [0.38 0.43] | [0.35 0.47] |
-| 1 | 0.35 | 0.35 | 0.03 | [0.31 0.38] | [0.28 0.41] |
-| 2 | 0.4 | 0.4 | 0.05 | [0.36 0.45] | [0.31 0.51] |
-| 3 | 0.46 | 0.46 | 0.05 | [0.41 0.52] | [0.34 0.56] |
-| 4 | 0.46 | 0.46 | 0.07 | [0.39 0.52] | [0.32 0.61] |
-| 5 | 0.48 | 0.46 | 0.06 | [0.41 0.52] | [0.34 0.6] |
-| 7.5 | 0.39 | 0.38 | 0.05 | [0.34 0.42] | [0.29 0.5] |
-| 10 | 0.32 | 0.31 | 0.05 | [0.28 0.36] | [0.19 0.4] |
+| T-independent | 0.41 | 0.41 | 0.03 | [0.37 0.44] | [0.35 0.47] |
+| 1 | 0.35 | 0.35 | 0.03 | [0.31 0.38] | [0.28 0.4] |
+| 2 | 0.4 | 0.4 | 0.04 | [0.36 0.44] | [0.32 0.51] |
+| 3 | 0.46 | 0.44 | 0.05 | [0.39 0.5] | [0.33 0.55] |
+| 4 | 0.46 | 0.45 | 0.06 | [0.39 0.51] | [0.34 0.58] |
+| 5 | 0.48 | 0.48 | 0.06 | [0.42 0.53] | [0.34 0.61] |
+| 7.5 | 0.39 | 0.39 | 0.05 | [0.34 0.44] | [0.3 0.51] |
+| 10 | 0.32 | 0.32 | 0.05 | [0.26 0.38] | [0.23 0.43] |
 
 These plots show the distribution of period-independent downsampled &phi;<sub>s</sub> for each site.
 
@@ -263,14 +263,14 @@ We compute uncertainties on &phi;<sub>s</sub> through downsampling the rotationa
 
 | Period (s) | Full &phi;<sub>s</sub> | Downsampled median &phi;<sub>s</sub> | Downsampled &phi;<sub>s</sub> std. dev. | Downsampled &phi;<sub>s</sub> 68% conf range | Downsampled &phi;<sub>s</sub> 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.49 | 0.48 | 0.05 | [0.42 0.52] | [0.36 0.58] |
-| 1 | 0.39 | 0.37 | 0.04 | [0.33 0.41] | [0.28 0.47] |
-| 2 | 0.39 | 0.38 | 0.06 | [0.32 0.44] | [0.27 0.5] |
-| 3 | 0.47 | 0.45 | 0.07 | [0.38 0.53] | [0.32 0.6] |
-| 4 | 0.53 | 0.5 | 0.09 | [0.42 0.61] | [0.33 0.69] |
-| 5 | 0.56 | 0.54 | 0.08 | [0.47 0.61] | [0.37 0.7] |
-| 7.5 | 0.53 | 0.51 | 0.08 | [0.42 0.59] | [0.36 0.69] |
-| 10 | 0.55 | 0.55 | 0.08 | [0.45 0.61] | [0.35 0.71] |
+| T-independent | 0.49 | 0.48 | 0.04 | [0.43 0.51] | [0.38 0.56] |
+| 1 | 0.39 | 0.38 | 0.04 | [0.33 0.42] | [0.28 0.46] |
+| 2 | 0.39 | 0.37 | 0.05 | [0.31 0.43] | [0.28 0.48] |
+| 3 | 0.47 | 0.45 | 0.06 | [0.39 0.51] | [0.35 0.6] |
+| 4 | 0.53 | 0.51 | 0.07 | [0.43 0.59] | [0.39 0.68] |
+| 5 | 0.56 | 0.54 | 0.06 | [0.48 0.6] | [0.39 0.66] |
+| 7.5 | 0.53 | 0.52 | 0.07 | [0.44 0.58] | [0.35 0.63] |
+| 10 | 0.55 | 0.53 | 0.07 | [0.46 0.61] | [0.35 0.68] |
 
 These plots show the distribution of period-independent downsampled &phi;<sub>s</sub> for each site.
 
@@ -306,14 +306,14 @@ We compute uncertainties on &phi;<sub>s</sub> through downsampling the rotationa
 
 | Period (s) | Full &phi;<sub>s</sub> | Downsampled median &phi;<sub>s</sub> | Downsampled &phi;<sub>s</sub> std. dev. | Downsampled &phi;<sub>s</sub> 68% conf range | Downsampled &phi;<sub>s</sub> 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.49 | 0.48 | 0.03 | [0.45 0.51] | [0.41 0.56] |
-| 1 | 0.33 | 0.34 | 0.04 | [0.3 0.38] | [0.27 0.41] |
-| 2 | 0.37 | 0.37 | 0.05 | [0.33 0.43] | [0.25 0.48] |
-| 3 | 0.4 | 0.41 | 0.04 | [0.37 0.45] | [0.32 0.47] |
-| 4 | 0.51 | 0.51 | 0.07 | [0.44 0.57] | [0.37 0.66] |
-| 5 | 0.56 | 0.56 | 0.07 | [0.5 0.63] | [0.38 0.7] |
-| 7.5 | 0.59 | 0.57 | 0.07 | [0.5 0.63] | [0.43 0.72] |
-| 10 | 0.57 | 0.56 | 0.06 | [0.49 0.61] | [0.44 0.67] |
+| T-independent | 0.49 | 0.48 | 0.03 | [0.45 0.52] | [0.42 0.56] |
+| 1 | 0.33 | 0.33 | 0.03 | [0.3 0.37] | [0.27 0.4] |
+| 2 | 0.37 | 0.37 | 0.04 | [0.32 0.42] | [0.29 0.47] |
+| 3 | 0.4 | 0.39 | 0.05 | [0.34 0.44] | [0.29 0.49] |
+| 4 | 0.51 | 0.51 | 0.07 | [0.43 0.58] | [0.38 0.64] |
+| 5 | 0.56 | 0.56 | 0.06 | [0.51 0.62] | [0.45 0.69] |
+| 7.5 | 0.59 | 0.58 | 0.07 | [0.52 0.67] | [0.47 0.76] |
+| 10 | 0.57 | 0.57 | 0.06 | [0.5 0.62] | [0.43 0.66] |
 
 These plots show the distribution of period-independent downsampled &phi;<sub>s</sub> for each site.
 
@@ -349,14 +349,14 @@ We compute uncertainties on &phi;<sub>s</sub> through downsampling the rotationa
 
 | Period (s) | Full &phi;<sub>s</sub> | Downsampled median &phi;<sub>s</sub> | Downsampled &phi;<sub>s</sub> std. dev. | Downsampled &phi;<sub>s</sub> 68% conf range | Downsampled &phi;<sub>s</sub> 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.47 | 0.46 | 0.01 | [0.45 0.48] | [0.44 0.49] |
-| 1 | 0.36 | 0.36 | 0.01 | [0.35 0.37] | [0.33 0.38] |
-| 2 | 0.39 | 0.39 | 0.02 | [0.37 0.41] | [0.35 0.42] |
-| 3 | 0.44 | 0.44 | 0.02 | [0.42 0.46] | [0.39 0.49] |
-| 4 | 0.5 | 0.5 | 0.03 | [0.47 0.53] | [0.45 0.55] |
-| 5 | 0.54 | 0.53 | 0.02 | [0.51 0.56] | [0.49 0.59] |
-| 7.5 | 0.51 | 0.51 | 0.02 | [0.49 0.54] | [0.46 0.56] |
-| 10 | 0.49 | 0.49 | 0.02 | [0.47 0.51] | [0.45 0.54] |
+| T-independent | 0.47 | 0.46 | 0.01 | [0.45 0.48] | [0.44 0.5] |
+| 1 | 0.36 | 0.36 | 0.01 | [0.35 0.37] | [0.34 0.39] |
+| 2 | 0.39 | 0.39 | 0.02 | [0.37 0.41] | [0.34 0.44] |
+| 3 | 0.44 | 0.44 | 0.02 | [0.41 0.47] | [0.39 0.48] |
+| 4 | 0.5 | 0.5 | 0.03 | [0.47 0.52] | [0.44 0.56] |
+| 5 | 0.54 | 0.53 | 0.03 | [0.51 0.56] | [0.48 0.59] |
+| 7.5 | 0.51 | 0.51 | 0.03 | [0.48 0.53] | [0.46 0.56] |
+| 10 | 0.49 | 0.49 | 0.02 | [0.47 0.51] | [0.44 0.54] |
 
 These plots show the distribution of period-independent downsampled &phi;<sub>s</sub> for each site.
 
@@ -421,14 +421,14 @@ We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotation
 
 | Period (s) | Full &phi;<sub>SS</sub> | Downsampled median &phi;<sub>SS</sub> | Downsampled &phi;<sub>SS</sub> std. dev. | Downsampled &phi;<sub>SS</sub> 68% conf range | Downsampled &phi;<sub>SS</sub> 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.41 | 0.41 | 0.03 | [0.38 0.44] | [0.35 0.47] |
-| 1 | 0.35 | 0.35 | 0.03 | [0.31 0.38] | [0.28 0.42] |
-| 2 | 0.4 | 0.4 | 0.04 | [0.36 0.44] | [0.31 0.49] |
-| 3 | 0.46 | 0.45 | 0.05 | [0.4 0.5] | [0.36 0.57] |
-| 4 | 0.46 | 0.45 | 0.06 | [0.39 0.51] | [0.33 0.6] |
-| 5 | 0.48 | 0.48 | 0.06 | [0.41 0.54] | [0.34 0.6] |
-| 7.5 | 0.39 | 0.37 | 0.05 | [0.33 0.43] | [0.29 0.5] |
-| 10 | 0.32 | 0.3 | 0.05 | [0.25 0.36] | [0.21 0.42] |
+| T-independent | 0.41 | 0.41 | 0.03 | [0.38 0.44] | [0.35 0.46] |
+| 1 | 0.35 | 0.35 | 0.04 | [0.3 0.38] | [0.27 0.41] |
+| 2 | 0.4 | 0.39 | 0.05 | [0.35 0.44] | [0.32 0.5] |
+| 3 | 0.46 | 0.45 | 0.06 | [0.4 0.52] | [0.35 0.57] |
+| 4 | 0.46 | 0.45 | 0.06 | [0.4 0.52] | [0.3 0.58] |
+| 5 | 0.48 | 0.46 | 0.06 | [0.42 0.53] | [0.34 0.58] |
+| 7.5 | 0.39 | 0.39 | 0.05 | [0.33 0.43] | [0.29 0.49] |
+| 10 | 0.32 | 0.32 | 0.05 | [0.26 0.36] | [0.21 0.4] |
 
 These plots show the distribution of period-independent downsampled &phi;<sub>SS</sub> for each site.
 
@@ -473,14 +473,14 @@ We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotation
 
 | Period (s) | Full &phi;<sub>SS</sub> | Downsampled median &phi;<sub>SS</sub> | Downsampled &phi;<sub>SS</sub> std. dev. | Downsampled &phi;<sub>SS</sub> 68% conf range | Downsampled &phi;<sub>SS</sub> 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.49 | 0.48 | 0.04 | [0.43 0.52] | [0.4 0.59] |
-| 1 | 0.39 | 0.37 | 0.05 | [0.33 0.43] | [0.26 0.46] |
-| 2 | 0.39 | 0.38 | 0.06 | [0.32 0.44] | [0.27 0.51] |
-| 3 | 0.47 | 0.45 | 0.05 | [0.4 0.51] | [0.37 0.54] |
-| 4 | 0.53 | 0.51 | 0.08 | [0.43 0.6] | [0.38 0.69] |
-| 5 | 0.56 | 0.54 | 0.07 | [0.48 0.61] | [0.43 0.71] |
-| 7.5 | 0.53 | 0.51 | 0.07 | [0.44 0.58] | [0.36 0.68] |
-| 10 | 0.55 | 0.53 | 0.08 | [0.45 0.62] | [0.37 0.7] |
+| T-independent | 0.49 | 0.48 | 0.05 | [0.44 0.52] | [0.38 0.59] |
+| 1 | 0.39 | 0.38 | 0.05 | [0.34 0.43] | [0.3 0.48] |
+| 2 | 0.39 | 0.37 | 0.06 | [0.32 0.45] | [0.27 0.54] |
+| 3 | 0.47 | 0.46 | 0.06 | [0.39 0.52] | [0.32 0.58] |
+| 4 | 0.53 | 0.51 | 0.07 | [0.44 0.58] | [0.38 0.65] |
+| 5 | 0.56 | 0.55 | 0.07 | [0.49 0.62] | [0.43 0.72] |
+| 7.5 | 0.53 | 0.53 | 0.08 | [0.45 0.62] | [0.37 0.7] |
+| 10 | 0.55 | 0.54 | 0.08 | [0.45 0.64] | [0.37 0.69] |
 
 These plots show the distribution of period-independent downsampled &phi;<sub>SS</sub> for each site.
 
@@ -527,14 +527,14 @@ We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotation
 
 | Period (s) | Full &phi;<sub>SS</sub> | Downsampled median &phi;<sub>SS</sub> | Downsampled &phi;<sub>SS</sub> std. dev. | Downsampled &phi;<sub>SS</sub> 68% conf range | Downsampled &phi;<sub>SS</sub> 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.49 | 0.48 | 0.03 | [0.45 0.52] | [0.42 0.55] |
-| 1 | 0.33 | 0.33 | 0.04 | [0.3 0.38] | [0.27 0.41] |
-| 2 | 0.37 | 0.37 | 0.05 | [0.32 0.43] | [0.27 0.47] |
-| 3 | 0.4 | 0.4 | 0.05 | [0.36 0.45] | [0.31 0.49] |
-| 4 | 0.51 | 0.51 | 0.06 | [0.43 0.56] | [0.36 0.62] |
-| 5 | 0.56 | 0.56 | 0.07 | [0.5 0.61] | [0.41 0.71] |
-| 7.5 | 0.59 | 0.58 | 0.07 | [0.52 0.66] | [0.47 0.74] |
-| 10 | 0.57 | 0.58 | 0.06 | [0.51 0.62] | [0.44 0.69] |
+| T-independent | 0.49 | 0.49 | 0.03 | [0.45 0.51] | [0.42 0.54] |
+| 1 | 0.33 | 0.34 | 0.04 | [0.3 0.38] | [0.26 0.41] |
+| 2 | 0.37 | 0.37 | 0.05 | [0.32 0.42] | [0.3 0.47] |
+| 3 | 0.4 | 0.4 | 0.04 | [0.35 0.44] | [0.31 0.48] |
+| 4 | 0.51 | 0.51 | 0.06 | [0.43 0.56] | [0.39 0.62] |
+| 5 | 0.56 | 0.56 | 0.06 | [0.49 0.62] | [0.42 0.67] |
+| 7.5 | 0.59 | 0.59 | 0.07 | [0.51 0.66] | [0.44 0.73] |
+| 10 | 0.57 | 0.56 | 0.06 | [0.49 0.63] | [0.47 0.66] |
 
 These plots show the distribution of period-independent downsampled &phi;<sub>SS</sub> for each site.
 
@@ -582,13 +582,13 @@ We compute uncertainties on &phi;<sub>SS</sub> through downsampling the rotation
 | Period (s) | Full &phi;<sub>SS</sub> | Downsampled median &phi;<sub>SS</sub> | Downsampled &phi;<sub>SS</sub> std. dev. | Downsampled &phi;<sub>SS</sub> 68% conf range | Downsampled &phi;<sub>SS</sub> 95% conf range |
 |-----|-----|-----|-----|-----|-----|
 | T-independent | 0.47 | 0.47 | 0.01 | [0.46 0.48] | [0.44 0.49] |
-| 1 | 0.36 | 0.36 | 0.01 | [0.35 0.37] | [0.33 0.39] |
-| 2 | 0.39 | 0.39 | 0.02 | [0.37 0.41] | [0.35 0.43] |
-| 3 | 0.44 | 0.44 | 0.02 | [0.42 0.47] | [0.41 0.49] |
-| 4 | 0.5 | 0.5 | 0.03 | [0.48 0.53] | [0.45 0.55] |
-| 5 | 0.54 | 0.54 | 0.02 | [0.52 0.56] | [0.48 0.58] |
-| 7.5 | 0.51 | 0.51 | 0.03 | [0.48 0.54] | [0.46 0.56] |
-| 10 | 0.49 | 0.49 | 0.02 | [0.47 0.51] | [0.44 0.53] |
+| 1 | 0.36 | 0.36 | 0.01 | [0.34 0.37] | [0.33 0.39] |
+| 2 | 0.39 | 0.39 | 0.02 | [0.37 0.41] | [0.35 0.42] |
+| 3 | 0.44 | 0.44 | 0.02 | [0.43 0.46] | [0.4 0.48] |
+| 4 | 0.5 | 0.5 | 0.03 | [0.48 0.53] | [0.45 0.57] |
+| 5 | 0.54 | 0.54 | 0.02 | [0.51 0.56] | [0.49 0.59] |
+| 7.5 | 0.51 | 0.51 | 0.02 | [0.48 0.54] | [0.47 0.55] |
+| 10 | 0.49 | 0.49 | 0.02 | [0.47 0.52] | [0.45 0.54] |
 
 These plots show the distribution of period-independent downsampled &phi;<sub>SS</sub> for each site.
 
@@ -656,14 +656,14 @@ We compute uncertainties on &tau; through downsampling the rotational synthetic 
 
 | Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.28 | 0.27 | 0.09 | [0.2 0.38] | [0.15 0.48] |
-| 1 | 0.2 | 0.2 | 0.08 | [0.12 0.29] | [0.07 0.37] |
-| 2 | 0.26 | 0.27 | 0.11 | [0.15 0.39] | [0.06 0.51] |
-| 3 | 0.29 | 0.27 | 0.13 | [0.17 0.46] | [0.09 0.57] |
-| 4 | 0.3 | 0.29 | 0.13 | [0.16 0.43] | [0.08 0.6] |
-| 5 | 0.29 | 0.29 | 0.13 | [0.17 0.44] | [0.09 0.58] |
-| 7.5 | 0.31 | 0.3 | 0.12 | [0.19 0.42] | [0.07 0.63] |
-| 10 | 0.3 | 0.26 | 0.11 | [0.18 0.39] | [0.11 0.58] |
+| T-independent | 0.28 | 0.27 | 0.08 | [0.2 0.35] | [0.14 0.48] |
+| 1 | 0.2 | 0.2 | 0.09 | [0.13 0.3] | [0.06 0.39] |
+| 2 | 0.26 | 0.26 | 0.1 | [0.18 0.37] | [0.08 0.47] |
+| 3 | 0.29 | 0.29 | 0.12 | [0.18 0.41] | [0.07 0.54] |
+| 4 | 0.3 | 0.3 | 0.12 | [0.19 0.41] | [0.07 0.6] |
+| 5 | 0.29 | 0.27 | 0.13 | [0.18 0.42] | [0.1 0.62] |
+| 7.5 | 0.31 | 0.31 | 0.12 | [0.17 0.43] | [0.09 0.54] |
+| 10 | 0.3 | 0.26 | 0.13 | [0.16 0.4] | [0.07 0.58] |
 
 This plot shows the distribution of period-independent downsampled &tau;.
 
@@ -699,14 +699,14 @@ We compute uncertainties on &tau; through downsampling the rotational synthetic 
 
 | Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.25 | 0.3 | 0.1 | [0.22 0.42] | [0.15 0.57] |
-| 1 | 0.2 | 0.23 | 0.1 | [0.14 0.33] | [0.08 0.46] |
-| 2 | 0.23 | 0.25 | 0.11 | [0.15 0.37] | [0.09 0.58] |
-| 3 | 0.22 | 0.26 | 0.12 | [0.16 0.39] | [0.06 0.55] |
-| 4 | 0.25 | 0.29 | 0.13 | [0.17 0.43] | [0.08 0.66] |
-| 5 | 0.27 | 0.36 | 0.15 | [0.2 0.51] | [0.1 0.65] |
-| 7.5 | 0.3 | 0.35 | 0.15 | [0.24 0.54] | [0.1 0.72] |
-| 10 | 0.31 | 0.36 | 0.17 | [0.2 0.53] | [0.12 0.77] |
+| T-independent | 0.25 | 0.31 | 0.1 | [0.24 0.43] | [0.18 0.56] |
+| 1 | 0.2 | 0.25 | 0.1 | [0.16 0.37] | [0.07 0.48] |
+| 2 | 0.23 | 0.26 | 0.11 | [0.17 0.4] | [0.09 0.53] |
+| 3 | 0.22 | 0.28 | 0.12 | [0.17 0.43] | [0.11 0.59] |
+| 4 | 0.25 | 0.34 | 0.14 | [0.19 0.5] | [0.07 0.61] |
+| 5 | 0.27 | 0.34 | 0.14 | [0.2 0.51] | [0.09 0.63] |
+| 7.5 | 0.3 | 0.37 | 0.16 | [0.22 0.54] | [0.13 0.73] |
+| 10 | 0.31 | 0.38 | 0.17 | [0.21 0.54] | [0.08 0.8] |
 
 This plot shows the distribution of period-independent downsampled &tau;.
 
@@ -744,14 +744,14 @@ We compute uncertainties on &tau; through downsampling the rotational synthetic 
 
 | Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.26 | 0.22 | 0.08 | [0.17 0.32] | [0.13 0.48] |
-| 1 | 0.18 | 0.17 | 0.09 | [0.07 0.26] | [0.03 0.37] |
-| 2 | 0.24 | 0.2 | 0.12 | [0.11 0.35] | [0.05 0.49] |
-| 3 | 0.25 | 0.21 | 0.12 | [0.11 0.36] | [0.02 0.46] |
-| 4 | 0.25 | 0.21 | 0.12 | [0.11 0.32] | [0.03 0.6] |
-| 5 | 0.25 | 0.24 | 0.12 | [0.1 0.38] | [0.02 0.5] |
-| 7.5 | 0.31 | 0.26 | 0.16 | [0.14 0.44] | [0.03 0.65] |
-| 10 | 0.33 | 0.29 | 0.17 | [0.15 0.49] | [0.06 0.76] |
+| T-independent | 0.26 | 0.25 | 0.1 | [0.18 0.39] | [0.12 0.51] |
+| 1 | 0.18 | 0.17 | 0.1 | [0.06 0.3] | [0.02 0.41] |
+| 2 | 0.24 | 0.26 | 0.12 | [0.11 0.38] | [0.07 0.5] |
+| 3 | 0.25 | 0.23 | 0.13 | [0.15 0.4] | [0.06 0.57] |
+| 4 | 0.25 | 0.26 | 0.14 | [0.11 0.42] | [0.05 0.57] |
+| 5 | 0.25 | 0.24 | 0.17 | [0.11 0.45] | [0.04 0.66] |
+| 7.5 | 0.31 | 0.31 | 0.18 | [0.14 0.52] | [0.02 0.74] |
+| 10 | 0.33 | 0.35 | 0.17 | [0.18 0.53] | [0.09 0.71] |
 
 This plot shows the distribution of period-independent downsampled &tau;.
 
@@ -789,14 +789,14 @@ We compute uncertainties on &tau; through downsampling the rotational synthetic 
 
 | Period (s) | Full &tau; | Downsampled median &tau; | Downsampled &tau; std. dev. | Downsampled &tau; 68% conf range | Downsampled &tau; 95% conf range |
 |-----|-----|-----|-----|-----|-----|
-| T-independent | 0.26 | 0.27 | 0.04 | [0.24 0.31] | [0.18 0.34] |
-| 1 | 0.19 | 0.2 | 0.03 | [0.17 0.23] | [0.14 0.28] |
-| 2 | 0.25 | 0.25 | 0.04 | [0.2 0.28] | [0.16 0.34] |
-| 3 | 0.26 | 0.27 | 0.05 | [0.22 0.31] | [0.17 0.38] |
-| 4 | 0.27 | 0.27 | 0.06 | [0.21 0.32] | [0.16 0.39] |
-| 5 | 0.27 | 0.28 | 0.06 | [0.22 0.35] | [0.17 0.39] |
-| 7.5 | 0.31 | 0.32 | 0.06 | [0.24 0.37] | [0.19 0.42] |
-| 10 | 0.31 | 0.33 | 0.06 | [0.25 0.37] | [0.2 0.45] |
+| T-independent | 0.26 | 0.27 | 0.03 | [0.23 0.29] | [0.2 0.33] |
+| 1 | 0.19 | 0.19 | 0.03 | [0.16 0.23] | [0.12 0.25] |
+| 2 | 0.25 | 0.23 | 0.04 | [0.21 0.28] | [0.18 0.32] |
+| 3 | 0.26 | 0.26 | 0.04 | [0.21 0.3] | [0.17 0.34] |
+| 4 | 0.27 | 0.26 | 0.05 | [0.23 0.32] | [0.19 0.37] |
+| 5 | 0.27 | 0.27 | 0.05 | [0.22 0.33] | [0.18 0.4] |
+| 7.5 | 0.31 | 0.3 | 0.05 | [0.25 0.37] | [0.21 0.43] |
+| 10 | 0.31 | 0.3 | 0.06 | [0.24 0.36] | [0.2 0.43] |
 
 This plot shows the distribution of period-independent downsampled &tau;.
 
@@ -877,6 +877,8 @@ This is a histogram of the number of recordings per event from ASK 2014 with M=[
 | **100 km** | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.2_100km_USC_3s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.2_100km_USC_5s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.2_100km_USC_7.5s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.2_100km_USC_10s.png) |
 ## Directivity Comparisons
 *[(top)](#table-of-contents)*
+
+Directivity comparisons for individual ruptures can be found [here](resources/directivity_debug/README.md).
 
 |  | 3 s | 5 s | 7.5 s | 10 s |
 |-----|-----|-----|-----|-----|

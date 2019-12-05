@@ -10,7 +10,7 @@ We then  perform various rotations. We rotate the rupture in place around its ce
 
 ## Table Of Contents
 * [Rupture Rotation Parameters](#rupture-rotation-parameters)
-* [M7.6 SS RSQSim Rupture Match Criteria](#m76-ss-rsqsim-rupture-match-criteria)
+* [M7.6 SS Rupture Match Criteria](#m76-ss-rupture-match-criteria)
   * [Fault Section Counts](#fault-section-counts)
 * [Sites](#sites)
 * [Result Summary Table](#result-summary-table)
@@ -60,10 +60,10 @@ We then  perform various rotations. We rotate the rupture in place around its ce
 | Distance | 20.0, 50.0, 100.0 km | 3-dimensional distance between the site and the rupture surface. |
 | **Total # Simulations** | **21600** | Total number of combinations of the above. |
 
-## M7.6 SS RSQSim Rupture Match Criteria
+## M7.6 SS Rupture Match Criteria
 *[(top)](#table-of-contents)*
 
-We condisder 400 events in the catalog which match the following criteria:
+We condisder 400 events which match the following criteria:
 
 * M=[7.55,7.65]
 * Ztor=[0.0,1.0]
