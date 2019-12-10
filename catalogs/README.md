@@ -2,9 +2,10 @@
 
 | Date | Name | Duration | Element Area | Description |
 |-----|-----|-----|-----|-----|
+| 2019/12/09 | [Bruce 4655](rundir4655#bruce-4655) | 175,644 yrs | 1.35 km | variable slip speed. fracArea=0 ; variableSpeed s2ddf=.8 ddfmin=.1; b=.008 a=.001 |
 | 2019/10/16 | [Bruce 4576](rundir4576#bruce-4576) | 420,050 yrs | 1.35 km | same as r2585 but larger distanceTop=4.0; H=18 (4,10,4) |
-| 2019/07/28 | [Bruce 4322](rundir4322#bruce-4322) | 45,340 yrs | 1.35 km | variable slip speed.  fracArea=0.7 ; variableSpeed s2ddf=.8 ddfmin=.1; b=.008 a=.001 |
-| 2019/07/28 | [Bruce 4320](rundir4320#bruce-4320) | 51,325 yrs | 1.35 km | variable slip speed.  fracArea=0.8 ; variableSpeed s2ddf=.8 ddfmin=.1; b=.010 a=.003 |
+| 2019/07/28 | [Bruce 4322](rundir4322#bruce-4322) | 45,340 yrs | 1.35 km | variable slip speed. fracArea=0.8 ; variableSpeed s2ddf=.7 ddfmin=.01; b=.010 a=.003 |
+| 2019/07/28 | [Bruce 4320](rundir4320#bruce-4320) | 51,325 yrs | 1.35 km | variable slip speed. fracArea=0.7 ; variableSpeed s2ddf=.7 ddfmin=.01; b=.008 a=.001 |
 | 2019/07/26 | [Bruce 4317](rundir4317#bruce-4317) | 40,473 yrs | 1.35 km | variable slip speed.  fracArea=0.8 ; variableSpeed s2ddf=.8 ddfmin=.1; b=.008 a=.001 |
 | 2019/07/26 | [Bruce 4316](rundir4316#bruce-4316) | 53,770 yrs | 1.35 km | same as r2585 but variable slip speed.  fracArea=0 ; variableSpeed s2ddf=.8 ddfmin=.1; b=.006 a=.001 |
 | 2019/07/25 | [Bruce 4313](rundir4313#bruce-4313) | 35,778 yrs | 1.35 km | same as r2585 but variable slip speed.  fracArea=0 ; variableSpeed s2ddf=.9 ddfmin=.1; b=.007 a=.001 |

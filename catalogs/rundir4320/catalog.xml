@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <OpenSHA>
-  <RSQSimCatalog name="Bruce 4320" author="Bruce Shaw" dateMillis="1564297200000" metadata="variable slip speed.  fracArea=0.8 ; variableSpeed s2ddf=.8 ddfmin=.1; b=.010 a=.003" fm="FM3_1" dm="GEOLOGIC" slipVel="1.0" aveArea="1.3502517480736256" numEvents="743622" durationYears="51325.287330703126"/>
+  <RSQSimCatalog name="Bruce 4320" author="Bruce Shaw" dateMillis="1564297200000" metadata="variable slip speed. fracArea=0.7 ; variableSpeed s2ddf=.7 ddfmin=.01; b=.008 a=.001" fm="FM3_1" dm="GEOLOGIC" slipVel="1.0" aveArea="1.3502517480736256" numEvents="743622" durationYears="51325.287330703126"/>
 </OpenSHA>

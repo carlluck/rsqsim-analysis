@@ -3,7 +3,7 @@
 | **Catalog** | Bruce 4322 |
 |-----|-----|
 | **Author** | Bruce Shaw, 2019/07/28 |
-| **Description** | variable slip speed.  fracArea=0.7 ; variableSpeed s2ddf=.8 ddfmin=.1; b=.008 a=.001 |
+| **Description** | variable slip speed. fracArea=0.8 ; variableSpeed s2ddf=.7 ddfmin=.01; b=.010 a=.003 |
 | **Fault/Def Model** | Fault Model 3.1, Geologic |
 | **Slip Velocity** | Fully Variable |
 | **Average Element Area** | 1.35 km^2 |

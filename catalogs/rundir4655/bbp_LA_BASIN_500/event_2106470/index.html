@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+	border-collapse: collapse
+}
+table, th, td {
+	border: 1px solid black
+}
+body {
+	max-width:1000px;
+	margin: auto;
+}
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+</style>
+</head>
+<body>
+<h1 id="event-2106470-m749">Event 2106470, M7.49</h1>
+<p><a href="../#bruce-4655">Catalog Details</a></p>
+<h2 id="table-of-contents">Table Of Contents</h2>
+<ul>
+<li><a href="#fault-list">Fault List</a></li>
+<li><a href="#rupture-plots">Rupture Plots</a>
+<ul>
+<li><a href="#sliptime-plot">Slip/Time Plot</a></li>
+<li><a href="resources/rupture_plot_2106470.gif">Slip/Vel Animation</a></li>
+<li><a href="#map-plot">Map Plot</a></li>
+<li><a href="#rupture-velocity-plot">Rupture Velocity Plot</a></li>
+</ul>
+</li>
+<li><a href="#spectra-plots">Spectra Plots</a>
+<ul>
+<li><a href="#site-usc">Site USC</a>
+<ul>
+<li><a href="#usc-fourier-amplitude-spectra">USC Fourier Amplitude Spectra</a></li>
+<li><a href="#usc-rotd50-spectra">USC RotD50 Spectra</a></li>
+<li><a href="#usc-rotd-ratio">USC RotD Ratio</a></li>
+<li><a href="#usc-acceleration-seismograms">USC Acceleration Seismograms</a></li>
+<li><a href="#usc-velocity-seismograms">USC Velocity Seismograms</a></li>
+</ul>
+</li>
+<li><a href="#site-sbsm">Site SBSM</a>
+<ul>
+<li><a href="#sbsm-fourier-amplitude-spectra">SBSM Fourier Amplitude Spectra</a></li>
+<li><a href="#sbsm-rotd50-spectra">SBSM RotD50 Spectra</a></li>
+<li><a href="#sbsm-rotd-ratio">SBSM RotD Ratio</a></li>
+<li><a href="#sbsm-acceleration-seismograms">SBSM Acceleration Seismograms</a></li>
+<li><a href="#sbsm-velocity-seismograms">SBSM Velocity Seismograms</a></li>
+</ul>
+</li>
+<li><a href="#site-wngc">Site WNGC</a>
+<ul>
+<li><a href="#wngc-fourier-amplitude-spectra">WNGC Fourier Amplitude Spectra</a></li>
+<li><a href="#wngc-rotd50-spectra">WNGC RotD50 Spectra</a></li>
+<li><a href="#wngc-rotd-ratio">WNGC RotD Ratio</a></li>
+<li><a href="#wngc-acceleration-seismograms">WNGC Acceleration Seismograms</a></li>
+<li><a href="#wngc-velocity-seismograms">WNGC Velocity Seismograms</a></li>
+</ul>
+</li>
+<li><a href="#site-stni">Site STNI</a>
+<ul>
+<li><a href="#stni-fourier-amplitude-spectra">STNI Fourier Amplitude Spectra</a></li>
+<li><a href="#stni-rotd50-spectra">STNI RotD50 Spectra</a></li>
+<li><a href="#stni-rotd-ratio">STNI RotD Ratio</a></li>
+<li><a href="#stni-acceleration-seismograms">STNI Acceleration Seismograms</a></li>
+<li><a href="#stni-velocity-seismograms">STNI Velocity Seismograms</a></li>
+</ul>
+</li>
+<li><a href="#site-smca">Site SMCA</a>
+<ul>
+<li><a href="#smca-fourier-amplitude-spectra">SMCA Fourier Amplitude Spectra</a></li>
+<li><a href="#smca-rotd50-spectra">SMCA RotD50 Spectra</a></li>
+<li><a href="#smca-rotd-ratio">SMCA RotD Ratio</a></li>
+<li><a href="#smca-acceleration-seismograms">SMCA Acceleration Seismograms</a></li>
+<li><a href="#smca-velocity-seismograms">SMCA Velocity Seismograms</a></li>
+</ul>
+</li>
+<li><a href="#site-osi">Site OSI</a>
+<ul>
+<li><a href="#osi-fourier-amplitude-spectra">OSI Fourier Amplitude Spectra</a></li>
+<li><a href="#osi-rotd50-spectra">OSI RotD50 Spectra</a></li>
+<li><a href="#osi-rotd-ratio">OSI RotD Ratio</a></li>
+<li><a href="#osi-acceleration-seismograms">OSI Acceleration Seismograms</a></li>
+<li><a href="#osi-velocity-seismograms">OSI Velocity Seismograms</a></li>
+</ul>
+</li>
+<li><a href="#site-pde">Site PDE</a>
+<ul>
+<li><a href="#pde-fourier-amplitude-spectra">PDE Fourier Amplitude Spectra</a></li>
+<li><a href="#pde-rotd50-spectra">PDE RotD50 Spectra</a></li>
+<li><a href="#pde-rotd-ratio">PDE RotD Ratio</a></li>
+<li><a href="#pde-acceleration-seismograms">PDE Acceleration Seismograms</a></li>
+<li><a href="#pde-velocity-seismograms">PDE Velocity Seismograms</a></li>
+</ul>
+</li>
+<li><a href="#site-wss">Site WSS</a>
+<ul>
+<li><a href="#wss-fourier-amplitude-spectra">WSS Fourier Amplitude Spectra</a></li>
+<li><a href="#wss-rotd50-spectra">WSS RotD50 Spectra</a></li>
+<li><a href="#wss-rotd-ratio">WSS RotD Ratio</a></li>
+<li><a href="#wss-acceleration-seismograms">WSS Acceleration Seismograms</a></li>
+<li><a href="#wss-velocity-seismograms">WSS Velocity Seismograms</a></li>
+</ul>
+</li>
+<li><a href="#site-laf">Site LAF</a>
+<ul>
+<li><a href="#laf-fourier-amplitude-spectra">LAF Fourier Amplitude Spectra</a></li>
+<li><a href="#laf-rotd50-spectra">LAF RotD50 Spectra</a></li>
+<li><a href="#laf-rotd-ratio">LAF RotD Ratio</a></li>
+<li><a href="#laf-acceleration-seismograms">LAF Acceleration Seismograms</a></li>
+<li><a href="#laf-velocity-seismograms">LAF Velocity Seismograms</a></li>
+</ul>
+</li>
+<li><a href="#site-s022">Site s022</a>
+<ul>
+<li><a href="#s022-fourier-amplitude-spectra">s022 Fourier Amplitude Spectra</a></li>
+<li><a href="#s022-rotd50-spectra">s022 RotD50 Spectra</a></li>
+<li><a href="#s022-rotd-ratio">s022 RotD Ratio</a></li>
+<li><a href="#s022-acceleration-seismograms">s022 Acceleration Seismograms</a></li>
+<li><a href="#s022-velocity-seismograms">s022 Velocity Seismograms</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="fault-list">Fault List</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>Section Name</th><th>Area Ruptured</th><th>Patches Ruptured</th><th>Moment</th><th>Equiv. Mag</th><th>Max Slip</th></tr>
+</thead>
+<tbody>
+<tr><td><em>(Total)</em></td><td>1643.07 km^2</td><td>1209</td><td>1.92e20 N-m</td><td>M7.49</td><td>7.04 m</td></tr>
+<tr><td>San Andreas (Mojave S)</td><td>1521.76 km^2</td><td>1118</td><td>1.82e20 N-m</td><td>M7.47</td><td>7.04 m</td></tr>
+<tr><td>San Andreas (San Bernardino N)</td><td>121.30 km^2</td><td>91</td><td>9.74e18 N-m</td><td>M6.63</td><td>4.92 m</td></tr>
+</tbody>
+</table>
+<h2 id="rupture-plots">Rupture Plots</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><strong>Legend</strong></p>
+<ul>
+<li>Colored, Filled Triangles: RSQSim Elements</li>
+<li>Red Star: RSQSim Hypocenter</li>
+<li>Dark Gray Dashed Outline: GMPE Surface</li>
+</ul>
+<h3 id="sliptime-plot">Slip/Time Plot</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rupture_plot_2106470.png" alt="Slip/Time Plot" /></p>
+<h3 id="slipvel-animation">Slip/Vel Animation</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><a href="resources/rupture_plot_2106470.gif">Click here to view Slip/Velocity Animation</a></p>
+<h3 id="map-plot">Map Plot</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rupture_map_plot_2106470.png" alt="Map Plot" /></p>
+<h3 id="rupture-velocity-plot">Rupture Velocity Plot</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rupture_velocity_scatter_dist.png" alt="Rupture Velocity Plot" /></p>
+<h2 id="spectra-plots">Spectra Plots</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<h3 id="site-usc">Site USC</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><em>Location: 34.0192, -118.286</em></p>
+<table>
+<thead>
+<tr><th>Distance</th><th>Actual RSQSim Surface</th><th>GMPE Surface</th></tr>
+</thead>
+<tbody>
+<tr><td>Horizontal</td><td>60.07 km</td><td>60.07 km</td></tr>
+<tr><td>3-D</td><td>60.07 km</td><td>60.07 km</td></tr>
+</tbody>
+</table>
+<p><em>NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.</em></p>
+<h4 id="usc-fourier-amplitude-spectra">USC Fourier Amplitude Spectra</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/fas_spectra_USC.png" alt="USC FAS Plot" /></p>
+<h4 id="usc-rotd50-spectra">USC RotD50 Spectra</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rotd50_spectra_USC.png" alt="USC RotD50 Plot" /></p>
+<h4 id="usc-rotd-ratio">USC RotD Ratio</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rotd_ratio_USC.png" alt="USC RotD Ratio Plot" /></p>
+<h4 id="usc-acceleration-seismograms">USC Acceleration Seismograms</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/seis_accel_USC.png" alt="USC Acceleration Seismograms" /></p>
+<h4 id="usc-velocity-seismograms">USC Velocity Seismograms</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/seis_vel_USC.png" alt="USC Velocity Seismograms" /></p>
+<h3 id="site-sbsm">Site SBSM</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><em>Location: 34.064987, -117.29201</em></p>
+<table>
+<thead>
+<tr><th>Distance</th><th>Actual RSQSim Surface</th><th>GMPE Surface</th></tr>
+</thead>
+<tbody>
+<tr><td>Horizontal</td><td>25.17 km</td><td>31.15 km</td></tr>
+<tr><td>3-D</td><td>25.57 km</td><td>31.15 km</td></tr>
+</tbody>
+</table>
+<p><em>NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.</em></p>
+<h4 id="sbsm-fourier-amplitude-spectra">SBSM Fourier Amplitude Spectra</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/fas_spectra_SBSM.png" alt="SBSM FAS Plot" /></p>
+<h4 id="sbsm-rotd50-spectra">SBSM RotD50 Spectra</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rotd50_spectra_SBSM.png" alt="SBSM RotD50 Plot" /></p>
+<h4 id="sbsm-rotd-ratio">SBSM RotD Ratio</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rotd_ratio_SBSM.png" alt="SBSM RotD Ratio Plot" /></p>
+<h4 id="sbsm-acceleration-seismograms">SBSM Acceleration Seismograms</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/seis_accel_SBSM.png" alt="SBSM Acceleration Seismograms" /></p>
+<h4 id="sbsm-velocity-seismograms">SBSM Velocity Seismograms</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/seis_vel_SBSM.png" alt="SBSM Velocity Seismograms" /></p>
+<h3 id="site-wngc">Site WNGC</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><em>Location: 34.041824, -118.0653</em></p>
+<table>
+<thead>
+<tr><th>Distance</th><th>Actual RSQSim Surface</th><th>GMPE Surface</th></tr>
+</thead>
+<tbody>
+<tr><td>Horizontal</td><td>48.75 km</td><td>48.74 km</td></tr>
+<tr><td>3-D</td><td>48.75 km</td><td>48.74 km</td></tr>
+</tbody>
+</table>
+<p><em>NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.</em></p>
+<h4 id="wngc-fourier-amplitude-spectra">WNGC Fourier Amplitude Spectra</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/fas_spectra_WNGC.png" alt="WNGC FAS Plot" /></p>
+<h4 id="wngc-rotd50-spectra">WNGC RotD50 Spectra</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rotd50_spectra_WNGC.png" alt="WNGC RotD50 Plot" /></p>
+<h4 id="wngc-rotd-ratio">WNGC RotD Ratio</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rotd_ratio_WNGC.png" alt="WNGC RotD Ratio Plot" /></p>
+<h4 id="wngc-acceleration-seismograms">WNGC Acceleration Seismograms</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/seis_accel_WNGC.png" alt="WNGC Acceleration Seismograms" /></p>
+<h4 id="wngc-velocity-seismograms">WNGC Velocity Seismograms</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/seis_vel_WNGC.png" alt="WNGC Velocity Seismograms" /></p>
+<h3 id="site-stni">Site STNI</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><em>Location: 33.93088, -118.17881</em></p>
+<table>
+<thead>
+<tr><th>Distance</th><th>Actual RSQSim Surface</th><th>GMPE Surface</th></tr>
+</thead>
+<tbody>
+<tr><td>Horizontal</td><td>64.46 km</td><td>64.46 km</td></tr>
+<tr><td>3-D</td><td>64.46 km</td><td>64.46 km</td></tr>
+</tbody>
+</table>
+<p><em>NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.</em></p>
+<h4 id="stni-fourier-amplitude-spectra">STNI Fourier Amplitude Spectra</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/fas_spectra_STNI.png" alt="STNI FAS Plot" /></p>
+<h4 id="stni-rotd50-spectra">STNI RotD50 Spectra</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rotd50_spectra_STNI.png" alt="STNI RotD50 Plot" /></p>
+<h4 id="stni-rotd-ratio">STNI RotD Ratio</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rotd_ratio_STNI.png" alt="STNI RotD Ratio Plot" /></p>
+<h4 id="stni-acceleration-seismograms">STNI Acceleration Seismograms</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/seis_accel_STNI.png" alt="STNI Acceleration Seismograms" /></p>
+<h4 id="stni-velocity-seismograms">STNI Velocity Seismograms</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/seis_vel_STNI.png" alt="STNI Velocity Seismograms" /></p>
+<h3 id="site-smca">Site SMCA</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><em>Location: 34.00909, -118.48939</em></p>
+<table>
+<thead>
+<tr><th>Distance</th><th>Actual RSQSim Surface</th><th>GMPE Surface</th></tr>
+</thead>
+<tbody>
+<tr><td>Horizontal</td><td>69.18 km</td><td>69.18 km</td></tr>
+<tr><td>3-D</td><td>69.18 km</td><td>69.18 km</td></tr>
+</tbody>
+</table>
+<p><em>NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.</em></p>
+<h4 id="smca-fourier-amplitude-spectra">SMCA Fourier Amplitude Spectra</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/fas_spectra_SMCA.png" alt="SMCA FAS Plot" /></p>
+<h4 id="smca-rotd50-spectra">SMCA RotD50 Spectra</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rotd50_spectra_SMCA.png" alt="SMCA RotD50 Plot" /></p>
+<h4 id="smca-rotd-ratio">SMCA RotD Ratio</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rotd_ratio_SMCA.png" alt="SMCA RotD Ratio Plot" /></p>
+<h4 id="smca-acceleration-seismograms">SMCA Acceleration Seismograms</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/seis_accel_SMCA.png" alt="SMCA Acceleration Seismograms" /></p>
+<h4 id="smca-velocity-seismograms">SMCA Velocity Seismograms</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/seis_vel_SMCA.png" alt="SMCA Velocity Seismograms" /></p>
+<h3 id="site-osi">Site OSI</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><em>Location: 34.6145, -118.7235</em></p>
+<table>
+<thead>
+<tr><th>Distance</th><th>Actual RSQSim Surface</th><th>GMPE Surface</th></tr>
+</thead>
+<tbody>
+<tr><td>Horizontal</td><td>22.77 km</td><td>21.73 km</td></tr>
+<tr><td>3-D</td><td>25.60 km</td><td>21.73 km</td></tr>
+</tbody>
+</table>
+<p><em>NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.</em></p>
+<h4 id="osi-fourier-amplitude-spectra">OSI Fourier Amplitude Spectra</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/fas_spectra_OSI.png" alt="OSI FAS Plot" /></p>
+<h4 id="osi-rotd50-spectra">OSI RotD50 Spectra</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rotd50_spectra_OSI.png" alt="OSI RotD50 Plot" /></p>
+<h4 id="osi-rotd-ratio">OSI RotD Ratio</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rotd_ratio_OSI.png" alt="OSI RotD Ratio Plot" /></p>
+<h4 id="osi-acceleration-seismograms">OSI Acceleration Seismograms</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/seis_accel_OSI.png" alt="OSI Acceleration Seismograms" /></p>
+<h4 id="osi-velocity-seismograms">OSI Velocity Seismograms</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/seis_vel_OSI.png" alt="OSI Velocity Seismograms" /></p>
+<h3 id="site-pde">Site PDE</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><em>Location: 34.44199, -118.58215</em></p>
+<table>
+<thead>
+<tr><th>Distance</th><th>Actual RSQSim Surface</th><th>GMPE Surface</th></tr>
+</thead>
+<tbody>
+<tr><td>Horizontal</td><td>28.77 km</td><td>28.76 km</td></tr>
+<tr><td>3-D</td><td>29.89 km</td><td>28.76 km</td></tr>
+</tbody>
+</table>
+<p><em>NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.</em></p>
+<h4 id="pde-fourier-amplitude-spectra">PDE Fourier Amplitude Spectra</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/fas_spectra_PDE.png" alt="PDE FAS Plot" /></p>
+<h4 id="pde-rotd50-spectra">PDE RotD50 Spectra</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rotd50_spectra_PDE.png" alt="PDE RotD50 Plot" /></p>
+<h4 id="pde-rotd-ratio">PDE RotD Ratio</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rotd_ratio_PDE.png" alt="PDE RotD Ratio Plot" /></p>
+<h4 id="pde-acceleration-seismograms">PDE Acceleration Seismograms</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/seis_accel_PDE.png" alt="PDE Acceleration Seismograms" /></p>
+<h4 id="pde-velocity-seismograms">PDE Velocity Seismograms</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/seis_vel_PDE.png" alt="PDE Velocity Seismograms" /></p>
+<h3 id="site-wss">Site WSS</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><em>Location: 34.1717, -118.64971</em></p>
+<table>
+<thead>
+<tr><th>Distance</th><th>Actual RSQSim Surface</th><th>GMPE Surface</th></tr>
+</thead>
+<tbody>
+<tr><td>Horizontal</td><td>58.73 km</td><td>58.73 km</td></tr>
+<tr><td>3-D</td><td>58.98 km</td><td>58.73 km</td></tr>
+</tbody>
+</table>
+<p><em>NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.</em></p>
+<h4 id="wss-fourier-amplitude-spectra">WSS Fourier Amplitude Spectra</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/fas_spectra_WSS.png" alt="WSS FAS Plot" /></p>
+<h4 id="wss-rotd50-spectra">WSS RotD50 Spectra</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rotd50_spectra_WSS.png" alt="WSS RotD50 Plot" /></p>
+<h4 id="wss-rotd-ratio">WSS RotD Ratio</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rotd_ratio_WSS.png" alt="WSS RotD Ratio Plot" /></p>
+<h4 id="wss-acceleration-seismograms">WSS Acceleration Seismograms</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/seis_accel_WSS.png" alt="WSS Acceleration Seismograms" /></p>
+<h4 id="wss-velocity-seismograms">WSS Velocity Seismograms</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/seis_vel_WSS.png" alt="WSS Velocity Seismograms" /></p>
+<h3 id="site-laf">Site LAF</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><em>Location: 33.86889, -118.33143</em></p>
+<table>
+<thead>
+<tr><th>Distance</th><th>Actual RSQSim Surface</th><th>GMPE Surface</th></tr>
+</thead>
+<tbody>
+<tr><td>Horizontal</td><td>76.90 km</td><td>76.90 km</td></tr>
+<tr><td>3-D</td><td>76.90 km</td><td>76.90 km</td></tr>
+</tbody>
+</table>
+<p><em>NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.</em></p>
+<h4 id="laf-fourier-amplitude-spectra">LAF Fourier Amplitude Spectra</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/fas_spectra_LAF.png" alt="LAF FAS Plot" /></p>
+<h4 id="laf-rotd50-spectra">LAF RotD50 Spectra</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rotd50_spectra_LAF.png" alt="LAF RotD50 Plot" /></p>
+<h4 id="laf-rotd-ratio">LAF RotD Ratio</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rotd_ratio_LAF.png" alt="LAF RotD Ratio Plot" /></p>
+<h4 id="laf-acceleration-seismograms">LAF Acceleration Seismograms</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/seis_accel_LAF.png" alt="LAF Acceleration Seismograms" /></p>
+<h4 id="laf-velocity-seismograms">LAF Velocity Seismograms</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/seis_vel_LAF.png" alt="LAF Velocity Seismograms" /></p>
+<h3 id="site-s022">Site s022</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><em>Location: 34.24505, -119.18086</em></p>
+<table>
+<thead>
+<tr><th>Distance</th><th>Actual RSQSim Surface</th><th>GMPE Surface</th></tr>
+</thead>
+<tbody>
+<tr><td>Horizontal</td><td>80.31 km</td><td>79.60 km</td></tr>
+<tr><td>3-D</td><td>81.16 km</td><td>79.60 km</td></tr>
+</tbody>
+</table>
+<p><em>NOTE: RSQSim ruptures sometimes have a few co-rupturing elements on faults some distance from the main rupture. This may cause discrepancies in the table above, consult rupture map plot.</em></p>
+<h4 id="s022-fourier-amplitude-spectra">s022 Fourier Amplitude Spectra</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/fas_spectra_s022.png" alt="s022 FAS Plot" /></p>
+<h4 id="s022-rotd50-spectra">s022 RotD50 Spectra</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rotd50_spectra_s022.png" alt="s022 RotD50 Plot" /></p>
+<h4 id="s022-rotd-ratio">s022 RotD Ratio</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/rotd_ratio_s022.png" alt="s022 RotD Ratio Plot" /></p>
+<h4 id="s022-acceleration-seismograms">s022 Acceleration Seismograms</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/seis_accel_s022.png" alt="s022 Acceleration Seismograms" /></p>
+<h4 id="s022-velocity-seismograms">s022 Velocity Seismograms</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p><img src="resources/seis_vel_s022.png" alt="s022 Velocity Seismograms" /></p>
+</body>
+</html>
