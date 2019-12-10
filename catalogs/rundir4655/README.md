@@ -47,7 +47,11 @@
 ### Single Event Comparisons, LA Basin 500 (m/s)
 *[(top)](#bruce-4655)*
 
+* [Event 1029675, M7.41](bbp_LA_BASIN_500/event_1029675/)
+* [Event 1318657, M7.13](bbp_LA_BASIN_500/event_1318657/)
 * [Event 2106470, M7.49](bbp_LA_BASIN_500/event_2106470/)
+* [Event 467544, M7.13](bbp_LA_BASIN_500/event_467544/)
+* [Event 923866, M7.22](bbp_LA_BASIN_500/event_923866/)
 
 ## Plots
 ### Magnitude-Frequency Plot
