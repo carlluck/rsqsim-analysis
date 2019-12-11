@@ -1,407 +1,407 @@
 # Directivity Debug
 
-Map plots show the re-oriented (with strike=0) raw rupture in black, the linear GMPE source used to predict directivity with a dashed line, and hypocenter with a star. Map background is empirical fD estimates for 3s, and mean simulated values at 20 and 50 km are overlaid. The chart on the right shows the simulated values for 20 km at each spectral period.
+Map plots show the re-oriented (with strike=0) raw rupture in black, the linear GMPE source used to predict directivity with a dashed line, and hypocenter with a star. Map background is empirical fD estimates, and mean simulated values at 20 and 50 km are overlaid. The chart on the right shows the simulated values for 20 km at each spectral period.
 
-| Map Plot | Residuals Plot |
-|-----|-----|
-| ![map](event_3635854_map.png) | ![map](event_3635854_residuals.png) |
-| ![map](event_3637230_map.png) | ![map](event_3637230_residuals.png) |
-| ![map](event_3642314_map.png) | ![map](event_3642314_residuals.png) |
-| ![map](event_3643964_map.png) | ![map](event_3643964_residuals.png) |
-| ![map](event_3645395_map.png) | ![map](event_3645395_residuals.png) |
-| ![map](event_3646471_map.png) | ![map](event_3646471_residuals.png) |
-| ![map](event_3648948_map.png) | ![map](event_3648948_residuals.png) |
-| ![map](event_3650999_map.png) | ![map](event_3650999_residuals.png) |
-| ![map](event_3651050_map.png) | ![map](event_3651050_residuals.png) |
-| ![map](event_3652532_map.png) | ![map](event_3652532_residuals.png) |
-| ![map](event_3655859_map.png) | ![map](event_3655859_residuals.png) |
-| ![map](event_3661747_map.png) | ![map](event_3661747_residuals.png) |
-| ![map](event_3666542_map.png) | ![map](event_3666542_residuals.png) |
-| ![map](event_3667366_map.png) | ![map](event_3667366_residuals.png) |
-| ![map](event_3671742_map.png) | ![map](event_3671742_residuals.png) |
-| ![map](event_3673646_map.png) | ![map](event_3673646_residuals.png) |
-| ![map](event_3678853_map.png) | ![map](event_3678853_residuals.png) |
-| ![map](event_3679905_map.png) | ![map](event_3679905_residuals.png) |
-| ![map](event_3680777_map.png) | ![map](event_3680777_residuals.png) |
-| ![map](event_3681566_map.png) | ![map](event_3681566_residuals.png) |
-| ![map](event_3683158_map.png) | ![map](event_3683158_residuals.png) |
-| ![map](event_3689087_map.png) | ![map](event_3689087_residuals.png) |
-| ![map](event_3690545_map.png) | ![map](event_3690545_residuals.png) |
-| ![map](event_3690731_map.png) | ![map](event_3690731_residuals.png) |
-| ![map](event_3697019_map.png) | ![map](event_3697019_residuals.png) |
-| ![map](event_3698077_map.png) | ![map](event_3698077_residuals.png) |
-| ![map](event_3698518_map.png) | ![map](event_3698518_residuals.png) |
-| ![map](event_3700967_map.png) | ![map](event_3700967_residuals.png) |
-| ![map](event_3702427_map.png) | ![map](event_3702427_residuals.png) |
-| ![map](event_3707148_map.png) | ![map](event_3707148_residuals.png) |
-| ![map](event_3707784_map.png) | ![map](event_3707784_residuals.png) |
-| ![map](event_3709045_map.png) | ![map](event_3709045_residuals.png) |
-| ![map](event_3712477_map.png) | ![map](event_3712477_residuals.png) |
-| ![map](event_3713001_map.png) | ![map](event_3713001_residuals.png) |
-| ![map](event_3715191_map.png) | ![map](event_3715191_residuals.png) |
-| ![map](event_3716048_map.png) | ![map](event_3716048_residuals.png) |
-| ![map](event_3718628_map.png) | ![map](event_3718628_residuals.png) |
-| ![map](event_3728698_map.png) | ![map](event_3728698_residuals.png) |
-| ![map](event_3730603_map.png) | ![map](event_3730603_residuals.png) |
-| ![map](event_3734274_map.png) | ![map](event_3734274_residuals.png) |
-| ![map](event_3734739_map.png) | ![map](event_3734739_residuals.png) |
-| ![map](event_3738687_map.png) | ![map](event_3738687_residuals.png) |
-| ![map](event_3742771_map.png) | ![map](event_3742771_residuals.png) |
-| ![map](event_3745536_map.png) | ![map](event_3745536_residuals.png) |
-| ![map](event_3747283_map.png) | ![map](event_3747283_residuals.png) |
-| ![map](event_3748697_map.png) | ![map](event_3748697_residuals.png) |
-| ![map](event_3748773_map.png) | ![map](event_3748773_residuals.png) |
-| ![map](event_3751176_map.png) | ![map](event_3751176_residuals.png) |
-| ![map](event_3754473_map.png) | ![map](event_3754473_residuals.png) |
-| ![map](event_3754549_map.png) | ![map](event_3754549_residuals.png) |
-| ![map](event_3755195_map.png) | ![map](event_3755195_residuals.png) |
-| ![map](event_3756980_map.png) | ![map](event_3756980_residuals.png) |
-| ![map](event_3757192_map.png) | ![map](event_3757192_residuals.png) |
-| ![map](event_3764130_map.png) | ![map](event_3764130_residuals.png) |
-| ![map](event_3768068_map.png) | ![map](event_3768068_residuals.png) |
-| ![map](event_3770257_map.png) | ![map](event_3770257_residuals.png) |
-| ![map](event_3770578_map.png) | ![map](event_3770578_residuals.png) |
-| ![map](event_3771453_map.png) | ![map](event_3771453_residuals.png) |
-| ![map](event_3775323_map.png) | ![map](event_3775323_residuals.png) |
-| ![map](event_3778338_map.png) | ![map](event_3778338_residuals.png) |
-| ![map](event_3779034_map.png) | ![map](event_3779034_residuals.png) |
-| ![map](event_3780993_map.png) | ![map](event_3780993_residuals.png) |
-| ![map](event_3781841_map.png) | ![map](event_3781841_residuals.png) |
-| ![map](event_3784099_map.png) | ![map](event_3784099_residuals.png) |
-| ![map](event_3786019_map.png) | ![map](event_3786019_residuals.png) |
-| ![map](event_3786515_map.png) | ![map](event_3786515_residuals.png) |
-| ![map](event_3789792_map.png) | ![map](event_3789792_residuals.png) |
-| ![map](event_3790308_map.png) | ![map](event_3790308_residuals.png) |
-| ![map](event_3793248_map.png) | ![map](event_3793248_residuals.png) |
-| ![map](event_3794223_map.png) | ![map](event_3794223_residuals.png) |
-| ![map](event_3795573_map.png) | ![map](event_3795573_residuals.png) |
-| ![map](event_3796765_map.png) | ![map](event_3796765_residuals.png) |
-| ![map](event_3797270_map.png) | ![map](event_3797270_residuals.png) |
-| ![map](event_3799098_map.png) | ![map](event_3799098_residuals.png) |
-| ![map](event_3803924_map.png) | ![map](event_3803924_residuals.png) |
-| ![map](event_3806813_map.png) | ![map](event_3806813_residuals.png) |
-| ![map](event_3806926_map.png) | ![map](event_3806926_residuals.png) |
-| ![map](event_3807252_map.png) | ![map](event_3807252_residuals.png) |
-| ![map](event_3808964_map.png) | ![map](event_3808964_residuals.png) |
-| ![map](event_3809182_map.png) | ![map](event_3809182_residuals.png) |
-| ![map](event_3810569_map.png) | ![map](event_3810569_residuals.png) |
-| ![map](event_3812378_map.png) | ![map](event_3812378_residuals.png) |
-| ![map](event_3812593_map.png) | ![map](event_3812593_residuals.png) |
-| ![map](event_3812745_map.png) | ![map](event_3812745_residuals.png) |
-| ![map](event_3817003_map.png) | ![map](event_3817003_residuals.png) |
-| ![map](event_3818120_map.png) | ![map](event_3818120_residuals.png) |
-| ![map](event_3825072_map.png) | ![map](event_3825072_residuals.png) |
-| ![map](event_3826979_map.png) | ![map](event_3826979_residuals.png) |
-| ![map](event_3829165_map.png) | ![map](event_3829165_residuals.png) |
-| ![map](event_3829258_map.png) | ![map](event_3829258_residuals.png) |
-| ![map](event_3833545_map.png) | ![map](event_3833545_residuals.png) |
-| ![map](event_3840226_map.png) | ![map](event_3840226_residuals.png) |
-| ![map](event_3840342_map.png) | ![map](event_3840342_residuals.png) |
-| ![map](event_3843824_map.png) | ![map](event_3843824_residuals.png) |
-| ![map](event_3846363_map.png) | ![map](event_3846363_residuals.png) |
-| ![map](event_3847318_map.png) | ![map](event_3847318_residuals.png) |
-| ![map](event_3851135_map.png) | ![map](event_3851135_residuals.png) |
-| ![map](event_3851586_map.png) | ![map](event_3851586_residuals.png) |
-| ![map](event_3855610_map.png) | ![map](event_3855610_residuals.png) |
-| ![map](event_3856961_map.png) | ![map](event_3856961_residuals.png) |
-| ![map](event_3860219_map.png) | ![map](event_3860219_residuals.png) |
-| ![map](event_3865818_map.png) | ![map](event_3865818_residuals.png) |
-| ![map](event_3868090_map.png) | ![map](event_3868090_residuals.png) |
-| ![map](event_3868238_map.png) | ![map](event_3868238_residuals.png) |
-| ![map](event_3868697_map.png) | ![map](event_3868697_residuals.png) |
-| ![map](event_3872794_map.png) | ![map](event_3872794_residuals.png) |
-| ![map](event_3877431_map.png) | ![map](event_3877431_residuals.png) |
-| ![map](event_3880093_map.png) | ![map](event_3880093_residuals.png) |
-| ![map](event_3881737_map.png) | ![map](event_3881737_residuals.png) |
-| ![map](event_3884104_map.png) | ![map](event_3884104_residuals.png) |
-| ![map](event_3885398_map.png) | ![map](event_3885398_residuals.png) |
-| ![map](event_3890053_map.png) | ![map](event_3890053_residuals.png) |
-| ![map](event_3899501_map.png) | ![map](event_3899501_residuals.png) |
-| ![map](event_3901414_map.png) | ![map](event_3901414_residuals.png) |
-| ![map](event_3902431_map.png) | ![map](event_3902431_residuals.png) |
-| ![map](event_3903679_map.png) | ![map](event_3903679_residuals.png) |
-| ![map](event_3904699_map.png) | ![map](event_3904699_residuals.png) |
-| ![map](event_3905210_map.png) | ![map](event_3905210_residuals.png) |
-| ![map](event_3910883_map.png) | ![map](event_3910883_residuals.png) |
-| ![map](event_3913695_map.png) | ![map](event_3913695_residuals.png) |
-| ![map](event_3914575_map.png) | ![map](event_3914575_residuals.png) |
-| ![map](event_3917392_map.png) | ![map](event_3917392_residuals.png) |
-| ![map](event_3922190_map.png) | ![map](event_3922190_residuals.png) |
-| ![map](event_3922801_map.png) | ![map](event_3922801_residuals.png) |
-| ![map](event_3923977_map.png) | ![map](event_3923977_residuals.png) |
-| ![map](event_3925236_map.png) | ![map](event_3925236_residuals.png) |
-| ![map](event_3926169_map.png) | ![map](event_3926169_residuals.png) |
-| ![map](event_3931920_map.png) | ![map](event_3931920_residuals.png) |
-| ![map](event_3936853_map.png) | ![map](event_3936853_residuals.png) |
-| ![map](event_3941712_map.png) | ![map](event_3941712_residuals.png) |
-| ![map](event_3941847_map.png) | ![map](event_3941847_residuals.png) |
-| ![map](event_3943243_map.png) | ![map](event_3943243_residuals.png) |
-| ![map](event_3948532_map.png) | ![map](event_3948532_residuals.png) |
-| ![map](event_3949697_map.png) | ![map](event_3949697_residuals.png) |
-| ![map](event_3951207_map.png) | ![map](event_3951207_residuals.png) |
-| ![map](event_3956951_map.png) | ![map](event_3956951_residuals.png) |
-| ![map](event_3958348_map.png) | ![map](event_3958348_residuals.png) |
-| ![map](event_3958504_map.png) | ![map](event_3958504_residuals.png) |
-| ![map](event_3962947_map.png) | ![map](event_3962947_residuals.png) |
-| ![map](event_3965068_map.png) | ![map](event_3965068_residuals.png) |
-| ![map](event_3971012_map.png) | ![map](event_3971012_residuals.png) |
-| ![map](event_3973379_map.png) | ![map](event_3973379_residuals.png) |
-| ![map](event_3973599_map.png) | ![map](event_3973599_residuals.png) |
-| ![map](event_3975280_map.png) | ![map](event_3975280_residuals.png) |
-| ![map](event_3977958_map.png) | ![map](event_3977958_residuals.png) |
-| ![map](event_3981287_map.png) | ![map](event_3981287_residuals.png) |
-| ![map](event_3981508_map.png) | ![map](event_3981508_residuals.png) |
-| ![map](event_3987889_map.png) | ![map](event_3987889_residuals.png) |
-| ![map](event_3991542_map.png) | ![map](event_3991542_residuals.png) |
-| ![map](event_3992357_map.png) | ![map](event_3992357_residuals.png) |
-| ![map](event_3995623_map.png) | ![map](event_3995623_residuals.png) |
-| ![map](event_3997810_map.png) | ![map](event_3997810_residuals.png) |
-| ![map](event_3998883_map.png) | ![map](event_3998883_residuals.png) |
-| ![map](event_4003239_map.png) | ![map](event_4003239_residuals.png) |
-| ![map](event_4004969_map.png) | ![map](event_4004969_residuals.png) |
-| ![map](event_4005073_map.png) | ![map](event_4005073_residuals.png) |
-| ![map](event_4005706_map.png) | ![map](event_4005706_residuals.png) |
-| ![map](event_4006568_map.png) | ![map](event_4006568_residuals.png) |
-| ![map](event_4009730_map.png) | ![map](event_4009730_residuals.png) |
-| ![map](event_4010990_map.png) | ![map](event_4010990_residuals.png) |
-| ![map](event_4017319_map.png) | ![map](event_4017319_residuals.png) |
-| ![map](event_4018777_map.png) | ![map](event_4018777_residuals.png) |
-| ![map](event_4019547_map.png) | ![map](event_4019547_residuals.png) |
-| ![map](event_4024250_map.png) | ![map](event_4024250_residuals.png) |
-| ![map](event_4026473_map.png) | ![map](event_4026473_residuals.png) |
-| ![map](event_4029472_map.png) | ![map](event_4029472_residuals.png) |
-| ![map](event_4030502_map.png) | ![map](event_4030502_residuals.png) |
-| ![map](event_4032836_map.png) | ![map](event_4032836_residuals.png) |
-| ![map](event_4033594_map.png) | ![map](event_4033594_residuals.png) |
-| ![map](event_4033672_map.png) | ![map](event_4033672_residuals.png) |
-| ![map](event_4034568_map.png) | ![map](event_4034568_residuals.png) |
-| ![map](event_4035565_map.png) | ![map](event_4035565_residuals.png) |
-| ![map](event_4037359_map.png) | ![map](event_4037359_residuals.png) |
-| ![map](event_4039045_map.png) | ![map](event_4039045_residuals.png) |
-| ![map](event_4042197_map.png) | ![map](event_4042197_residuals.png) |
-| ![map](event_4042199_map.png) | ![map](event_4042199_residuals.png) |
-| ![map](event_4045931_map.png) | ![map](event_4045931_residuals.png) |
-| ![map](event_4048418_map.png) | ![map](event_4048418_residuals.png) |
-| ![map](event_4053127_map.png) | ![map](event_4053127_residuals.png) |
-| ![map](event_4059785_map.png) | ![map](event_4059785_residuals.png) |
-| ![map](event_4064409_map.png) | ![map](event_4064409_residuals.png) |
-| ![map](event_4065214_map.png) | ![map](event_4065214_residuals.png) |
-| ![map](event_4067403_map.png) | ![map](event_4067403_residuals.png) |
-| ![map](event_4067875_map.png) | ![map](event_4067875_residuals.png) |
-| ![map](event_4070868_map.png) | ![map](event_4070868_residuals.png) |
-| ![map](event_4071594_map.png) | ![map](event_4071594_residuals.png) |
-| ![map](event_4072657_map.png) | ![map](event_4072657_residuals.png) |
-| ![map](event_4075939_map.png) | ![map](event_4075939_residuals.png) |
-| ![map](event_4084807_map.png) | ![map](event_4084807_residuals.png) |
-| ![map](event_4102749_map.png) | ![map](event_4102749_residuals.png) |
-| ![map](event_4104692_map.png) | ![map](event_4104692_residuals.png) |
-| ![map](event_4104838_map.png) | ![map](event_4104838_residuals.png) |
-| ![map](event_4106732_map.png) | ![map](event_4106732_residuals.png) |
-| ![map](event_4106791_map.png) | ![map](event_4106791_residuals.png) |
-| ![map](event_4106926_map.png) | ![map](event_4106926_residuals.png) |
-| ![map](event_4110735_map.png) | ![map](event_4110735_residuals.png) |
-| ![map](event_4117039_map.png) | ![map](event_4117039_residuals.png) |
-| ![map](event_4125191_map.png) | ![map](event_4125191_residuals.png) |
-| ![map](event_4125378_map.png) | ![map](event_4125378_residuals.png) |
-| ![map](event_4127918_map.png) | ![map](event_4127918_residuals.png) |
-| ![map](event_4130914_map.png) | ![map](event_4130914_residuals.png) |
-| ![map](event_4135027_map.png) | ![map](event_4135027_residuals.png) |
-| ![map](event_4138282_map.png) | ![map](event_4138282_residuals.png) |
-| ![map](event_4138315_map.png) | ![map](event_4138315_residuals.png) |
-| ![map](event_4139211_map.png) | ![map](event_4139211_residuals.png) |
-| ![map](event_4139719_map.png) | ![map](event_4139719_residuals.png) |
-| ![map](event_4142166_map.png) | ![map](event_4142166_residuals.png) |
-| ![map](event_4143390_map.png) | ![map](event_4143390_residuals.png) |
-| ![map](event_4147245_map.png) | ![map](event_4147245_residuals.png) |
-| ![map](event_4148957_map.png) | ![map](event_4148957_residuals.png) |
-| ![map](event_4154165_map.png) | ![map](event_4154165_residuals.png) |
-| ![map](event_4154457_map.png) | ![map](event_4154457_residuals.png) |
-| ![map](event_4157656_map.png) | ![map](event_4157656_residuals.png) |
-| ![map](event_4157955_map.png) | ![map](event_4157955_residuals.png) |
-| ![map](event_4159817_map.png) | ![map](event_4159817_residuals.png) |
-| ![map](event_4159851_map.png) | ![map](event_4159851_residuals.png) |
-| ![map](event_4162773_map.png) | ![map](event_4162773_residuals.png) |
-| ![map](event_4163532_map.png) | ![map](event_4163532_residuals.png) |
-| ![map](event_4166042_map.png) | ![map](event_4166042_residuals.png) |
-| ![map](event_4169152_map.png) | ![map](event_4169152_residuals.png) |
-| ![map](event_4170708_map.png) | ![map](event_4170708_residuals.png) |
-| ![map](event_4174510_map.png) | ![map](event_4174510_residuals.png) |
-| ![map](event_4179269_map.png) | ![map](event_4179269_residuals.png) |
-| ![map](event_4179587_map.png) | ![map](event_4179587_residuals.png) |
-| ![map](event_4181517_map.png) | ![map](event_4181517_residuals.png) |
-| ![map](event_4182677_map.png) | ![map](event_4182677_residuals.png) |
-| ![map](event_4182921_map.png) | ![map](event_4182921_residuals.png) |
-| ![map](event_4184350_map.png) | ![map](event_4184350_residuals.png) |
-| ![map](event_4185780_map.png) | ![map](event_4185780_residuals.png) |
-| ![map](event_4186552_map.png) | ![map](event_4186552_residuals.png) |
-| ![map](event_4186958_map.png) | ![map](event_4186958_residuals.png) |
-| ![map](event_4190718_map.png) | ![map](event_4190718_residuals.png) |
-| ![map](event_4192784_map.png) | ![map](event_4192784_residuals.png) |
-| ![map](event_4193133_map.png) | ![map](event_4193133_residuals.png) |
-| ![map](event_4199888_map.png) | ![map](event_4199888_residuals.png) |
-| ![map](event_4199943_map.png) | ![map](event_4199943_residuals.png) |
-| ![map](event_4203429_map.png) | ![map](event_4203429_residuals.png) |
-| ![map](event_4209751_map.png) | ![map](event_4209751_residuals.png) |
-| ![map](event_4213860_map.png) | ![map](event_4213860_residuals.png) |
-| ![map](event_4216092_map.png) | ![map](event_4216092_residuals.png) |
-| ![map](event_4217452_map.png) | ![map](event_4217452_residuals.png) |
-| ![map](event_4217912_map.png) | ![map](event_4217912_residuals.png) |
-| ![map](event_4222935_map.png) | ![map](event_4222935_residuals.png) |
-| ![map](event_4222938_map.png) | ![map](event_4222938_residuals.png) |
-| ![map](event_4223426_map.png) | ![map](event_4223426_residuals.png) |
-| ![map](event_4225158_map.png) | ![map](event_4225158_residuals.png) |
-| ![map](event_4225515_map.png) | ![map](event_4225515_residuals.png) |
-| ![map](event_4226103_map.png) | ![map](event_4226103_residuals.png) |
-| ![map](event_4231563_map.png) | ![map](event_4231563_residuals.png) |
-| ![map](event_4234360_map.png) | ![map](event_4234360_residuals.png) |
-| ![map](event_4234782_map.png) | ![map](event_4234782_residuals.png) |
-| ![map](event_4234797_map.png) | ![map](event_4234797_residuals.png) |
-| ![map](event_4239709_map.png) | ![map](event_4239709_residuals.png) |
-| ![map](event_4248859_map.png) | ![map](event_4248859_residuals.png) |
-| ![map](event_4249021_map.png) | ![map](event_4249021_residuals.png) |
-| ![map](event_4251959_map.png) | ![map](event_4251959_residuals.png) |
-| ![map](event_4256607_map.png) | ![map](event_4256607_residuals.png) |
-| ![map](event_4256611_map.png) | ![map](event_4256611_residuals.png) |
-| ![map](event_4257097_map.png) | ![map](event_4257097_residuals.png) |
-| ![map](event_4261496_map.png) | ![map](event_4261496_residuals.png) |
-| ![map](event_4265549_map.png) | ![map](event_4265549_residuals.png) |
-| ![map](event_4268617_map.png) | ![map](event_4268617_residuals.png) |
-| ![map](event_4268652_map.png) | ![map](event_4268652_residuals.png) |
-| ![map](event_4274458_map.png) | ![map](event_4274458_residuals.png) |
-| ![map](event_4281285_map.png) | ![map](event_4281285_residuals.png) |
-| ![map](event_4284561_map.png) | ![map](event_4284561_residuals.png) |
-| ![map](event_4289639_map.png) | ![map](event_4289639_residuals.png) |
-| ![map](event_4296030_map.png) | ![map](event_4296030_residuals.png) |
-| ![map](event_4296903_map.png) | ![map](event_4296903_residuals.png) |
-| ![map](event_4297615_map.png) | ![map](event_4297615_residuals.png) |
-| ![map](event_4298972_map.png) | ![map](event_4298972_residuals.png) |
-| ![map](event_4301795_map.png) | ![map](event_4301795_residuals.png) |
-| ![map](event_4305680_map.png) | ![map](event_4305680_residuals.png) |
-| ![map](event_4314885_map.png) | ![map](event_4314885_residuals.png) |
-| ![map](event_4318019_map.png) | ![map](event_4318019_residuals.png) |
-| ![map](event_4320433_map.png) | ![map](event_4320433_residuals.png) |
-| ![map](event_4321500_map.png) | ![map](event_4321500_residuals.png) |
-| ![map](event_4324226_map.png) | ![map](event_4324226_residuals.png) |
-| ![map](event_4330966_map.png) | ![map](event_4330966_residuals.png) |
-| ![map](event_4339162_map.png) | ![map](event_4339162_residuals.png) |
-| ![map](event_4341817_map.png) | ![map](event_4341817_residuals.png) |
-| ![map](event_4343114_map.png) | ![map](event_4343114_residuals.png) |
-| ![map](event_4343912_map.png) | ![map](event_4343912_residuals.png) |
-| ![map](event_4346526_map.png) | ![map](event_4346526_residuals.png) |
-| ![map](event_4350548_map.png) | ![map](event_4350548_residuals.png) |
-| ![map](event_4352434_map.png) | ![map](event_4352434_residuals.png) |
-| ![map](event_4352570_map.png) | ![map](event_4352570_residuals.png) |
-| ![map](event_4356262_map.png) | ![map](event_4356262_residuals.png) |
-| ![map](event_4357838_map.png) | ![map](event_4357838_residuals.png) |
-| ![map](event_4358232_map.png) | ![map](event_4358232_residuals.png) |
-| ![map](event_4366587_map.png) | ![map](event_4366587_residuals.png) |
-| ![map](event_4368593_map.png) | ![map](event_4368593_residuals.png) |
-| ![map](event_4369180_map.png) | ![map](event_4369180_residuals.png) |
-| ![map](event_4376208_map.png) | ![map](event_4376208_residuals.png) |
-| ![map](event_4377767_map.png) | ![map](event_4377767_residuals.png) |
-| ![map](event_4382768_map.png) | ![map](event_4382768_residuals.png) |
-| ![map](event_4383766_map.png) | ![map](event_4383766_residuals.png) |
-| ![map](event_4388428_map.png) | ![map](event_4388428_residuals.png) |
-| ![map](event_4390554_map.png) | ![map](event_4390554_residuals.png) |
-| ![map](event_4401036_map.png) | ![map](event_4401036_residuals.png) |
-| ![map](event_4403956_map.png) | ![map](event_4403956_residuals.png) |
-| ![map](event_4404110_map.png) | ![map](event_4404110_residuals.png) |
-| ![map](event_4407562_map.png) | ![map](event_4407562_residuals.png) |
-| ![map](event_4409830_map.png) | ![map](event_4409830_residuals.png) |
-| ![map](event_4414579_map.png) | ![map](event_4414579_residuals.png) |
-| ![map](event_4415094_map.png) | ![map](event_4415094_residuals.png) |
-| ![map](event_4416463_map.png) | ![map](event_4416463_residuals.png) |
-| ![map](event_4419474_map.png) | ![map](event_4419474_residuals.png) |
-| ![map](event_4420573_map.png) | ![map](event_4420573_residuals.png) |
-| ![map](event_4424507_map.png) | ![map](event_4424507_residuals.png) |
-| ![map](event_4424714_map.png) | ![map](event_4424714_residuals.png) |
-| ![map](event_4425266_map.png) | ![map](event_4425266_residuals.png) |
-| ![map](event_4426486_map.png) | ![map](event_4426486_residuals.png) |
-| ![map](event_4430884_map.png) | ![map](event_4430884_residuals.png) |
-| ![map](event_4433197_map.png) | ![map](event_4433197_residuals.png) |
-| ![map](event_4433362_map.png) | ![map](event_4433362_residuals.png) |
-| ![map](event_4437218_map.png) | ![map](event_4437218_residuals.png) |
-| ![map](event_4437239_map.png) | ![map](event_4437239_residuals.png) |
-| ![map](event_4442020_map.png) | ![map](event_4442020_residuals.png) |
-| ![map](event_4444861_map.png) | ![map](event_4444861_residuals.png) |
-| ![map](event_4446156_map.png) | ![map](event_4446156_residuals.png) |
-| ![map](event_4446805_map.png) | ![map](event_4446805_residuals.png) |
-| ![map](event_4455799_map.png) | ![map](event_4455799_residuals.png) |
-| ![map](event_4458541_map.png) | ![map](event_4458541_residuals.png) |
-| ![map](event_4459960_map.png) | ![map](event_4459960_residuals.png) |
-| ![map](event_4465061_map.png) | ![map](event_4465061_residuals.png) |
-| ![map](event_4467904_map.png) | ![map](event_4467904_residuals.png) |
-| ![map](event_4469555_map.png) | ![map](event_4469555_residuals.png) |
-| ![map](event_4472182_map.png) | ![map](event_4472182_residuals.png) |
-| ![map](event_4476125_map.png) | ![map](event_4476125_residuals.png) |
-| ![map](event_4479661_map.png) | ![map](event_4479661_residuals.png) |
-| ![map](event_4482129_map.png) | ![map](event_4482129_residuals.png) |
-| ![map](event_4484865_map.png) | ![map](event_4484865_residuals.png) |
-| ![map](event_4486713_map.png) | ![map](event_4486713_residuals.png) |
-| ![map](event_4487437_map.png) | ![map](event_4487437_residuals.png) |
-| ![map](event_4487891_map.png) | ![map](event_4487891_residuals.png) |
-| ![map](event_4488374_map.png) | ![map](event_4488374_residuals.png) |
-| ![map](event_4488882_map.png) | ![map](event_4488882_residuals.png) |
-| ![map](event_4492118_map.png) | ![map](event_4492118_residuals.png) |
-| ![map](event_4492905_map.png) | ![map](event_4492905_residuals.png) |
-| ![map](event_4498225_map.png) | ![map](event_4498225_residuals.png) |
-| ![map](event_4499173_map.png) | ![map](event_4499173_residuals.png) |
-| ![map](event_4501759_map.png) | ![map](event_4501759_residuals.png) |
-| ![map](event_4501922_map.png) | ![map](event_4501922_residuals.png) |
-| ![map](event_4503376_map.png) | ![map](event_4503376_residuals.png) |
-| ![map](event_4506776_map.png) | ![map](event_4506776_residuals.png) |
-| ![map](event_4519641_map.png) | ![map](event_4519641_residuals.png) |
-| ![map](event_4527853_map.png) | ![map](event_4527853_residuals.png) |
-| ![map](event_4528114_map.png) | ![map](event_4528114_residuals.png) |
-| ![map](event_4530993_map.png) | ![map](event_4530993_residuals.png) |
-| ![map](event_4532035_map.png) | ![map](event_4532035_residuals.png) |
-| ![map](event_4536149_map.png) | ![map](event_4536149_residuals.png) |
-| ![map](event_4538402_map.png) | ![map](event_4538402_residuals.png) |
-| ![map](event_4542281_map.png) | ![map](event_4542281_residuals.png) |
-| ![map](event_4543615_map.png) | ![map](event_4543615_residuals.png) |
-| ![map](event_4547609_map.png) | ![map](event_4547609_residuals.png) |
-| ![map](event_4548173_map.png) | ![map](event_4548173_residuals.png) |
-| ![map](event_4550302_map.png) | ![map](event_4550302_residuals.png) |
-| ![map](event_4552173_map.png) | ![map](event_4552173_residuals.png) |
-| ![map](event_4558587_map.png) | ![map](event_4558587_residuals.png) |
-| ![map](event_4561277_map.png) | ![map](event_4561277_residuals.png) |
-| ![map](event_4561303_map.png) | ![map](event_4561303_residuals.png) |
-| ![map](event_4561909_map.png) | ![map](event_4561909_residuals.png) |
-| ![map](event_4563413_map.png) | ![map](event_4563413_residuals.png) |
-| ![map](event_4564217_map.png) | ![map](event_4564217_residuals.png) |
-| ![map](event_4571936_map.png) | ![map](event_4571936_residuals.png) |
-| ![map](event_4572206_map.png) | ![map](event_4572206_residuals.png) |
-| ![map](event_4572520_map.png) | ![map](event_4572520_residuals.png) |
-| ![map](event_4573793_map.png) | ![map](event_4573793_residuals.png) |
-| ![map](event_4577627_map.png) | ![map](event_4577627_residuals.png) |
-| ![map](event_4579791_map.png) | ![map](event_4579791_residuals.png) |
-| ![map](event_4580428_map.png) | ![map](event_4580428_residuals.png) |
-| ![map](event_4586803_map.png) | ![map](event_4586803_residuals.png) |
-| ![map](event_4588357_map.png) | ![map](event_4588357_residuals.png) |
-| ![map](event_4589225_map.png) | ![map](event_4589225_residuals.png) |
-| ![map](event_4593246_map.png) | ![map](event_4593246_residuals.png) |
-| ![map](event_4595406_map.png) | ![map](event_4595406_residuals.png) |
-| ![map](event_4595757_map.png) | ![map](event_4595757_residuals.png) |
-| ![map](event_4598505_map.png) | ![map](event_4598505_residuals.png) |
-| ![map](event_4610267_map.png) | ![map](event_4610267_residuals.png) |
-| ![map](event_4612001_map.png) | ![map](event_4612001_residuals.png) |
-| ![map](event_4614703_map.png) | ![map](event_4614703_residuals.png) |
-| ![map](event_4616852_map.png) | ![map](event_4616852_residuals.png) |
-| ![map](event_4617670_map.png) | ![map](event_4617670_residuals.png) |
-| ![map](event_4618797_map.png) | ![map](event_4618797_residuals.png) |
-| ![map](event_4620701_map.png) | ![map](event_4620701_residuals.png) |
-| ![map](event_4633416_map.png) | ![map](event_4633416_residuals.png) |
-| ![map](event_4633822_map.png) | ![map](event_4633822_residuals.png) |
-| ![map](event_4645679_map.png) | ![map](event_4645679_residuals.png) |
-| ![map](event_4647174_map.png) | ![map](event_4647174_residuals.png) |
-| ![map](event_4648472_map.png) | ![map](event_4648472_residuals.png) |
-| ![map](event_4651599_map.png) | ![map](event_4651599_residuals.png) |
-| ![map](event_4660149_map.png) | ![map](event_4660149_residuals.png) |
-| ![map](event_4660315_map.png) | ![map](event_4660315_residuals.png) |
-| ![map](event_4661423_map.png) | ![map](event_4661423_residuals.png) |
-| ![map](event_4662182_map.png) | ![map](event_4662182_residuals.png) |
-| ![map](event_4672699_map.png) | ![map](event_4672699_residuals.png) |
-| ![map](event_4672886_map.png) | ![map](event_4672886_residuals.png) |
-| ![map](event_4676299_map.png) | ![map](event_4676299_residuals.png) |
-| ![map](event_4676761_map.png) | ![map](event_4676761_residuals.png) |
+| 3s Map Plot | 5s Map Plot | 10s Map Plot | Residuals Plot |
+|-----|-----|-----|-----|
+| ![plot](event_3635854_map_3s.png) | ![plot](event_3635854_map_5s.png) | ![plot](event_3635854_map_10s.png) | ![plot](event_3635854_residuals.png) |
+| ![plot](event_3637230_map_3s.png) | ![plot](event_3637230_map_5s.png) | ![plot](event_3637230_map_10s.png) | ![plot](event_3637230_residuals.png) |
+| ![plot](event_3642314_map_3s.png) | ![plot](event_3642314_map_5s.png) | ![plot](event_3642314_map_10s.png) | ![plot](event_3642314_residuals.png) |
+| ![plot](event_3643964_map_3s.png) | ![plot](event_3643964_map_5s.png) | ![plot](event_3643964_map_10s.png) | ![plot](event_3643964_residuals.png) |
+| ![plot](event_3645395_map_3s.png) | ![plot](event_3645395_map_5s.png) | ![plot](event_3645395_map_10s.png) | ![plot](event_3645395_residuals.png) |
+| ![plot](event_3646471_map_3s.png) | ![plot](event_3646471_map_5s.png) | ![plot](event_3646471_map_10s.png) | ![plot](event_3646471_residuals.png) |
+| ![plot](event_3648948_map_3s.png) | ![plot](event_3648948_map_5s.png) | ![plot](event_3648948_map_10s.png) | ![plot](event_3648948_residuals.png) |
+| ![plot](event_3650999_map_3s.png) | ![plot](event_3650999_map_5s.png) | ![plot](event_3650999_map_10s.png) | ![plot](event_3650999_residuals.png) |
+| ![plot](event_3651050_map_3s.png) | ![plot](event_3651050_map_5s.png) | ![plot](event_3651050_map_10s.png) | ![plot](event_3651050_residuals.png) |
+| ![plot](event_3652532_map_3s.png) | ![plot](event_3652532_map_5s.png) | ![plot](event_3652532_map_10s.png) | ![plot](event_3652532_residuals.png) |
+| ![plot](event_3655859_map_3s.png) | ![plot](event_3655859_map_5s.png) | ![plot](event_3655859_map_10s.png) | ![plot](event_3655859_residuals.png) |
+| ![plot](event_3661747_map_3s.png) | ![plot](event_3661747_map_5s.png) | ![plot](event_3661747_map_10s.png) | ![plot](event_3661747_residuals.png) |
+| ![plot](event_3666542_map_3s.png) | ![plot](event_3666542_map_5s.png) | ![plot](event_3666542_map_10s.png) | ![plot](event_3666542_residuals.png) |
+| ![plot](event_3667366_map_3s.png) | ![plot](event_3667366_map_5s.png) | ![plot](event_3667366_map_10s.png) | ![plot](event_3667366_residuals.png) |
+| ![plot](event_3671742_map_3s.png) | ![plot](event_3671742_map_5s.png) | ![plot](event_3671742_map_10s.png) | ![plot](event_3671742_residuals.png) |
+| ![plot](event_3673646_map_3s.png) | ![plot](event_3673646_map_5s.png) | ![plot](event_3673646_map_10s.png) | ![plot](event_3673646_residuals.png) |
+| ![plot](event_3678853_map_3s.png) | ![plot](event_3678853_map_5s.png) | ![plot](event_3678853_map_10s.png) | ![plot](event_3678853_residuals.png) |
+| ![plot](event_3679905_map_3s.png) | ![plot](event_3679905_map_5s.png) | ![plot](event_3679905_map_10s.png) | ![plot](event_3679905_residuals.png) |
+| ![plot](event_3680777_map_3s.png) | ![plot](event_3680777_map_5s.png) | ![plot](event_3680777_map_10s.png) | ![plot](event_3680777_residuals.png) |
+| ![plot](event_3681566_map_3s.png) | ![plot](event_3681566_map_5s.png) | ![plot](event_3681566_map_10s.png) | ![plot](event_3681566_residuals.png) |
+| ![plot](event_3683158_map_3s.png) | ![plot](event_3683158_map_5s.png) | ![plot](event_3683158_map_10s.png) | ![plot](event_3683158_residuals.png) |
+| ![plot](event_3689087_map_3s.png) | ![plot](event_3689087_map_5s.png) | ![plot](event_3689087_map_10s.png) | ![plot](event_3689087_residuals.png) |
+| ![plot](event_3690545_map_3s.png) | ![plot](event_3690545_map_5s.png) | ![plot](event_3690545_map_10s.png) | ![plot](event_3690545_residuals.png) |
+| ![plot](event_3690731_map_3s.png) | ![plot](event_3690731_map_5s.png) | ![plot](event_3690731_map_10s.png) | ![plot](event_3690731_residuals.png) |
+| ![plot](event_3697019_map_3s.png) | ![plot](event_3697019_map_5s.png) | ![plot](event_3697019_map_10s.png) | ![plot](event_3697019_residuals.png) |
+| ![plot](event_3698077_map_3s.png) | ![plot](event_3698077_map_5s.png) | ![plot](event_3698077_map_10s.png) | ![plot](event_3698077_residuals.png) |
+| ![plot](event_3698518_map_3s.png) | ![plot](event_3698518_map_5s.png) | ![plot](event_3698518_map_10s.png) | ![plot](event_3698518_residuals.png) |
+| ![plot](event_3700967_map_3s.png) | ![plot](event_3700967_map_5s.png) | ![plot](event_3700967_map_10s.png) | ![plot](event_3700967_residuals.png) |
+| ![plot](event_3702427_map_3s.png) | ![plot](event_3702427_map_5s.png) | ![plot](event_3702427_map_10s.png) | ![plot](event_3702427_residuals.png) |
+| ![plot](event_3707148_map_3s.png) | ![plot](event_3707148_map_5s.png) | ![plot](event_3707148_map_10s.png) | ![plot](event_3707148_residuals.png) |
+| ![plot](event_3707784_map_3s.png) | ![plot](event_3707784_map_5s.png) | ![plot](event_3707784_map_10s.png) | ![plot](event_3707784_residuals.png) |
+| ![plot](event_3709045_map_3s.png) | ![plot](event_3709045_map_5s.png) | ![plot](event_3709045_map_10s.png) | ![plot](event_3709045_residuals.png) |
+| ![plot](event_3712477_map_3s.png) | ![plot](event_3712477_map_5s.png) | ![plot](event_3712477_map_10s.png) | ![plot](event_3712477_residuals.png) |
+| ![plot](event_3713001_map_3s.png) | ![plot](event_3713001_map_5s.png) | ![plot](event_3713001_map_10s.png) | ![plot](event_3713001_residuals.png) |
+| ![plot](event_3715191_map_3s.png) | ![plot](event_3715191_map_5s.png) | ![plot](event_3715191_map_10s.png) | ![plot](event_3715191_residuals.png) |
+| ![plot](event_3716048_map_3s.png) | ![plot](event_3716048_map_5s.png) | ![plot](event_3716048_map_10s.png) | ![plot](event_3716048_residuals.png) |
+| ![plot](event_3718628_map_3s.png) | ![plot](event_3718628_map_5s.png) | ![plot](event_3718628_map_10s.png) | ![plot](event_3718628_residuals.png) |
+| ![plot](event_3728698_map_3s.png) | ![plot](event_3728698_map_5s.png) | ![plot](event_3728698_map_10s.png) | ![plot](event_3728698_residuals.png) |
+| ![plot](event_3730603_map_3s.png) | ![plot](event_3730603_map_5s.png) | ![plot](event_3730603_map_10s.png) | ![plot](event_3730603_residuals.png) |
+| ![plot](event_3734274_map_3s.png) | ![plot](event_3734274_map_5s.png) | ![plot](event_3734274_map_10s.png) | ![plot](event_3734274_residuals.png) |
+| ![plot](event_3734739_map_3s.png) | ![plot](event_3734739_map_5s.png) | ![plot](event_3734739_map_10s.png) | ![plot](event_3734739_residuals.png) |
+| ![plot](event_3738687_map_3s.png) | ![plot](event_3738687_map_5s.png) | ![plot](event_3738687_map_10s.png) | ![plot](event_3738687_residuals.png) |
+| ![plot](event_3742771_map_3s.png) | ![plot](event_3742771_map_5s.png) | ![plot](event_3742771_map_10s.png) | ![plot](event_3742771_residuals.png) |
+| ![plot](event_3745536_map_3s.png) | ![plot](event_3745536_map_5s.png) | ![plot](event_3745536_map_10s.png) | ![plot](event_3745536_residuals.png) |
+| ![plot](event_3747283_map_3s.png) | ![plot](event_3747283_map_5s.png) | ![plot](event_3747283_map_10s.png) | ![plot](event_3747283_residuals.png) |
+| ![plot](event_3748697_map_3s.png) | ![plot](event_3748697_map_5s.png) | ![plot](event_3748697_map_10s.png) | ![plot](event_3748697_residuals.png) |
+| ![plot](event_3748773_map_3s.png) | ![plot](event_3748773_map_5s.png) | ![plot](event_3748773_map_10s.png) | ![plot](event_3748773_residuals.png) |
+| ![plot](event_3751176_map_3s.png) | ![plot](event_3751176_map_5s.png) | ![plot](event_3751176_map_10s.png) | ![plot](event_3751176_residuals.png) |
+| ![plot](event_3754473_map_3s.png) | ![plot](event_3754473_map_5s.png) | ![plot](event_3754473_map_10s.png) | ![plot](event_3754473_residuals.png) |
+| ![plot](event_3754549_map_3s.png) | ![plot](event_3754549_map_5s.png) | ![plot](event_3754549_map_10s.png) | ![plot](event_3754549_residuals.png) |
+| ![plot](event_3755195_map_3s.png) | ![plot](event_3755195_map_5s.png) | ![plot](event_3755195_map_10s.png) | ![plot](event_3755195_residuals.png) |
+| ![plot](event_3756980_map_3s.png) | ![plot](event_3756980_map_5s.png) | ![plot](event_3756980_map_10s.png) | ![plot](event_3756980_residuals.png) |
+| ![plot](event_3757192_map_3s.png) | ![plot](event_3757192_map_5s.png) | ![plot](event_3757192_map_10s.png) | ![plot](event_3757192_residuals.png) |
+| ![plot](event_3764130_map_3s.png) | ![plot](event_3764130_map_5s.png) | ![plot](event_3764130_map_10s.png) | ![plot](event_3764130_residuals.png) |
+| ![plot](event_3768068_map_3s.png) | ![plot](event_3768068_map_5s.png) | ![plot](event_3768068_map_10s.png) | ![plot](event_3768068_residuals.png) |
+| ![plot](event_3770257_map_3s.png) | ![plot](event_3770257_map_5s.png) | ![plot](event_3770257_map_10s.png) | ![plot](event_3770257_residuals.png) |
+| ![plot](event_3770578_map_3s.png) | ![plot](event_3770578_map_5s.png) | ![plot](event_3770578_map_10s.png) | ![plot](event_3770578_residuals.png) |
+| ![plot](event_3771453_map_3s.png) | ![plot](event_3771453_map_5s.png) | ![plot](event_3771453_map_10s.png) | ![plot](event_3771453_residuals.png) |
+| ![plot](event_3775323_map_3s.png) | ![plot](event_3775323_map_5s.png) | ![plot](event_3775323_map_10s.png) | ![plot](event_3775323_residuals.png) |
+| ![plot](event_3778338_map_3s.png) | ![plot](event_3778338_map_5s.png) | ![plot](event_3778338_map_10s.png) | ![plot](event_3778338_residuals.png) |
+| ![plot](event_3779034_map_3s.png) | ![plot](event_3779034_map_5s.png) | ![plot](event_3779034_map_10s.png) | ![plot](event_3779034_residuals.png) |
+| ![plot](event_3780993_map_3s.png) | ![plot](event_3780993_map_5s.png) | ![plot](event_3780993_map_10s.png) | ![plot](event_3780993_residuals.png) |
+| ![plot](event_3781841_map_3s.png) | ![plot](event_3781841_map_5s.png) | ![plot](event_3781841_map_10s.png) | ![plot](event_3781841_residuals.png) |
+| ![plot](event_3784099_map_3s.png) | ![plot](event_3784099_map_5s.png) | ![plot](event_3784099_map_10s.png) | ![plot](event_3784099_residuals.png) |
+| ![plot](event_3786019_map_3s.png) | ![plot](event_3786019_map_5s.png) | ![plot](event_3786019_map_10s.png) | ![plot](event_3786019_residuals.png) |
+| ![plot](event_3786515_map_3s.png) | ![plot](event_3786515_map_5s.png) | ![plot](event_3786515_map_10s.png) | ![plot](event_3786515_residuals.png) |
+| ![plot](event_3789792_map_3s.png) | ![plot](event_3789792_map_5s.png) | ![plot](event_3789792_map_10s.png) | ![plot](event_3789792_residuals.png) |
+| ![plot](event_3790308_map_3s.png) | ![plot](event_3790308_map_5s.png) | ![plot](event_3790308_map_10s.png) | ![plot](event_3790308_residuals.png) |
+| ![plot](event_3793248_map_3s.png) | ![plot](event_3793248_map_5s.png) | ![plot](event_3793248_map_10s.png) | ![plot](event_3793248_residuals.png) |
+| ![plot](event_3794223_map_3s.png) | ![plot](event_3794223_map_5s.png) | ![plot](event_3794223_map_10s.png) | ![plot](event_3794223_residuals.png) |
+| ![plot](event_3795573_map_3s.png) | ![plot](event_3795573_map_5s.png) | ![plot](event_3795573_map_10s.png) | ![plot](event_3795573_residuals.png) |
+| ![plot](event_3796765_map_3s.png) | ![plot](event_3796765_map_5s.png) | ![plot](event_3796765_map_10s.png) | ![plot](event_3796765_residuals.png) |
+| ![plot](event_3797270_map_3s.png) | ![plot](event_3797270_map_5s.png) | ![plot](event_3797270_map_10s.png) | ![plot](event_3797270_residuals.png) |
+| ![plot](event_3799098_map_3s.png) | ![plot](event_3799098_map_5s.png) | ![plot](event_3799098_map_10s.png) | ![plot](event_3799098_residuals.png) |
+| ![plot](event_3803924_map_3s.png) | ![plot](event_3803924_map_5s.png) | ![plot](event_3803924_map_10s.png) | ![plot](event_3803924_residuals.png) |
+| ![plot](event_3806813_map_3s.png) | ![plot](event_3806813_map_5s.png) | ![plot](event_3806813_map_10s.png) | ![plot](event_3806813_residuals.png) |
+| ![plot](event_3806926_map_3s.png) | ![plot](event_3806926_map_5s.png) | ![plot](event_3806926_map_10s.png) | ![plot](event_3806926_residuals.png) |
+| ![plot](event_3807252_map_3s.png) | ![plot](event_3807252_map_5s.png) | ![plot](event_3807252_map_10s.png) | ![plot](event_3807252_residuals.png) |
+| ![plot](event_3808964_map_3s.png) | ![plot](event_3808964_map_5s.png) | ![plot](event_3808964_map_10s.png) | ![plot](event_3808964_residuals.png) |
+| ![plot](event_3809182_map_3s.png) | ![plot](event_3809182_map_5s.png) | ![plot](event_3809182_map_10s.png) | ![plot](event_3809182_residuals.png) |
+| ![plot](event_3810569_map_3s.png) | ![plot](event_3810569_map_5s.png) | ![plot](event_3810569_map_10s.png) | ![plot](event_3810569_residuals.png) |
+| ![plot](event_3812378_map_3s.png) | ![plot](event_3812378_map_5s.png) | ![plot](event_3812378_map_10s.png) | ![plot](event_3812378_residuals.png) |
+| ![plot](event_3812593_map_3s.png) | ![plot](event_3812593_map_5s.png) | ![plot](event_3812593_map_10s.png) | ![plot](event_3812593_residuals.png) |
+| ![plot](event_3812745_map_3s.png) | ![plot](event_3812745_map_5s.png) | ![plot](event_3812745_map_10s.png) | ![plot](event_3812745_residuals.png) |
+| ![plot](event_3817003_map_3s.png) | ![plot](event_3817003_map_5s.png) | ![plot](event_3817003_map_10s.png) | ![plot](event_3817003_residuals.png) |
+| ![plot](event_3818120_map_3s.png) | ![plot](event_3818120_map_5s.png) | ![plot](event_3818120_map_10s.png) | ![plot](event_3818120_residuals.png) |
+| ![plot](event_3825072_map_3s.png) | ![plot](event_3825072_map_5s.png) | ![plot](event_3825072_map_10s.png) | ![plot](event_3825072_residuals.png) |
+| ![plot](event_3826979_map_3s.png) | ![plot](event_3826979_map_5s.png) | ![plot](event_3826979_map_10s.png) | ![plot](event_3826979_residuals.png) |
+| ![plot](event_3829165_map_3s.png) | ![plot](event_3829165_map_5s.png) | ![plot](event_3829165_map_10s.png) | ![plot](event_3829165_residuals.png) |
+| ![plot](event_3829258_map_3s.png) | ![plot](event_3829258_map_5s.png) | ![plot](event_3829258_map_10s.png) | ![plot](event_3829258_residuals.png) |
+| ![plot](event_3833545_map_3s.png) | ![plot](event_3833545_map_5s.png) | ![plot](event_3833545_map_10s.png) | ![plot](event_3833545_residuals.png) |
+| ![plot](event_3840226_map_3s.png) | ![plot](event_3840226_map_5s.png) | ![plot](event_3840226_map_10s.png) | ![plot](event_3840226_residuals.png) |
+| ![plot](event_3840342_map_3s.png) | ![plot](event_3840342_map_5s.png) | ![plot](event_3840342_map_10s.png) | ![plot](event_3840342_residuals.png) |
+| ![plot](event_3843824_map_3s.png) | ![plot](event_3843824_map_5s.png) | ![plot](event_3843824_map_10s.png) | ![plot](event_3843824_residuals.png) |
+| ![plot](event_3846363_map_3s.png) | ![plot](event_3846363_map_5s.png) | ![plot](event_3846363_map_10s.png) | ![plot](event_3846363_residuals.png) |
+| ![plot](event_3847318_map_3s.png) | ![plot](event_3847318_map_5s.png) | ![plot](event_3847318_map_10s.png) | ![plot](event_3847318_residuals.png) |
+| ![plot](event_3851135_map_3s.png) | ![plot](event_3851135_map_5s.png) | ![plot](event_3851135_map_10s.png) | ![plot](event_3851135_residuals.png) |
+| ![plot](event_3851586_map_3s.png) | ![plot](event_3851586_map_5s.png) | ![plot](event_3851586_map_10s.png) | ![plot](event_3851586_residuals.png) |
+| ![plot](event_3855610_map_3s.png) | ![plot](event_3855610_map_5s.png) | ![plot](event_3855610_map_10s.png) | ![plot](event_3855610_residuals.png) |
+| ![plot](event_3856961_map_3s.png) | ![plot](event_3856961_map_5s.png) | ![plot](event_3856961_map_10s.png) | ![plot](event_3856961_residuals.png) |
+| ![plot](event_3860219_map_3s.png) | ![plot](event_3860219_map_5s.png) | ![plot](event_3860219_map_10s.png) | ![plot](event_3860219_residuals.png) |
+| ![plot](event_3865818_map_3s.png) | ![plot](event_3865818_map_5s.png) | ![plot](event_3865818_map_10s.png) | ![plot](event_3865818_residuals.png) |
+| ![plot](event_3868090_map_3s.png) | ![plot](event_3868090_map_5s.png) | ![plot](event_3868090_map_10s.png) | ![plot](event_3868090_residuals.png) |
+| ![plot](event_3868238_map_3s.png) | ![plot](event_3868238_map_5s.png) | ![plot](event_3868238_map_10s.png) | ![plot](event_3868238_residuals.png) |
+| ![plot](event_3868697_map_3s.png) | ![plot](event_3868697_map_5s.png) | ![plot](event_3868697_map_10s.png) | ![plot](event_3868697_residuals.png) |
+| ![plot](event_3872794_map_3s.png) | ![plot](event_3872794_map_5s.png) | ![plot](event_3872794_map_10s.png) | ![plot](event_3872794_residuals.png) |
+| ![plot](event_3877431_map_3s.png) | ![plot](event_3877431_map_5s.png) | ![plot](event_3877431_map_10s.png) | ![plot](event_3877431_residuals.png) |
+| ![plot](event_3880093_map_3s.png) | ![plot](event_3880093_map_5s.png) | ![plot](event_3880093_map_10s.png) | ![plot](event_3880093_residuals.png) |
+| ![plot](event_3881737_map_3s.png) | ![plot](event_3881737_map_5s.png) | ![plot](event_3881737_map_10s.png) | ![plot](event_3881737_residuals.png) |
+| ![plot](event_3884104_map_3s.png) | ![plot](event_3884104_map_5s.png) | ![plot](event_3884104_map_10s.png) | ![plot](event_3884104_residuals.png) |
+| ![plot](event_3885398_map_3s.png) | ![plot](event_3885398_map_5s.png) | ![plot](event_3885398_map_10s.png) | ![plot](event_3885398_residuals.png) |
+| ![plot](event_3890053_map_3s.png) | ![plot](event_3890053_map_5s.png) | ![plot](event_3890053_map_10s.png) | ![plot](event_3890053_residuals.png) |
+| ![plot](event_3899501_map_3s.png) | ![plot](event_3899501_map_5s.png) | ![plot](event_3899501_map_10s.png) | ![plot](event_3899501_residuals.png) |
+| ![plot](event_3901414_map_3s.png) | ![plot](event_3901414_map_5s.png) | ![plot](event_3901414_map_10s.png) | ![plot](event_3901414_residuals.png) |
+| ![plot](event_3902431_map_3s.png) | ![plot](event_3902431_map_5s.png) | ![plot](event_3902431_map_10s.png) | ![plot](event_3902431_residuals.png) |
+| ![plot](event_3903679_map_3s.png) | ![plot](event_3903679_map_5s.png) | ![plot](event_3903679_map_10s.png) | ![plot](event_3903679_residuals.png) |
+| ![plot](event_3904699_map_3s.png) | ![plot](event_3904699_map_5s.png) | ![plot](event_3904699_map_10s.png) | ![plot](event_3904699_residuals.png) |
+| ![plot](event_3905210_map_3s.png) | ![plot](event_3905210_map_5s.png) | ![plot](event_3905210_map_10s.png) | ![plot](event_3905210_residuals.png) |
+| ![plot](event_3910883_map_3s.png) | ![plot](event_3910883_map_5s.png) | ![plot](event_3910883_map_10s.png) | ![plot](event_3910883_residuals.png) |
+| ![plot](event_3913695_map_3s.png) | ![plot](event_3913695_map_5s.png) | ![plot](event_3913695_map_10s.png) | ![plot](event_3913695_residuals.png) |
+| ![plot](event_3914575_map_3s.png) | ![plot](event_3914575_map_5s.png) | ![plot](event_3914575_map_10s.png) | ![plot](event_3914575_residuals.png) |
+| ![plot](event_3917392_map_3s.png) | ![plot](event_3917392_map_5s.png) | ![plot](event_3917392_map_10s.png) | ![plot](event_3917392_residuals.png) |
+| ![plot](event_3922190_map_3s.png) | ![plot](event_3922190_map_5s.png) | ![plot](event_3922190_map_10s.png) | ![plot](event_3922190_residuals.png) |
+| ![plot](event_3922801_map_3s.png) | ![plot](event_3922801_map_5s.png) | ![plot](event_3922801_map_10s.png) | ![plot](event_3922801_residuals.png) |
+| ![plot](event_3923977_map_3s.png) | ![plot](event_3923977_map_5s.png) | ![plot](event_3923977_map_10s.png) | ![plot](event_3923977_residuals.png) |
+| ![plot](event_3925236_map_3s.png) | ![plot](event_3925236_map_5s.png) | ![plot](event_3925236_map_10s.png) | ![plot](event_3925236_residuals.png) |
+| ![plot](event_3926169_map_3s.png) | ![plot](event_3926169_map_5s.png) | ![plot](event_3926169_map_10s.png) | ![plot](event_3926169_residuals.png) |
+| ![plot](event_3931920_map_3s.png) | ![plot](event_3931920_map_5s.png) | ![plot](event_3931920_map_10s.png) | ![plot](event_3931920_residuals.png) |
+| ![plot](event_3936853_map_3s.png) | ![plot](event_3936853_map_5s.png) | ![plot](event_3936853_map_10s.png) | ![plot](event_3936853_residuals.png) |
+| ![plot](event_3941712_map_3s.png) | ![plot](event_3941712_map_5s.png) | ![plot](event_3941712_map_10s.png) | ![plot](event_3941712_residuals.png) |
+| ![plot](event_3941847_map_3s.png) | ![plot](event_3941847_map_5s.png) | ![plot](event_3941847_map_10s.png) | ![plot](event_3941847_residuals.png) |
+| ![plot](event_3943243_map_3s.png) | ![plot](event_3943243_map_5s.png) | ![plot](event_3943243_map_10s.png) | ![plot](event_3943243_residuals.png) |
+| ![plot](event_3948532_map_3s.png) | ![plot](event_3948532_map_5s.png) | ![plot](event_3948532_map_10s.png) | ![plot](event_3948532_residuals.png) |
+| ![plot](event_3949697_map_3s.png) | ![plot](event_3949697_map_5s.png) | ![plot](event_3949697_map_10s.png) | ![plot](event_3949697_residuals.png) |
+| ![plot](event_3951207_map_3s.png) | ![plot](event_3951207_map_5s.png) | ![plot](event_3951207_map_10s.png) | ![plot](event_3951207_residuals.png) |
+| ![plot](event_3956951_map_3s.png) | ![plot](event_3956951_map_5s.png) | ![plot](event_3956951_map_10s.png) | ![plot](event_3956951_residuals.png) |
+| ![plot](event_3958348_map_3s.png) | ![plot](event_3958348_map_5s.png) | ![plot](event_3958348_map_10s.png) | ![plot](event_3958348_residuals.png) |
+| ![plot](event_3958504_map_3s.png) | ![plot](event_3958504_map_5s.png) | ![plot](event_3958504_map_10s.png) | ![plot](event_3958504_residuals.png) |
+| ![plot](event_3962947_map_3s.png) | ![plot](event_3962947_map_5s.png) | ![plot](event_3962947_map_10s.png) | ![plot](event_3962947_residuals.png) |
+| ![plot](event_3965068_map_3s.png) | ![plot](event_3965068_map_5s.png) | ![plot](event_3965068_map_10s.png) | ![plot](event_3965068_residuals.png) |
+| ![plot](event_3971012_map_3s.png) | ![plot](event_3971012_map_5s.png) | ![plot](event_3971012_map_10s.png) | ![plot](event_3971012_residuals.png) |
+| ![plot](event_3973379_map_3s.png) | ![plot](event_3973379_map_5s.png) | ![plot](event_3973379_map_10s.png) | ![plot](event_3973379_residuals.png) |
+| ![plot](event_3973599_map_3s.png) | ![plot](event_3973599_map_5s.png) | ![plot](event_3973599_map_10s.png) | ![plot](event_3973599_residuals.png) |
+| ![plot](event_3975280_map_3s.png) | ![plot](event_3975280_map_5s.png) | ![plot](event_3975280_map_10s.png) | ![plot](event_3975280_residuals.png) |
+| ![plot](event_3977958_map_3s.png) | ![plot](event_3977958_map_5s.png) | ![plot](event_3977958_map_10s.png) | ![plot](event_3977958_residuals.png) |
+| ![plot](event_3981287_map_3s.png) | ![plot](event_3981287_map_5s.png) | ![plot](event_3981287_map_10s.png) | ![plot](event_3981287_residuals.png) |
+| ![plot](event_3981508_map_3s.png) | ![plot](event_3981508_map_5s.png) | ![plot](event_3981508_map_10s.png) | ![plot](event_3981508_residuals.png) |
+| ![plot](event_3987889_map_3s.png) | ![plot](event_3987889_map_5s.png) | ![plot](event_3987889_map_10s.png) | ![plot](event_3987889_residuals.png) |
+| ![plot](event_3991542_map_3s.png) | ![plot](event_3991542_map_5s.png) | ![plot](event_3991542_map_10s.png) | ![plot](event_3991542_residuals.png) |
+| ![plot](event_3992357_map_3s.png) | ![plot](event_3992357_map_5s.png) | ![plot](event_3992357_map_10s.png) | ![plot](event_3992357_residuals.png) |
+| ![plot](event_3995623_map_3s.png) | ![plot](event_3995623_map_5s.png) | ![plot](event_3995623_map_10s.png) | ![plot](event_3995623_residuals.png) |
+| ![plot](event_3997810_map_3s.png) | ![plot](event_3997810_map_5s.png) | ![plot](event_3997810_map_10s.png) | ![plot](event_3997810_residuals.png) |
+| ![plot](event_3998883_map_3s.png) | ![plot](event_3998883_map_5s.png) | ![plot](event_3998883_map_10s.png) | ![plot](event_3998883_residuals.png) |
+| ![plot](event_4003239_map_3s.png) | ![plot](event_4003239_map_5s.png) | ![plot](event_4003239_map_10s.png) | ![plot](event_4003239_residuals.png) |
+| ![plot](event_4004969_map_3s.png) | ![plot](event_4004969_map_5s.png) | ![plot](event_4004969_map_10s.png) | ![plot](event_4004969_residuals.png) |
+| ![plot](event_4005073_map_3s.png) | ![plot](event_4005073_map_5s.png) | ![plot](event_4005073_map_10s.png) | ![plot](event_4005073_residuals.png) |
+| ![plot](event_4005706_map_3s.png) | ![plot](event_4005706_map_5s.png) | ![plot](event_4005706_map_10s.png) | ![plot](event_4005706_residuals.png) |
+| ![plot](event_4006568_map_3s.png) | ![plot](event_4006568_map_5s.png) | ![plot](event_4006568_map_10s.png) | ![plot](event_4006568_residuals.png) |
+| ![plot](event_4009730_map_3s.png) | ![plot](event_4009730_map_5s.png) | ![plot](event_4009730_map_10s.png) | ![plot](event_4009730_residuals.png) |
+| ![plot](event_4010990_map_3s.png) | ![plot](event_4010990_map_5s.png) | ![plot](event_4010990_map_10s.png) | ![plot](event_4010990_residuals.png) |
+| ![plot](event_4017319_map_3s.png) | ![plot](event_4017319_map_5s.png) | ![plot](event_4017319_map_10s.png) | ![plot](event_4017319_residuals.png) |
+| ![plot](event_4018777_map_3s.png) | ![plot](event_4018777_map_5s.png) | ![plot](event_4018777_map_10s.png) | ![plot](event_4018777_residuals.png) |
+| ![plot](event_4019547_map_3s.png) | ![plot](event_4019547_map_5s.png) | ![plot](event_4019547_map_10s.png) | ![plot](event_4019547_residuals.png) |
+| ![plot](event_4024250_map_3s.png) | ![plot](event_4024250_map_5s.png) | ![plot](event_4024250_map_10s.png) | ![plot](event_4024250_residuals.png) |
+| ![plot](event_4026473_map_3s.png) | ![plot](event_4026473_map_5s.png) | ![plot](event_4026473_map_10s.png) | ![plot](event_4026473_residuals.png) |
+| ![plot](event_4029472_map_3s.png) | ![plot](event_4029472_map_5s.png) | ![plot](event_4029472_map_10s.png) | ![plot](event_4029472_residuals.png) |
+| ![plot](event_4030502_map_3s.png) | ![plot](event_4030502_map_5s.png) | ![plot](event_4030502_map_10s.png) | ![plot](event_4030502_residuals.png) |
+| ![plot](event_4032836_map_3s.png) | ![plot](event_4032836_map_5s.png) | ![plot](event_4032836_map_10s.png) | ![plot](event_4032836_residuals.png) |
+| ![plot](event_4033594_map_3s.png) | ![plot](event_4033594_map_5s.png) | ![plot](event_4033594_map_10s.png) | ![plot](event_4033594_residuals.png) |
+| ![plot](event_4033672_map_3s.png) | ![plot](event_4033672_map_5s.png) | ![plot](event_4033672_map_10s.png) | ![plot](event_4033672_residuals.png) |
+| ![plot](event_4034568_map_3s.png) | ![plot](event_4034568_map_5s.png) | ![plot](event_4034568_map_10s.png) | ![plot](event_4034568_residuals.png) |
+| ![plot](event_4035565_map_3s.png) | ![plot](event_4035565_map_5s.png) | ![plot](event_4035565_map_10s.png) | ![plot](event_4035565_residuals.png) |
+| ![plot](event_4037359_map_3s.png) | ![plot](event_4037359_map_5s.png) | ![plot](event_4037359_map_10s.png) | ![plot](event_4037359_residuals.png) |
+| ![plot](event_4039045_map_3s.png) | ![plot](event_4039045_map_5s.png) | ![plot](event_4039045_map_10s.png) | ![plot](event_4039045_residuals.png) |
+| ![plot](event_4042197_map_3s.png) | ![plot](event_4042197_map_5s.png) | ![plot](event_4042197_map_10s.png) | ![plot](event_4042197_residuals.png) |
+| ![plot](event_4042199_map_3s.png) | ![plot](event_4042199_map_5s.png) | ![plot](event_4042199_map_10s.png) | ![plot](event_4042199_residuals.png) |
+| ![plot](event_4045931_map_3s.png) | ![plot](event_4045931_map_5s.png) | ![plot](event_4045931_map_10s.png) | ![plot](event_4045931_residuals.png) |
+| ![plot](event_4048418_map_3s.png) | ![plot](event_4048418_map_5s.png) | ![plot](event_4048418_map_10s.png) | ![plot](event_4048418_residuals.png) |
+| ![plot](event_4053127_map_3s.png) | ![plot](event_4053127_map_5s.png) | ![plot](event_4053127_map_10s.png) | ![plot](event_4053127_residuals.png) |
+| ![plot](event_4059785_map_3s.png) | ![plot](event_4059785_map_5s.png) | ![plot](event_4059785_map_10s.png) | ![plot](event_4059785_residuals.png) |
+| ![plot](event_4064409_map_3s.png) | ![plot](event_4064409_map_5s.png) | ![plot](event_4064409_map_10s.png) | ![plot](event_4064409_residuals.png) |
+| ![plot](event_4065214_map_3s.png) | ![plot](event_4065214_map_5s.png) | ![plot](event_4065214_map_10s.png) | ![plot](event_4065214_residuals.png) |
+| ![plot](event_4067403_map_3s.png) | ![plot](event_4067403_map_5s.png) | ![plot](event_4067403_map_10s.png) | ![plot](event_4067403_residuals.png) |
+| ![plot](event_4067875_map_3s.png) | ![plot](event_4067875_map_5s.png) | ![plot](event_4067875_map_10s.png) | ![plot](event_4067875_residuals.png) |
+| ![plot](event_4070868_map_3s.png) | ![plot](event_4070868_map_5s.png) | ![plot](event_4070868_map_10s.png) | ![plot](event_4070868_residuals.png) |
+| ![plot](event_4071594_map_3s.png) | ![plot](event_4071594_map_5s.png) | ![plot](event_4071594_map_10s.png) | ![plot](event_4071594_residuals.png) |
+| ![plot](event_4072657_map_3s.png) | ![plot](event_4072657_map_5s.png) | ![plot](event_4072657_map_10s.png) | ![plot](event_4072657_residuals.png) |
+| ![plot](event_4075939_map_3s.png) | ![plot](event_4075939_map_5s.png) | ![plot](event_4075939_map_10s.png) | ![plot](event_4075939_residuals.png) |
+| ![plot](event_4084807_map_3s.png) | ![plot](event_4084807_map_5s.png) | ![plot](event_4084807_map_10s.png) | ![plot](event_4084807_residuals.png) |
+| ![plot](event_4102749_map_3s.png) | ![plot](event_4102749_map_5s.png) | ![plot](event_4102749_map_10s.png) | ![plot](event_4102749_residuals.png) |
+| ![plot](event_4104692_map_3s.png) | ![plot](event_4104692_map_5s.png) | ![plot](event_4104692_map_10s.png) | ![plot](event_4104692_residuals.png) |
+| ![plot](event_4104838_map_3s.png) | ![plot](event_4104838_map_5s.png) | ![plot](event_4104838_map_10s.png) | ![plot](event_4104838_residuals.png) |
+| ![plot](event_4106732_map_3s.png) | ![plot](event_4106732_map_5s.png) | ![plot](event_4106732_map_10s.png) | ![plot](event_4106732_residuals.png) |
+| ![plot](event_4106791_map_3s.png) | ![plot](event_4106791_map_5s.png) | ![plot](event_4106791_map_10s.png) | ![plot](event_4106791_residuals.png) |
+| ![plot](event_4106926_map_3s.png) | ![plot](event_4106926_map_5s.png) | ![plot](event_4106926_map_10s.png) | ![plot](event_4106926_residuals.png) |
+| ![plot](event_4110735_map_3s.png) | ![plot](event_4110735_map_5s.png) | ![plot](event_4110735_map_10s.png) | ![plot](event_4110735_residuals.png) |
+| ![plot](event_4117039_map_3s.png) | ![plot](event_4117039_map_5s.png) | ![plot](event_4117039_map_10s.png) | ![plot](event_4117039_residuals.png) |
+| ![plot](event_4125191_map_3s.png) | ![plot](event_4125191_map_5s.png) | ![plot](event_4125191_map_10s.png) | ![plot](event_4125191_residuals.png) |
+| ![plot](event_4125378_map_3s.png) | ![plot](event_4125378_map_5s.png) | ![plot](event_4125378_map_10s.png) | ![plot](event_4125378_residuals.png) |
+| ![plot](event_4127918_map_3s.png) | ![plot](event_4127918_map_5s.png) | ![plot](event_4127918_map_10s.png) | ![plot](event_4127918_residuals.png) |
+| ![plot](event_4130914_map_3s.png) | ![plot](event_4130914_map_5s.png) | ![plot](event_4130914_map_10s.png) | ![plot](event_4130914_residuals.png) |
+| ![plot](event_4135027_map_3s.png) | ![plot](event_4135027_map_5s.png) | ![plot](event_4135027_map_10s.png) | ![plot](event_4135027_residuals.png) |
+| ![plot](event_4138282_map_3s.png) | ![plot](event_4138282_map_5s.png) | ![plot](event_4138282_map_10s.png) | ![plot](event_4138282_residuals.png) |
+| ![plot](event_4138315_map_3s.png) | ![plot](event_4138315_map_5s.png) | ![plot](event_4138315_map_10s.png) | ![plot](event_4138315_residuals.png) |
+| ![plot](event_4139211_map_3s.png) | ![plot](event_4139211_map_5s.png) | ![plot](event_4139211_map_10s.png) | ![plot](event_4139211_residuals.png) |
+| ![plot](event_4139719_map_3s.png) | ![plot](event_4139719_map_5s.png) | ![plot](event_4139719_map_10s.png) | ![plot](event_4139719_residuals.png) |
+| ![plot](event_4142166_map_3s.png) | ![plot](event_4142166_map_5s.png) | ![plot](event_4142166_map_10s.png) | ![plot](event_4142166_residuals.png) |
+| ![plot](event_4143390_map_3s.png) | ![plot](event_4143390_map_5s.png) | ![plot](event_4143390_map_10s.png) | ![plot](event_4143390_residuals.png) |
+| ![plot](event_4147245_map_3s.png) | ![plot](event_4147245_map_5s.png) | ![plot](event_4147245_map_10s.png) | ![plot](event_4147245_residuals.png) |
+| ![plot](event_4148957_map_3s.png) | ![plot](event_4148957_map_5s.png) | ![plot](event_4148957_map_10s.png) | ![plot](event_4148957_residuals.png) |
+| ![plot](event_4154165_map_3s.png) | ![plot](event_4154165_map_5s.png) | ![plot](event_4154165_map_10s.png) | ![plot](event_4154165_residuals.png) |
+| ![plot](event_4154457_map_3s.png) | ![plot](event_4154457_map_5s.png) | ![plot](event_4154457_map_10s.png) | ![plot](event_4154457_residuals.png) |
+| ![plot](event_4157656_map_3s.png) | ![plot](event_4157656_map_5s.png) | ![plot](event_4157656_map_10s.png) | ![plot](event_4157656_residuals.png) |
+| ![plot](event_4157955_map_3s.png) | ![plot](event_4157955_map_5s.png) | ![plot](event_4157955_map_10s.png) | ![plot](event_4157955_residuals.png) |
+| ![plot](event_4159817_map_3s.png) | ![plot](event_4159817_map_5s.png) | ![plot](event_4159817_map_10s.png) | ![plot](event_4159817_residuals.png) |
+| ![plot](event_4159851_map_3s.png) | ![plot](event_4159851_map_5s.png) | ![plot](event_4159851_map_10s.png) | ![plot](event_4159851_residuals.png) |
+| ![plot](event_4162773_map_3s.png) | ![plot](event_4162773_map_5s.png) | ![plot](event_4162773_map_10s.png) | ![plot](event_4162773_residuals.png) |
+| ![plot](event_4163532_map_3s.png) | ![plot](event_4163532_map_5s.png) | ![plot](event_4163532_map_10s.png) | ![plot](event_4163532_residuals.png) |
+| ![plot](event_4166042_map_3s.png) | ![plot](event_4166042_map_5s.png) | ![plot](event_4166042_map_10s.png) | ![plot](event_4166042_residuals.png) |
+| ![plot](event_4169152_map_3s.png) | ![plot](event_4169152_map_5s.png) | ![plot](event_4169152_map_10s.png) | ![plot](event_4169152_residuals.png) |
+| ![plot](event_4170708_map_3s.png) | ![plot](event_4170708_map_5s.png) | ![plot](event_4170708_map_10s.png) | ![plot](event_4170708_residuals.png) |
+| ![plot](event_4174510_map_3s.png) | ![plot](event_4174510_map_5s.png) | ![plot](event_4174510_map_10s.png) | ![plot](event_4174510_residuals.png) |
+| ![plot](event_4179269_map_3s.png) | ![plot](event_4179269_map_5s.png) | ![plot](event_4179269_map_10s.png) | ![plot](event_4179269_residuals.png) |
+| ![plot](event_4179587_map_3s.png) | ![plot](event_4179587_map_5s.png) | ![plot](event_4179587_map_10s.png) | ![plot](event_4179587_residuals.png) |
+| ![plot](event_4181517_map_3s.png) | ![plot](event_4181517_map_5s.png) | ![plot](event_4181517_map_10s.png) | ![plot](event_4181517_residuals.png) |
+| ![plot](event_4182677_map_3s.png) | ![plot](event_4182677_map_5s.png) | ![plot](event_4182677_map_10s.png) | ![plot](event_4182677_residuals.png) |
+| ![plot](event_4182921_map_3s.png) | ![plot](event_4182921_map_5s.png) | ![plot](event_4182921_map_10s.png) | ![plot](event_4182921_residuals.png) |
+| ![plot](event_4184350_map_3s.png) | ![plot](event_4184350_map_5s.png) | ![plot](event_4184350_map_10s.png) | ![plot](event_4184350_residuals.png) |
+| ![plot](event_4185780_map_3s.png) | ![plot](event_4185780_map_5s.png) | ![plot](event_4185780_map_10s.png) | ![plot](event_4185780_residuals.png) |
+| ![plot](event_4186552_map_3s.png) | ![plot](event_4186552_map_5s.png) | ![plot](event_4186552_map_10s.png) | ![plot](event_4186552_residuals.png) |
+| ![plot](event_4186958_map_3s.png) | ![plot](event_4186958_map_5s.png) | ![plot](event_4186958_map_10s.png) | ![plot](event_4186958_residuals.png) |
+| ![plot](event_4190718_map_3s.png) | ![plot](event_4190718_map_5s.png) | ![plot](event_4190718_map_10s.png) | ![plot](event_4190718_residuals.png) |
+| ![plot](event_4192784_map_3s.png) | ![plot](event_4192784_map_5s.png) | ![plot](event_4192784_map_10s.png) | ![plot](event_4192784_residuals.png) |
+| ![plot](event_4193133_map_3s.png) | ![plot](event_4193133_map_5s.png) | ![plot](event_4193133_map_10s.png) | ![plot](event_4193133_residuals.png) |
+| ![plot](event_4199888_map_3s.png) | ![plot](event_4199888_map_5s.png) | ![plot](event_4199888_map_10s.png) | ![plot](event_4199888_residuals.png) |
+| ![plot](event_4199943_map_3s.png) | ![plot](event_4199943_map_5s.png) | ![plot](event_4199943_map_10s.png) | ![plot](event_4199943_residuals.png) |
+| ![plot](event_4203429_map_3s.png) | ![plot](event_4203429_map_5s.png) | ![plot](event_4203429_map_10s.png) | ![plot](event_4203429_residuals.png) |
+| ![plot](event_4209751_map_3s.png) | ![plot](event_4209751_map_5s.png) | ![plot](event_4209751_map_10s.png) | ![plot](event_4209751_residuals.png) |
+| ![plot](event_4213860_map_3s.png) | ![plot](event_4213860_map_5s.png) | ![plot](event_4213860_map_10s.png) | ![plot](event_4213860_residuals.png) |
+| ![plot](event_4216092_map_3s.png) | ![plot](event_4216092_map_5s.png) | ![plot](event_4216092_map_10s.png) | ![plot](event_4216092_residuals.png) |
+| ![plot](event_4217452_map_3s.png) | ![plot](event_4217452_map_5s.png) | ![plot](event_4217452_map_10s.png) | ![plot](event_4217452_residuals.png) |
+| ![plot](event_4217912_map_3s.png) | ![plot](event_4217912_map_5s.png) | ![plot](event_4217912_map_10s.png) | ![plot](event_4217912_residuals.png) |
+| ![plot](event_4222935_map_3s.png) | ![plot](event_4222935_map_5s.png) | ![plot](event_4222935_map_10s.png) | ![plot](event_4222935_residuals.png) |
+| ![plot](event_4222938_map_3s.png) | ![plot](event_4222938_map_5s.png) | ![plot](event_4222938_map_10s.png) | ![plot](event_4222938_residuals.png) |
+| ![plot](event_4223426_map_3s.png) | ![plot](event_4223426_map_5s.png) | ![plot](event_4223426_map_10s.png) | ![plot](event_4223426_residuals.png) |
+| ![plot](event_4225158_map_3s.png) | ![plot](event_4225158_map_5s.png) | ![plot](event_4225158_map_10s.png) | ![plot](event_4225158_residuals.png) |
+| ![plot](event_4225515_map_3s.png) | ![plot](event_4225515_map_5s.png) | ![plot](event_4225515_map_10s.png) | ![plot](event_4225515_residuals.png) |
+| ![plot](event_4226103_map_3s.png) | ![plot](event_4226103_map_5s.png) | ![plot](event_4226103_map_10s.png) | ![plot](event_4226103_residuals.png) |
+| ![plot](event_4231563_map_3s.png) | ![plot](event_4231563_map_5s.png) | ![plot](event_4231563_map_10s.png) | ![plot](event_4231563_residuals.png) |
+| ![plot](event_4234360_map_3s.png) | ![plot](event_4234360_map_5s.png) | ![plot](event_4234360_map_10s.png) | ![plot](event_4234360_residuals.png) |
+| ![plot](event_4234782_map_3s.png) | ![plot](event_4234782_map_5s.png) | ![plot](event_4234782_map_10s.png) | ![plot](event_4234782_residuals.png) |
+| ![plot](event_4234797_map_3s.png) | ![plot](event_4234797_map_5s.png) | ![plot](event_4234797_map_10s.png) | ![plot](event_4234797_residuals.png) |
+| ![plot](event_4239709_map_3s.png) | ![plot](event_4239709_map_5s.png) | ![plot](event_4239709_map_10s.png) | ![plot](event_4239709_residuals.png) |
+| ![plot](event_4248859_map_3s.png) | ![plot](event_4248859_map_5s.png) | ![plot](event_4248859_map_10s.png) | ![plot](event_4248859_residuals.png) |
+| ![plot](event_4249021_map_3s.png) | ![plot](event_4249021_map_5s.png) | ![plot](event_4249021_map_10s.png) | ![plot](event_4249021_residuals.png) |
+| ![plot](event_4251959_map_3s.png) | ![plot](event_4251959_map_5s.png) | ![plot](event_4251959_map_10s.png) | ![plot](event_4251959_residuals.png) |
+| ![plot](event_4256607_map_3s.png) | ![plot](event_4256607_map_5s.png) | ![plot](event_4256607_map_10s.png) | ![plot](event_4256607_residuals.png) |
+| ![plot](event_4256611_map_3s.png) | ![plot](event_4256611_map_5s.png) | ![plot](event_4256611_map_10s.png) | ![plot](event_4256611_residuals.png) |
+| ![plot](event_4257097_map_3s.png) | ![plot](event_4257097_map_5s.png) | ![plot](event_4257097_map_10s.png) | ![plot](event_4257097_residuals.png) |
+| ![plot](event_4261496_map_3s.png) | ![plot](event_4261496_map_5s.png) | ![plot](event_4261496_map_10s.png) | ![plot](event_4261496_residuals.png) |
+| ![plot](event_4265549_map_3s.png) | ![plot](event_4265549_map_5s.png) | ![plot](event_4265549_map_10s.png) | ![plot](event_4265549_residuals.png) |
+| ![plot](event_4268617_map_3s.png) | ![plot](event_4268617_map_5s.png) | ![plot](event_4268617_map_10s.png) | ![plot](event_4268617_residuals.png) |
+| ![plot](event_4268652_map_3s.png) | ![plot](event_4268652_map_5s.png) | ![plot](event_4268652_map_10s.png) | ![plot](event_4268652_residuals.png) |
+| ![plot](event_4274458_map_3s.png) | ![plot](event_4274458_map_5s.png) | ![plot](event_4274458_map_10s.png) | ![plot](event_4274458_residuals.png) |
+| ![plot](event_4281285_map_3s.png) | ![plot](event_4281285_map_5s.png) | ![plot](event_4281285_map_10s.png) | ![plot](event_4281285_residuals.png) |
+| ![plot](event_4284561_map_3s.png) | ![plot](event_4284561_map_5s.png) | ![plot](event_4284561_map_10s.png) | ![plot](event_4284561_residuals.png) |
+| ![plot](event_4289639_map_3s.png) | ![plot](event_4289639_map_5s.png) | ![plot](event_4289639_map_10s.png) | ![plot](event_4289639_residuals.png) |
+| ![plot](event_4296030_map_3s.png) | ![plot](event_4296030_map_5s.png) | ![plot](event_4296030_map_10s.png) | ![plot](event_4296030_residuals.png) |
+| ![plot](event_4296903_map_3s.png) | ![plot](event_4296903_map_5s.png) | ![plot](event_4296903_map_10s.png) | ![plot](event_4296903_residuals.png) |
+| ![plot](event_4297615_map_3s.png) | ![plot](event_4297615_map_5s.png) | ![plot](event_4297615_map_10s.png) | ![plot](event_4297615_residuals.png) |
+| ![plot](event_4298972_map_3s.png) | ![plot](event_4298972_map_5s.png) | ![plot](event_4298972_map_10s.png) | ![plot](event_4298972_residuals.png) |
+| ![plot](event_4301795_map_3s.png) | ![plot](event_4301795_map_5s.png) | ![plot](event_4301795_map_10s.png) | ![plot](event_4301795_residuals.png) |
+| ![plot](event_4305680_map_3s.png) | ![plot](event_4305680_map_5s.png) | ![plot](event_4305680_map_10s.png) | ![plot](event_4305680_residuals.png) |
+| ![plot](event_4314885_map_3s.png) | ![plot](event_4314885_map_5s.png) | ![plot](event_4314885_map_10s.png) | ![plot](event_4314885_residuals.png) |
+| ![plot](event_4318019_map_3s.png) | ![plot](event_4318019_map_5s.png) | ![plot](event_4318019_map_10s.png) | ![plot](event_4318019_residuals.png) |
+| ![plot](event_4320433_map_3s.png) | ![plot](event_4320433_map_5s.png) | ![plot](event_4320433_map_10s.png) | ![plot](event_4320433_residuals.png) |
+| ![plot](event_4321500_map_3s.png) | ![plot](event_4321500_map_5s.png) | ![plot](event_4321500_map_10s.png) | ![plot](event_4321500_residuals.png) |
+| ![plot](event_4324226_map_3s.png) | ![plot](event_4324226_map_5s.png) | ![plot](event_4324226_map_10s.png) | ![plot](event_4324226_residuals.png) |
+| ![plot](event_4330966_map_3s.png) | ![plot](event_4330966_map_5s.png) | ![plot](event_4330966_map_10s.png) | ![plot](event_4330966_residuals.png) |
+| ![plot](event_4339162_map_3s.png) | ![plot](event_4339162_map_5s.png) | ![plot](event_4339162_map_10s.png) | ![plot](event_4339162_residuals.png) |
+| ![plot](event_4341817_map_3s.png) | ![plot](event_4341817_map_5s.png) | ![plot](event_4341817_map_10s.png) | ![plot](event_4341817_residuals.png) |
+| ![plot](event_4343114_map_3s.png) | ![plot](event_4343114_map_5s.png) | ![plot](event_4343114_map_10s.png) | ![plot](event_4343114_residuals.png) |
+| ![plot](event_4343912_map_3s.png) | ![plot](event_4343912_map_5s.png) | ![plot](event_4343912_map_10s.png) | ![plot](event_4343912_residuals.png) |
+| ![plot](event_4346526_map_3s.png) | ![plot](event_4346526_map_5s.png) | ![plot](event_4346526_map_10s.png) | ![plot](event_4346526_residuals.png) |
+| ![plot](event_4350548_map_3s.png) | ![plot](event_4350548_map_5s.png) | ![plot](event_4350548_map_10s.png) | ![plot](event_4350548_residuals.png) |
+| ![plot](event_4352434_map_3s.png) | ![plot](event_4352434_map_5s.png) | ![plot](event_4352434_map_10s.png) | ![plot](event_4352434_residuals.png) |
+| ![plot](event_4352570_map_3s.png) | ![plot](event_4352570_map_5s.png) | ![plot](event_4352570_map_10s.png) | ![plot](event_4352570_residuals.png) |
+| ![plot](event_4356262_map_3s.png) | ![plot](event_4356262_map_5s.png) | ![plot](event_4356262_map_10s.png) | ![plot](event_4356262_residuals.png) |
+| ![plot](event_4357838_map_3s.png) | ![plot](event_4357838_map_5s.png) | ![plot](event_4357838_map_10s.png) | ![plot](event_4357838_residuals.png) |
+| ![plot](event_4358232_map_3s.png) | ![plot](event_4358232_map_5s.png) | ![plot](event_4358232_map_10s.png) | ![plot](event_4358232_residuals.png) |
+| ![plot](event_4366587_map_3s.png) | ![plot](event_4366587_map_5s.png) | ![plot](event_4366587_map_10s.png) | ![plot](event_4366587_residuals.png) |
+| ![plot](event_4368593_map_3s.png) | ![plot](event_4368593_map_5s.png) | ![plot](event_4368593_map_10s.png) | ![plot](event_4368593_residuals.png) |
+| ![plot](event_4369180_map_3s.png) | ![plot](event_4369180_map_5s.png) | ![plot](event_4369180_map_10s.png) | ![plot](event_4369180_residuals.png) |
+| ![plot](event_4376208_map_3s.png) | ![plot](event_4376208_map_5s.png) | ![plot](event_4376208_map_10s.png) | ![plot](event_4376208_residuals.png) |
+| ![plot](event_4377767_map_3s.png) | ![plot](event_4377767_map_5s.png) | ![plot](event_4377767_map_10s.png) | ![plot](event_4377767_residuals.png) |
+| ![plot](event_4382768_map_3s.png) | ![plot](event_4382768_map_5s.png) | ![plot](event_4382768_map_10s.png) | ![plot](event_4382768_residuals.png) |
+| ![plot](event_4383766_map_3s.png) | ![plot](event_4383766_map_5s.png) | ![plot](event_4383766_map_10s.png) | ![plot](event_4383766_residuals.png) |
+| ![plot](event_4388428_map_3s.png) | ![plot](event_4388428_map_5s.png) | ![plot](event_4388428_map_10s.png) | ![plot](event_4388428_residuals.png) |
+| ![plot](event_4390554_map_3s.png) | ![plot](event_4390554_map_5s.png) | ![plot](event_4390554_map_10s.png) | ![plot](event_4390554_residuals.png) |
+| ![plot](event_4401036_map_3s.png) | ![plot](event_4401036_map_5s.png) | ![plot](event_4401036_map_10s.png) | ![plot](event_4401036_residuals.png) |
+| ![plot](event_4403956_map_3s.png) | ![plot](event_4403956_map_5s.png) | ![plot](event_4403956_map_10s.png) | ![plot](event_4403956_residuals.png) |
+| ![plot](event_4404110_map_3s.png) | ![plot](event_4404110_map_5s.png) | ![plot](event_4404110_map_10s.png) | ![plot](event_4404110_residuals.png) |
+| ![plot](event_4407562_map_3s.png) | ![plot](event_4407562_map_5s.png) | ![plot](event_4407562_map_10s.png) | ![plot](event_4407562_residuals.png) |
+| ![plot](event_4409830_map_3s.png) | ![plot](event_4409830_map_5s.png) | ![plot](event_4409830_map_10s.png) | ![plot](event_4409830_residuals.png) |
+| ![plot](event_4414579_map_3s.png) | ![plot](event_4414579_map_5s.png) | ![plot](event_4414579_map_10s.png) | ![plot](event_4414579_residuals.png) |
+| ![plot](event_4415094_map_3s.png) | ![plot](event_4415094_map_5s.png) | ![plot](event_4415094_map_10s.png) | ![plot](event_4415094_residuals.png) |
+| ![plot](event_4416463_map_3s.png) | ![plot](event_4416463_map_5s.png) | ![plot](event_4416463_map_10s.png) | ![plot](event_4416463_residuals.png) |
+| ![plot](event_4419474_map_3s.png) | ![plot](event_4419474_map_5s.png) | ![plot](event_4419474_map_10s.png) | ![plot](event_4419474_residuals.png) |
+| ![plot](event_4420573_map_3s.png) | ![plot](event_4420573_map_5s.png) | ![plot](event_4420573_map_10s.png) | ![plot](event_4420573_residuals.png) |
+| ![plot](event_4424507_map_3s.png) | ![plot](event_4424507_map_5s.png) | ![plot](event_4424507_map_10s.png) | ![plot](event_4424507_residuals.png) |
+| ![plot](event_4424714_map_3s.png) | ![plot](event_4424714_map_5s.png) | ![plot](event_4424714_map_10s.png) | ![plot](event_4424714_residuals.png) |
+| ![plot](event_4425266_map_3s.png) | ![plot](event_4425266_map_5s.png) | ![plot](event_4425266_map_10s.png) | ![plot](event_4425266_residuals.png) |
+| ![plot](event_4426486_map_3s.png) | ![plot](event_4426486_map_5s.png) | ![plot](event_4426486_map_10s.png) | ![plot](event_4426486_residuals.png) |
+| ![plot](event_4430884_map_3s.png) | ![plot](event_4430884_map_5s.png) | ![plot](event_4430884_map_10s.png) | ![plot](event_4430884_residuals.png) |
+| ![plot](event_4433197_map_3s.png) | ![plot](event_4433197_map_5s.png) | ![plot](event_4433197_map_10s.png) | ![plot](event_4433197_residuals.png) |
+| ![plot](event_4433362_map_3s.png) | ![plot](event_4433362_map_5s.png) | ![plot](event_4433362_map_10s.png) | ![plot](event_4433362_residuals.png) |
+| ![plot](event_4437218_map_3s.png) | ![plot](event_4437218_map_5s.png) | ![plot](event_4437218_map_10s.png) | ![plot](event_4437218_residuals.png) |
+| ![plot](event_4437239_map_3s.png) | ![plot](event_4437239_map_5s.png) | ![plot](event_4437239_map_10s.png) | ![plot](event_4437239_residuals.png) |
+| ![plot](event_4442020_map_3s.png) | ![plot](event_4442020_map_5s.png) | ![plot](event_4442020_map_10s.png) | ![plot](event_4442020_residuals.png) |
+| ![plot](event_4444861_map_3s.png) | ![plot](event_4444861_map_5s.png) | ![plot](event_4444861_map_10s.png) | ![plot](event_4444861_residuals.png) |
+| ![plot](event_4446156_map_3s.png) | ![plot](event_4446156_map_5s.png) | ![plot](event_4446156_map_10s.png) | ![plot](event_4446156_residuals.png) |
+| ![plot](event_4446805_map_3s.png) | ![plot](event_4446805_map_5s.png) | ![plot](event_4446805_map_10s.png) | ![plot](event_4446805_residuals.png) |
+| ![plot](event_4455799_map_3s.png) | ![plot](event_4455799_map_5s.png) | ![plot](event_4455799_map_10s.png) | ![plot](event_4455799_residuals.png) |
+| ![plot](event_4458541_map_3s.png) | ![plot](event_4458541_map_5s.png) | ![plot](event_4458541_map_10s.png) | ![plot](event_4458541_residuals.png) |
+| ![plot](event_4459960_map_3s.png) | ![plot](event_4459960_map_5s.png) | ![plot](event_4459960_map_10s.png) | ![plot](event_4459960_residuals.png) |
+| ![plot](event_4465061_map_3s.png) | ![plot](event_4465061_map_5s.png) | ![plot](event_4465061_map_10s.png) | ![plot](event_4465061_residuals.png) |
+| ![plot](event_4467904_map_3s.png) | ![plot](event_4467904_map_5s.png) | ![plot](event_4467904_map_10s.png) | ![plot](event_4467904_residuals.png) |
+| ![plot](event_4469555_map_3s.png) | ![plot](event_4469555_map_5s.png) | ![plot](event_4469555_map_10s.png) | ![plot](event_4469555_residuals.png) |
+| ![plot](event_4472182_map_3s.png) | ![plot](event_4472182_map_5s.png) | ![plot](event_4472182_map_10s.png) | ![plot](event_4472182_residuals.png) |
+| ![plot](event_4476125_map_3s.png) | ![plot](event_4476125_map_5s.png) | ![plot](event_4476125_map_10s.png) | ![plot](event_4476125_residuals.png) |
+| ![plot](event_4479661_map_3s.png) | ![plot](event_4479661_map_5s.png) | ![plot](event_4479661_map_10s.png) | ![plot](event_4479661_residuals.png) |
+| ![plot](event_4482129_map_3s.png) | ![plot](event_4482129_map_5s.png) | ![plot](event_4482129_map_10s.png) | ![plot](event_4482129_residuals.png) |
+| ![plot](event_4484865_map_3s.png) | ![plot](event_4484865_map_5s.png) | ![plot](event_4484865_map_10s.png) | ![plot](event_4484865_residuals.png) |
+| ![plot](event_4486713_map_3s.png) | ![plot](event_4486713_map_5s.png) | ![plot](event_4486713_map_10s.png) | ![plot](event_4486713_residuals.png) |
+| ![plot](event_4487437_map_3s.png) | ![plot](event_4487437_map_5s.png) | ![plot](event_4487437_map_10s.png) | ![plot](event_4487437_residuals.png) |
+| ![plot](event_4487891_map_3s.png) | ![plot](event_4487891_map_5s.png) | ![plot](event_4487891_map_10s.png) | ![plot](event_4487891_residuals.png) |
+| ![plot](event_4488374_map_3s.png) | ![plot](event_4488374_map_5s.png) | ![plot](event_4488374_map_10s.png) | ![plot](event_4488374_residuals.png) |
+| ![plot](event_4488882_map_3s.png) | ![plot](event_4488882_map_5s.png) | ![plot](event_4488882_map_10s.png) | ![plot](event_4488882_residuals.png) |
+| ![plot](event_4492118_map_3s.png) | ![plot](event_4492118_map_5s.png) | ![plot](event_4492118_map_10s.png) | ![plot](event_4492118_residuals.png) |
+| ![plot](event_4492905_map_3s.png) | ![plot](event_4492905_map_5s.png) | ![plot](event_4492905_map_10s.png) | ![plot](event_4492905_residuals.png) |
+| ![plot](event_4498225_map_3s.png) | ![plot](event_4498225_map_5s.png) | ![plot](event_4498225_map_10s.png) | ![plot](event_4498225_residuals.png) |
+| ![plot](event_4499173_map_3s.png) | ![plot](event_4499173_map_5s.png) | ![plot](event_4499173_map_10s.png) | ![plot](event_4499173_residuals.png) |
+| ![plot](event_4501759_map_3s.png) | ![plot](event_4501759_map_5s.png) | ![plot](event_4501759_map_10s.png) | ![plot](event_4501759_residuals.png) |
+| ![plot](event_4501922_map_3s.png) | ![plot](event_4501922_map_5s.png) | ![plot](event_4501922_map_10s.png) | ![plot](event_4501922_residuals.png) |
+| ![plot](event_4503376_map_3s.png) | ![plot](event_4503376_map_5s.png) | ![plot](event_4503376_map_10s.png) | ![plot](event_4503376_residuals.png) |
+| ![plot](event_4506776_map_3s.png) | ![plot](event_4506776_map_5s.png) | ![plot](event_4506776_map_10s.png) | ![plot](event_4506776_residuals.png) |
+| ![plot](event_4519641_map_3s.png) | ![plot](event_4519641_map_5s.png) | ![plot](event_4519641_map_10s.png) | ![plot](event_4519641_residuals.png) |
+| ![plot](event_4527853_map_3s.png) | ![plot](event_4527853_map_5s.png) | ![plot](event_4527853_map_10s.png) | ![plot](event_4527853_residuals.png) |
+| ![plot](event_4528114_map_3s.png) | ![plot](event_4528114_map_5s.png) | ![plot](event_4528114_map_10s.png) | ![plot](event_4528114_residuals.png) |
+| ![plot](event_4530993_map_3s.png) | ![plot](event_4530993_map_5s.png) | ![plot](event_4530993_map_10s.png) | ![plot](event_4530993_residuals.png) |
+| ![plot](event_4532035_map_3s.png) | ![plot](event_4532035_map_5s.png) | ![plot](event_4532035_map_10s.png) | ![plot](event_4532035_residuals.png) |
+| ![plot](event_4536149_map_3s.png) | ![plot](event_4536149_map_5s.png) | ![plot](event_4536149_map_10s.png) | ![plot](event_4536149_residuals.png) |
+| ![plot](event_4538402_map_3s.png) | ![plot](event_4538402_map_5s.png) | ![plot](event_4538402_map_10s.png) | ![plot](event_4538402_residuals.png) |
+| ![plot](event_4542281_map_3s.png) | ![plot](event_4542281_map_5s.png) | ![plot](event_4542281_map_10s.png) | ![plot](event_4542281_residuals.png) |
+| ![plot](event_4543615_map_3s.png) | ![plot](event_4543615_map_5s.png) | ![plot](event_4543615_map_10s.png) | ![plot](event_4543615_residuals.png) |
+| ![plot](event_4547609_map_3s.png) | ![plot](event_4547609_map_5s.png) | ![plot](event_4547609_map_10s.png) | ![plot](event_4547609_residuals.png) |
+| ![plot](event_4548173_map_3s.png) | ![plot](event_4548173_map_5s.png) | ![plot](event_4548173_map_10s.png) | ![plot](event_4548173_residuals.png) |
+| ![plot](event_4550302_map_3s.png) | ![plot](event_4550302_map_5s.png) | ![plot](event_4550302_map_10s.png) | ![plot](event_4550302_residuals.png) |
+| ![plot](event_4552173_map_3s.png) | ![plot](event_4552173_map_5s.png) | ![plot](event_4552173_map_10s.png) | ![plot](event_4552173_residuals.png) |
+| ![plot](event_4558587_map_3s.png) | ![plot](event_4558587_map_5s.png) | ![plot](event_4558587_map_10s.png) | ![plot](event_4558587_residuals.png) |
+| ![plot](event_4561277_map_3s.png) | ![plot](event_4561277_map_5s.png) | ![plot](event_4561277_map_10s.png) | ![plot](event_4561277_residuals.png) |
+| ![plot](event_4561303_map_3s.png) | ![plot](event_4561303_map_5s.png) | ![plot](event_4561303_map_10s.png) | ![plot](event_4561303_residuals.png) |
+| ![plot](event_4561909_map_3s.png) | ![plot](event_4561909_map_5s.png) | ![plot](event_4561909_map_10s.png) | ![plot](event_4561909_residuals.png) |
+| ![plot](event_4563413_map_3s.png) | ![plot](event_4563413_map_5s.png) | ![plot](event_4563413_map_10s.png) | ![plot](event_4563413_residuals.png) |
+| ![plot](event_4564217_map_3s.png) | ![plot](event_4564217_map_5s.png) | ![plot](event_4564217_map_10s.png) | ![plot](event_4564217_residuals.png) |
+| ![plot](event_4571936_map_3s.png) | ![plot](event_4571936_map_5s.png) | ![plot](event_4571936_map_10s.png) | ![plot](event_4571936_residuals.png) |
+| ![plot](event_4572206_map_3s.png) | ![plot](event_4572206_map_5s.png) | ![plot](event_4572206_map_10s.png) | ![plot](event_4572206_residuals.png) |
+| ![plot](event_4572520_map_3s.png) | ![plot](event_4572520_map_5s.png) | ![plot](event_4572520_map_10s.png) | ![plot](event_4572520_residuals.png) |
+| ![plot](event_4573793_map_3s.png) | ![plot](event_4573793_map_5s.png) | ![plot](event_4573793_map_10s.png) | ![plot](event_4573793_residuals.png) |
+| ![plot](event_4577627_map_3s.png) | ![plot](event_4577627_map_5s.png) | ![plot](event_4577627_map_10s.png) | ![plot](event_4577627_residuals.png) |
+| ![plot](event_4579791_map_3s.png) | ![plot](event_4579791_map_5s.png) | ![plot](event_4579791_map_10s.png) | ![plot](event_4579791_residuals.png) |
+| ![plot](event_4580428_map_3s.png) | ![plot](event_4580428_map_5s.png) | ![plot](event_4580428_map_10s.png) | ![plot](event_4580428_residuals.png) |
+| ![plot](event_4586803_map_3s.png) | ![plot](event_4586803_map_5s.png) | ![plot](event_4586803_map_10s.png) | ![plot](event_4586803_residuals.png) |
+| ![plot](event_4588357_map_3s.png) | ![plot](event_4588357_map_5s.png) | ![plot](event_4588357_map_10s.png) | ![plot](event_4588357_residuals.png) |
+| ![plot](event_4589225_map_3s.png) | ![plot](event_4589225_map_5s.png) | ![plot](event_4589225_map_10s.png) | ![plot](event_4589225_residuals.png) |
+| ![plot](event_4593246_map_3s.png) | ![plot](event_4593246_map_5s.png) | ![plot](event_4593246_map_10s.png) | ![plot](event_4593246_residuals.png) |
+| ![plot](event_4595406_map_3s.png) | ![plot](event_4595406_map_5s.png) | ![plot](event_4595406_map_10s.png) | ![plot](event_4595406_residuals.png) |
+| ![plot](event_4595757_map_3s.png) | ![plot](event_4595757_map_5s.png) | ![plot](event_4595757_map_10s.png) | ![plot](event_4595757_residuals.png) |
+| ![plot](event_4598505_map_3s.png) | ![plot](event_4598505_map_5s.png) | ![plot](event_4598505_map_10s.png) | ![plot](event_4598505_residuals.png) |
+| ![plot](event_4610267_map_3s.png) | ![plot](event_4610267_map_5s.png) | ![plot](event_4610267_map_10s.png) | ![plot](event_4610267_residuals.png) |
+| ![plot](event_4612001_map_3s.png) | ![plot](event_4612001_map_5s.png) | ![plot](event_4612001_map_10s.png) | ![plot](event_4612001_residuals.png) |
+| ![plot](event_4614703_map_3s.png) | ![plot](event_4614703_map_5s.png) | ![plot](event_4614703_map_10s.png) | ![plot](event_4614703_residuals.png) |
+| ![plot](event_4616852_map_3s.png) | ![plot](event_4616852_map_5s.png) | ![plot](event_4616852_map_10s.png) | ![plot](event_4616852_residuals.png) |
+| ![plot](event_4617670_map_3s.png) | ![plot](event_4617670_map_5s.png) | ![plot](event_4617670_map_10s.png) | ![plot](event_4617670_residuals.png) |
+| ![plot](event_4618797_map_3s.png) | ![plot](event_4618797_map_5s.png) | ![plot](event_4618797_map_10s.png) | ![plot](event_4618797_residuals.png) |
+| ![plot](event_4620701_map_3s.png) | ![plot](event_4620701_map_5s.png) | ![plot](event_4620701_map_10s.png) | ![plot](event_4620701_residuals.png) |
+| ![plot](event_4633416_map_3s.png) | ![plot](event_4633416_map_5s.png) | ![plot](event_4633416_map_10s.png) | ![plot](event_4633416_residuals.png) |
+| ![plot](event_4633822_map_3s.png) | ![plot](event_4633822_map_5s.png) | ![plot](event_4633822_map_10s.png) | ![plot](event_4633822_residuals.png) |
+| ![plot](event_4645679_map_3s.png) | ![plot](event_4645679_map_5s.png) | ![plot](event_4645679_map_10s.png) | ![plot](event_4645679_residuals.png) |
+| ![plot](event_4647174_map_3s.png) | ![plot](event_4647174_map_5s.png) | ![plot](event_4647174_map_10s.png) | ![plot](event_4647174_residuals.png) |
+| ![plot](event_4648472_map_3s.png) | ![plot](event_4648472_map_5s.png) | ![plot](event_4648472_map_10s.png) | ![plot](event_4648472_residuals.png) |
+| ![plot](event_4651599_map_3s.png) | ![plot](event_4651599_map_5s.png) | ![plot](event_4651599_map_10s.png) | ![plot](event_4651599_residuals.png) |
+| ![plot](event_4660149_map_3s.png) | ![plot](event_4660149_map_5s.png) | ![plot](event_4660149_map_10s.png) | ![plot](event_4660149_residuals.png) |
+| ![plot](event_4660315_map_3s.png) | ![plot](event_4660315_map_5s.png) | ![plot](event_4660315_map_10s.png) | ![plot](event_4660315_residuals.png) |
+| ![plot](event_4661423_map_3s.png) | ![plot](event_4661423_map_5s.png) | ![plot](event_4661423_map_10s.png) | ![plot](event_4661423_residuals.png) |
+| ![plot](event_4662182_map_3s.png) | ![plot](event_4662182_map_5s.png) | ![plot](event_4662182_map_10s.png) | ![plot](event_4662182_residuals.png) |
+| ![plot](event_4672699_map_3s.png) | ![plot](event_4672699_map_5s.png) | ![plot](event_4672699_map_10s.png) | ![plot](event_4672699_residuals.png) |
+| ![plot](event_4672886_map_3s.png) | ![plot](event_4672886_map_5s.png) | ![plot](event_4672886_map_10s.png) | ![plot](event_4672886_residuals.png) |
+| ![plot](event_4676299_map_3s.png) | ![plot](event_4676299_map_5s.png) | ![plot](event_4676299_map_10s.png) | ![plot](event_4676299_residuals.png) |
+| ![plot](event_4676761_map_3s.png) | ![plot](event_4676761_map_5s.png) | ![plot](event_4676761_map_10s.png) | ![plot](event_4676761_residuals.png) |
 
