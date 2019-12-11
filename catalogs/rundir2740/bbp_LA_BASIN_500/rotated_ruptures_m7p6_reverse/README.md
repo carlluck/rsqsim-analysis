@@ -10,7 +10,7 @@ We then  perform various rotations. We rotate the rupture in place around its ce
 
 ## Table Of Contents
 * [Rupture Rotation Parameters](#rupture-rotation-parameters)
-* [M7.6 Reverse RSQSim Rupture Match Criteria](#m76-reverse-rsqsim-rupture-match-criteria)
+* [M7.6 Reverse Rupture Match Criteria](#m76-reverse-rupture-match-criteria)
   * [Fault Section Counts](#fault-section-counts)
 * [Sites](#sites)
 * [Result Summary Table](#result-summary-table)
@@ -60,10 +60,10 @@ We then  perform various rotations. We rotate the rupture in place around its ce
 | Distance | 20.0, 50.0, 100.0 km | 3-dimensional distance between the site and the rupture surface. |
 | **Total # Simulations** | **2592** | Total number of combinations of the above. |
 
-## M7.6 Reverse RSQSim Rupture Match Criteria
+## M7.6 Reverse Rupture Match Criteria
 *[(top)](#table-of-contents)*
 
-We condisder 48 events in the catalog which match the following criteria:
+We condisder 48 events which match the following criteria:
 
 * M=[7.55,7.65]
 * Ztor=[0.0,5.0]
@@ -464,6 +464,8 @@ Here is an exmample with 5 rotations, which would be repeated for each combinati
 | **100 km** | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.6_100km_USC_3s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.6_100km_USC_5s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.6_100km_USC_7.5s.png) | ![plot](resources/event_term_scatter_mid_seis_mean_slip_m7.6_100km_USC_10s.png) |
 ## Directivity Comparisons
 *[(top)](#table-of-contents)*
+
+Directivity comparisons for individual ruptures can be found [here](resources/directivity_debug/README.md).
 
 |  | 3 s | 5 s | 7.5 s | 10 s |
 |-----|-----|-----|-----|-----|
