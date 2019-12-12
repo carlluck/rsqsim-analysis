@@ -2,6 +2,7 @@
 
 | Date | Name | Duration | Element Area | Description |
 |-----|-----|-----|-----|-----|
+| 2019/12/12 | [Bruce 4682](rundir4682#bruce-4682) | 30,503 yrs | 0.67 km | higher resolution delta=1.25; variable slip speed. fracArea=0 ; variableSpeed s2ddf=.8 ddfmin=.1; b=.008 a=.001 |
 | 2019/12/11 | [Bruce 4660](rundir4660#bruce-4660) | 148,367 yrs | 1.35 km | variable slip speed. fracArea=0 ; variableSpeed s2ddf=.8 ddfmin=.1; b=.007 a=.001 |
 | 2019/12/11 | [Bruce 4661](rundir4661#bruce-4661) | 122,488 yrs | 1.35 km | variable slip speed. fracArea=0 ; variableSpeed s2ddf=.8 ddfmin=.1; b=.006 a=.001 |
 | 2019/12/09 | [Bruce 4655](rundir4655#bruce-4655) | 175,644 yrs | 1.35 km | variable slip speed. fracArea=0 ; variableSpeed s2ddf=.8 ddfmin=.1; b=.008 a=.001 |
