@@ -15,7 +15,7 @@
 * [BBP Calculations, LA Basin 863 (m/s) Velocity Model](#bbp-calculations-la-basin-863-ms-velocity-model)
   * [Single Event Comparisons, LA Basin 863 (m/s)](#single-event-comparisons-la-basin-863-ms)
   * [Full Catalog GMPE Comparisons, LA Basin 863 (m/s)](#full-catalog-gmpe-comparisons-la-basin-863-ms)
-  * [BBP Part B Analysis, LA Basin 863 (m/s)](bbp_LA_BASIN_863/bbp_part_b)
+  * [BBP Part B Analysis, LA Basin 863 (m/s)](bbp_LA_BASIN_863/bbp_part_b_filter_closest_mag)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
@@ -72,7 +72,7 @@
 ### BBP Part B Analysis, LA Basin 863 (m/s)
 *[(top)](#bruce-2829)*
 
-[BBP Part B Analysis Here](bbp_LA_BASIN_863/bbp_part_b)
+[BBP Part B Analysis Here, Closest Mag](bbp_LA_BASIN_863/bbp_part_b_filter_closest_mag)
 
 ## Plots
 ### Magnitude-Frequency Plot

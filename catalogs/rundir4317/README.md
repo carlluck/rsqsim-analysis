@@ -13,7 +13,7 @@
 * [Metadata](#metadata)
 * [BBP Calculations, LA Basin 500 (m/s) Velocity Model](#bbp-calculations-la-basin-500-ms-velocity-model)
   * [Full Catalog GMPE Comparisons, LA Basin 500 (m/s)](#full-catalog-gmpe-comparisons-la-basin-500-ms)
-  * [BBP Part B Analysis, LA Basin 500 (m/s)](bbp_LA_BASIN_500/bbp_part_b)
+  * [BBP Part B Analysis, LA Basin 500 (m/s)](bbp_LA_BASIN_500/bbp_part_b_filter_closest_mag)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
@@ -57,7 +57,7 @@
 ### BBP Part B Analysis, LA Basin 500 (m/s)
 *[(top)](#bruce-4317)*
 
-[BBP Part B Analysis Here](bbp_LA_BASIN_500/bbp_part_b)
+[BBP Part B Analysis Here, Closest Mag](bbp_LA_BASIN_500/bbp_part_b_filter_closest_mag)
 
 ## Plots
 ### Magnitude-Frequency Plot
