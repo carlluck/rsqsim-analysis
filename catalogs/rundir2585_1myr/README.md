@@ -141,7 +141,9 @@
 *[(top)](#bruce-2585-1myr)*
 
 * [M6.6, Reverse, Dip=45, Ztor=3, Closest Mag](bbp_LA_BASIN_500/rotated_ruptures_m6p6_reverse_filter_closest_mag/)
+* [M6.6, Reverse, Dip=45, Ztor=3, Sect Variability](bbp_LA_BASIN_500/rotated_ruptures_m6p6_reverse_filter_sect_variable/)
 * [M6.6, Vertical Strike-Slip with Surface Rupture, Closest Mag](bbp_LA_BASIN_500/rotated_ruptures_m6p6_vert_ss_surface_filter_closest_mag/)
+* [M6.6, Vertical Strike-Slip with Surface Rupture, Sect Variability](bbp_LA_BASIN_500/rotated_ruptures_m6p6_vert_ss_surface_filter_sect_variable/)
 * [M7.2, Reverse, Dip=45, Closest Mag](bbp_LA_BASIN_500/rotated_ruptures_m7p2_reverse_filter_closest_mag/)
 * [M7.2, Vertical Strike-Slip with Surface Rupture (dM=0.1) , Random](bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface_dm_0p1_filter_random/)
 * [M7.2, Vertical Strike-Slip with Surface Rupture (dM=0.15) , Random](bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface_dm_0p15_filter_random/)
@@ -149,6 +151,7 @@
 * [M7.2, Vertical Strike-Slip with Surface Rupture (dM=0.25) , Random](bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface_dm_0p25_filter_random/)
 * [M7.2, Vertical Strike-Slip with Surface Rupture (dM=0.3) , Random](bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface_dm_0p3_filter_random/)
 * [M7.2, Vertical Strike-Slip with Surface Rupture, Closest Mag](bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface_filter_closest_mag/)
+* [M7.2, Vertical Strike-Slip with Surface Rupture, Sect Variability](bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface_filter_sect_variable/)
 * [M7.2, Vertical Strike-Slip with Surface Rupture, Time Scale Factor: 2.0, Closest Mag](bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface_timeScale2.0_filter_closest_mag/)
 * [M7.2, Vertical Strike-Slip with Surface Rupture, Time Scale Factor: 2.0, Velocities Scaled, Closest Mag](bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface_timeScale2.0_velScale_filter_closest_mag/)
 * [M7.6, Reverse, Dip=45, Closest Mag](bbp_LA_BASIN_500/rotated_ruptures_m7p6_reverse_filter_closest_mag/)

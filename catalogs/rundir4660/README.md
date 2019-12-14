@@ -53,7 +53,10 @@
 ### Rotated Rupture Variability Comparisons, LA Basin 500 (m/s)
 *[(top)](#bruce-4660)*
 
+* [M6.6, Reverse, Dip=45, Ztor=3, Sect Variability](bbp_LA_BASIN_500/rotated_ruptures_m6p6_reverse_filter_sect_variable/)
+* [M6.6, Vertical Strike-Slip with Surface Rupture, Sect Variability](bbp_LA_BASIN_500/rotated_ruptures_m6p6_vert_ss_surface_filter_sect_variable/)
 * [M7.2, Vertical Strike-Slip with Surface Rupture, Closest Mag](bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface_filter_closest_mag/)
+* [M7.2, Vertical Strike-Slip with Surface Rupture, Sect Variability](bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface_filter_sect_variable/)
 
 ## Plots
 ### Magnitude-Frequency Plot
