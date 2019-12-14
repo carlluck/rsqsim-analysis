@@ -19,6 +19,7 @@
   * [Full Catalog GMPE Comparisons, LA Basin 863 (m/s)](#full-catalog-gmpe-comparisons-la-basin-863-ms)
   * [Source/Site Ground Motion Comparisons, LA Basin 863 (m/s)](bbp_LA_BASIN_863/source_site_comparisons/)
   * [BBP Part B Analysis, LA Basin 863 (m/s)](bbp_LA_BASIN_863/bbp_part_b_filter_closest_mag)
+  * [Rotated Rupture Variability Comparisons, LA Basin 863 (m/s)](#rotated-rupture-variability-comparisons-la-basin-863-ms)
 * [BBP Calculations, LA Basin 500 (m/s) Velocity Model](#bbp-calculations-la-basin-500-ms-velocity-model)
   * [Single Event Comparisons, LA Basin 500 (m/s)](#single-event-comparisons-la-basin-500-ms)
   * [Full Catalog GMPE Comparisons, LA Basin 500 (m/s)](#full-catalog-gmpe-comparisons-la-basin-500-ms)
@@ -93,6 +94,18 @@
 
 [BBP Part B Analysis Here, Closest Mag](bbp_LA_BASIN_863/bbp_part_b_filter_closest_mag)
 
+### Rotated Rupture Variability Comparisons, LA Basin 863 (m/s)
+*[(top)](#bruce-2585-1myr)*
+
+* [M6.6, Reverse, Dip=45, Ztor=3, Closest Mag](bbp_LA_BASIN_863/rotated_ruptures_m6p6_reverse_filter_closest_mag/)
+* [M6.6, Vertical Strike-Slip with Surface Rupture, Closest Mag](bbp_LA_BASIN_863/rotated_ruptures_m6p6_vert_ss_surface_filter_closest_mag/)
+* [M6.6, Vertical Strike-Slip with Surface Rupture (relaxed), Closest Mag](bbp_LA_BASIN_863/rotated_ruptures_m6p6_vert_ss_surface_relaxed_filter_closest_mag/)
+* [M7.2, Reverse, Dip=45, Closest Mag](bbp_LA_BASIN_863/rotated_ruptures_m7p2_reverse_filter_closest_mag/)
+* [M7.2, Vertical Strike-Slip with Surface Rupture, Closest Mag](bbp_LA_BASIN_863/rotated_ruptures_m7p2_vert_ss_surface_filter_closest_mag/)
+* [M7.2, Vertical Strike-Slip with Surface Rupture (relaxed) , Closest Mag](bbp_LA_BASIN_863/rotated_ruptures_m7p2_vert_ss_surface_relaxed_filter_closest_mag/)
+* [M7.6, Reverse, Dip=45, Closest Mag](bbp_LA_BASIN_863/rotated_ruptures_m7p6_reverse_filter_closest_mag/)
+* [M7.6, Vertical Strike-Slip with Surface Rupture, Closest Mag](bbp_LA_BASIN_863/rotated_ruptures_m7p6_vert_ss_surface_filter_closest_mag/)
+
 ## BBP Calculations, LA Basin 500 (m/s) Velocity Model
 *[(top)](#bruce-2585-1myr)*
 
@@ -127,8 +140,19 @@
 ### Rotated Rupture Variability Comparisons, LA Basin 500 (m/s)
 *[(top)](#bruce-2585-1myr)*
 
-* [M7.2, Vertical Strike-Slip with Surface Rupture, Time Scale Factor: 2.0_filter_closest_mag, Closest Mag](bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface_timeScale2.0_filter_closest_mag/)
-* [M7.2, Vertical Strike-Slip with Surface Rupture, Time Scale Factor: 2.0, Velocities Scaled_filter_closest_mag, Closest Mag](bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface_timeScale2.0_velScale_filter_closest_mag/)
+* [M6.6, Reverse, Dip=45, Ztor=3, Closest Mag](bbp_LA_BASIN_500/rotated_ruptures_m6p6_reverse_filter_closest_mag/)
+* [M6.6, Vertical Strike-Slip with Surface Rupture, Closest Mag](bbp_LA_BASIN_500/rotated_ruptures_m6p6_vert_ss_surface_filter_closest_mag/)
+* [M7.2, Reverse, Dip=45, Closest Mag](bbp_LA_BASIN_500/rotated_ruptures_m7p2_reverse_filter_closest_mag/)
+* [M7.2, Vertical Strike-Slip with Surface Rupture (dM=0.1) , Random](bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface_dm_0p1_filter_random/)
+* [M7.2, Vertical Strike-Slip with Surface Rupture (dM=0.15) , Random](bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface_dm_0p15_filter_random/)
+* [M7.2, Vertical Strike-Slip with Surface Rupture (dM=0.2) , Random](bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface_dm_0p2_filter_random/)
+* [M7.2, Vertical Strike-Slip with Surface Rupture (dM=0.25) , Random](bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface_dm_0p25_filter_random/)
+* [M7.2, Vertical Strike-Slip with Surface Rupture (dM=0.3) , Random](bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface_dm_0p3_filter_random/)
+* [M7.2, Vertical Strike-Slip with Surface Rupture, Closest Mag](bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface_filter_closest_mag/)
+* [M7.2, Vertical Strike-Slip with Surface Rupture, Time Scale Factor: 2.0, Closest Mag](bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface_timeScale2.0_filter_closest_mag/)
+* [M7.2, Vertical Strike-Slip with Surface Rupture, Time Scale Factor: 2.0, Velocities Scaled, Closest Mag](bbp_LA_BASIN_500/rotated_ruptures_m7p2_vert_ss_surface_timeScale2.0_velScale_filter_closest_mag/)
+* [M7.6, Reverse, Dip=45, Closest Mag](bbp_LA_BASIN_500/rotated_ruptures_m7p6_reverse_filter_closest_mag/)
+* [M7.6, Vertical Strike-Slip with Surface Rupture, Closest Mag](bbp_LA_BASIN_500/rotated_ruptures_m7p6_vert_ss_surface_filter_closest_mag/)
 
 ## BBP PartB Summary
 *[(top)](#bruce-2585-1myr)*

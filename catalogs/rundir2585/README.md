@@ -19,6 +19,7 @@
   * [Full Catalog GMPE Comparisons, LA Basin 863 (m/s)](#full-catalog-gmpe-comparisons-la-basin-863-ms)
     * [Points Of Interest, LA Basin 863 (m/s)](#points-of-interest-la-basin-863-ms)
     * [Gridded Sites, LA Basin 863 (m/s)](#gridded-sites-la-basin-863-ms)
+  * [Rotated Rupture Variability Comparisons, LA Basin 863 (m/s)](#rotated-rupture-variability-comparisons-la-basin-863-ms)
 * [Plots](#plots)
   * [Magnitude-Frequency Plot](#magnitude-frequency-plot)
   * [Magnitude-Area Plots](#magnitude-area-plots)
@@ -114,6 +115,11 @@
 * [CB2014](bbp_LA_BASIN_863/gmpe_bbp_comparisons_CB2014_GriddedSites/)
 * [CY2014](bbp_LA_BASIN_863/gmpe_bbp_comparisons_CY2014_GriddedSites/)
 * [NGAWest_2014_NoIdr](bbp_LA_BASIN_863/gmpe_bbp_comparisons_NGAWest_2014_NoIdr_GriddedSites/)
+
+### Rotated Rupture Variability Comparisons, LA Basin 863 (m/s)
+*[(top)](#bruce-2585)*
+
+* [M6.6, Reverse, Dip=45, Ztor=3, Closest Mag](bbp_LA_BASIN_863/rotated_ruptures_m6p6_reverse_filter_closest_mag/)
 
 ## Plots
 ### Magnitude-Frequency Plot
