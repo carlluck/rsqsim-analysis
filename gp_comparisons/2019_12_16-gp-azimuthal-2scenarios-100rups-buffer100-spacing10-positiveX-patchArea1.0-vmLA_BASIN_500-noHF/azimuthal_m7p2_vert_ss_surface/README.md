@@ -1,6 +1,4 @@
-# Bruce 4682, M6.6, Vertical Strike-Slip with Surface Rupture Spatial Distributions
-
-[RSQSim Catalog Details](../#bruce-4682)
+# Graves & Pitarka (2016), M7.2, Vertical Strike-Slip with Surface Rupture Spatial Distributions
 
 ## Table Of Contents
 * [Full Spatial Distributions](#full-spatial-distributions)
