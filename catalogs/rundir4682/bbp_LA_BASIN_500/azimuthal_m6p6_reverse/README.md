@@ -11,6 +11,7 @@
 |  | 2 s | 3 s | 5 s | 7.5 s | 10 s |
 |-----|-----|-----|-----|-----|-----|
 | **Ln(Median)** | ![Plot](resources/full_mean_2s.png) | ![Plot](resources/full_mean_3s.png) | ![Plot](resources/full_mean_5s.png) | ![Plot](resources/full_mean_7.5s.png) | ![Plot](resources/full_mean_10s.png) |
+| **Residuals** | ![Plot](resources/full_residual_2s.png) | ![Plot](resources/full_residual_3s.png) | ![Plot](resources/full_residual_5s.png) | ![Plot](resources/full_residual_7.5s.png) | ![Plot](resources/full_residual_10s.png) |
 | **Std. Dev.** | ![Plot](resources/full_std_dev_2s.png) | ![Plot](resources/full_std_dev_3s.png) | ![Plot](resources/full_std_dev_5s.png) | ![Plot](resources/full_std_dev_7.5s.png) | ![Plot](resources/full_std_dev_10s.png) |
 
 ## Center Third Hypocenter Spatial Distributions
@@ -19,5 +20,6 @@
 |  | 2 s | 3 s | 5 s | 7.5 s | 10 s |
 |-----|-----|-----|-----|-----|-----|
 | **Ln(Median)** | ![Plot](resources/center_third_hypos_mean_2s.png) | ![Plot](resources/center_third_hypos_mean_3s.png) | ![Plot](resources/center_third_hypos_mean_5s.png) | ![Plot](resources/center_third_hypos_mean_7.5s.png) | ![Plot](resources/center_third_hypos_mean_10s.png) |
+| **Residuals** | ![Plot](resources/center_third_hypos_residual_2s.png) | ![Plot](resources/center_third_hypos_residual_3s.png) | ![Plot](resources/center_third_hypos_residual_5s.png) | ![Plot](resources/center_third_hypos_residual_7.5s.png) | ![Plot](resources/center_third_hypos_residual_10s.png) |
 | **Std. Dev.** | ![Plot](resources/center_third_hypos_std_dev_2s.png) | ![Plot](resources/center_third_hypos_std_dev_3s.png) | ![Plot](resources/center_third_hypos_std_dev_5s.png) | ![Plot](resources/center_third_hypos_std_dev_7.5s.png) | ![Plot](resources/center_third_hypos_std_dev_10s.png) |
 
