@@ -264,6 +264,7 @@ Residuals shown here are first detrended according to the following magnitude & 
 | **3s** | **5s** | **10s** |
 |-----|-----|-----|
 | ![Detrend XYZ](resources/detrend_residuals_3s.png) | ![Detrend XYZ](resources/detrend_residuals_5s.png) | ![Detrend XYZ](resources/detrend_residuals_10s.png) |
+| ![Detrend Std Dev XYZ](resources/detrend_std_dev_3s.png) | ![Detrend Std Dev XYZ](resources/detrend_std_dev_5s.png) | ![Detrend Std Dev XYZ](resources/detrend_std_dev_10s.png) |
 
 ![Residual Components](resources/period_residual_detrend_components.png)
 
