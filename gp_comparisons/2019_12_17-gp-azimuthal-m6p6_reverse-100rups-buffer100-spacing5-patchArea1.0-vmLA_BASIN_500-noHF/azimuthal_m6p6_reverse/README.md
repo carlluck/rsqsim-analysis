@@ -2,9 +2,14 @@
 
 ## Table Of Contents
 * [Full Spatial Distributions](#full-spatial-distributions)
-* [Bottom Third Hypocenter Spatial Distributions](#bottom-third-hypocenter-spatial-distributions)
-* [Center Third Hypocenter Spatial Distributions](#center-third-hypocenter-spatial-distributions)
-* [Top Third Hypocenter Spatial Distributions](#top-third-hypocenter-spatial-distributions)
+* [Along-Strike Hypocenter Spatial Distributions](#along-strike-hypocenter-spatial-distributions)
+  * [First Third Along-Strike Hypocenter Spatial Distributions](#first-third-along-strike-hypocenter-spatial-distributions)
+  * [Center Third Along-Strike Hypocenter Spatial Distributions](#center-third-along-strike-hypocenter-spatial-distributions)
+  * [Last Third Along-Strike Hypocenter Spatial Distributions](#last-third-along-strike-hypocenter-spatial-distributions)
+* [Down-Dip Hypocenter Spatial Distributions](#down-dip-hypocenter-spatial-distributions)
+  * [Top Third Down-Dip Hypocenter Spatial Distributions](#top-third-down-dip-hypocenter-spatial-distributions)
+  * [Center Third Down-Dip Hypocenter Spatial Distributions](#center-third-down-dip-hypocenter-spatial-distributions)
+  * [Bottom Third Down-Dip Hypocenter Spatial Distributions](#bottom-third-down-dip-hypocenter-spatial-distributions)
 ## Full Spatial Distributions
 *[(top)](#table-of-contents)*
 
@@ -20,42 +25,87 @@ Each column represents a defferent spectral period. The first row gives the log 
 | **Residuals** | ![Plot](resources/full_residual_2s.png) | ![Plot](resources/full_residual_3s.png) | ![Plot](resources/full_residual_5s.png) | ![Plot](resources/full_residual_7.5s.png) | ![Plot](resources/full_residual_10s.png) |
 | **Std. Dev.** | ![Plot](resources/full_std_dev_2s.png) | ![Plot](resources/full_std_dev_3s.png) | ![Plot](resources/full_std_dev_5s.png) | ![Plot](resources/full_std_dev_7.5s.png) | ![Plot](resources/full_std_dev_10s.png) |
 
-## Bottom Third Hypocenter Spatial Distributions
+## Along-Strike Hypocenter Spatial Distributions
 *[(top)](#table-of-contents)*
 
-These plots show ground motions across 30 ruptures with hypocenters in the first third of the rupture along strike (bottom third in the plots). Each surface is sized identically, with length=19.860949 (km) and width=20.989399 (km). The hypocenter distribution is shown below:
+### First Third Along-Strike Hypocenter Spatial Distributions
+*[(top)](#table-of-contents)*
 
-![hypo dist](resources/bot_third_hypos.png)
+These plots show ground motions across 30 ruptures with hypocenters in the first third of the rupture along-strike (bottom third in map view). Each surface is sized identically, with length=19.860949 (km) and width=20.989399 (km). The hypocenter distribution is shown below:
+
+![hypo dist](resources/first_third_strike_hypos.png)
 
 |  | 2 s | 3 s | 5 s | 7.5 s | 10 s |
 |-----|-----|-----|-----|-----|-----|
-| **Ln(Median)** | ![Plot](resources/bot_third_hypos_mean_2s.png) | ![Plot](resources/bot_third_hypos_mean_3s.png) | ![Plot](resources/bot_third_hypos_mean_5s.png) | ![Plot](resources/bot_third_hypos_mean_7.5s.png) | ![Plot](resources/bot_third_hypos_mean_10s.png) |
-| **Residuals** | ![Plot](resources/bot_third_hypos_residual_2s.png) | ![Plot](resources/bot_third_hypos_residual_3s.png) | ![Plot](resources/bot_third_hypos_residual_5s.png) | ![Plot](resources/bot_third_hypos_residual_7.5s.png) | ![Plot](resources/bot_third_hypos_residual_10s.png) |
-| **Std. Dev.** | ![Plot](resources/bot_third_hypos_std_dev_2s.png) | ![Plot](resources/bot_third_hypos_std_dev_3s.png) | ![Plot](resources/bot_third_hypos_std_dev_5s.png) | ![Plot](resources/bot_third_hypos_std_dev_7.5s.png) | ![Plot](resources/bot_third_hypos_std_dev_10s.png) |
+| **Ln(Median)** | ![Plot](resources/first_third_strike_hypos_mean_2s.png) | ![Plot](resources/first_third_strike_hypos_mean_3s.png) | ![Plot](resources/first_third_strike_hypos_mean_5s.png) | ![Plot](resources/first_third_strike_hypos_mean_7.5s.png) | ![Plot](resources/first_third_strike_hypos_mean_10s.png) |
+| **Residuals** | ![Plot](resources/first_third_strike_hypos_residual_2s.png) | ![Plot](resources/first_third_strike_hypos_residual_3s.png) | ![Plot](resources/first_third_strike_hypos_residual_5s.png) | ![Plot](resources/first_third_strike_hypos_residual_7.5s.png) | ![Plot](resources/first_third_strike_hypos_residual_10s.png) |
+| **Std. Dev.** | ![Plot](resources/first_third_strike_hypos_std_dev_2s.png) | ![Plot](resources/first_third_strike_hypos_std_dev_3s.png) | ![Plot](resources/first_third_strike_hypos_std_dev_5s.png) | ![Plot](resources/first_third_strike_hypos_std_dev_7.5s.png) | ![Plot](resources/first_third_strike_hypos_std_dev_10s.png) |
 
-## Center Third Hypocenter Spatial Distributions
+### Center Third Along-Strike Hypocenter Spatial Distributions
 *[(top)](#table-of-contents)*
 
-These plots show ground motions across 41 ruptures with hypocenters in the center third of the rupture. Each surface is sized identically, with length=19.860949 (km) and width=20.989399 (km). The hypocenter distribution is shown below:
+These plots show ground motions across 41 ruptures with hypocenters in the center third of the rupture along-strike. Each surface is sized identically, with length=19.860949 (km) and width=20.989399 (km). The hypocenter distribution is shown below:
 
-![hypo dist](resources/center_third_hypos.png)
+![hypo dist](resources/center_third_strike_hypos.png)
 
 |  | 2 s | 3 s | 5 s | 7.5 s | 10 s |
 |-----|-----|-----|-----|-----|-----|
-| **Ln(Median)** | ![Plot](resources/center_third_hypos_mean_2s.png) | ![Plot](resources/center_third_hypos_mean_3s.png) | ![Plot](resources/center_third_hypos_mean_5s.png) | ![Plot](resources/center_third_hypos_mean_7.5s.png) | ![Plot](resources/center_third_hypos_mean_10s.png) |
-| **Residuals** | ![Plot](resources/center_third_hypos_residual_2s.png) | ![Plot](resources/center_third_hypos_residual_3s.png) | ![Plot](resources/center_third_hypos_residual_5s.png) | ![Plot](resources/center_third_hypos_residual_7.5s.png) | ![Plot](resources/center_third_hypos_residual_10s.png) |
-| **Std. Dev.** | ![Plot](resources/center_third_hypos_std_dev_2s.png) | ![Plot](resources/center_third_hypos_std_dev_3s.png) | ![Plot](resources/center_third_hypos_std_dev_5s.png) | ![Plot](resources/center_third_hypos_std_dev_7.5s.png) | ![Plot](resources/center_third_hypos_std_dev_10s.png) |
+| **Ln(Median)** | ![Plot](resources/center_third_strike_hypos_mean_2s.png) | ![Plot](resources/center_third_strike_hypos_mean_3s.png) | ![Plot](resources/center_third_strike_hypos_mean_5s.png) | ![Plot](resources/center_third_strike_hypos_mean_7.5s.png) | ![Plot](resources/center_third_strike_hypos_mean_10s.png) |
+| **Residuals** | ![Plot](resources/center_third_strike_hypos_residual_2s.png) | ![Plot](resources/center_third_strike_hypos_residual_3s.png) | ![Plot](resources/center_third_strike_hypos_residual_5s.png) | ![Plot](resources/center_third_strike_hypos_residual_7.5s.png) | ![Plot](resources/center_third_strike_hypos_residual_10s.png) |
+| **Std. Dev.** | ![Plot](resources/center_third_strike_hypos_std_dev_2s.png) | ![Plot](resources/center_third_strike_hypos_std_dev_3s.png) | ![Plot](resources/center_third_strike_hypos_std_dev_5s.png) | ![Plot](resources/center_third_strike_hypos_std_dev_7.5s.png) | ![Plot](resources/center_third_strike_hypos_std_dev_10s.png) |
 
-## Top Third Hypocenter Spatial Distributions
+### Last Third Along-Strike Hypocenter Spatial Distributions
 *[(top)](#table-of-contents)*
 
-These plots show ground motions across 29 ruptures with hypocenters in the last third of the rupture along strike (top third in the plots). Each surface is sized identically, with length=19.860949 (km) and width=20.989399 (km). The hypocenter distribution is shown below:
+These plots show ground motions across 29 ruptures with hypocenters in the last third of the rupture along-strike (top third in map view). Each surface is sized identically, with length=19.860949 (km) and width=20.989399 (km). The hypocenter distribution is shown below:
 
-![hypo dist](resources/top_third_hypos.png)
+![hypo dist](resources/last_third_strike_hypos.png)
 
 |  | 2 s | 3 s | 5 s | 7.5 s | 10 s |
 |-----|-----|-----|-----|-----|-----|
-| **Ln(Median)** | ![Plot](resources/top_third_hypos_mean_2s.png) | ![Plot](resources/top_third_hypos_mean_3s.png) | ![Plot](resources/top_third_hypos_mean_5s.png) | ![Plot](resources/top_third_hypos_mean_7.5s.png) | ![Plot](resources/top_third_hypos_mean_10s.png) |
-| **Residuals** | ![Plot](resources/top_third_hypos_residual_2s.png) | ![Plot](resources/top_third_hypos_residual_3s.png) | ![Plot](resources/top_third_hypos_residual_5s.png) | ![Plot](resources/top_third_hypos_residual_7.5s.png) | ![Plot](resources/top_third_hypos_residual_10s.png) |
-| **Std. Dev.** | ![Plot](resources/top_third_hypos_std_dev_2s.png) | ![Plot](resources/top_third_hypos_std_dev_3s.png) | ![Plot](resources/top_third_hypos_std_dev_5s.png) | ![Plot](resources/top_third_hypos_std_dev_7.5s.png) | ![Plot](resources/top_third_hypos_std_dev_10s.png) |
+| **Ln(Median)** | ![Plot](resources/last_third_strike_hypos_mean_2s.png) | ![Plot](resources/last_third_strike_hypos_mean_3s.png) | ![Plot](resources/last_third_strike_hypos_mean_5s.png) | ![Plot](resources/last_third_strike_hypos_mean_7.5s.png) | ![Plot](resources/last_third_strike_hypos_mean_10s.png) |
+| **Residuals** | ![Plot](resources/last_third_strike_hypos_residual_2s.png) | ![Plot](resources/last_third_strike_hypos_residual_3s.png) | ![Plot](resources/last_third_strike_hypos_residual_5s.png) | ![Plot](resources/last_third_strike_hypos_residual_7.5s.png) | ![Plot](resources/last_third_strike_hypos_residual_10s.png) |
+| **Std. Dev.** | ![Plot](resources/last_third_strike_hypos_std_dev_2s.png) | ![Plot](resources/last_third_strike_hypos_std_dev_3s.png) | ![Plot](resources/last_third_strike_hypos_std_dev_5s.png) | ![Plot](resources/last_third_strike_hypos_std_dev_7.5s.png) | ![Plot](resources/last_third_strike_hypos_std_dev_10s.png) |
+
+## Down-Dip Hypocenter Spatial Distributions
+*[(top)](#table-of-contents)*
+
+### Top Third Down-Dip Hypocenter Spatial Distributions
+*[(top)](#table-of-contents)*
+
+These plots show ground motions across 23 ruptures with hypocenters in the top third of the rupture down-dip (left third in map view). Each surface is sized identically, with length=19.860949 (km) and width=20.989399 (km). The hypocenter distribution is shown below:
+
+![hypo dist](resources/top_third_dip_hypos.png)
+
+|  | 2 s | 3 s | 5 s | 7.5 s | 10 s |
+|-----|-----|-----|-----|-----|-----|
+| **Ln(Median)** | ![Plot](resources/top_third_dip_hypos_mean_2s.png) | ![Plot](resources/top_third_dip_hypos_mean_3s.png) | ![Plot](resources/top_third_dip_hypos_mean_5s.png) | ![Plot](resources/top_third_dip_hypos_mean_7.5s.png) | ![Plot](resources/top_third_dip_hypos_mean_10s.png) |
+| **Residuals** | ![Plot](resources/top_third_dip_hypos_residual_2s.png) | ![Plot](resources/top_third_dip_hypos_residual_3s.png) | ![Plot](resources/top_third_dip_hypos_residual_5s.png) | ![Plot](resources/top_third_dip_hypos_residual_7.5s.png) | ![Plot](resources/top_third_dip_hypos_residual_10s.png) |
+| **Std. Dev.** | ![Plot](resources/top_third_dip_hypos_std_dev_2s.png) | ![Plot](resources/top_third_dip_hypos_std_dev_3s.png) | ![Plot](resources/top_third_dip_hypos_std_dev_5s.png) | ![Plot](resources/top_third_dip_hypos_std_dev_7.5s.png) | ![Plot](resources/top_third_dip_hypos_std_dev_10s.png) |
+
+### Center Third Down-Dip Hypocenter Spatial Distributions
+*[(top)](#table-of-contents)*
+
+These plots show ground motions across 33 ruptures with hypocenters in the center third of the rupture down-dip. Each surface is sized identically, with length=19.860949 (km) and width=20.989399 (km). The hypocenter distribution is shown below:
+
+![hypo dist](resources/center_third_dip_hypos.png)
+
+|  | 2 s | 3 s | 5 s | 7.5 s | 10 s |
+|-----|-----|-----|-----|-----|-----|
+| **Ln(Median)** | ![Plot](resources/center_third_dip_hypos_mean_2s.png) | ![Plot](resources/center_third_dip_hypos_mean_3s.png) | ![Plot](resources/center_third_dip_hypos_mean_5s.png) | ![Plot](resources/center_third_dip_hypos_mean_7.5s.png) | ![Plot](resources/center_third_dip_hypos_mean_10s.png) |
+| **Residuals** | ![Plot](resources/center_third_dip_hypos_residual_2s.png) | ![Plot](resources/center_third_dip_hypos_residual_3s.png) | ![Plot](resources/center_third_dip_hypos_residual_5s.png) | ![Plot](resources/center_third_dip_hypos_residual_7.5s.png) | ![Plot](resources/center_third_dip_hypos_residual_10s.png) |
+| **Std. Dev.** | ![Plot](resources/center_third_dip_hypos_std_dev_2s.png) | ![Plot](resources/center_third_dip_hypos_std_dev_3s.png) | ![Plot](resources/center_third_dip_hypos_std_dev_5s.png) | ![Plot](resources/center_third_dip_hypos_std_dev_7.5s.png) | ![Plot](resources/center_third_dip_hypos_std_dev_10s.png) |
+
+### Bottom Third Down-Dip Hypocenter Spatial Distributions
+*[(top)](#table-of-contents)*
+
+These plots show ground motions across 44 ruptures with hypocenters in the last third of the rupture down-tip (right third in map view). Each surface is sized identically, with length=19.860949 (km) and width=20.989399 (km). The hypocenter distribution is shown below:
+
+![hypo dist](resources/bottom_third_dip_hypos.png)
+
+|  | 2 s | 3 s | 5 s | 7.5 s | 10 s |
+|-----|-----|-----|-----|-----|-----|
+| **Ln(Median)** | ![Plot](resources/bottom_third_dip_hypos_mean_2s.png) | ![Plot](resources/bottom_third_dip_hypos_mean_3s.png) | ![Plot](resources/bottom_third_dip_hypos_mean_5s.png) | ![Plot](resources/bottom_third_dip_hypos_mean_7.5s.png) | ![Plot](resources/bottom_third_dip_hypos_mean_10s.png) |
+| **Residuals** | ![Plot](resources/bottom_third_dip_hypos_residual_2s.png) | ![Plot](resources/bottom_third_dip_hypos_residual_3s.png) | ![Plot](resources/bottom_third_dip_hypos_residual_5s.png) | ![Plot](resources/bottom_third_dip_hypos_residual_7.5s.png) | ![Plot](resources/bottom_third_dip_hypos_residual_10s.png) |
+| **Std. Dev.** | ![Plot](resources/bottom_third_dip_hypos_std_dev_2s.png) | ![Plot](resources/bottom_third_dip_hypos_std_dev_3s.png) | ![Plot](resources/bottom_third_dip_hypos_std_dev_5s.png) | ![Plot](resources/bottom_third_dip_hypos_std_dev_7.5s.png) | ![Plot](resources/bottom_third_dip_hypos_std_dev_10s.png) |
 
